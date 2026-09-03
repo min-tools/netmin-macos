@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key><string>en</string>
+  <key>CFBundleDisplayName</key><string>$(NETMIN_DISPLAY_NAME)</string>
+  <key>CFBundleExecutable</key><string>NetminApp</string>
+  <key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleName</key><string>$(NETMIN_DISPLAY_NAME)</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>$(MARKETING_VERSION)</string>
+  <key>CFBundleVersion</key><string>$(CURRENT_PROJECT_VERSION)</string>
+  <key>CFBundleIconFile</key><string>NetminIcon</string>
+  <key>ITSAppUsesNonExemptEncryption</key><false/>
+  <key>LSApplicationCategoryType</key><string>public.app-category.utilities</string>
+  <key>LSMinimumSystemVersion</key><string>14.0</string>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSHumanReadableCopyright</key><string>© 2026 Ilia Ross</string>
+  <key>NSLocalNetworkUsageDescription</key>
+  <string>Netmin discovers devices and services on local networks you choose to inspect.</string>
+  <key>NSBonjourServices</key>
+  <array>
+    <string>_services._dns-sd._udp</string>
+    <string>_ipp._tcp</string>
+    <string>_ipps._tcp</string>
+    <string>_scanner._tcp</string>
+    <string>_airplay._tcp</string>
+    <string>_raop._tcp</string>
+    <string>_googlecast._tcp</string>
+    <string>_smb._tcp</string>
+    <string>_ssh._tcp</string>
+    <string>_hap._tcp</string>
+    <string>_http._tcp</string>
+  </array>
+  <key>NSAppTransportSecurity</key>
+  <dict><key>NSAllowsLocalNetworking</key><true/></dict>
+</dict>
+</plist>
