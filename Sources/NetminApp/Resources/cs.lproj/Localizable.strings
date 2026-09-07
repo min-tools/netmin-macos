@@ -1,0 +1,2690 @@
+/* Netmin — cs localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "MS";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ přijal TCP spojení.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ nebylo možné získat";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ nedokončeno";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ otevřít";
+
+/* %@ open ports */
+"%@ open ports" = "%@ otevřené přístavy";
+
+/* %@ per year */
+"%@ per year" = "%@ ročně";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld adres";
+
+/* %lld answers */
+"%lld answers" = "%lld odpovědi";
+
+/* %lld bytes */
+"%lld bytes" = "%lld bajtů";
+
+/* %lld checks */
+"%lld checks" = "%lld šeky";
+
+/* %lld day */
+"%lld day" = "%lld den";
+
+/* %lld days */
+"%lld days" = "%lld dní";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld detekováno · Skenování všeho trvá asi %lld s";
+
+/* %lld devices */
+"%lld devices" = "%lld zařízení";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld zařízení na %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld záznamů";
+
+/* %lld headers */
+"%lld headers" = "%lld hlavičky";
+
+/* %lld hops */
+"%lld hops" = "%lld chmel";
+
+/* %lld hosts */
+"%lld hosts" = "%lld moderátoři";
+
+/* %lld hour */
+"%lld hour" = "%lld hodina";
+
+/* %lld hours */
+"%lld hours" = "%lld hodin";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld neúplné";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld rozhraní";
+
+/* %lld keys */
+"%lld keys" = "%lld klávesy";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld omezeno na /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld řádky · %lld znaky";
+
+/* %lld matches */
+"%lld matches" = "%lld zápasy";
+
+/* %lld minute */
+"%lld minute" = "%lld minuta";
+
+/* %lld minutes */
+"%lld minutes" = "%lld minut";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld více řádků · pro kompletní výstup použijte Copy Result";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld pojmenován · %lld bezejmenný";
+
+/* %lld names */
+"%lld names" = "%lld jména";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld sousedé";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld z %lld sítí · o %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld z %lld otevřeno";
+
+/* %lld open */
+"%lld open" = "%lld otevřít";
+
+/* %lld received */
+"%lld received" = "%lld přijato";
+
+/* %lld records */
+"%lld records" = "%lld rekordy";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld záznamy · částečné";
+
+/* %lld redirects */
+"%lld redirects" = "%lld přesměrování";
+
+/* %lld responses */
+"%lld responses" = "%lld odpovědi";
+
+/* %lld routes */
+"%lld routes" = "%lld trasy";
+
+/* %lld rows */
+"%lld rows" = "%lld řádky";
+
+/* %lld second */
+"%lld second" = "%lld sekunda";
+
+/* %lld seconds */
+"%lld seconds" = "%lld sekund";
+
+/* %lld service types */
+"%lld service types" = "%lld typy služeb";
+
+/* %lld services */
+"%lld services" = "%lld služby";
+
+/* %lld tools */
+"%lld tools" = "%lld nástroje";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) MS";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", s:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ok)";
+
+/* 1 match */
+"1 match" = "1 zápas";
+
+/* 1 response */
+"1 response" = "1 odpověď";
+
+/* 1 service */
+"1 service" = "1 služba";
+
+/* 2 minutes ago */
+"2 minutes ago" = "Před 2 minutami";
+
+/* ; fully validated */
+"; fully validated" = "; plně ověřeno";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; Nepodepsaná odpověď";
+
+/* ; validation failed */
+"; validation failed" = "; Ověření neúspěšné";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "Rozsah CIDR vyžaduje plnou adresu před prefixem, např. 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "Sweep může obsahovat maximálně 16 ručně přidaných rozsahů.";
+
+/* ARP Table */
+"ARP Table" = "ARP tabulka";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "ASN a BGP vyhledávání";
+
+/* Actions */
+"Actions" = "Akce";
+
+/* Active */
+"Active" = "Aktivní";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Aktivní záznamy hlášené macOS a lokálními nástroji pro vyhledávání.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "Aktivní záznamy hlášené macOS.";
+
+/* Add */
+"Add" = "Přidat";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Přidejte %@ ke skenu";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Přidejte rozsah, např. 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Přidáno ručně";
+
+/* Added range */
+"Added range" = "Přidaný dosah";
+
+/* Address */
+"Address" = "Adresa";
+
+/* Address details */
+"Address details" = "Údaje o adrese";
+
+/* Address details for %@ */
+"Address details for %@" = "Údaje o adrese pro %@";
+
+/* Addresses */
+"Addresses" = "Projevy";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Adresy, se kterými si Mac nedávno vyměňoval pakety.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Přidává to dostupnost, běžné přístavy a trasu. Může to chvíli trvat.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Přidává pokusy o přenos zón, DNSSEC signály, více hostitelských jmen a jmen certifikátů.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Inzerované služby Bonjour";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Inzerováno během okna objevování.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "IPv4 adresa potřebuje čtyři čísla od 0 do 255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "Prefix IPv4 běží od /0 do /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "Prefix IPv6 běží od /0 do /128";
+
+/* Answer %lld */
+"Answer %lld" = "Odpověď %lld";
+
+/* Answers */
+"Answers" = "Odpovědi";
+
+/* Answers by resolver */
+"Answers by resolver" = "Odpovědi resolverem";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Odpovědi vrácené za %@.";
+
+/* Assigned address */
+"Assigned address" = "Přidělená adresa";
+
+/* Authenticated */
+"Authenticated" = "Ověřeno";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Automatické obnovy každý rok · Zrušit kdykoli";
+
+/* Average */
+"Average" = "Průměr";
+
+/* Bits */
+"Bits" = "Bits";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour Services";
+
+/* Bonjour services */
+"Bonjour services" = "Bonjour služby";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Prohlížejte si typy služeb Bonjour oznámené v místní síti na pět sekund";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Prohlížení inzerovaných typů služeb Bonjour...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Vytvořte kombinovaný DNS, směrování, vlastnictví a síťový report";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Vytvořte kombinovanou zprávu o aktuálním síťovém připojení";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Sestavujeme zprávu o aktuálním spojení...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "Budování DNS, zprávy o směrování a vlastnictví...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "Kalkulačka CIDR";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "Rozsah CIDR · %@ Adresy";
+
+/* Calculated result */
+"Calculated result" = "Vypočítaný výsledek";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Počítám hranice sítě a počet adres...";
+
+/* Cancel */
+"Cancel" = "Zrušit";
+
+/* Certificate */
+"Certificate" = "Certifikát";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Transparentnost certifikátů";
+
+/* Certificate expires */
+"Certificate expires" = "Certifikát vyprší";
+
+/* Certificate names */
+"Certificate names" = "Názvy certifikátů";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Zkontrolujte DNS, webové a SSH porty, hlavičky HTTPS, řetězec certifikátů, verze TLS, OCSP a MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Zkontrolujte, zda validační resolver autentizuje DNS odpověď";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Zkontrolujte, zda validační resolver autentizuje odpověď TLSA";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Zkontrolujte, zda podepsaná zóna zpřístupňuje záznamy NSEC";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Zkontrolujte, zda jeden TCP port přijímá spojení";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Zkontrolujte, zda je doména zahrnuta nebo způsobilá pro přednačtení HSTS";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "Kontrola DNS, TLS, webových a poštovních služeb...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "Kontroluji stav seznamu přednakládání HSTS...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Kontroluji zveřejněné záznamy NSEC...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Kontrola 25 nejběžnějších TCP portů...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Kontrola vyjednané HTTP verze a odpovědi...";
+
+/* Checks */
+"Checks" = "Kontroly";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Kontroluje apex záznamy, poštovní politiky, služby, společné hostitele a DKIM selektory.";
+
+/* Choose a tool */
+"Choose a tool" = "Vyberte si nástroj";
+
+/* Cipher */
+"Cipher" = "Šifra";
+
+/* Ciphersuite */
+"Ciphersuite" = "Ciphersuite";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Jasná nedávná data";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Jasná nedávná data...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Vymazat nedávná data z Netminu?";
+
+/* Clear search */
+"Clear search" = "Čisté vyhledávání";
+
+/* Clear target */
+"Clear target" = "Jasný cíl";
+
+/* Clock offset */
+"Clock offset" = "Clock offset";
+
+/* Close */
+"Close" = "Zavřít";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Sbírám Wi-Fi a blízké přístupové body...";
+
+/* Common Port Scan */
+"Common Port Scan" = "Společný port scan";
+
+/* Common TCP services */
+"Common TCP services" = "Běžné TCP služby";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Porovnejte odpovědi na IPv4 od Cloudflare, Google, Quad9 a OpenDNS";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "Porovnávám odpovědi IPv4 od veřejných resolverů...";
+
+/* Complete */
+"Complete" = "Dokončeno";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Complete DNS zone for %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Úplnost: Kompletní";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Úplnost: Částečné odhalení";
+
+/* Configuration */
+"Configuration" = "Konfigurace";
+
+/* Connection */
+"Connection" = "Spojení";
+
+/* Connection quality */
+"Connection quality" = "Kvalita spojení";
+
+/* Connection succeeded */
+"Connection succeeded" = "Spojení bylo úspěšné";
+
+/* Connection timing */
+"Connection timing" = "Načasování spojení";
+
+/* Consistent */
+"Consistent" = "Konzistentní";
+
+/* Content */
+"Content" = "Obsah";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Obsah vrácený cílem, připravený k inspekci nebo kopírování.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Převod internacionalizované domény mezi Unicode a ASCII formuláři";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Převod domény mezi Unicode a ASCII...";
+
+/* Copied %@ */
+"Copied %@" = "Zkopírovano %@";
+
+/* Copy Address */
+"Copy Address" = "Kopírovat adresu";
+
+/* Copy Command */
+"Copy Command" = "Příkaz Copy";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Zkopírovat MAC adresu";
+
+/* Copy Name */
+"Copy Name" = "Kopírovací jméno";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Zkopírovat surový výstup";
+
+/* Copy Result */
+"Copy Result" = "Kopírovat výsledek";
+
+/* Copy Summary */
+"Copy Summary" = "Shrnutí kopie";
+
+/* Copy Target */
+"Copy Target" = "Přijmi cíl";
+
+/* Copy error */
+"Copy error" = "Chyba při kopírování";
+
+/* Country */
+"Country" = "Země";
+
+/* Coverage */
+"Coverage" = "Pokrytí";
+
+/* DANE Validation */
+"DANE Validation" = "Validace DANE";
+
+/* DHCP Lease */
+"DHCP Lease" = "Pronájem DHCP";
+
+/* DHCP lease */
+"DHCP lease" = "Pronájem DHCP";
+
+/* DHCP server */
+"DHCP server" = "DHCP server";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "DNS konfigurace";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC Walk Check";
+
+/* DNS Propagation */
+"DNS Propagation" = "DNS propagace";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNS Trace";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "Objevování DNS zón";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "DNS zónový přenos";
+
+/* DNS answers */
+"DNS answers" = "DNS odpovědi";
+
+/* DNS configuration */
+"DNS configuration" = "DNS konfigurace";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS přes HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS přes TLS Endpoint";
+
+/* DNS records */
+"DNS records" = "DNS záznamy";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "Objevené DNS záznamy pro %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS záznamy, geolokace a ASN. Obvykle pár sekund.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "DNS resolvery v provozu";
+
+/* DNS response */
+"DNS response" = "DNS odezva";
+
+/* DNS server */
+"DNS server" = "DNS server";
+
+/* DNS service name */
+"DNS service name" = "Název DNS služby";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC Chain Trace";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "Kontrola DNSSEC";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "Validace DNSSEC";
+
+/* Deep */
+"Deep" = "Deep";
+
+/* Deep discovery */
+"Deep discovery" = "Hluboké objevování";
+
+/* Default */
+"Default" = "Výchozí stav";
+
+/* Default route */
+"Default route" = "Výchozí trasa";
+
+/* Default ·  */
+"Default · " = "Výchozí ·";
+
+/* Depth */
+"Depth" = "Hloubka";
+
+/* Destination */
+"Destination" = "Cílová stanice";
+
+/* Destination not reached */
+"Destination not reached" = "Cíl nedosáhnut";
+
+/* Details */
+"Details" = "Podrobnosti";
+
+/* Detect again */
+"Detect again" = "Detekovat znovu";
+
+/* Devices */
+"Devices" = "Zařízení";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Zařízení (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Rozdíl mezi hodinami tohoto Macu a %@.";
+
+/* Directives */
+"Directives" = "Směrnice";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Objevte veřejné DNS záznamy, standardní služby, poštovní politiky, DKIM selektory a data o vystavených zónách";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Objevte routery, úložná zařízení, televize a další UPnP služby";
+
+/* Discovered network resources */
+"Discovered network resources" = "Objevené síťové zdroje";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "Objevování zařízení a služeb UPnP...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Objevování místních zařízení a inzerovaných služeb...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Objevování veřejných DNS záznamů a zónových dat...";
+
+/* Discovery output */
+"Discovery output" = "Výstup z objevů";
+
+/* Discovery results */
+"Discovery results" = "Výsledky objevů";
+
+/* DoT hostname */
+"DoT hostname" = "DoT hostitelské jméno";
+
+/* Domain */
+"Domain" = "Doména";
+
+/* Domain name */
+"Domain name" = "Doménové jméno";
+
+/* Domain or hostname */
+"Domain or hostname" = "Doména nebo název hostitele";
+
+/* Download */
+"Download" = "Stáhnout";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Každý router na trase; čas opětní cesty se měří na cílové stanici.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Umožňuje volitelné chování nástroje";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Zadejte rozsah jako 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Zadejte IPv4 rozsah s prefixem od /0 do /30, například 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Příspěvky";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Každá adresa v požadovaném rozsahu, jedna na řádek.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Každé rozhraní macOS hlásí, s jeho adresami a stavem spojení.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Každý veřejný resolver vracel stejné IPv4 odpovědi.";
+
+/* Exit status */
+"Exit status" = "Stav výjezdu";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Rozšířit spravovatelný CIDR blok na jednotlivé adresy";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "Rozšiřování CIDR rozsahu na jednotlivé adresy...";
+
+/* Expires */
+"Expires" = "Vyprší";
+
+/* Failed */
+"Failed" = "Neúspěšné";
+
+/* Fast local discovery */
+"Fast local discovery" = "Rychlé lokální objevování";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Načtení pravidel přístupu k crawleru na stránce";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Získejte zveřejněnou bezpečnostní kontaktní politiku webu";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "Načítání HTTP hlaviček a následné přesměrování...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "Načítání IP polohy a síťových detailů...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "Načítání registračních záznamů o IP přes RDAP...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "Získávání SSH klíčů hostitele a počítání otisků prstů...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Načítání bezpečnostních hlaviček prohlížeče...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Načítání záznamů o registraci domény přes RDAP...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Načítání stavu ověření původu trasy...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "Získávám HTTPS certifikát a údaje o identitě...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Načítání řetězce certifikátů a sešité OCSP odpovědi...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Získávám pravidla přístupu k crawlerům na webu...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Získávám bezpečnostní kontaktní politiku stránky...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Načítání tvé veřejné IP adresy...";
+
+/* Fields */
+"Fields" = "Pole";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Filtr %lld nástroje";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Filtr podle IP, jména, rozhraní";
+
+/* Final status */
+"Final status" = "Konečný stav";
+
+/* Find Tool… */
+"Find Tool…" = "Najdi nástroj...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Najděte nástroj Netmin";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Najděte názvy certifikátů, které mohou odhalit související subdomény";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Najděte inzerovanou autentizovanou SMTP službu";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Najděte inzerovanou službu konfigurace e-mailů";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Najděte inzerovanou bezpečnou službu IMAP";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Najděte název hostitele přiřazený k IP adrese";
+
+/* Fingerprint */
+"Fingerprint" = "Otisk prstu";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Otisky prstů, které server předložil, aby je porovnal s záznamem známého hostitele.";
+
+/* First */
+"First" = "První";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Následujte delegaci DNS od kořene k odpovědi";
+
+/* Formatted */
+"Formatted" = "Formátování";
+
+/* Formatted address */
+"Formatted address" = "Formátovaná adresa";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "Formátování MAC adresy...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Zdarma · %lld z %lld žádostí zanechaných dnes";
+
+/* From */
+"From" = "Z";
+
+/* Full */
+"Full" = "Plný";
+
+/* Gateway */
+"Gateway" = "Brána";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Gateway %@ · výchozí trasa";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Brána a trasy";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Brána a směrovací tabulka";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "Stav přednastavení HSTS";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP hlavičky";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP protokol";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTP bezpečnostní hlavičky";
+
+/* HTTP response */
+"HTTP response" = "HTTP odpověď";
+
+/* HTTP status */
+"HTTP status" = "HTTP stav";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Odpověď podáním ruky";
+
+/* Hide */
+"Hide" = "Schovej se";
+
+/* Hop */
+"Hop" = "Hop";
+
+/* Hops */
+"Hops" = "Chmel";
+
+/* Host */
+"Host" = "Moderátor";
+
+/* Host and port */
+"Host and port" = "Hostitel a port";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Host a port například example.com:443";
+
+/* Host keys */
+"Host keys" = "Hostitelské klíče";
+
+/* Hostname */
+"Hostname" = "Název hostitele";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Názvy hostitelů, které se objevily ve veřejných certifikátech pro tuto doménu.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Hostitelé, kteří odpovídali na ping nebo se objevili v sousední cache, s jmény, latencí a inzerovanými službami.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Hostitelé, inzerované služby a dosažitelné koncové body nalezené během tohoto běhu.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "IANA WHOIS server";
+
+/* IP Information */
+"IP Information" = "Informace o duševním vlastnictví";
+
+/* IP Range Expander */
+"IP Range Expander" = "IP rozšiřovač rozsahu";
+
+/* IP address */
+"IP address" = "IP adresa";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP adresa nebo ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP adresa nebo doména";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP adresa nebo název hostitele";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP adresa nebo prefix";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, směrování a registrace";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "Rozsah IPv4 CIDR, maximální 4096 adres";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4 adresa";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "IPv4 adresa s CIDR";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4 sousedé";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6 sousedé";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6 adresa";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Kontrola DNSSEC záznamů a validačních podpisů";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Zkontrolujte banner SMTP a vyjednajte STARTTLS";
+
+/* Interface */
+"Interface" = "Rozhraní";
+
+/* Interface Inventory */
+"Interface Inventory" = "Inventář rozhraní";
+
+/* Interfaces */
+"Interfaces" = "Rozhraní";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Připojte se do sítě nebo přidejte rozsah níže. Při spuštění prohledávání se pomocník požádá, aby se podíval znovu.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Klíčová pole z odpovědi registru.";
+
+/* Keys */
+"Keys" = "Klíče";
+
+/* Last */
+"Last" = "Poslední";
+
+/* Latency */
+"Latency" = "Latence";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Měření latence, dosažnosti a dráhy.";
+
+/* Lease details */
+"Lease details" = "Podrobnosti o pronájmu";
+
+/* Lease time */
+"Lease time" = "Doba pronájmu";
+
+/* Limited */
+"Limited" = "Limitovaná";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Omezeno na místní /24 pro rychlost";
+
+/* Lines */
+"Lines" = "Linky";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Podrobnosti o odkazech na tento Mac a přístupové body, které macOS aktuálně vidí.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "Načítání produktů z App Store...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Lokální prohledávání zařízení";
+
+/* Local Network */
+"Local Network" = "Místní síť";
+
+/* Location */
+"Location" = "Poloha";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Hledání doménových jmen v logech certifikátů...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Hledám servery doručování pošty...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Hledám registrační a vlastnické záznamy...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "Když hledám službu pro podávání SMTP...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Hledám službu pro konfiguraci e-mailů...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Hledám název hostitele pro tuto IP adresu...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Hledám původní ASN a směrované předpony...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Hledám zabezpečenou službu IMAP...";
+
+/* MAC Formatter */
+"MAC Formatter" = "MAC Formatter";
+
+/* MAC address */
+"MAC address" = "MAC adresa";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC a dodavatel skryté";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC a dodavatel skryté — v tomto běhu prázdné";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "Zobrazena MAC a dodavatel";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Pošta";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Pošlete Autodiscover SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Mail BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "Mail DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "Mail DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Mail IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Mail MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "Mail SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "Mail Submission SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Pošlete TLS zprávu";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Mail TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Poštovní doména";
+
+/* Mail domain or server */
+"Mail domain or server" = "Poštovní doména nebo server";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Například mailový server a port mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Spravovat předplatné";
+
+/* Maximum */
+"Maximum" = "Maximum";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Měřte aktuální stahování, odesílání, odezvu a detaily připojení";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Měřte dosažitelnost a latenci opětní cesty";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Měřela jsem kapacitu a odezvu aktuálního připojení.";
+
+/* Measurement */
+"Measurement" = "Měření";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Měření stahování, nahrávání a odezvy...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Měření dosažitelnosti a zpožděné latence...";
+
+/* Minimum */
+"Minimum" = "Minimum";
+
+/* Mode */
+"Mode" = "Režim";
+
+/* More copy options */
+"More copy options" = "Více možností kopírování";
+
+/* My Network Report */
+"My Network Report" = "Můj síťový report";
+
+/* My Public IP */
+"My Public IP" = "Moje veřejná IP";
+
+/* NTP Offset */
+"NTP Offset" = "NTP Offset";
+
+/* NTP server */
+"NTP server" = "NTP server";
+
+/* Name */
+"Name" = "Jméno";
+
+/* Names */
+"Names" = "Názvy";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Jména v certifikátových logech";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Vyjednat TLS s jakoukoli implicitní TLS službou a ukázat vybraný protokol a šifru";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Vyjednaný protokol, šifra, identita certifikátu a stav ověření.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "VYJEDNÁVÁNÍ O SMTP STARTT...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Vyjednávám TLS na specifikovaném servisním portu...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "Vyjednávání o HTTPS TLS spojení...";
+
+/* Neighbor */
+"Neighbor" = "Soused";
+
+/* Neighbor cache */
+"Neighbor cache" = "Sousední cache";
+
+/* Neighbors */
+"Neighbors" = "Sousedé";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Doživotní · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro Každoročně";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin zjišťuje zařízení a služby v lokálních sítích, které si zvolíte k inspekci.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin tento příkaz zastavil po %lld sekundách.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin tento příkaz zastavil poté, co vyprodukoval %@ výstupu.";
+
+/* Network */
+"Network" = "Síť";
+
+/* Network Lookup */
+"Network Lookup" = "Vyhledávání sítě";
+
+/* Network Quality */
+"Network Quality" = "Kvalita sítě";
+
+/* Network entries */
+"Network entries" = "Síťové příspěvky";
+
+/* Network interfaces */
+"Network interfaces" = "Síťová rozhraní";
+
+/* Networks */
+"Networks" = "Sítě";
+
+/* Networks scanned */
+"Networks scanned" = "Skenované sítě";
+
+/* Networks to scan */
+"Networks to scan" = "Sítě ke skenování";
+
+/* New Lookup */
+"New Lookup" = "Nový vzhled";
+
+/* New Report */
+"New Report" = "Nová zpráva";
+
+/* New Sweep */
+"New Sweep" = "Nový průzkum";
+
+/* No */
+"No" = "Ne";
+
+/* No DNS records found */
+"No DNS records found" = "Žádné DNS záznamy nebyly nalezeny";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Pro tento Apple účet nebyl nalezen žádný nákup Netmin Pro.";
+
+/* No common ports are open */
+"No common ports are open" = "Žádné společné porty nejsou otevřené";
+
+/* No common services */
+"No common services" = "Žádné společné spoje";
+
+/* No data returned */
+"No data returned" = "Žádná data nejsou vrácena";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Žádné zařízení neodpovídá \"%@\"";
+
+/* No devices responded */
+"No devices responded" = "Žádná zařízení nereagovala";
+
+/* No diagnostic output */
+"No diagnostic output" = "Žádný diagnostický výstup";
+
+/* No input required */
+"No input required" = "Není potřeba žádný vstup";
+
+/* No matching tools */
+"No matching tools" = "Žádné nástroje pro párování";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Nebyla zjištěna žádná soukromá IPv4 síť · Přidat rozsah ke skenování";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Nebyla detekována žádná soukromá IPv4 síť";
+
+/* No result returned */
+"No result returned" = "Výsledek nebyl vrácen";
+
+/* No target */
+"No target" = "Žádný cíl";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "Žádné nástroje neodpovídají \"%@\"";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Normalizujte MAC adresu na tvar oddělený velkými dvojtečkami";
+
+/* Not reached */
+"Not reached" = "Nebylo dosaženo";
+
+/* Not selected */
+"Not selected" = "Nebyl vybrán";
+
+/* Notafter */
+"Notafter" = "Notafter";
+
+/* Notes */
+"Notes" = "Poznámky";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Nic neodpovídalo na ping ani se neobjevilo v sousední cache na skenovaných sítích. Zkontrolujte, že je tento Mac na očekávané síti, nebo ručně přidejte rozsah.";
+
+/* Nothing detected */
+"Nothing detected" = "Nic nebylo zjištěno";
+
+/* Off */
+"Off" = "Pryč";
+
+/* Offset */
+"Offset" = "Offset";
+
+/* On */
+"On" = "Na";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Vráceno bylo pouze doporučení IANA. Zkuste znovu %@ nebo použijte RDAP k získání registrátora, jmenných serverů a dat registrace.";
+
+/* Open */
+"Open" = "Otevřeno";
+
+/* Open ports */
+"Open ports" = "Otevřené porty";
+
+/* Open ports: */
+"Open ports:" = "Otevřené přístavy:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "Volitelný IPv4 CIDR; blank skenuje všechny aktivní LAN";
+
+/* Options */
+"Options" = "Možnosti";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Původ AS a směrovaný prefix";
+
+/* Other */
+"Other" = "Ostatní";
+
+/* Output */
+"Output" = "Výstup";
+
+/* Overview */
+"Overview" = "Přehled";
+
+/* Packet loss */
+"Packet loss" = "Ztráta paketů";
+
+/* Partial */
+"Partial" = "Částečná";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Přihrává %@ velení";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Platba jde na váš Apple účet. Roční předplatné se obnovuje automaticky, pokud není zrušeno v nastavení App Store alespoň den před koncem aktuálního období.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Vyberte si nástroj z postranního panelu nebo stiskněte ⌘K pro vyhledávání všech.";
+
+/* Ping */
+"Ping" = "Ping";
+
+/* Port */
+"Port" = "Přístav";
+
+/* Port %@ is open */
+"Port %@ is open" = "Přístav %@ je otevřený";
+
+/* Ports */
+"Ports" = "Porty";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Porty, které přijímaly připojení.";
+
+/* Primary mail server */
+"Primary mail server" = "Primární poštovní server";
+
+/* Primary nameserver */
+"Primary nameserver" = "Primární jmenný server";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "PrimaryInterface";
+
+/* Privacy */
+"Privacy" = "Soukromí";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Zásady ochrany soukromí...";
+
+/* Pro */
+"Pro" = "Pro";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Pro nákupy momentálně nejsou dostupné. Zkuste to prosím později znovu.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Soudní řízení · %lld Zbývající dny";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Pro trial · Zbývá 1 den";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Pro trial · KONEC %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Soudní řízení · První platba %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Pro trial · až do %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro převádí surový diagnostický výstup na tabulky, metriky a zjištění. Po 30denní zkušební verzi Free zahrnuje surový výstup až pro pět požadavků denně.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Pro · konec %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Pro · Život";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Pro · obnovy %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Pro · sdíleno s vaší rodinou";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Pro · až do %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Probeňte 25 běžných TCP portů s síťovými nástroji obsaženými v macOS";
+
+/* Probed */
+"Probed" = "Zkoumáno";
+
+/* Proto */
+"Proto" = "Proto";
+
+/* Protocol */
+"Protocol" = "Protokol";
+
+/* Protocol Version */
+"Protocol Version" = "Verze protokolu";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Veřejné objevování DNS je částečné";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Veřejné DNS prozkoumání našlo užitečné záznamy, ale vlastní názvy mohou být stále skryté.";
+
+/* Public IP */
+"Public IP" = "Veřejná IP";
+
+/* Public IPv4 */
+"Public IPv4" = "Veřejné IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "Veřejný IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Informace o veřejné adrese a vlastnictví sítě.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Veřejné resolvery vracely různé odpovědi; změna může stále probíhat.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Převodník punycode";
+
+/* Purchase */
+"Purchase" = "Nákup";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Nákupy momentálně nejsou dostupné.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Dotazujte A záznam přes DNS-over-HTTPS endpoint";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Dotazujte se na název NetBIOS a pracovní skupinu inzerovanou zařízením s Windows nebo SMB";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Dotazujte se na serverový takt a ukažte naměřený lokální posun";
+
+/* Querying %@… */
+"Querying %@…" = "Dotazování %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "Dotazování na DNS geografické záznamy...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "Dotazování DNS textových záznamů...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "Dotazování na veřejné klíče DNSSEC...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "Dotazování DNSSEC záznamů a podpisů...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "Dotazování na HTTPS endpointy a tipy k připojení...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "Dotazování záznamů IPv4 adresy (A)...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "Dotazování IPv4 záznamů přes HTTPS...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "Dotazování záznamů IPv6 adres (AAAA)...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Dotazování záznamů o objevování politik MTA-STS...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "Dotazuji záznamy o asociaci TLS certifikátů...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "Dotazování záznamů o doručení TLS...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Dotazování na autoritativní záznamy jmenného serveru...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Dotazování záznamů o indikátorech značky...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Dotaz na autorizační záznamy certifikačních autorit...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Dotaz na záznamy podepsaných delegací...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Dotaz na záznamy o hostname alias (CNAME)...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Dotazování vazeb služeb a parametrů spojení...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Dotazování pravidel pro objevování služeb...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Dotazování na hostitele služeb, porty a priority...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "Dotaz na veřejný klíč výběrového systému DKIM...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Dotaz na Windows nebo SMB název zařízení...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Dotaz na zásady ověřování e-mailu...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Dotazuji se na pravidla autorizace odesílatelů...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Dotaz na časový server a měření posunu hodin...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Dotazování na pravomoci zóny a časování...";
+
+/* Quick */
+"Quick" = "Rychle";
+
+/* Quick lookup */
+"Quick lookup" = "Rychlé vyhledání";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Rychle najděte lokální zařízení, tiskárny a inzerované služby";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP doména";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "Validace RPKI";
+
+/* Ran %@ */
+"Ran %@" = "Ran %@";
+
+/* Raw Output */
+"Raw Output" = "Surový výstup";
+
+/* Raw output */
+"Raw output" = "Surový výstup";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Dostupnost a časování zpáteční jízdy pro %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Dostupné porty, služby a detaily o hostovacích klíčích.";
+
+/* Reached */
+"Reached" = "Dosaženo";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Čtení cachovaných IPv4 sousedů...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Čtení cachovaných IPv6 sousedů...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "Čtení macOS DNS resolverů a vyhledávacích domén...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Čtení adres a stavu síťového rozhraní...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Čtu aktivní DHCP pronájem rozhraní...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Čtení výchozích tabulek brány a směrování...";
+
+/* Recent */
+"Recent" = "Nedávné období";
+
+/* Record */
+"Record" = "Záznam";
+
+/* Records */
+"Records" = "Rekordy";
+
+/* Registrar */
+"Registrar" = "Registrátor";
+
+/* Registration and routing data */
+"Registration and routing data" = "Registrační a směrovací data";
+
+/* Registry record */
+"Registry record" = "Registrační záznam";
+
+/* Registry response */
+"Registry response" = "Odpověď registru";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Odpověď registru není úplná";
+
+/* Related */
+"Related" = "Související";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Pamatuji si pro další výsledky · ⌘1 Přehled, ⌘2 Surový výstup";
+
+/* Remove this range */
+"Remove this range" = "Odstraňte tento rozsah";
+
+/* Replies */
+"Replies" = "Odpovědi";
+
+/* Report for %@ */
+"Report for %@" = "Hláste za %@";
+
+/* Report overview */
+"Report overview" = "Přehled zprávy";
+
+/* Reports */
+"Reports" = "Zprávy";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Požádejte o kompletní přenos DNS zóny z autoritativního serveru";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Žádám kompletní přenos DNS zóny...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Požadujte TLS 1.2 a ukažte, zda vyjednávání uspělo";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Požadujte TLS 1.3 a ukažte, zda vyjednávání uspělo";
+
+/* Resolved */
+"Resolved" = "Usneseno";
+
+/* Resolved address */
+"Resolved address" = "Vyřešená adresa";
+
+/* Resolver */
+"Resolver" = "Resolver";
+
+/* Resolver %@ */
+"Resolver %@" = "Resolver %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Výstup resolveru seskupen pro rychlé přezkoumání.";
+
+/* Resolver response */
+"Resolver response" = "Resolver odezva";
+
+/* Resolvers */
+"Resolvers" = "Resolvery";
+
+/* Resolvers agree */
+"Resolvers agree" = "Resolveři souhlasí";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Resolvery a vyhledávací domény, které macOS aktuálně používá, seřazené v pořadí priorit.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Resolvery se liší";
+
+/* Resources */
+"Resources" = "Zdroje";
+
+/* Response */
+"Response" = "Odezva";
+
+/* Response %lld */
+"Response %lld" = "Odezva %lld";
+
+/* Responses */
+"Responses" = "Reakce";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Odpovědi na multicastové vyhledávání, jedna karta na oznámení.";
+
+/* Responsiveness */
+"Responsiveness" = "Odezva";
+
+/* Restore Purchases */
+"Restore Purchases" = "Obnovte nákupy";
+
+/* Result */
+"Result" = "Výsledek";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "Výsledky jsou seskupeny podle každé dokončené kontroly sítě.";
+
+/* Retry registry */
+"Retry registry" = "Registr opakování";
+
+/* Reverse DNS */
+"Reverse DNS" = "Reverzní DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Zpáteční jízda";
+
+/* Route to target */
+"Route to target" = "Trasa k cíli";
+
+/* Router */
+"Router" = "Router";
+
+/* Routes */
+"Routes" = "Trasy";
+
+/* Routing record */
+"Routing record" = "Záznamy v trasování";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Routing registry data for %@.";
+
+/* Routing table */
+"Routing table" = "Směrovací tabulka";
+
+/* Run */
+"Run" = "Utíkej";
+
+/* Run Again */
+"Run Again" = "Běž znovu";
+
+/* Run Lookup */
+"Run Lookup" = "Spustit vyhledávání";
+
+/* Run Report */
+"Run Report" = "Zpráva o běhu";
+
+/* Run Sweep */
+"Run Sweep" = "Run Sweep";
+
+/* Run Tool */
+"Run Tool" = "Nástroj Run";
+
+/* Run again */
+"Run again" = "Utíkej znovu";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Spusť nástroj %@";
+
+/* Running */
+"Running" = "Běh";
+
+/* Running %@… */
+"Running %@…" = "Běhám %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "Běh · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "STARTY SMTP";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "Objevování SSDP/UPnP";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "SSH hostitelské klíče";
+
+/* SSH host keys */
+"SSH host keys" = "SSH hostitelské klíče";
+
+/* Save Report… */
+"Save Report…" = "Uložit zprávu...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Ukládejte zprávy a kopírujte strukturované souhrny";
+
+/* Scan */
+"Scan" = "Scan";
+
+/* Scripts */
+"Scripts" = "Scénáře";
+
+/* Search domain */
+"Search domain" = "Doména vyhledávání";
+
+/* Sections */
+"Sections" = "Sekce";
+
+/* Security details */
+"Security details" = "Bezpečnostní detaily";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Výběr";
+
+/* Sequence */
+"Sequence" = "Pořadí";
+
+/* Server */
+"Server" = "Server";
+
+/* Service */
+"Service" = "Služba";
+
+/* Service reachability */
+"Service reachability" = "Dostupnost služeb";
+
+/* Service type */
+"Service type" = "Typ služby";
+
+/* Service types */
+"Service types" = "Typy služeb";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Typy služeb oznamované v místní síti během okna objevování.";
+
+/* Services */
+"Services" = "Služby";
+
+/* Show */
+"Show" = "Pořad";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Zobrazit certifikační asociace DANE pro službu TLS";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Zobrazit koncové body HTTPS služeb a nápovědy k připojení";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Zobrazit IPv4 adresy publikované pro hostitelské jméno";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Zobrazit IPv4 sousedy, které tento Mac nedávno kontaktoval";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Zobrazit IPv6 adresy publikované pro hostitelské jméno";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Zobrazit podrobnosti o Wi-Fi spojení a blízké přístupové body viditelné pro macOS";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Zobrazit adresy, MTU, stav a čítače pro každé síťové rozhraní";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Zobrazit cacheované sousedy IPv6 a jejich adresy na linkové vrstvě";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Ukažte identitu certifikátu, vydavatele, platnost a otisk SHA-256";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Ukažte každý router na cestě k cíli";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Zobrazit záznamy o geografické poloze publikované zónou";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Umístění pořadu, síť, ASN a detaily vlastnictví";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Zobrazit vyjednanou verzi TLS, šifru, výměnu klíčů a ověření";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Zobrazit hranice sítě, netmask, vysílací adresu a velikost";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Zobrazit publikované textové záznamy a doménové politiky";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Zobrazit surové registrační a vlastnické záznamy";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Zobrazit detaily o přidělení registru a registraci pro IP";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Zobrazit registrační údaje a stav domény";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Zobrazit hlavičky odpovědí a každý přesměrovací skok";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Zobrazit záznamy o objevování služeb na základě pravidel";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Zobrazit koncové body služby a parametry připojení";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Pořadatelé služeb, přístavy, priority a váhy";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Zobrazit DNS resolvery a vyhledávací domény, které macOS skutečně používá";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Zobrazit stav validace původu trasy RPKI hlášený RIPE";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Zobrazit DHCP server aktivního rozhraní, pronajímat a dodané možnosti";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Zobrazit autoritativní jmenné servery domény";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Zobrazit kanonický alias target pro hostitelské jméno";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Zobrazit kompletní řetězec obsloužených certifikátů, výsledek ověření a sešitou odpověď OCSP";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Zobrazit výchozí bránu a kompletní směrovací tabulku IPv4 a IPv6";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Zobrazit politiku indikátorů značky domény";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Zobrazit zásady ověřování e-mailů domény";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Zobrazit vyjednanou HTTP verzi, stav, adresu serveru a výsledek TLS";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Zobrazit počáteční ASN, směrovaný prefix, registr a detaily alokace";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Zobrazit záznamy podepsaných delegací v rodičovské zóně";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Ukažte pravidla, která vyžaduje bezpečné doručení pošty";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Zobrazit hlavní bezpečnostní hlavičky prohlížeče vrácené stránkou";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Zobrazit veřejnou IP adresu viditelnou na internetu";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Zobrazit veřejný klíč pro DKIM volič";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Zobrazit veřejné klíče použité k ověření DNS zóny";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Zobrazit inzerované SSH otisky host-klíčů serveru";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Zobrazit servery, které přijímají poštu pro doménu";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Ukázat, kam jsou posílány zprávy o doručení TLS";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Ukázat, které certifikační úřady mohou certifikáty vydávat";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Ukázat, které servery jsou oprávněné odesílat poštu";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Zobrazit informace o autoritě zóny, sériovém čísle a časování";
+
+/* Site Report */
+"Site Report" = "Zpráva z místa";
+
+/* Site report for example.org */
+"Site report for example.org" = "Zpráva ze stránky pro example.org";
+
+/* State */
+"State" = "Stát";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Stav:/Síť/Globální/IPv4";
+
+/* Statistics */
+"Statistics" = "Statistiky";
+
+/* Status */
+"Status" = "Stav";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Stav, protokol, přesměrování a vrácené hlavičky.";
+
+/* Stop */
+"Stop" = "Zastav";
+
+/* Stop Sweep */
+"Stop Sweep" = "Stop Sweep";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Strukturovaná odpověď registru pro %@.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Strukturované reporty jsou funkcí Netmin Pro";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Strukturované zprávy s tabulkami, metrikami a zjištěními";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Odpověď strukturovaného resolvera.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Strukturovaná odpověď z webové služby.";
+
+/* System network configuration */
+"System network configuration" = "Konfigurace systémové sítě";
+
+/* TCP Port Check */
+"TCP Port Check" = "TCP kontrola portů";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "DOSAŽITELNOST TCP";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Podání ruky";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Podání ruky";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS certifikát";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "TLS Certificate Chain";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS Handshake";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "TLS servisní handshake";
+
+/* TLS connection */
+"TLS connection" = "TLS spojení";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, web a porty";
+
+/* Target */
+"Target" = "Cíl";
+
+/* Target (optional) */
+"Target (optional)" = "Cíl (volitelné)";
+
+/* Target did not reply */
+"Target did not reply" = "Target neodpověděl";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Cíle nemohou obsahovat mezery";
+
+/* Terms */
+"Terms" = "Podmínky";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Testujte SMTP 25, SMTPS 465, podání 587, IMAPS 993 a POP3S 995 současně";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Vyjednávání TLS testujte s DNS-over-TLS serverem";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "Testování vyjednávání TLS 1.2...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "Testování vyjednávání TLS 1.3...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "Testuji TLS vyjednávání na DNS portu 853...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "Testování TLS na službách SMTP, IMAP a POP3...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Testování připojení k určenému TCP portu...";
+
+/* Text */
+"Text" = "Text";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "25 nejběžnějších TCP portů bylo prozkoumáno s jednosekundovým časovým limitem.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store tento nákup nemohl ověřit.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "MAC adresa je kanonická velká, dvojtečka oddělená.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Katalog nástrojů Netmin neobsahuje žádné platné nástroje.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL potřebuje schéma a hostitele, např. https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "Pronájem aktivního rozhraní a možnosti, které jeho DHCP server poskytoval.";
+
+/* The address is not valid. */
+"The address is not valid." = "Adresa není platná.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "Adresa, kterou internet vidí pro toto spojení.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "Aplikace sledovala přesměrování, ale web tento soubor opakovaně posílal zpět na stejnou URL. Žádný soubor nebyl vrácen.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "Autoritativní server umožňoval kompletní přenos zóny AXFR.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "Autoritativní servery neposkytly kompletní přenos zón. Jedná se o záznamy nalezené prostřednictvím veřejných sond; vlastní názvy mohou stále existovat.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "Chyběl balený katalog nástrojů Netmin.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Příkaz byl dokončen, ale cíl nevrátil žádná odpovídající data.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Příkaz selhal dříve, než vygeneroval diagnostický výstup.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "Výchozí trasa a všechny IPv4 a IPv6 trasy, které macOS zná.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "Prvních 30 dní zahrnuje Pro. Po zkušební verzi Free uchovává všech 84 nástrojů a surový výstup, s pěti diagnostickými požadavky denně.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "Prefix po / musí být číslo";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Proces ukončil se statusem %lld před vrácením údajů. Zkontrolujte, zda je požadovaný příkaz nainstalován a cíl je dosažitelný.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "Nákup čeká na schválení.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Registr vrátil nestrukturovanou odpověď; její užitečné řádky jsou uvedeny níže.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "Resolver nevrátil žádné odpovídající odpovědi.";
+
+/* This Mac */
+"This Mac" = "Tenhle Mac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "Tím se odstraní uložené cíle a nedávné shrnutí z tohoto Macu. Exportované reporty se nesmažou.";
+
+/* Time */
+"Time" = "Čas";
+
+/* Timeouts */
+"Timeouts" = "Oddechové časy";
+
+/* Tools */
+"Tools" = "Nástroje";
+
+/* Tools unavailable */
+"Tools unavailable" = "Nástroje nejsou k dispozici";
+
+/* Trace */
+"Trace" = "Trace";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Sledujte DNSSEC trust chain od kořene";
+
+/* Traceroute */
+"Traceroute" = "Traceroute";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "Sledování delegací DNS a záznamů DNSSEC...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "Sledování delegací DNS od kořene...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Sledujeme cestu sítě k cíli...";
+
+/* Try Again */
+"Try Again" = "Zkus to znovu";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Zkuste raději RDAP →";
+
+/* Type */
+"Type" = "Typ";
+
+/* Types */
+"Types" = "Typy";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnP zařízení a služby";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "Nejistota";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Neomezená diagnostika sítě s čitelnými reporty a exportními nástroji.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Neomezené využití všech 84 diagnostických nástrojů";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Odemkněte %@ a kompletní Pro funkce.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Odemknout zprávu...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Odemkněte strukturované shrnutí...";
+
+/* Unnamed */
+"Unnamed" = "Bezejmenné";
+
+/* Unsigned */
+"Unsigned" = "Nepodepsán";
+
+/* Upload */
+"Upload" = "Nahrávat";
+
+/* Use custom resolver */
+"Use custom resolver" = "Použijte vlastní resolver";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Použijte host:port, IPv6 adresu nebo MAC adresu";
+
+/* Utilities */
+"Utilities" = "Inženýrské sítě";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPN tunel";
+
+/* Validated */
+"Validated" = "Ověřeno";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "Ověřování TLSA záznamů a jejich DNSSEC řetězce...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "Ověřování DNS odpovědi a DNSSEC řetězce...";
+
+/* Value */
+"Value" = "Hodnota";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Hodnoty produkované %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "Hodnoty hlášené macOS pro %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Hodnoty vrácené pro %@.";
+
+/* Vendor */
+"Vendor" = "Prodejce";
+
+/* Verification */
+"Verification" = "Ověření";
+
+/* Verify Return Code */
+"Verify Return Code" = "Ověřte zpětný kód";
+
+/* View */
+"View" = "Zobrazit";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Zobrazit Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "Virtuální most";
+
+/* Virtual machine network */
+"Virtual machine network" = "Síť virtuálních strojů";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS server";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Čekal jsem na první odpověď...";
+
+/* Web policy status */
+"Web policy status" = "Stav webové politiky";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Wi-Fi diagnostika";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Wi-Fi stav";
+
+/* Window */
+"Window" = "Okno";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Objevování jmen ve Windows";
+
+/* Yes */
+"Yes" = "Ano";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Máte Netmin Pro.";
+
+/* Your public address */
+"Your public address" = "Vaše veřejné vystoupení";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "aktivní";
+
+/* advanced structured reports */
+"advanced structured reports" = "Pokročilé strukturované zprávy";
+
+/* all detected */
+"all detected" = "vše detekováno";
+
+/* arp table */
+"arp table" = "ARP tabulka";
+
+/* as name */
+"as name" = "Jako název";
+
+/* closed */
+"closed" = "uzavřeno";
+
+/* command */
+"command" = "Velení";
+
+/* complete zone */
+"complete zone" = "Kompletní zóna";
+
+/* configured */
+"configured" = "konfigurováno";
+
+/* creation date */
+"creation date" = "Datum vzniku";
+
+/* device sweep */
+"device sweep" = "Měření zařízení";
+
+/* did not answer within */
+"did not answer within" = "neodpověděl uvnitř";
+
+/* differs */
+"differs" = "liší se";
+
+/* domain name */
+"domain name" = "Doména";
+
+/* down */
+"down" = "dolů";
+
+/* downlink capacity */
+"downlink capacity" = "Kapacita downlinku";
+
+/* expiration date */
+"expiration date" = "Datum expirace";
+
+/* expiration date: */
+"expiration date:" = "Datum expirace:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "expirace %lld před dny";
+
+/* expires today */
+"expires today" = "Dnes vyprší";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "čtyři ICMP echo žádosti";
+
+/* gateway %@ */
+"gateway %@" = "brána %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "za %lld dní";
+
+/* inactive */
+"inactive" = "neaktivní";
+
+/* incomplete */
+"incomplete" = "neúplné";
+
+/* ip information */
+"ip information" = "IP informace";
+
+/* just now */
+"just now" = "Právě teď";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "omezený na místní /24 pro rychlost";
+
+/* local */
+"local" = "místní";
+
+/* loss %@ */
+"loss %@" = "ztráta %@";
+
+/* median %@ */
+"median %@" = "medián %@";
+
+/* name server */
+"name server" = "Jmenový server";
+
+/* name server: */
+"name server:" = "Name server:";
+
+/* network */
+"network" = "Síť";
+
+/* network lookup */
+"network lookup" = "Vyhledávání sítě";
+
+/* network quality */
+"network quality" = "Kvalita sítě";
+
+/* network report */
+"network report" = "Zpráva o síti";
+
+/* networks */
+"networks" = "Sítě";
+
+/* no address */
+"no address" = "Bez adresy";
+
+/* no answer */
+"no answer" = "Žádná odpověď";
+
+/* no ping replies */
+"no ping replies" = "Žádné odpovědi na ping";
+
+/* no reply */
+"no reply" = "Žádná odpověď";
+
+/* open */
+"open" = "Otevřít";
+
+/* packets transmitted */
+"packets transmitted" = "Pakety přenášené";
+
+/* primary %@ */
+"primary %@" = "primární %@";
+
+/* public ip */
+"public ip" = "Veřejná IP adresa";
+
+/* raw output */
+"raw output" = "Surový výstup";
+
+/* reachable */
+"reachable" = "dosažitelný";
+
+/* redirects followed */
+"redirects followed" = "Následovala přesměrování";
+
+/* registrar name */
+"registrar name" = "Jméno registrátora";
+
+/* registry expiry date */
+"registry expiry date" = "Datum vypršení registru";
+
+/* registry expiry date: */
+"registry expiry date:" = "Datum expirace registru:";
+
+/* resolution failed */
+"resolution failed" = "Vyřešení selhalo";
+
+/* reverse dns */
+"reverse dns" = "Reverse DNS";
+
+/* run with last target */
+"run with last target" = "Běž s posledním cílem";
+
+/* scoped */
+"scoped" = "Scoped";
+
+/* search domain */
+"search domain" = "Doména vyhledávání";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "otisk prstu sha256";
+
+/* site report */
+"site report" = "Zpráva z místa";
+
+/* summary */
+"summary" = "Shrnutí";
+
+/* target */
+"target" = "Cíl";
+
+/* the address */
+"the address" = "Projev";
+
+/* the selected resource */
+"the selected resource" = "vybraný zdroj";
+
+/* the selected target */
+"the selected target" = "Vybraný cíl";
+
+/* the target */
+"the target" = "Cíl";
+
+/* timed out */
+"timed out" = "Vypršelo";
+
+/* unknown */
+"unknown" = "neznámé";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "Neomezené diagnostické požadavky";
+
+/* up */
+"up" = "nahoru";
+
+/* updated date */
+"updated date" = "Datum aktualizace";
+
+/* uplink capacity */
+"uplink capacity" = "Kapacita uplinku";
+
+/* verify return code */
+"verify return code" = "Ověřte si zpětný kód";
+
+/* via %@ */
+"via %@" = "via %@";
+
+/* windows name */
+"windows name" = "Název Windows";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Přidat %@ do oblíbených";
+
+/* Favorites */
+"Favorites" = "Oblíbené";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Odebrat %@ z oblíbených";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Funkce Pro jsou uzamčené";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Odemkněte je nákupem nebo obnovením nákupu.";
+
+/* Restoring… */
+"Restoring…" = "Obnovování…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Nebyl nalezen žádný aktivní nákup Netminu.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "Předpona IP";
+
+/* Primary */
+"Primary" = "Primární";
+
+/* All relevant */
+"All relevant" = "Všechny relevantní";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "Původní ASN, například AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "Předpona IP, například 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Ověřit, zda smí původní ASN oznamovat předponu IP";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Zkusit úplný přenos zóny z každého autoritativního jmenného serveru";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Název hostitele, název služby nebo IP adresa";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Porovnat odpovědi DNS v mezipaměti Cloudflare, Google, Quad9 a OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "Porovnat všechny relevantní typy záznamů";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Porovnávání odpovědí veřejných resolverů…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Porovná běžné typy záznamů platné pro tento cíl.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Kontroluje A pro název hostitele, PTR pro IP adresu nebo SRV pro název služby.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Všechny veřejné resolvery vrátily stejné odpovědi DNS.";
