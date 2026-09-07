@@ -1,0 +1,3 @@
+/* Netmin — cs Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin zjišťuje zařízení a služby v místních sítích, které se rozhodnete prozkoumat.";
