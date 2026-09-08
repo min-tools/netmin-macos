@@ -1,0 +1,2690 @@
+/* Netmin — en localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = " ms";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ accepted a TCP connection.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ could not be retrieved";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ did not complete";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ open";
+
+/* %@ open ports */
+"%@ open ports" = "%@ open ports";
+
+/* %@ per year */
+"%@ per year" = "%@ per year";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld addresses";
+
+/* %lld answers */
+"%lld answers" = "%lld answers";
+
+/* %lld bytes */
+"%lld bytes" = "%lld bytes";
+
+/* %lld checks */
+"%lld checks" = "%lld checks";
+
+/* %lld day */
+"%lld day" = "%lld day";
+
+/* %lld days */
+"%lld days" = "%lld days";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld detected · scanning all takes about %lld s";
+
+/* %lld devices */
+"%lld devices" = "%lld devices";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld devices on %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld entries";
+
+/* %lld headers */
+"%lld headers" = "%lld headers";
+
+/* %lld hops */
+"%lld hops" = "%lld hops";
+
+/* %lld hosts */
+"%lld hosts" = "%lld hosts";
+
+/* %lld hour */
+"%lld hour" = "%lld hour";
+
+/* %lld hours */
+"%lld hours" = "%lld hours";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld incomplete";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld interfaces";
+
+/* %lld keys */
+"%lld keys" = "%lld keys";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld limited to a /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld lines · %lld characters";
+
+/* %lld matches */
+"%lld matches" = "%lld matches";
+
+/* %lld minute */
+"%lld minute" = "%lld minute";
+
+/* %lld minutes */
+"%lld minutes" = "%lld minutes";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld more lines · use Copy Result for the complete output";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld named · %lld unnamed";
+
+/* %lld names */
+"%lld names" = "%lld names";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld neighbors";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld of %lld networks · about %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld of %lld open";
+
+/* %lld open */
+"%lld open" = "%lld open";
+
+/* %lld received */
+"%lld received" = "%lld received";
+
+/* %lld records */
+"%lld records" = "%lld records";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld records · partial";
+
+/* %lld redirects */
+"%lld redirects" = "%lld redirects";
+
+/* %lld responses */
+"%lld responses" = "%lld responses";
+
+/* %lld routes */
+"%lld routes" = "%lld routes";
+
+/* %lld rows */
+"%lld rows" = "%lld rows";
+
+/* %lld second */
+"%lld second" = "%lld second";
+
+/* %lld seconds */
+"%lld seconds" = "%lld seconds";
+
+/* %lld service types */
+"%lld service types" = "%lld service types";
+
+/* %lld services */
+"%lld services" = "%lld services";
+
+/* %lld tools */
+"%lld tools" = "%lld tools";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", with: ";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ok)";
+
+/* 1 match */
+"1 match" = "1 match";
+
+/* 1 response */
+"1 response" = "1 response";
+
+/* 1 service */
+"1 service" = "1 service";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 minutes ago";
+
+/* ; fully validated */
+"; fully validated" = "; fully validated";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; unsigned answer";
+
+/* ; validation failed */
+"; validation failed" = "; validation failed";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "A sweep can include at most 16 manually added ranges.";
+
+/* ARP Table */
+"ARP Table" = "ARP Table";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "ASN and BGP Lookup";
+
+/* Actions */
+"Actions" = "Actions";
+
+/* Active */
+"Active" = "Active";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Active entries reported by macOS and local discovery tools.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "Active entries reported by macOS.";
+
+/* Add */
+"Add" = "Add";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Add %@ to the scan";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Add a range, e.g. 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Added manually";
+
+/* Added range */
+"Added range" = "Added range";
+
+/* Address */
+"Address" = "Address";
+
+/* Address details */
+"Address details" = "Address details";
+
+/* Address details for %@ */
+"Address details for %@" = "Address details for %@";
+
+/* Addresses */
+"Addresses" = "Addresses";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Addresses this Mac has recently exchanged packets with.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Adds reachability, common ports and the route. Can take a minute.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Advertised Bonjour services";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Advertised during the discovery window.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "An IPv4 address needs four numbers from 0 to 255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "An IPv4 prefix runs from /0 to /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "An IPv6 prefix runs from /0 to /128";
+
+/* Answer %lld */
+"Answer %lld" = "Answer %lld";
+
+/* Answers */
+"Answers" = "Answers";
+
+/* Answers by resolver */
+"Answers by resolver" = "Answers by resolver";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Answers returned for %@.";
+
+/* Assigned address */
+"Assigned address" = "Assigned address";
+
+/* Authenticated */
+"Authenticated" = "Authenticated";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Auto-renews yearly · cancel anytime";
+
+/* Average */
+"Average" = "Average";
+
+/* Bits */
+"Bits" = "Bits";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour Services";
+
+/* Bonjour services */
+"Bonjour services" = "Bonjour services";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Browse Bonjour service types announced on the local network for five seconds";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Browsing advertised Bonjour service types…";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Build a combined DNS, routing, ownership, and network report";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Build a combined report for the current network connection";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Building a report for the current connection…";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "Building the DNS, routing and ownership report…";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "CIDR Calculator";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "CIDR range · %@ addresses";
+
+/* Calculated result */
+"Calculated result" = "Calculated result";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Calculating network boundaries and address count…";
+
+/* Cancel */
+"Cancel" = "Cancel";
+
+/* Certificate */
+"Certificate" = "Certificate";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Certificate Transparency";
+
+/* Certificate expires */
+"Certificate expires" = "Certificate expires";
+
+/* Certificate names */
+"Certificate names" = "Certificate names";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Check whether a validating resolver authenticates the DNS answer";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Check whether a validating resolver authenticates the TLSA answer";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Check whether a signed zone exposes NSEC records";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Check whether one TCP port accepts a connection";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Check whether the domain is included or eligible for HSTS preload";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "Checking DNS, TLS, web and mail services…";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "Checking HSTS preload-list status…";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Checking for published NSEC records…";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Checking the 25 most common TCP ports…";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Checking the negotiated HTTP version and response…";
+
+/* Checks */
+"Checks" = "Checks";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Checks apex records, mail policies, services, common hosts, and DKIM selectors.";
+
+/* Choose a tool */
+"Choose a tool" = "Choose a tool";
+
+/* Cipher */
+"Cipher" = "Cipher";
+
+/* Ciphersuite */
+"Ciphersuite" = "Ciphersuite";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Clear Recent Data";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Clear Recent Data…";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Clear recent Netmin data?";
+
+/* Clear search */
+"Clear search" = "Clear search";
+
+/* Clear target */
+"Clear target" = "Clear target";
+
+/* Clock offset */
+"Clock offset" = "Clock offset";
+
+/* Close */
+"Close" = "Close";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Collecting Wi-Fi and nearby access point details…";
+
+/* Common Port Scan */
+"Common Port Scan" = "Common Port Scan";
+
+/* Common TCP services */
+"Common TCP services" = "Common TCP services";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "Comparing IPv4 answers from public resolvers…";
+
+/* Complete */
+"Complete" = "Complete";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Complete DNS zone for %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Completeness: Complete";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Completeness: Partial discovery";
+
+/* Configuration */
+"Configuration" = "Configuration";
+
+/* Connection */
+"Connection" = "Connection";
+
+/* Connection quality */
+"Connection quality" = "Connection quality";
+
+/* Connection succeeded */
+"Connection succeeded" = "Connection succeeded";
+
+/* Connection timing */
+"Connection timing" = "Connection timing";
+
+/* Consistent */
+"Consistent" = "Consistent";
+
+/* Content */
+"Content" = "Content";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Content returned by the target, ready to inspect or copy.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Convert an internationalized domain between Unicode and ASCII forms";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Converting the domain between Unicode and ASCII…";
+
+/* Copied %@ */
+"Copied %@" = "Copied %@";
+
+/* Copy Address */
+"Copy Address" = "Copy Address";
+
+/* Copy Command */
+"Copy Command" = "Copy Command";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Copy MAC Address";
+
+/* Copy Name */
+"Copy Name" = "Copy Name";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Copy Raw Output";
+
+/* Copy Result */
+"Copy Result" = "Copy Result";
+
+/* Copy Summary */
+"Copy Summary" = "Copy Summary";
+
+/* Copy Target */
+"Copy Target" = "Copy Target";
+
+/* Copy error */
+"Copy error" = "Copy error";
+
+/* Country */
+"Country" = "Country";
+
+/* Coverage */
+"Coverage" = "Coverage";
+
+/* DANE Validation */
+"DANE Validation" = "DANE Validation";
+
+/* DHCP Lease */
+"DHCP Lease" = "DHCP Lease";
+
+/* DHCP lease */
+"DHCP lease" = "DHCP lease";
+
+/* DHCP server */
+"DHCP server" = "DHCP server";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "DNS Configuration";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC Walk Check";
+
+/* DNS Propagation */
+"DNS Propagation" = "DNS Propagation";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNS Trace";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "DNS Zone Discovery";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "DNS Zone Transfer";
+
+/* DNS answers */
+"DNS answers" = "DNS answers";
+
+/* DNS configuration */
+"DNS configuration" = "DNS configuration";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS over HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS over TLS Endpoint";
+
+/* DNS records */
+"DNS records" = "DNS records";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "DNS records discovered for %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS records, geolocation and ASN. Usually a few seconds.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "DNS resolvers in use";
+
+/* DNS response */
+"DNS response" = "DNS response";
+
+/* DNS server */
+"DNS server" = "DNS server";
+
+/* DNS service name */
+"DNS service name" = "DNS service name";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC Chain Trace";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "DNSSEC Check";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "DNSSEC Validation";
+
+/* Deep */
+"Deep" = "Deep";
+
+/* Deep discovery */
+"Deep discovery" = "Deep discovery";
+
+/* Default */
+"Default" = "Default";
+
+/* Default route */
+"Default route" = "Default route";
+
+/* Default ·  */
+"Default · " = "Default · ";
+
+/* Depth */
+"Depth" = "Depth";
+
+/* Destination */
+"Destination" = "Destination";
+
+/* Destination not reached */
+"Destination not reached" = "Destination not reached";
+
+/* Details */
+"Details" = "Details";
+
+/* Detect again */
+"Detect again" = "Detect again";
+
+/* Devices */
+"Devices" = "Devices";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Devices (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Difference between this Mac's clock and %@.";
+
+/* Directives */
+"Directives" = "Directives";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Discover routers, storage devices, TVs, and other UPnP services";
+
+/* Discovered network resources */
+"Discovered network resources" = "Discovered network resources";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "Discovering UPnP devices and services…";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Discovering local devices and advertised services…";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Discovering public DNS records and zone data…";
+
+/* Discovery output */
+"Discovery output" = "Discovery output";
+
+/* Discovery results */
+"Discovery results" = "Discovery results";
+
+/* DoT hostname */
+"DoT hostname" = "DoT hostname";
+
+/* Domain */
+"Domain" = "Domain";
+
+/* Domain name */
+"Domain name" = "Domain name";
+
+/* Domain or hostname */
+"Domain or hostname" = "Domain or hostname";
+
+/* Download */
+"Download" = "Download";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Each router on the path; the round-trip time is measured at the destination.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Enables the tool's optional behaviour";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Enter a range such as 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Entries";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Every address in the requested range, one per line.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Every interface macOS reports, with its addresses and link status.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Every public resolver returned the same IPv4 answers.";
+
+/* Exit status */
+"Exit status" = "Exit status";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Expand a manageable CIDR block into individual addresses";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "Expanding the CIDR range into individual addresses…";
+
+/* Expires */
+"Expires" = "Expires";
+
+/* Failed */
+"Failed" = "Failed";
+
+/* Fast local discovery */
+"Fast local discovery" = "Fast local discovery";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Fetch the site's crawler access rules";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Fetch the site's published security contact policy";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "Fetching HTTP headers and following redirects…";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "Fetching IP location and network details…";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "Fetching IP registration records via RDAP…";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "Fetching SSH host keys and calculating fingerprints…";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Fetching browser security headers…";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Fetching domain registration records via RDAP…";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Fetching route-origin validation status…";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "Fetching the HTTPS certificate and identity details…";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Fetching the certificate chain and stapled OCSP response…";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Fetching the site's crawler access rules…";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Fetching the site's security contact policy…";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Fetching your public IP address…";
+
+/* Fields */
+"Fields" = "Fields";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Filter %lld tools";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Filter by IP, name, interface";
+
+/* Final status */
+"Final status" = "Final status";
+
+/* Find Tool… */
+"Find Tool…" = "Find Tool…";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Find a Netmin tool";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Find certificate names that can reveal related subdomains";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Find the advertised authenticated SMTP service";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Find the advertised email configuration service";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Find the advertised secure IMAP service";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Find the hostname associated with an IP address";
+
+/* Fingerprint */
+"Fingerprint" = "Fingerprint";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Fingerprints the server presented, to compare against a known-hosts entry.";
+
+/* First */
+"First" = "First";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Follow DNS delegation from the root to the answer";
+
+/* Formatted */
+"Formatted" = "Formatted";
+
+/* Formatted address */
+"Formatted address" = "Formatted address";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "Formatting the MAC address…";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Free · %lld of %lld requests left today";
+
+/* From */
+"From" = "From";
+
+/* Full */
+"Full" = "Full";
+
+/* Gateway */
+"Gateway" = "Gateway";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Gateway %@ · default route";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Gateway and Routes";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Gateway and routing table";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "HSTS Preload Status";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP Headers";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP Protocol";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTP Security Headers";
+
+/* HTTP response */
+"HTTP response" = "HTTP response";
+
+/* HTTP status */
+"HTTP status" = "HTTP status";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Handshake response";
+
+/* Hide */
+"Hide" = "Hide";
+
+/* Hop */
+"Hop" = "Hop";
+
+/* Hops */
+"Hops" = "Hops";
+
+/* Host */
+"Host" = "Host";
+
+/* Host and port */
+"Host and port" = "Host and port";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Host and port, for example example.com:443";
+
+/* Host keys */
+"Host keys" = "Host keys";
+
+/* Hostname */
+"Hostname" = "Hostname";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Hostnames that appeared in public certificates for this domain.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Hosts, advertised services, and reachable endpoints found during this run.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "IANA WHOIS server";
+
+/* IP Information */
+"IP Information" = "IP Information";
+
+/* IP Range Expander */
+"IP Range Expander" = "IP Range Expander";
+
+/* IP address */
+"IP address" = "IP address";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP address or ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP address or domain";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP address or hostname";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP address or prefix";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, Routing and Registration";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "IPv4 CIDR range, maximum 4096 addresses";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4 address";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "IPv4 address with CIDR";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4 neighbors";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6 Neighbors";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6 address";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Inspect DNSSEC records and validation signatures";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Inspect the SMTP banner and negotiate STARTTLS";
+
+/* Interface */
+"Interface" = "Interface";
+
+/* Interface Inventory */
+"Interface Inventory" = "Interface Inventory";
+
+/* Interfaces */
+"Interfaces" = "Interfaces";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Join a network or add a range below. Running the sweep asks the helper to look again.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Key fields from the registry response.";
+
+/* Keys */
+"Keys" = "Keys";
+
+/* Last */
+"Last" = "Last";
+
+/* Latency */
+"Latency" = "Latency";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Latency, reachability, and path measurements.";
+
+/* Lease details */
+"Lease details" = "Lease details";
+
+/* Lease time */
+"Lease time" = "Lease time";
+
+/* Limited */
+"Limited" = "Limited";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Limited to the local /24 for speed";
+
+/* Lines */
+"Lines" = "Lines";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Link details for this Mac and the access points macOS can currently see.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "Loading App Store products…";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Local Device Sweep";
+
+/* Local Network */
+"Local Network" = "Local Network";
+
+/* Location */
+"Location" = "Location";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Looking up domain names in certificate logs…";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Looking up mail delivery servers…";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Looking up registration and ownership records…";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "Looking up the SMTP submission service…";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Looking up the email configuration service…";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Looking up the hostname for this IP address…";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Looking up the origin ASN and routed prefix…";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Looking up the secure IMAP service…";
+
+/* MAC Formatter */
+"MAC Formatter" = "MAC Formatter";
+
+/* MAC address */
+"MAC address" = "MAC address";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC and vendor hidden";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC and vendor hidden — empty in this run";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC and vendor shown";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Mail";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Mail Autodiscover SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Mail BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "Mail DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "Mail DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Mail IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Mail MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "Mail SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "Mail Submission SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Mail TLS Report";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Mail TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Mail domain";
+
+/* Mail domain or server */
+"Mail domain or server" = "Mail domain or server";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Mail server and port, for example mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Manage Subscription";
+
+/* Maximum */
+"Maximum" = "Maximum";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Measure current download, upload, responsiveness, and connection details";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Measure reachability and round-trip latency";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Measured capacity and responsiveness of the current connection.";
+
+/* Measurement */
+"Measurement" = "Measurement";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Measuring download, upload and responsiveness…";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Measuring reachability and round-trip latency…";
+
+/* Minimum */
+"Minimum" = "Minimum";
+
+/* Mode */
+"Mode" = "Mode";
+
+/* More copy options */
+"More copy options" = "More copy options";
+
+/* My Network Report */
+"My Network Report" = "My Network Report";
+
+/* My Public IP */
+"My Public IP" = "My Public IP";
+
+/* NTP Offset */
+"NTP Offset" = "NTP Offset";
+
+/* NTP server */
+"NTP server" = "NTP server";
+
+/* Name */
+"Name" = "Name";
+
+/* Names */
+"Names" = "Names";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Names in certificate logs";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Negotiated protocol, cipher, certificate identity, and verification status.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "Negotiating SMTP STARTTLS…";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Negotiating TLS on the specified service port…";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "Negotiating the HTTPS TLS connection…";
+
+/* Neighbor */
+"Neighbor" = "Neighbor";
+
+/* Neighbor cache */
+"Neighbor cache" = "Neighbor cache";
+
+/* Neighbors */
+"Neighbors" = "Neighbors";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Lifetime · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro Yearly";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro…";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin discovers devices and services on local networks you choose to inspect.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin stopped this command after %lld seconds.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin stopped this command after it produced %@ of output.";
+
+/* Network */
+"Network" = "Network";
+
+/* Network Lookup */
+"Network Lookup" = "Network Lookup";
+
+/* Network Quality */
+"Network Quality" = "Network Quality";
+
+/* Network entries */
+"Network entries" = "Network entries";
+
+/* Network interfaces */
+"Network interfaces" = "Network interfaces";
+
+/* Networks */
+"Networks" = "Networks";
+
+/* Networks scanned */
+"Networks scanned" = "Networks scanned";
+
+/* Networks to scan */
+"Networks to scan" = "Networks to scan";
+
+/* New Lookup */
+"New Lookup" = "New Lookup";
+
+/* New Report */
+"New Report" = "New Report";
+
+/* New Sweep */
+"New Sweep" = "New Sweep";
+
+/* No */
+"No" = "No";
+
+/* No DNS records found */
+"No DNS records found" = "No DNS records found";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "No Netmin Pro purchase was found for this Apple Account.";
+
+/* No common ports are open */
+"No common ports are open" = "No common ports are open";
+
+/* No common services */
+"No common services" = "No common services";
+
+/* No data returned */
+"No data returned" = "No data returned";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "No devices match “%@”";
+
+/* No devices responded */
+"No devices responded" = "No devices responded";
+
+/* No diagnostic output */
+"No diagnostic output" = "No diagnostic output";
+
+/* No input required */
+"No input required" = "No input required";
+
+/* No matching tools */
+"No matching tools" = "No matching tools";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "No private IPv4 network detected · add a range to scan";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "No private IPv4 network was detected";
+
+/* No result returned */
+"No result returned" = "No result returned";
+
+/* No target */
+"No target" = "No target";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "No tools match “%@”";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Normalize a MAC address to uppercase colon-separated form";
+
+/* Not reached */
+"Not reached" = "Not reached";
+
+/* Not selected */
+"Not selected" = "Not selected";
+
+/* Notafter */
+"Notafter" = "Notafter";
+
+/* Notes */
+"Notes" = "Notes";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually.";
+
+/* Nothing detected */
+"Nothing detected" = "Nothing detected";
+
+/* Off */
+"Off" = "Off";
+
+/* Offset */
+"Offset" = "Offset";
+
+/* On */
+"On" = "On";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates.";
+
+/* Open */
+"Open" = "Open";
+
+/* Open ports */
+"Open ports" = "Open ports";
+
+/* Open ports: */
+"Open ports:" = "Open ports:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "Optional IPv4 CIDR; blank scans all active LANs";
+
+/* Options */
+"Options" = "Options";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Origin AS and routed prefix";
+
+/* Other */
+"Other" = "Other";
+
+/* Output */
+"Output" = "Output";
+
+/* Overview */
+"Overview" = "Overview";
+
+/* Packet loss */
+"Packet loss" = "Packet loss";
+
+/* Partial */
+"Partial" = "Partial";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Passes %@ to the command";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Pick a tool from the sidebar or press ⌘K to search all of them.";
+
+/* Ping */
+"Ping" = "Ping";
+
+/* Port */
+"Port" = "Port";
+
+/* Port %@ is open */
+"Port %@ is open" = "Port %@ is open";
+
+/* Ports */
+"Ports" = "Ports";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Ports that accepted a connection.";
+
+/* Primary mail server */
+"Primary mail server" = "Primary mail server";
+
+/* Primary nameserver */
+"Primary nameserver" = "Primary nameserver";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "PrimaryInterface";
+
+/* Privacy */
+"Privacy" = "Privacy";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Privacy Policy…";
+
+/* Pro */
+"Pro" = "Pro";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Pro purchases are unavailable right now. Please try again later.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Pro trial · %lld days remaining";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Pro trial · 1 day remaining";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Pro trial · ends %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Pro trial · first payment %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Pro trial · until %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Pro · ends %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Pro · lifetime";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Pro · renews %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Pro · shared with your family";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Pro · until %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Probe 25 common TCP ports with the networking tools included in macOS";
+
+/* Probed */
+"Probed" = "Probed";
+
+/* Proto */
+"Proto" = "Proto";
+
+/* Protocol */
+"Protocol" = "Protocol";
+
+/* Protocol Version */
+"Protocol Version" = "Protocol Version";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Public DNS discovery is partial";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Public DNS probing found useful records, but custom names may still be hidden.";
+
+/* Public IP */
+"Public IP" = "Public IP";
+
+/* Public IPv4 */
+"Public IPv4" = "Public IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "Public IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Public address and network ownership details.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Public resolvers returned different answers; a change may still be propagating.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Punycode Converter";
+
+/* Purchase */
+"Purchase" = "Purchase";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Purchases are unavailable right now.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Query an A record through a DNS-over-HTTPS endpoint";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Query the NetBIOS name and workgroup advertised by a Windows or SMB device";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Query the server clock and show the measured local offset";
+
+/* Querying %@… */
+"Querying %@…" = "Querying %@…";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "Querying DNS geographic location records…";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "Querying DNS text records…";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "Querying DNSSEC public keys…";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "Querying DNSSEC records and signatures…";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "Querying HTTPS endpoints and connection hints…";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "Querying IPv4 address (A) records…";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "Querying IPv4 records over HTTPS…";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "Querying IPv6 address (AAAA) records…";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Querying MTA-STS policy discovery records…";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "Querying TLS certificate association records…";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "Querying TLS delivery reporting records…";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Querying authoritative name server records…";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Querying brand indicator records…";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Querying certificate authority authorization records…";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Querying delegation signer records…";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Querying hostname alias (CNAME) records…";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Querying service bindings and connection parameters…";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Querying service discovery rules…";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Querying service hosts, ports and priorities…";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "Querying the DKIM selector's public key…";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Querying the Windows or SMB device name…";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Querying the email authentication policy…";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Querying the sender authorization policy…";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Querying the time server and measuring clock offset…";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Querying zone authority and timing records…";
+
+/* Quick */
+"Quick" = "Quick";
+
+/* Quick lookup */
+"Quick lookup" = "Quick lookup";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Quickly find local devices, printers, and advertised services";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP Domain";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "RPKI Validation";
+
+/* Ran %@ */
+"Ran %@" = "Ran %@";
+
+/* Raw Output */
+"Raw Output" = "Raw Output";
+
+/* Raw output */
+"Raw output" = "Raw output";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Reachability and round-trip timing for %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Reachable ports, services, and host-key details.";
+
+/* Reached */
+"Reached" = "Reached";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Reading cached IPv4 neighbors…";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Reading cached IPv6 neighbors…";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "Reading macOS DNS resolvers and search domains…";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Reading network interface addresses and status…";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Reading the active interface's DHCP lease…";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Reading the default gateway and routing tables…";
+
+/* Recent */
+"Recent" = "Recent";
+
+/* Record */
+"Record" = "Record";
+
+/* Records */
+"Records" = "Records";
+
+/* Registrar */
+"Registrar" = "Registrar";
+
+/* Registration and routing data */
+"Registration and routing data" = "Registration and routing data";
+
+/* Registry record */
+"Registry record" = "Registry record";
+
+/* Registry response */
+"Registry response" = "Registry response";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Registry response is incomplete";
+
+/* Related */
+"Related" = "Related";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Remembered for the next results · ⌘1 Overview, ⌘2 Raw output";
+
+/* Remove this range */
+"Remove this range" = "Remove this range";
+
+/* Replies */
+"Replies" = "Replies";
+
+/* Report for %@ */
+"Report for %@" = "Report for %@";
+
+/* Report overview */
+"Report overview" = "Report overview";
+
+/* Reports */
+"Reports" = "Reports";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Request a complete DNS zone transfer from an authoritative server";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Requesting a complete DNS zone transfer…";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Require TLS 1.2 and show whether negotiation succeeds";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Require TLS 1.3 and show whether negotiation succeeds";
+
+/* Resolved */
+"Resolved" = "Resolved";
+
+/* Resolved address */
+"Resolved address" = "Resolved address";
+
+/* Resolver */
+"Resolver" = "Resolver";
+
+/* Resolver %@ */
+"Resolver %@" = "Resolver %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Resolver output grouped for quick review.";
+
+/* Resolver response */
+"Resolver response" = "Resolver response";
+
+/* Resolvers */
+"Resolvers" = "Resolvers";
+
+/* Resolvers agree */
+"Resolvers agree" = "Resolvers agree";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Resolvers and search domains macOS is currently using, in priority order.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Resolvers differ";
+
+/* Resources */
+"Resources" = "Resources";
+
+/* Response */
+"Response" = "Response";
+
+/* Response %lld */
+"Response %lld" = "Response %lld";
+
+/* Responses */
+"Responses" = "Responses";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Responses to the multicast search, one card per announcement.";
+
+/* Responsiveness */
+"Responsiveness" = "Responsiveness";
+
+/* Restore Purchases */
+"Restore Purchases" = "Restore Purchases";
+
+/* Result */
+"Result" = "Result";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "Results are grouped by each completed network check.";
+
+/* Retry registry */
+"Retry registry" = "Retry registry";
+
+/* Reverse DNS */
+"Reverse DNS" = "Reverse DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Round trip";
+
+/* Route to target */
+"Route to target" = "Route to target";
+
+/* Router */
+"Router" = "Router";
+
+/* Routes */
+"Routes" = "Routes";
+
+/* Routing record */
+"Routing record" = "Routing record";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Routing registry data for %@.";
+
+/* Routing table */
+"Routing table" = "Routing table";
+
+/* Run */
+"Run" = "Run";
+
+/* Run Again */
+"Run Again" = "Run Again";
+
+/* Run Lookup */
+"Run Lookup" = "Run Lookup";
+
+/* Run Report */
+"Run Report" = "Run Report";
+
+/* Run Sweep */
+"Run Sweep" = "Run Sweep";
+
+/* Run Tool */
+"Run Tool" = "Run Tool";
+
+/* Run again */
+"Run again" = "Run again";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Run the %@ tool";
+
+/* Running */
+"Running" = "Running";
+
+/* Running %@… */
+"Running %@…" = "Running %@…";
+
+/* Running · %@ s */
+"Running · %@ s" = "Running · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "SSDP/UPnP Discovery";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "SSH Host Keys";
+
+/* SSH host keys */
+"SSH host keys" = "SSH host keys";
+
+/* Save Report… */
+"Save Report…" = "Save Report…";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Save reports and copy structured summaries";
+
+/* Scan */
+"Scan" = "Scan";
+
+/* Scripts */
+"Scripts" = "Scripts";
+
+/* Search domain */
+"Search domain" = "Search domain";
+
+/* Sections */
+"Sections" = "Sections";
+
+/* Security details */
+"Security details" = "Security details";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Selected";
+
+/* Sequence */
+"Sequence" = "Sequence";
+
+/* Server */
+"Server" = "Server";
+
+/* Service */
+"Service" = "Service";
+
+/* Service reachability */
+"Service reachability" = "Service reachability";
+
+/* Service type */
+"Service type" = "Service type";
+
+/* Service types */
+"Service types" = "Service types";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Service types announced on the local network during the discovery window.";
+
+/* Services */
+"Services" = "Services";
+
+/* Show */
+"Show" = "Show";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Show DANE certificate associations for a TLS service";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Show HTTPS service endpoints and connection hints";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Show IPv4 addresses published for a hostname";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Show IPv4 neighbors this Mac has recently contacted";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Show IPv6 addresses published for a hostname";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Show Wi-Fi link details and nearby access points visible to macOS";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Show addresses, MTU, status, and counters for every network interface";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Show cached IPv6 neighbors and their link-layer addresses";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Show certificate identity, issuer, validity, and SHA-256 fingerprint";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Show each router on the path to the destination";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Show geographic location records published by a zone";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Show location, network, ASN, and ownership details";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Show negotiated TLS version, cipher, key exchange, and verification";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Show network boundaries, netmask, broadcast address, and size";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Show published text records and domain policies";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Show raw registration and ownership records";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Show registry allocation and registration details for an IP";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Show registry registration and status details for a domain";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Show response headers and every redirect hop";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Show rule-based service discovery records";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Show service endpoints and connection parameters";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Show service hosts, ports, priorities, and weights";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Show the DNS resolvers and search domains macOS is actually using";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Show the RPKI route-origin validation state reported by RIPE";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Show the active interface's DHCP server, lease, and supplied options";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Show the authoritative name servers for a domain";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Show the canonical alias target for a hostname";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Show the complete served certificate chain, verification result, and stapled OCSP response";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Show the default gateway and the complete IPv4 and IPv6 route table";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Show the domain's brand indicator policy";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Show the domain's email authentication policy";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Show the negotiated HTTP version, status, server address, and TLS result";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Show the origin ASN, routed prefix, registry, and allocation details";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Show the parent-zone delegation signer records";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Show the policy that requires secure mail delivery";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Show the principal browser security headers returned by a site";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Show the public IP address seen by the internet";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Show the public key for a DKIM selector";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Show the public keys used to validate a DNS zone";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Show the server's advertised SSH host-key fingerprints";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Show the servers that receive mail for a domain";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Show where TLS delivery reports are sent";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Show which certificate authorities may issue certificates";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Show which servers are authorized to send mail";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Show zone authority, serial, and timing information";
+
+/* Site Report */
+"Site Report" = "Site Report";
+
+/* Site report for example.org */
+"Site report for example.org" = "Site report for example.org";
+
+/* State */
+"State" = "State";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "State:/Network/Global/IPv4";
+
+/* Statistics */
+"Statistics" = "Statistics";
+
+/* Status */
+"Status" = "Status";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Status, protocol, redirects, and returned headers.";
+
+/* Stop */
+"Stop" = "Stop";
+
+/* Stop Sweep */
+"Stop Sweep" = "Stop Sweep";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Structured registry response for %@.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Structured reports are a Netmin Pro feature";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Structured reports with tables, metrics, and findings";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Structured resolver response.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Structured response from the web service.";
+
+/* System network configuration */
+"System network configuration" = "System network configuration";
+
+/* TCP Port Check */
+"TCP Port Check" = "TCP Port Check";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "TCP REACHABILITY";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Handshake";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Handshake";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS Certificate";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "TLS Certificate Chain";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS Handshake";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "TLS Service Handshake";
+
+/* TLS connection */
+"TLS connection" = "TLS connection";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, Web and Ports";
+
+/* Target */
+"Target" = "Target";
+
+/* Target (optional) */
+"Target (optional)" = "Target (optional)";
+
+/* Target did not reply */
+"Target did not reply" = "Target did not reply";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Targets cannot contain spaces";
+
+/* Terms */
+"Terms" = "Terms";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Test TLS negotiation with a DNS-over-TLS server";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "Testing TLS 1.2 negotiation…";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "Testing TLS 1.3 negotiation…";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "Testing TLS negotiation on DNS port 853…";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "Testing TLS on SMTP, IMAP and POP3 services…";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Testing a connection to the specified TCP port…";
+
+/* Text */
+"Text" = "Text";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "The 25 most common TCP ports were probed with a one-second timeout.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "The App Store could not verify this purchase.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "The MAC address in canonical uppercase, colon-separated form.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "The Netmin tool catalog contains no valid tools.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "The URL needs a scheme and a host, e.g. https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "The active interface's lease and the options its DHCP server supplied.";
+
+/* The address is not valid. */
+"The address is not valid." = "The address is not valid.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "The address the internet sees for this connection.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "The authoritative server allowed a complete AXFR zone transfer.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "The bundled Netmin tool catalog is missing.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "The command completed, but the target returned no matching data.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "The command failed before it produced diagnostic output.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "The default route and every IPv4 and IPv6 route macOS knows about.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "The prefix after / must be a number";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "The purchase is awaiting approval.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "The registry returned an unstructured response; its useful lines are shown below.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "The resolver returned no matching answers.";
+
+/* This Mac */
+"This Mac" = "This Mac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports.";
+
+/* Time */
+"Time" = "Time";
+
+/* Timeouts */
+"Timeouts" = "Timeouts";
+
+/* Tools */
+"Tools" = "Tools";
+
+/* Tools unavailable */
+"Tools unavailable" = "Tools unavailable";
+
+/* Trace */
+"Trace" = "Trace";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Trace the DNSSEC trust chain from the root";
+
+/* Traceroute */
+"Traceroute" = "Traceroute";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "Tracing DNS delegations and DNSSEC records…";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "Tracing DNS delegations from the root…";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Tracing the network path to the destination…";
+
+/* Try Again */
+"Try Again" = "Try Again";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Try RDAP instead →";
+
+/* Type */
+"Type" = "Type";
+
+/* Types */
+"Types" = "Types";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnP devices and services";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "Uncertainty";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Unlimited network diagnostics with readable reports and export tools.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Unlimited use of all 84 diagnostic tools";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Unlock %@, plus the complete Pro feature set.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Unlock Report…";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Unlock Structured Summary…";
+
+/* Unnamed */
+"Unnamed" = "Unnamed";
+
+/* Unsigned */
+"Unsigned" = "Unsigned";
+
+/* Upload */
+"Upload" = "Upload";
+
+/* Use custom resolver */
+"Use custom resolver" = "Use custom resolver";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Use host:port, an IPv6 address, or a MAC address";
+
+/* Utilities */
+"Utilities" = "Utilities";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPN tunnel";
+
+/* Validated */
+"Validated" = "Validated";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "Validating TLSA records and their DNSSEC chain…";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "Validating the DNS answer and DNSSEC chain…";
+
+/* Value */
+"Value" = "Value";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Values produced by %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "Values reported by macOS for %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Values returned for %@.";
+
+/* Vendor */
+"Vendor" = "Vendor";
+
+/* Verification */
+"Verification" = "Verification";
+
+/* Verify Return Code */
+"Verify Return Code" = "Verify Return Code";
+
+/* View */
+"View" = "View";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "View Netmin Pro…";
+
+/* Virtual bridge */
+"Virtual bridge" = "Virtual bridge";
+
+/* Virtual machine network */
+"Virtual machine network" = "Virtual machine network";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS server";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Waiting for the first response…";
+
+/* Web policy status */
+"Web policy status" = "Web policy status";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Wi-Fi Diagnostics";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Wi-Fi status";
+
+/* Window */
+"Window" = "Window";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Windows Name Discovery";
+
+/* Yes */
+"Yes" = "Yes";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "You have Netmin Pro.";
+
+/* Your public address */
+"Your public address" = "Your public address";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "active";
+
+/* advanced structured reports */
+"advanced structured reports" = "advanced structured reports";
+
+/* all detected */
+"all detected" = "all detected";
+
+/* arp table */
+"arp table" = "arp table";
+
+/* as name */
+"as name" = "as name";
+
+/* closed */
+"closed" = "closed";
+
+/* command */
+"command" = "command";
+
+/* complete zone */
+"complete zone" = "complete zone";
+
+/* configured */
+"configured" = "configured";
+
+/* creation date */
+"creation date" = "creation date";
+
+/* device sweep */
+"device sweep" = "device sweep";
+
+/* did not answer within */
+"did not answer within" = "did not answer within";
+
+/* differs */
+"differs" = "differs";
+
+/* domain name */
+"domain name" = "domain name";
+
+/* down */
+"down" = "down";
+
+/* downlink capacity */
+"downlink capacity" = "downlink capacity";
+
+/* expiration date */
+"expiration date" = "expiration date";
+
+/* expiration date: */
+"expiration date:" = "expiration date:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "expired %lld days ago";
+
+/* expires today */
+"expires today" = "expires today";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "four ICMP echo requests";
+
+/* gateway %@ */
+"gateway %@" = "gateway %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "in %lld days";
+
+/* inactive */
+"inactive" = "inactive";
+
+/* incomplete */
+"incomplete" = "incomplete";
+
+/* ip information */
+"ip information" = "ip information";
+
+/* just now */
+"just now" = "just now";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "limited to the local /24 for speed";
+
+/* local */
+"local" = "local";
+
+/* loss %@ */
+"loss %@" = "loss %@";
+
+/* median %@ */
+"median %@" = "median %@";
+
+/* name server */
+"name server" = "name server";
+
+/* name server: */
+"name server:" = "name server:";
+
+/* network */
+"network" = "network";
+
+/* network lookup */
+"network lookup" = "network lookup";
+
+/* network quality */
+"network quality" = "network quality";
+
+/* network report */
+"network report" = "network report";
+
+/* networks */
+"networks" = "networks";
+
+/* no address */
+"no address" = "no address";
+
+/* no answer */
+"no answer" = "no answer";
+
+/* no ping replies */
+"no ping replies" = "no ping replies";
+
+/* no reply */
+"no reply" = "no reply";
+
+/* open */
+"open" = "open";
+
+/* packets transmitted */
+"packets transmitted" = "packets transmitted";
+
+/* primary %@ */
+"primary %@" = "primary %@";
+
+/* public ip */
+"public ip" = "public ip";
+
+/* raw output */
+"raw output" = "raw output";
+
+/* reachable */
+"reachable" = "reachable";
+
+/* redirects followed */
+"redirects followed" = "redirects followed";
+
+/* registrar name */
+"registrar name" = "registrar name";
+
+/* registry expiry date */
+"registry expiry date" = "registry expiry date";
+
+/* registry expiry date: */
+"registry expiry date:" = "registry expiry date:";
+
+/* resolution failed */
+"resolution failed" = "resolution failed";
+
+/* reverse dns */
+"reverse dns" = "reverse dns";
+
+/* run with last target */
+"run with last target" = "run with last target";
+
+/* scoped */
+"scoped" = "scoped";
+
+/* search domain */
+"search domain" = "search domain";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "sha256 fingerprint";
+
+/* site report */
+"site report" = "site report";
+
+/* summary */
+"summary" = "summary";
+
+/* target */
+"target" = "target";
+
+/* the address */
+"the address" = "the address";
+
+/* the selected resource */
+"the selected resource" = "the selected resource";
+
+/* the selected target */
+"the selected target" = "the selected target";
+
+/* the target */
+"the target" = "the target";
+
+/* timed out */
+"timed out" = "timed out";
+
+/* unknown */
+"unknown" = "unknown";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "unlimited diagnostic requests";
+
+/* up */
+"up" = "up";
+
+/* updated date */
+"updated date" = "updated date";
+
+/* uplink capacity */
+"uplink capacity" = "uplink capacity";
+
+/* verify return code */
+"verify return code" = "verify return code";
+
+/* via %@ */
+"via %@" = "via %@";
+
+/* windows name */
+"windows name" = "windows name";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Add %@ to Favorites";
+
+/* Favorites */
+"Favorites" = "Favorites";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Remove %@ from Favorites";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Pro features are locked";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Purchase or restore access to unlock them.";
+
+/* Restoring… */
+"Restoring…" = "Restoring…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "No active Netmin purchase was found.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP prefix";
+
+/* Primary */
+"Primary" = "Primary";
+
+/* All relevant */
+"All relevant" = "All relevant";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "Origin ASN, for example AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP prefix, for example 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Check whether an origin ASN is authorized to announce an IP prefix";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Try a complete zone transfer from each authoritative name server";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Hostname, service name, or IP address";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "Compare all relevant record types";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Comparing answers from public resolvers…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Compares the common record types that apply to this target.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Checks A for a hostname, PTR for an IP address, or SRV for a service name.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Every public resolver returned the same DNS answers.";
