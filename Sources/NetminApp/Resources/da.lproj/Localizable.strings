@@ -1,0 +1,2690 @@
+/* Netmin — da localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "MS";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ accepterede en TCP-forbindelse.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ kunne ikke hentes";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ blev ikke fuldført";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ åbn";
+
+/* %@ open ports */
+"%@ open ports" = "%@ åbne porte";
+
+/* %@ per year */
+"%@ per year" = "%@ pr. år";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld adresser";
+
+/* %lld answers */
+"%lld answers" = "%lld svar";
+
+/* %lld bytes */
+"%lld bytes" = "%lld bytes";
+
+/* %lld checks */
+"%lld checks" = "%lld tjekker";
+
+/* %lld day */
+"%lld day" = "%lld dag";
+
+/* %lld days */
+"%lld days" = "%lld dage";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld opdaget · scanner alle optagelser omkring %lld s";
+
+/* %lld devices */
+"%lld devices" = "%lld enheder";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld devices on %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld indgange";
+
+/* %lld headers */
+"%lld headers" = "%lld overskrifter";
+
+/* %lld hops */
+"%lld hops" = "%lld humle";
+
+/* %lld hosts */
+"%lld hosts" = "%lld værter";
+
+/* %lld hour */
+"%lld hour" = "%lld time";
+
+/* %lld hours */
+"%lld hours" = "%lld timer";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld ufuldstændig";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld grænseflader";
+
+/* %lld keys */
+"%lld keys" = "%lld nøgler";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld begrænset til en /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld linjer · %lld tegn";
+
+/* %lld matches */
+"%lld matches" = "%lld kampe";
+
+/* %lld minute */
+"%lld minute" = "%lld minut";
+
+/* %lld minutes */
+"%lld minutes" = "%lld minutter";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld flere linjer · brug Copy Result for det komplette output";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld navngivet · %lld unavngivet";
+
+/* %lld names */
+"%lld names" = "%lld navne";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld naboer";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld af %lld netværk · om %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld af %lld åben";
+
+/* %lld open */
+"%lld open" = "%lld åbn";
+
+/* %lld received */
+"%lld received" = "%lld modtaget";
+
+/* %lld records */
+"%lld records" = "%lld Records";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld optegnelser · delvise";
+
+/* %lld redirects */
+"%lld redirects" = "%lld omdirigerer";
+
+/* %lld responses */
+"%lld responses" = "%lld svar";
+
+/* %lld routes */
+"%lld routes" = "%lld ruter";
+
+/* %lld rows */
+"%lld rows" = "%lld rækker";
+
+/* %lld second */
+"%lld second" = "%lld anden";
+
+/* %lld seconds */
+"%lld seconds" = "%lld sekunder";
+
+/* %lld service types */
+"%lld service types" = "%lld servicetyper";
+
+/* %lld services */
+"%lld services" = "%lld tjenester";
+
+/* %lld tools */
+"%lld tools" = "%lld værktøjer";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", med:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ok)";
+
+/* 1 match */
+"1 match" = "1 kamp";
+
+/* 1 response */
+"1 response" = "1 svar";
+
+/* 1 service */
+"1 service" = "1 tjeneste";
+
+/* 2 minutes ago */
+"2 minutes ago" = "For 2 minutter siden";
+
+/* ; fully validated */
+"; fully validated" = "; fuldt valideret";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; Usigneret svar";
+
+/* ; validation failed */
+"; validation failed" = "; validering mislykkedes";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "Et CIDR-område kræver en fuld adresse før præfikset, f.eks. 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "En sweep kan højst inkludere 16 manuelt tilføjede rækkevidder.";
+
+/* ARP Table */
+"ARP Table" = "ARP-tabel";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "ASN og BGP opslag";
+
+/* Actions */
+"Actions" = "Handlinger";
+
+/* Active */
+"Active" = "Aktiv";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Aktive poster rapporteret af macOS og lokale opdagelsesværktøjer.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "Aktive poster rapporteret af macOS.";
+
+/* Add */
+"Add" = "Tilføj";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Tilføj %@ til scanningen";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Tilføj et interval, f.eks. 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Tilføjet manuelt";
+
+/* Added range */
+"Added range" = "Øget rækkevidde";
+
+/* Address */
+"Address" = "Adresse";
+
+/* Address details */
+"Address details" = "Adresseoplysninger";
+
+/* Address details for %@ */
+"Address details for %@" = "Adresseoplysninger for %@";
+
+/* Addresses */
+"Addresses" = "Adresser";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Adresser, som denne Mac for nylig har udvekslet pakker med.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Det tilføjer tilgængelighed, almindelige porte og ruten. Det kan tage et minut.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Tilføjer forsøg på zoneoverførsel, DNSSEC-signaler, flere værtsnavne og certifikatnavne.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Annoncerede Bonjour-tjenester";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Annonceret under opdagelsesvinduet.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "En IPv4-adresse kræver fire tal fra 0 til 255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "Et IPv4-præfiks kører fra /0 til /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "Et IPv6-præfiks kører fra /0 til /128";
+
+/* Answer %lld */
+"Answer %lld" = "Svar %lld";
+
+/* Answers */
+"Answers" = "Svar";
+
+/* Answers by resolver */
+"Answers by resolver" = "Svar efter resolver";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Svar returnerede for %@.";
+
+/* Assigned address */
+"Assigned address" = "Tildelt adresse";
+
+/* Authenticated */
+"Authenticated" = "Autentificeret";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Automatisk fornyelse årligt · Annuller når som helst";
+
+/* Average */
+"Average" = "Gennemsnit";
+
+/* Bits */
+"Bits" = "Bits";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour Services";
+
+/* Bonjour services */
+"Bonjour services" = "Bonjour-tjenester";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Gennemse Bonjour-servicetyper, der annonceres på det lokale netværk i fem sekunder";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Gennemsøgte annoncerede Bonjour-servicetyper...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Byg en kombineret DNS-, routing-, ejerskabs- og netværksrapport";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Byg en samlet rapport for den aktuelle netværksforbindelse";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "At lave en rapport for den nuværende forbindelse...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "At bygge DNS-, routing- og ejerskabsrapporten...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "CIDR-beregner";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "CIDR-område · %@ adresser";
+
+/* Calculated result */
+"Calculated result" = "Beregnet resultat";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Beregning af netværksgrænser og adresseantal...";
+
+/* Cancel */
+"Cancel" = "Annuller";
+
+/* Certificate */
+"Certificate" = "Certifikat";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Certifikatgennemsigtighed";
+
+/* Certificate expires */
+"Certificate expires" = "Certifikatet udløber";
+
+/* Certificate names */
+"Certificate names" = "Certifikatnavne";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Tjek DNS-, web- og SSH-porte, HTTPS-headers, certifikatkæde, TLS-versioner, OCSP og MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Tjek om en validerende resolver autentificerer DNS-svaret";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Tjek om en validerende resolver autentificerer TLSA-svaret";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Tjek om en signeret zone eksponerer NSEC-poster";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Tjek om én TCP-port accepterer en forbindelse";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Tjek om domænet er inkluderet eller berettiget til HSTS-forudindlæsning";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "Tjekker DNS, TLS, web- og mailtjenester...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "Tjekker status på HSTS forbelastningsliste...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Tjekker for offentliggjorte NSEC-arkiver...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Tjekker de 25 mest almindelige TCP-porte...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Tjekker den forhandlede HTTP-version og svar...";
+
+/* Checks */
+"Checks" = "Checks";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Tjekker Apex-poster, mailpolitikker, tjenester, fælles værter og DKIM-vælgere.";
+
+/* Choose a tool */
+"Choose a tool" = "Vælg et værktøj";
+
+/* Cipher */
+"Cipher" = "Cipher";
+
+/* Ciphersuite */
+"Ciphersuite" = "Chiffersuite";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Klare nylige data";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Klar nylige data...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Rydder du nylige Netmin-data?";
+
+/* Clear search */
+"Clear search" = "Ryd søgning";
+
+/* Clear target */
+"Clear target" = "Klart mål";
+
+/* Clock offset */
+"Clock offset" = "Ur-offset";
+
+/* Close */
+"Close" = "Luk";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Indsamler Wi-Fi og nærliggende adgangspunkter...";
+
+/* Common Port Scan */
+"Common Port Scan" = "Common Port Scan";
+
+/* Common TCP services */
+"Common TCP services" = "Almindelige TCP-tjenester";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Sammenlign IPv4-svar fra Cloudflare, Google, Quad9 og OpenDNS";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "Sammenligning af IPv4-svar fra offentlige resolvere...";
+
+/* Complete */
+"Complete" = "Komplet";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Complete DNS zone for %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Fuldstændighed: Fuldstændig";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Fuldstændighed: Delvis opdagelse";
+
+/* Configuration */
+"Configuration" = "Konfiguration";
+
+/* Connection */
+"Connection" = "Forbindelse";
+
+/* Connection quality */
+"Connection quality" = "Forbindelseskvalitet";
+
+/* Connection succeeded */
+"Connection succeeded" = "Forbindelsen lykkedes";
+
+/* Connection timing */
+"Connection timing" = "Forbindelsestidspunkt";
+
+/* Consistent */
+"Consistent" = "Konsekvent";
+
+/* Content */
+"Content" = "Indhold";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Indhold returneret af målet, klar til at inspicere eller kopiere.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Konverter et internationaliseret domæne mellem Unicode- og ASCII-formularer";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Konvertering af domænet mellem Unicode og ASCII...";
+
+/* Copied %@ */
+"Copied %@" = "Kopieret %@";
+
+/* Copy Address */
+"Copy Address" = "Kopi adresse";
+
+/* Copy Command */
+"Copy Command" = "Kopier kommando";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Kopier MAC-adresse";
+
+/* Copy Name */
+"Copy Name" = "Kopinavn";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Kopier rå output";
+
+/* Copy Result */
+"Copy Result" = "Kopier resultatet";
+
+/* Copy Summary */
+"Copy Summary" = "Kopier resumé";
+
+/* Copy Target */
+"Copy Target" = "Kopier mål";
+
+/* Copy error */
+"Copy error" = "Kopifejl";
+
+/* Country */
+"Country" = "Land";
+
+/* Coverage */
+"Coverage" = "Dækning";
+
+/* DANE Validation */
+"DANE Validation" = "DANE-validering";
+
+/* DHCP Lease */
+"DHCP Lease" = "DHCP-lejekontrakt";
+
+/* DHCP lease */
+"DHCP lease" = "DHCP-lejekontrakt";
+
+/* DHCP server */
+"DHCP server" = "DHCP-server";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "DNS-konfiguration";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC Walk Check";
+
+/* DNS Propagation */
+"DNS Propagation" = "DNS-udbredelse";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNS Trace";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "DNS Zoneopdagelse";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "DNS Zoneoverførsel";
+
+/* DNS answers */
+"DNS answers" = "DNS-svar";
+
+/* DNS configuration */
+"DNS configuration" = "DNS-konfiguration";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS over HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS over TLS Endpoint";
+
+/* DNS records */
+"DNS records" = "DNS-poster";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "DNS-poster opdaget for %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS-poster, geolokation og ASN. Normalt et par sekunder.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "DNS-resolvere i brug";
+
+/* DNS response */
+"DNS response" = "DNS-respons";
+
+/* DNS server */
+"DNS server" = "DNS-server";
+
+/* DNS service name */
+"DNS service name" = "DNS-tjenestenavn";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC Chain Trace";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "DNSSEC Check";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "DNSSEC-validering";
+
+/* Deep */
+"Deep" = "Deep";
+
+/* Deep discovery */
+"Deep discovery" = "Dyb opdagelse";
+
+/* Default */
+"Default" = "Default";
+
+/* Default route */
+"Default route" = "Standardrute";
+
+/* Default ·  */
+"Default · " = "Standard ·";
+
+/* Depth */
+"Depth" = "Dybde";
+
+/* Destination */
+"Destination" = "Destination";
+
+/* Destination not reached */
+"Destination not reached" = "Destination ikke nået";
+
+/* Details */
+"Details" = "Detaljer";
+
+/* Detect again */
+"Detect again" = "Detekter igen";
+
+/* Devices */
+"Devices" = "Enheder";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Enheder (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Forskellen mellem denne Macs ur og %@.";
+
+/* Directives */
+"Directives" = "Direktiver";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Opdag offentlige DNS-poster, standardtjenester, mailpolitikker, DKIM-vælgere og eksponerede zonedata";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Opdag routere, lagringsenheder, tv og andre UPnP-tjenester";
+
+/* Discovered network resources */
+"Discovered network resources" = "Opdagede netværksressourcer";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "Opdagelse af UPnP-enheder og -tjenester...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "At opdage lokale enheder og annoncerede tjenester...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Opdager offentlige DNS-poster og zonedata...";
+
+/* Discovery output */
+"Discovery output" = "Opdagelsesoutput";
+
+/* Discovery results */
+"Discovery results" = "Resultater fra opdagelsen";
+
+/* DoT hostname */
+"DoT hostname" = "DoT-værtsnavn";
+
+/* Domain */
+"Domain" = "Domæne";
+
+/* Domain name */
+"Domain name" = "Domænenavn";
+
+/* Domain or hostname */
+"Domain or hostname" = "Domæne eller værtsnavn";
+
+/* Download */
+"Download" = "Download";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Hver router på stien; rundturstiden måles ved destinationen.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Aktiverer værktøjets valgfrie adfærd";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Ind i et interval som 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Indtast et IPv4-interval med et præfiks fra /0 til /30, for eksempel 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Bidrag";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Hver adresse i det ønskede interval, én pr. linje.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Hvert interface, som macOS rapporterer, med dets adresser og linkstatus.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Hver offentlig resolver returnerede de samme IPv4-svar.";
+
+/* Exit status */
+"Exit status" = "Udgangsstatus";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Udvid en håndterbar CIDR-blok til individuelle adresser";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "Udvidelse af CIDR-området til individuelle adresser...";
+
+/* Expires */
+"Expires" = "Udløber";
+
+/* Failed */
+"Failed" = "Mislykkedes";
+
+/* Fast local discovery */
+"Fast local discovery" = "Hurtig lokal opdagelse";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Hent sidens crawler-adgangsregler";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Hent sidens offentliggjorte sikkerhedskontaktpolitik";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "Henter HTTP-headere og følger omdirigeringer...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "Henter IP-lokation og netværksdetaljer...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "Henter IP-registreringsoplysninger via RDAP...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "Henter SSH-hostnøgler og beregner fingeraftryk...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Henter browsersikkerhedsheaders...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Henter domæneregistreringsposter via RDAP...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Henter valideringsstatus for ruteoprindelse...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "Henter HTTPS-certifikatet og identitetsoplysningerne...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Henter certifikatkæden og det hæftede OCSP-svar...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Henter sidens crawler-adgangsregler...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Henter sidens sikkerhedskontaktpolitik...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Henter din offentlige IP-adresse...";
+
+/* Fields */
+"Fields" = "Felter";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Filter %lld værktøjer";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Filtrer efter IP, navn, interface";
+
+/* Final status */
+"Final status" = "Endelig status";
+
+/* Find Tool… */
+"Find Tool…" = "Find værktøj...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Find et Netmin-værktøj";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Find certifikatnavne, der kan afsløre relaterede underdomæner";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Find den annoncerede autentificerede SMTP-tjeneste";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Find den annoncerede e-mailkonfigurationstjeneste";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Find den annoncerede sikre IMAP-tjeneste";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Find værtsnavnet knyttet til en IP-adresse";
+
+/* Fingerprint */
+"Fingerprint" = "Fingeraftryk";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Fingeraftryk serveren præsenterede, til sammenligning med en kendt-vært-post.";
+
+/* First */
+"First" = "Første";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Følg DNS-delegering fra roden til svaret";
+
+/* Formatted */
+"Formatted" = "Formateret";
+
+/* Formatted address */
+"Formatted address" = "Formateret adresse";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "Formatering af MAC-adressen...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Gratis · %lld af %lld anmodninger efterladt i dag";
+
+/* From */
+"From" = "Fra";
+
+/* Full */
+"Full" = "Fuld";
+
+/* Gateway */
+"Gateway" = "Gateway";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Gateway %@ · Standardrute";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Gateway og ruter";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Gateway og routingtabel";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "HSTS Preload-status";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP-headere";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP-protokol";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTP sikkerhedsheadere";
+
+/* HTTP response */
+"HTTP response" = "HTTP-svar";
+
+/* HTTP status */
+"HTTP status" = "HTTP-status";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Håndtryksreaktion";
+
+/* Hide */
+"Hide" = "Gem dig";
+
+/* Hop */
+"Hop" = "Hop";
+
+/* Hops */
+"Hops" = "Humle";
+
+/* Host */
+"Host" = "Vært";
+
+/* Host and port */
+"Host and port" = "Vært og port";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Vært og port, for eksempel example.com:443";
+
+/* Host keys */
+"Host keys" = "Værtsnøgler";
+
+/* Hostname */
+"Hostname" = "Værtsnavn";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Værtsnavne, der optrådte i offentlige certifikater for dette domæne.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Værter, der svarede på ping eller dukkede op i nabocachen, med navne, latenstid og annoncerede tjenester.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Værter, annoncerede tjenester og tilgængelige endepunkter fundet under denne kørsel.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "Jeg er en WHOIS-server";
+
+/* IP Information */
+"IP Information" = "IP-information";
+
+/* IP Range Expander */
+"IP Range Expander" = "IP-områdeudvidelse";
+
+/* IP address */
+"IP address" = "IP-adresse";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP-adresse eller ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP-adresse eller domæne";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP-adresse eller værtsnavn";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP-adresse eller præfiks";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, Routing og registrering";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "IPv4 CIDR-område, maksimum 4096 adresser";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4-adresse";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "IPv4-adresse med CIDR";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4-naboer";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6-naboer";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6-adresse";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Inspicer DNSSEC-poster og valideringssignaturer";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Inspicer SMTP-banneret og forhandler STARTTLS";
+
+/* Interface */
+"Interface" = "Interface";
+
+/* Interface Inventory */
+"Interface Inventory" = "Grænsefladeinventar";
+
+/* Interfaces */
+"Interfaces" = "Grænseflader";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Tilmeld dig et netværk eller tilføj et interval nedenfor. Når man kører sweep, beder hjælperen om at kigge igen.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Nøglefelter fra registreringssvaret.";
+
+/* Keys */
+"Keys" = "Nøgler";
+
+/* Last */
+"Last" = "Sidste";
+
+/* Latency */
+"Latency" = "Latens";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Forsinkelse, tilgængelighed og stimålinger.";
+
+/* Lease details */
+"Lease details" = "Lejekontraktdetaljer";
+
+/* Lease time */
+"Lease time" = "Lejetid";
+
+/* Limited */
+"Limited" = "Begrænset";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Begrænset til den lokale /24 for hastighed";
+
+/* Lines */
+"Lines" = "Linjer";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Linkdetaljer for denne Mac og de adgangspunkter, som macOS i øjeblikket kan se.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "Indlæser App Store-produkter...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Lokal enhedsgennemgang";
+
+/* Local Network */
+"Local Network" = "Lokalt netværk";
+
+/* Location */
+"Location" = "Beliggenhed";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "At slå domænenavne op i certifikatlogfiler...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "At slå postleveringsservere op...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "At slå registrerings- og ejerskabsoptegnelser op...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "At slå SMTP-indsendelsestjenesten op...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Slår e-mail-konfigurationstjenesten op...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "At slå værtsnavnet for denne IP-adresse op...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Slår oprindelses-ASN og rutede præfiks op...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "At slå den sikre IMAP-tjeneste op...";
+
+/* MAC Formatter */
+"MAC Formatter" = "MAC Formatter";
+
+/* MAC address */
+"MAC address" = "MAC-adresse";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC og leverandør skjult";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC og leverandør skjult — tom i denne kørsel";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC og leverandør vist";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Post";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Mail Autodiscover SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Mail BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "Mail DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "Mail DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Mail IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Mail MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "Mail SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "Postindsendelse SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Send TLS-rapport";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Mail TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Maildomæne";
+
+/* Mail domain or server */
+"Mail domain or server" = "Maildomæne eller server";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Mailserver og port, for eksempel mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Administrer abonnement";
+
+/* Maximum */
+"Maximum" = "Maksimum";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Mål aktuelle download-, upload-, responsiv- og forbindelsesdetaljer";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Mål rækkevidde og rundrejse-latenstid";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Målt kapacitet og responsivitet af den nuværende forbindelse.";
+
+/* Measurement */
+"Measurement" = "Måling";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Måling af download, upload og responsivitet...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Måler rækkevidde og rundtur-latens...";
+
+/* Minimum */
+"Minimum" = "Minimum";
+
+/* Mode */
+"Mode" = "Mode";
+
+/* More copy options */
+"More copy options" = "Flere kopimuligheder";
+
+/* My Network Report */
+"My Network Report" = "Min netværksrapport";
+
+/* My Public IP */
+"My Public IP" = "Min offentlige IP";
+
+/* NTP Offset */
+"NTP Offset" = "NTP-offset";
+
+/* NTP server */
+"NTP server" = "NTP-server";
+
+/* Name */
+"Name" = "Navn";
+
+/* Names */
+"Names" = "Navne";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Navne i certifikatlogfiler";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Forhandle TLS med enhver implicit-TLS-tjeneste og vis den valgte protokol og chiffer";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Forhandlet protokol, chiffer, certifikatidentitet og verifikationsstatus.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "Forhandling af SMTP STARTTLS...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Forhandlede TLS på den angivne serviceport...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "Forhandler HTTPS TLS-forbindelsen...";
+
+/* Neighbor */
+"Neighbor" = "Nabo";
+
+/* Neighbor cache */
+"Neighbor cache" = "Nabocache";
+
+/* Neighbors */
+"Neighbors" = "Naboer";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Livstid · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro Årligt";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin opdager enheder og tjenester på lokale netværk, du vælger at inspicere.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin stoppede denne kommando efter %lld sekunder.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin stoppede denne kommando efter at have produceret %@ output.";
+
+/* Network */
+"Network" = "Netværk";
+
+/* Network Lookup */
+"Network Lookup" = "Netværksopslag";
+
+/* Network Quality */
+"Network Quality" = "Netværkskvalitet";
+
+/* Network entries */
+"Network entries" = "Netværksdeltagelser";
+
+/* Network interfaces */
+"Network interfaces" = "Netværksgrænseflader";
+
+/* Networks */
+"Networks" = "Netværk";
+
+/* Networks scanned */
+"Networks scanned" = "Netværk scannet";
+
+/* Networks to scan */
+"Networks to scan" = "Netværk at scanne";
+
+/* New Lookup */
+"New Lookup" = "Nyt opslag";
+
+/* New Report */
+"New Report" = "Ny rapport";
+
+/* New Sweep */
+"New Sweep" = "Ny Sweep";
+
+/* No */
+"No" = "Nej";
+
+/* No DNS records found */
+"No DNS records found" = "Ingen DNS-poster fundet";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Der blev ikke fundet noget Netmin Pro-køb for denne Apple-konto.";
+
+/* No common ports are open */
+"No common ports are open" = "Ingen fælles porte er åbne";
+
+/* No common services */
+"No common services" = "Ingen fælles tjenester";
+
+/* No data returned */
+"No data returned" = "Ingen data returneres";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Ingen enheder matcher \"%@\"";
+
+/* No devices responded */
+"No devices responded" = "Ingen enheder svarede";
+
+/* No diagnostic output */
+"No diagnostic output" = "Ingen diagnostisk udgang";
+
+/* No input required */
+"No input required" = "Ingen input kræves";
+
+/* No matching tools */
+"No matching tools" = "Ingen matchningsværktøjer";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Intet privat IPv4-netværk opdaget · Tilføj et interval for scanning";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Der blev ikke registreret noget privat IPv4-netværk";
+
+/* No result returned */
+"No result returned" = "Intet resultat returneres";
+
+/* No target */
+"No target" = "Intet mål";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "Ingen værktøjer matcher \"%@\"";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Normaliser en MAC-adresse til en stor kolon-separeret form";
+
+/* Not reached */
+"Not reached" = "Ikke nået";
+
+/* Not selected */
+"Not selected" = "Ikke udvalgt";
+
+/* Notafter */
+"Notafter" = "Notafter";
+
+/* Notes */
+"Notes" = "Noter";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Intet svarede på ping eller dukkede op i nabocachen på de scannede netværk. Tjek at denne Mac er på det forventede netværk, eller tilføj et interval manuelt.";
+
+/* Nothing detected */
+"Nothing detected" = "Intet opdaget";
+
+/* Off */
+"Off" = "Slukket";
+
+/* Offset */
+"Offset" = "Offset-udsættelse";
+
+/* On */
+"On" = "På";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Kun IANA-henvisningen blev returneret. Prøv %@ igen eller brug RDAP til at hente registraren, navneserverne og registreringsdatoerne.";
+
+/* Open */
+"Open" = "Åben";
+
+/* Open ports */
+"Open ports" = "Åbne porte";
+
+/* Open ports: */
+"Open ports:" = "Åbne porte:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "Valgfri IPv4 CIDR; blank scanner alle aktive LAN'er";
+
+/* Options */
+"Options" = "Muligheder";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Oprindelses-AS og rutet præfiks";
+
+/* Other */
+"Other" = "Andet";
+
+/* Output */
+"Output" = "Output";
+
+/* Overview */
+"Overview" = "Oversigt";
+
+/* Packet loss */
+"Packet loss" = "Pakketab";
+
+/* Partial */
+"Partial" = "Delvis";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Afleverer %@ til kommandoen";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Betalingen går til din Apple-konto. Det årlige abonnement fornyes automatisk, medmindre det annulleres i App Store-indstillingerne mindst en dag før den nuværende periode slutter.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Vælg et værktøj fra sidebaren eller tryk ⌘K for at søge i dem alle.";
+
+/* Ping */
+"Ping" = "Ping";
+
+/* Port */
+"Port" = "Havn";
+
+/* Port %@ is open */
+"Port %@ is open" = "Port %@ er åben";
+
+/* Ports */
+"Ports" = "Porteringer";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Porte, der accepterede en forbindelse.";
+
+/* Primary mail server */
+"Primary mail server" = "Primær mailserver";
+
+/* Primary nameserver */
+"Primary nameserver" = "Primær navneserver";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "PrimærInterface";
+
+/* Privacy */
+"Privacy" = "Privatliv";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Privatlivspolitik...";
+
+/* Pro */
+"Pro" = "Fordel";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Pro-køb er ikke tilgængelige lige nu. Prøv venligst igen senere.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Pro-retssag · %lld dage tilbage";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Pro-trial · 1 dag tilbage";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Pro-retssag · slutter %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Pro-retssag · Første betaling %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Pro-retssag · indtil %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro omdanner rå diagnostisk output til tabeller, metrikker og fund. Efter 30-dages prøveperioden inkluderer Free rå output for op til fem forespørgsler om dagen.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Pro · Slutter %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Fordel · Livstid";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Pro · fornyer %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Fordel · delt med din familie";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Pro · indtil %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Probe 25 almindelige TCP-porte med netværksværktøjerne, der er inkluderet i macOS";
+
+/* Probed */
+"Probed" = "Probed";
+
+/* Proto */
+"Proto" = "Proto";
+
+/* Protocol */
+"Protocol" = "Protokol";
+
+/* Protocol Version */
+"Protocol Version" = "Protokolversion";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Offentlig DNS-opdagelse er delvis";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Offentlig DNS-probing fandt nyttige poster, men brugerdefinerede navne kan stadig være skjult.";
+
+/* Public IP */
+"Public IP" = "Offentlig IP";
+
+/* Public IPv4 */
+"Public IPv4" = "Offentlig IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "Offentlig IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Oplysninger om offentlig adresse og netværksejerskab.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Offentlige resolvere returnerede forskellige svar; en ændring kan stadig være i gang.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Punycode-konverter";
+
+/* Purchase */
+"Purchase" = "Køb";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Køb er ikke tilgængelige lige nu.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Forespørg en A-post via et DNS-over-HTTPS endpoint";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Forespørg NetBIOS-navnet og arbejdsgruppen, som en Windows- eller SMB-enhed annoncerer";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Forespørg serverklokken og vis den målte lokale offset";
+
+/* Querying %@… */
+"Querying %@…" = "Querying %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "Forespørgsel af DNS-geografiske lokationsposter...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "Forespørger DNS-tekstposter...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "Forespørgsel af DNSSEC offentlige nøgler...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "Forespørgsler DNSSEC-poster og signaturer...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "Forespørgsler HTTPS-endpoints og forbindelseshints...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "Forespørgsler IPv4-adresse (A) poster...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "Forespørgsel af IPv4-poster over HTTPS...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "Forespørgsel af IPv6-adresse (AAAA) poster...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Forespørgsler MTA-STS policeopgørelsesposter...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "Forespørgsler TLS-certifikatassociationsposter...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "Forespørger TLS-leveringsrapporteringsposter...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Forespørgsler autoritative navneserverposter...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Forespørgsler brandindikatorposter...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Forespørger certificeringsmyndighedens autorisationsposter...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Forespørger delegeringsunderskriverens poster...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Forespørger hostname alias (CNAME) poster...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Forespørgsler servicebindinger og forbindelsesparametre...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Forespørgsler reglerne for serviceopdagelse...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Forespørgsler serviceværter, porte og prioriteter...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "Forespørger DKIM-selectorens offentlige nøgle...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Forespørgsler Windows- eller SMB-enhedsnavnet...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Forespørger e-mailautentificeringspolitikken...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Forespørger afsenderautorisationspolitikken...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Forespørger tidsserveren og måler urforskydning...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Forespørger zoneautoritets- og tidsregistreringer...";
+
+/* Quick */
+"Quick" = "Skynd dig";
+
+/* Quick lookup */
+"Quick lookup" = "Hurtigt opslag";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Find hurtigt lokale enheder, printere og annoncerede tjenester";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP-domæne";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "RPKI-validering";
+
+/* Ran %@ */
+"Ran %@" = "Ran %@";
+
+/* Raw Output */
+"Raw Output" = "Rå output";
+
+/* Raw output */
+"Raw output" = "Rå output";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Rækkevidde og rundturstid for %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Tilgængelige porte, tjenester og værtsnøgledetaljer.";
+
+/* Reached */
+"Reached" = "Nået";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Læser cachede IPv4-naboer...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Læser cachede IPv6-naboer...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "At læse macOS DNS-resolvere og søgedomæner...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Aflæsning af netværksinterface-adresser og status...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Læser den aktive grænseflades DHCP-lease...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "At læse standardgateway- og routingtabellerne...";
+
+/* Recent */
+"Recent" = "Nyligt";
+
+/* Record */
+"Record" = "Rekord";
+
+/* Records */
+"Records" = "Rekorder";
+
+/* Registrar */
+"Registrar" = "Registrator";
+
+/* Registration and routing data */
+"Registration and routing data" = "Registrerings- og rutedata";
+
+/* Registry record */
+"Registry record" = "Registreringsregistrering";
+
+/* Registry response */
+"Registry response" = "Registreringsrespons";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Registrets svar er ufuldstændigt";
+
+/* Related */
+"Related" = "Relateret";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Huskes til de næste resultater · ⌘1 Oversigt, ⌘2 Rå output";
+
+/* Remove this range */
+"Remove this range" = "Fjern denne rækkevidde";
+
+/* Replies */
+"Replies" = "Svar";
+
+/* Report for %@ */
+"Report for %@" = "Rapport for %@";
+
+/* Report overview */
+"Report overview" = "Rapportoversigt";
+
+/* Reports */
+"Reports" = "Rapporter";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Anmod om en komplet DNS-zoneoverførsel fra en autoritativ server";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Anmoder om en komplet DNS-zoneoverførsel...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Krav TLS 1.2 og vis, om forhandlingen lykkes";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Krav TLS 1.3 og vis, om forhandlingen lykkes";
+
+/* Resolved */
+"Resolved" = "Løst";
+
+/* Resolved address */
+"Resolved address" = "Løst adresse";
+
+/* Resolver */
+"Resolver" = "Resolver";
+
+/* Resolver %@ */
+"Resolver %@" = "Resolver %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Resolver-output grupperet til hurtig gennemgang.";
+
+/* Resolver response */
+"Resolver response" = "Resolver-respons";
+
+/* Resolvers */
+"Resolvers" = "Resolvere";
+
+/* Resolvers agree */
+"Resolvers agree" = "Resolvers er enige";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Resolvere og søgedomæner, som macOS i øjeblikket bruger, i prioriteret rækkefølge.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Resolvere adskiller sig";
+
+/* Resources */
+"Resources" = "Ressourcer";
+
+/* Response */
+"Response" = "Respons";
+
+/* Response %lld */
+"Response %lld" = "Svar %lld";
+
+/* Responses */
+"Responses" = "Svar";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Svar på multicast-søgningen, ét kort pr. meddelelse.";
+
+/* Responsiveness */
+"Responsiveness" = "Responsivitet";
+
+/* Restore Purchases */
+"Restore Purchases" = "Genopret køb";
+
+/* Result */
+"Result" = "Resultat";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "Resultaterne grupperes efter hver gennemført netværkstjek.";
+
+/* Retry registry */
+"Retry registry" = "Genprøvningsregister";
+
+/* Reverse DNS */
+"Reverse DNS" = "Omvendt DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Rundtur";
+
+/* Route to target */
+"Route to target" = "Rute til mål";
+
+/* Router */
+"Router" = "Router";
+
+/* Routes */
+"Routes" = "Ruter";
+
+/* Routing record */
+"Routing record" = "Routing-optegnelse";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Routing registry data for %@.";
+
+/* Routing table */
+"Routing table" = "Routingtabel";
+
+/* Run */
+"Run" = "Løb";
+
+/* Run Again */
+"Run Again" = "Løb igen";
+
+/* Run Lookup */
+"Run Lookup" = "Kør opslag";
+
+/* Run Report */
+"Run Report" = "Kør rapport";
+
+/* Run Sweep */
+"Run Sweep" = "Løb Sweep";
+
+/* Run Tool */
+"Run Tool" = "Kør værktøj";
+
+/* Run again */
+"Run again" = "Løb igen";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Kør %@-værktøjet";
+
+/* Running */
+"Running" = "Løb";
+
+/* Running %@… */
+"Running %@…" = "Løber %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "Løber · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "SSDP/UPnP-opdagelse";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "SSH Host Keys";
+
+/* SSH host keys */
+"SSH host keys" = "SSH-værtsnøgler";
+
+/* Save Report… */
+"Save Report…" = "Gem rapport...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Gem rapporter og kopier strukturerede resuméer";
+
+/* Scan */
+"Scan" = "Scan";
+
+/* Scripts */
+"Scripts" = "Manuskripter";
+
+/* Search domain */
+"Search domain" = "Søgedomæne";
+
+/* Sections */
+"Sections" = "Sektioner";
+
+/* Security details */
+"Security details" = "Sikkerhedsdetaljer";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Udvalgte";
+
+/* Sequence */
+"Sequence" = "Sekvens";
+
+/* Server */
+"Server" = "Server";
+
+/* Service */
+"Service" = "Tjeneste";
+
+/* Service reachability */
+"Service reachability" = "Servicetilgængelighed";
+
+/* Service type */
+"Service type" = "Servicetype";
+
+/* Service types */
+"Service types" = "Servicetyper";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Servicetyper annonceres på det lokale netværk under opdagelsesvinduet.";
+
+/* Services */
+"Services" = "Tjenester";
+
+/* Show */
+"Show" = "Show";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Vis DANE-certifikatassociationer for en TLS-tjeneste";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Vis HTTPS-serviceendepunkter og forbindelseshints";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Vis IPv4-adresser offentliggjort for et værtsnavn";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Vis IPv4-naboer, som denne Mac for nylig har kontaktet";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Vis IPv6-adresser offentliggjort for et værtsnavn";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Vis Wi-Fi-linkdetaljer og nærliggende adgangspunkter, som er synlige for macOS";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Vis adresser, MTU, status og tællere for hver netværksgrænseflade";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Vis cachede IPv6-naboer og deres link-layer adresser";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Vis certifikatidentitet, udsteder, gyldighed og SHA-256 fingeraftryk";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Vis hver router på stien til destinationen";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Vis geografiske placeringsregistre offentliggjort efter en zone";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Showets placering, netværk, ASN og ejerskabsdetaljer";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Vis forhandlet TLS-version, chiffer, nøgleudveksling og verifikation";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Vis netværksgrænser, netmaske, udsendelsesadresse og størrelse";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Vis offentliggjorte tekstposter og domænepolitikker";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Vis rå registrerings- og ejerskabsregistre";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Vis registreringsoplysninger og registreringsoplysninger for en IP";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Vis registreringsregistrerings- og statusdetaljer for et domæne";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Vis svarheadere og hvert omdirigeringshop";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Vis regelbaserede servicediscovery-poster";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Vis serviceendepunkter og forbindelsesparametre";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Værter for showservice, porte, prioriteter og vægte";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Vis de DNS-resolvere og søgedomæner, som macOS faktisk bruger";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Vis RPKI-rute-oprindelsesvalideringstilstanden, rapporteret af RIPE";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Vis den aktive grænseflades DHCP-server, lease og medfølgende muligheder";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Vis de autoritative navneservere for et domæne";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Vis det kanoniske aliasmål for et værtsnavn";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Vis den komplette serverede certifikatkæde, verifikationsresultatet og det hæftede OCSP-svar";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Vis standardgatewayen og den komplette IPv4- og IPv6-rutetabel";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Vis domænets brandindikatorpolitik";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Vis domænets e-mailautentificeringspolitik";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Vis den forhandlede HTTP-version, status, serveradresse og TLS-resultat";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Vis oprindelses-ASN, roudet præfiks, registrerings- og allokeringsdetaljer";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Vis underskriverposterne for forældrezonens delegering";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Vis den politik, der kræver sikker postlevering";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Vis de vigtigste browsersikkerhedsheaders, som et site returnerer";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Vis den offentlige IP-adresse, som internettet ser";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Vis den offentlige nøgle for en DKIM-vælger.";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Vis de offentlige nøgler, der bruges til at validere en DNS-zone";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Vis serverens annoncerede SSH-hostnøglefingeraftryk";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Vis serverne, der modtager mail for et domæne";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Vis hvor TLS-leveringsrapporter sendes";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Vis hvilke certifikatmyndigheder der kan udstede certifikater";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Vis hvilke servere der er autoriserede til at sende mail";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Vis zoneautoritet, serienummer og tidspunktsinformation";
+
+/* Site Report */
+"Site Report" = "Stedsrapport";
+
+/* Site report for example.org */
+"Site report for example.org" = "Stedsrapport for example.org";
+
+/* State */
+"State" = "Stat";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Tilstand:/Netværk/Global/IPv4";
+
+/* Statistics */
+"Statistics" = "Statistik";
+
+/* Status */
+"Status" = "Status";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Status, protokol, omdirigeringer og returnerede headers.";
+
+/* Stop */
+"Stop" = "Stop";
+
+/* Stop Sweep */
+"Stop Sweep" = "Stop Sweep";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Structured registry response for %@.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Strukturerede rapporter er en Netmin Pro-funktion";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Strukturerede rapporter med tabeller, målinger og resultater";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Struktureret resolver-respons.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Struktureret svar fra webtjenesten.";
+
+/* System network configuration */
+"System network configuration" = "Systemnetværkskonfiguration";
+
+/* TCP Port Check */
+"TCP Port Check" = "TCP-portkontrol";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "TCP-TILGÆNGELIGHED";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Håndtryk";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Håndtryk";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS-certifikat";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "TLS-certifikatkæde";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS Handshake";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "TLS Service Handshake";
+
+/* TLS connection */
+"TLS connection" = "TLS-forbindelse";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, Web og Porte";
+
+/* Target */
+"Target" = "Mål";
+
+/* Target (optional) */
+"Target (optional)" = "Mål (valgfrit)";
+
+/* Target did not reply */
+"Target did not reply" = "Målet svarede ikke";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Mål kan ikke indeholde mellemrum";
+
+/* Terms */
+"Terms" = "Vilkår";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Test SMTP 25, SMTPS 465, indsendelse 587, IMAPS 993 og POP3S 995 samtidig";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Test TLS-forhandling med en DNS-over-TLS-server";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "Test af TLS 1.2-forhandling...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "Test af TLS 1.3-forhandling...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "Test af TLS-forhandling på DNS-port 853...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "Test af TLS på SMTP, IMAP- og POP3-tjenester...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Test af en forbindelse til den specificerede TCP-port...";
+
+/* Text */
+"Text" = "Tekst";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "De 25 mest almindelige TCP-porte blev undersøgt med et sekunds timeout.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store kunne ikke verificere dette køb.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "MAC-adressen i kanonisk storbogstav, kolon-separeret form.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Netmin-værktøjskataloget indeholder ingen gyldige værktøjer.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL'en kræver et skema og en host, f.eks. https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "Den aktive grænseflades lejekontrakt og de muligheder, dens DHCP-server tilbød.";
+
+/* The address is not valid. */
+"The address is not valid." = "Adressen er ikke gyldig.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "Adressen, internettet finder for denne forbindelse.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "Appen fulgte omdirigeringerne, men hjemmesiden sendte denne fil tilbage til den samme URL gentagne gange. Ingen fil blev returneret.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "Den autoritative server tillod en komplet AXFR-zoneoverførsel.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "De autoritative servere tilbød ikke en komplet zoneoverførsel. Dette er de poster, der findes gennem offentlige prober; brugerdefinerede navne kan stadig eksistere.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "Det medfølgende Netmin-værktøjskatalog mangler.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Kommandoen blev fuldført, men målet returnerede ingen matchende data.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Kommandoen fejlede, før den gav diagnostisk output.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "Standardruten og alle IPv4- og IPv6-ruter, som macOS kender til.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "De første 30 dage inkluderer Pro. Efter prøveperioden beholder Free alle 84 værktøjer og rå output med fem diagnostiske anmodninger om dagen.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "Præfikset efter / skal være et tal";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Processen afsluttede med status %lld før den returnerede detaljer. Tjek at den nødvendige kommando er installeret, og at målet er tilgængeligt.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "Købet afventer godkendelse.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Registret returnerede et ustruktureret svar; dets nyttige linjer vises nedenfor.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "Resolveren gav ingen matchende svar.";
+
+/* This Mac */
+"This Mac" = "Denne Mac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "Dette fjerner gemte mål og nyligt kørte resuméer fra denne Mac. Det sletter ikke eksporterede rapporter.";
+
+/* Time */
+"Time" = "Tidspunkt";
+
+/* Timeouts */
+"Timeouts" = "Timeouts";
+
+/* Tools */
+"Tools" = "Værktøjer";
+
+/* Tools unavailable */
+"Tools unavailable" = "Værktøjer utilgængelige";
+
+/* Trace */
+"Trace" = "Trace";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Spor DNSSEC-tillidskæden fra roden";
+
+/* Traceroute */
+"Traceroute" = "Traceroute";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "Sporing af DNS-delegationer og DNSSEC-poster...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "Sporer DNS-delegationer fra roden...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Følger netværksvejen til destinationen...";
+
+/* Try Again */
+"Try Again" = "Prøv igen";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Prøv RDAP i stedet →";
+
+/* Type */
+"Type" = "Type";
+
+/* Types */
+"Types" = "Typer";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnP-enheder og -tjenester";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "Usikkerhed";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Ubegrænset netværksdiagnostik med læsbare rapporter og eksportværktøjer.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Ubegrænset brug af alle 84 diagnostiske værktøjer";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Lås op %@, plus det komplette Pro-funktionssæt.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Lås op...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Lås op for struktureret resumé...";
+
+/* Unnamed */
+"Unnamed" = "Unavngivet";
+
+/* Unsigned */
+"Unsigned" = "Usigneret";
+
+/* Upload */
+"Upload" = "Upload";
+
+/* Use custom resolver */
+"Use custom resolver" = "Brug brugerdefineret resolver";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Brug host:port, en IPv6-adresse eller en MAC-adresse";
+
+/* Utilities */
+"Utilities" = "Forsyninger";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPN-tunnel";
+
+/* Validated */
+"Validated" = "Valideret";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "Validering af TLSA-poster og deres DNSSEC-kæde...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "Validering af DNS-svaret og DNSSEC-kæden...";
+
+/* Value */
+"Value" = "Værdi";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Værdier produceret af %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "Værdier rapporteret af macOS for %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Værdier returneret for %@.";
+
+/* Vendor */
+"Vendor" = "Leverandør";
+
+/* Verification */
+"Verification" = "Verifikation";
+
+/* Verify Return Code */
+"Verify Return Code" = "Bekræft returkode";
+
+/* View */
+"View" = "Udsigt";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Se Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "Virtuel bro";
+
+/* Virtual machine network */
+"Virtual machine network" = "Virtuelt maskinnetværk";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS-server";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Venter på det første svar...";
+
+/* Web policy status */
+"Web policy status" = "Webpolitikstatus";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Wi-Fi-diagnostik";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Wi-Fi-status";
+
+/* Window */
+"Window" = "Vindue";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Windows navneopdagelse";
+
+/* Yes */
+"Yes" = "Ja";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Du har Netmin Pro.";
+
+/* Your public address */
+"Your public address" = "Din offentlige adresse";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "Aktiv";
+
+/* advanced structured reports */
+"advanced structured reports" = "Avancerede strukturerede rapporter";
+
+/* all detected */
+"all detected" = "Alle opdaget";
+
+/* arp table */
+"arp table" = "ARP-tabel";
+
+/* as name */
+"as name" = "som navn";
+
+/* closed */
+"closed" = "Lukket";
+
+/* command */
+"command" = "Kommando";
+
+/* complete zone */
+"complete zone" = "Komplet zone";
+
+/* configured */
+"configured" = "konfigureret";
+
+/* creation date */
+"creation date" = "Oprettelsesdato";
+
+/* device sweep */
+"device sweep" = "enhedssweep";
+
+/* did not answer within */
+"did not answer within" = "svarede ikke indenfor";
+
+/* differs */
+"differs" = "adskiller sig";
+
+/* domain name */
+"domain name" = "Domænenavn";
+
+/* down */
+"down" = "Ned";
+
+/* downlink capacity */
+"downlink capacity" = "Downlink-kapacitet";
+
+/* expiration date */
+"expiration date" = "udløbsdato";
+
+/* expiration date: */
+"expiration date:" = "Udløbsdato:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "udløb %lld for dage siden";
+
+/* expires today */
+"expires today" = "udløber i dag";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "fire ICMP-ekkoanmodninger";
+
+/* gateway %@ */
+"gateway %@" = "Gateway %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "i %lld-dage";
+
+/* inactive */
+"inactive" = "Inaktiv";
+
+/* incomplete */
+"incomplete" = "ufuldstændig";
+
+/* ip information */
+"ip information" = "IP-information";
+
+/* just now */
+"just now" = "Lige nu";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "begrænset til den lokale /24 for hastighed";
+
+/* local */
+"local" = "Lokalt";
+
+/* loss %@ */
+"loss %@" = "tab %@";
+
+/* median %@ */
+"median %@" = "median %@";
+
+/* name server */
+"name server" = "Navneserver";
+
+/* name server: */
+"name server:" = "Navneserver:";
+
+/* network */
+"network" = "Netværk";
+
+/* network lookup */
+"network lookup" = "Netværksopslag";
+
+/* network quality */
+"network quality" = "Netværkskvalitet";
+
+/* network report */
+"network report" = "Netværksrapport";
+
+/* networks */
+"networks" = "Netværk";
+
+/* no address */
+"no address" = "ingen adresse";
+
+/* no answer */
+"no answer" = "intet svar";
+
+/* no ping replies */
+"no ping replies" = "ingen ping-svar";
+
+/* no reply */
+"no reply" = "Intet svar";
+
+/* open */
+"open" = "Åbn";
+
+/* packets transmitted */
+"packets transmitted" = "Pakker sendt";
+
+/* primary %@ */
+"primary %@" = "primær %@";
+
+/* public ip */
+"public ip" = "Offentlig IP";
+
+/* raw output */
+"raw output" = "rå output";
+
+/* reachable */
+"reachable" = "tilgængelig";
+
+/* redirects followed */
+"redirects followed" = "omdirigeringer fulgte";
+
+/* registrar name */
+"registrar name" = "Registratorens navn";
+
+/* registry expiry date */
+"registry expiry date" = "Registreringsdato for udløbsdato";
+
+/* registry expiry date: */
+"registry expiry date:" = "Registreringsdato:";
+
+/* resolution failed */
+"resolution failed" = "Løsningen mislykkedes";
+
+/* reverse dns */
+"reverse dns" = "Omvendt DNS";
+
+/* run with last target */
+"run with last target" = "Løb med sidste mål";
+
+/* scoped */
+"scoped" = "Scoped";
+
+/* search domain */
+"search domain" = "Søgedomæne";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "Sha256 Fingeraftryk";
+
+/* site report */
+"site report" = "Stedsrapport";
+
+/* summary */
+"summary" = "Resumé";
+
+/* target */
+"target" = "Mål";
+
+/* the address */
+"the address" = "Adressen";
+
+/* the selected resource */
+"the selected resource" = "Den udvalgte ressource";
+
+/* the selected target */
+"the selected target" = "Det udvalgte mål";
+
+/* the target */
+"the target" = "Målet";
+
+/* timed out */
+"timed out" = "Tidsudløb";
+
+/* unknown */
+"unknown" = "ukendt";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "Ubegrænsede diagnostiske anmodninger";
+
+/* up */
+"up" = "op";
+
+/* updated date */
+"updated date" = "Opdateret dato";
+
+/* uplink capacity */
+"uplink capacity" = "Uplink-kapacitet";
+
+/* verify return code */
+"verify return code" = "Verificér returkode";
+
+/* via %@ */
+"via %@" = "via %@";
+
+/* windows name */
+"windows name" = "Windows-navn";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Føj %@ til Favoritter";
+
+/* Favorites */
+"Favorites" = "Favoritter";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Fjern %@ fra Favoritter";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Pro-funktioner er låst";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Køb eller gendan adgang for at låse dem op.";
+
+/* Restoring… */
+"Restoring…" = "Gendanner…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Der blev ikke fundet noget aktivt Netmin-køb.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP-præfiks";
+
+/* Primary */
+"Primary" = "Primær";
+
+/* All relevant */
+"All relevant" = "Alle relevante";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "Oprindelses-ASN, for eksempel AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP-præfiks, for eksempel 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Kontrollér, om et oprindelses-ASN må annoncere et IP-præfiks";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Prøv en fuld zoneoverførsel fra hver autoritativ navneserver";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Værtsnavn, tjenestenavn eller IP-adresse";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Sammenlign cachelagrede DNS-svar fra Cloudflare, Google, Quad9 og OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "Sammenlign alle relevante posttyper";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Sammenligner svar fra offentlige resolvere…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Sammenligner de almindelige posttyper, der gælder for dette mål.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Kontrollerer A for et værtsnavn, PTR for en IP-adresse eller SRV for et tjenestenavn.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Alle offentlige resolvere returnerede de samme DNS-svar.";
