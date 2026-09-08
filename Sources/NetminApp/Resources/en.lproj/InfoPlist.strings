@@ -1,0 +1,3 @@
+/* Netmin — en Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin discovers devices and services on local networks you choose to inspect.";
