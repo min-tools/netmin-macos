@@ -1,0 +1,2690 @@
+/* Netmin — fi localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "MS";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ hyväksyi TCP-yhteyden.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ ei saatu takaisin";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ ei valmistunut";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ auki";
+
+/* %@ open ports */
+"%@ open ports" = "%@ avoimet portit";
+
+/* %@ per year */
+"%@ per year" = "%@ vuodessa";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld osoitteet";
+
+/* %lld answers */
+"%lld answers" = "%lld vastaukset";
+
+/* %lld bytes */
+"%lld bytes" = "%lld tavut";
+
+/* %lld checks */
+"%lld checks" = "%lld shekit";
+
+/* %lld day */
+"%lld day" = "%lld päivä";
+
+/* %lld days */
+"%lld days" = "%lld päivää";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld havaittu · skannaus kestää noin %llds";
+
+/* %lld devices */
+"%lld devices" = "%lld laitteet";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld laitteet %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld merkinnät";
+
+/* %lld headers */
+"%lld headers" = "%lld otsikot";
+
+/* %lld hops */
+"%lld hops" = "%lld hyppyjä";
+
+/* %lld hosts */
+"%lld hosts" = "%lld juontajat";
+
+/* %lld hour */
+"%lld hour" = "%lld tunti";
+
+/* %lld hours */
+"%lld hours" = "%lld tuntia";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld keskeneräinen";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld käyttöliittymät";
+
+/* %lld keys */
+"%lld keys" = "%lld avaimet";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld rajoitettu /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld rivit · %lld merkit";
+
+/* %lld matches */
+"%lld matches" = "%lld ottelut";
+
+/* %lld minute */
+"%lld minute" = "%lld minuutti";
+
+/* %lld minutes */
+"%lld minutes" = "%lld minuuttia";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld lisää rivejä · käytä Copy Result -toimintoa täydelliseen tulokseen";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld nimeltään · %lld nimetön";
+
+/* %lld names */
+"%lld names" = "%lld nimet";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld naapurit";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld %lld -verkostoista · noin %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld tai %lld auki";
+
+/* %lld open */
+"%lld open" = "%lld auki";
+
+/* %lld received */
+"%lld received" = "%lld vastaanotettu";
+
+/* %lld records */
+"%lld records" = "%lld levyt";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld ennätykset · osittainen";
+
+/* %lld redirects */
+"%lld redirects" = "%lld uudelleenohjaukset";
+
+/* %lld responses */
+"%lld responses" = "%lld vastaukset";
+
+/* %lld routes */
+"%lld routes" = "%lld reitit";
+
+/* %lld rows */
+"%lld rows" = "%lld rivit";
+
+/* %lld second */
+"%lld second" = "%lld sekunti";
+
+/* %lld seconds */
+"%lld seconds" = "%lld sekuntia";
+
+/* %lld service types */
+"%lld service types" = "%lld palvelutyypit";
+
+/* %lld services */
+"%lld services" = "%lld palvelukset";
+
+/* %lld tools */
+"%lld tools" = "%lld työkalut";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", kanssa:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ok)";
+
+/* 1 match */
+"1 match" = "1 ottelu";
+
+/* 1 response */
+"1 response" = "1 vastaus";
+
+/* 1 service */
+"1 service" = "1 palvelus";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 minuuttia sitten";
+
+/* ; fully validated */
+"; fully validated" = "; täysin validoitu";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; Allekirjoittamaton vastaus";
+
+/* ; validation failed */
+"; validation failed" = "; Validointi epäonnistui";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "CIDR-alue tarvitsee täydellisen osoitteen ennen etuliitettä, esim. 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "Sweep voi sisältää enintään 16 manuaalisesti lisättyä aluetta.";
+
+/* ARP Table */
+"ARP Table" = "ARP-taulukko";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "ASN- ja BGP-haku";
+
+/* Actions */
+"Actions" = "Toimet";
+
+/* Active */
+"Active" = "Aktiivinen";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Aktiiviset merkinnät, joita macOS ja paikalliset hakutyökalut raportoivat.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "macOS:n raportoimat aktiiviset merkinnät.";
+
+/* Add */
+"Add" = "Add";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Lisää %@ skannaukseen";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Lisää alue, esim. 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Lisätty manuaalisesti";
+
+/* Added range */
+"Added range" = "Laajennettu kantama";
+
+/* Address */
+"Address" = "Osoite";
+
+/* Address details */
+"Address details" = "Osoitetiedot";
+
+/* Address details for %@ */
+"Address details for %@" = "Osoitetiedot %@:lle";
+
+/* Addresses */
+"Addresses" = "Osoitteet";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Osoitteet, joiden kanssa Mac on äskettäin vaihtanut paketteja.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Lisää saavutettavuutta, yhteisiä satamia ja reittiä. Voi kestää hetken.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Lisää vyöhykkeiden siirtoyrityksiä, DNSSEC-signaaleja, lisää isäntänimiä ja varmenteiden nimiä.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Mainostetut Bonjour-palvelut";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Mainostettiin löytöikkunan aikana.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "IPv4-osoite tarvitsee neljä numeroa välillä 0–255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "IPv4-etuliite kulkee /0:sta /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "IPv6-etuliite kulkee /0:sta /128";
+
+/* Answer %lld */
+"Answer %lld" = "Vastaus %lld";
+
+/* Answers */
+"Answers" = "Vastaukset";
+
+/* Answers by resolver */
+"Answers by resolver" = "Vastaukset resolverin mukaan";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Vastaukset tulivat %@.";
+
+/* Assigned address */
+"Assigned address" = "Annettu osoite";
+
+/* Authenticated */
+"Authenticated" = "Vahvistettu";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Automaattinen uusiminen vuosittain · peruuta milloin tahansa";
+
+/* Average */
+"Average" = "Keskiarvo";
+
+/* Bits */
+"Bits" = "Bitit";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour-palvelut";
+
+/* Bonjour services */
+"Bonjour services" = "Bonjour-palvelut";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Selaa paikallisverkossa ilmoitettuja Bonjour-palvelutyyppejä viiden sekunnin ajan";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Mainostettujen Bonjour-palveluiden selaaminen...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Rakenna yhdistetty DNS-, reititys-, omistus- ja verkkoraportti";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Rakenna yhdistetty raportti nykyiselle verkkoyhteydelle";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Raportin rakentaminen nykyisestä yhteydestä...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "DNS-, reititys- ja omistusraportin rakentaminen...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "CIDR-laskin";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "CIDR-alue · %@ osoitteet";
+
+/* Calculated result */
+"Calculated result" = "Laskettu tulos";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Verkon rajojen ja osoitemäärän laskeminen...";
+
+/* Cancel */
+"Cancel" = "Peruuta";
+
+/* Certificate */
+"Certificate" = "Todistus";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Sertifikaattien läpinäkyvyys";
+
+/* Certificate expires */
+"Certificate expires" = "Todistus vanhenee";
+
+/* Certificate names */
+"Certificate names" = "Sertifikaattien nimet";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Tarkista DNS-, web- ja SSH-portit, HTTPS-otsikot, varmenneketju, TLS-versiot, OCSP ja MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Tarkista, vahvistaako validoiva ratkaisija DNS-vastauksen";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Tarkista, vahvistaako validoiva ratkaisija TLSA-vastauksen";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Tarkista, paljastaako allekirjoitettu alue NSEC-tietueita";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Tarkista, hyväksyykö yksi TCP-portti yhteyden";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Tarkista, sisältyykö verkkotunnus HSTS:n esilataukseen vai onko se oikeutettu";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "DNS-, TLS-, verkko- ja sähköpostipalveluiden tarkistaminen...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "Tarkistan HSTS:n esilatauslistan tilan...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Tarkistetaan julkaistuja NSEC-tietoja...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Tarkistan 25 yleisintä TCP-porttia...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Tarkistetaan neuvoteltu HTTP-versio ja vastaus...";
+
+/* Checks */
+"Checks" = "Tarkistukset";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Tarkistaa apex-tiedot, sähköpostipolitiikat, palvelut, yleiset isännät ja DKIM-valitsimet.";
+
+/* Choose a tool */
+"Choose a tool" = "Valitse työkalu";
+
+/* Cipher */
+"Cipher" = "Salakirjoitus";
+
+/* Ciphersuite */
+"Ciphersuite" = "Ciphersuite";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Selkeitä viimeaikaisia tietoja";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Selvä tuore data...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Tyhjennätkö viimeaikaiset Netmin-tiedot?";
+
+/* Clear search */
+"Clear search" = "Selkeä haku";
+
+/* Clear target */
+"Clear target" = "Selvä kohde";
+
+/* Clock offset */
+"Clock offset" = "Kellon siirtymä";
+
+/* Close */
+"Close" = "Sulje";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Wi-Fi- ja lähistöllä olevien tukiasematietojen kerääminen...";
+
+/* Common Port Scan */
+"Common Port Scan" = "Yhteinen portin skannaus";
+
+/* Common TCP services */
+"Common TCP services" = "Yleiset TCP-palvelut";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Vertaa Cloudflaren, Googlen, Quad9:n ja OpenDNS:n IPv4-vastauksia";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "IPv4-vastauksia julkisilta ratkaisijoilta...";
+
+/* Complete */
+"Complete" = "Täydellinen";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Complete DNS zone for %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Täydellisyys: Täydellinen";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Täydellisyys: Osittainen löytö";
+
+/* Configuration */
+"Configuration" = "Kokoonpano";
+
+/* Connection */
+"Connection" = "Yhteys";
+
+/* Connection quality */
+"Connection quality" = "Yhteyden laatu";
+
+/* Connection succeeded */
+"Connection succeeded" = "Yhteys onnistui";
+
+/* Connection timing */
+"Connection timing" = "Yhteyden ajoitus";
+
+/* Consistent */
+"Consistent" = "Johdonmukaista";
+
+/* Content */
+"Content" = "Sisältö";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Kohteen palauttama sisältö, valmiina tarkastettavaksi tai kopioitaviksi.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Muunna kansainvälinen verkkotunnus Unicode- ja ASCII-lomakkeiksi";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Verkkotunnuksen muuntaminen Unicode- ja ASCII-välille...";
+
+/* Copied %@ */
+"Copied %@" = "Kopioitu %@";
+
+/* Copy Address */
+"Copy Address" = "Kopio osoite";
+
+/* Copy Command */
+"Copy Command" = "Kopioi komento";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Kopioi MAC-osoite";
+
+/* Copy Name */
+"Copy Name" = "Kopio nimi";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Kopioi raaka tulostus";
+
+/* Copy Result */
+"Copy Result" = "Kopioi tulos";
+
+/* Copy Summary */
+"Copy Summary" = "Kopio-yhteenveto";
+
+/* Copy Target */
+"Copy Target" = "Kopioi kohde";
+
+/* Copy error */
+"Copy error" = "Kopiovirhe";
+
+/* Country */
+"Country" = "Maa";
+
+/* Coverage */
+"Coverage" = "Peitto";
+
+/* DANE Validation */
+"DANE Validation" = "DANE-vahvistus";
+
+/* DHCP Lease */
+"DHCP Lease" = "DHCP-vuokrasopimus";
+
+/* DHCP lease */
+"DHCP lease" = "DHCP-vuokrasopimus";
+
+/* DHCP server */
+"DHCP server" = "DHCP-palvelin";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "DNS-konfiguraatio";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS-LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC -kävelytarkistus";
+
+/* DNS Propagation */
+"DNS Propagation" = "DNS:n leviäminen";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNS-jäljitys";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "DNS-alueen löytäminen";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "DNS-vyöhykesiirto";
+
+/* DNS answers */
+"DNS answers" = "DNS-vastaukset";
+
+/* DNS configuration */
+"DNS configuration" = "DNS-konfiguraatio";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS HTTPS:n yli";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS yli TLS-päätepiste";
+
+/* DNS records */
+"DNS records" = "DNS-tietueet";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "DNS-tietueita löydetty %@:lle";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS-tietueet, paikannus ja ASN. Yleensä muutaman sekunnin.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "DNS-ratkaisijat käytössä";
+
+/* DNS response */
+"DNS response" = "DNS-vastaus";
+
+/* DNS server */
+"DNS server" = "DNS-palvelin";
+
+/* DNS service name */
+"DNS service name" = "DNS-palvelun nimi";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC-ketjun jäljitys";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "DNSSEC-tarkistus";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "DNSSEC-validointi";
+
+/* Deep */
+"Deep" = "Syvällä";
+
+/* Deep discovery */
+"Deep discovery" = "Syvällinen löytö";
+
+/* Default */
+"Default" = "Oletus";
+
+/* Default route */
+"Default route" = "Oletusreitti";
+
+/* Default ·  */
+"Default · " = "Oletus ·";
+
+/* Depth */
+"Depth" = "Syvyys";
+
+/* Destination */
+"Destination" = "Kohde";
+
+/* Destination not reached */
+"Destination not reached" = "Määränpäähän ei saavutettu";
+
+/* Details */
+"Details" = "Yksityiskohdat";
+
+/* Detect again */
+"Detect again" = "Tunnista uudelleen";
+
+/* Devices */
+"Devices" = "Laitteet";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Laitteet (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Ero tämän Macin kellon ja %@:n välillä.";
+
+/* Directives */
+"Directives" = "Direktiivit";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Löydä julkiset DNS-tietueet, standardipalvelut, sähköpostikäytännöt, DKIM-valitsimet ja paljastuneet vyöhyketiedot";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Tutustu reitittimiin, tallennuslaitteisiin, televisioihin ja muihin UPnP-palveluihin";
+
+/* Discovered network resources */
+"Discovered network resources" = "Löydetyt verkkoresurssit";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "UPnP-laitteiden ja palveluiden löytäminen...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Paikallisten laitteiden ja mainostettujen palveluiden löytäminen...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Julkisten DNS-tietojen ja vyöhyketietojen löytäminen...";
+
+/* Discovery output */
+"Discovery output" = "Discovery-tulos";
+
+/* Discovery results */
+"Discovery results" = "Löytötulokset";
+
+/* DoT hostname */
+"DoT hostname" = "DoT-isäntänimi";
+
+/* Domain */
+"Domain" = "Alue";
+
+/* Domain name */
+"Domain name" = "Verkkotunnus";
+
+/* Domain or hostname */
+"Domain or hostname" = "Verkkotunnus tai isäntänimi";
+
+/* Download */
+"Download" = "Lataa";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Jokainen reititin reitillä; edestakainen aika mitataan määränpäässä.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Mahdollistaa työkalun valinnaisen käyttäytymisen";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Tähän tulee alue kuten 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Otetaan käyttöön IPv4-alue, jonka etuliite on /0–/30, esimerkiksi 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Osallistujat";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Jokainen osoite pyydetyllä alueella, yksi per rivi.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Jokainen macOS:n käyttöliittymä raportoi osoitteineen ja linkkitilanneensa.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Jokainen julkinen ratkaisija palautti samat IPv4-vastaukset.";
+
+/* Exit status */
+"Exit status" = "Poistumistila";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Laajenna hallittavaa CIDR-lohkoa yksittäisiin osoitteisiin";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "CIDR-valikoiman laajentaminen yksittäisiin osoitteisiin...";
+
+/* Expires */
+"Expires" = "Vanhenee";
+
+/* Failed */
+"Failed" = "Epäonnistui";
+
+/* Fast local discovery */
+"Fast local discovery" = "Nopea paikallinen löytö";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Hae sivuston crawler-käyttösäännöt";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Hae sivuston julkaistu turvayhteyskäytäntö";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "HTTP-otsikoiden hakeminen ja uudelleenohjausten seuraaminen...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "Haen IP-sijainnin ja verkon tiedot...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "IP-rekisteröintitietueiden hakeminen RDAP:n kautta...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "SSH-isäntäavainten hakeminen ja sormenjälkien laskeminen...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Selaimen turvaotsikoiden hakeminen...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Verkkotunnuksen rekisteröintitietueiden hakeminen RDAP:n kautta...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Haetaan reitti-alkuperän validointitilaa...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "HTTPS-sertifikaatin ja henkilöllisyystietojen hakeminen...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Sertifikaattiketjun ja niitatun OCSP-vastauksen hakeminen...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Sivuston crawler-käyttösääntöjen hakeminen...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Haetaan sivuston turvayhteyskäytäntö...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Julkisen IP-osoitteesi hakeminen...";
+
+/* Fields */
+"Fields" = "Kentät";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Suodatin %lld työkalut";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Suodatin IP-osoitteen, nimen, rajapinnan mukaan";
+
+/* Final status */
+"Final status" = "Lopullinen tila";
+
+/* Find Tool… */
+"Find Tool…" = "Find Tool...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Etsi Netmin-työkalu";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Etsi sertifikaattinimiä, jotka voivat paljastaa siihen liittyviä alidomaineja";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Löydä mainostettu todennettu SMTP-palvelu";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Etsi mainostettu sähköpostin konfigurointipalvelu";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Löydä mainostettu suojattu IMAP-palvelu";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Etsi IP-osoitteeseen liitetty isäntänimi";
+
+/* Fingerprint */
+"Fingerprint" = "Sormenjälki";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Palvelimen esittämät sormenjäljet vertaillakseen tunnetun isännän merkintään.";
+
+/* First */
+"First" = "Ensimmäinen";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Seuraa DNS:n delegointia juuresta vastaukseen";
+
+/* Formatted */
+"Formatted" = "Muotoiltu";
+
+/* Formatted address */
+"Formatted address" = "Muotoiltu osoite";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "MAC-osoitteen muotoilu...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Vapaa · %lld %lld pyyntöjä jäi tänään";
+
+/* From */
+"From" = "Lähde";
+
+/* Full */
+"Full" = "Täysi";
+
+/* Gateway */
+"Gateway" = "Portti";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Portti %@ · Oletusreitti";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Portti ja reitit";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Yhdyskäytävä ja reititystaulukko";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "HSTS-esikuormituksen tila";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP-otsikot";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP-protokolla";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTP-turvaotsikot";
+
+/* HTTP response */
+"HTTP response" = "HTTP-vastaus";
+
+/* HTTP status */
+"HTTP status" = "HTTP-tila";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Kättelyreaktio";
+
+/* Hide */
+"Hide" = "Piiloudu";
+
+/* Hop */
+"Hop" = "Hyppää";
+
+/* Hops */
+"Hops" = "Humalaiset";
+
+/* Host */
+"Host" = "Juontaja";
+
+/* Host and port */
+"Host and port" = "Isäntä ja portti";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Esimerkiksi isäntä ja portti example.com:443";
+
+/* Host keys */
+"Host keys" = "Isäntäavaimet";
+
+/* Hostname */
+"Hostname" = "Isäntänimi";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Isäntänimet, jotka esiintyivät tämän verkkotunnuksen julkisissa varmenneissa.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Isännät, jotka vastasivat pingiin tai ilmestyivät naapurivälimuistiin, nimillä, viiveellä ja mainostetuilla palveluilla.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Isännät, mainostetut palvelut ja saavutettavat päätepisteet, jotka löytyvät tämän ajon aikana.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "IANA WHOIS -palvelin";
+
+/* IP Information */
+"IP Information" = "IP-tiedot";
+
+/* IP Range Expander */
+"IP Range Expander" = "IP-alueen laajennin";
+
+/* IP address */
+"IP address" = "IP-osoite";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP-osoite tai ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP-osoite tai verkkotunnus";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP-osoite tai isäntänimi";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP-osoite tai etuliite";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, reititys ja rekisteröinti";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "IPv4 CIDR-alue, maksimimäärä 4096 osoitetta";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4-osoite";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "IPv4-osoite CIDR:llä";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4-naapurit";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6-naapurit";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6-osoite";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Tarkista DNSSEC-tietueet ja validointiallekirjoitukset";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Tarkista SMTP-banneri ja neuvottele STARTTLS";
+
+/* Interface */
+"Interface" = "Rajapinta";
+
+/* Interface Inventory */
+"Interface Inventory" = "Rajapinnan inventaario";
+
+/* Interfaces */
+"Interfaces" = "Rajapinnat";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Liity verkostoon tai lisää alue alle. Sweepin suorittaminen pyytää avustajaa katsomaan uudelleen.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Avainkentät rekisterivastauksesta.";
+
+/* Keys */
+"Keys" = "Avaimet";
+
+/* Last */
+"Last" = "Viimeinen";
+
+/* Latency */
+"Latency" = "Viive";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Viive, saavutettavuus ja reittien mittaukset.";
+
+/* Lease details */
+"Lease details" = "Vuokrasopimuksen yksityiskohdat";
+
+/* Lease time */
+"Lease time" = "Vuokra-aika";
+
+/* Limited */
+"Limited" = "Rajoitettu";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Rajoitettu paikalliselle /24 nopeudelle";
+
+/* Lines */
+"Lines" = "Linjat";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Linkkitiedot tälle Macille ja macOS:n tällä hetkellä näkyville tukiasemille.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "Ladataan App Storen tuotteita...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Paikallinen laitetarkastus";
+
+/* Local Network */
+"Local Network" = "Paikallinen verkko";
+
+/* Location */
+"Location" = "Sijainti";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Verkkotunnusten etsiminen varmenteiden lokista...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Etsin postipalvelimia...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Etsin rekisteröinti- ja omistusrekistereitä...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "Etsin SMTP-lähetyspalvelua...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Etsiessäni sähköpostin konfigurointipalvelua...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Etsin tämän IP-osoitteen isäntänimeä...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Etsin alkuperä-ASN:ää ja reititettyä etuliitettä...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Etsin turvallista IMAP-palvelua...";
+
+/* MAC Formatter */
+"MAC Formatter" = "MAC-muotoilu";
+
+/* MAC address */
+"MAC address" = "MAC-osoite";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC ja myyjä piilotettuina";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC ja toimittaja piilotettuina — tyhjiä tässä peliajossa";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC ja toimittaja näkyvät";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Posti";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Mail Autodiscover SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Mail BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "Posti DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "Mail DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Mail IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Posti MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "Mail SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "Postilähetys SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Mail TLS-raportti";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Sähköposti TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Postiverkko";
+
+/* Mail domain or server */
+"Mail domain or server" = "Postiverkkotunnus tai palvelin";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Esimerkiksi sähköpostipalvelin ja portti mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Hallinnoi tilausta";
+
+/* Maximum */
+"Maximum" = "Maximum";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Mittaa nykyiset lataus-, lähetys-, reagointi- ja yhteystiedot";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Mittaa saavutettavuus ja edestakainen viive";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Mitattu virran liitännän kapasiteetti ja reagointikyky.";
+
+/* Measurement */
+"Measurement" = "Mittaus";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Lataus-, lataus- ja reagointikyvyn mittaaminen...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Saavutettavuuden ja edestakaisen viiveen mittaaminen...";
+
+/* Minimum */
+"Minimum" = "Minimi";
+
+/* Mode */
+"Mode" = "Tila";
+
+/* More copy options */
+"More copy options" = "Lisää kopiovaihtoehtoja";
+
+/* My Network Report */
+"My Network Report" = "Verkkoraporttini";
+
+/* My Public IP */
+"My Public IP" = "Julkinen IP:ni";
+
+/* NTP Offset */
+"NTP Offset" = "NTP-siirtymä";
+
+/* NTP server */
+"NTP server" = "NTP-palvelin";
+
+/* Name */
+"Name" = "Nimi";
+
+/* Names */
+"Names" = "Nimet";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Nimet sertifikaattilokeissa";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Neuvottele TLS minkä tahansa implisiittisen TLS-palvelun kanssa ja näytä valittu protokolla ja salaus";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Neuvoteltu protokolla, salaus, varmenteen henkilöllisyys ja varmennustila.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "Neuvotellaan SMTP STARTTLS...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Neuvotellaan TLS:ää määritetyllä palveluportilla...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "HTTPS:n TLS-yhteyden neuvottelu...";
+
+/* Neighbor */
+"Neighbor" = "Naapuri";
+
+/* Neighbor cache */
+"Neighbor cache" = "Naapurivälimuisti";
+
+/* Neighbors */
+"Neighbors" = "Naapurit";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Lifetime · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro Vuosittainen";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin löytää laitteita ja palveluita paikallisista verkoista, joita valitset tarkastaa.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin lopetti tämän komennon %lld sekunnin jälkeen.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin lopetti tämän komennon, kun se tuotti %@ ulostuloa.";
+
+/* Network */
+"Network" = "Verkosto";
+
+/* Network Lookup */
+"Network Lookup" = "Verkkohaku";
+
+/* Network Quality */
+"Network Quality" = "Verkon laatu";
+
+/* Network entries */
+"Network entries" = "Verkon osallistumiset";
+
+/* Network interfaces */
+"Network interfaces" = "Verkkorajapinnat";
+
+/* Networks */
+"Networks" = "Verkot";
+
+/* Networks scanned */
+"Networks scanned" = "Skannatut verkot";
+
+/* Networks to scan */
+"Networks to scan" = "Verkot, jotka skannataan";
+
+/* New Lookup */
+"New Lookup" = "Uusi haku";
+
+/* New Report */
+"New Report" = "Uusi raportti";
+
+/* New Sweep */
+"New Sweep" = "New Sweep";
+
+/* No */
+"No" = "Ei";
+
+/* No DNS records found */
+"No DNS records found" = "DNS-tietueita ei löytynyt";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Tälle Apple-tilille ei löytynyt Netmin Pro -ostosta.";
+
+/* No common ports are open */
+"No common ports are open" = "Yhteisiä portteja ei ole auki";
+
+/* No common services */
+"No common services" = "Ei yhteisiä palveluita";
+
+/* No data returned */
+"No data returned" = "Tietoja ei palautettu";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Yksikään laite ei vastaa \"%@\"";
+
+/* No devices responded */
+"No devices responded" = "Yksikään laite ei vastannut";
+
+/* No diagnostic output */
+"No diagnostic output" = "Ei diagnostiikkaa";
+
+/* No input required */
+"No input required" = "Ei tarvitse syöttää";
+
+/* No matching tools */
+"No matching tools" = "Ei yhteensopivia työkaluja";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Yksityistä IPv4-verkkoa ei havaittu · Lisää alue skannattavaksi";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Yksityistä IPv4-verkkoa ei havaittu";
+
+/* No result returned */
+"No result returned" = "Tuloksia ei palautettu";
+
+/* No target */
+"No target" = "Ei kohdetta";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "Yksikään työkalu ei vastaa \"%@\"";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Normalisoi MAC-osoite isoiksi kaakkosiveillä erotetuiksi muodoiksi";
+
+/* Not reached */
+"Not reached" = "Ei saavutettu";
+
+/* Not selected */
+"Not selected" = "Ei valittu";
+
+/* Notafter */
+"Notafter" = "Ei sen jälkeen";
+
+/* Notes */
+"Notes" = "Huomautuksia";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Mikään ei vastannut pingiin eikä ilmestynyt naapurivälimuistiin skannatuissa verkoissa. Tarkista, että tämä Mac on odotetussa verkossa tai lisää alue manuaalisesti.";
+
+/* Nothing detected */
+"Nothing detected" = "Mitään ei havaittu";
+
+/* Off */
+"Off" = "Pois päältä";
+
+/* Offset */
+"Offset" = "Offset";
+
+/* On */
+"On" = "Päällä";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Vain IANA-lähete palautettiin. Kokeile uudelleen %@ tai käytä RDAP:ta rekisteröijän, nimipalvelimen ja rekisteröintipäivien hakemiseen.";
+
+/* Open */
+"Open" = "Avaa";
+
+/* Open ports */
+"Open ports" = "Avoimet portit";
+
+/* Open ports: */
+"Open ports:" = "Avoimet portit:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "Valinnainen IPv4 CIDR; tyhjä skannaus skannaa kaikki aktiiviset lähiverkot";
+
+/* Options */
+"Options" = "Vaihtoehdot";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Origin AS ja reititetty etuliite";
+
+/* Other */
+"Other" = "Muut";
+
+/* Output */
+"Output" = "Tulostus";
+
+/* Overview */
+"Overview" = "Yleiskatsaus";
+
+/* Packet loss */
+"Packet loss" = "Pakettihäviö";
+
+/* Partial */
+"Partial" = "Osittainen";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Syötöt %@ komentoon";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Maksu siirtyy Apple-tilillesi. Vuosittainen tilaus uusiutuu automaattisesti, ellei sitä peruuteta App Storen asetuksista vähintään päivää ennen nykyisen jakson päättymistä.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Valitse työkalu sivupalkista tai paina ⌘K etsiäksesi ne kaikki.";
+
+/* Ping */
+"Ping" = "Ping";
+
+/* Port */
+"Port" = "Satama";
+
+/* Port %@ is open */
+"Port %@ is open" = "Portti %@ on auki";
+
+/* Ports */
+"Ports" = "Portit";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Portit, jotka hyväksyivät yhteyden.";
+
+/* Primary mail server */
+"Primary mail server" = "Ensisijainen sähköpostipalvelin";
+
+/* Primary nameserver */
+"Primary nameserver" = "Ensisijainen nimipalvelin";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "PrimaryInterface";
+
+/* Privacy */
+"Privacy" = "Yksityisyys";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Tietosuojakäytäntö...";
+
+/* Pro */
+"Pro" = "Pro";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Pro-ostot eivät ole tällä hetkellä saatavilla. Yritäthän uudelleen myöhemmin.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Pro-oikeudenkäynti · %lld päivää jäljellä";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Pro-oikeudenkäynti · 1 päivä jäljellä";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Pro-oikeudenkäynti · päättyy %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Pro-oikeudenkäynti · Ensimmäinen maksu %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Pro-oikeudenkäynti · kunnes %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro muuntaa raakadiagnostiikan taulukoiksi, mittareiksi ja havainnoiksi. 30 päivän kokeilun jälkeen Free sisältää raakatuotoksen jopa viidelle pyynnölle päivässä.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Pro · päättyy %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Plussat · Elinikä";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Pro · uusitaan %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Plussat · jaetaan perheesi kanssa";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Pro · kunnes %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Tutki 25 yleistä TCP-porttia macOS:n mukana tulevilla verkkotyökaluilla";
+
+/* Probed */
+"Probed" = "Tutkittu";
+
+/* Proto */
+"Proto" = "Proto";
+
+/* Protocol */
+"Protocol" = "Protokolla";
+
+/* Protocol Version */
+"Protocol Version" = "Protokollaversio";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Julkinen DNS-tunnistus on osittainen";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Julkinen DNS-tutkimus löysi hyödyllisiä tietueita, mutta mukautetut nimet saattavat silti olla piilossa.";
+
+/* Public IP */
+"Public IP" = "Julkinen IP";
+
+/* Public IPv4 */
+"Public IPv4" = "Julkinen IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "Julkinen IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Julkisen kuulutteen ja verkon omistajuuden tiedot.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Julkiset ratkaisijat antoivat erilaisia vastauksia; muutos saattaa vielä olla käynnissä.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Punycode-muunnin";
+
+/* Purchase */
+"Purchase" = "Osto";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Ostoksia ei ole tällä hetkellä saatavilla.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Kysy A-tietue DNS-over-HTTPS-päätepisteen kautta";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Kysy NetBIOS-nimeä ja työryhmää, joita Windows- tai SMB-laite mainostaa";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Kysy palvelimen kellosta ja näytä mitattu paikallinen siirtymä";
+
+/* Querying %@… */
+"Querying %@…" = "Kysely %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "DNS:n maantieteellisten sijaintitietojen kysely...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "DNS-tekstitietueiden kysely...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "DNSSEC:n julkisten avainten kysely...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "DNSSEC-tietueiden ja allekirjoitusten kysely...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "HTTPS-päätepisteiden ja yhteysvihjeiden kysely...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "IPv4-osoitteen (A) tietueiden kysely...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "IPv4-tietueiden kysely HTTPS:n kautta...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "IPv6-osoitteen (AAAA) tietueiden kysely...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Kysely MTA-STS:n politiikan löytötietueista...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "Kysely TLS-sertifikaattien assosiaatiotietueista...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "Kysely TLS-toimitusraportointirekistereistä...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Kysely auktoriteettisista nimipalvelintietueista...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Kysytään brändi-indikaattoritietoja...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Kysely varmennusviranomaisen valtuutustietueista...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Kysely delegaation allekirjoittajien tietueista...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Isäntänimi-alias (CNAME) -tietueiden kysely...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Palvelusidontojen ja yhteysparametrien kysely...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Kysely palvelun löytösäännöistä...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Palveluisäntien, porttien ja prioriteettien kyselyt...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "DKIM-valitsimen julkisen avaimen kysely...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Windows- tai SMB-laitteen nimen kysyminen...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Sähköpostin todennuskäytännön kysely...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Lähettäjän valtuutuskäytännön kysely...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Kysely aikapalvelimelta ja kellon siirtymän mittaaminen...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Kysely vyöhykkeen auktoriteetti- ja ajoitustietueista...";
+
+/* Quick */
+"Quick" = "Nopea";
+
+/* Quick lookup */
+"Quick lookup" = "Pikahaku";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Löydä nopeasti paikalliset laitteet, tulostimet ja mainostetut palvelut";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP-alue";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "RPKI-validointi";
+
+/* Ran %@ */
+"Ran %@" = "Ran %@";
+
+/* Raw Output */
+"Raw Output" = "Raaka tulos";
+
+/* Raw output */
+"Raw output" = "Raaka tulos";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Saavutettavuus ja meno-paluuaikataulu %@:lle.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Saavutettavissa olevat portit, palvelut ja isäntäavaintiedot.";
+
+/* Reached */
+"Reached" = "Saavutettu";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Välimuistissa olevien IPv4-naapurien lukeminen...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Luetaan välimuistissa olevia IPv6-naapureita...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "MacOS:n DNS-ratkaisijoiden ja hakuverkkotunnusten lukeminen...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Luen verkon käyttöliittymäosoitteita ja tilaa...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Luen aktiivisen käyttöliittymän DHCP-vuokrasopimusta...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Oletusportin ja reititystaulukoiden lukeminen...";
+
+/* Recent */
+"Recent" = "Viimeaikaiset";
+
+/* Record */
+"Record" = "Ennätys";
+
+/* Records */
+"Records" = "Ennätykset";
+
+/* Registrar */
+"Registrar" = "Rekisterinpitäjä";
+
+/* Registration and routing data */
+"Registration and routing data" = "Rekisteröinti- ja reititystiedot";
+
+/* Registry record */
+"Registry record" = "Rekisterirekisteri";
+
+/* Registry response */
+"Registry response" = "Rekisterin vastaus";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Rekisterivastaus on puutteellinen";
+
+/* Related */
+"Related" = "Aiheeseen liittyvää";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Muistetaan seuraavista tuloksista · ⌘1 Yleiskatsaus, ⌘2 Raaka tulos";
+
+/* Remove this range */
+"Remove this range" = "Poista tämä alue";
+
+/* Replies */
+"Replies" = "Vastaukset";
+
+/* Report for %@ */
+"Report for %@" = "Raportti %@";
+
+/* Report overview */
+"Report overview" = "Raportin yleiskatsaus";
+
+/* Reports */
+"Reports" = "Raportit";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Pyydä täydellistä DNS-vyöhykkeiden siirtoa auktoritatiiviselta palvelimelta";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Pyydän täydellistä DNS-vyöhykkeiden siirtoa...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Vaadi TLS 1.2 ja näytä, onnistuuko neuvottelu";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Vaadi TLS 1.3 ja näytä, onnistuuko neuvottelu";
+
+/* Resolved */
+"Resolved" = "Ratkaistu";
+
+/* Resolved address */
+"Resolved address" = "Ratkaistu osoite";
+
+/* Resolver */
+"Resolver" = "Resolveri";
+
+/* Resolver %@ */
+"Resolver %@" = "Resolver %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Resolverin tulos ryhmitelty nopeaa tarkastelua varten.";
+
+/* Resolver response */
+"Resolver response" = "Resolverin vaste";
+
+/* Resolvers */
+"Resolvers" = "Resolverit";
+
+/* Resolvers agree */
+"Resolvers agree" = "Ratkaisijat ovat samaa mieltä";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Ratkaisut ja hakudomainit, joita macOS tällä hetkellä käyttää, prioriteettijärjestyksessä.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Resolverit eroavat toisistaan";
+
+/* Resources */
+"Resources" = "Lähteet";
+
+/* Response */
+"Response" = "Vastaanotto";
+
+/* Response %lld */
+"Response %lld" = "Vastaus %lld";
+
+/* Responses */
+"Responses" = "Vastaukset";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Vastaukset monilähetyshakuun, yksi kortti per ilmoitus.";
+
+/* Responsiveness */
+"Responsiveness" = "Reagointikyky";
+
+/* Restore Purchases */
+"Restore Purchases" = "Restaurointiostot";
+
+/* Result */
+"Result" = "Tulos";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "Tulokset ryhmitellään jokaisen tehdyn verkon tarkistuksen mukaan.";
+
+/* Retry registry */
+"Retry registry" = "Uudelleenyritysrekisteri";
+
+/* Reverse DNS */
+"Reverse DNS" = "Käänteinen DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Edestakainen matka";
+
+/* Route to target */
+"Route to target" = "Reitti kohteeseen";
+
+/* Router */
+"Router" = "Reititin";
+
+/* Routes */
+"Routes" = "Reitit";
+
+/* Routing record */
+"Routing record" = "Reititysrekisteri";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Rekisteritietojen reititys %@:lle.";
+
+/* Routing table */
+"Routing table" = "Reititystaulukko";
+
+/* Run */
+"Run" = "Juokse";
+
+/* Run Again */
+"Run Again" = "Juokse uudelleen";
+
+/* Run Lookup */
+"Run Lookup" = "Suorita haku";
+
+/* Run Report */
+"Run Report" = "Juoksuraportti";
+
+/* Run Sweep */
+"Run Sweep" = "Run Sweep";
+
+/* Run Tool */
+"Run Tool" = "Juoksutyökalu";
+
+/* Run again */
+"Run again" = "Juokse uudestaan";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Käytä %@-työkalua";
+
+/* Running */
+"Running" = "Juoksu";
+
+/* Running %@… */
+"Running %@…" = "Juokse %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "Juokse · %@s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "SSDP/UPnP Discovery";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "SSH-isäntäavaimet";
+
+/* SSH host keys */
+"SSH host keys" = "SSH-isäntäavaimet";
+
+/* Save Report… */
+"Save Report…" = "Tallenna raportti...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Tallenna raportit ja kopioi jäsenneltyjä yhteenvetoja";
+
+/* Scan */
+"Scan" = "Skannaus";
+
+/* Scripts */
+"Scripts" = "Käsikirjoitukset";
+
+/* Search domain */
+"Search domain" = "Hakuverkkotunnus";
+
+/* Sections */
+"Sections" = "Osastot";
+
+/* Security details */
+"Security details" = "Turvallisuustiedot";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Valitut";
+
+/* Sequence */
+"Sequence" = "Järjestys";
+
+/* Server */
+"Server" = "Palvelin";
+
+/* Service */
+"Service" = "Palvelus";
+
+/* Service reachability */
+"Service reachability" = "Palvelun saavutettavuus";
+
+/* Service type */
+"Service type" = "Palvelutyyppi";
+
+/* Service types */
+"Service types" = "Palvelutyypit";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Palvelutyypit ilmoitetaan paikallisverkossa hakuikkunan aikana.";
+
+/* Services */
+"Services" = "Palvelut";
+
+/* Show */
+"Show" = "Ohjelma";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Näytä DANE-sertifikaattien assosiaatiot TLS-palvelulle";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Näytä HTTPS-palvelun päätepisteet ja yhteysvihjeet";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Näytä IPv4-osoitteet, jotka on julkaistu isäntänimelle";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Näytä IPv4-naapureille, joihin Mac on äskettäin ottanut yhteyttä";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Näytä IPv6-osoitteet, jotka on julkaistu isäntänimelle";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Näytä Wi-Fi-linkin tiedot ja lähistön tukiasemat, jotka näkyvät macOS:lle";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Näytä osoitteet, MTU, tila ja laskurit jokaiselle verkkoliitännälle";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Näytä välimuistissa olevat IPv6-naapurit ja niiden linkkikerroksen osoitteet";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Näytä sertifikaatin henkilöllisyys, myöntäjä, voimassaolo ja SHA-256-sormenjälki";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Näytä jokainen reititin polulla määränpäähän";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Näytä maantieteelliset sijaintitiedot, jotka julkaistaan vyöhykkein";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Näytä sijainti, verkosto, ASN ja omistustiedot";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Näytä neuvoteltu TLS-versio, salaus, avainten vaihto ja varmennus";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Näytä verkon rajat, verkkomaski, lähetysosoite ja koko";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Näytä julkaistut tekstitietueet ja verkkotunnuskäytännöt";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Näytä raaka rekisteröinti- ja omistusrekisteri";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Näytä IP-osoitteen rekisterin allokaatio ja rekisteröintitiedot";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Näytä rekisterin rekisteröinti ja tilatiedot verkkotunnukselle";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Näytä vastausotsikot ja jokainen uudelleenohjaushyppy";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Näytä sääntöihin perustuvat palvelutunnistustietueet";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Näytä palvelun päätepisteet ja yhteysparametrit";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Ohjelman juontajat, satamat, prioriteetit ja painot";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Näytä DNS-ratkaisijat ja hakudomainit, joita macOS oikeasti käyttää";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Näytä RIPE:n raportoima RPKI-reitin alkuperän validointitila";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Näytä aktiivisen liitännän DHCP-palvelin, vuokraus ja toimitetut vaihtoehdot";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Näytä auktoritatiiviset nimipalvelimet verkkotunnukselle";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Näytä kanoninen alias-kohde isäntänimelle";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Näytä koko toimitettu varmenneketju, varmennustulos ja niitattu OCSP-vastaus";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Näytä oletusyhdyskäytävä sekä täydellinen IPv4- ja IPv6-reittitaulu";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Näytä verkkotunnuksen brändiindikaattorikäytäntö";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Näytä verkkotunnuksen sähköpostin todennuskäytäntö";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Näytä sovittu HTTP-versio, tila, palvelinosoite ja TLS-tulos";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Näytä alkuperä-ASN, reititetty etuliite, rekisteri ja allokointitiedot";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Näytä vanhemman alueen delegointiallekirjoittajan tietueet";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Näytä käytäntö, joka vaatii turvallisen postin toimituksen";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Näytä sivuston palauttamat pääselaimen suojausotsikot";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Näytä julkinen IP-osoite internetissä";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Näytä julkinen avain DKIM-valitsimelle";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Näytä julkiset avaimet, joita käytetään DNS-alueen validointiin";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Näytä palvelimen mainostetut SSH-isännäppäimen sormenjäljet";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Näytä palvelimet, jotka vastaanottavat sähköpostia domainille";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Näytä, minne TLS-toimitusraportit lähetetään";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Näytä, mitkä sertifikaattiviranomaiset voivat myöntää todistuksia";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Näytä, mitkä palvelimet ovat valtuutettuja lähettämään sähköpostia";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Esitysalueen auktoriteet, sarjanumero ja ajoitustiedot";
+
+/* Site Report */
+"Site Report" = "Paikkaraportti";
+
+/* Site report for example.org */
+"Site report for example.org" = "Paikkaraportti example.org";
+
+/* State */
+"State" = "Osavaltio";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Tila:/Verkko/Globaali/IPv4";
+
+/* Statistics */
+"Statistics" = "Tilastot";
+
+/* Status */
+"Status" = "Tila";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Tila, protokolla, uudelleenohjaukset ja palautetut otsikot.";
+
+/* Stop */
+"Stop" = "Seis";
+
+/* Stop Sweep */
+"Stop Sweep" = "Stop Sweep";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Rakenteellinen rekisterivastaus %@:lle.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Rakenteelliset raportit ovat Netmin Pron ominaisuus";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Rakenteelliset raportit taulukoineen, mittareineen ja löydöksineen";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Rakenteellinen resolverin vaste.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Rakenteellinen vastaus verkkopalvelulta.";
+
+/* System network configuration */
+"System network configuration" = "Järjestelmäverkon kokoonpano";
+
+/* TCP Port Check */
+"TCP Port Check" = "TCP-porttitarkistus";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "TCP:n SAAVUTETTAVUUS";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Kättely";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Kättely";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS-sertifikaatti";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "TLS-sertifikaattiketju";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS-kädenpuristus";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "TLS-palvelukädenpuristus";
+
+/* TLS connection */
+"TLS connection" = "TLS-yhteys";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, Web ja Portit";
+
+/* Target */
+"Target" = "Kohde";
+
+/* Target (optional) */
+"Target (optional)" = "Kohde (valinnainen)";
+
+/* Target did not reply */
+"Target did not reply" = "Kohde ei vastannut";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Kohteet eivät voi sisältää välilyöntejä";
+
+/* Terms */
+"Terms" = "Termit";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Testi SMTP 25, SMTPS 465, lähetys 587, IMAPS 993 ja POP3S 995 samanaikaisesti";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Testaa TLS-neuvottelua DNS-over-TLS-palvelimella";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "Testaan TLS 1.2 -neuvottelua...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "Testaan TLS 1.3 -neuvottelua...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "Testaan TLS-neuvottelua DNS-portilla 853...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "Testaan TLS:ää SMTP-, IMAP- ja POP3-palveluissa...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Yhteyden testaaminen määritettyyn TCP-porttiin...";
+
+/* Text */
+"Text" = "Tekstiviesti";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "25 yleisintä TCP-porttia tutkittiin sekunnin aikakatkaisulla.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store ei pystynyt vahvistamaan tätä ostosta.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "MAC-osoite on kanoninen isot kirjaimet, kaksoispisteistä erotettu muoto.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Netmin-työkaluluettelossa ei ole kelvollisia työkaluja.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL-osoitteeseen tarvitaan järjestelmä ja isäntä, esim. https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "Aktiivisen käyttöliittymän vuokrasopimus ja DHCP-palvelimen tarjoamat vaihtoehdot.";
+
+/* The address is not valid. */
+"The address is not valid." = "Osoite ei ole voimassa.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "Osoite, jonka internet näkee tälle yhteydelle.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "Sovellus seurasi uudelleenohjauksia, mutta sivusto lähetti tiedoston toistuvasti samaan URL-osoitteeseen. Tiedostoa ei palautettu.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "Autoritatiivinen palvelin mahdollisti täydellisen AXFR-alueen siirron.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "Valtuutetut palvelimet eivät tarjonneet täydellistä vyöhykkeiden siirtoa. Nämä ovat julkisten tutkimusten kautta löytyneitä tietoja; mukautetut nimet saattavat silti olla olemassa.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "Mukana tuleva Netmin-työkaluluettelo puuttuu.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Komento suoritettiin, mutta kohde ei palauttanut vastaavaa dataa.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Komento epäonnistui ennen kuin se tuotti diagnostiikkatuloksen.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "Oletusreitti ja kaikki IPv4- ja IPv6-reitit, joista macOS tietää.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "Ensimmäiset 30 päivää sisältävät Pron. Kokeilun jälkeen Free säilyttää kaikki 84 työkalua ja raakatuotoksen, viidellä diagnostiikkapyynnöllä päivässä.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "Etuliite jälkeen / täytyy olla luku";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Prosessi päättyi tilalla %lld ennen tietojen palauttamista. Tarkista, että vaadittu komento on asennettu ja kohde saavutettavissa.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "Ostos odottaa hyväksyntää.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Rekisteri palautti jäsentämättömän vastauksen; sen hyödylliset rivit on esitetty alla.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "Ratkaisija ei vastannut yhtään.";
+
+/* This Mac */
+"This Mac" = "Tämä Mac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "Tämä poistaa tallennetut kohteet ja viimeaikaiset yhteenvedot tältä Macilta. Se ei poista vietyjä raportteja.";
+
+/* Time */
+"Time" = "Aika";
+
+/* Timeouts */
+"Timeouts" = "Aikalisät";
+
+/* Tools */
+"Tools" = "Työkalut";
+
+/* Tools unavailable */
+"Tools unavailable" = "Työkalut, joita ei ole saatavilla";
+
+/* Trace */
+"Trace" = "Jälki";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Jäljitä DNSSEC:n luottamusketju juuresta";
+
+/* Traceroute */
+"Traceroute" = "Traceroute";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "DNS-delegaatioiden ja DNSSEC-tietueiden jäljittäminen...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "DNS-delegaatioiden jäljittäminen juuresta...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Verkon polun jäljittäminen määränpäähän...";
+
+/* Try Again */
+"Try Again" = "Yritä uudestaan";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Kokeile RDAP:ta sen sijaan →";
+
+/* Type */
+"Type" = "Tyyppi";
+
+/* Types */
+"Types" = "Tyypit";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnP-laitteet ja palvelut";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "Epävarmuus";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Rajaton verkkodiagnostiikka, luettavat raportit ja vientityökalut.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Kaikkien 84 diagnostiikkatyökalun rajaton käyttö";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Avaa %@ ja koko Pro-ominaisuusvalikoima.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Avaa raportti...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Avaa rakenteellinen yhteenveto...";
+
+/* Unnamed */
+"Unnamed" = "Nimetön";
+
+/* Unsigned */
+"Unsigned" = "Allekirjoittamaton";
+
+/* Upload */
+"Upload" = "Lataa";
+
+/* Use custom resolver */
+"Use custom resolver" = "Käytä mukautettua resolveria";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Käytä host:portia, IPv6-osoitetta tai MAC-osoitetta";
+
+/* Utilities */
+"Utilities" = "Sähköt";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPN-tunneli";
+
+/* Validated */
+"Validated" = "Vahvistettu";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "TLSA-tietueiden ja niiden DNSSEC-ketjun validointi...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "DNS-vastauksen ja DNSSEC-ketjun validointi...";
+
+/* Value */
+"Value" = "Arvo";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Arvot, jotka on tuotettu %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "macOS:n raportoimat arvot %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Arvot palautuivat %@.";
+
+/* Vendor */
+"Vendor" = "Toimittaja";
+
+/* Verification */
+"Verification" = "Vahvistus";
+
+/* Verify Return Code */
+"Verify Return Code" = "Vahvista palautuskoodi";
+
+/* View */
+"View" = "Näkymä";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Katso Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "Virtuaalisilta";
+
+/* Virtual machine network */
+"Virtual machine network" = "Virtuaalikoneverkko";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS-palvelin";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Odottaen ensimmäistä vastausta...";
+
+/* Web policy status */
+"Web policy status" = "Verkkopolitiikan tila";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Wi-Fi-diagnostiikka";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Wi-Fi-tila";
+
+/* Window */
+"Window" = "Ikkuna";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Windowsin nimen löytäminen";
+
+/* Yes */
+"Yes" = "Kyllä";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Sinulla on Netmin Pro.";
+
+/* Your public address */
+"Your public address" = "Julkinen osoitteesi";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.isäntänimi";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "Aktiivinen";
+
+/* advanced structured reports */
+"advanced structured reports" = "Edistyneet rakenteelliset raportit";
+
+/* all detected */
+"all detected" = "kaikki havaittu";
+
+/* arp table */
+"arp table" = "ARP-taulukko";
+
+/* as name */
+"as name" = "nimenä";
+
+/* closed */
+"closed" = "suljettu";
+
+/* command */
+"command" = "Komento";
+
+/* complete zone */
+"complete zone" = "Täydellinen alue";
+
+/* configured */
+"configured" = "Konfiguroitu";
+
+/* creation date */
+"creation date" = "Perustamispäivä";
+
+/* device sweep */
+"device sweep" = "Laitteen pyyhkäisy";
+
+/* did not answer within */
+"did not answer within" = "ei vastannut sisällä";
+
+/* differs */
+"differs" = "eroaa";
+
+/* domain name */
+"domain name" = "Verkkotunnus";
+
+/* down */
+"down" = "alas";
+
+/* downlink capacity */
+"downlink capacity" = "Alaslinkin kapasiteetti";
+
+/* expiration date */
+"expiration date" = "Vanhenemispäivä";
+
+/* expiration date: */
+"expiration date:" = "Viimeinen käyttöpäivä:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "Vanhentunut %lld päivää sitten";
+
+/* expires today */
+"expires today" = "päättyy tänään";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "neljä ICMP-kaikupyyntöä";
+
+/* gateway %@ */
+"gateway %@" = "portti %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "%lld päivässä";
+
+/* inactive */
+"inactive" = "Passiivinen";
+
+/* incomplete */
+"incomplete" = "keskeneräinen";
+
+/* ip information */
+"ip information" = "IP-tiedot";
+
+/* just now */
+"just now" = "juuri äsken";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "rajoitettu paikalliseen /24 nopeuden osalta";
+
+/* local */
+"local" = "paikallinen";
+
+/* loss %@ */
+"loss %@" = "Menetys %@";
+
+/* median %@ */
+"median %@" = "mediaani %@";
+
+/* name server */
+"name server" = "Nimipalvelin";
+
+/* name server: */
+"name server:" = "Nimipalvelin:";
+
+/* network */
+"network" = "Verkosto";
+
+/* network lookup */
+"network lookup" = "Verkkohaku";
+
+/* network quality */
+"network quality" = "Verkon laatu";
+
+/* network report */
+"network report" = "Verkkoraportti";
+
+/* networks */
+"networks" = "Verkostot";
+
+/* no address */
+"no address" = "Ei osoitetta";
+
+/* no answer */
+"no answer" = "Ei vastausta";
+
+/* no ping replies */
+"no ping replies" = "Ei ping-vastauksia";
+
+/* no reply */
+"no reply" = "Ei vastausta";
+
+/* open */
+"open" = "Avaa";
+
+/* packets transmitted */
+"packets transmitted" = "lähetetyt paketit";
+
+/* primary %@ */
+"primary %@" = "ensisijainen %@";
+
+/* public ip */
+"public ip" = "Julkinen IP";
+
+/* raw output */
+"raw output" = "raaka tulos";
+
+/* reachable */
+"reachable" = "Saavutettavissa";
+
+/* redirects followed */
+"redirects followed" = "Uudelleenohjaukset seurasivat";
+
+/* registrar name */
+"registrar name" = "Rekisterinpitäjän nimi";
+
+/* registry expiry date */
+"registry expiry date" = "Rekisterin vanhenemispäivä";
+
+/* registry expiry date: */
+"registry expiry date:" = "Rekisterin voimassaolopäivä:";
+
+/* resolution failed */
+"resolution failed" = "Ratkaisu epäonnistui";
+
+/* reverse dns */
+"reverse dns" = "Käänteinen DNS";
+
+/* run with last target */
+"run with last target" = "juokse viimeisen kohteen kanssa";
+
+/* scoped */
+"scoped" = "Scoped";
+
+/* search domain */
+"search domain" = "Hakuverkko";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "SHA256-sormenjälki";
+
+/* site report */
+"site report" = "Paikkaraportti";
+
+/* summary */
+"summary" = "Yhteenveto";
+
+/* target */
+"target" = "Kohde";
+
+/* the address */
+"the address" = "Osoite";
+
+/* the selected resource */
+"the selected resource" = "Valittu resurssi";
+
+/* the selected target */
+"the selected target" = "Valittu kohde";
+
+/* the target */
+"the target" = "Kohde";
+
+/* timed out */
+"timed out" = "aikakatkaisu";
+
+/* unknown */
+"unknown" = "Tuntematon";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "rajattomat diagnostiikkapyynnöt";
+
+/* up */
+"up" = "ylös";
+
+/* updated date */
+"updated date" = "Päivitetty päivämäärä";
+
+/* uplink capacity */
+"uplink capacity" = "Uplink-kapasiteetti";
+
+/* verify return code */
+"verify return code" = "Tarkista palautuskoodi";
+
+/* via %@ */
+"via %@" = "via %@";
+
+/* windows name */
+"windows name" = "Windows-nimi";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Lisää %@ suosikkeihin";
+
+/* Favorites */
+"Favorites" = "Suosikit";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Poista %@ suosikeista";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Pro-ominaisuudet on lukittu";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Avaa ne ostamalla tai palauttamalla ostos.";
+
+/* Restoring… */
+"Restoring…" = "Palautetaan…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Aktiivista Netmin-ostosta ei löytynyt.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP-etuliite";
+
+/* Primary */
+"Primary" = "Ensisijainen";
+
+/* All relevant */
+"All relevant" = "Kaikki olennaiset";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "Alkuperä-ASN, esimerkiksi AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP-etuliite, esimerkiksi 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Tarkista, saako alkuperä-ASN ilmoittaa IP-etuliitteen";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Yritä täydellistä vyöhykesiirtoa jokaiselta auktoritatiiviselta nimipalvelimelta";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Isäntänimi, palvelun nimi tai IP-osoite";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Vertaa Cloudflaren, Googlen, Quad9:n ja OpenDNS:n välimuistissa olevia DNS-vastauksia";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "Vertaa kaikkia olennaisia tietuetyyppejä";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Verrataan julkisten resolverien vastauksia…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Vertaa tähän kohteeseen soveltuvia yleisiä tietuetyyppejä.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Tarkistaa A:n isäntänimelle, PTR:n IP-osoitteelle tai SRV:n palvelun nimelle.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Kaikki julkiset resolverit palauttivat samat DNS-vastaukset.";
