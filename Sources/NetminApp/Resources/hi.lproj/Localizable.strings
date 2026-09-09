@@ -1,0 +1,2690 @@
+/* Netmin — hi localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "एमएस";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ एक टीसीपी कनेक्शन स्वीकार किया।";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ पुनर्प्राप्त नहीं किया जा सका";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ पूरा नहीं हुआ";
+
+/* %@ ms */
+"%@ ms" = "%@ एमएस";
+
+/* %@ open */
+"%@ open" = "%@ खुला";
+
+/* %@ open ports */
+"%@ open ports" = "%@ खुले बंदरगाह";
+
+/* %@ per year */
+"%@ per year" = "%@ प्रति वर्ष";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ एस";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld एमबी";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld टीसीपी · %lld बोनजोर";
+
+/* %lld addresses */
+"%lld addresses" = "%lld पते";
+
+/* %lld answers */
+"%lld answers" = "%lld उत्तर";
+
+/* %lld bytes */
+"%lld bytes" = "%lld बाइट्स";
+
+/* %lld checks */
+"%lld checks" = "%lld चेक";
+
+/* %lld day */
+"%lld day" = "%lld दिन";
+
+/* %lld days */
+"%lld days" = "%lld दिन";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld का पता चला · सभी को स्कैन करने में लगभग %lld सेकंड लगते हैं";
+
+/* %lld devices */
+"%lld devices" = "%lld डिवाइस";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld %lld %@ पर डिवाइस";
+
+/* %lld entries */
+"%lld entries" = "%lld प्रविष्टियाँ";
+
+/* %lld headers */
+"%lld headers" = "%lld हेडर";
+
+/* %lld hops */
+"%lld hops" = "%lld हॉप्स";
+
+/* %lld hosts */
+"%lld hosts" = "%lld मेजबान";
+
+/* %lld hour */
+"%lld hour" = "%lld घंटा";
+
+/* %lld hours */
+"%lld hours" = "%lld घंटे";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld अधूरा";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld इंटरफेस";
+
+/* %lld keys */
+"%lld keys" = "%lld चाबियाँ";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld एक /24 तक सीमित";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld लाइनें · %lld वर्ण";
+
+/* %lld matches */
+"%lld matches" = "%lld मैच";
+
+/* %lld minute */
+"%lld minute" = "%lld मिनट";
+
+/* %lld minutes */
+"%lld minutes" = "%lld मिनट";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld अधिक लाइनें · संपूर्ण आउटपुट के लिए कॉपी परिणाम का उपयोग करें";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld नाम · %lld अनाम";
+
+/* %lld names */
+"%lld names" = "%lld नाम";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld पड़ोसी";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld %lld नेटवर्क · लगभग %lld एस";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld का %lld खुला";
+
+/* %lld open */
+"%lld open" = "%lld खुला";
+
+/* %lld received */
+"%lld received" = "%lld प्राप्त हुआ";
+
+/* %lld records */
+"%lld records" = "%lld रिकॉर्ड";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld रिकॉर्ड · आंशिक";
+
+/* %lld redirects */
+"%lld redirects" = "%lld रीडायरेक्ट";
+
+/* %lld responses */
+"%lld responses" = "%lld प्रतिक्रियाएं";
+
+/* %lld routes */
+"%lld routes" = "%lld मार्ग";
+
+/* %lld rows */
+"%lld rows" = "%lld पंक्तियाँ";
+
+/* %lld second */
+"%lld second" = "%lld सेकंड";
+
+/* %lld seconds */
+"%lld seconds" = "%lld सेकंड";
+
+/* %lld service types */
+"%lld service types" = "%lld सेवा प्रकार";
+
+/* %lld services */
+"%lld services" = "%lld सेवाएं";
+
+/* %lld tools */
+"%lld tools" = "%lld उपकरण";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) एमएस";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", साथ:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ठीक)";
+
+/* 1 match */
+"1 match" = "1 मैच";
+
+/* 1 response */
+"1 response" = "1 प्रतिक्रिया";
+
+/* 1 service */
+"1 service" = "1 सेवा";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 मिनट पहले";
+
+/* ; fully validated */
+"; fully validated" = "; पूरी तरह से मान्य";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; अहस्ताक्षरित उत्तर";
+
+/* ; validation failed */
+"; validation failed" = "; सत्यापन विफल रहा";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "एक CIDR रेंज को उपसर्ग से पहले एक पूर्ण पते की आवश्यकता होती है, उदाहरण के लिए 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "एक स्वीप में अधिकतम 16 मैन्युअल रूप से जोड़ी गई श्रेणियां शामिल हो सकती हैं।";
+
+/* ARP Table */
+"ARP Table" = "एआरपी टेबल";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "एएसएन और बीजीपी लुकअप";
+
+/* Actions */
+"Actions" = "कार्रवाई";
+
+/* Active */
+"Active" = "सक्रिय";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "macOS और स्थानीय खोज टूल द्वारा रिपोर्ट की गई सक्रिय प्रविष्टियाँ।";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "macOS द्वारा रिपोर्ट की गई सक्रिय प्रविष्टियाँ।";
+
+/* Add */
+"Add" = "आगे कहना";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "स्कैन में %@ जोड़ें";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "एक श्रेणी जोड़ें, उदाहरण के लिए 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "मैन्युअल रूप से जोड़ा गया";
+
+/* Added range */
+"Added range" = "अतिरिक्त सीमा";
+
+/* Address */
+"Address" = "पता";
+
+/* Address details */
+"Address details" = "पते का विवरण";
+
+/* Address details for %@ */
+"Address details for %@" = "%@ के लिए पते का विवरण";
+
+/* Addresses */
+"Addresses" = "पते";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "इस मैक ने हाल ही में पैकेट का आदान-प्रदान किया है।";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "पहुंच क्षमता, सामान्य बंदरगाह और मार्ग जोड़ता है। एक मिनट लग सकता है।";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "ज़ोन-स्थानांतरण प्रयास, DNSSEC सिग्नल, अधिक होस्टनाम और प्रमाणपत्र नाम जोड़ता है।";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "विज्ञापित बोनजोर सेवाएं";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "खोज विंडो के दौरान विज्ञापित किया गया।";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "एक IPv4 पते के लिए 0 से 255 तक चार नंबरों की आवश्यकता होती है";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "IPv4 उपसर्ग /0 से /32 तक चलता है";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "IPv6 उपसर्ग /0 से /128 तक चलता है";
+
+/* Answer %lld */
+"Answer %lld" = "उत्तर: %lld";
+
+/* Answers */
+"Answers" = "जवाब";
+
+/* Answers by resolver */
+"Answers by resolver" = "रिज़ॉल्वर द्वारा उत्तर";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "उत्तर %@ के लिए लौटाए गए।";
+
+/* Assigned address */
+"Assigned address" = "असाइन किया गया पता";
+
+/* Authenticated */
+"Authenticated" = "प्रमाणित";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "वार्षिक रूप से स्वतः नवीनीकरण · किसी भी समय रद्द करें";
+
+/* Average */
+"Average" = "औसत निकालना";
+
+/* Bits */
+"Bits" = "बिट्स";
+
+/* Bonjour Services */
+"Bonjour Services" = "बोनजोर सेवाएं";
+
+/* Bonjour services */
+"Bonjour services" = "बोनजोर सेवाएं";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "पांच सेकंड के लिए स्थानीय नेटवर्क पर घोषित बोनजोर सेवा प्रकारों को ब्राउज़ करें";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "विज्ञापित Bonjour सेवा प्रकारों को ब्राउज़ करना...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "एक संयुक्त DNS, रूटिंग, स्वामित्व और नेटवर्क रिपोर्ट बनाएँ";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "वर्तमान नेटवर्क कनेक्शन के लिए एक संयुक्त रिपोर्ट बनाएँ";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "वर्तमान कनेक्शन के लिए एक रिपोर्ट बनाना...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "डीएनएस का निर्माण, रूटिंग और स्वामित्व रिपोर्ट...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "सीआईडीआर कैलकुलेटर";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "सीआईडीआर रेंज · %@ पते";
+
+/* Calculated result */
+"Calculated result" = "परिकलित परिणाम";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "नेटवर्क सीमाओं और पते की गणना...";
+
+/* Cancel */
+"Cancel" = "रद्द करना";
+
+/* Certificate */
+"Certificate" = "प्रमाणपत्र";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "प्रमाणपत्र पारदर्शिता";
+
+/* Certificate expires */
+"Certificate expires" = "प्रमाणपत्र की समय सीमा समाप्त हो जाती है";
+
+/* Certificate names */
+"Certificate names" = "प्रमाणपत्र नाम";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "DNS, वेब और SSH पोर्ट, HTTPS हेडर, प्रमाणपत्र श्रृंखला, TLS संस्करण, OCSP और MX STARTTLS की जाँच करें";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "जांचें कि क्या कोई मान्य रिज़ॉल्वर DNS उत्तर को प्रमाणित करता है";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "जांचें कि क्या कोई मान्य रिज़ॉल्वर TLSA उत्तर को प्रमाणित करता है";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "जाँचें कि क्या कोई हस्ताक्षरित ज़ोन NSEC रिकॉर्ड को उजागर करता है";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "जाँचें कि क्या एक TCP पोर्ट कोई कनेक्शन स्वीकार करता है";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "जांचें कि डोमेन शामिल है या HSTS प्रीलोड के लिए योग्य है या नहीं";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "DNS, TLS, वेब और मेल सेवाओं की जाँच कर रहा है...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "HSTS प्रीलोड-सूची स्थिति की जाँच कर रहा है...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "प्रकाशित एनएसईसी रिकॉर्ड की जाँच...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "25 सबसे आम टीसीपी पोर्ट की जाँच करना...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "बातचीत के HTTP संस्करण और प्रतिक्रिया की जाँच करना...";
+
+/* Checks */
+"Checks" = "चेक";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "शीर्ष रिकॉर्ड, मेल नीतियों, सेवाओं, सामान्य होस्ट और DKIM चयनकर्ताओं की जाँच करता है.";
+
+/* Choose a tool */
+"Choose a tool" = "एक उपकरण चुनें";
+
+/* Cipher */
+"Cipher" = "सिफर";
+
+/* Ciphersuite */
+"Ciphersuite" = "सिफरसुइट";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "हाल का डेटा साफ़ करें";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "हाल के डेटा को साफ़ करें...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "हाल ही में Netmin डेटा साफ़ करें?";
+
+/* Clear search */
+"Clear search" = "खोज साफ़ करें";
+
+/* Clear target */
+"Clear target" = "स्पष्ट लक्ष्य";
+
+/* Clock offset */
+"Clock offset" = "घड़ी ऑफसेट";
+
+/* Close */
+"Close" = "घुटनभरा";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "वाई-फाई और आस-पास के एक्सेस प्वाइंट विवरण एकत्र करना...";
+
+/* Common Port Scan */
+"Common Port Scan" = "सामान्य पोर्ट स्कैन";
+
+/* Common TCP services */
+"Common TCP services" = "सामान्य टीसीपी सेवाएं";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Cloudflare, Google, Quad9 और OpenDNS से IPv4 उत्तरों की तुलना करें";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "सार्वजनिक रिज़ॉल्वर से IPv4 उत्तरों की तुलना करना...";
+
+/* Complete */
+"Complete" = "पूरा";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "%@ के लिए पूरा DNS क्षेत्र";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "पूर्णता: पूर्ण";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "पूर्णता: आंशिक खोज";
+
+/* Configuration */
+"Configuration" = "कॉन्फ़िगरेशन";
+
+/* Connection */
+"Connection" = "संबंध";
+
+/* Connection quality */
+"Connection quality" = "कनेक्शन की गुणवत्ता";
+
+/* Connection succeeded */
+"Connection succeeded" = "कनेक्शन सफल रहा";
+
+/* Connection timing */
+"Connection timing" = "कनेक्शन का समय";
+
+/* Consistent */
+"Consistent" = "अनुकूल";
+
+/* Content */
+"Content" = "सामग्री";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "लक्ष्य द्वारा लौटाई गई सामग्री, निरीक्षण या प्रतिलिपि बनाने के लिए तैयार।";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "यूनिकोड और ASCII प्रपत्रों के बीच एक अंतर्राष्ट्रीयकृत डोमेन कनवर्ट करें";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "यूनिकोड और ASCII के बीच डोमेन को परिवर्तित करना...";
+
+/* Copied %@ */
+"Copied %@" = "कॉपी किया गया %@";
+
+/* Copy Address */
+"Copy Address" = "कॉपी एड्रेस";
+
+/* Copy Command */
+"Copy Command" = "कमांड कॉपी करें";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "मैक पते की प्रतिलिपि बनाएँ";
+
+/* Copy Name */
+"Copy Name" = "प्रतिलिपि नाम";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "रॉ आउटपुट कॉपी करें";
+
+/* Copy Result */
+"Copy Result" = "परिणाम कॉपी करें";
+
+/* Copy Summary */
+"Copy Summary" = "प्रतिलिपि सारांश";
+
+/* Copy Target */
+"Copy Target" = "लक्ष्य कॉपी करें";
+
+/* Copy error */
+"Copy error" = "कॉपी त्रुटि";
+
+/* Country */
+"Country" = "भूक्षेत्र";
+
+/* Coverage */
+"Coverage" = "कवरेज";
+
+/* DANE Validation */
+"DANE Validation" = "DANE सत्यापन";
+
+/* DHCP Lease */
+"DHCP Lease" = "डीएचसीपी लीज";
+
+/* DHCP lease */
+"DHCP lease" = "डीएचसीपी पट्टा";
+
+/* DHCP server */
+"DHCP server" = "डीएचसीपी सर्वर";
+
+/* DNS */
+"DNS" = "डीएनएस";
+
+/* DNS A */
+"DNS A" = "डीएनएस ए";
+
+/* DNS AAAA */
+"DNS AAAA" = "डीएनएस ए";
+
+/* DNS CAA */
+"DNS CAA" = "डीएनएस सीएए";
+
+/* DNS CNAME */
+"DNS CNAME" = "डीएनएस सीनाम";
+
+/* DNS Configuration */
+"DNS Configuration" = "डीएनएस कॉन्फ़िगरेशन";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "डीएनएस एचटीटीपीएस";
+
+/* DNS LOC */
+"DNS LOC" = "डीएनएस एलओसी";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "डीएनएस एनएपीटीआर";
+
+/* DNS NS */
+"DNS NS" = "डीएनएस एनएस";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "डीएनएस एनएसईसी वॉक चेक";
+
+/* DNS Propagation */
+"DNS Propagation" = "डीएनएस प्रसार";
+
+/* DNS SOA */
+"DNS SOA" = "डीएनएस एसओए";
+
+/* DNS SRV */
+"DNS SRV" = "डीएनएस एसआरवी";
+
+/* DNS SVCB */
+"DNS SVCB" = "डीएनएस एसवीसीबी";
+
+/* DNS TLSA */
+"DNS TLSA" = "डीएनएस टीएलएसए";
+
+/* DNS TXT */
+"DNS TXT" = "डीएनएस TXT";
+
+/* DNS Trace */
+"DNS Trace" = "डीएनएस ट्रेस";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "डीएनएस ज़ोन डिस्कवरी";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "डीएनएस जोन स्थानांतरण";
+
+/* DNS answers */
+"DNS answers" = "डीएनएस उत्तर";
+
+/* DNS configuration */
+"DNS configuration" = "डीएनएस कॉन्फ़िगरेशन";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "HTTPS पर DNS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "टीएलएस समापन बिंदु पर डीएनएस";
+
+/* DNS records */
+"DNS records" = "डीएनएस रिकॉर्ड्स";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "%@ के लिए खोजे गए DNS रिकॉर्ड";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "डीएनएस रिकॉर्ड, जियोलोकेशन और एएसएन। आमतौर पर कुछ सेकंड।";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "उपयोग में DNS रिज़ॉल्वर";
+
+/* DNS response */
+"DNS response" = "डीएनएस प्रतिक्रिया";
+
+/* DNS server */
+"DNS server" = "डीएनएस सर्वर";
+
+/* DNS service name */
+"DNS service name" = "DNS सेवा का नाम";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC चेन ट्रेस";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "DNSSEC चेक";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "डीएनएसएसईसी डीएनएसकेई";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "डीएनएसएसईसी डीएस";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "DNSSEC सत्यापन";
+
+/* Deep */
+"Deep" = "गहन";
+
+/* Deep discovery */
+"Deep discovery" = "गहरी खोज";
+
+/* Default */
+"Default" = "डिफ़ॉल्ट";
+
+/* Default route */
+"Default route" = "डिफ़ॉल्ट मार्ग";
+
+/* Default ·  */
+"Default · " = "डिफ़ॉल्ट ·";
+
+/* Depth */
+"Depth" = "घोर देखिए।";
+
+/* Destination */
+"Destination" = "मंज़िल";
+
+/* Destination not reached */
+"Destination not reached" = "गंतव्य नहीं पहुंचा";
+
+/* Details */
+"Details" = "विवरण";
+
+/* Detect again */
+"Detect again" = "फिर से पता लगाएं";
+
+/* Devices */
+"Devices" = "उपकरण";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "उपकरण (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "इस मैक की घड़ी और %@ के बीच अंतर।";
+
+/* Directives */
+"Directives" = "निर्देश";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "सार्वजनिक DNS रिकॉर्ड्स, मानक सेवाएँ, मेल नीतियाँ, DKIM चयनकर्ता और उजागर ज़ोन डेटा खोजें";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "राउटर, स्टोरेज डिवाइस, टीवी और अन्य UPnP सेवाओं की खोज करें";
+
+/* Discovered network resources */
+"Discovered network resources" = "खोजे गए नेटवर्क संसाधन";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "UPnP उपकरणों और सेवाओं की खोज...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "स्थानीय उपकरणों और विज्ञापित सेवाओं की खोज...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "सार्वजनिक DNS रिकॉर्ड और ज़ोन डेटा की खोज करना...";
+
+/* Discovery output */
+"Discovery output" = "डिस्कवरी आउटपुट";
+
+/* Discovery results */
+"Discovery results" = "खोज परिणाम";
+
+/* DoT hostname */
+"DoT hostname" = "DoT होस्टनाम";
+
+/* Domain */
+"Domain" = "डोमेन";
+
+/* Domain name */
+"Domain name" = "डोमेन नाम";
+
+/* Domain or hostname */
+"Domain or hostname" = "डोमेन या होस्टनाम";
+
+/* Download */
+"Download" = "डाउनलोड";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "पथ पर प्रत्येक राउटर; राउंड-ट्रिप का समय गंतव्य पर मापा जाता है।";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "उपकरण के वैकल्पिक व्यवहार को सक्षम करता है";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "172.16.4.0/22 जैसी श्रेणी दर्ज करें।";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "/0 से /30 तक उपसर्ग के साथ एक IPv4 श्रेणी दर्ज करें, उदाहरण के लिए 192.168.1.0/24।";
+
+/* Entries */
+"Entries" = "प्रविष्टियाँ";
+
+/* Ethernet */
+"Ethernet" = "ईथरनेट";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "अनुरोधित सीमा में प्रत्येक पता, प्रति पंक्ति एक।";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "प्रत्येक इंटरफ़ेस macOS अपने पते और लिंक स्थिति के साथ रिपोर्ट करता है।";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "प्रत्येक सार्वजनिक रिज़ॉल्वर ने समान IPv4 उत्तर लौटाए।";
+
+/* Exit status */
+"Exit status" = "बाहर निकलने की स्थिति";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "एक प्रबंधनीय CIDR ब्लॉक को अलग-अलग पतों में विस्तारित करें";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "CIDR रेंज को अलग-अलग पतों में विस्तारित करना...";
+
+/* Expires */
+"Expires" = "समय सीमा समाप्त होती है";
+
+/* Failed */
+"Failed" = "असफल";
+
+/* Fast local discovery */
+"Fast local discovery" = "तेजी से स्थानीय खोज";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "साइट के क्रॉलर ऐक्सेस नियम प्राप्त करें";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "साइट की प्रकाशित सुरक्षा संपर्क नीति प्राप्त करें";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "HTTP हेडर प्राप्त करना और रीडायरेक्ट का अनुसरण करना...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "आईपी स्थान और नेटवर्क विवरण प्राप्त करना...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "RDAP के माध्यम से IP पंजीकरण रिकॉर्ड प्राप्त करना...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "SSH होस्ट कुंजियाँ प्राप्त करना और उंगलियों के निशान की गणना करना...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "ब्राउज़र सुरक्षा हेडर प्राप्त करना...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "RDAP के माध्यम से डोमेन पंजीकरण रिकॉर्ड प्राप्त करना...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "मार्ग-मूल सत्यापन स्थिति प्राप्त करना...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "HTTPS प्रमाणपत्र और पहचान विवरण प्राप्त करना...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "प्रमाणपत्र श्रृंखला और स्टेपल OCSP प्रतिक्रिया प्राप्त करना...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "साइट के क्रॉलर एक्सेस नियमों को प्राप्त करना...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "साइट की सुरक्षा संपर्क नीति प्राप्त करना...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "अपना सार्वजनिक आईपी पता प्राप्त कर रहा है...";
+
+/* Fields */
+"Fields" = "फ़ील्ड्स";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "फ़िल्टर %lld उपकरण";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "आईपी, नाम, इंटरफ़ेस द्वारा फ़िल्टर करें";
+
+/* Final status */
+"Final status" = "अंतिम स्थिति";
+
+/* Find Tool… */
+"Find Tool…" = "उपकरण खोजें...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "एक Netmin टूल खोजें";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "ऐसे प्रमाणपत्र नाम ढूँढें जो संबंधित उप डोमेन प्रकट कर सकते हैं";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "विज्ञापित प्रमाणित SMTP सेवा ढूँढें";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "विज्ञापित ईमेल कॉन्फ़िगरेशन सेवा ढूंढें";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "विज्ञापित सुरक्षित IMAP सेवा ढूँढें";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "किसी IP पते से संबद्ध होस्टनाम ढूँढें";
+
+/* Fingerprint */
+"Fingerprint" = "उंगली का निशान";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "किसी ज्ञात-होस्ट प्रविष्टि के विरुद्ध तुलना करने के लिए प्रस्तुत किए गए सर्वर के फ़िंगरप्रिंट.";
+
+/* First */
+"First" = "पहला";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "उत्तर के लिए जड़ से DNS डेलिगेशन का पालन करें";
+
+/* Formatted */
+"Formatted" = "स्वरूपित";
+
+/* Formatted address */
+"Formatted address" = "स्वरूपित पता";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "मैक पते को स्वरूपित करना...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "नि: शुल्क · %lld %lld अनुरोधों में से आज बचे हैं";
+
+/* From */
+"From" = "से";
+
+/* Full */
+"Full" = "आमने-सामने";
+
+/* Gateway */
+"Gateway" = "तोरण";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "गेटवे %@ · डिफ़ॉल्ट मार्ग";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "प्रवेश द्वार और मार्ग";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "गेटवे और रूटिंग टेबल";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "एचएसटीएस प्रीलोड स्थिति";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP हेडर";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP प्रोटोकॉल";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTP सुरक्षा शीर्षलेख";
+
+/* HTTP response */
+"HTTP response" = "HTTP प्रतिक्रिया";
+
+/* HTTP status */
+"HTTP status" = "HTTP स्थिति";
+
+/* HTTP/ */
+"HTTP/" = "एचटीटीपी/";
+
+/* Handshake response */
+"Handshake response" = "हाथ मिलाने की प्रतिक्रिया";
+
+/* Hide */
+"Hide" = "छुपाना";
+
+/* Hop */
+"Hop" = "हॉप";
+
+/* Hops */
+"Hops" = "हॉप्स";
+
+/* Host */
+"Host" = "मेज़बान";
+
+/* Host and port */
+"Host and port" = "होस्ट और पोर्ट";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "होस्ट और पोर्ट, उदाहरण के लिए example.com:443";
+
+/* Host keys */
+"Host keys" = "होस्ट कुंजियाँ";
+
+/* Hostname */
+"Hostname" = "होस्टनाम";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "होस्टनाम जो इस डोमेन के लिए सार्वजनिक प्रमाणपत्रों में दिखाई दिए।";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "मेजबान जो पिंग का उत्तर देते हैं या नाम, विलंबता और विज्ञापित सेवाओं के साथ पड़ोसी कैश में दिखाई देते हैं।";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "इस दौड़ के दौरान मेजबान, विज्ञापित सेवाएँ और पहुंच योग्य समापन बिंदु पाए गए।";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "IANA WHOIS सर्वर";
+
+/* IP Information */
+"IP Information" = "आईपी जानकारी";
+
+/* IP Range Expander */
+"IP Range Expander" = "आईपी रेंज विस्तारक";
+
+/* IP address */
+"IP address" = "आईपी पता";
+
+/* IP address or ASN */
+"IP address or ASN" = "आईपी पता या एएसएन";
+
+/* IP address or domain */
+"IP address or domain" = "आईपी पता या डोमेन";
+
+/* IP address or hostname */
+"IP address or hostname" = "आईपी पता या होस्टनाम";
+
+/* IP address or prefix */
+"IP address or prefix" = "आईपी पता या उपसर्ग";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "आईपी, रूटिंग और पंजीकरण";
+
+/* IPv4 */
+"IPv4" = "आईपीवी4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "IPv4 CIDR रेंज, अधिकतम 4096 पते";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4 पता";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "CIDR के साथ IPv4 पता";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4 पड़ोसी";
+
+/* IPv6 */
+"IPv6" = "आईपीवी6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6 पड़ोसी";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6 पता";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "DNSSEC रिकॉर्ड और सत्यापन हस्ताक्षरों का निरीक्षण करें";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "एसएमटीपी बैनर का निरीक्षण करें और STARTTLS पर बातचीत करें";
+
+/* Interface */
+"Interface" = "इंटरफेस";
+
+/* Interface Inventory */
+"Interface Inventory" = "इंटरफ़ेस इन्वेंटरी";
+
+/* Interfaces */
+"Interfaces" = "इंटरफेस";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "किसी नेटवर्क से जुड़ें या नीचे एक सीमा जोड़ें। स्वीप चलाने से सहायक को फिर से देखने के लिए कहा जाता है।";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "रजिस्ट्री प्रतिसाद से मुख्य फ़ील्ड।";
+
+/* Keys */
+"Keys" = "कुंजियां";
+
+/* Last */
+"Last" = "पिछला";
+
+/* Latency */
+"Latency" = "विलंबता";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "विलंबता, पहुंच और पथ माप।";
+
+/* Lease details */
+"Lease details" = "पट्टे का विवरण";
+
+/* Lease time */
+"Lease time" = "पट्टे का समय";
+
+/* Limited */
+"Limited" = "सीमित";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "गति के लिए स्थानीय/24 तक सीमित";
+
+/* Lines */
+"Lines" = "पंक्तियाँ";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "इस मैक के लिए लिंक विवरण और एक्सेस पॉइंट macOS वर्तमान में देख सकते हैं।";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "ऐप स्टोर उत्पादों को लोड कर रहा है...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "स्थानीय डिवाइस स्वीप";
+
+/* Local Network */
+"Local Network" = "स्थानीय नेटवर्क";
+
+/* Location */
+"Location" = "स्थान";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "प्रमाणपत्र लॉग में डोमेन नाम देख रहे हैं...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "मेल डिलीवरी सर्वर देख रहे हैं...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "पंजीकरण और स्वामित्व रिकॉर्ड देख रहे हैं...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "एसएमटीपी सबमिशन सेवा देख रहे हैं...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "ईमेल कॉन्फ़िगरेशन सेवा देख रहे हैं...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "इस आईपी पते के लिए होस्टनाम देख रहे हैं...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "मूल एएसएन और रूट किए गए उपसर्ग को देख रहे हैं...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "सुरक्षित IMAP सेवा देख रहे हैं...";
+
+/* MAC Formatter */
+"MAC Formatter" = "मैक फॉर्मेटर";
+
+/* MAC address */
+"MAC address" = "मैक पता";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "मैक और विक्रेता छिपे हुए";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "मैक और विक्रेता छिपे हुए - इस दौड़ में खाली";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "मैक और विक्रेता दिखाया गया";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "एमएमएम डी एचएच: मिमी: एसएस yyyy zzz";
+
+/* Mail */
+"Mail" = "मेल";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "मेल स्वतः खोज SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "मेल BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "मेल डीकेआईएम";
+
+/* Mail DMARC */
+"Mail DMARC" = "मेल DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "मेल IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "मेल एमटीए-एसटीएस";
+
+/* Mail MX */
+"Mail MX" = "मेल एमएक्स";
+
+/* Mail SPF */
+"Mail SPF" = "मेल एसपीएफ़";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "मेल सबमिशन SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "मेल TLS रिपोर्ट";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "मेल टीएलएस-आरपीटी";
+
+/* Mail domain */
+"Mail domain" = "मेल डोमेन";
+
+/* Mail domain or server */
+"Mail domain or server" = "मेल डोमेन या सर्वर";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "मेल सर्वर और पोर्ट, उदाहरण के लिए mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "सदस्यता प्रबंधित करें";
+
+/* Maximum */
+"Maximum" = "अधिकतम";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "वर्तमान डाउनलोड, अपलोड, जवाबदेही और कनेक्शन विवरण को मापें";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "पहुंच क्षमता और राउंड-ट्रिप विलंबता को मापें";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "वर्तमान कनेक्शन की मापी गई क्षमता और जवाबदेही।";
+
+/* Measurement */
+"Measurement" = "मापन";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "डाउनलोड, अपलोड और जवाबदेही को मापना...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "पहुंच क्षमता और राउंड-ट्रिप विलंबता को मापना...";
+
+/* Minimum */
+"Minimum" = "बहुत छोटा";
+
+/* Mode */
+"Mode" = "मोड समूह";
+
+/* More copy options */
+"More copy options" = "अधिक प्रतिलिपि विकल्प";
+
+/* My Network Report */
+"My Network Report" = "मेरी नेटवर्क रिपोर्ट";
+
+/* My Public IP */
+"My Public IP" = "मेरा सार्वजनिक आईपी";
+
+/* NTP Offset */
+"NTP Offset" = "एनटीपी ऑफसेट";
+
+/* NTP server */
+"NTP server" = "एनटीपी सर्वर";
+
+/* Name */
+"Name" = "नाम";
+
+/* Names */
+"Names" = "नाम";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "प्रमाणपत्र लॉग में नाम";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "किसी भी अंतर्निहित-TLS सेवा के साथ TLS पर बातचीत करें और चयनित प्रोटोकॉल और सिफर दिखाएँ";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "बातचीत प्रोटोकॉल, सिफर, प्रमाणपत्र पहचान और सत्यापन स्थिति।";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "SMTP STARTTLS पर बातचीत...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "निर्दिष्ट सर्विस पोर्ट पर TLS पर बातचीत करना...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "HTTPS TLS कनेक्शन पर बातचीत करना...";
+
+/* Neighbor */
+"Neighbor" = "पड़ोसी";
+
+/* Neighbor cache */
+"Neighbor cache" = "पड़ोसी कैश";
+
+/* Neighbors */
+"Neighbors" = "पड़ोसी";
+
+/* Netmin Pro */
+"Netmin Pro" = "नेटमिन प्रो";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "नेटमिन प्रो लाइफटाइम · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "नेटमिन प्रो वार्षिक";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "नेटमिन प्रो...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin उन स्थानीय नेटवर्क पर उपकरणों और सेवाओं की खोज करता है जिन्हें आप निरीक्षण करने के लिए चुनते हैं।";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "नेटमिन ने %lld सेकंड के बाद इस आदेश को रोक दिया।";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin ने %@ आउटपुट का उत्पादन करने के बाद इस कमांड को बंद कर दिया।";
+
+/* Network */
+"Network" = "नेटवर्क";
+
+/* Network Lookup */
+"Network Lookup" = "नेटवर्क लुकअप";
+
+/* Network Quality */
+"Network Quality" = "नेटवर्क गुणवत्ता";
+
+/* Network entries */
+"Network entries" = "नेटवर्क प्रविष्टियाँ";
+
+/* Network interfaces */
+"Network interfaces" = "नेटवर्क इंटरफेस";
+
+/* Networks */
+"Networks" = "नेटवर्क";
+
+/* Networks scanned */
+"Networks scanned" = "स्कैन किए गए नेटवर्क";
+
+/* Networks to scan */
+"Networks to scan" = "स्कैन करने के लिए नेटवर्क";
+
+/* New Lookup */
+"New Lookup" = "नया लुकअप";
+
+/* New Report */
+"New Report" = "नई रिपोर्ट";
+
+/* New Sweep */
+"New Sweep" = "नया स्वीप";
+
+/* No */
+"No" = "नहीं";
+
+/* No DNS records found */
+"No DNS records found" = "कोई DNS रिकॉर्ड नहीं मिला";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "इस Apple खाते के लिए कोई Netmin Pro खरीद नहीं मिली।";
+
+/* No common ports are open */
+"No common ports are open" = "कोई सामान्य बंदरगाह खुला नहीं है";
+
+/* No common services */
+"No common services" = "कोई सामान्य सेवा नहीं";
+
+/* No data returned */
+"No data returned" = "कोई डेटा नहीं लौटाया गया";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "कोई भी उपकरण \"%@\" से मेल नहीं खाता है";
+
+/* No devices responded */
+"No devices responded" = "किसी भी डिवाइस ने जवाब नहीं दिया";
+
+/* No diagnostic output */
+"No diagnostic output" = "कोई नैदानिक आउटपुट नहीं";
+
+/* No input required */
+"No input required" = "कोई इनपुट की आवश्यकता नहीं है";
+
+/* No matching tools */
+"No matching tools" = "कोई मिलान उपकरण नहीं";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "कोई निजी IPv4 नेटवर्क नहीं पाया गया · स्कैन करने के लिए एक रेंज जोड़ें";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "कोई निजी IPv4 नेटवर्क का पता नहीं चला";
+
+/* No result returned */
+"No result returned" = "कोई परिणाम नहीं लौटा";
+
+/* No target */
+"No target" = "कोई लक्ष्य नहीं";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "कोई उपकरण \"%@\" से मेल नहीं खाता";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "अपरकेस कोलन-सेपरेटेड फॉर्म के लिए एक मैक पते को सामान्य करें";
+
+/* Not reached */
+"Not reached" = "नहीं पहुंचा";
+
+/* Not selected */
+"Not selected" = "चयनित नहीं";
+
+/* Notafter */
+"Notafter" = "इसके बाद नहीं";
+
+/* Notes */
+"Notes" = "टिप्पणियाँ";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "कुछ भी उत्तर नहीं दिया पिंग या स्कैन किए गए नेटवर्क पर पड़ोसी कैश में दिखाई दिया। जांचें कि यह मैक अपेक्षित नेटवर्क पर है या मैन्युअल रूप से एक रेंज जोड़ें।";
+
+/* Nothing detected */
+"Nothing detected" = "कुछ भी नहीं पता चला";
+
+/* Off */
+"Off" = "बंद";
+
+/* Offset */
+"Offset" = "ऑफसेट";
+
+/* On */
+"On" = "पर";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "केवल IANA रेफरल वापस कर दिया गया था। %@ का पुनः प्रयास करें या रजिस्ट्रार, नेमसर्वर और पंजीकरण तिथियों को पुनः प्राप्त करने के लिए RDAP का उपयोग करें।";
+
+/* Open */
+"Open" = "खोलना";
+
+/* Open ports */
+"Open ports" = "पोर्ट खोलें";
+
+/* Open ports: */
+"Open ports:" = "खुले बंदरगाह:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "वैकल्पिक IPv4 CIDR; रिक्त सभी सक्रिय LAN स्कैन करता है";
+
+/* Options */
+"Options" = "विकल्प";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "मूल एएस और रूट उपसर्ग";
+
+/* Other */
+"Other" = "अन्य";
+
+/* Output */
+"Output" = "उत्पादन";
+
+/* Overview */
+"Overview" = "विहंगावलोकन";
+
+/* Packet loss */
+"Packet loss" = "पैकेट हानि";
+
+/* Partial */
+"Partial" = "आंशिक";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "कमांड को %@ पास करता है";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "भुगतान आपके Apple खाते में जाता है। वार्षिक सदस्यता स्वचालित रूप से नवीनीकृत हो जाती है जब तक कि वर्तमान अवधि समाप्त होने से कम से कम एक दिन पहले ऐप स्टोर सेटिंग्स में रद्द न कर दी जाए।";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "साइडबार से एक टूल चुनें या उन सभी को खोजने के लिए ⌘K दबाएं।";
+
+/* Ping */
+"Ping" = "पिंग";
+
+/* Port */
+"Port" = "बंदरगाह";
+
+/* Port %@ is open */
+"Port %@ is open" = "पोर्ट %@ खुला है";
+
+/* Ports */
+"Ports" = "बंदरगाहों";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "पोर्ट जो एक कनेक्शन स्वीकार करते हैं।";
+
+/* Primary mail server */
+"Primary mail server" = "प्राथमिक मेल सर्वर";
+
+/* Primary nameserver */
+"Primary nameserver" = "प्राथमिक नेमसर्वर";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "प्राथमिक इंटरफ़ेस";
+
+/* Privacy */
+"Privacy" = "गोपनीयता";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "गोपनीयता नीति...";
+
+/* Pro */
+"Pro" = "प्रो";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "प्रो खरीदारी अभी उपलब्ध नहीं है। कृपया बाद में पुनः प्रयास करें।";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "प्रो परीक्षण · %lld दिन शेष";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "प्रो ट्रायल · 1 दिन शेष";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "प्रो परीक्षण · समाप्त होता है %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "प्रो परीक्षण · पहला भुगतान %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "प्रो परीक्षण · %@ तक";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "प्रो कच्चे डायग्नोस्टिक आउटपुट को तालिकाओं, मेट्रिक्स और निष्कर्षों में बदल देता है। 30-दिवसीय परीक्षण के बाद, नि: शुल्क में प्रति दिन पांच अनुरोधों तक के लिए कच्चा आउटपुट शामिल है।";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "प्रो · समाप्त होता है %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "प्रो · आजीवन";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "प्रो · नवीनीकृत %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "प्रो · अपने परिवार के साथ साझा किया";
+
+/* Pro · until %@ */
+"Pro · until %@" = "प्रो · %@ तक";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "macOS में शामिल नेटवर्किंग टूल के साथ 25 सामान्य TCP पोर्ट की जांच करें";
+
+/* Probed */
+"Probed" = "जांच की गई";
+
+/* Proto */
+"Proto" = "आदिम";
+
+/* Protocol */
+"Protocol" = "प्रोटोकॉल";
+
+/* Protocol Version */
+"Protocol Version" = "प्रोटोकॉल संस्करण";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "सार्वजनिक डीएनएस खोज आंशिक है";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "सार्वजनिक DNS जांच में उपयोगी रिकॉर्ड मिले, लेकिन कस्टम नाम अभी भी छुपाए जा सकते हैं।";
+
+/* Public IP */
+"Public IP" = "सार्वजनिक आईपी";
+
+/* Public IPv4 */
+"Public IPv4" = "सार्वजनिक IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "सार्वजनिक IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "सार्वजनिक पता और नेटवर्क स्वामित्व विवरण।";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "सार्वजनिक रिज़ॉल्वरों ने अलग-अलग उत्तर दिए; एक बदलाव अभी भी प्रचार कर रहा है।";
+
+/* Punycode Converter */
+"Punycode Converter" = "पुनीकोड कनवर्टर";
+
+/* Purchase */
+"Purchase" = "खरीदना";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "अभी खरीदारी उपलब्ध नहीं है।";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "किसी DNS-over-HTTPS समापन बिंदु के माध्यम से A रिकॉर्ड क्वेरी करें";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "किसी Windows या SMB डिवाइस द्वारा विज्ञापित NetBIOS नाम और कार्यसमूह क्वेरी करें";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "सर्वर घड़ी क्वेरी करें और मापा स्थानीय ऑफ़सेट दिखाएं";
+
+/* Querying %@… */
+"Querying %@…" = "%@ क्वेरी...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "DNS भौगोलिक स्थान रिकॉर्ड्स को क्वेरी करना...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "DNS पाठ रिकॉर्ड्स क्वेरी कर रहा है...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "DNSSEC सार्वजनिक कुंजियों को क्वेरी करना...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "DNSSEC रिकॉर्ड और हस्ताक्षर क्वेरी करना...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "HTTPS समापन बिंदु और कनेक्शन संकेतों को क्वेरी करना...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "IPv4 पता (A) रिकॉर्ड क्वेरी करना...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "HTTPS पर IPv4 रिकॉर्ड क्वेरी करना...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "IPv6 पता (AAAA) रिकॉर्ड क्वेरी करना...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "एमटीए-एसटीएस नीति खोज रिकॉर्ड क्वेरी करना...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "TLS प्रमाणपत्र संबद्धता रिकॉर्ड्स क्वेरी कर रहा है...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "TLS वितरण रिपोर्टिंग रिकॉर्ड क्वेरी करना...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "आधिकारिक नाम सर्वर रिकॉर्ड्स को क्वेरी करना...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "ब्रांड संकेतक रिकॉर्ड क्वेरी करना...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "प्रमाणपत्र प्राधिकारी प्राधिकरण रिकॉर्ड क्वेरी करना...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "प्रत्यायोजन हस्ताक्षरकर्ता रिकॉर्ड क्वेरी करना...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "होस्टनाम उपनाम (CNAME) रिकॉर्ड्स क्वेरी करना...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "सेवा बाइंडिंग और कनेक्शन पैरामीटर क्वेरी करना...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "सेवा खोज नियमों को क्वेरी करना...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "सेवा होस्ट, पोर्ट और प्राथमिकताओं को क्वेरी करना...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "DKIM चयनकर्ता की सार्वजनिक कुंजी को क्वेरी करना...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Windows या SMB डिवाइस का नाम क्वेरी करना...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "ईमेल प्रमाणीकरण नीति क्वेरी करना...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "प्रेषक प्राधिकरण नीति को क्वेरी करना...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "टाइम सर्वर को क्वेरी करना और घड़ी ऑफसेट को मापना...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "ज़ोन प्राधिकरण और समय रिकॉर्ड को क्वेरी करना...";
+
+/* Quick */
+"Quick" = "तेज़ी से";
+
+/* Quick lookup */
+"Quick lookup" = "त्वरित लुकअप";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "स्थानीय उपकरणों, प्रिंटरों और विज्ञापित सेवाओं को तुरंत ढूंढें";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP डोमेन";
+
+/* RDAP IP */
+"RDAP IP" = "आरडीएपी आईपी";
+
+/* RPKI Validation */
+"RPKI Validation" = "RPKI सत्यापन";
+
+/* Ran %@ */
+"Ran %@" = "भाग %@";
+
+/* Raw Output */
+"Raw Output" = "कच्चा उत्पादन";
+
+/* Raw output */
+"Raw output" = "कच्चा उत्पादन";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "%@ के लिए पहुंच क्षमता और राउंड-ट्रिप टाइमिंग।";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "पहुंच योग्य बंदरगाह, सेवाएँ, और होस्ट-कुंजी विवरण।";
+
+/* Reached */
+"Reached" = "पहुंच गया";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "कैश्ड IPv4 पड़ोसियों को पढ़ना...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "कैश्ड IPv6 पड़ोसियों को पढ़ना...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "macOS DNS रिज़ॉल्वर और खोज डोमेन पढ़ना...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "नेटवर्क इंटरफ़ेस पते और स्थिति पढ़ना...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "सक्रिय इंटरफ़ेस के डीएचसीपी पट्टे को पढ़ना...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "डिफ़ॉल्ट गेटवे और रूटिंग टेबल पढ़ना...";
+
+/* Recent */
+"Recent" = "हाल में";
+
+/* Record */
+"Record" = "अभिलेख";
+
+/* Records */
+"Records" = "अभिलेख";
+
+/* Registrar */
+"Registrar" = "कुल सचिव";
+
+/* Registration and routing data */
+"Registration and routing data" = "पंजीकरण और रूटिंग डेटा";
+
+/* Registry record */
+"Registry record" = "रजिस्ट्री रिकॉर्ड";
+
+/* Registry response */
+"Registry response" = "रजिस्ट्री प्रतिक्रिया";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "रजिस्ट्री प्रतिसाद अपूर्ण है";
+
+/* Related */
+"Related" = "सम्बंधित";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "अगले परिणामों के लिए याद किया गया · ⌘1 अवलोकन, ⌘2 कच्चा आउटपुट";
+
+/* Remove this range */
+"Remove this range" = "इस श्रेणी को हटा दें";
+
+/* Replies */
+"Replies" = "उत्तर";
+
+/* Report for %@ */
+"Report for %@" = "%@ के लिए रिपोर्ट करें";
+
+/* Report overview */
+"Report overview" = "रिपोर्ट अवलोकन";
+
+/* Reports */
+"Reports" = "रिपोर्ट";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "एक आधिकारिक सर्वर से एक पूर्ण DNS ज़ोन स्थानांतरण का अनुरोध करें";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "एक पूर्ण DNS ज़ोन स्थानांतरण का अनुरोध...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "TLS 1.2 की आवश्यकता है और दिखाएँ कि क्या बातचीत सफल होती है";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "TLS 1.3 की आवश्यकता है और दिखाएँ कि क्या बातचीत सफल होती है";
+
+/* Resolved */
+"Resolved" = "हल किया";
+
+/* Resolved address */
+"Resolved address" = "हल किया गया पता";
+
+/* Resolver */
+"Resolver" = "रिज़ॉल्वर";
+
+/* Resolver %@ */
+"Resolver %@" = "रिज़ॉल्वर %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "त्वरित समीक्षा के लिए रिज़ॉल्वर आउटपुट को समूहीकृत किया गया।";
+
+/* Resolver response */
+"Resolver response" = "रिज़ॉल्वर प्रतिक्रिया";
+
+/* Resolvers */
+"Resolvers" = "रिज़ॉल्वर";
+
+/* Resolvers agree */
+"Resolvers agree" = "रिज़ॉल्वर सहमत हैं";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "रिज़ॉल्वर और खोज डोमेन macOS वर्तमान में प्राथमिकता क्रम में उपयोग कर रहा है।";
+
+/* Resolvers differ */
+"Resolvers differ" = "रिज़ॉल्वर अलग-अलग होते हैं";
+
+/* Resources */
+"Resources" = "उपयुक्त संसाधन चुनें";
+
+/* Response */
+"Response" = "प्रतिक्रिया";
+
+/* Response %lld */
+"Response %lld" = "प्रतिक्रिया %lld";
+
+/* Responses */
+"Responses" = "जवाब";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "मल्टीकास्ट खोज के लिए प्रतिक्रियाएं, प्रति घोषणा एक कार्ड।";
+
+/* Responsiveness */
+"Responsiveness" = "जवाबदेही";
+
+/* Restore Purchases */
+"Restore Purchases" = "खरीदारी पुनर्स्थापित करें";
+
+/* Result */
+"Result" = "परिणाम";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "परिणाम प्रत्येक पूर्ण नेटवर्क जांच द्वारा समूहीकृत होते हैं।";
+
+/* Retry registry */
+"Retry registry" = "रजिस्ट्री का पुन: प्रयास करें";
+
+/* Reverse DNS */
+"Reverse DNS" = "रिवर्स डीएनएस";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "राउंड ट्रिप";
+
+/* Route to target */
+"Route to target" = "लक्ष्य के लिए मार्ग";
+
+/* Router */
+"Router" = "राउटर";
+
+/* Routes */
+"Routes" = "मार्ग";
+
+/* Routing record */
+"Routing record" = "रूटिंग रिकॉर्ड";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "%@ के लिए रूटिंग रजिस्ट्री डेटा।";
+
+/* Routing table */
+"Routing table" = "रूटिंग टेबल";
+
+/* Run */
+"Run" = "चलाना";
+
+/* Run Again */
+"Run Again" = "फिर से चलाएँ";
+
+/* Run Lookup */
+"Run Lookup" = "लुकअप चलाएँ";
+
+/* Run Report */
+"Run Report" = "रिपोर्ट चलाएँ";
+
+/* Run Sweep */
+"Run Sweep" = "स्वीप चलाएं";
+
+/* Run Tool */
+"Run Tool" = "रन टूल";
+
+/* Run again */
+"Run again" = "फिर से चलाएं";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "%@ टूल चलाएँ";
+
+/* Running */
+"Running" = "भागना";
+
+/* Running %@… */
+"Running %@…" = "%@ चल रहा है...";
+
+/* Running · %@ s */
+"Running · %@ s" = "चल रहा है · %@ एस";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "एसएमटीपी स्टार्टटीएलएस";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "एसएसडीपी/यूपीएनपी डिस्कवरी";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "एसएसएच होस्ट कुंजी";
+
+/* SSH host keys */
+"SSH host keys" = "एसएसएच होस्ट कुंजियाँ";
+
+/* Save Report… */
+"Save Report…" = "रिपोर्ट सहेजें...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "रिपोर्ट सहेजें और संरचित सारांश कॉपी करें";
+
+/* Scan */
+"Scan" = "स्कैन";
+
+/* Scripts */
+"Scripts" = "लिपियों";
+
+/* Search domain */
+"Search domain" = "खोज डोमेन";
+
+/* Sections */
+"Sections" = "अनुभाग";
+
+/* Security details */
+"Security details" = "सुरक्षा विवरण";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "चयनित";
+
+/* Sequence */
+"Sequence" = "अनुक्रम";
+
+/* Server */
+"Server" = "सर्वर";
+
+/* Service */
+"Service" = "सेवा";
+
+/* Service reachability */
+"Service reachability" = "सेवा पहुंच";
+
+/* Service type */
+"Service type" = "सेवा प्रकार";
+
+/* Service types */
+"Service types" = "सेवा प्रकार";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "खोज विंडो के दौरान स्थानीय नेटवर्क पर घोषित सेवा प्रकार।";
+
+/* Services */
+"Services" = "सेवाएं";
+
+/* Show */
+"Show" = "प्रदर्शन";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "TLS सेवा के लिए DANE प्रमाणपत्र संबद्धता दिखाएँ";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "HTTPS सेवा समापन बिंदु और कनेक्शन संकेत दिखाएं";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "होस्टनाम के लिए प्रकाशित IPv4 पते दिखाएं";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "IPv4 पड़ोसियों को दिखाएं इस मैक ने हाल ही में संपर्क किया है";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "होस्टनाम के लिए प्रकाशित IPv6 पते दिखाएँ";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "MacOS को दिखाई देने वाले वाई-फ़ाई लिंक विवरण और आस-पास के एक्सेस पॉइंट दिखाएं";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "प्रत्येक नेटवर्क इंटरफ़ेस के लिए पते, एमटीयू, स्थिति और काउंटर दिखाएं";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "कैश्ड IPv6 पड़ोसियों और उनके लिंक-लेयर पते दिखाएं";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "प्रमाणपत्र पहचान, जारीकर्ता, वैधता और SHA-256 फ़िंगरप्रिंट दिखाएँ";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "प्रत्येक राउटर को गंतव्य के पथ पर दिखाएं";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "किसी ज़ोन द्वारा प्रकाशित भौगोलिक स्थान रिकॉर्ड दिखाएँ";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "स्थान, नेटवर्क, ASN और स्वामित्व विवरण दिखाएं";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "बातचीत का TLS संस्करण, सिफर, कुंजी विनिमय और सत्यापन दिखाएं";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "नेटवर्क सीमाएँ, netmask, प्रसारण पता और आकार दिखाएँ";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "प्रकाशित पाठ रिकॉर्ड और डोमेन नीतियाँ दिखाएँ";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "कच्चे पंजीकरण और स्वामित्व रिकॉर्ड दिखाएं";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "किसी IP के लिए रजिस्ट्री आवंटन और पंजीकरण विवरण दिखाएँ";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "किसी डोमेन के लिए रजिस्ट्री पंजीकरण और स्थिति विवरण दिखाएँ";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "प्रतिक्रिया शीर्ष लेख और हर रीडायरेक्ट हॉप दिखाएं";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "नियम-आधारित सेवा खोज रिकॉर्ड दिखाएँ";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "सेवा समापन बिंदु और कनेक्शन पैरामीटर दिखाएँ";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "सेवा होस्ट, पोर्ट, प्राथमिकताएँ और वज़न दिखाएँ";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "DNS रिज़ॉल्वर और खोज डोमेन दिखाएँ जिनका macOS वास्तव में उपयोग कर रहा है";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "RIPE द्वारा रिपोर्ट की गई RPKI मार्ग-मूल सत्यापन स्थिति दिखाएँ";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "सक्रिय इंटरफ़ेस का DHCP सर्वर, लीज़ और आपूर्ति किए गए विकल्प दिखाएँ";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "किसी डोमेन के लिए आधिकारिक नाम सर्वर दिखाएँ";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "होस्टनाम के लिए कैननिकल उपनाम लक्ष्य दिखाएं";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "पूर्ण सेवा प्रमाणपत्र श्रृंखला, सत्यापन परिणाम और स्टेपल किए गए OCSP प्रतिसाद दिखाएं";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "डिफ़ॉल्ट गेटवे और पूर्ण IPv4 और IPv6 रूट तालिका दिखाएं";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "डोमेन की ब्रांड संकेतक नीति दिखाएं";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "डोमेन की ईमेल प्रमाणीकरण नीति दिखाएँ";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "बातचीत किए गए HTTP संस्करण, स्थिति, सर्वर पता और TLS परिणाम दिखाएं";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "मूल ASN, रूट किए गए उपसर्ग, रजिस्ट्री और आवंटन विवरण दिखाएँ";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "पैरेंट-ज़ोन डेलिगेशन हस्ताक्षरकर्ता रिकॉर्ड दिखाएँ";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "वह नीति दिखाएँ जिसके लिए सुरक्षित मेल वितरण की आवश्यकता होती है";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "किसी साइट द्वारा लौटाए गए मुख्य ब्राउज़र सुरक्षा शीर्ष लेख दिखाएँ";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "इंटरनेट द्वारा देखा गया सार्वजनिक IP पता दिखाएँ";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "DKIM चयनकर्ता के लिए सार्वजनिक कुंजी दिखाएँ";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "DNS ज़ोन को मान्य करने के लिए उपयोग की जाने वाली सार्वजनिक कुंजियाँ दिखाएँ";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "सर्वर के विज्ञापित SSH होस्ट-कुंजी फ़िंगरप्रिंट दिखाएँ";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "किसी डोमेन के लिए मेल प्राप्त करने वाले सर्वर दिखाएँ";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "दिखाएँ कि TLS डिलीवरी रिपोर्ट कहाँ भेजी जाती हैं";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "दिखाएँ कि कौन से प्रमाणपत्र प्राधिकारी प्रमाण पत्र जारी कर सकते हैं";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "दिखाएँ कि कौन से सर्वर मेल भेजने के लिए अधिकृत हैं";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "ज़ोन प्राधिकरण, धारावाहिक और समय की जानकारी दिखाएँ";
+
+/* Site Report */
+"Site Report" = "साइट रिपोर्ट";
+
+/* Site report for example.org */
+"Site report for example.org" = "example.org के लिए साइट रिपोर्ट";
+
+/* State */
+"State" = "राज्य";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "राज्य:/नेटवर्क/ग्लोबल/आईपीवी4";
+
+/* Statistics */
+"Statistics" = "स्‍टैटिस्टिक्‍स";
+
+/* Status */
+"Status" = "स्थिति";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "स्थिति, प्रोटोकॉल, रीडायरेक्ट और लौटाए गए हेडर।";
+
+/* Stop */
+"Stop" = "रुको";
+
+/* Stop Sweep */
+"Stop Sweep" = "स्वीप बंद करो";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "%@ के लिए संरचित रजिस्ट्री प्रतिक्रिया।";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "संरचित रिपोर्ट एक Netmin Pro सुविधा है";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "तालिकाओं, मीट्रिक और निष्कर्षों के साथ संरचित रिपोर्ट";
+
+/* Structured resolver response. */
+"Structured resolver response." = "संरचित रिज़ॉल्वर प्रतिक्रिया।";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "वेब सेवा से संरचित प्रतिक्रिया।";
+
+/* System network configuration */
+"System network configuration" = "सिस्टम नेटवर्क कॉन्फ़िगरेशन";
+
+/* TCP Port Check */
+"TCP Port Check" = "टीसीपी पोर्ट चेक";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "टीसीपी पहुंच क्षमता";
+
+/* TLS 1.2 */
+"TLS 1.2" = "टीएलएस 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "टीएलएस 1.2 हैंडशेक";
+
+/* TLS 1.3 */
+"TLS 1.3" = "टीएलएस 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "टीएलएस 1.3 हैंडशेक";
+
+/* TLS Certificate */
+"TLS Certificate" = "टीएलएस प्रमाणपत्र";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "टीएलएस प्रमाणपत्र श्रृंखला";
+
+/* TLS Handshake */
+"TLS Handshake" = "टीएलएस हैंडशेक";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "टीएलएस सेवा हैंडशेक";
+
+/* TLS connection */
+"TLS connection" = "टीएलएस कनेक्शन";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "टीएलएस, वेब और पोर्ट";
+
+/* Target */
+"Target" = "लक्ष्य";
+
+/* Target (optional) */
+"Target (optional)" = "लक्ष्य (वैकल्पिक)";
+
+/* Target did not reply */
+"Target did not reply" = "लक्ष्य ने जवाब नहीं दिया";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "लक्ष्य में रिक्त स्थान नहीं हो सकते";
+
+/* Terms */
+"Terms" = "शर्तें";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "SMTP 25, SMTPS 465, सबमिशन 587, IMAPS 993 और POP3S 995 का एक साथ परीक्षण करें";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "DNS-over-TLS सर्वर के साथ TLS बातचीत का परीक्षण करें";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "परीक्षण टीएलएस 1.2 बातचीत...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "परीक्षण टीएलएस 1.3 बातचीत...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "DNS पोर्ट 853 पर TLS वार्ता का परीक्षण...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "SMTP, IMAP और POP3 सेवाओं पर TLS का परीक्षण...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "निर्दिष्ट TCP पोर्ट से कनेक्शन का परीक्षण करना...";
+
+/* Text */
+"Text" = "टेक्स्ट";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "25 सबसे आम टीसीपी पोर्ट की जांच एक सेकंड के टाइमआउट के साथ की गई थी।";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store इस खरीद को सत्यापित नहीं कर सका।";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "मैक कैननिकल अपरकेस, कोलन-अलग रूप में पता।";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Netmin उपकरण कैटलॉग में कोई मान्य उपकरण नहीं है।";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL को एक योजना और एक होस्ट की आवश्यकता होती है, उदाहरण के लिए https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "सक्रिय इंटरफ़ेस का पट्टा और इसके डीएचसीपी सर्वर द्वारा प्रदान किए गए विकल्प।";
+
+/* The address is not valid. */
+"The address is not valid." = "पता मान्य नहीं है.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "इस कनेक्शन के लिए इंटरनेट को वह पता दिखाई देता है.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "ऐप ने रीडायरेक्ट का पालन किया, लेकिन वेबसाइट ने इस फ़ाइल को बार-बार उसी URL पर वापस भेज दिया। कोई फ़ाइल वापस नहीं की गई।";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "आधिकारिक सर्वर ने एक पूर्ण AXFR ज़ोन स्थानांतरण की अनुमति दी।";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "आधिकारिक सर्वर ने पूर्ण क्षेत्र स्थानांतरण प्रदान नहीं किया। ये सार्वजनिक जांच के माध्यम से पाए जाने वाले रिकॉर्ड हैं; कस्टम नाम अभी भी मौजूद हो सकते हैं।";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "बंडल किया गया Netmin टूल कैटलॉग गायब है।";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "कमांड पूरा हो गया, लेकिन लक्ष्य ने कोई मिलान डेटा नहीं दिया।";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "डायग्नोस्टिक आउटपुट उत्पन्न करने से पहले कमांड विफल हो गया।";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "डिफ़ॉल्ट मार्ग और प्रत्येक IPv4 और IPv6 मार्ग macOS के बारे में जानता है।";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "पहले 30 दिनों में प्रो शामिल हैं। परीक्षण के बाद, फ्री प्रति दिन पांच डायग्नोस्टिक अनुरोधों के साथ सभी 84 उपकरण और कच्चे आउटपुट रखता है।";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "उपसर्ग के बाद/एक संख्या होनी चाहिए";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "विवरण लौटाने से पहले प्रक्रिया स्थिति %lld के साथ बाहर निकल गई। जांचें कि आवश्यक कमांड स्थापित है और लक्ष्य पहुंच योग्य है।";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "खरीद अनुमोदन की प्रतीक्षा कर रही है।";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "रजिस्ट्री ने एक असंरचित प्रतिक्रिया लौटाई; इसकी उपयोगी लाइनें नीचे दिखाई गई हैं।";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "रिज़ॉल्वर ने कोई मेल खाने वाला उत्तर नहीं दिया।";
+
+/* This Mac */
+"This Mac" = "यह मैक";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "यह इस मैक से सहेजे गए लक्ष्यों और हाल ही में चलने वाले सारांश को हटा देता है। यह निर्यात की गई रिपोर्ट को नहीं हटाता है।";
+
+/* Time */
+"Time" = "समय";
+
+/* Timeouts */
+"Timeouts" = "टाइमआउट";
+
+/* Tools */
+"Tools" = "उपकरण";
+
+/* Tools unavailable */
+"Tools unavailable" = "उपकरण अनुपलब्ध";
+
+/* Trace */
+"Trace" = "ट्रेस";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "DNSSEC विश्वास श्रृंखला को रूट से ट्रेस करें";
+
+/* Traceroute */
+"Traceroute" = "ट्रेसरूट";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "DNS प्रतिनिधिमंडलों और DNSSEC रिकॉर्ड का पता लगाना...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "DNS प्रतिनिधिमंडलों को जड़ से ट्रेस करना...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "गंतव्य के लिए नेटवर्क पथ का पता लगाना...";
+
+/* Try Again */
+"Try Again" = "पुन: प्रयास करें";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "इसके बजाय RDAP का प्रयास करें →";
+
+/* Type */
+"Type" = "प्रकार";
+
+/* Types */
+"Types" = "प्रकार";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnP डिवाइस और सेवाएँ";
+
+/* URL */
+"URL" = "यूआरएल";
+
+/* Uncertainty */
+"Uncertainty" = "अनिश्चितता";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "पठनीय रिपोर्ट और निर्यात टूल के साथ असीमित नेटवर्क डायग्नोस्टिक्स।";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "सभी 84 नैदानिक उपकरणों का असीमित उपयोग";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "%@ अनलॉक करें, साथ ही संपूर्ण प्रो फीचर सेट भी अनलॉक करें।";
+
+/* Unlock Report… */
+"Unlock Report…" = "रिपोर्ट अनलॉक करें...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "संरचित सारांश अनलॉक करें...";
+
+/* Unnamed */
+"Unnamed" = "अनाम";
+
+/* Unsigned */
+"Unsigned" = "अहस्ताक्षरित";
+
+/* Upload */
+"Upload" = "अपलोड करें";
+
+/* Use custom resolver */
+"Use custom resolver" = "कस्टम रिज़ॉल्वर का उपयोग करें";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "होस्ट: पोर्ट, एक IPv6 पता, या एक मैक पते का उपयोग करें";
+
+/* Utilities */
+"Utilities" = "उपयोगिताएँ";
+
+/* VPN tunnel */
+"VPN tunnel" = "वीपीएन सुरंग";
+
+/* Validated */
+"Validated" = "मान्य";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "टीएलएसए रिकॉर्ड और उनकी डीएनएसएसईसी श्रृंखला को मान्य करना...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "DNS उत्तर और DNSSEC श्रृंखला को मान्य करना...";
+
+/* Value */
+"Value" = "मूल्य";
+
+/* Values produced by %@. */
+"Values produced by %@." = "%@ द्वारा उत्पादित मान।";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "macOS द्वारा %@ के लिए रिपोर्ट किए गए मान।";
+
+/* Values returned for %@. */
+"Values returned for %@." = "मान %@ के लिए लौटाए गए।";
+
+/* Vendor */
+"Vendor" = "विक्रेता";
+
+/* Verification */
+"Verification" = "सत्यापन";
+
+/* Verify Return Code */
+"Verify Return Code" = "रिटर्न कोड सत्यापित करें";
+
+/* View */
+"View" = "द्वारा";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "नेटमिन प्रो देखें...";
+
+/* Virtual bridge */
+"Virtual bridge" = "आभासी पुल";
+
+/* Virtual machine network */
+"Virtual machine network" = "वर्चुअल मशीन नेटवर्क";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS सर्वर";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "पहली प्रतिक्रिया की प्रतीक्षा में...";
+
+/* Web policy status */
+"Web policy status" = "वेब नीति की स्थिति";
+
+/* Wi-Fi */
+"Wi-Fi" = "वाई-फाई";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "वाई-फाई डायग्नोस्टिक्स";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "वाई-फ़ाई की स्थिति";
+
+/* Window */
+"Window" = "खिड़की";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Windows नाम खोज";
+
+/* Yes */
+"Yes" = "हाँ";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "आपके पास Netmin Pro है।";
+
+/* Your public address */
+"Your public address" = "आपका सार्वजनिक पता";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "सक्रिय";
+
+/* advanced structured reports */
+"advanced structured reports" = "उन्नत संरचित रिपोर्ट";
+
+/* all detected */
+"all detected" = "सभी का पता चला";
+
+/* arp table */
+"arp table" = "एआरपी टेबल";
+
+/* as name */
+"as name" = "नाम के रूप में";
+
+/* closed */
+"closed" = "बंद";
+
+/* command */
+"command" = "आदेश";
+
+/* complete zone */
+"complete zone" = "पूरा क्षेत्र";
+
+/* configured */
+"configured" = "कॉन्फ़िगर किया गया";
+
+/* creation date */
+"creation date" = "निर्माण की तारीख";
+
+/* device sweep */
+"device sweep" = "डिवाइस स्वीप";
+
+/* did not answer within */
+"did not answer within" = "भीतर जवाब नहीं दिया";
+
+/* differs */
+"differs" = "अलग है";
+
+/* domain name */
+"domain name" = "डोमेन नाम";
+
+/* down */
+"down" = "नीचे";
+
+/* downlink capacity */
+"downlink capacity" = "डाउनलिंक क्षमता";
+
+/* expiration date */
+"expiration date" = "समाप्ति तिथि";
+
+/* expiration date: */
+"expiration date:" = "समाप्ति तिथि:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "समाप्त %lld दिन पहले";
+
+/* expires today */
+"expires today" = "आज समाप्त हो रहा है";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "चार ICMP इको अनुरोध";
+
+/* gateway %@ */
+"gateway %@" = "गेटवे %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "%lld दिनों में";
+
+/* inactive */
+"inactive" = "निष्क्रिय";
+
+/* incomplete */
+"incomplete" = "अधूरा";
+
+/* ip information */
+"ip information" = "आईपी जानकारी";
+
+/* just now */
+"just now" = "अभी";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "गति के लिए स्थानीय/24 तक सीमित";
+
+/* local */
+"local" = "स्थानीय";
+
+/* loss %@ */
+"loss %@" = "नुकसान %@";
+
+/* median %@ */
+"median %@" = "माध्यिका %@";
+
+/* name server */
+"name server" = "नाम सर्वर";
+
+/* name server: */
+"name server:" = "नाम सर्वर:";
+
+/* network */
+"network" = "नेटवर्क";
+
+/* network lookup */
+"network lookup" = "नेटवर्क लुकअप";
+
+/* network quality */
+"network quality" = "नेटवर्क गुणवत्ता";
+
+/* network report */
+"network report" = "नेटवर्क रिपोर्ट";
+
+/* networks */
+"networks" = "नेटवर्क";
+
+/* no address */
+"no address" = "कोई पता नहीं";
+
+/* no answer */
+"no answer" = "कोई जवाब नहीं";
+
+/* no ping replies */
+"no ping replies" = "कोई पिंग उत्तर नहीं";
+
+/* no reply */
+"no reply" = "कोई जवाब नहीं";
+
+/* open */
+"open" = "खोलें";
+
+/* packets transmitted */
+"packets transmitted" = "पैकेट प्रेषित";
+
+/* primary %@ */
+"primary %@" = "प्राथमिक %@";
+
+/* public ip */
+"public ip" = "सार्वजनिक आईपी";
+
+/* raw output */
+"raw output" = "कच्चा उत्पादन";
+
+/* reachable */
+"reachable" = "पहुंच योग्य";
+
+/* redirects followed */
+"redirects followed" = "रीडायरेक्ट का अनुसरण किया गया";
+
+/* registrar name */
+"registrar name" = "रजिस्ट्रार का नाम";
+
+/* registry expiry date */
+"registry expiry date" = "रजिस्ट्री की समाप्ति तिथि";
+
+/* registry expiry date: */
+"registry expiry date:" = "रजिस्ट्री की समाप्ति तिथि:";
+
+/* resolution failed */
+"resolution failed" = "समाधान विफल रहा";
+
+/* reverse dns */
+"reverse dns" = "रिवर्स डीएनएस";
+
+/* run with last target */
+"run with last target" = "अंतिम लक्ष्य के साथ चलाएं";
+
+/* scoped */
+"scoped" = "स्कोप्ड";
+
+/* search domain */
+"search domain" = "खोज डोमेन";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.डोमेन";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "SHA256 फिंगरप्रिंट";
+
+/* site report */
+"site report" = "साइट रिपोर्ट";
+
+/* summary */
+"summary" = "सारांश";
+
+/* target */
+"target" = "लक्ष्य";
+
+/* the address */
+"the address" = "पता";
+
+/* the selected resource */
+"the selected resource" = "चयनित संसाधन";
+
+/* the selected target */
+"the selected target" = "चयनित लक्ष्य";
+
+/* the target */
+"the target" = "लक्ष्य";
+
+/* timed out */
+"timed out" = "समय समाप्त";
+
+/* unknown */
+"unknown" = "अप्रसिद्घ व्यक्ति";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "असीमित नैदानिक अनुरोध";
+
+/* up */
+"up" = "ऊपर";
+
+/* updated date */
+"updated date" = "अद्यतन तिथि";
+
+/* uplink capacity */
+"uplink capacity" = "अपलिंक क्षमता";
+
+/* verify return code */
+"verify return code" = "वापसी कोड सत्यापित करें";
+
+/* via %@ */
+"via %@" = "%@ के माध्यम से";
+
+/* windows name */
+"windows name" = "Windows का नाम";
+
+/* ~%lld s */
+"~%lld s" = "~%lld एस";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "%@ को पसंदीदा में जोड़ें";
+
+/* Favorites */
+"Favorites" = "पसंदीदा";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "%@ को पसंदीदा से हटाएँ";
+
+/* – %@ ms */
+"– %@ ms" = "- %@ एमएस";
+
+/* Pro features are locked */
+"Pro features are locked" = "Pro सुविधाएँ लॉक हैं";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "इन्हें अनलॉक करने के लिए खरीदें या खरीदारी बहाल करें।";
+
+/* Restoring… */
+"Restoring…" = "बहाल किया जा रहा है…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "कोई सक्रिय पास्टेमिन खरीदारी नहीं मिली।";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP प्रीफ़िक्स";
+
+/* Primary */
+"Primary" = "प्राथमिक";
+
+/* All relevant */
+"All relevant" = "सभी प्रासंगिक";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "मूल ASN, उदाहरण AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP प्रीफ़िक्स, उदाहरण 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "जाँचें कि मूल ASN को IP प्रीफ़िक्स घोषित करने की अनुमति है या नहीं";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "हर आधिकारिक नेम सर्वर से पूर्ण ज़ोन ट्रांसफ़र का प्रयास करें";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "होस्टनाम, सेवा नाम या IP पता";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Cloudflare, Google, Quad9 और OpenDNS के कैश किए गए DNS उत्तरों की तुलना करें";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "सभी प्रासंगिक रिकॉर्ड प्रकारों की तुलना करें";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "सार्वजनिक रिज़ॉल्वर के उत्तरों की तुलना की जा रही है…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "इस लक्ष्य पर लागू सामान्य रिकॉर्ड प्रकारों की तुलना करता है।";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "होस्टनाम के लिए A, IP पते के लिए PTR या सेवा नाम के लिए SRV जाँचता है।";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "सभी सार्वजनिक रिज़ॉल्वर ने समान DNS उत्तर दिए।";
