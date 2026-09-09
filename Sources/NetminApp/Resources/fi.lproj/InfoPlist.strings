@@ -1,0 +1,3 @@
+/* Netmin — fi Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin löytää laitteet ja palvelut paikallisista verkoista, jotka valitset tarkastettavaksi.";
