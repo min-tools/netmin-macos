@@ -1,0 +1,3 @@
+/* Netmin — hi Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "नेटमिन आपके द्वारा निरीक्षण के लिए चुने गए स्थानीय नेटवर्क पर उपकरणों और सेवाओं की खोज करता है।";
