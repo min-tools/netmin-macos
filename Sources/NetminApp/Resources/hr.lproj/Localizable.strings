@@ -1,0 +1,2690 @@
+/* Netmin — hr localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "ms";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ prihvatio TCP vezu.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ nije se moglo dohvatiti";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ nije dovršeno";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ otvori";
+
+/* %@ open ports */
+"%@ open ports" = "%@ otvorene luke";
+
+/* %@ per year */
+"%@ per year" = "%@ godišnje";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld adrese";
+
+/* %lld answers */
+"%lld answers" = "%lld odgovori";
+
+/* %lld bytes */
+"%lld bytes" = "%lld bajtova";
+
+/* %lld checks */
+"%lld checks" = "%lld provjere";
+
+/* %lld day */
+"%lld day" = "%lld dan";
+
+/* %lld days */
+"%lld days" = "%lld dana";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld detektiran · skeniranje svega traje otprilike %lld s";
+
+/* %lld devices */
+"%lld devices" = "%lld uređaji";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld uređaji na %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld unosa";
+
+/* %lld headers */
+"%lld headers" = "%lld zaglavlja";
+
+/* %lld hops */
+"%lld hops" = "%lld hmelj";
+
+/* %lld hosts */
+"%lld hosts" = "%lld voditelji";
+
+/* %lld hour */
+"%lld hour" = "%lld sat";
+
+/* %lld hours */
+"%lld hours" = "%lld sati";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld nedovršeno";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld sučelja";
+
+/* %lld keys */
+"%lld keys" = "%lld tipke";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld ograničeno na /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld linije · %lld likovi";
+
+/* %lld matches */
+"%lld matches" = "%lld mečevi";
+
+/* %lld minute */
+"%lld minute" = "%lld minuta";
+
+/* %lld minutes */
+"%lld minutes" = "%lld minuta";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld više linija · koristi Copy Result za kompletan izlaz";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld imenovano · %lld neimenovano";
+
+/* %lld names */
+"%lld names" = "%lld imena";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld susjedi";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld od %lld mreža · o %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld od %lld otvoreno";
+
+/* %lld open */
+"%lld open" = "%lld otvori";
+
+/* %lld received */
+"%lld received" = "%lld primljeno";
+
+/* %lld records */
+"%lld records" = "%lld rekordi";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld zapisi · djelomično";
+
+/* %lld redirects */
+"%lld redirects" = "%lld preusmjeravanja";
+
+/* %lld responses */
+"%lld responses" = "%lld odgovori";
+
+/* %lld routes */
+"%lld routes" = "%lld rute";
+
+/* %lld rows */
+"%lld rows" = "%lld redovi";
+
+/* %lld second */
+"%lld second" = "%lld sekunda";
+
+/* %lld seconds */
+"%lld seconds" = "%lld sekundi";
+
+/* %lld service types */
+"%lld service types" = "%lld vrste usluga";
+
+/* %lld services */
+"%lld services" = "%lld usluge";
+
+/* %lld tools */
+"%lld tools" = "%lld alati";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", s:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ok)";
+
+/* 1 match */
+"1 match" = "1 utakmica";
+
+/* 1 response */
+"1 response" = "1 odgovor";
+
+/* 1 service */
+"1 service" = "1 Služba";
+
+/* 2 minutes ago */
+"2 minutes ago" = "Prije 2 minute";
+
+/* ; fully validated */
+"; fully validated" = "; Potpuno potvrđeno";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; nepotpisani odgovor";
+
+/* ; validation failed */
+"; validation failed" = "; Validacija nije uspjela";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "CIDR raspon zahtijeva punu adresu prije prefiksa, npr. 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "Pregled može uključivati najviše 16 ručno dodanih raspona.";
+
+/* ARP Table */
+"ARP Table" = "ARP tablica";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "ASN i BGP pretraživanje";
+
+/* Actions */
+"Actions" = "Radnje";
+
+/* Active */
+"Active" = "Aktivno";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Aktivne unose prijavljuju macOS i alati za lokalno otkrivanje.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "Aktivni unosi prijavljeni od strane macOS-a.";
+
+/* Add */
+"Add" = "Dodaj";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Dodajte %@ na skeniranje";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Dodajte raspon, npr. 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Dodano ručno";
+
+/* Added range */
+"Added range" = "Povećani domet";
+
+/* Address */
+"Address" = "Adresa";
+
+/* Address details */
+"Address details" = "Podaci o adresi";
+
+/* Address details for %@ */
+"Address details for %@" = "Podaci o adresi za %@";
+
+/* Addresses */
+"Addresses" = "Adrese";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Adrese s kojima je Mac nedavno razmjenjivao pakete.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Povećava dostupnost, uobičajene luke i rutu. Može potrajati neko vrijeme.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Dodaje pokušaje prijenosa zona, DNSSEC signale, više naziva računala i naziva certifikata.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Oglašene Bonjour usluge";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Oglašavano tijekom razdoblja otkrivanja.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "IPv4 adresa treba četiri broja od 0 do 255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "IPv4 prefiks ide od /0 do /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "IPv6 prefiks ide od /0 do /128";
+
+/* Answer %lld */
+"Answer %lld" = "Odgovor %lld";
+
+/* Answers */
+"Answers" = "Odgovori";
+
+/* Answers by resolver */
+"Answers by resolver" = "Odgovori resolvera";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Odgovori vraćeni za %@.";
+
+/* Assigned address */
+"Assigned address" = "Dodijeljena adresa";
+
+/* Authenticated */
+"Authenticated" = "Autentificirano";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Automatsko obnavljanje svake godine · otkaži u bilo kojem trenutku";
+
+/* Average */
+"Average" = "Prosjek";
+
+/* Bits */
+"Bits" = "Bitovi";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour Services";
+
+/* Bonjour services */
+"Bonjour services" = "Bonjour usluge";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Pregledajte Bonjour vrste usluga najavljene na lokalnoj mreži pet sekundi";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Pregledavajući oglašene Bonjour vrste usluga...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Izradite kombinirani DNS, izvještaj o usmjeravanju, vlasništvu i mreži";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Izradite kombinirani izvještaj za trenutnu mrežnu vezu";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Izrada izvještaja za trenutnu vezu...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "Izrada DNS-a, izvještaja o rutiranju i vlasništvu...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "CIDR kalkulator";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "CIDR raspon · %@ adrese";
+
+/* Calculated result */
+"Calculated result" = "Izračunati rezultat";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Izračunavanje mrežnih granica i broja adresa...";
+
+/* Cancel */
+"Cancel" = "Otkaži";
+
+/* Certificate */
+"Certificate" = "Certifikat";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Transparentnost certifikata";
+
+/* Certificate expires */
+"Certificate expires" = "Potvrda istječe";
+
+/* Certificate names */
+"Certificate names" = "Nazivi certifikata";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Provjerite DNS, web i SSH portove, HTTPS zaglavlja, chain certifikata, TLS verzije, OCSP i MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Provjerite autentificira li resolver za validaciju DNS odgovor";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Provjerite autentificira li resolver za validaciju TLSA odgovor";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Provjerite otkriva li označena zona NSEC zapise";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Provjerite prihvaća li jedan TCP port vezu";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Provjerite je li domena uključena ili podobna za HSTS predučitavanje";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "Provjeravam DNS, TLS, web i mail usluge...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "Provjeravam status HSTS preload-liste...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Provjeravam ima li objavljenih NSEC zapisa...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Provjeravam 25 najčešćih TCP portova...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Provjera dogovorene HTTP verzije i odgovora...";
+
+/* Checks */
+"Checks" = "Provjere";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Provjerava apex zapise, pravila pošte, usluge, zajedničke hostove i DKIM selektore.";
+
+/* Choose a tool */
+"Choose a tool" = "Odaberite alat";
+
+/* Cipher */
+"Cipher" = "Šifra";
+
+/* Ciphersuite */
+"Ciphersuite" = "Ciphersuite";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Jasni nedavni podaci";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Jasni nedavni podaci...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Očistiti nedavne Netmin podatke?";
+
+/* Clear search */
+"Clear search" = "Čista pretraga";
+
+/* Clear target */
+"Clear target" = "Očistite metu";
+
+/* Clock offset */
+"Clock offset" = "Pomak sata";
+
+/* Close */
+"Close" = "Kraj";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Prikupljanje Wi-Fi i detalja o obližnjim pristupnim točkama...";
+
+/* Common Port Scan */
+"Common Port Scan" = "Common Port Scan";
+
+/* Common TCP services */
+"Common TCP services" = "Uobičajene TCP usluge";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Usporedite IPv4 odgovore s Cloudflarea, Googlea, Quad9 i OpenDNS-a";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "Uspoređujući IPv4 odgovore od javnih resolvera...";
+
+/* Complete */
+"Complete" = "Završeno";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Complete DNS zone for %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Potpunost: Potpunost";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Potpunost: Djelomično otkrivanje";
+
+/* Configuration */
+"Configuration" = "Konfiguracija";
+
+/* Connection */
+"Connection" = "Povezanost";
+
+/* Connection quality */
+"Connection quality" = "Kvaliteta veze";
+
+/* Connection succeeded */
+"Connection succeeded" = "Veza uspješna";
+
+/* Connection timing */
+"Connection timing" = "Vrijeme povezivanja";
+
+/* Consistent */
+"Consistent" = "Dosljedno";
+
+/* Content */
+"Content" = "Sadržaj";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Sadržaj vraćen od strane cilja, spreman za pregled ili kopiranje.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Pretvaranje internacionalizirane domene između Unicode i ASCII obrazaca";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Pretvaranje domene između Unicodea i ASCII-ja...";
+
+/* Copied %@ */
+"Copied %@" = "Kopirano %@";
+
+/* Copy Address */
+"Copy Address" = "Kopiraj adresu";
+
+/* Copy Command */
+"Copy Command" = "Naredba za kopiranje";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Kopiraj MAC adresu";
+
+/* Copy Name */
+"Copy Name" = "Ime kopije";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Kopiraj sirovi izlaz";
+
+/* Copy Result */
+"Copy Result" = "Kopiraj rezultat";
+
+/* Copy Summary */
+"Copy Summary" = "Sažetak kopije";
+
+/* Copy Target */
+"Copy Target" = "Kopiraj Target";
+
+/* Copy error */
+"Copy error" = "Pogreška u kopiranju";
+
+/* Country */
+"Country" = "Zemlja";
+
+/* Coverage */
+"Coverage" = "Pokrivenost";
+
+/* DANE Validation */
+"DANE Validation" = "DANE validacija";
+
+/* DHCP Lease */
+"DHCP Lease" = "DHCP najam";
+
+/* DHCP lease */
+"DHCP lease" = "DHCP najam";
+
+/* DHCP server */
+"DHCP server" = "DHCP poslužitelj";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "DNS konfiguracija";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC provjera šetnje";
+
+/* DNS Propagation */
+"DNS Propagation" = "DNS propagacija";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNS Trace";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "Otkrivanje DNS zona";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "DNS prijenos zone";
+
+/* DNS answers */
+"DNS answers" = "DNS odgovori";
+
+/* DNS configuration */
+"DNS configuration" = "DNS konfiguracija";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS preko HTTPS-a";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS preko TLS Endpointa";
+
+/* DNS records */
+"DNS records" = "DNS zapisi";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "DNS zapisi otkriveni za %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS zapisi, geolokacija i ASN. Obično nekoliko sekundi.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "DNS resolveri u upotrebi";
+
+/* DNS response */
+"DNS response" = "DNS odgovor";
+
+/* DNS server */
+"DNS server" = "DNS poslužitelj";
+
+/* DNS service name */
+"DNS service name" = "DNS naziv usluge";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC lančani trag";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "DNSSEC provjera";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "DNSSEC validacija";
+
+/* Deep */
+"Deep" = "Duboko";
+
+/* Deep discovery */
+"Deep discovery" = "Duboko otkriće";
+
+/* Default */
+"Default" = "Zadano stanje";
+
+/* Default route */
+"Default route" = "Zadana ruta";
+
+/* Default ·  */
+"Default · " = "Zadani ·";
+
+/* Depth */
+"Depth" = "Dubina";
+
+/* Destination */
+"Destination" = "Odredište";
+
+/* Destination not reached */
+"Destination not reached" = "Odredište nije stiglo";
+
+/* Details */
+"Details" = "Detalji";
+
+/* Detect again */
+"Detect again" = "Ponovno detektiraj";
+
+/* Devices */
+"Devices" = "Uređaji";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Uređaji (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Razlika između ovog Macovog sata i %@.";
+
+/* Directives */
+"Directives" = "Smjernice";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Otkrijte javne DNS zapise, standardne usluge, mail politike, DKIM selektore i podatke o izloženim zonama";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Otkrijte rutere, uređaje za pohranu, televizore i druge UPnP usluge";
+
+/* Discovered network resources */
+"Discovered network resources" = "Otkriveni mrežni resursi";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "Otkrivanje UPnP uređaja i usluga...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Otkrivanje lokalnih uređaja i reklamiranih usluga...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Otkrivanje javnih DNS zapisa i podataka o zonama...";
+
+/* Discovery output */
+"Discovery output" = "Izlaz otkrića";
+
+/* Discovery results */
+"Discovery results" = "Rezultati otkrića";
+
+/* DoT hostname */
+"DoT hostname" = "DoT naziv hosta";
+
+/* Domain */
+"Domain" = "Domena";
+
+/* Domain name */
+"Domain name" = "Naziv domene";
+
+/* Domain or hostname */
+"Domain or hostname" = "Domena ili naziv računala";
+
+/* Download */
+"Download" = "Preuzmi";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Svaki usmjerivač na putu; vrijeme povratka mjeri se na odredištu.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Omogućuje opcionalno ponašanje alata";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Unesite raspon poput 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Unesite IPv4 raspon s prefiksom od /0 do /30, na primjer 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Prijave";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Svaka adresa u traženom rasponu, po jedna po liniji.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Svako sučelje koje macOS izvještava, s njegovim adresama i statusom veze.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Svaki javni resolver vraćao je iste IPv4 odgovore.";
+
+/* Exit status */
+"Exit status" = "Status izlaska";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Proširite upravljivi CIDR blok na pojedinačne adrese";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "Proširenje CIDR opsega na pojedinačne adrese...";
+
+/* Expires */
+"Expires" = "Istječe";
+
+/* Failed */
+"Failed" = "Neuspjeh";
+
+/* Fast local discovery */
+"Fast local discovery" = "Brzo lokalno otkrivanje";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Preuzmite pravila pristupa crawleru stranice";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Preuzmite objavljenu politiku sigurnosnih kontakta na stranici";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "Dohvaćanje HTTP zaglavlja i praćenje preusmjeravanja...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "Dohvat IP lokacije i podataka o mreži...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "Dohvaćanje IP registracijskih zapisa putem RDAP-a...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "Dohvaćanje SSH ključeva i izračunavanje otisaka prstiju...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Dohvat sigurnosnih zaglavlja preglednika...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Dohvat evidencije o registraciji domene putem RDAP-a...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Dohvaćam status validacije porijekla rute...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "Dohvat HTTPS certifikata i podataka o identitetu...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Dohvat lanca certifikata i spajanog OCSP odgovora...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Dohvat pravila pristupa crawlerima na stranici...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Preuzimam sigurnosnu politiku kontakta na stranici...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Dohvat vaše javne IP adrese...";
+
+/* Fields */
+"Fields" = "Polja";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Filter %lld alati";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Filtrirajte prema IP-u, imenu, sučelju";
+
+/* Final status */
+"Final status" = "Konačni status";
+
+/* Find Tool… */
+"Find Tool…" = "Pronađi alat...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Pronađi Netmin alat";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Pronađite nazive certifikata koji mogu otkriti povezane poddomene";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Pronađite oglašenu autentificiranu SMTP uslugu";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Pronađite oglašenu uslugu konfiguracije e-pošte";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Pronađite oglašenu sigurnu IMAP uslugu";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Pronađite ime računala povezano s IP adresom";
+
+/* Fingerprint */
+"Fingerprint" = "Otisak prsta";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Otisci prstiju koje je server prikazao, za usporedbu s unosom poznatog domaćina.";
+
+/* First */
+"First" = "Prvo";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Slijedite DNS delegaciju od korijena do odgovora";
+
+/* Formatted */
+"Formatted" = "Formatirani";
+
+/* Formatted address */
+"Formatted address" = "Formatirana adresa";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "Formatiranje MAC adrese...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Besplatno · %lld od %lld zahtjeva koji su danas poslani";
+
+/* From */
+"From" = "Iz";
+
+/* Full */
+"Full" = "Puna";
+
+/* Gateway */
+"Gateway" = "Gateway";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Gateway %@ · Zadana ruta";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Ulaz i rute";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Gateway i tablica usmjeravanja";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "Status predopterećenja HSTS-a";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP zaglavlja";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP protokol";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTP sigurnosni zaglavlja";
+
+/* HTTP response */
+"HTTP response" = "HTTP odgovor";
+
+/* HTTP status */
+"HTTP status" = "HTTP status";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Odgovor rukovanjem";
+
+/* Hide */
+"Hide" = "Sakrij se";
+
+/* Hop */
+"Hop" = "Hop";
+
+/* Hops */
+"Hops" = "Hmelj";
+
+/* Host */
+"Host" = "Voditelj";
+
+/* Host and port */
+"Host and port" = "Domaćin i luka";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Host i port, na primjer example.com:443";
+
+/* Host keys */
+"Host keys" = "Ključevi domaćina";
+
+/* Hostname */
+"Hostname" = "Naziv domaćina";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Nazivi hostova koji su se pojavili u javnim certifikatima za ovu domenu.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Hostovi koji su odgovarali pingom ili se pojavljivali u susjednoj predmemoriji, s imenima, latencijom i oglašenim uslugama.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Hostovi, oglašene usluge i dostupne krajnje točke pronađene su tijekom ovog procesa.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "IANA WHOIS poslužitelj";
+
+/* IP Information */
+"IP Information" = "IP informacije";
+
+/* IP Range Expander */
+"IP Range Expander" = "IP Range Expander";
+
+/* IP address */
+"IP address" = "IP adresa";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP adresa ili ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP adresa ili domena";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP adresa ili ime računala";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP adresa ili prefiks";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "Intelektualno vlasništvo, usmjeravanje i registracija";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "IPv4 CIDR raspon, maksimalno 4096 adresa";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4 adresa";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "IPv4 adresa s CIDR-om";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4 susjedi";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6 susjedi";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6 adresa";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Pregled DNSSEC zapisa i validacijskih potpisa";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Pregledajte SMTP banner i pregovarajte o STARTTLS-u";
+
+/* Interface */
+"Interface" = "Sučelje";
+
+/* Interface Inventory */
+"Interface Inventory" = "Inventar sučelja";
+
+/* Interfaces */
+"Interfaces" = "Sučelja";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Pridružite se mreži ili dodajte raspon ispod. Pokretanje pretraživanja traži pomoćnika da ponovno pogleda.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Ključna polja iz odgovora registra.";
+
+/* Keys */
+"Keys" = "Ključevi";
+
+/* Last */
+"Last" = "Zadnji";
+
+/* Latency */
+"Latency" = "Latencija";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Mjerenja latencije, dosegljivosti i puta.";
+
+/* Lease details */
+"Lease details" = "Detalji najma";
+
+/* Lease time */
+"Lease time" = "Vrijeme najma";
+
+/* Limited */
+"Limited" = "Ograničeni";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Ograničeno na lokalni /24 radi brzine";
+
+/* Lines */
+"Lines" = "Linije";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Detalji linka za ovaj Mac i pristupne točke koje macOS trenutno može vidjeti.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "Učitavanje proizvoda iz App Storea...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Lokalni pregled uređaja";
+
+/* Local Network */
+"Local Network" = "Lokalna mreža";
+
+/* Location */
+"Location" = "Lokacija";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Traženje domena u zapisima certifikata...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Tražim servere za dostavu pošte...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Gledajući evidenciju o registraciji i vlasništvu...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "Tražim SMTP uslugu za podnošenje...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Gledajući uslugu konfiguracije e-pošte...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Tražim ime hosta za ovu IP adresu...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Tražim izvorni ASN i rutirani prefiks...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Tražim sigurnu IMAP uslugu...";
+
+/* MAC Formatter */
+"MAC Formatter" = "MAC Formatter";
+
+/* MAC address */
+"MAC address" = "MAC adresa";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC i dobavljač skriveni";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC i dobavljač skriveni — prazni u ovom naletu";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "Prikazani MAC i dobavljač";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Pošta";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Pošalji automatski otkrivaj SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Mail BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "Pošalji DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "Mail DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Pošalji IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Poštom MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "Mail SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "Mail Submission SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Pošalji TLS izvještaj";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Pošta TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Mail domena";
+
+/* Mail domain or server */
+"Mail domain or server" = "Mail domena ili poslužitelj";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Mail poslužitelj i port, na primjer mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Upravljaj pretplatom";
+
+/* Maximum */
+"Maximum" = "Maksimum";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Izmjerite trenutno preuzimanje, slanje podataka, odzivnost i detalje veze";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Izmjerite dostupnost i latenciju povratnog putovanja";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Izmjerio sam kapacitet i odziv trenutne veze.";
+
+/* Measurement */
+"Measurement" = "Mjerenje";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Mjerenje preuzimanja, slanja i odzivnosti...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Mjerenje dostupnosti i latencije u oba smjera...";
+
+/* Minimum */
+"Minimum" = "Minimum";
+
+/* Mode */
+"Mode" = "Način rada";
+
+/* More copy options */
+"More copy options" = "Više opcija kopiranja";
+
+/* My Network Report */
+"My Network Report" = "Moj izvještaj o mreži";
+
+/* My Public IP */
+"My Public IP" = "Moj javni IP";
+
+/* NTP Offset */
+"NTP Offset" = "NTP pomak";
+
+/* NTP server */
+"NTP server" = "NTP poslužitelj";
+
+/* Name */
+"Name" = "Ime";
+
+/* Names */
+"Names" = "Imena";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Imena u zapisima certifikata";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Pregovarajte TLS s bilo kojom implicitnom TLS uslugom i pokažite odabrani protokol i šifru";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Pregovarani protokol, šifra, identitet certifikata i status verifikacije.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "PREGOVORI O SMTP STARTOVIMA...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Pregovaranje TLS-a na specificiranom servisnom portu...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "Pregovaranje o HTTPS TLS vezi...";
+
+/* Neighbor */
+"Neighbor" = "Susjed";
+
+/* Neighbor cache */
+"Neighbor cache" = "Susjedna predmemorija";
+
+/* Neighbors */
+"Neighbors" = "Susjedi";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Lifetime · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro Godišnje";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin otkriva uređaje i usluge na lokalnim mrežama koje odaberete za inspekciju.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin je zaustavio ovu naredbu nakon %lld sekundi.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin je zaustavio ovu naredbu nakon što je proizvela %@ outputa.";
+
+/* Network */
+"Network" = "Mreža";
+
+/* Network Lookup */
+"Network Lookup" = "Pretraživanje mreže";
+
+/* Network Quality */
+"Network Quality" = "Kvaliteta mreže";
+
+/* Network entries */
+"Network entries" = "Ulazi u mrežu";
+
+/* Network interfaces */
+"Network interfaces" = "Mrežna sučelja";
+
+/* Networks */
+"Networks" = "Mreže";
+
+/* Networks scanned */
+"Networks scanned" = "Skenirane mreže";
+
+/* Networks to scan */
+"Networks to scan" = "Mreže za skeniranje";
+
+/* New Lookup */
+"New Lookup" = "Novi izgled";
+
+/* New Report */
+"New Report" = "Novi izvještaj";
+
+/* New Sweep */
+"New Sweep" = "Novi Sweep";
+
+/* No */
+"No" = "Ne";
+
+/* No DNS records found */
+"No DNS records found" = "Nema pronađenih DNS zapisa";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Nije pronađena kupnja Netmin Pro za ovaj Apple račun.";
+
+/* No common ports are open */
+"No common ports are open" = "Nijedan zajednički port nije otvoren";
+
+/* No common services */
+"No common services" = "Nema zajedničkih usluga";
+
+/* No data returned */
+"No data returned" = "Nema vraćenih podataka";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Nijedan uređaj ne odgovara \"%@\"";
+
+/* No devices responded */
+"No devices responded" = "Nijedan uređaj nije odgovorio";
+
+/* No diagnostic output */
+"No diagnostic output" = "Nema dijagnostičkog izlaza";
+
+/* No input required */
+"No input required" = "Nije potreban nikakav unos";
+
+/* No matching tools */
+"No matching tools" = "Nema alata za podudaranje";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Nije otkrivena privatna IPv4 mreža · Dodaj raspon za skeniranje";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Nije otkrivena privatna IPv4 mreža";
+
+/* No result returned */
+"No result returned" = "Nema rezultata";
+
+/* No target */
+"No target" = "Nema mete";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "Nijedan alat ne odgovara \"%@\"";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Normalizirajte MAC adresu u oblik odvojen velikim dvotočkama";
+
+/* Not reached */
+"Not reached" = "Nije dostignuto";
+
+/* Not selected */
+"Not selected" = "Nije odabran";
+
+/* Notafter */
+"Notafter" = "Notafter";
+
+/* Notes */
+"Notes" = "Bilješke";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Ništa nije odgovorilo na ping niti se pojavilo u susjednoj predmemoriji na skeniranim mrežama. Provjerite je li ovaj Mac na očekivanoj mreži ili ručno dodajte raspon.";
+
+/* Nothing detected */
+"Nothing detected" = "Ništa nije otkriveno";
+
+/* Off */
+"Off" = "Isključeno";
+
+/* Offset */
+"Offset" = "Pomak";
+
+/* On */
+"On" = "Na";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Vraćena je samo IANA preporuka. Pokušajte ponovno %@ ili koristite RDAP za dohvat registrara, nameservera i datuma registracije.";
+
+/* Open */
+"Open" = "Otvoreno";
+
+/* Open ports */
+"Open ports" = "Otvoreni portovi";
+
+/* Open ports: */
+"Open ports:" = "Otvorene luke:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "Opcionalni IPv4 CIDR; blank skenira sve aktivne LAN mreže";
+
+/* Options */
+"Options" = "Opcije";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Podrijetlo AS i rutirani prefiks";
+
+/* Other */
+"Other" = "Ostalo";
+
+/* Output */
+"Output" = "Izlaz";
+
+/* Overview */
+"Overview" = "Pregled";
+
+/* Packet loss */
+"Packet loss" = "Gubitak paketa";
+
+/* Partial */
+"Partial" = "Djelomično";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Predaje %@ zapovjedništvu";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Uplata ide na vaš Apple račun. Godišnja pretplata se automatski obnavlja osim ako nije otkazana u postavkama App Storea barem dan prije isteka trenutnog razdoblja.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Odaberi alat sa bočne trake ili pritisni ⌘K da pretražiš sve.";
+
+/* Ping */
+"Ping" = "Ping";
+
+/* Port */
+"Port" = "Luka";
+
+/* Port %@ is open */
+"Port %@ is open" = "Luka %@ je otvorena";
+
+/* Ports */
+"Ports" = "Portovi";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Portovi koji prihvaćaju vezu.";
+
+/* Primary mail server */
+"Primary mail server" = "Primarni mail poslužitelj";
+
+/* Primary nameserver */
+"Primary nameserver" = "Primarni poslužitelj imena";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "PrimaryInterface";
+
+/* Privacy */
+"Privacy" = "Privatnost";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Pravila privatnosti...";
+
+/* Pro */
+"Pro" = "Profesionalci";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Pro kupnje trenutno nisu dostupne. Molimo pokušajte ponovno kasnije.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Pro trial · %lld preostali dani";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Za suđenje · Preostalo je 1 dan";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Pro trial · Završava %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Pro trial · Prva uplata %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Pro trial · do %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro pretvara sirove dijagnostičke rezultate u tablice, metrike i nalaze. Nakon 30-dnevnog probnog perioda, Free uključuje sirovi izlaz za do pet zahtjeva dnevno.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Pro · završava %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Prednosti · Životni vijek";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Pro · obnavlja se %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Prednosti · dijeljeno s vašom obitelji";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Pro · do %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Probe 25 uobičajenih TCP portova s mrežnim alatima uključenim u macOS";
+
+/* Probed */
+"Probed" = "Ispitivano";
+
+/* Proto */
+"Proto" = "Proto";
+
+/* Protocol */
+"Protocol" = "Protokol";
+
+/* Protocol Version */
+"Protocol Version" = "Verzija protokola";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Javno otkrivanje DNS-a je djelomično";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Javno DNS ispitivanje pronašlo je korisne zapise, ali prilagođena imena možda su i dalje skrivena.";
+
+/* Public IP */
+"Public IP" = "Javni intelektualni vlasništvo";
+
+/* Public IPv4 */
+"Public IPv4" = "Javni IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "Javni IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Detalji o javnoj adresi i vlasništvu nad mrežom.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Javni resolveri su davali različite odgovore; promjena se možda još uvijek širi.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Punycode pretvarač";
+
+/* Purchase */
+"Purchase" = "Kupnja";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Kupnje trenutno nisu dostupne.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Upit A zapisa putem DNS-over-HTTPS krajnje točke";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Upitaj NetBIOS ime i radnu grupu koju oglašava Windows ili SMB uređaj";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Upitajte server clock i prikažite izmjereni lokalni pomak";
+
+/* Querying %@… */
+"Querying %@…" = "Upit %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "Pretraživanje DNS geografskih zapisa o lokaciji...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "Upiti DNS tekstualnih zapisa...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "Upit za DNSSEC javne ključeve...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "Upiti DNSSEC zapisa i potpisa...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "Upiti HTTPS krajnjih točaka i savjeta za povezivanje...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "Upiti IPv4 adrese (A) zapisa...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "Upiti IPv4 zapisa preko HTTPS-a...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "Upit IPv6 adresa (AAAA) zapisa...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Pretraživanje zapisa o otkrivanju MTA-STS politika...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "Pretraživanje TLS certifikata o asocijaciji zapisa...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "Upit TLS izvještaja o dostavi...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Upiti autoritativnih zapisa poslužitelja imena...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Pretraživanje evidencije indikatora brenda...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Upit o autorizaciji certifikatnih autoriteta...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Upit o zapisima potpisnika delegacije...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Upit o imenima hosta (CNAME) zapisima...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Upit o vezama servisa i parametrima veze...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Upit pravila za otkrivanje usluga...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Upit poslužiteljima servisa, portovima i prioritetima...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "Upit o javnom ključu DKIM selektora...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Upit za Windows ili SMB ime uređaja...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Upit o politici autentifikacije putem e-pošte...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Upit prema politici autorizacije pošiljatelja...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Upit na vremenski server i mjerenje pomaka sata...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Upit o ovlastima zone i evidencijama o vremenu...";
+
+/* Quick */
+"Quick" = "Brzo";
+
+/* Quick lookup */
+"Quick lookup" = "Brza pretraga";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Brzo pronađite lokalne uređaje, pisače i oglašene usluge";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP domena";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "RPKI validacija";
+
+/* Ran %@ */
+"Ran %@" = "Ran %@";
+
+/* Raw Output */
+"Raw Output" = "Sirovi izlaz";
+
+/* Raw output */
+"Raw output" = "Sirova proizvodnja";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Dostupnost i vrijeme povratka za %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Dostupni portovi, usluge i podaci o host-keyu.";
+
+/* Reached */
+"Reached" = "Dosegnut";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Čitanje predmeširanih IPv4 susjeda...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Čitanje predmeširanih IPv6 susjeda...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "Čitanje macOS DNS resolvera i pretraživanja domena...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Čitanje adresa i statusa mrežnih sučelja...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Čitajući DHCP zakup aktivnog sučelja...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Čitanje zadane gateway i tablice usmjeravanja...";
+
+/* Recent */
+"Recent" = "Nedavno";
+
+/* Record */
+"Record" = "Rekord";
+
+/* Records */
+"Records" = "Rekordi";
+
+/* Registrar */
+"Registrar" = "Registrar";
+
+/* Registration and routing data */
+"Registration and routing data" = "Podaci o registraciji i usmjeravanju";
+
+/* Registry record */
+"Registry record" = "Registarski zapis";
+
+/* Registry response */
+"Registry response" = "Odgovor registra";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Odgovor registra je nepotpun";
+
+/* Related */
+"Related" = "Povezano";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Pamti se po sljedećim rezultatima · ⌘1 Pregled, ⌘2 Sirovi rezultat";
+
+/* Remove this range */
+"Remove this range" = "Uklonite taj raspon";
+
+/* Replies */
+"Replies" = "Odgovori";
+
+/* Report for %@ */
+"Report for %@" = "Izvještaj za %@";
+
+/* Report overview */
+"Report overview" = "Pregled izvještaja";
+
+/* Reports */
+"Reports" = "Izvještaji";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Zatražite potpuni prijenos DNS zone s autoritativnog poslužitelja";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Zahtijevam potpuni prijenos DNS zone...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Zahtijevajte TLS 1.2 i pokažite je li pregovaranje uspješno";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Zahtijevajte TLS 1.3 i pokažite je li pregovaranje uspješno";
+
+/* Resolved */
+"Resolved" = "Rezolucija";
+
+/* Resolved address */
+"Resolved address" = "Riješena adresa";
+
+/* Resolver */
+"Resolver" = "Resolver";
+
+/* Resolver %@ */
+"Resolver %@" = "Resolver %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Izlaz iz resolvera grupiran za brzi pregled.";
+
+/* Resolver response */
+"Resolver response" = "Odgovor resolvera";
+
+/* Resolvers */
+"Resolvers" = "Resolveri";
+
+/* Resolvers agree */
+"Resolvers agree" = "Resolveri se slažu";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Resolveri i domene pretraživanja koje macOS trenutno koristi, po redoslijedu prioriteta.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Resolveri se razlikuju";
+
+/* Resources */
+"Resources" = "Resursi";
+
+/* Response */
+"Response" = "Odaziv";
+
+/* Response %lld */
+"Response %lld" = "Odgovor %lld";
+
+/* Responses */
+"Responses" = "Odgovori";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Odgovori na multicast pretragu, jedna kartica po objavi.";
+
+/* Responsiveness */
+"Responsiveness" = "Odazivnost";
+
+/* Restore Purchases */
+"Restore Purchases" = "Obnovi kupnje";
+
+/* Result */
+"Result" = "Rezultat";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "Rezultati su grupirani prema svakoj završenoj provjeri mreže.";
+
+/* Retry registry */
+"Retry registry" = "Registar ponovnog pokušaja";
+
+/* Reverse DNS */
+"Reverse DNS" = "Obrnuti DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Povratna vožnja";
+
+/* Route to target */
+"Route to target" = "Ruta do cilja";
+
+/* Router */
+"Router" = "Router";
+
+/* Routes */
+"Routes" = "Rute";
+
+/* Routing record */
+"Routing record" = "Rekord u rutiranju";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Routing registry data for %@.";
+
+/* Routing table */
+"Routing table" = "Tablica usmjeravanja";
+
+/* Run */
+"Run" = "Bježi";
+
+/* Run Again */
+"Run Again" = "Trči opet";
+
+/* Run Lookup */
+"Run Lookup" = "Pokreni Lookup";
+
+/* Run Report */
+"Run Report" = "Izvještaj o trčanju";
+
+/* Run Sweep */
+"Run Sweep" = "Run Sweep";
+
+/* Run Tool */
+"Run Tool" = "Alat za pokretanje";
+
+/* Run again */
+"Run again" = "Trči opet";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Pokreni alat %@";
+
+/* Running */
+"Running" = "Trčanje";
+
+/* Running %@… */
+"Running %@…" = "Trčim %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "Running · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "SSDP/UPnP otkrivanje";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "SSH Host Keys";
+
+/* SSH host keys */
+"SSH host keys" = "SSH ključevi hosta";
+
+/* Save Report… */
+"Save Report…" = "Spremi izvještaj...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Spremite izvještaje i kopirajte strukturirane sažetke";
+
+/* Scan */
+"Scan" = "Skeniraj";
+
+/* Scripts */
+"Scripts" = "Scenariji";
+
+/* Search domain */
+"Search domain" = "Domena pretraživanja";
+
+/* Sections */
+"Sections" = "Odjeljci";
+
+/* Security details */
+"Security details" = "Sigurnosni detalji";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Odabrani";
+
+/* Sequence */
+"Sequence" = "Redoslijed";
+
+/* Server */
+"Server" = "Server";
+
+/* Service */
+"Service" = "Služba";
+
+/* Service reachability */
+"Service reachability" = "Dostupnost usluge";
+
+/* Service type */
+"Service type" = "Vrsta usluge";
+
+/* Service types */
+"Service types" = "Vrste usluga";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Vrste usluga najavljene na lokalnoj mreži tijekom prozora otkrivanja.";
+
+/* Services */
+"Services" = "Usluge";
+
+/* Show */
+"Show" = "Emisija";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Prikaži DANE certifikate za TLS uslugu";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Prikaži HTTPS servisne krajnje točke i savjete za povezivanje";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Prikaži IPv4 adrese objavljene za ime računala";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Prikaži IPv4 susjede koje je ovaj Mac nedavno kontaktirao";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Prikaži IPv6 adrese objavljene za naziv računala";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Prikaži detalje Wi-Fi veze i obližnje pristupne točke vidljive macOS-u";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Prikaži adrese, MTU, status i brojače za svako mrežno sučelje";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Prikaži keširane IPv6 susjede i njihove adrese na link-sloju";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Pokažite identitet certifikata, izdavatelja, valjanost i otisak prsta SHA-256";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Pokažite svaki router na putu do odredišta";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Prikaži geografske zapise lokacije objavljene od strane zone";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Lokacija emisije, mreža, ASN i detalji o vlasništvu";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Prikaži pregovaranu TLS verziju, šifru, razmjenu ključeva i verifikaciju";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Prikaži mrežne granice, netmask, broadcast adresu i veličinu";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Prikaži objavljene tekstualne zapise i pravila domene";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Prikaži sirove evidencije registracije i vlasništva";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Prikaži detalje o dodjeli registra i registraciji za IP";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Prikaži podatke o registraciji i statusu domene";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Prikaži zaglavlja odgovora i svaki preusmjeravajući hop";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Prikaži zapise o otkrivanju usluga temeljene na pravilima";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Prikaži krajnje točke usluge i parametre veze";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Domaćini usluga, luke, prioriteti i težine";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Prikaži DNS resolvere i domene pretraživanja koje macOS zapravo koristi";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Prikaži stanje validacije RPKI rute prijavljeno od strane RIPE-a";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Prikaži DHCP server aktivnog sučelja, najam i ponuđene opcije";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Prikaži autoritativne poslužitelje imena za domenu";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Prikaži kanonski alias target za ime domaćina";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Prikaži kompletan lanac serviranih certifikata, rezultat verifikacije i spajani OCSP odgovor";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Prikaži zadani gateway i kompletnu IPv4 i IPv6 tablicu rutiranja";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Prikaži politiku indikatora brenda domene";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Prikaži politiku autentifikacije e-pošte domene";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Prikaži dogovorenu HTTP verziju, status, adresu poslužitelja i TLS rezultat";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Prikažite izvorni ASN, prefiks usmjeravanja, registar i detalje o dodjeli";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Prikaži zapise potpisnika delegacije u roditeljskoj zoni";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Pokažite politiku koja zahtijeva sigurnu dostavu pošte";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Prikaži glavne sigurnosne zaglavlja preglednika koje vraća stranica";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Prikaži javnu IP adresu koju vidi internet";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Prikaži javni ključ za DKIM selektor";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Prikaži javne ključeve korištene za validaciju DNS zone";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Prikaži oglašene SSH otiske host-ključa servera";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Prikaži servere koji primaju poštu za domenu";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Prikaži gdje se šalju TLS izvještaji o dostavi";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Pokažite koje certifikacijske vlasti mogu izdavati potvrde";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Prikaži koji su poslužitelji ovlašteni za slanje pošte";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Prikaži informacije o ovlastima zone, serijskom broju i vremenu";
+
+/* Site Report */
+"Site Report" = "Izvještaj o lokaciji";
+
+/* Site report for example.org */
+"Site report for example.org" = "Izvještaj o lokaciji za example.org";
+
+/* State */
+"State" = "Država";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Stanje:/Network/Global/IPv4";
+
+/* Statistics */
+"Statistics" = "Statistika";
+
+/* Status */
+"Status" = "Status";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Status, protokol, preusmjeravanja i vraćena zaglavlja.";
+
+/* Stop */
+"Stop" = "Stani";
+
+/* Stop Sweep */
+"Stop Sweep" = "Stop Sweep";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Strukturirani odgovor registra za %@.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Strukturirani izvještaji su značajka Netmin Pro";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Strukturirana izvješća s tablicama, metrikama i nalazima";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Strukturirani odgovor resolvera.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Strukturirani odgovor web servisa.";
+
+/* System network configuration */
+"System network configuration" = "Konfiguracija mrežne mreže sustava";
+
+/* TCP Port Check */
+"TCP Port Check" = "TCP provjera portova";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "DOSTUPNOST TCP-A";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Rukovanje";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Rukovanje";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS certifikat";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "TLS lanac certifikata";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS rukovanje";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "TLS servisni handshake";
+
+/* TLS connection */
+"TLS connection" = "TLS veza";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, web i portovi";
+
+/* Target */
+"Target" = "Cilj";
+
+/* Target (optional) */
+"Target (optional)" = "Cilj (opcionalno)";
+
+/* Target did not reply */
+"Target did not reply" = "Target nije odgovorio";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Ciljevi ne mogu sadržavati razmake";
+
+/* Terms */
+"Terms" = "Uvjeti";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Testirajte SMTP 25, SMTPS 465, podnesak 587, IMAPS 993 i POP3S 995 istovremeno";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Testirajte TLS pregovaranje s DNS-over-TLS poslužiteljem";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "Testiranje TLS 1.2 pregovaranja...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "Testiram TLS 1.3 pregovore...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "Testiram TLS pregovaranje na DNS portu 853...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "Testiranje TLS-a na SMTP, IMAP i POP3 uslugama...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Testiranje veze na zadani TCP port...";
+
+/* Text */
+"Text" = "Tekst";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "25 najčešćih TCP portova pregledano je s timeoutom od jedne sekunde.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store nije mogao potvrditi ovu kupnju.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "MAC adresa je kanonska velika slova, odvojena dvotočkama.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Netmin katalog alata ne sadrži valjane alate.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL treba shemu i domaćina, npr. https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "Najam aktivnog sučelja i opcije koje je DHCP poslužitelj nudio.";
+
+/* The address is not valid. */
+"The address is not valid." = "Adresa nije valjana.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "Adresa koju internet vidi za tu vezu.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "Aplikacija je slijedila preusmjeravanja, ali web stranica je ovu datoteku vraćala na isti URL više puta. Nijedna datoteka nije vraćena.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "Autoritativni poslužitelj omogućavao je potpuni prijenos AXFR zone.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "Autoritativni poslužitelji nisu omogućili potpuni prijenos zona. To su zapisi pronađeni putem javnih istraga; prilagođena imena još uvijek mogu postojati.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "Nedostaje priloženi Netmin katalog alata.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Naredba je izvršena, ali cilj nije vratio nikakve podudarajuće podatke.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Naredba nije uspjela prije nego što je proizvela dijagnostički izlaz.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "Zadana ruta i svaka IPv4 i IPv6 ruta koju macOS poznaje.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "Prvih 30 dana uključuje Pro. Nakon probnog razdoblja, Free zadržava svih 84 alata i sirovi izlaz, s pet dijagnostičkih zahtjeva dnevno.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "Prefiks nakon / mora biti broj";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Proces je završio sa statusom %lld prije povrata podataka. Provjerite je li potrebna naredba instalirana i je li cilj dostupan.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "Kupnja čeka odobrenje.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Registar je vratio nestrukturirani odgovor; njegove korisne linije prikazane su dolje.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "Resolver nije dao podudarne odgovore.";
+
+/* This Mac */
+"This Mac" = "Ovaj Mac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "Ovo uklanja spremljene ciljeve i nedavno pokrenute sažetke s ovog Maca. Ne briše izvezene izvještaje.";
+
+/* Time */
+"Time" = "Vrijeme";
+
+/* Timeouts */
+"Timeouts" = "Timeouti";
+
+/* Tools */
+"Tools" = "Alati";
+
+/* Tools unavailable */
+"Tools unavailable" = "Alati nedostupni";
+
+/* Trace */
+"Trace" = "Trace";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Pratite DNSSEC lanac povjerenja od korijena";
+
+/* Traceroute */
+"Traceroute" = "Traceroute";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "Praćenje DNS delegacija i DNSSEC zapisa...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "Praćenje DNS delegacija od roota...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Prateći mrežni put do odredišta...";
+
+/* Try Again */
+"Try Again" = "Pokušaj ponovno";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Pokušaj s RDAP-om →";
+
+/* Type */
+"Type" = "Vrsta";
+
+/* Types */
+"Types" = "Vrste";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnP uređaji i usluge";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "Neizvjesnost";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Neograničena dijagnostika mreže s čitljivim izvještajima i alatima za izvoz.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Neograničena upotreba svih 84 dijagnostička alata";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Otključajte %@, plus kompletan Pro set značajki.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Izvještaj za otključavanje...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Otključaj strukturirani sažetak...";
+
+/* Unnamed */
+"Unnamed" = "Neimenovani";
+
+/* Unsigned */
+"Unsigned" = "Nepotpisano";
+
+/* Upload */
+"Upload" = "Upload";
+
+/* Use custom resolver */
+"Use custom resolver" = "Koristi prilagođeni resolver";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Koristite host:port, IPv6 adresu ili MAC adresu";
+
+/* Utilities */
+"Utilities" = "Komunalne usluge";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPN tunel";
+
+/* Validated */
+"Validated" = "Potvrđeno";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "Validiranje TLSA zapisa i njihovog DNSSEC lanca...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "Validacija DNS odgovora i DNSSEC lanca...";
+
+/* Value */
+"Value" = "Vrijednost";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Vrijednosti proizvedene s %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "Vrijednosti koje macOS prijavljuje za %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Vrijednosti vraćene za %@.";
+
+/* Vendor */
+"Vendor" = "Prodavač";
+
+/* Verification */
+"Verification" = "Verifikacija";
+
+/* Verify Return Code */
+"Verify Return Code" = "Provjeri povratni kod";
+
+/* View */
+"View" = "Pogled";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Pogledajte Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "Virtualni most";
+
+/* Virtual machine network */
+"Virtual machine network" = "Mreža virtualnih strojeva";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS poslužitelj";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Čekajući prvi odgovor...";
+
+/* Web policy status */
+"Web policy status" = "Status web politike";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Wi-Fi dijagnostika";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Wi-Fi status";
+
+/* Window */
+"Window" = "Prozor";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Windows otkrivanje imena";
+
+/* Yes */
+"Yes" = "Da";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Imaš Netmin Pro.";
+
+/* Your public address */
+"Your public address" = "Vaš javni govor";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "aktivan";
+
+/* advanced structured reports */
+"advanced structured reports" = "Napredni strukturirani izvještaji";
+
+/* all detected */
+"all detected" = "sve otkriveno";
+
+/* arp table */
+"arp table" = "ARP tablica";
+
+/* as name */
+"as name" = "Kao ime";
+
+/* closed */
+"closed" = "zatvoreno";
+
+/* command */
+"command" = "Zapovjedništvo";
+
+/* complete zone */
+"complete zone" = "Potpuna zona";
+
+/* configured */
+"configured" = "konfiguriran";
+
+/* creation date */
+"creation date" = "Datum osnivanja";
+
+/* device sweep */
+"device sweep" = "Skeniranje uređaja";
+
+/* did not answer within */
+"did not answer within" = "nije odgovorio unutar";
+
+/* differs */
+"differs" = "razlikuje se";
+
+/* domain name */
+"domain name" = "Naziv domene";
+
+/* down */
+"down" = "dolje";
+
+/* downlink capacity */
+"downlink capacity" = "Kapacitet prijenosa prema dolje";
+
+/* expiration date */
+"expiration date" = "Datum isteka";
+
+/* expiration date: */
+"expiration date:" = "Rok trajanja:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "istekao %lld prije nekoliko dana";
+
+/* expires today */
+"expires today" = "Istječe danas";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "četiri ICMP echo zahtjeva";
+
+/* gateway %@ */
+"gateway %@" = "gateway %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "za %lld dana";
+
+/* inactive */
+"inactive" = "Neaktivan";
+
+/* incomplete */
+"incomplete" = "nedovršeno";
+
+/* ip information */
+"ip information" = "IP informacije";
+
+/* just now */
+"just now" = "Upravo sada";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "ograničen na lokalni /24 radi brzine";
+
+/* local */
+"local" = "Lokalno";
+
+/* loss %@ */
+"loss %@" = "gubitak %@";
+
+/* median %@ */
+"median %@" = "medijan %@";
+
+/* name server */
+"name server" = "Poslužitelj imena";
+
+/* name server: */
+"name server:" = "Poslužitelj imena:";
+
+/* network */
+"network" = "Mreža";
+
+/* network lookup */
+"network lookup" = "Pretraživanje mreže";
+
+/* network quality */
+"network quality" = "Kvaliteta mreže";
+
+/* network report */
+"network report" = "Izvještaj mreže";
+
+/* networks */
+"networks" = "Mreže";
+
+/* no address */
+"no address" = "Nema adrese";
+
+/* no answer */
+"no answer" = "Nema odgovora";
+
+/* no ping replies */
+"no ping replies" = "Nema ping odgovora";
+
+/* no reply */
+"no reply" = "Nema odgovora";
+
+/* open */
+"open" = "Otvori";
+
+/* packets transmitted */
+"packets transmitted" = "Poslani paketi";
+
+/* primary %@ */
+"primary %@" = "Primarni %@";
+
+/* public ip */
+"public ip" = "Javna intelektualna svojina";
+
+/* raw output */
+"raw output" = "Sirova proizvodnja";
+
+/* reachable */
+"reachable" = "dostupno";
+
+/* redirects followed */
+"redirects followed" = "Slijedila su preusmjeravanja";
+
+/* registrar name */
+"registrar name" = "Naziv registrara";
+
+/* registry expiry date */
+"registry expiry date" = "Datum isteka registra";
+
+/* registry expiry date: */
+"registry expiry date:" = "Datum isteka registra:";
+
+/* resolution failed */
+"resolution failed" = "Rezolucija nije uspjela";
+
+/* reverse dns */
+"reverse dns" = "Obrnuti DNS";
+
+/* run with last target */
+"run with last target" = "Trči s posljednjim ciljem";
+
+/* scoped */
+"scoped" = "Scoped";
+
+/* search domain */
+"search domain" = "Domena pretraživanja";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "SHA256 otisak prsta";
+
+/* site report */
+"site report" = "Izvještaj s lokacije";
+
+/* summary */
+"summary" = "Sažetak";
+
+/* target */
+"target" = "Cilj";
+
+/* the address */
+"the address" = "Obraćanje";
+
+/* the selected resource */
+"the selected resource" = "odabrani resurs";
+
+/* the selected target */
+"the selected target" = "Odabrani cilj";
+
+/* the target */
+"the target" = "Cilj";
+
+/* timed out */
+"timed out" = "istekao je tajmer";
+
+/* unknown */
+"unknown" = "nepoznato";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "Neograničeni dijagnostički zahtjevi";
+
+/* up */
+"up" = "gore";
+
+/* updated date */
+"updated date" = "Ažurirani datum";
+
+/* uplink capacity */
+"uplink capacity" = "Uplink kapacitet";
+
+/* verify return code */
+"verify return code" = "Provjerite povratni kod";
+
+/* via %@ */
+"via %@" = "via %@";
+
+/* windows name */
+"windows name" = "Ime Windowsa";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Dodaj %@ u favorite";
+
+/* Favorites */
+"Favorites" = "Favoriti";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Ukloni %@ iz favorita";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Pro značajke su zaključane";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Kupite ili obnovite pristup da biste ih otključali.";
+
+/* Restoring… */
+"Restoring…" = "Obnavljanje…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Nije pronađena aktivna kupnja Netmina.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP prefiks";
+
+/* Primary */
+"Primary" = "Primarno";
+
+/* All relevant */
+"All relevant" = "Sve relevantno";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "Izvorni ASN, na primjer AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP prefiks, na primjer 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Provjeri smije li izvorni ASN oglašavati IP prefiks";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Pokušaj potpuni prijenos zone sa svakog autoritativnog poslužitelja imena";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Naziv računala, naziv usluge ili IP adresa";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Usporedi predmemorirane DNS odgovore servisa Cloudflare, Google, Quad9 i OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "Usporedi sve relevantne vrste zapisa";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Uspoređivanje odgovora javnih razrješivača…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Uspoređuje uobičajene vrste zapisa koje vrijede za ovaj cilj.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Provjerava A za naziv računala, PTR za IP adresu ili SRV za naziv usluge.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Svi javni razrješivači vratili su iste DNS odgovore.";
