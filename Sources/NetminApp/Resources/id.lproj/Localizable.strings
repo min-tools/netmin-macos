@@ -1,0 +1,2690 @@
+/* Netmin — id localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "ms";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ menerima koneksi TCP.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ tidak dapat diambil";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ tidak selesai";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ Buka";
+
+/* %@ open ports */
+"%@ open ports" = "%@ port terbuka";
+
+/* %@ per year */
+"%@ per year" = "%@ per tahun";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld alamat";
+
+/* %lld answers */
+"%lld answers" = "%lld jawaban";
+
+/* %lld bytes */
+"%lld bytes" = "%lld byte";
+
+/* %lld checks */
+"%lld checks" = "%lld cek";
+
+/* %lld day */
+"%lld day" = "%lld sehari";
+
+/* %lld days */
+"%lld days" = "%lld hari";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld terdeteksi · Pemindaian semua memakan waktu sekitar %lld s";
+
+/* %lld devices */
+"%lld devices" = "%lld perangkat";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld perangkat pada %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld entri";
+
+/* %lld headers */
+"%lld headers" = "%lld header";
+
+/* %lld hops */
+"%lld hops" = "%lld hop";
+
+/* %lld hosts */
+"%lld hosts" = "%lld Tuan Rumah";
+
+/* %lld hour */
+"%lld hour" = "%lld per jam";
+
+/* %lld hours */
+"%lld hours" = "%lld jam";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld tidak lengkap";
+
+/* %lld interfaces */
+"%lld interfaces" = "Antarmuka %lld";
+
+/* %lld keys */
+"%lld keys" = "%lld Kunci";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld terbatas pada satu /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld baris · %lld karakter";
+
+/* %lld matches */
+"%lld matches" = "%lld pertandingan";
+
+/* %lld minute */
+"%lld minute" = "%lld menit";
+
+/* %lld minutes */
+"%lld minutes" = "%lld menit";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld baris lebih banyak · gunakan Hasil Salin untuk output lengkap";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld bernama · %lld tanpa nama";
+
+/* %lld names */
+"%lld names" = "%lld nama";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld tetangga";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld dari %lld jaringan · Tentang %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld dari %lld buka";
+
+/* %lld open */
+"%lld open" = "%lld Buka";
+
+/* %lld received */
+"%lld received" = "%lld diterima";
+
+/* %lld records */
+"%lld records" = "%lld rekaman";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld rekaman · sebagian";
+
+/* %lld redirects */
+"%lld redirects" = "%lld pengalihan";
+
+/* %lld responses */
+"%lld responses" = "%lld respon";
+
+/* %lld routes */
+"%lld routes" = "%lld rute";
+
+/* %lld rows */
+"%lld rows" = "%lld baris";
+
+/* %lld second */
+"%lld second" = "%lld detik";
+
+/* %lld seconds */
+"%lld seconds" = "%lld detik";
+
+/* %lld service types */
+"%lld service types" = "%lld jenis layanan";
+
+/* %lld services */
+"%lld services" = "%lld Layanan";
+
+/* %lld tools */
+"%lld tools" = "%lld alat";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", dengan:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ok)";
+
+/* 1 match */
+"1 match" = "1 pertandingan";
+
+/* 1 response */
+"1 response" = "1 tanggapan";
+
+/* 1 service */
+"1 service" = "1 layanan";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 menit yang lalu";
+
+/* ; fully validated */
+"; fully validated" = "; sepenuhnya divalidasi";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; jawaban tanpa tanda tangan";
+
+/* ; validation failed */
+"; validation failed" = "; Validasi gagal";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "Rentang CIDR membutuhkan alamat lengkap sebelum prefiks, misalnya 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "Sweep dapat mencakup maksimal 16 rentang yang ditambahkan secara manual.";
+
+/* ARP Table */
+"ARP Table" = "Tabel ARP";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "Pencarian ASN dan BGP";
+
+/* Actions */
+"Actions" = "Aksi";
+
+/* Active */
+"Active" = "Aktif";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Entri aktif yang dilaporkan oleh macOS dan alat penemuan lokal.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "Entri aktif yang dilaporkan oleh macOS.";
+
+/* Add */
+"Add" = "Tambah";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Tambahkan %@ ke pemindaian";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Tambahkan rentang, misalnya 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Ditambahkan secara manual";
+
+/* Added range */
+"Added range" = "Jangkauan tambahan";
+
+/* Address */
+"Address" = "Alamat";
+
+/* Address details */
+"Address details" = "Detail alamat";
+
+/* Address details for %@ */
+"Address details for %@" = "Detail alamat seharga %@";
+
+/* Addresses */
+"Addresses" = "Alamat";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Alamat yang baru-baru ini Mac ini tukar paket.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Menambah jangkauan, pelabuhan umum, dan rute. Bisa memakan waktu sebentar.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Menambahkan upaya transfer zona, sinyal DNSSEC, lebih banyak nama host, dan nama sertifikat.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Layanan Bonjour yang diiklankan";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Diiklankan selama jendela penemuan.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "Alamat IPv4 membutuhkan empat angka dari 0 hingga 255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "Awalan IPv4 berjalan dari /0 hingga /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "Awalan IPv6 berjalan dari /0 hingga /128";
+
+/* Answer %lld */
+"Answer %lld" = "Jawaban %lld";
+
+/* Answers */
+"Answers" = "Jawaban";
+
+/* Answers by resolver */
+"Answers by resolver" = "Jawaban berdasarkan resolver";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Jawaban dikembalikan seharga %@.";
+
+/* Assigned address */
+"Assigned address" = "Alamat yang ditugaskan";
+
+/* Authenticated */
+"Authenticated" = "Terautentikasi";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Pembaruan otomatis setiap tahun · batalkan kapan saja";
+
+/* Average */
+"Average" = "Rata-rata";
+
+/* Bits */
+"Bits" = "Bit-bit";
+
+/* Bonjour Services */
+"Bonjour Services" = "Layanan Bonjour";
+
+/* Bonjour services */
+"Bonjour services" = "Layanan Bonjour";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Jelajahi jenis layanan Bonjour yang diumumkan di jaringan lokal selama lima detik";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Menjelajahi jenis layanan Bonjour yang diiklankan...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Bangun laporan gabungan DNS, routing, kepemilikan, dan jaringan";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Buat laporan gabungan untuk koneksi jaringan saat ini";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Membangun laporan untuk koneksi saat ini...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "Membangun laporan DNS, rute, dan kepemilikan...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "Kalkulator CIDR";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "Rentang CIDR · %@ alamat";
+
+/* Calculated result */
+"Calculated result" = "Hasil yang dihitung";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Menghitung batas jaringan dan jumlah alamat...";
+
+/* Cancel */
+"Cancel" = "Batal";
+
+/* Certificate */
+"Certificate" = "Sertifikat";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Transparansi Sertifikat";
+
+/* Certificate expires */
+"Certificate expires" = "Sertifikat kedaluwarsa";
+
+/* Certificate names */
+"Certificate names" = "Nama sertifikat";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Periksa port DNS, web dan SSH, header HTTPS, rantai sertifikat, versi TLS, OCSP, dan MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Periksa apakah resolver validasi mengautentikasi jawaban DNS";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Periksa apakah resolver validasi mengautentikasi jawaban TLSA";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Periksa apakah zona yang ditandatangani mengekspos catatan NSEC";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Periksa apakah satu port TCP menerima koneksi";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Periksa apakah domain termasuk atau memenuhi syarat untuk HSTS preload";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "Memeriksa layanan DNS, TLS, web, dan email...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "Memeriksa status daftar pra-muatan HSTS...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Memeriksa catatan NSEC yang telah dipublikasikan...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Memeriksa 25 port TCP yang paling umum...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Memeriksa versi HTTP yang telah dinegosiasikan dan respons...";
+
+/* Checks */
+"Checks" = "Pemeriksaan";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Memeriksa catatan apex, kebijakan email, layanan, host umum, dan pemilih DKIM.";
+
+/* Choose a tool */
+"Choose a tool" = "Pilih alat";
+
+/* Cipher */
+"Cipher" = "sandi";
+
+/* Ciphersuite */
+"Ciphersuite" = "Ciphersuite";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Bersihkan Data Terbaru";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Bersihkan Data Terbaru...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Menghapus data Netmin terbaru?";
+
+/* Clear search */
+"Clear search" = "Bersihkan pencarian";
+
+/* Clear target */
+"Clear target" = "Target jelas";
+
+/* Clock offset */
+"Clock offset" = "Offset jam";
+
+/* Close */
+"Close" = "Tutup";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Mengumpulkan Wi-Fi dan detail titik akses terdekat...";
+
+/* Common Port Scan */
+"Common Port Scan" = "Pemindaian Port Umum";
+
+/* Common TCP services */
+"Common TCP services" = "Layanan TCP umum";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Bandingkan jawaban IPv4 dari Cloudflare, Google, Quad9, dan OpenDNS";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "Membandingkan jawaban IPv4 dari public resolver...";
+
+/* Complete */
+"Complete" = "Selesai";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Zona DNS lengkap seharga %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Kelengkapan: Lengkap";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Kelengkapan: Penemuan parsial";
+
+/* Configuration */
+"Configuration" = "Konfigurasi";
+
+/* Connection */
+"Connection" = "Koneksi";
+
+/* Connection quality */
+"Connection quality" = "Kualitas koneksi";
+
+/* Connection succeeded */
+"Connection succeeded" = "Koneksi berhasil";
+
+/* Connection timing */
+"Connection timing" = "Waktu koneksi";
+
+/* Consistent */
+"Consistent" = "Konsisten";
+
+/* Content */
+"Content" = "Konten";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Konten yang dikembalikan oleh target, siap untuk diperiksa atau disalin.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Konversi domain internasional antara formulir Unicode dan ASCII";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Mengonversi domain antara Unicode dan ASCII...";
+
+/* Copied %@ */
+"Copied %@" = "Disalin %@";
+
+/* Copy Address */
+"Copy Address" = "Salin Alamat";
+
+/* Copy Command */
+"Copy Command" = "Salin Perintah";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Salin Alamat MAC";
+
+/* Copy Name */
+"Copy Name" = "Salin Nama";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Salin Output Mentah";
+
+/* Copy Result */
+"Copy Result" = "Salin Hasil";
+
+/* Copy Summary */
+"Copy Summary" = "Ringkasan Salin";
+
+/* Copy Target */
+"Copy Target" = "Salin Target";
+
+/* Copy error */
+"Copy error" = "Kesalahan salinan";
+
+/* Country */
+"Country" = "Negara";
+
+/* Coverage */
+"Coverage" = "Liputan";
+
+/* DANE Validation */
+"DANE Validation" = "Validasi DANE";
+
+/* DHCP Lease */
+"DHCP Lease" = "Sewa DHCP";
+
+/* DHCP lease */
+"DHCP lease" = "Sewa DHCP";
+
+/* DHCP server */
+"DHCP server" = "Server DHCP";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "Konfigurasi DNS";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC Walk Check";
+
+/* DNS Propagation */
+"DNS Propagation" = "Propagasi DNS";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "Jejak DNS";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "Penemuan Zona DNS";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "Transfer Zona DNS";
+
+/* DNS answers */
+"DNS answers" = "Jawaban DNS";
+
+/* DNS configuration */
+"DNS configuration" = "Konfigurasi DNS";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS melalui HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS melalui Endpoint TLS";
+
+/* DNS records */
+"DNS records" = "Catatan DNS";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "Catatan DNS ditemukan seharga %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "Catatan DNS, geolokasi, dan ASN. Biasanya hanya beberapa detik.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "Resolver DNS yang digunakan";
+
+/* DNS response */
+"DNS response" = "Respons DNS";
+
+/* DNS server */
+"DNS server" = "Server DNS";
+
+/* DNS service name */
+"DNS service name" = "Nama layanan DNS";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC Chain Trace";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "Pemeriksaan DNSSEC";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "Validasi DNSSEC";
+
+/* Deep */
+"Deep" = "dalam";
+
+/* Deep discovery */
+"Deep discovery" = "Penemuan mendalam";
+
+/* Default */
+"Default" = "Gagal bayar";
+
+/* Default route */
+"Default route" = "Rute default";
+
+/* Default ·  */
+"Default · " = "Default ·";
+
+/* Depth */
+"Depth" = "Kedalaman";
+
+/* Destination */
+"Destination" = "Tujuan";
+
+/* Destination not reached */
+"Destination not reached" = "Tujuan belum tercapai";
+
+/* Details */
+"Details" = "Detail";
+
+/* Detect again */
+"Detect again" = "Deteksi lagi";
+
+/* Devices */
+"Devices" = "Perangkat";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Perangkat (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Perbedaan antara jam Mac ini dan %@.";
+
+/* Directives */
+"Directives" = "Direktif";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Temukan catatan DNS publik, layanan standar, kebijakan email, pemilih DKIM, dan data zona yang terekspos";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Temukan router, perangkat penyimpanan, TV, dan layanan UPnP lainnya";
+
+/* Discovered network resources */
+"Discovered network resources" = "Sumber daya jaringan yang ditemukan";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "Menemukan perangkat dan layanan UPnP...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Menemukan perangkat lokal dan layanan yang diiklankan...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Menemukan catatan DNS publik dan data zona...";
+
+/* Discovery output */
+"Discovery output" = "Output penemuan";
+
+/* Discovery results */
+"Discovery results" = "Hasil penemuan";
+
+/* DoT hostname */
+"DoT hostname" = "Nama host DoT";
+
+/* Domain */
+"Domain" = "Domain";
+
+/* Domain name */
+"Domain name" = "Nama domain";
+
+/* Domain or hostname */
+"Domain or hostname" = "Domain atau nama host";
+
+/* Download */
+"Download" = "Unduh";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Setiap router di jalur; waktu pulang-pergi diukur di tujuan.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Mengaktifkan perilaku opsional alat";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Masukkan rentang seperti 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Masukkan rentang IPv4 dengan awalan dari /0 hingga /30, misalnya 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Entri";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Setiap alamat dalam rentang yang diminta, satu per baris.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Setiap antarmuka dilaporkan macOS, beserta alamat dan status tautannya.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Setiap resolver publik mengembalikan jawaban IPv4 yang sama.";
+
+/* Exit status */
+"Exit status" = "Status keluar";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Perluas blok CIDR yang dapat dikelola ke alamat-alamat individual";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "Memperluas jangkauan CIDR ke alamat individual...";
+
+/* Expires */
+"Expires" = "kedaluwarsa";
+
+/* Failed */
+"Failed" = "Gagal";
+
+/* Fast local discovery */
+"Fast local discovery" = "Penemuan lokal yang cepat";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Ambil aturan akses crawler situs";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Ambil kebijakan kontak keamanan yang dipublikasikan di situs";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "Mengambil header HTTP dan mengikuti pengalihan...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "Mengambil lokasi IP dan detail jaringan...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "Mengambil catatan pendaftaran IP melalui RDAP...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "Mengambil kunci host SSH dan menghitung sidik jari...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Mengambil header keamanan browser...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Mengambil catatan pendaftaran domain melalui RDAP...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Mengambil status validasi asal rute...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "Mengambil sertifikat HTTPS dan detail identitas...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Mengambil rantai sertifikat dan respons OCSP yang distapler...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Mengambil aturan akses crawler situs...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Mengambil kebijakan kontak keamanan situs...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Mengambil alamat IP publik Anda...";
+
+/* Fields */
+"Fields" = "Bidang";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Alat filter %lld";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Filter berdasarkan IP, nama, antarmuka";
+
+/* Final status */
+"Final status" = "Status akhir";
+
+/* Find Tool… */
+"Find Tool…" = "Cari Alat...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Temukan alat Netmin";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Temukan nama sertifikat yang dapat mengungkap subdomain terkait";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Temukan layanan SMTP yang diiklankan dan diautentikasi";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Temukan layanan konfigurasi email yang diiklankan";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Temukan layanan IMAP aman yang diiklankan";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Temukan nama host yang terkait dengan alamat IP";
+
+/* Fingerprint */
+"Fingerprint" = "sidik jari";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Sidik jari yang ditampilkan server, untuk dibandingkan dengan entri host-known host.";
+
+/* First */
+"First" = "Pertama";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Ikuti delegasi DNS dari root ke jawaban";
+
+/* Formatted */
+"Formatted" = "Diformat";
+
+/* Formatted address */
+"Formatted address" = "Alamat yang diformat";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "Memformat alamat MAC...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Gratis · %lld dari %lld permintaan tersisa hari ini";
+
+/* From */
+"From" = "Dari";
+
+/* Full */
+"Full" = "Penuh";
+
+/* Gateway */
+"Gateway" = "Gerbang";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Gateway %@ · Rute default";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Gerbang dan Rute";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Gateway dan tabel routing";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "HSTS Preload Status";
+
+/* HTTP Headers */
+"HTTP Headers" = "Header HTTP";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "Protokol HTTP";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "Header Keamanan HTTP";
+
+/* HTTP response */
+"HTTP response" = "Respons HTTP";
+
+/* HTTP status */
+"HTTP status" = "Status HTTP";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Respons Jabat tangan";
+
+/* Hide */
+"Hide" = "sembunyikan";
+
+/* Hop */
+"Hop" = "Lompat";
+
+/* Hops */
+"Hops" = "hop";
+
+/* Host */
+"Host" = "Pembawa Acara";
+
+/* Host and port */
+"Host and port" = "Host dan pelabuhan";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Host dan port, misalnya example.com:443";
+
+/* Host keys */
+"Host keys" = "Kunci host";
+
+/* Hostname */
+"Hostname" = "Nama Host";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Nama host yang muncul dalam sertifikat publik untuk domain ini.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Host yang menjawab ping atau muncul di cache tetangga, dengan nama, latensi, dan layanan yang diiklankan.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Host, layanan yang diiklankan, dan endpoint yang dapat dijangkau ditemukan selama run ini.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "Server IANA WHOIS";
+
+/* IP Information */
+"IP Information" = "Informasi IP";
+
+/* IP Range Expander */
+"IP Range Expander" = "Ekspansi Rentang IP";
+
+/* IP address */
+"IP address" = "Alamat IP";
+
+/* IP address or ASN */
+"IP address or ASN" = "Alamat IP atau ASN";
+
+/* IP address or domain */
+"IP address or domain" = "Alamat IP atau domain";
+
+/* IP address or hostname */
+"IP address or hostname" = "Alamat IP atau nama host";
+
+/* IP address or prefix */
+"IP address or prefix" = "Alamat IP atau awalan";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, Routing dan Registrasi";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "Rentang CIDR IPv4, maksimum 4096 alamat";
+
+/* IPv4 address */
+"IPv4 address" = "Alamat IPv4";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "Alamat IPv4 dengan CIDR";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "Tetangga IPv4";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "Tetangga IPv6";
+
+/* IPv6 address */
+"IPv6 address" = "Alamat IPv6";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Periksa catatan DNSSEC dan tanda tangan validasi";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Periksa banner SMTP dan negosiasikan STARTTLS";
+
+/* Interface */
+"Interface" = "Antarmuka";
+
+/* Interface Inventory */
+"Interface Inventory" = "Inventaris Antarmuka";
+
+/* Interfaces */
+"Interfaces" = "Antarmuka";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Gabung ke jaringan atau tambahkan rentang di bawah. Menjalankan sweep meminta pembantu untuk melihat lagi.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Kolom kunci dari respons registri.";
+
+/* Keys */
+"Keys" = "Kunci";
+
+/* Last */
+"Last" = "Terakhir";
+
+/* Latency */
+"Latency" = "Latensi";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Latensi, jangkauan, dan pengukuran jalur.";
+
+/* Lease details */
+"Lease details" = "Detail sewa";
+
+/* Lease time */
+"Lease time" = "Waktu sewa";
+
+/* Limited */
+"Limited" = "terbatas";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Dibatasi pada /24 lokal untuk kecepatan";
+
+/* Lines */
+"Lines" = "Jalur";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Detail tautan untuk Mac ini dan access point yang saat ini dapat dilihat macOS.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "Memuat produk App Store...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Penyapuan Perangkat Lokal";
+
+/* Local Network */
+"Local Network" = "Jaringan Lokal";
+
+/* Location */
+"Location" = "Lokasi";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Mencari nama domain di log sertifikat...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Mencari server pengiriman surat...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Mencari catatan registrasi dan kepemilikan...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "Mencari layanan pengiriman SMTP...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Mencari layanan konfigurasi email...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Mencari nama host untuk alamat IP ini...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Mencari ASN asal dan prefiks yang dirutekan...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Mencari layanan IMAP yang aman...";
+
+/* MAC Formatter */
+"MAC Formatter" = "pembentuk MAC";
+
+/* MAC address */
+"MAC address" = "Alamat MAC";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC dan vendor tersembunyi";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC dan vendor tersembunyi — kosong dalam run ini";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC dan vendor ditampilkan";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Surat";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Mail Autodiscover SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Kirim BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "Mail DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "Mail DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Email IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Kirim MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "SPF Surat";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "Pengiriman Surat SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Laporan TLS lewat Email";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Mail TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Domain surat";
+
+/* Mail domain or server */
+"Mail domain or server" = "Domain atau server email";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Server dan port mail, misalnya mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Kelola Langganan";
+
+/* Maximum */
+"Maximum" = "Maksimum";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Ukur detail unduhan, unggahan, responsivitas, dan koneksi saat ini";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Ukur keterjangkauan dan latensi pulang-pergi";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Kapasitas dan responsivitas koneksi saat ini diukur.";
+
+/* Measurement */
+"Measurement" = "Pengukuran";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Mengukur unduhan, unggah, dan responsif...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Mengukur keterjangkauan dan latensi pulang-pergi...";
+
+/* Minimum */
+"Minimum" = "Minimum";
+
+/* Mode */
+"Mode" = "Mode";
+
+/* More copy options */
+"More copy options" = "Opsi salinan lainnya";
+
+/* My Network Report */
+"My Network Report" = "Laporan Jaringan Saya";
+
+/* My Public IP */
+"My Public IP" = "IP Publik Saya";
+
+/* NTP Offset */
+"NTP Offset" = "NTP Offset";
+
+/* NTP server */
+"NTP server" = "Server NTP";
+
+/* Name */
+"Name" = "Nama";
+
+/* Names */
+"Names" = "Nama-nama";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Nama-nama dalam log sertifikat";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Negosiasikan TLS dengan layanan implisit-TLS apa pun dan tampilkan protokol serta cipher yang dipilih";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Protokol yang dinegosiasikan, sandi, identitas sertifikat, dan status verifikasi.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "Negosiasi SMTP STARTTLS...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Menegosiasikan TLS pada port layanan yang ditentukan...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "Menegosiasikan koneksi HTTPS TLS...";
+
+/* Neighbor */
+"Neighbor" = "tetangga";
+
+/* Neighbor cache */
+"Neighbor cache" = "Cache tetangga";
+
+/* Neighbors */
+"Neighbors" = "Tetangga";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Seumur Hidup · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro Tahunan";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin menemukan perangkat dan layanan di jaringan lokal yang Anda pilih untuk diperiksa.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin menghentikan perintah ini setelah %lld detik.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin menghentikan perintah ini setelah menghasilkan output sebesar %@.";
+
+/* Network */
+"Network" = "Jaringan";
+
+/* Network Lookup */
+"Network Lookup" = "Pencarian Jaringan";
+
+/* Network Quality */
+"Network Quality" = "Kualitas Jaringan";
+
+/* Network entries */
+"Network entries" = "Entri jaringan";
+
+/* Network interfaces */
+"Network interfaces" = "Antarmuka jaringan";
+
+/* Networks */
+"Networks" = "Jaringan";
+
+/* Networks scanned */
+"Networks scanned" = "Jaringan yang dipindai";
+
+/* Networks to scan */
+"Networks to scan" = "Jaringan untuk dipindai";
+
+/* New Lookup */
+"New Lookup" = "Pencarian Baru";
+
+/* New Report */
+"New Report" = "Laporan Baru";
+
+/* New Sweep */
+"New Sweep" = "Sweep Baru";
+
+/* No */
+"No" = "Tidak";
+
+/* No DNS records found */
+"No DNS records found" = "Tidak ditemukan catatan DNS";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Tidak ditemukan pembelian Netmin Pro untuk Akun Apple ini.";
+
+/* No common ports are open */
+"No common ports are open" = "Tidak ada port umum yang dibuka";
+
+/* No common services */
+"No common services" = "Tidak ada layanan umum";
+
+/* No data returned */
+"No data returned" = "Tidak ada data yang dikembalikan";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Tidak ada perangkat yang cocok dengan \"%@\"";
+
+/* No devices responded */
+"No devices responded" = "Tidak ada perangkat yang merespons";
+
+/* No diagnostic output */
+"No diagnostic output" = "Tidak ada output diagnostik";
+
+/* No input required */
+"No input required" = "Tidak perlu input";
+
+/* No matching tools */
+"No matching tools" = "Tidak ada alat yang cocok";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Tidak ada jaringan IPv4 privat terdeteksi · tambahkan rentang untuk dipindai";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Tidak ada jaringan IPv4 privat yang terdeteksi";
+
+/* No result returned */
+"No result returned" = "Tidak ada hasil yang dikembalikan";
+
+/* No target */
+"No target" = "Tidak ada target";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "Tidak ada alat yang cocok dengan \"%@\"";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Normalisasi alamat MAC ke bentuk yang dipisahkan dengan huruf besar dengan titik dua";
+
+/* Not reached */
+"Not reached" = "Tidak tercapai";
+
+/* Not selected */
+"Not selected" = "Tidak dipilih";
+
+/* Notafter */
+"Notafter" = "Notafter";
+
+/* Notes */
+"Notes" = "Catatan";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Tidak ada yang menjawab ping atau muncul di cache tetangga pada jaringan yang dipindai. Periksa apakah Mac ini berada di jaringan yang diharapkan atau tambahkan rentang secara manual.";
+
+/* Nothing detected */
+"Nothing detected" = "Tidak ada yang terdeteksi";
+
+/* Off */
+"Off" = "Mati";
+
+/* Offset */
+"Offset" = "offset";
+
+/* On */
+"On" = "On";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Hanya rujukan IANA yang dikembalikan. Coba ulang %@ atau gunakan RDAP untuk mengambil registrar, nameserver, dan tanggal registrasi.";
+
+/* Open */
+"Open" = "Buka";
+
+/* Open ports */
+"Open ports" = "Port terbuka";
+
+/* Open ports: */
+"Open ports:" = "Port terbuka:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "CIDR IPv4 opsional; pemindaian kosong semua LAN aktif";
+
+/* Options */
+"Options" = "Opsi";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Asal AS dan awalan yang dirutekan";
+
+/* Other */
+"Other" = "Lainnya";
+
+/* Output */
+"Output" = "Output";
+
+/* Overview */
+"Overview" = "Ikhtisar";
+
+/* Packet loss */
+"Packet loss" = "Kehilangan paket";
+
+/* Partial */
+"Partial" = "Parsial";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Meneruskan %@ ke komando";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Pembayaran masuk ke Akun Apple Anda. Langganan tahunan akan diperpanjang secara otomatis kecuali dibatalkan di pengaturan App Store setidaknya sehari sebelum periode saat ini berakhir.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Pilih alat dari sidebar atau tekan ⌘K untuk mencari semuanya.";
+
+/* Ping */
+"Ping" = "ping";
+
+/* Port */
+"Port" = "Pelabuhan";
+
+/* Port %@ is open */
+"Port %@ is open" = "Pelabuhan %@ buka";
+
+/* Ports */
+"Ports" = "Port";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Port yang menerima koneksi.";
+
+/* Primary mail server */
+"Primary mail server" = "Server mail utama";
+
+/* Primary nameserver */
+"Primary nameserver" = "Nameserver utama";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "AntarmukaUtama";
+
+/* Privacy */
+"Privacy" = "Privasi";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Kebijakan Privasi...";
+
+/* Pro */
+"Pro" = "Pro";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Pembelian Pro saat ini tidak tersedia. Silakan coba lagi nanti.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Uji coba pro · %lld Sisa Hari";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Uji coba pro · Sisa 1 hari";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Uji coba pro · berakhir %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Uji coba pro · pembayaran pertama %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Uji coba pro · sampai %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro mengubah output diagnostik mentah menjadi tabel, metrik, dan temuan. Setelah uji coba 30 hari, Free mencakup output mentah hingga lima permintaan per hari.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Pro · berakhir %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Pro · masa pakai";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Pro · memperbarui %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Pro · dibagikan dengan keluarga Anda";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Pro · sampai %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Probe 25 port TCP umum dengan alat jaringan yang disertakan di macOS";
+
+/* Probed */
+"Probed" = "diuji";
+
+/* Proto */
+"Proto" = "proto";
+
+/* Protocol */
+"Protocol" = "Protokol";
+
+/* Protocol Version */
+"Protocol Version" = "Versi Protokol";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Penemuan DNS publik bersifat parsial";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Pemeriksaan DNS publik menemukan catatan yang berguna, tetapi nama kustom mungkin masih tersembunyi.";
+
+/* Public IP */
+"Public IP" = "Kekayaan Intelektual Publik";
+
+/* Public IPv4 */
+"Public IPv4" = "IPv4 Publik";
+
+/* Public IPv6 */
+"Public IPv6" = "IPv6 Publik";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Detail alamat publik dan kepemilikan jaringan.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Public resolver memberikan jawaban yang berbeda; perubahan mungkin masih berkembang.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Konverter Punycode";
+
+/* Purchase */
+"Purchase" = "Pembelian";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Pembelian saat ini belum tersedia.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Query catatan A melalui endpoint DNS-over-HTTPS";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Query nama NetBIOS dan workgroup yang diiklankan oleh perangkat Windows atau SMB";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Query jam server dan tampilkan offset lokal yang diukur";
+
+/* Querying %@… */
+"Querying %@…" = "Mengajukan pertanyaan %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "Mencari catatan lokasi geografis DNS...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "Mengurik catatan teks DNS...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "Mengajukan query kunci publik DNSSEC...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "Mencari catatan dan tanda tangan DNSSEC...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "Melakukan kueri pada endpoint HTTPS dan petunjuk koneksi...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "Mencari catatan alamat IPv4 (A)...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "Melakukan kueri terhadap rekaman IPv4 melalui HTTPS...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "Mencari catatan alamat IPv6 (AAAA)...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Melakukan kueri catatan penemuan kebijakan MTA-STS...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "Mencari catatan asosiasi sertifikat TLS...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "Mengajukan kueri catatan pelaporan pengiriman TLS...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Melakukan kueri pada catatan server nama otoritatif...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Mengurai catatan indikator merek...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Memeriksa catatan otorisasi otoritas sertifikat...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Mengajukan catatan penandatangan delegasi...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Menanyakan catatan nama host alias (CNAME)...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Melakukan kueri pada pengikatan layanan dan parameter koneksi...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Mengurik aturan penemuan layanan...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Menanyakan host layanan, port, dan prioritas...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "Menanyakan kunci publik pemilih DKIM...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Mengurik nama perangkat Windows atau SMB...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Mengurik kebijakan autentikasi email...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Mengurik kebijakan otorisasi pengirim...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Mengurai server waktu dan mengukur offset jam...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Menanyakan otoritas zona dan catatan waktu...";
+
+/* Quick */
+"Quick" = "Cepat";
+
+/* Quick lookup */
+"Quick lookup" = "Pencarian cepat";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Temukan perangkat lokal, printer, dan layanan yang diiklankan dengan cepat";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP Domain";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "Validasi RPKI";
+
+/* Ran %@ */
+"Ran %@" = "Ran %@";
+
+/* Raw Output */
+"Raw Output" = "Output Mentah";
+
+/* Raw output */
+"Raw output" = "Output mentah";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Jangkauan dan waktu pulang-pergi seharga %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Port, layanan, dan detail kunci host yang dapat dijangkau.";
+
+/* Reached */
+"Reached" = "Tercapai";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Membaca tetangga IPv4 yang di-cache...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Membaca tetangga IPv6 yang di-cache...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "Membaca resolver DNS macOS dan domain pencarian...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Membaca alamat antarmuka jaringan dan status...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Membaca sewa DHCP antarmuka aktif...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Membaca tabel gateway dan routing default...";
+
+/* Recent */
+"Recent" = "Terbaru";
+
+/* Record */
+"Record" = "Rekor";
+
+/* Records */
+"Records" = "Rekor";
+
+/* Registrar */
+"Registrar" = "Registrar";
+
+/* Registration and routing data */
+"Registration and routing data" = "Data registrasi dan routing";
+
+/* Registry record */
+"Registry record" = "Catatan registri";
+
+/* Registry response */
+"Registry response" = "Respon registri";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Respon registry tidak lengkap";
+
+/* Related */
+"Related" = "Terkait";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Diingat untuk hasil berikutnya · ⌘1 Gambaran Umum, ⌘2 Output mentah";
+
+/* Remove this range */
+"Remove this range" = "Hapus rentang ini";
+
+/* Replies */
+"Replies" = "Balasan";
+
+/* Report for %@ */
+"Report for %@" = "Laporan untuk %@";
+
+/* Report overview */
+"Report overview" = "Ikhtisar laporan";
+
+/* Reports */
+"Reports" = "Laporan";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Minta transfer zona DNS lengkap dari server otoritatif";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Meminta transfer zona DNS lengkap...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Memerlukan TLS 1.2 dan tunjukkan apakah negosiasi berhasil";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Wajibkan TLS 1.3 dan tunjukkan apakah negosiasi berhasil";
+
+/* Resolved */
+"Resolved" = "Selesai";
+
+/* Resolved address */
+"Resolved address" = "Alamat yang telah diselesaikan";
+
+/* Resolver */
+"Resolver" = "Resolver";
+
+/* Resolver %@ */
+"Resolver %@" = "Resolver %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Output resolver dikelompokkan untuk tinjauan cepat.";
+
+/* Resolver response */
+"Resolver response" = "Respon resolver";
+
+/* Resolvers */
+"Resolvers" = "Penyelesai";
+
+/* Resolvers agree */
+"Resolvers agree" = "Para penyelesai setuju";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Resolver dan domain pencarian yang saat ini digunakan macOS, sesuai urutan prioritas.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Resolver berbeda";
+
+/* Resources */
+"Resources" = "Sumber Daya";
+
+/* Response */
+"Response" = "Tanggapan";
+
+/* Response %lld */
+"Response %lld" = "Respon %lld";
+
+/* Responses */
+"Responses" = "Tanggapan";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Tanggapan terhadap pencarian multicast, satu kartu per pengumuman.";
+
+/* Responsiveness */
+"Responsiveness" = "Responsivitas";
+
+/* Restore Purchases */
+"Restore Purchases" = "Pulihkan Pembelian";
+
+/* Result */
+"Result" = "Hasil";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "Hasil dikelompokkan berdasarkan setiap pemeriksaan jaringan yang telah selesai.";
+
+/* Retry registry */
+"Retry registry" = "Coba ulang registri";
+
+/* Reverse DNS */
+"Reverse DNS" = "DNS Balik";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Pulang-pergi";
+
+/* Route to target */
+"Route to target" = "Rute ke target";
+
+/* Router */
+"Router" = "Router";
+
+/* Routes */
+"Routes" = "Rute";
+
+/* Routing record */
+"Routing record" = "Catatan routing";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Data registry routing seharga %@.";
+
+/* Routing table */
+"Routing table" = "Tabel routing";
+
+/* Run */
+"Run" = "Lari";
+
+/* Run Again */
+"Run Again" = "lari lagi";
+
+/* Run Lookup */
+"Run Lookup" = "Jalankan Pencarian";
+
+/* Run Report */
+"Run Report" = "Jalankan Laporan";
+
+/* Run Sweep */
+"Run Sweep" = "menyapu bersih";
+
+/* Run Tool */
+"Run Tool" = "Alat Jalankan";
+
+/* Run again */
+"Run again" = "Lari lagi";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Jalankan alat %@";
+
+/* Running */
+"Running" = "Lari";
+
+/* Running %@… */
+"Running %@…" = "Berjalan %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "Lari · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "Penemuan SSDP/UPnP";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "Kunci Host SSH";
+
+/* SSH host keys */
+"SSH host keys" = "Kunci host SSH";
+
+/* Save Report… */
+"Save Report…" = "Simpan Laporan...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Simpan laporan dan salin ringkasan terstruktur";
+
+/* Scan */
+"Scan" = "Pindai";
+
+/* Scripts */
+"Scripts" = "Naskah";
+
+/* Search domain */
+"Search domain" = "Domain pencarian";
+
+/* Sections */
+"Sections" = "Bagian";
+
+/* Security details */
+"Security details" = "Detail keamanan";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Terpilih";
+
+/* Sequence */
+"Sequence" = "Urutan";
+
+/* Server */
+"Server" = "Server";
+
+/* Service */
+"Service" = "Pelayanan";
+
+/* Service reachability */
+"Service reachability" = "Jangkauan layanan";
+
+/* Service type */
+"Service type" = "Jenis layanan";
+
+/* Service types */
+"Service types" = "Jenis layanan";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Jenis layanan yang diumumkan di jaringan lokal selama jendela penemuan.";
+
+/* Services */
+"Services" = "Layanan";
+
+/* Show */
+"Show" = "Tampilkan";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Tampilkan asosiasi sertifikat DANE untuk layanan TLS";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Tampilkan endpoint layanan HTTPS dan petunjuk koneksi";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Tampilkan alamat IPv4 yang dipublikasikan untuk nama host";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Tampilkan tetangga IPv4 yang baru saja dihubungi Mac ini";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Tampilkan alamat IPv6 yang dipublikasikan untuk nama host";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Tampilkan detail tautan Wi-Fi dan titik akses terdekat yang terlihat oleh macOS";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Tampilkan alamat, MTU, status, dan penghitung untuk setiap antarmuka jaringan";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Tampilkan tetangga IPv6 yang di-cache dan alamat lapisan tautan mereka";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Tampilkan identitas sertifikat, penerbit, validitas, dan sidik jari SHA-256";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Tampilkan setiap router pada jalur menuju tujuan";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Tampilkan catatan lokasi geografis yang dipublikasikan oleh zona";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Tampilkan lokasi detail, jaringan, ASN, dan kepemilikan";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Tampilkan versi TLS yang telah dinegosiasikan, sandi, pertukaran kunci, dan verifikasi";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Tampilkan batas jaringan, netmask, alamat siaran, dan ukuran";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Tampilkan catatan teks yang dipublikasikan dan kebijakan domain";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Tampilkan catatan registrasi dan kepemilikan mentah";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Tampilkan detail alokasi registri dan registrasi untuk sebuah IP";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Tampilkan registrasi registri dan detail status untuk sebuah domain";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Tampilkan header respons dan setiap hop pengalihan";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Tampilkan catatan penemuan layanan berbasis aturan";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Tampilkan endpoint layanan dan parameter koneksi";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Tampilkan host layanan, port, prioritas, dan bobot";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Tampilkan resolver DNS dan domain pencarian yang sebenarnya digunakan macOS";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Tampilkan status validasi rute-asal RPKI yang dilaporkan oleh RIPE";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Tampilkan server DHCP antarmuka aktif, sewa, dan opsi yang disediakan";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Tampilkan server nama otoritatif untuk sebuah domain";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Tampilkan target alias kanonik untuk nama host";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Tampilkan rantai sertifikat yang telah dilayani, hasil verifikasi, dan respons OCSP yang distapler";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Tampilkan gateway default dan tabel rute IPv4 serta IPv6 lengkap";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Tampilkan kebijakan indikator merek domain";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Tampilkan kebijakan autentikasi email domain";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Tampilkan versi HTTP yang dinegosiasikan, status, alamat server, dan hasil TLS";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Tampilkan ASN asal, awalan yang dirutekan, registri, dan detail alokasi";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Tampilkan catatan penandatangan delegasi zona induk";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Tampilkan kebijakan yang memerlukan pengiriman surat aman";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Tampilkan header keamanan browser utama yang dikembalikan oleh sebuah situs";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Tampilkan alamat IP publik yang dilihat oleh internet";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Tampilkan kunci publik untuk pemilih DKIM";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Tampilkan kunci publik yang digunakan untuk memvalidasi zona DNS";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Tampilkan sidik jari SSH host-key server yang diiklankan";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Tampilkan server yang menerima email untuk sebuah domain";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Tampilkan ke mana laporan pengiriman TLS dikirim";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Tunjukkan otoritas sertifikat mana yang dapat menerbitkan sertifikat";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Tampilkan server mana yang diizinkan mengirim email";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Tampilkan informasi otoritas zona, seri, dan waktu";
+
+/* Site Report */
+"Site Report" = "Laporan Lokasi";
+
+/* Site report for example.org */
+"Site report for example.org" = "Laporan lokasi untuk example.org";
+
+/* State */
+"State" = "Negara Bagian";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Status:/Jaringan/Global/IPv4";
+
+/* Statistics */
+"Statistics" = "Statistik";
+
+/* Status */
+"Status" = "Status";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Status, protokol, pengalihan, dan header yang dikembalikan.";
+
+/* Stop */
+"Stop" = "Berhenti";
+
+/* Stop Sweep */
+"Stop Sweep" = "Hentikan Sweep";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Respon registri terstruktur seharga %@.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Laporan terstruktur adalah fitur Netmin Pro";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Laporan terstruktur dengan tabel, metrik, dan temuan";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Resolusinya terstruktur.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Respons terstruktur dari layanan web.";
+
+/* System network configuration */
+"System network configuration" = "Konfigurasi jaringan sistem";
+
+/* TCP Port Check */
+"TCP Port Check" = "Pemeriksaan Port TCP";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "JANGKAUAN TCP";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Jabat tangan";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Jabat tangan";
+
+/* TLS Certificate */
+"TLS Certificate" = "Sertifikat TLS";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "Rantai Sertifikat TLS";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS Handshake";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "Jabat Tangan Layanan TLS";
+
+/* TLS connection */
+"TLS connection" = "Koneksi TLS";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, Web, dan Port";
+
+/* Target */
+"Target" = "Target";
+
+/* Target (optional) */
+"Target (optional)" = "Target (opsional)";
+
+/* Target did not reply */
+"Target did not reply" = "Target tidak membalas";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Target tidak boleh mengandung spasi";
+
+/* Terms */
+"Terms" = "Istilah";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Uji SMTP 25, SMTPS 465, pengajuan 587, IMAPS 993, dan POP3S 995 secara bersamaan";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Uji negosiasi TLS dengan server DNS-over-TLS";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "Menguji negosiasi TLS 1.2...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "Menguji negosiasi TLS 1.3...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "Menguji negosiasi TLS pada port DNS 853...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "Menguji TLS pada layanan SMTP, IMAP, dan POP3...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Menguji koneksi ke port TCP yang ditentukan...";
+
+/* Text */
+"Text" = "Teks";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "25 port TCP yang paling umum diuji dengan timeout satu detik.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store tidak dapat memverifikasi pembelian ini.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "Alamat MAC dalam huruf kapital kanonik, bentuk terpisah titik dua.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Katalog alat Netmin tidak berisi alat yang valid.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL membutuhkan skema dan host, misalnya https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "Sewa antarmuka aktif dan opsi yang disediakan oleh server DHCP-nya.";
+
+/* The address is not valid. */
+"The address is not valid." = "Alamatnya tidak valid.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "Alamat yang dilihat internet untuk koneksi ini.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "Aplikasi mengikuti pengalihan tersebut, tetapi situs web mengirimkan file ini kembali ke URL yang sama berulang kali. Tidak ada file yang dikembalikan.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "Server otoritatif memungkinkan transfer zona AXFR secara lengkap.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "Server otoritatif tidak menyediakan transfer zona lengkap. Ini adalah catatan yang ditemukan melalui probe publik; nama kustom mungkin masih ada.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "Katalog alat Netmin yang dibundel tidak ada.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Perintah selesai, tetapi target tidak mengembalikan data yang cocok.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Perintah gagal sebelum menghasilkan output diagnostik.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "Rute default dan semua rute IPv4 dan IPv6 yang diketahui macOS.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "30 hari pertama sudah termasuk Pro. Setelah uji coba, Free menyimpan semua 84 alat dan output mentah, dengan lima permintaan diagnostik per hari.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "Awalan setelah / harus berupa angka";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Proses keluar dengan status %lld sebelum mengembalikan detail. Periksa bahwa perintah yang diperlukan sudah terpasang dan target dapat dijangkau.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "Pembelian ini sedang menunggu persetujuan.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Registry mengembalikan respons yang tidak terstruktur; baris bergunanya ditunjukkan di bawah ini.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "Resolver tidak memberikan jawaban yang cocok.";
+
+/* This Mac */
+"This Mac" = "Mac ini";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "Ini menghapus target yang disimpan dan ringkasan yang baru dijalankan dari Mac ini. Ini tidak menghapus laporan yang diekspor.";
+
+/* Time */
+"Time" = "Waktu";
+
+/* Timeouts */
+"Timeouts" = "Timeout";
+
+/* Tools */
+"Tools" = "Alat";
+
+/* Tools unavailable */
+"Tools unavailable" = "Alat tidak tersedia";
+
+/* Trace */
+"Trace" = "jejak";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Lacak rantai kepercayaan DNSSEC dari root";
+
+/* Traceroute */
+"Traceroute" = "Traceroute";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "Melacak delegasi DNS dan catatan DNSSEC...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "Melacak delegasi DNS dari root...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Melacak jalur jaringan ke tujuan...";
+
+/* Try Again */
+"Try Again" = "coba lagi";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Coba RDAP sebagai gantinya →";
+
+/* Type */
+"Type" = "Tipe";
+
+/* Types */
+"Types" = "Jenis-jenis";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "Perangkat dan layanan UPnP";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "ketidakpastian";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Diagnostik jaringan tanpa batas dengan laporan yang dapat dibaca dan alat ekspor.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Penggunaan tak terbatas dari semua 84 alat diagnostik";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Buka kunci %@, plus seluruh set fitur Pro.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Buka Laporan Buka...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Buka Ringkasan Terstruktur...";
+
+/* Unnamed */
+"Unnamed" = "Tidak Bernama";
+
+/* Unsigned */
+"Unsigned" = "tidak ditandatangani";
+
+/* Upload */
+"Upload" = "Unggah";
+
+/* Use custom resolver */
+"Use custom resolver" = "Gunakan resolver khusus";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Gunakan host:port, alamat IPv6, atau alamat MAC";
+
+/* Utilities */
+"Utilities" = "Utilitas";
+
+/* VPN tunnel */
+"VPN tunnel" = "Terowongan VPN";
+
+/* Validated */
+"Validated" = "Tervalidasi";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "Memvalidasi catatan TLSA dan rantai DNSSEC mereka...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "Memvalidasi jawaban DNS dan rantai DNSSEC...";
+
+/* Value */
+"Value" = "Nilai";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Nilai dihasilkan oleh %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "Nilai yang dilaporkan oleh macOS untuk %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Nilai yang dikembalikan seharga %@.";
+
+/* Vendor */
+"Vendor" = "Penjual";
+
+/* Verification */
+"Verification" = "Verifikasi";
+
+/* Verify Return Code */
+"Verify Return Code" = "Verifikasi Kode Pengembalian";
+
+/* View */
+"View" = "Lihat";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Lihat Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "Jembatan virtual";
+
+/* Virtual machine network */
+"Virtual machine network" = "Jaringan mesin virtual";
+
+/* WHOIS */
+"WHOIS" = "SIAPA";
+
+/* WHOIS server */
+"WHOIS server" = "Server WHOIS";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Menunggu respons pertama...";
+
+/* Web policy status */
+"Web policy status" = "Status kebijakan web";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Diagnostik Wi-Fi";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Status Wi-Fi";
+
+/* Window */
+"Window" = "jendela";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Penemuan Nama Windows";
+
+/* Yes */
+"Yes" = "Ya";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Anda punya Netmin Pro.";
+
+/* Your public address */
+"Your public address" = "Alamat publik Anda";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "aktif";
+
+/* advanced structured reports */
+"advanced structured reports" = "laporan terstruktur lanjutan";
+
+/* all detected */
+"all detected" = "semua terdeteksi";
+
+/* arp table */
+"arp table" = "tabel arp";
+
+/* as name */
+"as name" = "sebagai nama";
+
+/* closed */
+"closed" = "tertutup";
+
+/* command */
+"command" = "perintah";
+
+/* complete zone */
+"complete zone" = "zona lengkap";
+
+/* configured */
+"configured" = "dikonfigurasi";
+
+/* creation date */
+"creation date" = "tanggal penciptaan";
+
+/* device sweep */
+"device sweep" = "penyapu perangkat";
+
+/* did not answer within */
+"did not answer within" = "tidak menjawab di dalam";
+
+/* differs */
+"differs" = "berbeda";
+
+/* domain name */
+"domain name" = "nama domain";
+
+/* down */
+"down" = "turun";
+
+/* downlink capacity */
+"downlink capacity" = "kapasitas downlink";
+
+/* expiration date */
+"expiration date" = "tanggal kedaluwarsa";
+
+/* expiration date: */
+"expiration date:" = "Tanggal kedaluwarsa:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "Kedaluwarsa %lld hari yang lalu";
+
+/* expires today */
+"expires today" = "berakhir hari ini";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "empat permintaan echo ICMP";
+
+/* gateway %@ */
+"gateway %@" = "gerbang %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "dalam %lld hari";
+
+/* inactive */
+"inactive" = "tidak aktif";
+
+/* incomplete */
+"incomplete" = "tidak lengkap";
+
+/* ip information */
+"ip information" = "informasi ip";
+
+/* just now */
+"just now" = "baru saja";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "Dibatasi pada /24 lokal untuk kecepatan";
+
+/* local */
+"local" = "lokal";
+
+/* loss %@ */
+"loss %@" = "kerugian %@";
+
+/* median %@ */
+"median %@" = "median %@";
+
+/* name server */
+"name server" = "server nama";
+
+/* name server: */
+"name server:" = "server nama:";
+
+/* network */
+"network" = "jaringan";
+
+/* network lookup */
+"network lookup" = "pencarian jaringan";
+
+/* network quality */
+"network quality" = "kualitas jaringan";
+
+/* network report */
+"network report" = "laporan jaringan";
+
+/* networks */
+"networks" = "jaringan";
+
+/* no address */
+"no address" = "tanpa alamat";
+
+/* no answer */
+"no answer" = "tidak ada jawaban";
+
+/* no ping replies */
+"no ping replies" = "tidak ada balasan ping";
+
+/* no reply */
+"no reply" = "tidak ada balasan";
+
+/* open */
+"open" = "Buka";
+
+/* packets transmitted */
+"packets transmitted" = "paket yang dikirim";
+
+/* primary %@ */
+"primary %@" = "primer %@";
+
+/* public ip */
+"public ip" = "hak kekayaan intelektual publik";
+
+/* raw output */
+"raw output" = "keluaran mentah";
+
+/* reachable */
+"reachable" = "dapat dijangkau";
+
+/* redirects followed */
+"redirects followed" = "pengalihan diikuti";
+
+/* registrar name */
+"registrar name" = "nama pendaftar";
+
+/* registry expiry date */
+"registry expiry date" = "tanggal kedaluwarsa registri";
+
+/* registry expiry date: */
+"registry expiry date:" = "Tanggal kedaluwarsa registri:";
+
+/* resolution failed */
+"resolution failed" = "penyelesaian gagal";
+
+/* reverse dns */
+"reverse dns" = "DNS terbalik";
+
+/* run with last target */
+"run with last target" = "berlari dengan target terakhir";
+
+/* scoped */
+"scoped" = "berlingkup";
+
+/* search domain */
+"search domain" = "domain pencarian";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "sidik jari sha256";
+
+/* site report */
+"site report" = "laporan lokasi";
+
+/* summary */
+"summary" = "Ringkasan";
+
+/* target */
+"target" = "target";
+
+/* the address */
+"the address" = "alamat";
+
+/* the selected resource */
+"the selected resource" = "Sumber daya yang dipilih";
+
+/* the selected target */
+"the selected target" = "Target yang dipilih";
+
+/* the target */
+"the target" = "Target";
+
+/* timed out */
+"timed out" = "habis waktu";
+
+/* unknown */
+"unknown" = "tidak diketahui";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "permintaan diagnostik tanpa batas";
+
+/* up */
+"up" = "naik";
+
+/* updated date */
+"updated date" = "tanggal pembaruan";
+
+/* uplink capacity */
+"uplink capacity" = "kapasitas uplink";
+
+/* verify return code */
+"verify return code" = "Verifikasi kode pengembalian";
+
+/* via %@ */
+"via %@" = "melalui %@";
+
+/* windows name */
+"windows name" = "nama windows";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Tambahkan %@ ke Favorit";
+
+/* Favorites */
+"Favorites" = "Favorit";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Hapus %@ dari Favorit";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Fitur Pro terkunci";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Beli atau pulihkan akses untuk membukanya.";
+
+/* Restoring… */
+"Restoring…" = "Memulihkan…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Tidak ditemukan pembelian Netmin aktif.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "Prefiks IP";
+
+/* Primary */
+"Primary" = "Utama";
+
+/* All relevant */
+"All relevant" = "Semua yang relevan";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "ASN asal, misalnya AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "Prefiks IP, misalnya 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Periksa apakah ASN asal diizinkan mengumumkan prefiks IP";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Coba transfer zona lengkap dari setiap server nama otoritatif";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Nama host, nama layanan, atau alamat IP";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Bandingkan jawaban DNS tersimpan dari Cloudflare, Google, Quad9, dan OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "Bandingkan semua jenis catatan yang relevan";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Membandingkan jawaban dari resolver publik…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Membandingkan jenis catatan umum yang berlaku untuk target ini.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Memeriksa A untuk nama host, PTR untuk alamat IP, atau SRV untuk nama layanan.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Semua resolver publik memberikan jawaban DNS yang sama.";
