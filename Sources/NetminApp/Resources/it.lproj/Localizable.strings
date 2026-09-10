@@ -1,0 +1,2690 @@
+/* Netmin — it localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "Sig.";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ accettato una connessione TCP.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ non è stato recuperato";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ non completato";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ apri";
+
+/* %@ open ports */
+"%@ open ports" = "%@ porte aperte";
+
+/* %@ per year */
+"%@ per year" = "%@ all'anno";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld indirizzi";
+
+/* %lld answers */
+"%lld answers" = "%lld risposte";
+
+/* %lld bytes */
+"%lld bytes" = "%lld byte";
+
+/* %lld checks */
+"%lld checks" = "assegni %lld";
+
+/* %lld day */
+"%lld day" = "%lld giorno";
+
+/* %lld days */
+"%lld days" = "%lld giorni";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld rilevato · scansionando tutte le riprese circa %lld s";
+
+/* %lld devices */
+"%lld devices" = "Dispositivi %lld";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld dispositivi su %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld voci";
+
+/* %lld headers */
+"%lld headers" = "Intestazione %lld";
+
+/* %lld hops */
+"%lld hops" = "%lld luppolo";
+
+/* %lld hosts */
+"%lld hosts" = "%lld conduttori";
+
+/* %lld hour */
+"%lld hour" = "%lld ora";
+
+/* %lld hours */
+"%lld hours" = "%lld ore";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld incompleto";
+
+/* %lld interfaces */
+"%lld interfaces" = "Interfacce %lld";
+
+/* %lld keys */
+"%lld keys" = "chiavi %lld";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld limitato a un /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld linee · %lld caratteri";
+
+/* %lld matches */
+"%lld matches" = "Fiammiferi %lld";
+
+/* %lld minute */
+"%lld minute" = "%lld minuto";
+
+/* %lld minutes */
+"%lld minutes" = "%lld minuti";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld altre righe · usa Copia Risultato per l'output completo";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld nominato · %lld senza nome";
+
+/* %lld names */
+"%lld names" = "%lld nomi";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld vicini";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld di %lld reti · circa %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld di %lld open";
+
+/* %lld open */
+"%lld open" = "%lld apri";
+
+/* %lld received */
+"%lld received" = "%lld ricevuto";
+
+/* %lld records */
+"%lld records" = "%lld record";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld record · parziale";
+
+/* %lld redirects */
+"%lld redirects" = "%lld reindirizza";
+
+/* %lld responses */
+"%lld responses" = "%lld risposte";
+
+/* %lld routes */
+"%lld routes" = "Itinerari %lld";
+
+/* %lld rows */
+"%lld rows" = "%lld file";
+
+/* %lld second */
+"%lld second" = "%lld secondo";
+
+/* %lld seconds */
+"%lld seconds" = "%lld secondi";
+
+/* %lld service types */
+"%lld service types" = "Tipi di servizio %lld";
+
+/* %lld services */
+"%lld services" = "%lld servizi";
+
+/* %lld tools */
+"%lld tools" = "%lld strumenti";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", con:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ok)";
+
+/* 1 match */
+"1 match" = "1 partita";
+
+/* 1 response */
+"1 response" = "1 risposta";
+
+/* 1 service */
+"1 service" = "1 Servizio";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 minuti fa";
+
+/* ; fully validated */
+"; fully validated" = "; Completamente convalidato";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; Risposta senza segno";
+
+/* ; validation failed */
+"; validation failed" = "; Validazione fallita";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "Un intervallo CIDR necessita di un indirizzo completo prima del prefisso, ad esempio 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "Una scansione può includere al massimo 16 range aggiunte manualmente.";
+
+/* ARP Table */
+"ARP Table" = "Tabella ARP";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "Ricerca ASN e BGP";
+
+/* Actions */
+"Actions" = "Azioni";
+
+/* Active */
+"Active" = "Attivo";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Voci attive segnalate da macOS e dagli strumenti locali di scoperta.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "Voci attive segnalate da macOS.";
+
+/* Add */
+"Add" = "Aggiungi";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Aggiungi %@ alla scansione";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Aggiungi un intervallo, ad esempio 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Aggiunto manualmente";
+
+/* Added range */
+"Added range" = "Maggiore portata";
+
+/* Address */
+"Address" = "Indirizzo";
+
+/* Address details */
+"Address details" = "Dettagli dell'indirizzo";
+
+/* Address details for %@ */
+"Address details for %@" = "Dettagli dell'indirizzo per %@";
+
+/* Addresses */
+"Addresses" = "Indirizzi";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Indirizzi con cui questo Mac ha recentemente scambiato pacchetti.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Aggiunge accessibilità, porte comuni e il percorso. Può richiedere un po'.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Aggiunge tentativi di trasferimento di zona, segnali DNSSEC, più nomi host e nomi dei certificati.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Servizi Bonjour pubblicizzati";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Pubblicizzato durante la finestra di discovery.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "Un indirizzo IPv4 necessita di quattro numeri da 0 a 255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "Un prefisso IPv4 va da /0 a /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "Un prefisso IPv6 va da /0 a /128";
+
+/* Answer %lld */
+"Answer %lld" = "Risposta %lld";
+
+/* Answers */
+"Answers" = "Risposte";
+
+/* Answers by resolver */
+"Answers by resolver" = "Risposte da risolvere";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Risposte restituite per %@.";
+
+/* Assigned address */
+"Assigned address" = "Indirizzo assegnato";
+
+/* Authenticated */
+"Authenticated" = "Autenticato";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Rinnova automaticamente ogni anno · Cancella in qualsiasi momento";
+
+/* Average */
+"Average" = "Media";
+
+/* Bits */
+"Bits" = "Bit";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour Services";
+
+/* Bonjour services */
+"Bonjour services" = "Servizi Bonjour";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Sfoglia i tipi di servizi Bonjour annunciati sulla rete locale per cinque secondi";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Sfogliando i tipi di servizi Bonjour pubblicizzati...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Crea un rapporto combinato DNS, routing, proprietà e rete";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Crea un report combinato per la connessione di rete attuale";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Costruire un rapporto per la connessione attuale...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "Costruire il DNS, il rapporto di instradamento e proprietà...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "Calcolatrice CIDR";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "Intervallo CIDR · Indirizzi %@";
+
+/* Calculated result */
+"Calculated result" = "Risultato calcolato";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Calcolo dei confini di rete e del numero degli indirizzi...";
+
+/* Cancel */
+"Cancel" = "Cancella";
+
+/* Certificate */
+"Certificate" = "Certificato";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Trasparenza dei Certificati";
+
+/* Certificate expires */
+"Certificate expires" = "Scadenza del certificato";
+
+/* Certificate names */
+"Certificate names" = "Nomi dei certificati";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Controlla DNS, porte web e SSH, header HTTPS, catena di certificati, versioni TLS, OCSP e MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Controlla se un resolver di convalida autentica la risposta DNS";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Controlla se un resolver di convalida autentica la risposta TLSA";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Controlla se una zona firmata espone i record NSEC";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Controlla se una porta TCP accetta una connessione";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Controlla se il dominio è incluso o idoneo al preload HSTS";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "Controllo DNS, TLS, web e servizi di posta...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "Controllo dello stato della lista di precarico HSTS...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Controllo dei registri NSEC pubblicati...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Controllo delle 25 porte TCP più comuni...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Controllo della versione HTTP negoziata e della risposta...";
+
+/* Checks */
+"Checks" = "Assegni";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Controlla i record Apex, le politiche di posta, i servizi, gli host comuni e i selezionatori DKIM.";
+
+/* Choose a tool */
+"Choose a tool" = "Scegli uno strumento";
+
+/* Cipher */
+"Cipher" = "Cifrario";
+
+/* Ciphersuite */
+"Ciphersuite" = "Suite cifraria";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Dati recenti e chiari";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Cancella i dati recenti...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Cancellare i dati recenti di Netmin?";
+
+/* Clear search */
+"Clear search" = "Ricerca chiara";
+
+/* Clear target */
+"Clear target" = "Libera il bersaglio";
+
+/* Clock offset */
+"Clock offset" = "Sfasamento dell'orologio";
+
+/* Close */
+"Close" = "Chiudi";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Raccolta Wi-Fi e dettagli sui punti di accesso vicini...";
+
+/* Common Port Scan */
+"Common Port Scan" = "Scansione delle porte comuni";
+
+/* Common TCP services */
+"Common TCP services" = "Servizi TCP comuni";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Confronta le risposte IPv4 di Cloudflare, Google, Quad9 e OpenDNS";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "Confrontando le risposte IPv4 dei risolutori pubblici...";
+
+/* Complete */
+"Complete" = "Completa";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Zona DNS completa per %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Completezza: Completa";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Completezza: Scoperta parziale";
+
+/* Configuration */
+"Configuration" = "Configurazione";
+
+/* Connection */
+"Connection" = "Collegamento";
+
+/* Connection quality */
+"Connection quality" = "Qualità della connessione";
+
+/* Connection succeeded */
+"Connection succeeded" = "Connessione successa";
+
+/* Connection timing */
+"Connection timing" = "Temporizzazione della connessione";
+
+/* Consistent */
+"Consistent" = "Costante";
+
+/* Content */
+"Content" = "Contenuto";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Contenuti restituiti dal destinatario, pronti per essere ispezionati o copiati.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Converti un dominio internazionalizzato tra forme Unicode e ASCII";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Convertire il dominio tra Unicode e ASCII...";
+
+/* Copied %@ */
+"Copied %@" = "Copiato %@";
+
+/* Copy Address */
+"Copy Address" = "Copia indirizzo";
+
+/* Copy Command */
+"Copy Command" = "Copia Comando";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Copia indirizzo MAC";
+
+/* Copy Name */
+"Copy Name" = "Copia Nome";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Copia l'output grezzo";
+
+/* Copy Result */
+"Copy Result" = "Copia del risultato";
+
+/* Copy Summary */
+"Copy Summary" = "Riassunto della copia";
+
+/* Copy Target */
+"Copy Target" = "Copia il bersaglio";
+
+/* Copy error */
+"Copy error" = "Errore di copia";
+
+/* Country */
+"Country" = "Paese";
+
+/* Coverage */
+"Coverage" = "Copertura";
+
+/* DANE Validation */
+"DANE Validation" = "Validazione DANE";
+
+/* DHCP Lease */
+"DHCP Lease" = "Contratto di locazione DHCP";
+
+/* DHCP lease */
+"DHCP lease" = "Locazione DHCP";
+
+/* DHCP server */
+"DHCP server" = "Server DHCP";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "Configurazione DNS";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC Walk Check";
+
+/* DNS Propagation */
+"DNS Propagation" = "Propagazione DNS";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "Traccia DNS";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "Scoperta della Zona DNS";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "Trasferimento di Zona DNS";
+
+/* DNS answers */
+"DNS answers" = "Risposte DNS";
+
+/* DNS configuration */
+"DNS configuration" = "Configurazione DNS";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS su HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS su TLS Endpoint";
+
+/* DNS records */
+"DNS records" = "Record DNS";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "Record DNS scoperti per %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "Record DNS, geolocalizzazione e ASN. Di solito pochi secondi.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "Risolutori DNS in uso";
+
+/* DNS response */
+"DNS response" = "Risposta DNS";
+
+/* DNS server */
+"DNS server" = "Server DNS";
+
+/* DNS service name */
+"DNS service name" = "Nome del servizio DNS";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC Chain Trace";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "Controllo DNSSEC";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "Validazione DNSSEC";
+
+/* Deep */
+"Deep" = "Profondo";
+
+/* Deep discovery */
+"Deep discovery" = "Scoperta profonda";
+
+/* Default */
+"Default" = "Predefinito";
+
+/* Default route */
+"Default route" = "Percorso predefinito";
+
+/* Default ·  */
+"Default · " = "Default ·";
+
+/* Depth */
+"Depth" = "Profondità";
+
+/* Destination */
+"Destination" = "Destinazione";
+
+/* Destination not reached */
+"Destination not reached" = "Destinazione non raggiunta";
+
+/* Details */
+"Details" = "Dettagli";
+
+/* Detect again */
+"Detect again" = "Rileva di nuovo";
+
+/* Devices */
+"Devices" = "Dispositivi";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Dispositivi (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Differenza tra l'orologio di questo Mac e %@.";
+
+/* Directives */
+"Directives" = "Direttive";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Scopri record DNS pubblici, servizi standard, politiche di posta, selettori DKIM e dati di zone esposti";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Discover, dispositivi di archiviazione, TV e altri servizi UPnP";
+
+/* Discovered network resources */
+"Discovered network resources" = "Risorse di rete scoperte";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "Scoprire dispositivi e servizi UPnP...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Scoprire dispositivi locali e servizi pubblicizzati...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Scoperta dei record DNS pubblici e dei dati delle zone...";
+
+/* Discovery output */
+"Discovery output" = "Output della scoperta";
+
+/* Discovery results */
+"Discovery results" = "Risultati della scoperta";
+
+/* DoT hostname */
+"DoT hostname" = "Nome host DoT";
+
+/* Domain */
+"Domain" = "Dominio";
+
+/* Domain name */
+"Domain name" = "Nome di dominio";
+
+/* Domain or hostname */
+"Domain or hostname" = "Dominio o nome host";
+
+/* Download */
+"Download" = "Scarica";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Ogni router sul percorso; il tempo di andata e ritorno viene misurato alla destinazione.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Abilita il comportamento opzionale dello strumento";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Inserisci un intervallo come 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Entra in gioco un intervallo IPv4 con un prefisso da /0 a /30, ad esempio 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Iscrizioni";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Ogni indirizzo nell'intervallo richiesto, uno per riga.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Ogni interfaccia macOS riporta, con i suoi indirizzi e lo stato del collegamento.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Ogni risolvere pubblico restituiva le stesse risposte IPv4.";
+
+/* Exit status */
+"Exit status" = "Stato dell'uscita";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Espandi un blocco CIDR gestibile in singoli indirizzi";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "Espandere la gamma CIDR in indirizzi individuali...";
+
+/* Expires */
+"Expires" = "Scadenza";
+
+/* Failed */
+"Failed" = "Fallito";
+
+/* Fast local discovery */
+"Fast local discovery" = "Rapida scoperta locale";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Recupera le regole di accesso al crawler del sito";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Recupera la policy di contatto di sicurezza pubblicata dal sito";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "Recupero di header HTTP e reindirizzamenti successivi...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "Recupero della posizione IP e dei dettagli di rete...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "Recupero dei record di registrazione IP tramite RDAP...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "Recuperare le chiavi host SSH e calcolare le impronte digitali...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Recupero delle intestazioni di sicurezza del browser...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Recupero dei record di registrazione del dominio tramite RDAP...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Recupero dello stato di validazione dell'origine della route...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "Recupero del certificato HTTPS e dei dati di identità...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Recupero la catena di certificati e la risposta OCSP graffetta...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Recupero delle regole di accesso al crawler del sito...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Recupero la politica di contatto di sicurezza del sito...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Recupero del tuo indirizzo IP pubblico...";
+
+/* Fields */
+"Fields" = "Campi";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Filtra %lld strumenti";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Filtra per IP, nome, interfaccia";
+
+/* Final status */
+"Final status" = "Stato finale";
+
+/* Find Tool… */
+"Find Tool…" = "Trova Strumento...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Trova uno strumento Netmin";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Trova nomi di certificati che possano rivelare sottodomini correlati";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Trova il servizio SMTP autenticato pubblicizzato";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Trova il servizio di configurazione email pubblicizzato";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Trova il servizio IMAP sicuro pubblicizzato";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Trova il nome host associato a un indirizzo IP";
+
+/* Fingerprint */
+"Fingerprint" = "Impronta digitale";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Impronte digitali presentate dal server, per confrontare con una voce di un host noto.";
+
+/* First */
+"First" = "Primo";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Segui la delega DNS dalla radice alla risposta";
+
+/* Formatted */
+"Formatted" = "Formattato";
+
+/* Formatted address */
+"Formatted address" = "Indirizzo formattato";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "Formattazione dell'indirizzo MAC...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Gratis · %lld di %lld richieste lasciate oggi";
+
+/* From */
+"From" = "Da";
+
+/* Full */
+"Full" = "Pieno";
+
+/* Gateway */
+"Gateway" = "Gateway";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Gateway %@ · percorso predefinito";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Porta d'accesso e percorsi";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Gateway e tabella di routing";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "Stato di precaricamento HSTS";
+
+/* HTTP Headers */
+"HTTP Headers" = "Intestazioni HTTP";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "Protocollo HTTP";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "Intestazioni di sicurezza HTTP";
+
+/* HTTP response */
+"HTTP response" = "Risposta HTTP";
+
+/* HTTP status */
+"HTTP status" = "Stato HTTP";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Risposta alla stretta di mano";
+
+/* Hide */
+"Hide" = "Nasconditi";
+
+/* Hop */
+"Hop" = "Hop";
+
+/* Hops */
+"Hops" = "Luppolo";
+
+/* Host */
+"Host" = "Conduttore";
+
+/* Host and port */
+"Host and port" = "Host e porto";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Host e port, per esempio example.com:443";
+
+/* Host keys */
+"Host keys" = "Chiavi host";
+
+/* Hostname */
+"Hostname" = "Nome ospite";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Nomi host che apparivano nei certificati pubblici per questo dominio.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Host che rispondevano al ping o apparivano nella cache dei vicini, con nomi, latenza e servizi pubblicizzati.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Host, servizi pubblicizzati e endpoint raggiungibili trovati durante questa run.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "Server YANA WHOIS";
+
+/* IP Information */
+"IP Information" = "Informazioni IP";
+
+/* IP Range Expander */
+"IP Range Expander" = "Espansore di Portata IP";
+
+/* IP address */
+"IP address" = "Indirizzo IP";
+
+/* IP address or ASN */
+"IP address or ASN" = "Indirizzo IP o ASN";
+
+/* IP address or domain */
+"IP address or domain" = "Indirizzo IP o dominio";
+
+/* IP address or hostname */
+"IP address or hostname" = "Indirizzo IP o nome host";
+
+/* IP address or prefix */
+"IP address or prefix" = "Indirizzo IP o prefisso";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, Instradamento e Registrazione";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "Intervallo CIDR IPv4, massimo 4096 indirizzi";
+
+/* IPv4 address */
+"IPv4 address" = "Indirizzo IPv4";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "Indirizzo IPv4 con CIDR";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "Vicini IPv4";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "Vicini IPv6";
+
+/* IPv6 address */
+"IPv6 address" = "Indirizzo IPv6";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Ispezionare i record DNSSEC e le firme di validazione";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Ispeziona lo stendardo SMTP e negozia STARTTLS";
+
+/* Interface */
+"Interface" = "Interfaccia";
+
+/* Interface Inventory */
+"Interface Inventory" = "Inventario delle interfacce";
+
+/* Interfaces */
+"Interfaces" = "Interfacce";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Unisciti a una rete o aggiungi un intervallo sotto. Eseguire lo sweep chiede all'assistente di controllare di nuovo.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Campi chiave della risposta del registro.";
+
+/* Keys */
+"Keys" = "Chiavi";
+
+/* Last */
+"Last" = "Ultimo";
+
+/* Latency */
+"Latency" = "Latenza";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Latenza, raggiungibilità e misurazioni del percorso.";
+
+/* Lease details */
+"Lease details" = "Dettagli del contratto di locazione";
+
+/* Lease time */
+"Lease time" = "Periodo di locazione";
+
+/* Limited */
+"Limited" = "Limitato";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Limitato al locale /24 per velocità";
+
+/* Lines */
+"Lines" = "Linee";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Dettagli del link per questo Mac e i punti di accesso che macOS può attualmente vedere.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "Caricamento dei prodotti dell'App Store...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Scansione locale dei dispositivi";
+
+/* Local Network */
+"Local Network" = "Rete locale";
+
+/* Location */
+"Location" = "Posizione";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Cercando i nomi di dominio nei registri dei certificati...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Sto cercando i server di consegna posta...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Consultare registri di registrazione e proprietà...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "Cercando il servizio di invio SMTP...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Cercando il servizio di configurazione email...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Cercando il nome host di questo indirizzo IP...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Cercando l'ASN di origine e il prefisso instradato...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Cercando il servizio IMAP sicuro...";
+
+/* MAC Formatter */
+"MAC Formatter" = "Formateatore MAC";
+
+/* MAC address */
+"MAC address" = "Indirizzo MAC";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC e venditore nascosti";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC e fornitore nascosti — vuoti in questa run";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC e fornitore mostrati";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Posta";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "SRV di autoscopri tramite posta";
+
+/* Mail BIMI */
+"Mail BIMI" = "Mail BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "Posta DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "DMARC della posta";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Posta IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Posta MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "SPF per posta";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "SRV per invio postale";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Segnalazione TLS per posta";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Mail TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Dominio della posta";
+
+/* Mail domain or server */
+"Mail domain or server" = "Dominio o server di posta";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Server di posta e porta, per esempio mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Gestire l'abbonamento";
+
+/* Maximum */
+"Maximum" = "Massimo";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Misura i dettagli attuali di download, upload, responsività e connessione";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Misura la raggiungibilità e la latenza di andata e ritorno";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Capacità misurata e reattività della connessione attuale.";
+
+/* Measurement */
+"Measurement" = "Misurazione";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Misurazione del download, upload e reattività...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Misurazione della raggiungibilità e della latenza di andata e ritorno...";
+
+/* Minimum */
+"Minimum" = "Minimo";
+
+/* Mode */
+"Mode" = "Modalità";
+
+/* More copy options */
+"More copy options" = "Più opzioni di copia";
+
+/* My Network Report */
+"My Network Report" = "Il mio rapporto di rete";
+
+/* My Public IP */
+"My Public IP" = "Il mio IP pubblico";
+
+/* NTP Offset */
+"NTP Offset" = "NTP Offset";
+
+/* NTP server */
+"NTP server" = "Server NTP";
+
+/* Name */
+"Name" = "Nome";
+
+/* Names */
+"Names" = "Nomi";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Nomi nei registri dei certificati";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Negozia TLS con qualsiasi servizio implicito TLS e mostra il protocollo e il cifrario selezionati";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Protocollo negoziato, cifrario, identità del certificato e stato di verifica.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "Negoziare SMTP STARTTLS...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Negoziazione TLS sulla porta di servizio specificata...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "Negoziare la connessione HTTPS TLS...";
+
+/* Neighbor */
+"Neighbor" = "Vicino";
+
+/* Neighbor cache */
+"Neighbor cache" = "Cache dei vicini";
+
+/* Neighbors */
+"Neighbors" = "Vicini";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Lifetime · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro Annualmente";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin rileva dispositivi e servizi sulle reti locali che scegli di ispezionare.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin ha interrotto questo comando dopo %lld secondi.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin ha bloccato questo comando dopo aver prodotto %@ di output.";
+
+/* Network */
+"Network" = "Rete";
+
+/* Network Lookup */
+"Network Lookup" = "Ricerca della rete";
+
+/* Network Quality */
+"Network Quality" = "Qualità della rete";
+
+/* Network entries */
+"Network entries" = "Ingressi in rete";
+
+/* Network interfaces */
+"Network interfaces" = "Interfacce di rete";
+
+/* Networks */
+"Networks" = "Reti";
+
+/* Networks scanned */
+"Networks scanned" = "Reti scansionate";
+
+/* Networks to scan */
+"Networks to scan" = "Reti da scansionare";
+
+/* New Lookup */
+"New Lookup" = "Nuova ricerca";
+
+/* New Report */
+"New Report" = "Nuovo rapporto";
+
+/* New Sweep */
+"New Sweep" = "Nuova Sweep";
+
+/* No */
+"No" = "No";
+
+/* No DNS records found */
+"No DNS records found" = "Nessun record DNS trovato";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Non è stato trovato alcun acquisto Netmin Pro per questo account Apple.";
+
+/* No common ports are open */
+"No common ports are open" = "Non sono aperte porte comuni";
+
+/* No common services */
+"No common services" = "Nessun servizio comune";
+
+/* No data returned */
+"No data returned" = "Nessun dato restituito";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Nessun dispositivo corrisponde a \"%@\"";
+
+/* No devices responded */
+"No devices responded" = "Nessun dispositivo ha risposto";
+
+/* No diagnostic output */
+"No diagnostic output" = "Nessun output diagnostico";
+
+/* No input required */
+"No input required" = "Nessun input richiesto";
+
+/* No matching tools */
+"No matching tools" = "Nessun strumento abbinato";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Nessuna rete IPv4 privata rilevata · aggiungi un intervallo da scansionare";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Non è stata rilevata alcuna rete privata IPv4";
+
+/* No result returned */
+"No result returned" = "Nessun risultato è stato restituito";
+
+/* No target */
+"No target" = "Nessun bersaglio";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "Nessun attrezzo corrisponde a \"%@\"";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Normalizzare un indirizzo MAC in una forma maiuscola separata da due punti";
+
+/* Not reached */
+"Not reached" = "Non raggiunto";
+
+/* Not selected */
+"Not selected" = "Non selezionato";
+
+/* Notafter */
+"Notafter" = "Non dopo";
+
+/* Notes */
+"Notes" = "Note";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Nulla ha risposto al ping né è apparso nella cache dei vicini sulle reti scansionate. Controlla che questo Mac sia sulla rete prevista o aggiungi manualmente un intervallo.";
+
+/* Nothing detected */
+"Nothing detected" = "Nulla rilevato";
+
+/* Off */
+"Off" = "Spento";
+
+/* Offset */
+"Offset" = "Offset";
+
+/* On */
+"On" = "On";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Solo la segnalazione IANA è stata restituita. Riprova %@ oppure usa RDAP per recuperare il registrar, i nameserver e le date di registrazione.";
+
+/* Open */
+"Open" = "Open";
+
+/* Open ports */
+"Open ports" = "Porte aperte";
+
+/* Open ports: */
+"Open ports:" = "Porte aperte:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "IPv4 CIDR opzionale; scansioni vuote di tutte le LAN attive";
+
+/* Options */
+"Options" = "Opzioni";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Origin AS e prefisso instradato";
+
+/* Other */
+"Other" = "Altro";
+
+/* Output */
+"Output" = "Produzione";
+
+/* Overview */
+"Overview" = "Panoramica";
+
+/* Packet loss */
+"Packet loss" = "Perdita di pacchetti";
+
+/* Partial */
+"Partial" = "Parziale";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Passa %@ al comando";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Il pagamento va al tuo account Apple. L'abbonamento annuale si rinnova automaticamente a meno che non venga cancellato nelle impostazioni dell'App Store almeno un giorno prima della scadenza del periodo corrente.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Scegli uno strumento dalla barra laterale o premi ⌘K per cercarli tutti.";
+
+/* Ping */
+"Ping" = "Ping";
+
+/* Port */
+"Port" = "Porto";
+
+/* Port %@ is open */
+"Port %@ is open" = "Porto %@ aperto";
+
+/* Ports */
+"Ports" = "Conversioni";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Porte che accettavano una connessione.";
+
+/* Primary mail server */
+"Primary mail server" = "Server di posta principale";
+
+/* Primary nameserver */
+"Primary nameserver" = "Server di nomi primario";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "PrimaryInterface";
+
+/* Privacy */
+"Privacy" = "Privacy";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Informativa sulla privacy...";
+
+/* Pro */
+"Pro" = "Pro";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Gli acquisti Pro al momento non sono disponibili. Per favore, riprova più tardi.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Prova professionale · %lld giorni rimanenti";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Pro-trial · 1 giorno rimanente";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Prova pro · fine %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Pro prova · primo pagamento %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Prova pro · fino a %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro trasforma l'output diagnostico grezzo in tabelle, metriche e risultati. Dopo la prova di 30 giorni, Free include output grezzo per fino a cinque richieste al giorno.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Pro · fine %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Pro · Vita";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Pro · rinnova %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Pro · condivisa con la tua famiglia";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Pro · fino a %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Probe 25 porte TCP comuni con gli strumenti di rete inclusi in macOS";
+
+/* Probed */
+"Probed" = "Esaminato";
+
+/* Proto */
+"Proto" = "Proto";
+
+/* Protocol */
+"Protocol" = "Protocollo";
+
+/* Protocol Version */
+"Protocol Version" = "Versione del protocollo";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "La scoperta del DNS pubblico è parziale";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Le indagini DNS pubbliche hanno trovato record utili, ma i nomi personalizzati possono comunque essere nascosti.";
+
+/* Public IP */
+"Public IP" = "IP pubblico";
+
+/* Public IPv4 */
+"Public IPv4" = "IPv4 pubblico";
+
+/* Public IPv6 */
+"Public IPv6" = "IPv6 pubblico";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Dettagli di indirizzo pubblico e proprietà della rete.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "I risolutori pubblici restituivano risposte diverse; un cambiamento potrebbe ancora essere in corso.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Convertitore Punycode";
+
+/* Purchase */
+"Purchase" = "Acquisto";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Al momento non sono disponibili acquisti.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Consulta un record A tramite un endpoint DNS-over-HTTPS";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Consulta il nome NetBIOS e il gruppo di lavoro pubblicizzati da un dispositivo Windows o SMB";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Consulta il clock del server e mostra lo spostamento locale misurato";
+
+/* Querying %@… */
+"Querying %@…" = "Domanda %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "Interrogazione dei record geografici DNS...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "Interrogazione dei record di testo DNS...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "Interrogazione delle chiavi pubbliche DNSSEC...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "Interrogazione dei registri DNSSEC e delle firme...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "Interrogazione degli endpoint HTTPS e dei suggerimenti di connessione...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "Interrogazione dei record di indirizzi IPv4 (A)...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "Interrogazione dei record IPv4 su HTTPS...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "Interrogazione dei record di indirizzi IPv6 (AAAA)...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Interrogazione dei dati di discovery della polizza MTA-STS...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "Interrogazione dei registri di associazione dei certificati TLS...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "Interrogazione dei record di segnalazione TLS...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Interrogazione di record autorevoli del server di nomi...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Invio i registri degli indicatori del marchio...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Interrogazione dei registri di autorizzazione delle autorità di certificazione...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Richiesta dei registri del firmatario della delega...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Interrogazione dei record host name alias (CNAME)...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Interrogazione dei bindings di servizio e parametri di connessione...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Interrogazione delle regole di discovery del servizio...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Interrogazione di host di servizio, porte e priorità...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "Interrogazione della chiave pubblica del selettore DKIM...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Interrogare il nome del dispositivo Windows o SMB...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Interrogare la politica di autenticazione email...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Interrogare la politica di autorizzazione del mittente...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Interrogare il server del tempo e misurare lo spostamento dell'orologio...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Interrogazione dell'autorità della zona e dei registri di orario...";
+
+/* Quick */
+"Quick" = "Veloce";
+
+/* Quick lookup */
+"Quick lookup" = "Ricerca veloce";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Trova rapidamente dispositivi locali, stampanti e servizi pubblicizzati";
+
+/* RDAP Domain */
+"RDAP Domain" = "Dominio RDAP";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "Validazione RPKI";
+
+/* Ran %@ */
+"Ran %@" = "Run %@";
+
+/* Raw Output */
+"Raw Output" = "Output grezzo";
+
+/* Raw output */
+"Raw output" = "Produzione grezza";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Raggiungibilità e tempistica di andata e ritorno per %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Porte raggiungibili, servizi e dettagli della chiave host.";
+
+/* Reached */
+"Reached" = "Raggiunto";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Lettura dei vicini IPv4 in cache...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Lettura dei vicini IPv6 in cache...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "Leggere i risolutori DNS di macOS e i domini di ricerca...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Lettura degli indirizzi e dello stato dell'interfaccia di rete...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Leggendo il contratto DHCP dell'interfaccia attiva...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Leggere le tabelle predefinite del gateway e del routing...";
+
+/* Recent */
+"Recent" = "Recenti";
+
+/* Record */
+"Record" = "Record";
+
+/* Records */
+"Records" = "Record";
+
+/* Registrar */
+"Registrar" = "Registro";
+
+/* Registration and routing data */
+"Registration and routing data" = "Registrazione e dati di instradamento";
+
+/* Registry record */
+"Registry record" = "Registro del registro";
+
+/* Registry response */
+"Registry response" = "Risposta del registro";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "La risposta del registro è incompleta";
+
+/* Related */
+"Related" = "Correlati";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Ricordato per i prossimi risultati · ⌘1 Panoramica, ⌘2 Output grezzo";
+
+/* Remove this range */
+"Remove this range" = "Rimuovi questo intervallo";
+
+/* Replies */
+"Replies" = "Risposte";
+
+/* Report for %@ */
+"Report for %@" = "Rapporto per %@";
+
+/* Report overview */
+"Report overview" = "Panoramica del rapporto";
+
+/* Reports */
+"Reports" = "Rapporti";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Richiedi un trasferimento completo della zona DNS da un server autorevole";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Richiesta di trasferimento completo della zona DNS...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Richiedi TLS 1.2 e mostra se la negoziazione ha avuto successo";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Richiedi TLS 1.3 e mostra se la negoziazione ha avuto successo";
+
+/* Resolved */
+"Resolved" = "Risolto";
+
+/* Resolved address */
+"Resolved address" = "Indirizzo risolto";
+
+/* Resolver */
+"Resolver" = "Resolver";
+
+/* Resolver %@ */
+"Resolver %@" = "Resolver %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Output del resolver raggruppato per una rapida revisione.";
+
+/* Resolver response */
+"Resolver response" = "Risposta del Resolver";
+
+/* Resolvers */
+"Resolvers" = "Risolutori";
+
+/* Resolvers agree */
+"Resolvers agree" = "I risolutori concordano";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Risolutori e domini di ricerca attualmente utilizzati da macOS, in ordine di priorità.";
+
+/* Resolvers differ */
+"Resolvers differ" = "I risolutori differiscono";
+
+/* Resources */
+"Resources" = "Risorse";
+
+/* Response */
+"Response" = "Risposta";
+
+/* Response %lld */
+"Response %lld" = "Risposta %lld";
+
+/* Responses */
+"Responses" = "Risposte";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Risposte alla ricerca multicast, una scheda per ogni annuncio.";
+
+/* Responsiveness */
+"Responsiveness" = "Reattività";
+
+/* Restore Purchases */
+"Restore Purchases" = "Ripristino degli acquisti";
+
+/* Result */
+"Result" = "Risultato";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "I risultati sono raggruppati per ogni controllo di rete completato.";
+
+/* Retry registry */
+"Retry registry" = "Registro dei ritentativi";
+
+/* Reverse DNS */
+"Reverse DNS" = "DNS inverso";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Andata e ritorno";
+
+/* Route to target */
+"Route to target" = "Percorso verso l'obiettivo";
+
+/* Router */
+"Router" = "Router";
+
+/* Routes */
+"Routes" = "Percorsi";
+
+/* Routing record */
+"Routing record" = "Record di instradamento";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Instradamento dei dati del registro per %@.";
+
+/* Routing table */
+"Routing table" = "Tabella di instradamento";
+
+/* Run */
+"Run" = "Corri";
+
+/* Run Again */
+"Run Again" = "Corri di nuovo";
+
+/* Run Lookup */
+"Run Lookup" = "Ricerca esegui";
+
+/* Run Report */
+"Run Report" = "Resoconto delle corse";
+
+/* Run Sweep */
+"Run Sweep" = "Run Sweep";
+
+/* Run Tool */
+"Run Tool" = "Strumento di esecuzione";
+
+/* Run again */
+"Run again" = "Corri di nuovo";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Esegui lo strumento %@";
+
+/* Running */
+"Running" = "Corso";
+
+/* Running %@… */
+"Running %@…" = "Correndo %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "Running · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "Scoperta SSDP/UPnP";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "Chiavi host SSH";
+
+/* SSH host keys */
+"SSH host keys" = "Chiavi host SSH";
+
+/* Save Report… */
+"Save Report…" = "Rapporto di salvataggio...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Salva report e copia riassunti strutturati";
+
+/* Scan */
+"Scan" = "Scansione";
+
+/* Scripts */
+"Scripts" = "Sceneggiature";
+
+/* Search domain */
+"Search domain" = "Dominio di ricerca";
+
+/* Sections */
+"Sections" = "Sezioni";
+
+/* Security details */
+"Security details" = "Dettagli di sicurezza";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Selezionato";
+
+/* Sequence */
+"Sequence" = "Sequenza";
+
+/* Server */
+"Server" = "Server";
+
+/* Service */
+"Service" = "Servizio";
+
+/* Service reachability */
+"Service reachability" = "Raggiungibilità del servizio";
+
+/* Service type */
+"Service type" = "Tipo di servizio";
+
+/* Service types */
+"Service types" = "Tipi di servizio";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "I tipi di servizio annunciati sulla rete locale durante la finestra di discovery.";
+
+/* Services */
+"Services" = "Servizi";
+
+/* Show */
+"Show" = "Programma";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Mostra le associazioni dei certificati DANE per un servizio TLS";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Mostra endpoint del servizio HTTPS e suggerimenti di connessione";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Mostra gli indirizzi IPv4 pubblicati per un nome host";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Mostra i vicini IPv4 che questo Mac ha recentemente contattato";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Mostra gli indirizzi IPv6 pubblicati per un nome host";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Mostra i dettagli del collegamento Wi-Fi e i punti di accesso vicini visibili su macOS";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Mostra indirizzi, MTU, stato e contatori per ogni interfaccia di rete";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Mostra i vicini IPv6 memorizzati nella cache e i loro indirizzi di livello link";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Mostra l'identità del certificato, l'emittente, la validità e l'impronta digitale SHA-256";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Mostra ogni router sul percorso verso la destinazione";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Mostra i registri geografici di localizzazione pubblicati per una zona";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Mostra posizione, rete, ASN e dettagli di proprietà";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Mostra versione TLS negoziata, cifrario, scambio di chiavi e verifica";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Mostra i confini di rete, netmask, indirizzo broadcast e dimensione";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Mostra record di testo pubblicati e politiche di dominio";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Mostra i registri grezzi di registrazione e proprietà";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Mostra l'assegnazione del registro e i dettagli di registrazione per un IP";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Mostra i dettagli di registrazione e stato del registro per un dominio";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Header di risposta allo spettacolo e ogni salto di reindirizzamento";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Mostra i record di scoperta del servizio basati su regole";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Mostra endpoint di servizio e parametri di connessione";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Conduttori di servizio dello show, porti, priorità e pesi";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Mostra i risolutori DNS e i domini di ricerca che macOS usa effettivamente";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Mostra lo stato di validazione dell'origine della rotta RPKI riportato da RIPE";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Mostra il server DHCP dell'interfaccia attiva, il leasing e le opzioni fornite";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Mostra i server di nomi autorevoli per un dominio";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Mostra il target canonico dell'alias per un nome host";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Mostra l'intera catena di certificati serviti, il risultato della verifica e la risposta OCSP spillata";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Mostra il gateway predefinito e la tabella completa di route IPv4 e IPv6";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Mostra la politica degli indicatori di marca del dominio";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Mostra la politica di autenticazione email del dominio";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Mostra la versione HTTP negoziata, lo stato, l'indirizzo server e il risultato TLS";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Mostra l'ASN di origine, il prefisso instradato, il registro e i dettagli di allocazione";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Mostra i registri di delega della zona madre";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Mostra la politica che richiede la consegna sicura della posta";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Mostra le principali intestazioni di sicurezza del browser restituite da un sito";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Mostra l'indirizzo IP pubblico visualizzato da internet";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Mostra la chiave pubblica per un selettore DKIM";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Mostra le chiavi pubbliche usate per convalidare una zona DNS";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Mostra le impronte digitali SSH pubblicizzate dal server";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Mostra i server che ricevono la posta per un dominio";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Mostra dove vengono inviati i report di consegna TLS";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Mostra quali autorità di certificazione possono emettere certificati";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Mostra quali server sono autorizzati a inviare posta";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Informazioni sull'autorità della zona, serie e tempismo di visualizzazione";
+
+/* Site Report */
+"Site Report" = "Rapporto sul sito";
+
+/* Site report for example.org */
+"Site report for example.org" = "Rapporto sul sito per example.org";
+
+/* State */
+"State" = "Stato";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Stato:/Rete/Globale/IPv4";
+
+/* Statistics */
+"Statistics" = "Statistiche";
+
+/* Status */
+"Status" = "Stato";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Stato, protocollo, reindirizzamenti e header restituiti.";
+
+/* Stop */
+"Stop" = "Fermati";
+
+/* Stop Sweep */
+"Stop Sweep" = "Stop Sweep";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Risposta strutturata del registro per %@.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "I report strutturati sono una funzione di Netmin Pro";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Report strutturati con tabelle, metriche e risultati";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Risposta strutturata del risolver.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Risposta strutturata dal servizio web.";
+
+/* System network configuration */
+"System network configuration" = "Configurazione della rete di sistema";
+
+/* TCP Port Check */
+"TCP Port Check" = "Controllo delle porte TCP";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "RAGGIUNGIBILITÀ DEL TCP";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Stretta di Mano";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Stretta di mano";
+
+/* TLS Certificate */
+"TLS Certificate" = "Certificato TLS";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "Catena di Certificati TLS";
+
+/* TLS Handshake */
+"TLS Handshake" = "Stretta di mano TLS";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "Stretta di mano TLS Service";
+
+/* TLS connection */
+"TLS connection" = "Connessione TLS";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, Web e Porte";
+
+/* Target */
+"Target" = "Bersaglio";
+
+/* Target (optional) */
+"Target (optional)" = "Bersaglio (opzionale)";
+
+/* Target did not reply */
+"Target did not reply" = "Target non ha risposto";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "I target non possono contenere spazi";
+
+/* Terms */
+"Terms" = "Termini";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Test contemporaneamente SMTP 25, SMTPS 465, sottomissione 587, IMAPS 993 e POP3S 995";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Testa la negoziazione TLS con un server DNS su TLS";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "Testare la negoziazione TLS 1.2...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "Testare la negoziazione TLS 1.3...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "Sto testando la negoziazione TLS sulla porta DNS 853...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "Testare TLS su servizi SMTP, IMAP e POP3...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Testando una connessione alla porta TCP specificata...";
+
+/* Text */
+"Text" = "Testo";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "Le 25 porte TCP più comuni sono state sondate con un timeout di un secondo.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "L'App Store non è riuscito a verificare questo acquisto.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "L'indirizzo MAC in forma canonica maiuscola, separata dai due punti.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Il catalogo degli strumenti Netmin non contiene strumenti validi.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "L'URL ha bisogno di uno schema e di un host, ad esempio https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "Il contratto di locazione dell'interfaccia attiva e le opzioni fornite dal suo server DHCP.";
+
+/* The address is not valid. */
+"The address is not valid." = "L'indirizzo non è valido.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "L'indirizzo che internet vede per questa connessione.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "L'app seguiva i reindirizzamenti, ma il sito web inviava ripetutamente questo file allo stesso URL. Nessun file veniva restituito.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "Il server autorevole permetteva un trasferimento completo di zona AXFR.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "I server autorevoli non fornivano un trasferimento completo di zona. Questi sono i record trovati tramite sonde pubbliche; nomi personalizzati potrebbero ancora esistere.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "Il catalogo degli strumenti Netmin incluso in bundle manca.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Il comando fu completato, ma il bersaglio non restituì dati corrispondenti.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Il comando fallì prima di produrre output diagnostico.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "La rotta predefinita e tutte le route IPv4 e IPv6 che macOS conosce.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "I primi 30 giorni includono Pro. Dopo la prova, Free conserva tutti gli 84 strumenti e l'output grezzo, con cinque richieste diagnostiche al giorno.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "Il prefisso dopo / deve essere un numero";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Il processo è uscito con lo stato %lld prima di restituire i dettagli. Controlla che il comando richiesto sia installato e che il bersaglio sia raggiungibile.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "L'acquisto è in attesa di approvazione.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Il registro restituiva una risposta non strutturata; le sue righe utili sono mostrate di seguito.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "Il risolvere non restituì risposte corrispondenti.";
+
+/* This Mac */
+"This Mac" = "Questo Mac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "Questo rimuove i target salvati e i riassunti delle esecuzioni recenti da questo Mac. Non elimina i report esportati.";
+
+/* Time */
+"Time" = "Tempo";
+
+/* Timeouts */
+"Timeouts" = "Timeout";
+
+/* Tools */
+"Tools" = "Strumenti";
+
+/* Tools unavailable */
+"Tools unavailable" = "Strumenti non disponibili";
+
+/* Trace */
+"Trace" = "Traccia";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Traccia la catena di trust DNSSEC dalla root";
+
+/* Traceroute */
+"Traceroute" = "Traceroute";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "Tracciare delegazioni DNS e record DNSSEC...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "Tracciando delegazioni DNS dalla radice...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Tracciare il percorso della rete fino alla destinazione...";
+
+/* Try Again */
+"Try Again" = "Riprova";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Prova invece RDAP →";
+
+/* Type */
+"Type" = "Tipo";
+
+/* Types */
+"Types" = "Tipi";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "Dispositivi e servizi UPnP";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "Incertezza";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Diagnostica di rete illimitata con report e strumenti di esportazione leggibili.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Uso illimitato di tutti gli 84 strumenti diagnostici";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Sblocca %@, più l'intero set di funzionalità Pro.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Sblocca Rapporto...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Sblocca il Riassunto Strutturato...";
+
+/* Unnamed */
+"Unnamed" = "Senza nome";
+
+/* Unsigned */
+"Unsigned" = "Non firmato";
+
+/* Upload */
+"Upload" = "Caricamento";
+
+/* Use custom resolver */
+"Use custom resolver" = "Usa un resolver personalizzato";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Usa host:port, un indirizzo IPv6 o un indirizzo MAC";
+
+/* Utilities */
+"Utilities" = "Utenze";
+
+/* VPN tunnel */
+"VPN tunnel" = "Tunnel VPN";
+
+/* Validated */
+"Validated" = "Validato";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "Validazione dei record TLSA e della loro catena DNSSEC...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "Validazione della risposta DNS e della catena DNSSEC...";
+
+/* Value */
+"Value" = "Valore";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Valori prodotti da %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "Valori riportati da macOS per %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Valori restituiti per %@.";
+
+/* Vendor */
+"Vendor" = "Fornitore";
+
+/* Verification */
+"Verification" = "Verifica";
+
+/* Verify Return Code */
+"Verify Return Code" = "Verifica il codice di ritorno";
+
+/* View */
+"View" = "Vista";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Visualizza Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "Ponte virtuale";
+
+/* Virtual machine network */
+"Virtual machine network" = "Rete di macchine virtuali";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "Server WHOIS";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Aspettando la prima risposta...";
+
+/* Web policy status */
+"Web policy status" = "Stato della politica web";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Diagnostica Wi-Fi";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Stato Wi-Fi";
+
+/* Window */
+"Window" = "Finestra";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Scoperta del nome di Windows";
+
+/* Yes */
+"Yes" = "Sì";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Hai Netmin Pro.";
+
+/* Your public address */
+"Your public address" = "Il tuo discorso pubblico";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.nome host";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "Attivo";
+
+/* advanced structured reports */
+"advanced structured reports" = "Report strutturati avanzati";
+
+/* all detected */
+"all detected" = "Tutti rilevati";
+
+/* arp table */
+"arp table" = "Tabella ARP";
+
+/* as name */
+"as name" = "Come nome";
+
+/* closed */
+"closed" = "Chiuso";
+
+/* command */
+"command" = "Comando";
+
+/* complete zone */
+"complete zone" = "Zona completa";
+
+/* configured */
+"configured" = "configurato";
+
+/* creation date */
+"creation date" = "Data di creazione";
+
+/* device sweep */
+"device sweep" = "Scansione del dispositivo";
+
+/* did not answer within */
+"did not answer within" = "non rispose all'interno";
+
+/* differs */
+"differs" = "differisce";
+
+/* domain name */
+"domain name" = "Nome di dominio";
+
+/* down */
+"down" = "Giù";
+
+/* downlink capacity */
+"downlink capacity" = "Capacità di downlink";
+
+/* expiration date */
+"expiration date" = "Data di scadenza";
+
+/* expiration date: */
+"expiration date:" = "Data di scadenza:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "scaduto %lld giorni fa";
+
+/* expires today */
+"expires today" = "scade oggi";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "quattro richieste di eco ICMP";
+
+/* gateway %@ */
+"gateway %@" = "gateway %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "in %lld giorni";
+
+/* inactive */
+"inactive" = "inattivo";
+
+/* incomplete */
+"incomplete" = "incompleto";
+
+/* ip information */
+"ip information" = "Informazioni IP";
+
+/* just now */
+"just now" = "Proprio adesso";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "limitato al locale /24 per velocità";
+
+/* local */
+"local" = "Locale";
+
+/* loss %@ */
+"loss %@" = "perdita %@";
+
+/* median %@ */
+"median %@" = "mediana %@";
+
+/* name server */
+"name server" = "Server di nomi";
+
+/* name server: */
+"name server:" = "Server del nome:";
+
+/* network */
+"network" = "Rete";
+
+/* network lookup */
+"network lookup" = "Ricerca della rete";
+
+/* network quality */
+"network quality" = "Qualità della rete";
+
+/* network report */
+"network report" = "Rapporto di rete";
+
+/* networks */
+"networks" = "Reti";
+
+/* no address */
+"no address" = "Nessun indirizzo";
+
+/* no answer */
+"no answer" = "Nessuna risposta";
+
+/* no ping replies */
+"no ping replies" = "Nessuna risposta ping";
+
+/* no reply */
+"no reply" = "Nessuna risposta";
+
+/* open */
+"open" = "Apri";
+
+/* packets transmitted */
+"packets transmitted" = "Pacchetti trasmessi";
+
+/* primary %@ */
+"primary %@" = "primario %@";
+
+/* public ip */
+"public ip" = "IP pubblico";
+
+/* raw output */
+"raw output" = "Produzione grezza";
+
+/* reachable */
+"reachable" = "raggiungibile";
+
+/* redirects followed */
+"redirects followed" = "Seguirono reindirizzamenti";
+
+/* registrar name */
+"registrar name" = "Nome del registro";
+
+/* registry expiry date */
+"registry expiry date" = "Data di scadenza del registro";
+
+/* registry expiry date: */
+"registry expiry date:" = "Data di scadenza del registro (NUNCA):";
+
+/* resolution failed */
+"resolution failed" = "Risoluzione fallita";
+
+/* reverse dns */
+"reverse dns" = "DNS inverso";
+
+/* run with last target */
+"run with last target" = "Corri con l'ultimo obiettivo";
+
+/* scoped */
+"scoped" = "Scoped";
+
+/* search domain */
+"search domain" = "Dominio di ricerca";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.dominio";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "Impronta digitale sha256";
+
+/* site report */
+"site report" = "Rapporto del sito";
+
+/* summary */
+"summary" = "Sommario";
+
+/* target */
+"target" = "Bersaglio";
+
+/* the address */
+"the address" = "L'indirizzo";
+
+/* the selected resource */
+"the selected resource" = "La risorsa selezionata";
+
+/* the selected target */
+"the selected target" = "Il bersaglio selezionato";
+
+/* the target */
+"the target" = "L'obiettivo";
+
+/* timed out */
+"timed out" = "Scadente";
+
+/* unknown */
+"unknown" = "Sconosciuto";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "Richieste diagnostiche illimitate";
+
+/* up */
+"up" = "Up";
+
+/* updated date */
+"updated date" = "Data di aggiornamento";
+
+/* uplink capacity */
+"uplink capacity" = "Capacità di collegamento";
+
+/* verify return code */
+"verify return code" = "verifica il codice di ritorno";
+
+/* via %@ */
+"via %@" = "via %@";
+
+/* windows name */
+"windows name" = "Nome Windows";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Aggiungi %@ ai preferiti";
+
+/* Favorites */
+"Favorites" = "Preferiti";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Rimuovi %@ dai preferiti";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Le funzioni Pro sono bloccate";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Acquista o ripristina l’accesso per sbloccarle.";
+
+/* Restoring… */
+"Restoring…" = "Ripristino…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Non è stato trovato alcun acquisto Netmin attivo.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "Prefisso IP";
+
+/* Primary */
+"Primary" = "Principale";
+
+/* All relevant */
+"All relevant" = "Tutti i pertinenti";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "ASN di origine, ad esempio AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "Prefisso IP, ad esempio 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Verifica se un ASN di origine è autorizzato ad annunciare un prefisso IP";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Prova un trasferimento completo della zona da ogni server dei nomi autorevole";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Nome host, nome del servizio o indirizzo IP";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Confronta le risposte DNS nella cache di Cloudflare, Google, Quad9 e OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "Confronta tutti i tipi di record pertinenti";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Confronto delle risposte dei resolver pubblici…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Confronta i tipi di record comuni applicabili a questa destinazione.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Controlla A per un nome host, PTR per un indirizzo IP o SRV per un nome del servizio.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Tutti i resolver pubblici hanno restituito le stesse risposte DNS.";
