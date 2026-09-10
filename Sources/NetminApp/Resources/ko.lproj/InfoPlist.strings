@@ -1,0 +1,3 @@
+/* Netmin — ko Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin은 사용자가 검사하기로 선택한 로컬 네트워크에서 장치와 서비스를 검색합니다.";
