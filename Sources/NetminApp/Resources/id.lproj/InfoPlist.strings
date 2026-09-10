@@ -1,0 +1,3 @@
+/* Netmin — id Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin menemukan perangkat dan layanan di jaringan lokal yang Anda pilih untuk diperiksa.";
