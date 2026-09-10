@@ -1,0 +1,2690 @@
+/* Netmin — ja localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "MS";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ はTCP接続を受け入れました。";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ 回収できませんでした";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ 未完成";
+
+/* %@ ms */
+"%@ ms" = "%@ミリ秒";
+
+/* %@ open */
+"%@ open" = "%@ オープン";
+
+/* %@ open ports */
+"%@ open ports" = "%@ オープンポート";
+
+/* %@ per year */
+"%@ per year" = "%@ / 年";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ ·%@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ ·%@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP ·%lld ボンジュール";
+
+/* %lld addresses */
+"%lld addresses" = "%lld 演説";
+
+/* %lld answers */
+"%lld answers" = "%lld 回答";
+
+/* %lld bytes */
+"%lld bytes" = "%lldバイト";
+
+/* %lld checks */
+"%lld checks" = "%lldチェック";
+
+/* %lld day */
+"%lld day" = "%lld 日";
+
+/* %lld days */
+"%lld days" = "%lld日";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld検出 ·全スキャンは約%lld秒かかります";
+
+/* %lld devices */
+"%lld devices" = "%lldデバイス";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld装置が%lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld エントリー";
+
+/* %lld headers */
+"%lld headers" = "%lldヘッダー";
+
+/* %lld hops */
+"%lld hops" = "%lld ホップ";
+
+/* %lld hosts */
+"%lld hosts" = "%lld ホスト";
+
+/* %lld hour */
+"%lld hour" = "%lld時間";
+
+/* %lld hours */
+"%lld hours" = "%lld時間";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld 未完了";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lldインターフェース";
+
+/* %lld keys */
+"%lld keys" = "%lld キー";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld /24に限定";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld行・%lld登場人物";
+
+/* %lld matches */
+"%lld matches" = "%lld試合";
+
+/* %lld minute */
+"%lld minute" = "%lld 分";
+
+/* %lld minutes */
+"%lld minutes" = "%lld分";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld さらに行数 ·完全な出力にはCopy Resultを使用";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld 名前不明 ·%lld 名前不明";
+
+/* %lld names */
+"%lld names" = "%lld 名前";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld 隣人";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld %lldネットワーク ·約%lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld %lld オープン";
+
+/* %lld open */
+"%lld open" = "%lld オープン";
+
+/* %lld received */
+"%lld received" = "%lld 受領";
+
+/* %lld records */
+"%lld records" = "%lldレコード";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lldレコード ·部分的";
+
+/* %lld redirects */
+"%lld redirects" = "%lld リダイレクト";
+
+/* %lld responses */
+"%lld responses" = "%lld 回答";
+
+/* %lld routes */
+"%lld routes" = "%lld路線";
+
+/* %lld rows */
+"%lld rows" = "%lld 列";
+
+/* %lld second */
+"%lld second" = "%lld秒";
+
+/* %lld seconds */
+"%lld seconds" = "%lld秒";
+
+/* %lld service types */
+"%lld service types" = "%lld サービスタイプ";
+
+/* %lld services */
+"%lld services" = "%lld サービス";
+
+/* %lld tools */
+"%lld tools" = "%lld 工具";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = "、以下は:";
+
+/* 0 (ok) */
+"0 (ok)" = "0(OK)";
+
+/* 1 match */
+"1 match" = "1試合";
+
+/* 1 response */
+"1 response" = "1件の応答";
+
+/* 1 service */
+"1 service" = "1 サービス";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2分前";
+
+/* ; fully validated */
+"; fully validated" = ";完全に検証済み";
+
+/* ; unsigned answer */
+"; unsigned answer" = ";署名なしの回答";
+
+/* ; validation failed */
+"; validation failed" = ";検証失敗";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "CIDRレンジにはプレフィックスの前に完全なアドレスが必要です。例:10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "スイープは最大16の手動追加レンジを含めます。";
+
+/* ARP Table */
+"ARP Table" = "ARP表";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "ASNおよびBGPルックアップ";
+
+/* Actions */
+"Actions" = "行動";
+
+/* Active */
+"Active" = "現役";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "macOSおよびローカルディスカバリーツールによって報告されたアクティブエントリ。";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "macOSが報告したアクティブなエントリー。";
+
+/* Add */
+"Add" = "追加";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "スキャンに%@を加える";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "範囲を追加してください。例:172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "手動で追加されました";
+
+/* Added range */
+"Added range" = "射程の拡大";
+
+/* Address */
+"Address" = "住所";
+
+/* Address details */
+"Address details" = "住所の詳細";
+
+/* Address details for %@ */
+"Address details for %@" = "%@の住所詳細";
+
+/* Addresses */
+"Addresses" = "住所";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "このMacが最近パケットを交換したアドレス。";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "アクセスのしやすさ、共通の港、ルートが増えます。少し時間がかかることもあります。";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "ゾーン転送試行、DNSSEC信号、ホスト名の増加、証明書名を追加します。";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "ボンジュールのサービスが宣伝されていました";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "発見期間中に広告を出しました。";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "IPv4アドレスには0から255までの4つの番号が必要です";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "IPv4プレフィックスは/0から/32まで対応します。";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "IPv6プレフィックスは/0から/128まで進みます";
+
+/* Answer %lld */
+"Answer %lld" = "回答 %lld";
+
+/* Answers */
+"Answers" = "回答";
+
+/* Answers by resolver */
+"Answers by resolver" = "解決者による回答";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "答えは%@で返ってきた。";
+
+/* Assigned address */
+"Assigned address" = "割り当てられた住所";
+
+/* Authenticated */
+"Authenticated" = "認証済み";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "毎年自動更新 ·いつでもキャンセル可能";
+
+/* Average */
+"Average" = "平均";
+
+/* Bits */
+"Bits" = "ビット";
+
+/* Bonjour Services */
+"Bonjour Services" = "ボンジュールサービス";
+
+/* Bonjour services */
+"Bonjour services" = "ボンジュールサービス";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "ローカルネットワークで通知されるBonjourのサービスタイプを5秒間閲覧してください";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "広告されているBonjourのサービスの種類を閲覧しています...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "DNS、ルーティング、所有権、ネットワークレポートを統合して作成します";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "現在のネットワーク接続に関する統合レポートを作成します";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "現在の接続のレポート作成中...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "DNSの作成、ルーティング、所有権レポート...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "CIDR計算機";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "CIDR範囲 ·%@アドレス";
+
+/* Calculated result */
+"Calculated result" = "計算結果";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "ネットワーク境界とアドレス数の計算...";
+
+/* Cancel */
+"Cancel" = "キャンセル";
+
+/* Certificate */
+"Certificate" = "証明書";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "証明書の透明性";
+
+/* Certificate expires */
+"Certificate expires" = "証明書の有効期限が切れます";
+
+/* Certificate names */
+"Certificate names" = "証明書名";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "DNS、ウェブおよびSSHポート、HTTPSヘッダー、証明書チェーン、TLSバージョン、OCSP、MX STARTTLSを確認してください";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "検証リゾルバがDNS回答を認証しているか確認してください";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "検証リゾルバがTLSA回答を認証しているか確認してください";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "署名されたゾーンがNSEC記録を公開しているかどうか確認してください";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "1つのTCPポートが接続を受け入れているか確認してください";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "ドメインがHSTSプリロードに含まれているか、または対象かどうかを確認してください";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "DNS、TLS、ウェブやメールサービスのチェックもしています...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "HSTSのプリロードリストの状態を確認中...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "公開されたNSEC記録の確認中...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "最も一般的な25のTCPポートを確認しています...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "交渉済みのHTTPバージョンと応答を確認しています...";
+
+/* Checks */
+"Checks" = "チェック";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "apexレコード、メールポリシー、サービス、共通ホスト、DKIMセレクターをチェックします。";
+
+/* Choose a tool */
+"Choose a tool" = "道具を選ぶ";
+
+/* Cipher */
+"Cipher" = "暗号";
+
+/* Ciphersuite */
+"Ciphersuite" = "サイファースイート";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "クリアな最近のデータ";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "最近のデータクリア...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "最近のネットミングデータはクリアですか?";
+
+/* Clear search */
+"Clear search" = "クリアサーチ";
+
+/* Clear target */
+"Clear target" = "目標はクリア";
+
+/* Clock offset */
+"Clock offset" = "クロックオフセット";
+
+/* Close */
+"Close" = "閉じる";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Wi-Fiや近くのアクセスポイントの詳細を集めて...";
+
+/* Common Port Scan */
+"Common Port Scan" = "共通ポートスキャン";
+
+/* Common TCP services */
+"Common TCP services" = "一般的なTCPサービス";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Cloudflare、Google、Quad9、OpenDNSのIPv4回答を比較してください";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "パブリックリゾルバーからのIPv4回答を比較してみると...";
+
+/* Complete */
+"Complete" = "完了";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "%@ の完全なDNSゾーン";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "完全性:完全";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "完全性:部分的な発見";
+
+/* Configuration */
+"Configuration" = "構成";
+
+/* Connection */
+"Connection" = "接続";
+
+/* Connection quality */
+"Connection quality" = "接続品質";
+
+/* Connection succeeded */
+"Connection succeeded" = "コネクションは成功した";
+
+/* Connection timing */
+"Connection timing" = "接続タイミング";
+
+/* Consistent */
+"Consistent" = "一貫性";
+
+/* Content */
+"Content" = "内容";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "対象から返された内容は、検査やコピーの準備が整っています。";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "UnicodeとASCII形式間で国際化されたドメインの変換";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "UnicodeとASCII間のドメイン変換...";
+
+/* Copied %@ */
+"Copied %@" = "コピー済み %@";
+
+/* Copy Address */
+"Copy Address" = "コピー住所";
+
+/* Copy Command */
+"Copy Command" = "コマンドのコピー";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "MACアドレスをコピーします";
+
+/* Copy Name */
+"Copy Name" = "コピーネーム";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "RAW出力をコピーする";
+
+/* Copy Result */
+"Copy Result" = "結果をコピー";
+
+/* Copy Summary */
+"Copy Summary" = "コピー概要";
+
+/* Copy Target */
+"Copy Target" = "ターゲットをコピー";
+
+/* Copy error */
+"Copy error" = "コピーエラー";
+
+/* Country */
+"Country" = "国";
+
+/* Coverage */
+"Coverage" = "カバレッジ";
+
+/* DANE Validation */
+"DANE Validation" = "DANE検証";
+
+/* DHCP Lease */
+"DHCP Lease" = "DHCPリース";
+
+/* DHCP lease */
+"DHCP lease" = "DHCPリース";
+
+/* DHCP server */
+"DHCP server" = "DHCPサーバー";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "DNS設定";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC ウォークチェック";
+
+/* DNS Propagation */
+"DNS Propagation" = "DNS伝播";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNSトレース";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "DNSゾーン発見";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "DNSゾーン転送";
+
+/* DNS answers */
+"DNS answers" = "DNSの回答";
+
+/* DNS configuration */
+"DNS configuration" = "DNS設定";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS over HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS over TLSエンドポイント";
+
+/* DNS records */
+"DNS records" = "DNSレコード";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "発見されたDNS記録は%@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS記録、位置情報、ASNです。通常は数秒です。";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "使用中のDNSリゾルバ";
+
+/* DNS response */
+"DNS response" = "DNS応答";
+
+/* DNS server */
+"DNS server" = "DNSサーバー";
+
+/* DNS service name */
+"DNS service name" = "DNSサービス名";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSECチェーントレース";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "DNSSECチェック";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "DNSSEC検証";
+
+/* Deep */
+"Deep" = "ディープ";
+
+/* Deep discovery */
+"Deep discovery" = "ディープディスカバリー";
+
+/* Default */
+"Default" = "デフォルト";
+
+/* Default route */
+"Default route" = "デフォルトルート";
+
+/* Default ·  */
+"Default · " = "デフォルト・";
+
+/* Depth */
+"Depth" = "深さ";
+
+/* Destination */
+"Destination" = "行き先";
+
+/* Destination not reached */
+"Destination not reached" = "目的地に到達していません";
+
+/* Details */
+"Details" = "詳細";
+
+/* Detect again */
+"Detect again" = "もう一度探知";
+
+/* Devices */
+"Devices" = "デバイス";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "デバイス(%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "このMacの時計と%@の違い";
+
+/* Directives */
+"Directives" = "指令";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "公開DNSレコード、標準サービス、メールポリシー、DKIMセレクター、露出ゾーンデータの発見";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "ルーター、ストレージデバイス、テレビ、その他のUPnPサービスを発見";
+
+/* Discovered network resources */
+"Discovered network resources" = "発見されたネットワークリソース";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "UPnPデバイスやサービスの発見...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "ローカルデバイスや広告サービスを発見したり...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "公開DNSレコードやゾーンデータの発見...";
+
+/* Discovery output */
+"Discovery output" = "ディスカバリーアウトプット";
+
+/* Discovery results */
+"Discovery results" = "発見結果";
+
+/* DoT hostname */
+"DoT hostname" = "DoTホスト名";
+
+/* Domain */
+"Domain" = "ドメイン";
+
+/* Domain name */
+"Domain name" = "ドメイン名";
+
+/* Domain or hostname */
+"Domain or hostname" = "ドメインまたはホスト名";
+
+/* Download */
+"Download" = "ダウンロード";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "経路上の各ルーター、往復時間は目的地で測定されます。";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "ツールのオプション動作を可能にします";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "例えば172.16.4.0/22のような範囲が登場します。";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "例えば、192.168.1.0/24のように、/0から/30までの接頭辞を持つIPv4の範囲を入力します。";
+
+/* Entries */
+"Entries" = "エントリー";
+
+/* Ethernet */
+"Ethernet" = "イーサネット";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "要求範囲内のすべてのアドレスを、1行に1つずつ。";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "macOSが報告するすべてのインターフェースは、そのアドレスやリンクの状態を含んでいます。";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "すべてのパブリックリゾルバは同じIPv4回答を返しました。";
+
+/* Exit status */
+"Exit status" = "退職状況";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "管理可能なCIDRブロックを個別のアドレスに拡張します";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "CIDR範囲を個別のアドレスに拡張する...";
+
+/* Expires */
+"Expires" = "期限切れ";
+
+/* Failed */
+"Failed" = "失敗";
+
+/* Fast local discovery */
+"Fast local discovery" = "迅速な局所発見";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "サイトのクローラーアクセスルールを取得してください";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "サイトで公開されているセキュリティ連絡先ポリシーを取得してください";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "HTTPヘッダーの取得とリダイレクトの追跡...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "IPの位置情報とネットワーク情報の取得...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "RDAPによるIP登録記録の取得...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "SSHホストキーの取得や指紋の計算...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "ブラウザのセキュリティヘッダーを取得する...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "RDAP経由でドメイン登録記録を取得する...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "ルート-起点の検証状況取得中...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "HTTPS証明書とIDの詳細を取得する...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "証明書チェーンとホチキスで固定されたOCSPレスポンスを取り出す...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "サイトのクローラーアクセスルールを取り出している...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "サイトのセキュリティ連絡先ポリシーを取ってくる...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "あなたのパブリックIPアドレスを取得しています...";
+
+/* Fields */
+"Fields" = "フィールド";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "フィルター%lldツール";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "IPアドレス、名前、インターフェースでフィルタリング";
+
+/* Final status */
+"Final status" = "最終的な状況";
+
+/* Find Tool… */
+"Find Tool…" = "ツールを探せ...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "ネットミンツールの探し方";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "関連するサブドメインを明らかにできる証明書名を見つけてください";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "宣伝されている認証済みSMTPサービスを見つける";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "広告されているメール設定サービスを見つけてください";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "広告されている安全なIMAPサービスを見つけてください";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "IPアドレスに関連付けられたホスト名を見つけてください";
+
+/* Fingerprint */
+"Fingerprint" = "指紋";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "サーバーが提示した指紋を、既知のホストのエントリーと比較するためのものです。";
+
+/* First */
+"First" = "まず";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "ルートから回答へのDNS委任を追います";
+
+/* Formatted */
+"Formatted" = "フォーマット";
+
+/* Formatted address */
+"Formatted address" = "フォーマットされたアドレス";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "MACアドレスのフォーマットを...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "無料・%lld 本日残されたリクエスト %lld";
+
+/* From */
+"From" = "そこから";
+
+/* Full */
+"Full" = "フル";
+
+/* Gateway */
+"Gateway" = "ゲートウェイ";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "ゲートウェイ %@ ·デフォルトルート";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "ゲートウェイとルート";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "ゲートウェイとルーティングテーブル";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "HSTSプリロード状況";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTPヘッダー";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTPプロトコル";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTPセキュリティヘッダー";
+
+/* HTTP response */
+"HTTP response" = "HTTP応答";
+
+/* HTTP status */
+"HTTP status" = "HTTPステータス";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "ハンドシェイク応答";
+
+/* Hide */
+"Hide" = "隠れて";
+
+/* Hop */
+"Hop" = "ホップ";
+
+/* Hops */
+"Hops" = "ホップ";
+
+/* Host */
+"Host" = "ホスト";
+
+/* Host and port */
+"Host and port" = "ホストとポート";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "例えばホストとポート example.com:443";
+
+/* Host keys */
+"Host keys" = "ホストキー";
+
+/* Hostname */
+"Hostname" = "ホスト名";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "このドメインの公開証明書に現れたホスト名。";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "pingに応答したり、隣のキャッシュに現れたり、名前、レイテンシ、広告されたサービスを持つホスト。";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "この実行中に見つけたホスト、広告サービス、到達可能なエンドポイント。";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "IANA WHOISサーバー";
+
+/* IP Information */
+"IP Information" = "IP情報";
+
+/* IP Range Expander */
+"IP Range Expander" = "IPレンジエクスパンダー";
+
+/* IP address */
+"IP address" = "IPアドレス";
+
+/* IP address or ASN */
+"IP address or ASN" = "IPアドレスまたはASN";
+
+/* IP address or domain */
+"IP address or domain" = "IPアドレスまたはドメイン";
+
+/* IP address or hostname */
+"IP address or hostname" = "IPアドレスまたはホスト名";
+
+/* IP address or prefix */
+"IP address or prefix" = "IPアドレスまたはプレフィックス";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP、ルーティングおよび登録";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "IPv4 CIDR範囲、最大4096アドレス";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4アドレス";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "CIDR付きのIPv4アドレス";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4の隣接者";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6の隣接者";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6アドレス";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "DNSSECレコードと検証署名を検査してください";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "SMTPバナーを点検し、STARTTLSを交渉してください";
+
+/* Interface */
+"Interface" = "インターフェース";
+
+/* Interface Inventory */
+"Interface Inventory" = "インターフェースインベントリー";
+
+/* Interfaces */
+"Interfaces" = "インターフェース";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "ネットワークに参加するか、下に範囲を追加してください。スイープを実行するとヘルパーにもう一度確認を求めます。";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "レジストリの回答から重要な項目を選びます。";
+
+/* Keys */
+"Keys" = "鍵";
+
+/* Last */
+"Last" = "ラスト";
+
+/* Latency */
+"Latency" = "レイテンシ";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "レイテンシ、到達可能性、経路測定。";
+
+/* Lease details */
+"Lease details" = "リースの詳細";
+
+/* Lease time */
+"Lease time" = "リース期間";
+
+/* Limited */
+"Limited" = "限定";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "速度のためにローカルの/24に限定";
+
+/* Lines */
+"Lines" = "路線";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "このMacとmacOSが現在確認できるアクセスポイントのリンク詳細。";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "App Storeの商品を読み込み中...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "ローカルデバイススイープ";
+
+/* Local Network */
+"Local Network" = "ローカルネットワーク";
+
+/* Location */
+"Location" = "所在地";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "証明書ログでドメイン名を調べるのは...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "郵便配達サーバーを調べてみると...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "登録記録や所有記録を調べてみると...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "SMTP提出サービスを調べてみると...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "メール設定サービスを調べてみると...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "このIPアドレスのホスト名を調べてみると...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "オリジンASNとルーティングプレフィックスを調べてみると...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "安全なIMAPサービスを調べてみると...";
+
+/* MAC Formatter */
+"MAC Formatter" = "MACフォルマター";
+
+/* MAC address */
+"MAC address" = "MACアドレス";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MACとベンダーの隠し";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MACとベンダーは隠れている — このランでは空";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MACとベンダーの一覧";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "んん ん HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "郵便";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Mail Autodiscover SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Mail BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "郵便DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "メールDMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "メールIMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "郵便MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "メールMX";
+
+/* Mail SPF */
+"Mail SPF" = "メールSPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "メール送信SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "メールTLSレポート";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "メールTLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "メールドメイン";
+
+/* Mail domain or server */
+"Mail domain or server" = "メールドメインまたはサーバー";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "例えばメールサーバーとポート mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "サブスクリプション管理";
+
+/* Maximum */
+"Maximum" = "最大";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "現在のダウンロード、アップロード、応答性、接続情報の測定";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "到達可能性と往復遅延の測定";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "現在の接続の容量と応答性を測定します。";
+
+/* Measurement */
+"Measurement" = "測定";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "ダウンロード、アップロード、応答性の測定...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "到達可能性と往復遅延の測定...";
+
+/* Minimum */
+"Minimum" = "最低限";
+
+/* Mode */
+"Mode" = "モード";
+
+/* More copy options */
+"More copy options" = "より多くのコピーオプション";
+
+/* My Network Report */
+"My Network Report" = "マイ・ネットワーク・レポート";
+
+/* My Public IP */
+"My Public IP" = "私のパブリックIPです";
+
+/* NTP Offset */
+"NTP Offset" = "NTPオフセット";
+
+/* NTP server */
+"NTP server" = "NTPサーバー";
+
+/* Name */
+"Name" = "名称";
+
+/* Names */
+"Names" = "名称";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "証明書ログ内の名前";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "任意の暗黙TLSサービスとTLSを交渉し、選択したプロトコルと暗号を表示します";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "交渉済みプロトコル、暗号、証明書の識別、検証状況。";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "SMTPの交渉開始...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "指定されたサービスポートでTLSを交渉中...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "HTTPS TLS接続の交渉中...";
+
+/* Neighbor */
+"Neighbor" = "隣人";
+
+/* Neighbor cache */
+"Neighbor cache" = "隣接キャッシュ";
+
+/* Neighbors */
+"Neighbors" = "近隣住民";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Lifetime ·%@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro 年間";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "ネットミンプロ...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netminは、あなたが検査するローカルネットワーク上のデバイスやサービスを検出します。";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin は %lld 秒後にこのコマンドを停止しました。";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netminはこのコマンドが出力%@を生成した後に停止しました。";
+
+/* Network */
+"Network" = "ネットワーク";
+
+/* Network Lookup */
+"Network Lookup" = "ネットワーク検索";
+
+/* Network Quality */
+"Network Quality" = "ネットワーク品質";
+
+/* Network entries */
+"Network entries" = "ネットワークエントリー";
+
+/* Network interfaces */
+"Network interfaces" = "ネットワークインターフェース";
+
+/* Networks */
+"Networks" = "ネットワーク";
+
+/* Networks scanned */
+"Networks scanned" = "スキャンされたネットワーク";
+
+/* Networks to scan */
+"Networks to scan" = "スキャンするネットワーク";
+
+/* New Lookup */
+"New Lookup" = "新しいルックアップ";
+
+/* New Report */
+"New Report" = "新報告書";
+
+/* New Sweep */
+"New Sweep" = "ニュー・スイープ";
+
+/* No */
+"No" = "いいえ";
+
+/* No DNS records found */
+"No DNS records found" = "DNSレコードは見つかりませんでした";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "このAppleアカウントでNetmin Proの購入は見つかりませんでした。";
+
+/* No common ports are open */
+"No common ports are open" = "共通のポートは開いていません";
+
+/* No common services */
+"No common services" = "共通サービスはありません";
+
+/* No data returned */
+"No data returned" = "データが返ってこない";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "どのデバイスも「%@」と一致しません。";
+
+/* No devices responded */
+"No devices responded" = "デバイスは応答しませんでした";
+
+/* No diagnostic output */
+"No diagnostic output" = "診断出力なし";
+
+/* No input required */
+"No input required" = "入力は不要です";
+
+/* No matching tools */
+"No matching tools" = "マッチングツールはありません";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "プライベートIPv4ネットワークは検出されません・スキャン範囲を追加してください";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "プライベートIPv4ネットワークは検出されませんでした";
+
+/* No result returned */
+"No result returned" = "結果は返ってきませんでした";
+
+/* No target */
+"No target" = "ターゲットなし";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "どの道具も「%@」と一致するものはありません。";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "MACアドレスを大文字のコロン分離形式に正規化します";
+
+/* Not reached */
+"Not reached" = "届かない";
+
+/* Not selected */
+"Not selected" = "選ばれませんでした";
+
+/* Notafter */
+"Notafter" = "その後は";
+
+/* Notes */
+"Notes" = "注記";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "スキャンしたネットワークの隣のキャッシュにもピンは応答せず、表示もされませんでした。このMacが期待されるネットワークに接続されているか、手動で範囲を追加してください。";
+
+/* Nothing detected */
+"Nothing detected" = "何も検出されませんでした";
+
+/* Off */
+"Off" = "消えろ";
+
+/* Offset */
+"Offset" = "オフセット";
+
+/* On */
+"On" = "オン";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "返送されたのはIANAの紹介のみでした。再試行 %@ またはRDAPを使ってレジストラ、ネームサーバー、登録日を取得してください。";
+
+/* Open */
+"Open" = "開けて";
+
+/* Open ports */
+"Open ports" = "オープンポート";
+
+/* Open ports: */
+"Open ports:" = "オープンポート:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "オプションのIPv4 CIDR;すべてのアクティブなLANをブランクスキャン";
+
+/* Options */
+"Options" = "オプション";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "オリジンASとルーティングプレフィックス";
+
+/* Other */
+"Other" = "その他";
+
+/* Output */
+"Output" = "出力";
+
+/* Overview */
+"Overview" = "概要";
+
+/* Packet loss */
+"Packet loss" = "パケットロス";
+
+/* Partial */
+"Partial" = "部分的";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "指揮部に%@をパスします";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "支払いはAppleアカウントに入金されます。年間サブスクリプションは、App Storeの設定で少なくとも1日前に解約しない限り自動的に更新されます。";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "サイドバーからツールを選ぶか、⌘Kを押してすべて検索できます。";
+
+/* Ping */
+"Ping" = "ピン";
+
+/* Port */
+"Port" = "港";
+
+/* Port %@ is open */
+"Port %@ is open" = "港%@が開いています";
+
+/* Ports */
+"Ports" = "移植版";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "接続を受け入れるポート。";
+
+/* Primary mail server */
+"Primary mail server" = "プライマリメールサーバー";
+
+/* Primary nameserver */
+"Primary nameserver" = "プライマリネームサーバー";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "プライマリーインターフェース";
+
+/* Privacy */
+"Privacy" = "プライバシー";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "プライバシーポリシー...";
+
+/* Pro */
+"Pro" = "長所";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "現在、プロ購入は利用できません。後ほど再度お試しください。";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "プロトライアル ·%lld残り日数";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "プロトライアル ·残り1日";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "プロトライアル ·終了 %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "プロトライアル ·最初の支払い %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "プロトライアル ·%@まで";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Proは生の診断出力を表、指標、所見に変換します。30日間のトライアル終了後、Freeは1日最大5件のリクエストの生出力を提供します。";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "賛成・終了 %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "長篇 ·生涯";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "賛成・更新 %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "賛成 ·ご家族と共有";
+
+/* Pro · until %@ */
+"Pro · until %@" = "賛成・%@まで";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "macOSに含まれるネットワークツールで共通するTCPポート25";
+
+/* Probed */
+"Probed" = "探り込み";
+
+/* Proto */
+"Proto" = "プロト";
+
+/* Protocol */
+"Protocol" = "プロトコル";
+
+/* Protocol Version */
+"Protocol Version" = "プロトコルバージョン";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "パブリックDNSの発見は部分的です";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "パブリックDNSプローブでは有用な記録が見つかりましたが、カスタム名がまだ隠されている可能性があります。";
+
+/* Public IP */
+"Public IP" = "パブリックIP";
+
+/* Public IPv4 */
+"Public IPv4" = "パブリックIPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "パブリックIPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "公共アドレスおよびネットワーク所有の詳細。";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "パブリックリゾルバーは異なる回答を返しました。変化がまだ広がっている可能性があります。";
+
+/* Punycode Converter */
+"Punycode Converter" = "ピュニコードコンバータ";
+
+/* Purchase */
+"Purchase" = "購入";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "現在、購入はできません。";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "DNSオーバーHTTPSエンドポイントを通じてAレコードをクエリします";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "WindowsやSMBデバイスによって広告されているNetBIOS名とワークグループを検索してください";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "サーバークロックを照会し、測定されたローカルオフセットを表示します";
+
+/* Querying %@… */
+"Querying %@…" = "クエリ %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "DNSの地理的位置記録を照会中...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "DNSのテキストレコードを照会します...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "DNSSEC公開鍵のクエリ...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "DNSSECの記録と署名の照会...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "HTTPSエンドポイントと接続ヒントの問い合わせ...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "IPv4アドレス(A)レコードのクエリ...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "HTTPS経由でIPv4レコードを照会する...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "IPv6アドレス(AAAA)レコードの照会...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "MTA-STSポリシーの発見記録を照会中...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "TLS証明書の関連記録を照会しています...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "TLSの納品報告記録を照会しています...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "権威あるネームサーバーの記録を照会します...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "ブランド指標レコードを照会中...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "証明書発行者の認可記録を照会しています...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "代表団署名者の記録を照会します...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "ホスト名エイリアス(CNAME)レコードのクエリ...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "サービスのバインディングや接続パラメータを問い合わせています...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "サービスディスカバリールールを問い合わせています...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "サービスホスト、ポート、優先順位を問い合わせる...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "DKIMセレクターの公開鍵を照会中...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "WindowsまたはSMBデバイス名を問い合わせています...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "メール認証ポリシーを照会します...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "送信者認証ポリシーを問い合わせます...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "タイムサーバーに問い合わせて時計のずれを測る...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "ゾーン権限とタイミング記録を照会中...";
+
+/* Quick */
+"Quick" = "早く";
+
+/* Quick lookup */
+"Quick lookup" = "ちょっと調べてみて";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "地元のデバイス、プリンター、広告サービスを素早く見つけましょう";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAPドメイン";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "RPKI検証";
+
+/* Ran %@ */
+"Ran %@" = "ラン %@";
+
+/* Raw Output */
+"Raw Output" = "生出力";
+
+/* Raw output */
+"Raw output" = "生出力";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "到達可能性と往復タイミングは%@。";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "アクセス可能なポート、サービス、ホストキーの詳細。";
+
+/* Reached */
+"Reached" = "到達";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "キャッシュされたIPv4の隣人を読み取る...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "キャッシュされたIPv6の隣人を読み取る...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "macOSのDNSリゾルバや検索ドメインを読むこと...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "ネットワークインターフェースのアドレスとステータスを読み取っています...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "アクティブインターフェースのDHCPリースを読み込みました...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "デフォルトのゲートウェイとルーティングテーブルを読み取ったところ...";
+
+/* Recent */
+"Recent" = "最近の動向";
+
+/* Record */
+"Record" = "記録";
+
+/* Records */
+"Records" = "記録";
+
+/* Registrar */
+"Registrar" = "レジストラ";
+
+/* Registration and routing data */
+"Registration and routing data" = "登録およびルーティングデータ";
+
+/* Registry record */
+"Registry record" = "登録記録";
+
+/* Registry response */
+"Registry response" = "レジストリの回答";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "レジストリの回答は不完全です";
+
+/* Related */
+"Related" = "関連";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "次の結果を思い出す ·⌘1 概要、⌘2 生の成果";
+
+/* Remove this range */
+"Remove this range" = "この範囲を外してください";
+
+/* Replies */
+"Replies" = "返信";
+
+/* Report for %@ */
+"Report for %@" = "%@の報告";
+
+/* Report overview */
+"Report overview" = "報告概要";
+
+/* Reports */
+"Reports" = "報告書";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "権威あるサーバーから完全なDNSゾーン転送を要求します";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "完全なDNSゾーン転送をリクエストします...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "TLS 1.2を要求し、交渉が成功したかどうかを示す";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "TLS 1.3を要求し、交渉が成功したかどうかを示す";
+
+/* Resolved */
+"Resolved" = "解決済み";
+
+/* Resolved address */
+"Resolved address" = "解決済みアドレス";
+
+/* Resolver */
+"Resolver" = "リゾルバ";
+
+/* Resolver %@ */
+"Resolver %@" = "リゾルバ %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "リゾルバ出力をまとめて素早く確認できます。";
+
+/* Resolver response */
+"Resolver response" = "リゾルバ応答";
+
+/* Resolvers */
+"Resolvers" = "リゾルバ";
+
+/* Resolvers agree */
+"Resolvers agree" = "解決者も同意しています";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "macOSが現在使用しているリゾルバと検索ドメインを優先順に使っています。";
+
+/* Resolvers differ */
+"Resolvers differ" = "リゾルバは異なります";
+
+/* Resources */
+"Resources" = "資料";
+
+/* Response */
+"Response" = "反応";
+
+/* Response %lld */
+"Response %lld" = "応答 %lld";
+
+/* Responses */
+"Responses" = "回答";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "マルチキャスト検索への回答、発表ごとに1枚のカード。";
+
+/* Responsiveness */
+"Responsiveness" = "応答性";
+
+/* Restore Purchases */
+"Restore Purchases" = "購入履歴を復元する";
+
+/* Result */
+"Result" = "結果";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "結果は完了した各ネットワークチェックごとにまとめられています。";
+
+/* Retry registry */
+"Retry registry" = "リトライ登録";
+
+/* Reverse DNS */
+"Reverse DNS" = "リバースDNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "往復";
+
+/* Route to target */
+"Route to target" = "目標へのルート";
+
+/* Router */
+"Router" = "ルーター";
+
+/* Routes */
+"Routes" = "路線";
+
+/* Routing record */
+"Routing record" = "ルーティング記録";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "%@のルーティングレジストリデータ。";
+
+/* Routing table */
+"Routing table" = "ルーティングテーブル";
+
+/* Run */
+"Run" = "逃げろ";
+
+/* Run Again */
+"Run Again" = "ラン・アゲイン";
+
+/* Run Lookup */
+"Run Lookup" = "検索を実行";
+
+/* Run Report */
+"Run Report" = "ランレポート";
+
+/* Run Sweep */
+"Run Sweep" = "ラン・スイープ";
+
+/* Run Tool */
+"Run Tool" = "ランツール";
+
+/* Run again */
+"Run again" = "もう一度走れ";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "%@ツールを実行";
+
+/* Running */
+"Running" = "ランニング";
+
+/* Running %@… */
+"Running %@…" = "走っている %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "走る・%@秒";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "SSDP/UPnPディスカバリー";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "SSHホストキー";
+
+/* SSH host keys */
+"SSH host keys" = "SSHホストキー";
+
+/* Save Report… */
+"Save Report…" = "保存レポート...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "レポートを保存し、構造化された要約をコピーしてください";
+
+/* Scan */
+"Scan" = "スキャン";
+
+/* Scripts */
+"Scripts" = "文字";
+
+/* Search domain */
+"Search domain" = "探索ドメイン";
+
+/* Sections */
+"Sections" = "セクション";
+
+/* Security details */
+"Security details" = "警備の詳細";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "選ばれました";
+
+/* Sequence */
+"Sequence" = "順序";
+
+/* Server */
+"Server" = "サーバー";
+
+/* Service */
+"Service" = "運用";
+
+/* Service reachability */
+"Service reachability" = "サービス到達可能性";
+
+/* Service type */
+"Service type" = "サービスの種類";
+
+/* Service types */
+"Service types" = "サービスの種類";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "ディスカバリーウィンドウ中にローカルネットワーク上でサービスタイプが通知されます。";
+
+/* Services */
+"Services" = "サービス";
+
+/* Show */
+"Show" = "番組";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "TLSサービスのDANE証明書関連を示す";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "HTTPSサービスエンドポイントと接続ヒントを表示";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "ホスト名に対して公開されたIPv4アドレスを表示します";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "このMacが最近接触したIPv4の隣人を表示してください";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "ホスト名に対して公開されたIPv6アドレスを表示します";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "macOSに見えるWi-Fiリンクの詳細や近くのアクセスポイントを表示します";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "すべてのネットワークインターフェースに対してアドレス、MTU、ステータス、カウンターを表示します";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "キャッシュされたIPv6の隣接ノードとそのリンク層アドレスを表示します";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "証明書の識別、発行者、有効性、SHA-256指紋を表示してください";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "各ルーターを目的地へのパスに表示してください";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "ゾーンごとに発行された地理的位置記録を表示";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "番組の所在地、ネットワーク、ASN、所有権の詳細";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "交渉されたTLSバージョン、暗号、鍵交換、検証を表示";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "ネットワーク境界、ネットマスク、ブロードキャストアドレス、サイズを表示します";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "公開されたテキスト記録とドメインポリシーを表示する";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "登録および所有記録の生記録を表示";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "IPのレジストリ割り当てと登録詳細を表示します";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "ドメインのレジストリ登録およびステータス詳細を表示する";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "レスポンスヘッダーとすべてのリダイレクトホップを表示します";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "ルールベースのサービスディスカバリーレコードを表示する";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "サービスエンドポイントと接続パラメータを表示する";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "番組サービスのホスト、ポート、優先順位、そして重み";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "macOSが実際に使っているDNSリゾルバと検索ドメインを表示してください";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "RIPEによって報告されたRPKIルート-起源の検証状態を表示します";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "アクティブなインターフェースのDHCPサーバー、リース、提供オプションを表示します";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "ドメインの権威あるネームサーバーを表示する";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "ホスト名の標準エイリアスターゲットを表示する";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "完全な証明書チェーン、検証結果、ホチキスで固定されたOCSP応答を示します";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "デフォルトのゲートウェイとIPv4およびIPv6の完全なルートテーブルを表示します";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "ドメインのブランドインジケーターポリシーを表示する";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "ドメインのメール認証ポリシーを表示する";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "交渉済みのHTTPバージョン、ステータス、サーバーアドレス、TLS結果を表示します";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "送信元のASN、ルーティングプレフィックス、レジストリ、割り当ての詳細を表示してください";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "親ゾーン代表署名者の記録を表示";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "安全な郵便配達を義務付けるポリシーを提示してください";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "サイトが返す主要なブラウザのセキュリティヘッダーを表示する";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "インターネット上で確認できるパブリックIPアドレスを表示する";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "DKIMセレクタの公開鍵を表示してください";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "DNSゾーンの検証に使われた公開鍵を表示します";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "サーバーの宣伝されているSSHホストキーの指紋を見せてください";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "ドメインのメールを受け取るサーバーを表示する";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "TLSの配送レポートがどこに送信されるかを示す";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "どの認証機関が証明書を発行できるかを示す";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "どのサーバーがメール送信権限を持っているかを示します";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "表示ゾーン権限、シリアル、タイミング情報";
+
+/* Site Report */
+"Site Report" = "現地報告";
+
+/* Site report for example.org */
+"Site report for example.org" = "現場報告 example.org";
+
+/* State */
+"State" = "州";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "State:/Network/Global/IPv4";
+
+/* Statistics */
+"Statistics" = "統計";
+
+/* Status */
+"Status" = "現状";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "ステータス、プロトコル、リダイレクト、そして返されるヘッダー。";
+
+/* Stop */
+"Stop" = "やめて";
+
+/* Stop Sweep */
+"Stop Sweep" = "ストップ・スイープ";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "%@ の構造化レジストリ応答。";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "構造化レポートはNetmin Proの機能です";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "表、指標、調査結果を含む構造化レポート";
+
+/* Structured resolver response. */
+"Structured resolver response." = "構造化されたリゾルバー応答。";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "ウェブサービスからの構造化応答。";
+
+/* System network configuration */
+"System network configuration" = "システムネットワーク構成";
+
+/* TCP Port Check */
+"TCP Port Check" = "TCPポートチェック";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "TCP到達可能性";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 ハンドシェイク";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 ハンドシェイク";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS証明書";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "TLS証明書チェーン";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLSハンドシェイク";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "TLSサービスハンドシェイク";
+
+/* TLS connection */
+"TLS connection" = "TLS接続";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS、ウェブおよびポート";
+
+/* Target */
+"Target" = "ターゲット";
+
+/* Target (optional) */
+"Target (optional)" = "ターゲット(任意)";
+
+/* Target did not reply */
+"Target did not reply" = "ターゲットは返事をしなかった";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "ターゲットはスペースを含めてはいけません";
+
+/* Terms */
+"Terms" = "用語";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "テストSMTP 25、SMTPS 465、提出587、IMAPS 993、POP3S 995を同時に実施";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "DNSオーバーTLSサーバーでのTLS交渉のテスト";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "TLS 1.2の交渉テスト中...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "TLS 1.3の交渉テスト中...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "DNSポート853でのTLS交渉のテスト中...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "SMTP、IMAP、POP3サービスでのTLSテスト...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "指定されたTCPポートへの接続をテスト中...";
+
+/* Text */
+"Text" = "本文";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "最も一般的な25ポートは1秒のタイムアウトでプローブされました。";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Storeはこの購入を確認できませんでした。";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "MACアドレスは大文字の正典で、コロン分離形式で表されます。";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Netminツールカタログには有効なツールは含まれていません。";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URLにはスキームとホストが必要です。例えば https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "アクティブインターフェースのリースと、DHCPサーバーが提供するオプション。";
+
+/* The address is not valid. */
+"The address is not valid." = "住所は有効ではありません。";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "この接続のためにインターネットで認識されるアドレスです。";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "アプリはリダイレクトを追いましたが、ウェブサイトは同じURLに繰り返しこのファイルを送ってしまいました。ファイルは返ってきませんでした。";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "権威あるサーバーにより、AXFRゾーンの完全な転送が可能になりました。";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "権威あるサーバーは完全なゾーン転送を提供しませんでした。これらは公開プローブを通じて得られた記録です。カスタム名がまだ存在している可能性があります。";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "バンドルされているNetminツールのカタログがありません。";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "コマンドは完了したが、ターゲットは一致するデータを返さなかった。";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "コマンドは診断出力を出す前に失敗しました。";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "デフォルトのルートとmacOSが知っているすべてのIPv4・IPv6ルートです。";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "最初の30日間はProが含まれます。トライアル終了後、Freeは84種類のツールと生の出力をすべて保持し、1日に5回の診断リクエストがあります。";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "/の接頭辞は必ず番号でなければなりません";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "プロセスはステータス%lldで終了し、詳細を返す。必要なコマンドがインストールされていて、目標に到達可能か確認。";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "購入は承認待ちです。";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "レジストリは非構造化の回答を返しました。その有用な行は以下の通りです。";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "解決者は一致する答えを返しませんでした。";
+
+/* This Mac */
+"This Mac" = "このMac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "これにより、保存されたターゲットや最近実行されたサマリーがこのMacから削除されます。エクスポートしたレポートは削除されません。";
+
+/* Time */
+"Time" = "時間";
+
+/* Timeouts */
+"Timeouts" = "タイムアウト";
+
+/* Tools */
+"Tools" = "ツール";
+
+/* Tools unavailable */
+"Tools unavailable" = "ツールは利用できません";
+
+/* Trace */
+"Trace" = "トレース";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "DNSSECの信頼チェーンをルートから追跡します";
+
+/* Traceroute */
+"Traceroute" = "トレースルート";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "DNSデミッションやDNSSECレコードのトレース...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "ルートからDNSの委任を追跡する...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "目的地までのネットワーク経路をたどっている...";
+
+/* Try Again */
+"Try Again" = "もう一度試してみて";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "代わりにRDAPを試してみてください→";
+
+/* Type */
+"Type" = "種類";
+
+/* Types */
+"Types" = "種類";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnPデバイスとサービス";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "不確実性";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "無制限のネットワーク診断機能と、読みやすいレポートとエクスポートツール。";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "84種類の診断ツールすべてを無制限に利用できます";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "%@と完全なPro機能セットをアンロックできます。";
+
+/* Unlock Report… */
+"Unlock Report…" = "アンロックレポート...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "構造化サマリーをアンロック...";
+
+/* Unnamed */
+"Unnamed" = "名前なし";
+
+/* Unsigned */
+"Unsigned" = "署名なし";
+
+/* Upload */
+"Upload" = "アップロード";
+
+/* Use custom resolver */
+"Use custom resolver" = "カスタムリゾルバを使う";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "host:port、IPv6アドレス、またはMACアドレスを使ってください";
+
+/* Utilities */
+"Utilities" = "ユーティリティ";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPNトンネル";
+
+/* Validated */
+"Validated" = "検証済み";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "TLSAレコードとそのDNSSECチェーンの検証...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "DNS回答とDNSSECチェーンの検証...";
+
+/* Value */
+"Value" = "価値";
+
+/* Values produced by %@. */
+"Values produced by %@." = "%@ によって生成される値。";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "macOSが報告した%@の値。";
+
+/* Values returned for %@. */
+"Values returned for %@." = "値は%@で返されました。";
+
+/* Vendor */
+"Vendor" = "ベンダー";
+
+/* Verification */
+"Verification" = "検証";
+
+/* Verify Return Code */
+"Verify Return Code" = "返送コードの確認";
+
+/* View */
+"View" = "眺め";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Netmin Proを見る...";
+
+/* Virtual bridge */
+"Virtual bridge" = "バーチャルブリッジ";
+
+/* Virtual machine network */
+"Virtual machine network" = "仮想マシンネットワーク";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOISサーバー";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "最初の返事を待っている...";
+
+/* Web policy status */
+"Web policy status" = "ウェブポリシーの状況";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Wi-Fi診断";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Wi-Fiの状況";
+
+/* Window */
+"Window" = "窓";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Windows名の発見";
+
+/* Yes */
+"Yes" = "はい";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Netmin Proを使っています。";
+
+/* Your public address */
+"Your public address" = "あなたのパブリックアドレス";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "現役";
+
+/* advanced structured reports */
+"advanced structured reports" = "高度な構造化レポート";
+
+/* all detected */
+"all detected" = "全て検出";
+
+/* arp table */
+"arp table" = "ARP表";
+
+/* as name */
+"as name" = "名称として";
+
+/* closed */
+"closed" = "閉鎖";
+
+/* command */
+"command" = "指揮";
+
+/* complete zone */
+"complete zone" = "完全ゾーン";
+
+/* configured */
+"configured" = "設定済み";
+
+/* creation date */
+"creation date" = "創設日";
+
+/* device sweep */
+"device sweep" = "デバイススイープ";
+
+/* did not answer within */
+"did not answer within" = "内では答えなかった";
+
+/* differs */
+"differs" = "異なる";
+
+/* domain name */
+"domain name" = "ドメイン名";
+
+/* down */
+"down" = "下がれ";
+
+/* downlink capacity */
+"downlink capacity" = "ダウンリンク容量";
+
+/* expiration date */
+"expiration date" = "有効期限";
+
+/* expiration date: */
+"expiration date:" = "有効期限:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "expired %lld days ago";
+
+/* expires today */
+"expires today" = "本日で期限切れ";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "4つのICMPエコー要求";
+
+/* gateway %@ */
+"gateway %@" = "ゲートウェイ %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "in %lld days";
+
+/* inactive */
+"inactive" = "非稼働";
+
+/* incomplete */
+"incomplete" = "未完成";
+
+/* ip information */
+"ip information" = "IP情報";
+
+/* just now */
+"just now" = "さっき";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "速度のためにローカル/24に限定";
+
+/* local */
+"local" = "ローカル";
+
+/* loss %@ */
+"loss %@" = "損失 %@";
+
+/* median %@ */
+"median %@" = "中央値 %@";
+
+/* name server */
+"name server" = "ネームサーバー";
+
+/* name server: */
+"name server:" = "ネームサーバー:";
+
+/* network */
+"network" = "ネットワーク";
+
+/* network lookup */
+"network lookup" = "ネットワーク検索";
+
+/* network quality */
+"network quality" = "ネットワーク品質";
+
+/* network report */
+"network report" = "ネットワークレポート";
+
+/* networks */
+"networks" = "ネットワーク";
+
+/* no address */
+"no address" = "住所なし";
+
+/* no answer */
+"no answer" = "応答なし";
+
+/* no ping replies */
+"no ping replies" = "返信がありません";
+
+/* no reply */
+"no reply" = "返事なし";
+
+/* open */
+"open" = "開く";
+
+/* packets transmitted */
+"packets transmitted" = "送信されたパケット";
+
+/* primary %@ */
+"primary %@" = "プライマリー %@";
+
+/* public ip */
+"public ip" = "パブリックIP";
+
+/* raw output */
+"raw output" = "生出力";
+
+/* reachable */
+"reachable" = "到達可能";
+
+/* redirects followed */
+"redirects followed" = "リダイレクトが続きました";
+
+/* registrar name */
+"registrar name" = "登録局名";
+
+/* registry expiry date */
+"registry expiry date" = "登録有効期限";
+
+/* registry expiry date: */
+"registry expiry date:" = "登録有効期限:";
+
+/* resolution failed */
+"resolution failed" = "決議は失敗";
+
+/* reverse dns */
+"reverse dns" = "リバースDNS";
+
+/* run with last target */
+"run with last target" = "ラストターゲットと共に走る";
+
+/* scoped */
+"scoped" = "スコープ付き";
+
+/* search domain */
+"search domain" = "探索ドメイン";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "SHA256指紋";
+
+/* site report */
+"site report" = "現地報告";
+
+/* summary */
+"summary" = "概要";
+
+/* target */
+"target" = "ターゲット";
+
+/* the address */
+"the address" = "アドレス";
+
+/* the selected resource */
+"the selected resource" = "選定されたリソース";
+
+/* the selected target */
+"the selected target" = "選ばれた標的";
+
+/* the target */
+"the target" = "ターゲット";
+
+/* timed out */
+"timed out" = "タイムアウト";
+
+/* unknown */
+"unknown" = "不明";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "無制限の診断リクエスト";
+
+/* up */
+"up" = "上";
+
+/* updated date */
+"updated date" = "更新日";
+
+/* uplink capacity */
+"uplink capacity" = "アップリンク容量";
+
+/* verify return code */
+"verify return code" = "返送コードの確認";
+
+/* via %@ */
+"via %@" = "経由 %@";
+
+/* windows name */
+"windows name" = "ウィンドウズ名";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "%@をお気に入りに追加";
+
+/* Favorites */
+"Favorites" = "お気に入り";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "%@をお気に入りから削除";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ミリス";
+
+/* Pro features are locked */
+"Pro features are locked" = "Pro機能はロックされています";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "購入または購入の復元でロックを解除できます。";
+
+/* Restoring… */
+"Restoring…" = "復元中…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "アクティブな Netmin 購入が見つかりませんでした。";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP プレフィックス";
+
+/* Primary */
+"Primary" = "主要";
+
+/* All relevant */
+"All relevant" = "該当するすべて";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "オリジン ASN（例: AS13335）";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP プレフィックス（例: 1.1.1.0/24）";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "オリジン ASN が IP プレフィックスを広報する権限を確認";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "各権威ネームサーバーから完全なゾーン転送を試行";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "ホスト名、サービス名、または IP アドレス";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Cloudflare、Google、Quad9、OpenDNS のキャッシュ済み DNS 応答を比較";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "該当するすべてのレコード種別を比較";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "公開リゾルバーの応答を比較中…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "このターゲットに該当する一般的なレコード種別を比較します。";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "ホスト名は A、IP アドレスは PTR、サービス名は SRV を確認します。";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "すべての公開リゾルバーが同じ DNS 応答を返しました。";
