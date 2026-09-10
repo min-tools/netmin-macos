@@ -1,0 +1,3 @@
+/* Netmin — ja Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin は、検査対象として選択したローカル ネットワーク上のデバイスとサービスを検出します。";
