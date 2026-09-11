@@ -1,0 +1,2690 @@
+/* Netmin — nl localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "MS";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ accepteerde een TCP-verbinding.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ kon niet worden teruggevonden";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ niet voltooid";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ open";
+
+/* %@ open ports */
+"%@ open ports" = "%@ open poorten";
+
+/* %@ per year */
+"%@ per year" = "%@ per jaar";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld adressen";
+
+/* %lld answers */
+"%lld answers" = "%lld antwoorden";
+
+/* %lld bytes */
+"%lld bytes" = "%lld bytes";
+
+/* %lld checks */
+"%lld checks" = "%lld checks";
+
+/* %lld day */
+"%lld day" = "%lld dag";
+
+/* %lld days */
+"%lld days" = "%lld dagen";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld gedetecteerd · scannen alle takes over %lld s";
+
+/* %lld devices */
+"%lld devices" = "%lld apparaten";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld devices on %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld vermeldingen";
+
+/* %lld headers */
+"%lld headers" = "%lld headers";
+
+/* %lld hops */
+"%lld hops" = "%lld hops";
+
+/* %lld hosts */
+"%lld hosts" = "%lld hosts";
+
+/* %lld hour */
+"%lld hour" = "%lld uur";
+
+/* %lld hours */
+"%lld hours" = "%lld uur";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld onvolledig";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld interfaces";
+
+/* %lld keys */
+"%lld keys" = "%lld sleutels";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld beperkt tot een /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld regels · %lld karakters";
+
+/* %lld matches */
+"%lld matches" = "%lld matches";
+
+/* %lld minute */
+"%lld minute" = "%lld minuut";
+
+/* %lld minutes */
+"%lld minutes" = "%lld minuten";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld meer regels · gebruik Copy Result voor de volledige output";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld genoemd · %lld naamloos";
+
+/* %lld names */
+"%lld names" = "%lld namen";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld buren";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld van %lld netwerken · over %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld van %lld open";
+
+/* %lld open */
+"%lld open" = "%lld open";
+
+/* %lld received */
+"%lld received" = "%lld ontvangen";
+
+/* %lld records */
+"%lld records" = "%lld Records";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld Records · gedeeltelijk";
+
+/* %lld redirects */
+"%lld redirects" = "%lld redirects";
+
+/* %lld responses */
+"%lld responses" = "%lld antwoorden";
+
+/* %lld routes */
+"%lld routes" = "%lld routes";
+
+/* %lld rows */
+"%lld rows" = "%lld rijen";
+
+/* %lld second */
+"%lld second" = "%lld tweede";
+
+/* %lld seconds */
+"%lld seconds" = "%lld seconden";
+
+/* %lld service types */
+"%lld service types" = "%lld servicetypes";
+
+/* %lld services */
+"%lld services" = "%lld diensten";
+
+/* %lld tools */
+"%lld tools" = "%lld gereedschappen";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", met:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ok)";
+
+/* 1 match */
+"1 match" = "1 wedstrijd";
+
+/* 1 response */
+"1 response" = "1 reactie";
+
+/* 1 service */
+"1 service" = "1 dienst";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 minuten geleden";
+
+/* ; fully validated */
+"; fully validated" = "; volledig gevalideerd";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; Onondertekend antwoord";
+
+/* ; validation failed */
+"; validation failed" = "; validatie mislukt";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "Een CIDR-bereik heeft een volledig adres nodig vóór het voorvoegsel, bijvoorbeeld 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "Een sweep kan maximaal 16 handmatig toegevoegde afstanden bevatten.";
+
+/* ARP Table */
+"ARP Table" = "ARP-tabel";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "ASN en BGP Opzoekopdracht";
+
+/* Actions */
+"Actions" = "Acties";
+
+/* Active */
+"Active" = "Actief";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Actieve vermeldingen gerapporteerd door macOS en lokale ontdekkingstools.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "Actieve vermeldingen gerapporteerd door macOS.";
+
+/* Add */
+"Add" = "Voeg toe";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Voeg %@ toe aan de scan";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Voeg een bereik toe, bijvoorbeeld 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Handmatig toegevoegd";
+
+/* Added range */
+"Added range" = "Toegevoegd bereik";
+
+/* Address */
+"Address" = "Adres";
+
+/* Address details */
+"Address details" = "Adresgegevens";
+
+/* Address details for %@ */
+"Address details for %@" = "Adresgegevens voor %@";
+
+/* Addresses */
+"Addresses" = "Adressen";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Adressen waarmee deze Mac recent pakketten heeft uitgewisseld.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Voegt bereikbaarheid, veelvoorkomende poorten en de route toe. Kan even duren.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Voegt zone-overdrachtpogingen, DNSSEC-signalen, meer hostnamen en certificaatnamen toe.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Geadverteerde Bonjour-diensten";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Adverteerd tijdens het ontdekkingsvenster.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "Een IPv4-adres heeft vier cijfers nodig van 0 tot 255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "Een IPv4-prefix loopt van /0 naar /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "Een IPv6-voorvoegsel loopt van /0 naar /128";
+
+/* Answer %lld */
+"Answer %lld" = "Antwoord %lld";
+
+/* Answers */
+"Answers" = "Antwoorden";
+
+/* Answers by resolver */
+"Answers by resolver" = "Antwoorden per resolver";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Antwoorden kwamen terug voor %@.";
+
+/* Assigned address */
+"Assigned address" = "Toegewezen adres";
+
+/* Authenticated */
+"Authenticated" = "Geauthenticeerd";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Automatische verlenging jaarlijks · annuleren op elk moment";
+
+/* Average */
+"Average" = "Gemiddeld";
+
+/* Bits */
+"Bits" = "Bits";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour-diensten";
+
+/* Bonjour services */
+"Bonjour services" = "Bonjour-diensten";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Bekijk de Bonjour-servicetypes die op het lokale netwerk zijn aangekondigd vijf seconden";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Bladeren door geadverteerde Bonjour-servicetypes...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Bouw een gecombineerd DNS-, routerings-, eigendoms- en netwerkrapport";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Bouw een gecombineerd rapport voor de huidige netwerkverbinding";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Een rapport opbouwen voor de huidige verbinding...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "Het DNS-, routerings- en eigendomsrapport opbouwen...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "CIDR-rekenmachine";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "CIDR-bereik · %@ adressen";
+
+/* Calculated result */
+"Calculated result" = "Berekend resultaat";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Netwerkgrenzen en adresaantal berekenen...";
+
+/* Cancel */
+"Cancel" = "Annuleren";
+
+/* Certificate */
+"Certificate" = "Certificaat";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Certificaattransparantie";
+
+/* Certificate expires */
+"Certificate expires" = "Certificaat verloopt";
+
+/* Certificate names */
+"Certificate names" = "Certificaatnamen";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Controleer DNS, web- en SSH-poorten, HTTPS-headers, certificaatketen, TLS-versies, OCSP en MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Controleer of een validerende resolver het DNS-antwoord authenticeert";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Controleer of een validerende resolver het TLSA-antwoord authenticeert";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Controleer of een ondertekende zone NSEC-records blootstelt";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Controleer of één TCP-poort een verbinding accepteert";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Controleer of het domein is inbegrepen of in aanmerking komt voor HSTS preload";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "DNS, TLS, web- en maildiensten controleren...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "HSTS preload-lijst status...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Controleren op gepubliceerde NSEC-gegevens...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Ik controleer de 25 meest voorkomende TCP-poorten...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "De onderhandelde HTTP-versie en respons controleren...";
+
+/* Checks */
+"Checks" = "Cheques";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Controleert apex-records, mailbeleid, services, gemeenschappelijke hosts en DKIM-selectors.";
+
+/* Choose a tool */
+"Choose a tool" = "Kies een hulpmiddel";
+
+/* Cipher */
+"Cipher" = "Cipher";
+
+/* Ciphersuite */
+"Ciphersuite" = "Ciphersuite";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Duidelijke recente gegevens";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Duidelijke recente gegevens...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Recente Netmin-gegevens wissen?";
+
+/* Clear search */
+"Clear search" = "Zoek vrij";
+
+/* Clear target */
+"Clear target" = "Duidelijk doel";
+
+/* Clock offset */
+"Clock offset" = "Klokverplaatsing";
+
+/* Close */
+"Close" = "Sluit";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Wi-Fi en nabijgelegen toegangspunten verzamelen...";
+
+/* Common Port Scan */
+"Common Port Scan" = "Common Port Scan";
+
+/* Common TCP services */
+"Common TCP services" = "Algemene TCP-diensten";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Vergelijk IPv4-antwoorden van Cloudflare, Google, Quad9 en OpenDNS";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "IPv4-antwoorden vergelijken van publieke resolvers...";
+
+/* Complete */
+"Complete" = "Volledig";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Complete DNS zone for %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Volledigheid: Volledig";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Volledigheid: Gedeeltelijke ontdekking";
+
+/* Configuration */
+"Configuration" = "Configuratie";
+
+/* Connection */
+"Connection" = "Verbinding";
+
+/* Connection quality */
+"Connection quality" = "Verbindingskwaliteit";
+
+/* Connection succeeded */
+"Connection succeeded" = "Verbinding geslaagd";
+
+/* Connection timing */
+"Connection timing" = "Aansluitingstiming";
+
+/* Consistent */
+"Consistent" = "Consistent";
+
+/* Content */
+"Content" = "Inhoud";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Inhoud die door het doelwit wordt teruggestuurd, klaar om te inspecteren of te kopiëren.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Converteer een geïnnationaliseerd domein tussen Unicode- en ASCII-formulieren";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Het domein omzetten tussen Unicode en ASCII...";
+
+/* Copied %@ */
+"Copied %@" = "Gekopieerd %@";
+
+/* Copy Address */
+"Copy Address" = "Adres kopiëren";
+
+/* Copy Command */
+"Copy Command" = "Kopieercommando";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Kopieer MAC-adres";
+
+/* Copy Name */
+"Copy Name" = "Kopie Naam";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Kopieer ruwe uitvoer";
+
+/* Copy Result */
+"Copy Result" = "Kopieer het resultaat";
+
+/* Copy Summary */
+"Copy Summary" = "Kopieer samenvatting";
+
+/* Copy Target */
+"Copy Target" = "Kopieer doelwit";
+
+/* Copy error */
+"Copy error" = "Kopieerfout";
+
+/* Country */
+"Country" = "Land";
+
+/* Coverage */
+"Coverage" = "Dekking";
+
+/* DANE Validation */
+"DANE Validation" = "DANE-validatie";
+
+/* DHCP Lease */
+"DHCP Lease" = "DHCP-lease";
+
+/* DHCP lease */
+"DHCP lease" = "DHCP-lease";
+
+/* DHCP server */
+"DHCP server" = "DHCP-server";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "DNS-configuratie";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC Walk Check";
+
+/* DNS Propagation */
+"DNS Propagation" = "DNS-voortplanting";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNS Trace";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "DNS Zone-ontdekking";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "DNS Zoneoverdracht";
+
+/* DNS answers */
+"DNS answers" = "DNS-antwoorden";
+
+/* DNS configuration */
+"DNS configuration" = "DNS-configuratie";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS over HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS over TLS Endpoint";
+
+/* DNS records */
+"DNS records" = "DNS-records";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "DNS-records ontdekt voor %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS-records, geolocatie en ASN. Meestal een paar seconden.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "DNS-resolvers in gebruik";
+
+/* DNS response */
+"DNS response" = "DNS-respons";
+
+/* DNS server */
+"DNS server" = "DNS-server";
+
+/* DNS service name */
+"DNS service name" = "DNS-dienstnaam";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC Chain Trace";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "DNSSEC Check";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "DNSSEC-validatie";
+
+/* Deep */
+"Deep" = "Deep";
+
+/* Deep discovery */
+"Deep discovery" = "Diepe ontdekking";
+
+/* Default */
+"Default" = "Standaard";
+
+/* Default route */
+"Default route" = "Standaardroute";
+
+/* Default ·  */
+"Default · " = "Standaard ·";
+
+/* Depth */
+"Depth" = "Diepte";
+
+/* Destination */
+"Destination" = "Bestemming";
+
+/* Destination not reached */
+"Destination not reached" = "Bestemming niet bereikt";
+
+/* Details */
+"Details" = "Details";
+
+/* Detect again */
+"Detect again" = "Opnieuw detecteren";
+
+/* Devices */
+"Devices" = "Apparaten";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Apparaten (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Verschil tussen de klok van deze Mac en %@.";
+
+/* Directives */
+"Directives" = "Richtlijnen";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Ontdek openbare DNS-records, standaarddiensten, mailbeleid, DKIM-selectoren en blootgestelde zonegegevens";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Ontdek routers, opslagapparaten, tv's en andere UPnP-diensten";
+
+/* Discovered network resources */
+"Discovered network resources" = "Ontdekte netwerkbronnen";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "UPnP-apparaten en -diensten ontdekken...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Lokale apparaten en geadverteerde diensten ontdekken...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Openbare DNS-records en zonegegevens ontdekken...";
+
+/* Discovery output */
+"Discovery output" = "Ontdekkingsoutput";
+
+/* Discovery results */
+"Discovery results" = "Ontdekkingsresultaten";
+
+/* DoT hostname */
+"DoT hostname" = "DoT-hostnaam";
+
+/* Domain */
+"Domain" = "Domein";
+
+/* Domain name */
+"Domain name" = "Domeinnaam";
+
+/* Domain or hostname */
+"Domain or hostname" = "Domein of hostnaam";
+
+/* Download */
+"Download" = "Download";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Elke router op het pad; de heen-en-weer tijd wordt gemeten op de bestemming.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Schakelt het optionele gedrag van de tool in";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Hier komt een bereik in beeld zoals 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Voer een IPv4-bereik in met een prefix van /0 tot /30, bijvoorbeeld 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Inschrijvingen";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Elk adres in het gevraagde bereik, één per lijn.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Elke interface die macOS rapporteert, met zijn adressen en linkstatus.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Elke publieke resolver gaf dezelfde IPv4-antwoorden terug.";
+
+/* Exit status */
+"Exit status" = "Uitgangsstatus";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Breid een beheersbaar CIDR-blok uit tot individuele adressen";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "Het CIDR-bereik uitbreiden naar individuele adressen...";
+
+/* Expires */
+"Expires" = "Verloopt";
+
+/* Failed */
+"Failed" = "Mislukt";
+
+/* Fast local discovery */
+"Fast local discovery" = "Snelle lokale ontdekking";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Haal de crawler-toegangsregels van de site op";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Haal het gepubliceerde beveiligingscontactbeleid van de site op";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "HTTP-headers ophalen en redirects volgen...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "IP-locatie en netwerkgegevens ophalen...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "IP-registratierecords ophalen via RDAP...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "SSH-hostsleutels ophalen en vingerafdrukken berekenen...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Browserbeveiligingsheaders ophalen...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Domeinregistratierecords ophalen via RDAP...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Route-oorsprong validatiestatus ophalen...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "Het ophalen van het HTTPS-certificaat en identiteitsgegevens...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Het ophalen van de certificaatketen en de gestapelde OCSP-respons...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "De crawler-toegangsregels van de site ophalen...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Het beveiligingscontactbeleid van de site ophalen...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Je publieke IP-adres ophalen...";
+
+/* Fields */
+"Fields" = "Velden";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Filter %lld tools";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Filter op IP, naam, interface";
+
+/* Final status */
+"Final status" = "Eindstatus";
+
+/* Find Tool… */
+"Find Tool…" = "Vind Tool...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Vind een Netmin-tool";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Zoek certificaatnamen die gerelateerde subdomeinen kunnen onthullen";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Vind de geadverteerde geauthenticeerde SMTP-dienst";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Vind de gepromote e-mailconfiguratieservice";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Vind de geadverteerde beveiligde IMAP-dienst";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Zoek de hostnaam die gekoppeld is aan een IP-adres";
+
+/* Fingerprint */
+"Fingerprint" = "Vingerafdruk";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Vingerafdrukken die de server presenteerde, om te vergelijken met een bekende host-invoer.";
+
+/* First */
+"First" = "Eerste";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Volg DNS-delegatie van de wortel naar het antwoord";
+
+/* Formatted */
+"Formatted" = "Opmaak";
+
+/* Formatted address */
+"Formatted address" = "Opgemaakt adres";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "Het MAC-adres opmaken...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Gratis · %lld van %lld verzoeken die vandaag zijn achtergelaten";
+
+/* From */
+"From" = "Van";
+
+/* Full */
+"Full" = "Volledig";
+
+/* Gateway */
+"Gateway" = "Gateway";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Gateway %@ · Standaardroute";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Gateway en routes";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Gateway en routeringstabel";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "HSTS Preload-status";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP-headers";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP-protocol";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTP Security Headers";
+
+/* HTTP response */
+"HTTP response" = "HTTP-respons";
+
+/* HTTP status */
+"HTTP status" = "HTTP-status";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Handdrukreactie";
+
+/* Hide */
+"Hide" = "Verstop";
+
+/* Hop */
+"Hop" = "Hop";
+
+/* Hops */
+"Hops" = "Hops";
+
+/* Host */
+"Host" = "Presentator";
+
+/* Host and port */
+"Host and port" = "Host en port";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Host en port, bijvoorbeeld example.com:443";
+
+/* Host keys */
+"Host keys" = "Hostsleutels";
+
+/* Hostname */
+"Hostname" = "Gastheernaam";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Gastnamen die in openbare certificaten voor dit domein voorkwamen.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Hosts die pingen beantwoordden of verschenen in de burencache, met namen, latentie en geadverteerde diensten.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Hosts, geadverteerde diensten en bereikbare eindpunten die tijdens deze run worden gevonden.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "Ik ben een WHOIS-server";
+
+/* IP Information */
+"IP Information" = "IP-informatie";
+
+/* IP Range Expander */
+"IP Range Expander" = "IP-bereikuitbreider";
+
+/* IP address */
+"IP address" = "IP-adres";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP-adres of ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP-adres of domein";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP-adres of hostnaam";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP-adres of prefix";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, Routing en Registratie";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "IPv4 CIDR-bereik, maximaal 4096 adressen";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4-adres";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "IPv4-adres met CIDR";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4-buren";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6-buren";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6-adres";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Inspecteer DNSSEC-records en validatiehandtekeningen";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Bekijk de SMTP-banner en onderhandel over STARTTLS";
+
+/* Interface */
+"Interface" = "Interface";
+
+/* Interface Inventory */
+"Interface Inventory" = "Interface-inventaris";
+
+/* Interfaces */
+"Interfaces" = "Interfaces";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Sluit je aan bij een netwerk of voeg hieronder een bereik toe. Tijdens het uitvoeren van de sweep wordt de helper gevraagd opnieuw te kijken.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Belangrijke velden uit het registerantwoord.";
+
+/* Keys */
+"Keys" = "Sleutels";
+
+/* Last */
+"Last" = "Laatste";
+
+/* Latency */
+"Latency" = "Latentie";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Metingen van latentie, bereikbaarheid en paden.";
+
+/* Lease details */
+"Lease details" = "Huurgegevens";
+
+/* Lease time */
+"Lease time" = "Leasetijd";
+
+/* Limited */
+"Limited" = "Beperkt";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Beperkt tot de lokale /24 voor snelheid";
+
+/* Lines */
+"Lines" = "Lijnen";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Linkgegevens voor deze Mac en de toegangspunten die macOS momenteel kan zien.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "App Store-producten laden...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Lokale apparaatsweep";
+
+/* Local Network */
+"Local Network" = "Lokaal netwerk";
+
+/* Location */
+"Location" = "Locatie";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Domeinnamen opzoeken in certificaatlogboeken...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Postbezorgers opzoeken...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Ik zoek registratie- en eigendomsregisters op...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "Ik zoek de SMTP-indieningsdienst op...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Ik zoek de e-mailconfiguratieservice op...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Ik zoek de hostnaam van dit IP-adres op...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Ik zoek het oorsprong-ASN en het routerde prefix op...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Ik zoek de beveiligde IMAP-dienst op...";
+
+/* MAC Formatter */
+"MAC Formatter" = "MAC Formatter";
+
+/* MAC address */
+"MAC address" = "MAC-adres";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC en leverancier verborgen";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC en leverancier verborgen — leeg in deze run";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC en leverancier getoond";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Post";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Mail Autodiscover SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Mail BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "Mail DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "Mail DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Mail IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Mail MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "Mail SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "Postindiening SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Mail TLS Rapport";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Mail TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Maildomein";
+
+/* Mail domain or server */
+"Mail domain or server" = "Maildomein of server";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Mailserver en poort, bijvoorbeeld mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Beheer Abonnement";
+
+/* Maximum */
+"Maximum" = "Maximum";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Meet de huidige download-, upload-, responsiviteits- en verbindingsdetails";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Meet bereikbaarheid en retourlatentie";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Gemeten capaciteit en responsiviteit van de stroomverbinding.";
+
+/* Measurement */
+"Measurement" = "Meting";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Download, upload en responsiviteit meten...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Bereikbaarheid en retourlatentie meten...";
+
+/* Minimum */
+"Minimum" = "Minimum";
+
+/* Mode */
+"Mode" = "Modus";
+
+/* More copy options */
+"More copy options" = "Meer kopieeropties";
+
+/* My Network Report */
+"My Network Report" = "Mijn Netwerkrapport";
+
+/* My Public IP */
+"My Public IP" = "Mijn publieke IP";
+
+/* NTP Offset */
+"NTP Offset" = "NTP-offset";
+
+/* NTP server */
+"NTP server" = "NTP-server";
+
+/* Name */
+"Name" = "Naam";
+
+/* Names */
+"Names" = "Namen";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Namen in certificaatlogboeken";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Onderhandel TLS met elke impliciete TLS-dienst en toon het geselecteerde protocol en de cijfer";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Onderhandeld protocol, cijfer, certificaatidentiteit en verificatiestatus.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "SMTP STARTTLS onderhandelen...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "TLS onderhandelen op de opgegeven servicepoort...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "Onderhandelen over de HTTPS TLS-verbinding...";
+
+/* Neighbor */
+"Neighbor" = "Buurman";
+
+/* Neighbor cache */
+"Neighbor cache" = "Buurcache";
+
+/* Neighbors */
+"Neighbors" = "Buren";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Lifetime · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro Jaarlijks";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin ontdekt apparaten en diensten op lokale netwerken die je kiest te inspecteren.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin stopte dit commando na %lld seconden.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin stopte dit commando nadat het %@ output produceerde.";
+
+/* Network */
+"Network" = "Netwerk";
+
+/* Network Lookup */
+"Network Lookup" = "Netwerkzoekopdracht";
+
+/* Network Quality */
+"Network Quality" = "Netwerkkwaliteit";
+
+/* Network entries */
+"Network entries" = "Netwerkvermeldingen";
+
+/* Network interfaces */
+"Network interfaces" = "Netwerkinterfaces";
+
+/* Networks */
+"Networks" = "Netwerken";
+
+/* Networks scanned */
+"Networks scanned" = "Gescande netwerken";
+
+/* Networks to scan */
+"Networks to scan" = "Netwerken om te scannen";
+
+/* New Lookup */
+"New Lookup" = "Nieuwe zoekopdracht";
+
+/* New Report */
+"New Report" = "Nieuw rapport";
+
+/* New Sweep */
+"New Sweep" = "Nieuwe Sweep";
+
+/* No */
+"No" = "Nee";
+
+/* No DNS records found */
+"No DNS records found" = "Geen DNS-records gevonden";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Er is geen Netmin Pro-aankoop gevonden voor dit Apple-account.";
+
+/* No common ports are open */
+"No common ports are open" = "Er zijn geen gemeenschappelijke poorten open";
+
+/* No common services */
+"No common services" = "Geen gemeenschappelijke diensten";
+
+/* No data returned */
+"No data returned" = "Geen data teruggegeven";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Geen apparaten komen overeen met \"%@\"";
+
+/* No devices responded */
+"No devices responded" = "Geen enkele apparaten reageerden";
+
+/* No diagnostic output */
+"No diagnostic output" = "Geen diagnostische uitgang";
+
+/* No input required */
+"No input required" = "Geen invoer nodig";
+
+/* No matching tools */
+"No matching tools" = "Geen matchtools";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Geen privé IPv4-netwerk gedetecteerd · Voeg een bereik toe om te scannen";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Er werd geen privé IPv4-netwerk gedetecteerd";
+
+/* No result returned */
+"No result returned" = "Geen resultaat werd teruggegeven";
+
+/* No target */
+"No target" = "Geen doel";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "No tools matchen \"%@\"";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Normaliseer een MAC-adres naar een hoofdletter met dubbele punt-gescheiden vorm";
+
+/* Not reached */
+"Not reached" = "Niet bereikt";
+
+/* Not selected */
+"Not selected" = "Niet geselecteerd";
+
+/* Notafter */
+"Notafter" = "Notafter";
+
+/* Notes */
+"Notes" = "Noten";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Niets reageerde op ping of verscheen in de burencache op de gescande netwerken. Controleer of deze Mac op het verwachte netwerk zit of voeg handmatig een bereik toe.";
+
+/* Nothing detected */
+"Nothing detected" = "Niets gedetecteerd";
+
+/* Off */
+"Off" = "Off";
+
+/* Offset */
+"Offset" = "Offset";
+
+/* On */
+"On" = "Op";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Alleen de IANA-verwijzing werd teruggegeven. Probeer opnieuw %@ of gebruik RDAP om de registrar, nameservers en registratiedata op te halen.";
+
+/* Open */
+"Open" = "Open";
+
+/* Open ports */
+"Open ports" = "Open poorten";
+
+/* Open ports: */
+"Open ports:" = "Open poorten:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "Optionele IPv4 CIDR; blank scant alle actieve LAN's";
+
+/* Options */
+"Options" = "Opties";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Origin AS en gerouted voorvoegsel";
+
+/* Other */
+"Other" = "Overig";
+
+/* Output */
+"Output" = "Output";
+
+/* Overview */
+"Overview" = "Overzicht";
+
+/* Packet loss */
+"Packet loss" = "Pakketverlies";
+
+/* Partial */
+"Partial" = "Gedeeltelijk";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Geeft %@ aan het commando";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "De betaling gaat naar je Apple-account. Het jaarlijkse abonnement wordt automatisch verlengd, tenzij het minstens een dag voor het einde van de huidige periode in de App Store-instellingen wordt geannuleerd.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Kies een tool uit de zijbalk of druk op ⌘K om ze allemaal te zoeken.";
+
+/* Ping */
+"Ping" = "Ping";
+
+/* Port */
+"Port" = "Haven";
+
+/* Port %@ is open */
+"Port %@ is open" = "Port %@ is open";
+
+/* Ports */
+"Ports" = "Ports";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Poorten die een verbinding accepteerden.";
+
+/* Primary mail server */
+"Primary mail server" = "Primaire mailserver";
+
+/* Primary nameserver */
+"Primary nameserver" = "Primaire naamserver";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "PrimaryInterface";
+
+/* Privacy */
+"Privacy" = "Privacy";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Privacybeleid...";
+
+/* Pro */
+"Pro" = "Voordeel";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Pro-aankopen zijn momenteel niet beschikbaar. Probeer het later opnieuw.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Pro-proces · %lld Resterende dagen";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Pro-proces · 1 dag te gaan";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Pro-proces · eindigt %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Pro-proces · Eerste betaling %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Pro-proces · tot %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro zet ruwe diagnostische output om in tabellen, metrics en bevindingen. Na de proefperiode van 30 dagen bevat Free ruwe output tot vijf verzoeken per dag.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Pro · Einde %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Pro · Levenslang";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Pro · Renew %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Pro · gedeeld met je familie";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Pro · tot %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Probe 25 veelvoorkomende TCP-poorten met de netwerktools die in macOS zijn inbegrepen";
+
+/* Probed */
+"Probed" = "Prod";
+
+/* Proto */
+"Proto" = "Proto";
+
+/* Protocol */
+"Protocol" = "Protocol";
+
+/* Protocol Version */
+"Protocol Version" = "Protocolversie";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Publieke DNS-ontdekking is gedeeltelijk";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Publieke DNS-probing vond nuttige records, maar aangepaste namen kunnen nog steeds verborgen zijn.";
+
+/* Public IP */
+"Public IP" = "Publieke IP";
+
+/* Public IPv4 */
+"Public IPv4" = "Publieke IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "Publieke IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Openbare adres- en netwerkeigendomsdetails.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Publieke resolvers gaven verschillende antwoorden; een verandering kan nog steeds in beweging zijn.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Punycode-omzetter";
+
+/* Purchase */
+"Purchase" = "Aankoop";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Aankopen zijn momenteel niet beschikbaar.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Vraag een A-record op via een DNS-over-HTTPS-endpoint";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Zoek de NetBIOS-naam en werkgroep die door een Windows- of SMB-apparaat worden geadverteerd";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Vraag de serverklok op en toon de gemeten lokale offset";
+
+/* Querying %@… */
+"Querying %@…" = "Querying %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "DNS-locatierecords opvragen...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "DNS-tekstrecords opvragen...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "DNSSEC publieke sleutels opvragen...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "DNSSEC-records en handtekeningen opvragen...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "HTTPS-eindpunten en verbindingshints opvragen...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "IPv4-adres (A) records opvragen...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "IPv4-records opvragen via HTTPS...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "IPv6-adres (AAAA) records opvragen...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Het opvragen van MTA-STS polisinformatie...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "TLS-certificaatassociatierecords opvragen...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "TLS-leveringsrapportagerecords opvragen...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Het opvragen van gezaghebbende naamserverrecords...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Het opvragen van merkindicatorgegevens...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Het opvragen van autorisatierecords van de certificaatautoriteit...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Delegeringsondertekenaars worden geraadpleegd...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Hostnaam alias (CNAME) records opvragen...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Service-bindingen en verbindingsparameters opvragen...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Regels voor dienstontdekking opvragen...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Het opvragen van servicehosts, poorten en prioriteiten...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "Het opvragen van de publieke sleutel van de DKIM-selector...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Het opvragen van de Windows- of SMB-apparaatnaam...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Het e-mailauthenticatiebeleid navragen...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Het afzenderautorisatiebeleid opvragen...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "De tijdserver opvragen en klokoffset meten...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Zoneautoriteits- en tijdregistraties opvragen...";
+
+/* Quick */
+"Quick" = "Snel";
+
+/* Quick lookup */
+"Quick lookup" = "Snelle zoekopdracht";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Vind snel lokale apparaten, printers en geadverteerde diensten";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP-domein";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "RPKI-validatie";
+
+/* Ran %@ */
+"Ran %@" = "Ran %@";
+
+/* Raw Output */
+"Raw Output" = "Ruwe output";
+
+/* Raw output */
+"Raw output" = "Ruwe output";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Bereikbaarheid en retourtiming voor %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Bereikbare poorten, diensten en host-key details.";
+
+/* Reached */
+"Reached" = "Bereikt";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Het lezen van gecachte IPv4-buren...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Gecachte IPv6-buren lezen...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "Het lezen van macOS DNS-resolvers en zoekdomeinen...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Netwerkinterface-adressen en status lezen...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Het lezen van de DHCP-lease van de actieve interface...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Het lezen van de standaard gateway en routeringstabellen...";
+
+/* Recent */
+"Recent" = "Recent";
+
+/* Record */
+"Record" = "Record";
+
+/* Records */
+"Records" = "Records";
+
+/* Registrar */
+"Registrar" = "Registrar";
+
+/* Registration and routing data */
+"Registration and routing data" = "Registratie- en routeringsgegevens";
+
+/* Registry record */
+"Registry record" = "Registratierecord";
+
+/* Registry response */
+"Registry response" = "Respons op het register";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Het antwoord van het register is onvolledig";
+
+/* Related */
+"Related" = "Gerelateerd";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Onthouden voor de volgende resultaten · ⌘1 Overzicht, ⌘2 Ruwe output";
+
+/* Remove this range */
+"Remove this range" = "Verwijder deze afstand";
+
+/* Replies */
+"Replies" = "Reacties";
+
+/* Report for %@ */
+"Report for %@" = "Rapport voor %@";
+
+/* Report overview */
+"Report overview" = "Rapportoverzicht";
+
+/* Reports */
+"Reports" = "Rapporten";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Vraag een volledige DNS-zoneoverdracht aan van een geautoriteerde server";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Verzoek om een volledige DNS-zoneoverdracht...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Vereis TLS 1.2 en laat zien of de onderhandeling slaagt";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Vereis TLS 1.3 en laat zien of onderhandelingen slagen";
+
+/* Resolved */
+"Resolved" = "Opgelost";
+
+/* Resolved address */
+"Resolved address" = "Opgelost adres";
+
+/* Resolver */
+"Resolver" = "Resolver";
+
+/* Resolver %@ */
+"Resolver %@" = "Resolver %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Resolver-output gegroepeerd voor snelle beoordeling.";
+
+/* Resolver response */
+"Resolver response" = "Resolver-respons";
+
+/* Resolvers */
+"Resolvers" = "Resolvers";
+
+/* Resolvers agree */
+"Resolvers agree" = "Resolvers zijn het eens";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Resolvers en zoekdomeinen die macOS momenteel gebruikt, in prioriteitsvolgorde.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Resolvers verschillen";
+
+/* Resources */
+"Resources" = "Bronnen";
+
+/* Response */
+"Response" = "Reactie";
+
+/* Response %lld */
+"Response %lld" = "Reactie %lld";
+
+/* Responses */
+"Responses" = "Reacties";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Reacties op de multicast-zoekopdracht, één kaart per aankondiging.";
+
+/* Responsiveness */
+"Responsiveness" = "Responsiviteit";
+
+/* Restore Purchases */
+"Restore Purchases" = "Herstel aankopen";
+
+/* Result */
+"Result" = "Resultaat";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "De resultaten worden gegroepeerd op basis van elke voltooide netwerkcontrole.";
+
+/* Retry registry */
+"Retry registry" = "Herhaalregister";
+
+/* Reverse DNS */
+"Reverse DNS" = "Reverse DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Retourreis";
+
+/* Route to target */
+"Route to target" = "Route naar doel";
+
+/* Router */
+"Router" = "Router";
+
+/* Routes */
+"Routes" = "Routes";
+
+/* Routing record */
+"Routing record" = "Routingrecord";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Routing registry data for %@.";
+
+/* Routing table */
+"Routing table" = "Routingtabel";
+
+/* Run */
+"Run" = "Ren";
+
+/* Run Again */
+"Run Again" = "Ren Nog Eens";
+
+/* Run Lookup */
+"Run Lookup" = "Voer een zoekopdracht uit";
+
+/* Run Report */
+"Run Report" = "Run Report";
+
+/* Run Sweep */
+"Run Sweep" = "Run Sweep";
+
+/* Run Tool */
+"Run Tool" = "Run Tool";
+
+/* Run again */
+"Run again" = "Ren nog eens";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Gebruik het %@-gereedschap";
+
+/* Running */
+"Running" = "Lopen";
+
+/* Running %@… */
+"Running %@…" = "Rennen %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "Rennen · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "SSDP/UPnP Ontdekking";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "SSH Hostsleutels";
+
+/* SSH host keys */
+"SSH host keys" = "SSH-hostsleutels";
+
+/* Save Report… */
+"Save Report…" = "Rapport opslaan...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Sla rapporten op en kopieer gestructureerde samenvattingen";
+
+/* Scan */
+"Scan" = "Scan";
+
+/* Scripts */
+"Scripts" = "Scripts";
+
+/* Search domain */
+"Search domain" = "Zoekdomein";
+
+/* Sections */
+"Sections" = "Secties";
+
+/* Security details */
+"Security details" = "Beveiligingsdetails";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Geselecteerd";
+
+/* Sequence */
+"Sequence" = "Reeks";
+
+/* Server */
+"Server" = "Server";
+
+/* Service */
+"Service" = "Dienst";
+
+/* Service reachability */
+"Service reachability" = "Bereikbaarheid van de dienst";
+
+/* Service type */
+"Service type" = "Diensttype";
+
+/* Service types */
+"Service types" = "Diensttypes";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Servicetypes die tijdens het ontdekkingsvenster op het lokale netwerk werden aangekondigd.";
+
+/* Services */
+"Services" = "Diensten";
+
+/* Show */
+"Show" = "Show";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Toon DANE-certificaatassociaties voor een TLS-dienst";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Toon HTTPS-service-eindpunten en verbindingshints";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Toon IPv4-adressen die zijn gepubliceerd voor een hostnaam";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Toon IPv4-buren die deze Mac onlangs heeft benaderd";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Toon IPv6-adressen die zijn gepubliceerd voor een hostnaam";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Toon Wi-Fi-linkdetails en nabijgelegen toegangspunten die zichtbaar zijn voor macOS";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Toon adressen, MTU, status en tellers voor elke netwerkinterface";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Toon gecachte IPv6-buren en hun link-layer adressen";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Toon certificaatidentiteit, uitgever, geldigheid en SHA-256 vingerafdruk";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Toon elke router op het pad naar de bestemming";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Toon geografische locatiegegevens die per zone zijn gepubliceerd";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Locatie van de show, netwerk, ASN en eigendomsdetails";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Toon onderhandelde TLS-versie, cijfer, sleuteluitwisseling en verificatie";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Netwerkgrenzen van het show, netmask, uitzendadres en grootte";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Toon gepubliceerde tekstrecords en domeinbeleidsregels";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Toon ruwe registratie- en eigendomsgegevens";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Toon registertoewijzing en registratiegegevens voor een IP";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Toon registratie- en statusdetails van het register voor een domein";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Toon responsheaders en elke omleidingshopp";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Toon regelgebaseerde serviceontdekkingsrecords";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Toon service-eindpunten en verbindingsparameters";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Showservice-hosts, poorten, prioriteiten en gewichten";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Laat de DNS-resolvers en zoekdomeinen zien die macOS daadwerkelijk gebruikt";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Toon de door RIPE gerapporteerde RPKI-route-oorsprong validatiestatus";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Toon de DHCP-server, lease en de aangeleverde opties van de actieve interface";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Toon de gezaghebbende naamservers voor een domein";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Toon het canonieke aliasdoel voor een hostnaam";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Toon de volledige geleverde certificaatketen, verificatieresultaat en het nieted OCSP-antwoord";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Toon de standaardgateway en de volledige IPv4- en IPv6-routetabel";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Toon het beleid van de merkindicatoren van het domein";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Toon het e-mailauthenticatiebeleid van het domein";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Toon de onderhandelde HTTP-versie, status, serveradres en TLS-resultaat";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Toon het oorsprong-ASN, het geroutede prefix, het register en de allocatiedetails";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Toon de signer-records van de parent-zone delegatie";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Toon het beleid dat veilige postbezorging vereist";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Toon de belangrijkste browserbeveiligingsheaders die door een site worden teruggegeven";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Toon het publieke IP-adres dat door het internet wordt gezien";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Toon de publieke sleutel voor een DKIM-selector";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Laat de publieke sleutels zien die worden gebruikt om een DNS-zone te valideren";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Laat de door de server geadverteerde SSH-hostsleutelvingerafdrukken zien";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Laat de servers zien die mail ontvangen voor een domein";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Laat zien waar TLS-leveringsrapporten naartoe worden gestuurd";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Toon welke certificaatautoriteiten certificaten mogen uitgeven";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Laat zien welke servers gemachtigd zijn om post te verzenden";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Informatie over zoneautoriteit, serienummer en tijdsgegevens";
+
+/* Site Report */
+"Site Report" = "Locatierapport";
+
+/* Site report for example.org */
+"Site report for example.org" = "Locatierapport voor example.org";
+
+/* State */
+"State" = "Staat";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Status:/Netwerk/Globaal/IPv4";
+
+/* Statistics */
+"Statistics" = "Statistieken";
+
+/* Status */
+"Status" = "Status";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Status, protocol, doorleidingen en teruggestuurde headers.";
+
+/* Stop */
+"Stop" = "Stop";
+
+/* Stop Sweep */
+"Stop Sweep" = "Stop Sweep";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Gestructureerde registerrespons voor %@.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Gestructureerde rapporten zijn een functie van Netmin Pro";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Gestructureerde rapporten met tabellen, metrics en bevindingen";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Gestructureerde resolver-reactie.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Gestructureerde reactie van de webservice.";
+
+/* System network configuration */
+"System network configuration" = "Systeemnetwerkconfiguratie";
+
+/* TCP Port Check */
+"TCP Port Check" = "TCP Port Check";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "TCP-BEREIKBAARHEID";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Handshake";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Handshake";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS-certificaat";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "TLS Certificaatketen";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS Handshake";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "TLS Service Handshake";
+
+/* TLS connection */
+"TLS connection" = "TLS-verbinding";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, Web en Poorten";
+
+/* Target */
+"Target" = "Doel";
+
+/* Target (optional) */
+"Target (optional)" = "Doel (optioneel)";
+
+/* Target did not reply */
+"Target did not reply" = "Target reageerde niet";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Doelen kunnen geen ruimtes bevatten";
+
+/* Terms */
+"Terms" = "Voorwaarden";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Test SMTP 25, SMTPS 465, indiening 587, IMAPS 993 en POP3S 995 gelijktijdig";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Test TLS-onderhandeling met een DNS-over-TLS-server";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "TLS 1.2 onderhandeling testen...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "TLS 1.3 onderhandeling testen...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "TLS-onderhandeling testen op DNS-poort 853...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "TLS testen op SMTP-, IMAP- en POP3-diensten...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Een verbinding testen met de opgegeven TCP-poort...";
+
+/* Text */
+"Text" = "Tekst";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "De 25 meest voorkomende TCP-poorten werden met een timeout van één seconde getest.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "De App Store kon deze aankoop niet verifiëren.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "Het MAC-adres in de canonieke hoofdletter, dubbele punt-gescheiden vorm.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "De Netmin-toolcatalogus bevat geen geldige tools.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "De URL heeft een schema en een host nodig, bijvoorbeeld https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "De lease van de actieve interface en de opties die zijn DHCP-server bood.";
+
+/* The address is not valid. */
+"The address is not valid." = "Het adres is niet geldig.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "Het adres dat het internet voor deze verbinding ziet.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "De app volgde de doorverwijzingen, maar de website stuurde dit bestand herhaaldelijk terug naar dezelfde URL. Er werd geen bestand teruggestuurd.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "De gezaghebbende server maakte een volledige AXFR-zoneoverdracht mogelijk.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "De gezaghebbende servers boden geen volledige zoneoverdracht. Dit zijn de records die via openbare probes zijn gevonden; aangepaste namen kunnen nog bestaan.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "De meegeleverde Netmin-toolcatalogus ontbreekt.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Het commando werd voltooid, maar het doelwit gaf geen overeenkomende gegevens terug.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Het commando faalde voordat het diagnostische output opleverde.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "De standaardroute en elke IPv4- en IPv6-route die macOS kent.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "De eerste 30 dagen omvatten Pro. Na de proefperiode bewaart Free alle 84 tools en de ruwe output, met vijf diagnostische verzoeken per dag.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "Het voorvoegsel na / moet een getal zijn";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Het proces verliet met status %lld voordat de details werden teruggegeven. Controleer of het vereiste commando is geïnstalleerd en het doel bereikbaar is.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "De aankoop wacht op goedkeuring.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Het register gaf een ongestructureerd antwoord terug; de nuttige regels worden hieronder getoond.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "De resolver gaf geen overeenkomende antwoorden.";
+
+/* This Mac */
+"This Mac" = "Deze Mac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "Dit verwijdert opgeslagen doelen en recent uitgevoerde samenvattingen van deze Mac. Het verwijdert geen geëxporteerde rapporten.";
+
+/* Time */
+"Time" = "Tijd";
+
+/* Timeouts */
+"Timeouts" = "Time-outs";
+
+/* Tools */
+"Tools" = "Gereedschappen";
+
+/* Tools unavailable */
+"Tools unavailable" = "Gereedschap niet beschikbaar";
+
+/* Trace */
+"Trace" = "Trace";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Traceer de DNSSEC trust chain vanaf de root";
+
+/* Traceroute */
+"Traceroute" = "Traceroute";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "DNS-delegaties en DNSSEC-records traceren...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "DNS-delegaties vanaf de wortel traceren...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Het netwerkpad volgen naar de bestemming...";
+
+/* Try Again */
+"Try Again" = "Probeer het nog eens";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Probeer in plaats daarvan RDAP →";
+
+/* Type */
+"Type" = "Type";
+
+/* Types */
+"Types" = "Typen";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnP-apparaten en -diensten";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "Onzekerheid";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Onbeperkte netwerkdiagnostiek met leesbare rapporten en exporttools.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Onbeperkt gebruik van alle 84 diagnostische hulpmiddelen";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Ontgrendel %@, plus de volledige Pro-functieset.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Ontgrendel Rapport...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Ontgrendel Gestructureerde Samenvatting...";
+
+/* Unnamed */
+"Unnamed" = "Naamloos";
+
+/* Unsigned */
+"Unsigned" = "Ongetekend";
+
+/* Upload */
+"Upload" = "Upload";
+
+/* Use custom resolver */
+"Use custom resolver" = "Gebruik een aangepaste resolver";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Gebruik host:port, een IPv6-adres of een MAC-adres";
+
+/* Utilities */
+"Utilities" = "Nutsvoorzieningen";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPN-tunnel";
+
+/* Validated */
+"Validated" = "Gevalideerd";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "TLSA-records en hun DNSSEC-keten valideren...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "Het valideren van het DNS-antwoord en de DNSSEC-keten...";
+
+/* Value */
+"Value" = "Waarde";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Waarden geproduceerd door %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "Waarden gerapporteerd door macOS voor %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Waarden die worden teruggegeven voor %@.";
+
+/* Vendor */
+"Vendor" = "Leverancier";
+
+/* Verification */
+"Verification" = "Verificatie";
+
+/* Verify Return Code */
+"Verify Return Code" = "Verifieer retourcode";
+
+/* View */
+"View" = "Uitzicht";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Bekijk Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "Virtuele brug";
+
+/* Virtual machine network */
+"Virtual machine network" = "Virtueel machinenetwerk";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS-server";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Wachtend op het eerste antwoord...";
+
+/* Web policy status */
+"Web policy status" = "Webbeleidsstatus";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Wi-Fi Diagnostiek";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Wi-Fi-status";
+
+/* Window */
+"Window" = "Raam";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Windows-naamontdekking";
+
+/* Yes */
+"Yes" = "Ja";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Je hebt Netmin Pro.";
+
+/* Your public address */
+"Your public address" = "Uw openbare adres";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "Actief";
+
+/* advanced structured reports */
+"advanced structured reports" = "Geavanceerde gestructureerde rapporten";
+
+/* all detected */
+"all detected" = "Allen gedetecteerd";
+
+/* arp table */
+"arp table" = "ARP-tabel";
+
+/* as name */
+"as name" = "Als naam";
+
+/* closed */
+"closed" = "Gesloten";
+
+/* command */
+"command" = "Commando";
+
+/* complete zone */
+"complete zone" = "Volledige zone";
+
+/* configured */
+"configured" = "geconfigureerd";
+
+/* creation date */
+"creation date" = "Ontstaansdatum";
+
+/* device sweep */
+"device sweep" = "Apparaatsweep";
+
+/* did not answer within */
+"did not answer within" = "Antwoordde niet binnen";
+
+/* differs */
+"differs" = "verschilt";
+
+/* domain name */
+"domain name" = "Domeinnaam";
+
+/* down */
+"down" = "Naar beneden";
+
+/* downlink capacity */
+"downlink capacity" = "downlinkcapaciteit";
+
+/* expiration date */
+"expiration date" = "Vervaldatum";
+
+/* expiration date: */
+"expiration date:" = "Vervaldatum:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "verlopen %lld dagen geleden";
+
+/* expires today */
+"expires today" = "verloopt vandaag";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "vier ICMP-echoverzoeken";
+
+/* gateway %@ */
+"gateway %@" = "Gateway %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "in %lld dagen";
+
+/* inactive */
+"inactive" = "Inactief";
+
+/* incomplete */
+"incomplete" = "onvolledig";
+
+/* ip information */
+"ip information" = "IP-informatie";
+
+/* just now */
+"just now" = "Net nu";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "beperkt tot de lokale /24 voor snelheid";
+
+/* local */
+"local" = "Lokaal";
+
+/* loss %@ */
+"loss %@" = "verlies %@";
+
+/* median %@ */
+"median %@" = "mediaan %@";
+
+/* name server */
+"name server" = "naamserver";
+
+/* name server: */
+"name server:" = "Naamserver:";
+
+/* network */
+"network" = "Netwerk";
+
+/* network lookup */
+"network lookup" = "netwerkopzoeking";
+
+/* network quality */
+"network quality" = "Netwerkkwaliteit";
+
+/* network report */
+"network report" = "Netwerkrapport";
+
+/* networks */
+"networks" = "Netwerken";
+
+/* no address */
+"no address" = "Geen adres";
+
+/* no answer */
+"no answer" = "Geen antwoord";
+
+/* no ping replies */
+"no ping replies" = "Geen ping-reacties";
+
+/* no reply */
+"no reply" = "Geen antwoord";
+
+/* open */
+"open" = "Open";
+
+/* packets transmitted */
+"packets transmitted" = "verzonden pakketten";
+
+/* primary %@ */
+"primary %@" = "primair %@";
+
+/* public ip */
+"public ip" = "Publiek IP";
+
+/* raw output */
+"raw output" = "Raw output";
+
+/* reachable */
+"reachable" = "Bereikbaar";
+
+/* redirects followed */
+"redirects followed" = "Vervolgens volgden doorverwijzingen";
+
+/* registrar name */
+"registrar name" = "Naam van de registrar";
+
+/* registry expiry date */
+"registry expiry date" = "Vervaldatum van het register";
+
+/* registry expiry date: */
+"registry expiry date:" = "Vervaldatum van het register:";
+
+/* resolution failed */
+"resolution failed" = "Oplossing mislukt";
+
+/* reverse dns */
+"reverse dns" = "Reverse DNS";
+
+/* run with last target */
+"run with last target" = "Ren met het laatste doel";
+
+/* scoped */
+"scoped" = "Met scoped";
+
+/* search domain */
+"search domain" = "Zoekdomein";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domein";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "Sha256 Vingerafdruk";
+
+/* site report */
+"site report" = "Locatierapport";
+
+/* summary */
+"summary" = "Samenvatting";
+
+/* target */
+"target" = "Doel";
+
+/* the address */
+"the address" = "Het adres";
+
+/* the selected resource */
+"the selected resource" = "De geselecteerde bron";
+
+/* the selected target */
+"the selected target" = "Het geselecteerde doelwit";
+
+/* the target */
+"the target" = "Het doel";
+
+/* timed out */
+"timed out" = "Time-out";
+
+/* unknown */
+"unknown" = "onbekend";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "Onbeperkte diagnostische verzoeken";
+
+/* up */
+"up" = "Omhoog";
+
+/* updated date */
+"updated date" = "Bijgewerkte datum";
+
+/* uplink capacity */
+"uplink capacity" = "Uplinkcapaciteit";
+
+/* verify return code */
+"verify return code" = "verifieer retourcode";
+
+/* via %@ */
+"via %@" = "via %@";
+
+/* windows name */
+"windows name" = "Windows-naam";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Voeg %@ toe aan Favorieten";
+
+/* Favorites */
+"Favorites" = "Favorieten";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Verwijder %@ uit Favorieten";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Pro-functies zijn vergrendeld";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Koop of herstel toegang om ze te ontgrendelen.";
+
+/* Restoring… */
+"Restoring…" = "Herstellen…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Er is geen actieve Netmin-aankoop gevonden.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP-prefix";
+
+/* Primary */
+"Primary" = "Primair";
+
+/* All relevant */
+"All relevant" = "Alle relevante";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "Oorsprong-ASN, bijvoorbeeld AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP-prefix, bijvoorbeeld 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Controleer of een oorsprong-ASN een IP-prefix mag aankondigen";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Probeer een volledige zoneoverdracht vanaf elke gezaghebbende naamserver";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Hostnaam, servicenaam of IP-adres";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Vergelijk gecachte DNS-antwoorden van Cloudflare, Google, Quad9 en OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "Vergelijk alle relevante recordtypen";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Antwoorden van openbare resolvers vergelijken…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Vergelijkt de gebruikelijke recordtypen die op dit doel van toepassing zijn.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Controleert A voor een hostnaam, PTR voor een IP-adres of SRV voor een servicenaam.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Alle openbare resolvers gaven dezelfde DNS-antwoorden.";
