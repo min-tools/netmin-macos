@@ -1,0 +1,2690 @@
+/* Netmin — ko localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "MS";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@는 TCP 연결을 수락했습니다.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@는 회수되지 않았습니다";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ 완결되지 않음";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ 열려";
+
+/* %@ open ports */
+"%@ open ports" = "%@ 개방 항구";
+
+/* %@ per year */
+"%@ per year" = "%@ 연간";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld 봉주르";
+
+/* %lld addresses */
+"%lld addresses" = "%lld 주소";
+
+/* %lld answers */
+"%lld answers" = "%lld 답변";
+
+/* %lld bytes */
+"%lld bytes" = "%lld 바이트";
+
+/* %lld checks */
+"%lld checks" = "%lld 체크";
+
+/* %lld day */
+"%lld day" = "%lld 하루";
+
+/* %lld days */
+"%lld days" = "%lld 일일";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld 감지됨 · 모든 스캔 시간은 약 %lld초 정도 소요됩니다";
+
+/* %lld devices */
+"%lld devices" = "%lld 장치";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld 장치 %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld 참가자";
+
+/* %lld headers */
+"%lld headers" = "%lld 헤더";
+
+/* %lld hops */
+"%lld hops" = "%lld 점프";
+
+/* %lld hosts */
+"%lld hosts" = "%lld 진행자";
+
+/* %lld hour */
+"%lld hour" = "%lld 시간";
+
+/* %lld hours */
+"%lld hours" = "%lld 시간";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld 미완성";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld 인터페이스";
+
+/* %lld keys */
+"%lld keys" = "%lld 키";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld /24 한정";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld 대사 · %lld 등장인물";
+
+/* %lld matches */
+"%lld matches" = "%lld 경기";
+
+/* %lld minute */
+"%lld minute" = "%lld 분";
+
+/* %lld minutes */
+"%lld minutes" = "%lld 분";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld 추가 라인 · 전체 출력을 위해 Copy Result를 사용하세요";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld 이름 이름 없음 · %lld 이름 없음";
+
+/* %lld names */
+"%lld names" = "%lld 이름";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld 이웃들";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld %lld 네트워크 · 약 %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld %lld 열림";
+
+/* %lld open */
+"%lld open" = "%lld 열려";
+
+/* %lld received */
+"%lld received" = "%lld 수신";
+
+/* %lld records */
+"%lld records" = "%lld 레코드";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld 기록 · 부분";
+
+/* %lld redirects */
+"%lld redirects" = "%lld 리디렉션(redirect)";
+
+/* %lld responses */
+"%lld responses" = "%lld 응답";
+
+/* %lld routes */
+"%lld routes" = "%lld 노선";
+
+/* %lld rows */
+"%lld rows" = "%lld 행";
+
+/* %lld second */
+"%lld second" = "%lld 초";
+
+/* %lld seconds */
+"%lld seconds" = "%lld seconds";
+
+/* %lld service types */
+"%lld service types" = "%lld 서비스 유형";
+
+/* %lld services */
+"%lld services" = "%lld 서비스";
+
+/* %lld tools */
+"%lld tools" = "%lld 도구";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", 다음과 같이:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (알겠습니다)";
+
+/* 1 match */
+"1 match" = "1경기";
+
+/* 1 response */
+"1 response" = "1 응답";
+
+/* 1 service */
+"1 service" = "1 복무";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2분 전";
+
+/* ; fully validated */
+"; fully validated" = "; 완전히 검증되었습니다";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; 서명 없는 답변";
+
+/* ; validation failed */
+"; validation failed" = "; 검증 실패";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "CIDR 범위는 접두사 앞에 완전한 주소가 필요합니다. 예: 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "스윕은 최대 16개의 수동 추가 범위까지 포함할 수 있습니다.";
+
+/* ARP Table */
+"ARP Table" = "ARP 표";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "ASN 및 BGP 조회";
+
+/* Actions */
+"Actions" = "작전";
+
+/* Active */
+"Active" = "활성";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "macOS와 로컬 검색 도구에서 보고된 활성 항목.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "macOS에서 활성 항목이 보고되었습니다.";
+
+/* Add */
+"Add" = "추가";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "스캔에 %@를 더합니다";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "범위를 추가하세요, 예를 들어 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "수동으로 추가됨";
+
+/* Added range */
+"Added range" = "추가 사거리";
+
+/* Address */
+"Address" = "주소";
+
+/* Address details */
+"Address details" = "주소 세부사항";
+
+/* Address details for %@ */
+"Address details for %@" = "%@ 주소 세부 정보";
+
+/* Addresses */
+"Addresses" = "주소";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "이 맥이 최근에 패킷을 교환한 주소들입니다.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "접근성, 공통 항구, 경로 추가. 잠깐 걸릴 수 있어요.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "존 전송 시도, DNSSEC 신호, 더 많은 호스트명 및 인증서 이름을 추가합니다.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "광고된 봉주르 서비스";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "발견 기간에 광고가 나왔습니다.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "IPv4 주소는 0부터 255까지 네 개의 숫자가 필요합니다";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "IPv4 프리픽스는 /0부터 /32까지 진행됩니다";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "IPv6 프리픽스는 /0부터 /128까지 이어집니다";
+
+/* Answer %lld */
+"Answer %lld" = "답변 %lld";
+
+/* Answers */
+"Answers" = "답변";
+
+/* Answers by resolver */
+"Answers by resolver" = "해결자의 답변";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "답변은 %@로 나왔습니다.";
+
+/* Assigned address */
+"Assigned address" = "할당된 주소";
+
+/* Authenticated */
+"Authenticated" = "인증됨";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "매년 자동 갱신 · 언제든지 취소 가능";
+
+/* Average */
+"Average" = "평균입니다";
+
+/* Bits */
+"Bits" = "비트";
+
+/* Bonjour Services */
+"Bonjour Services" = "봉주르 서비스";
+
+/* Bonjour services */
+"Bonjour services" = "봉주르 서비스";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "로컬 네트워크에서 방송되는 Bonjour 서비스 유형을 5초 정도 둘러보세요";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "광고된 Bonjour 서비스 유형을 둘러보면...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "DNS, 라우팅, 소유권, 네트워크 보고서를 통합해 작성하세요";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "현재 네트워크 연결에 대한 통합 보고서를 작성하세요";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "현재 연결에 대한 보고서를 작성 중...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "DNS 구축, 라우팅 및 소유권 보고서...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "CIDR 계산기";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "CIDR 범위 · %@ 주소";
+
+/* Calculated result */
+"Calculated result" = "계산된 결과";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "네트워크 경계와 주소 수를 계산하는 중...";
+
+/* Cancel */
+"Cancel" = "취소";
+
+/* Certificate */
+"Certificate" = "증명서";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "인증서 투명성";
+
+/* Certificate expires */
+"Certificate expires" = "증명서 만료";
+
+/* Certificate names */
+"Certificate names" = "인증서 이름";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "DNS, 웹 및 SSH 포트, HTTPS 헤더, 인증서 체인, TLS 버전, OCSP, MX STARTTLS를 확인하세요";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "검증 리졸버가 DNS 답변을 인증하는지 확인하세요";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "검증 리졸버가 TLSA 답변을 인증하는지 확인하세요";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "서명된 구역이 NSEC 기록을 노출하는지 확인하세요";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "한 TCP 포트가 연결을 허용하는지 확인하세요";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "도메인이 포함되어 있거나 HSTS 사전 부하 대상인지 확인하세요";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "DNS, TLS, 웹, 메일 서비스 확인 중...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "HSTS 사전 적재 목록 상태 확인 중...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "NSEC 기록 확인 중...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "가장 흔한 25개의 TCP 포트를 확인 중...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "협상된 HTTP 버전과 응답을 확인 중...";
+
+/* Checks */
+"Checks" = "체크";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "apex 레코드, 메일 정책, 서비스, 공통 호스트, DKIM 선택기를 확인합니다.";
+
+/* Choose a tool */
+"Choose a tool" = "도구를 선택하세요";
+
+/* Cipher */
+"Cipher" = "암호";
+
+/* Ciphersuite */
+"Ciphersuite" = "사이퍼스위트";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "최근 데이터 명확";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "최근 데이터 명확...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "최근 넷미 데이터를 정리했나요?";
+
+/* Clear search */
+"Clear search" = "명확한 수색";
+
+/* Clear target */
+"Clear target" = "목표 명확";
+
+/* Clock offset */
+"Clock offset" = "클럭 오프셋";
+
+/* Close */
+"Close" = "닫습니다";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "와이파이와 인근 액세스 포인트 정보를 수집하는 중...";
+
+/* Common Port Scan */
+"Common Port Scan" = "공통 포트 스캔";
+
+/* Common TCP services */
+"Common TCP services" = "일반적인 TCP 서비스";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Cloudflare, Google, Quad9, OpenDNS의 IPv4 답변을 비교해 보세요";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "공개 해결자의 IPv4 답변을 비교해보면...";
+
+/* Complete */
+"Complete" = "완전";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "%@ 완전 DNS 존";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "완전성: 완전함";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "완전성: 부분적 발견";
+
+/* Configuration */
+"Configuration" = "구성";
+
+/* Connection */
+"Connection" = "연결";
+
+/* Connection quality */
+"Connection quality" = "연결 품질";
+
+/* Connection succeeded */
+"Connection succeeded" = "연결은 성공했다";
+
+/* Connection timing */
+"Connection timing" = "연결 타이밍";
+
+/* Consistent */
+"Consistent" = "일관성";
+
+/* Content */
+"Content" = "내용";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "대상이 반환한 내용, 검사하거나 복사할 준비가 된 것.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "유니코드와 ASCII 형식 간 국제화된 도메인 변환";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "유니코드와 ASCII 간 도메인 변환...";
+
+/* Copied %@ */
+"Copied %@" = "복사 %@";
+
+/* Copy Address */
+"Copy Address" = "복사 주소";
+
+/* Copy Command */
+"Copy Command" = "명령어 복사";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "MAC 주소 복사";
+
+/* Copy Name */
+"Copy Name" = "복사명(copyname name)";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "원본 출력 복사하기";
+
+/* Copy Result */
+"Copy Result" = "결과 복사";
+
+/* Copy Summary */
+"Copy Summary" = "요약 사본";
+
+/* Copy Target */
+"Copy Target" = "목표 복사";
+
+/* Copy error */
+"Copy error" = "복사 오류입니다";
+
+/* Country */
+"Country" = "국가";
+
+/* Coverage */
+"Coverage" = "방송 범위";
+
+/* DANE Validation */
+"DANE Validation" = "DANE 검증";
+
+/* DHCP Lease */
+"DHCP Lease" = "DHCP 임대";
+
+/* DHCP lease */
+"DHCP lease" = "DHCP 임대";
+
+/* DHCP server */
+"DHCP server" = "DHCP 서버";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "DNS 구성";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC 워크 체크";
+
+/* DNS Propagation */
+"DNS Propagation" = "DNS 전파";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNS 트레이스";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "DNS 존 탐색";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "DNS 존 전송";
+
+/* DNS answers */
+"DNS answers" = "DNS 답변";
+
+/* DNS configuration */
+"DNS configuration" = "DNS 구성";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS over HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS over TLS 엔드포인트";
+
+/* DNS records */
+"DNS records" = "DNS 기록";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "%@에 대한 DNS 기록 발견";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS 기록, 위치 및 ASN입니다. 보통 몇 초 정도 걸립니다.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "사용 중인 DNS 리졸버";
+
+/* DNS response */
+"DNS response" = "DNS 응답";
+
+/* DNS server */
+"DNS server" = "DNS 서버";
+
+/* DNS service name */
+"DNS service name" = "DNS 서비스 이름";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC 체인 트레이스";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "DNSSEC 검사";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "DNSSEC 검증";
+
+/* Deep */
+"Deep" = "깊은 곳";
+
+/* Deep discovery */
+"Deep discovery" = "심층 발견";
+
+/* Default */
+"Default" = "기본 설정";
+
+/* Default route */
+"Default route" = "기본 경로";
+
+/* Default ·  */
+"Default · " = "기본 ·";
+
+/* Depth */
+"Depth" = "깊이";
+
+/* Destination */
+"Destination" = "목적지";
+
+/* Destination not reached */
+"Destination not reached" = "목적지에 도달하지 않음";
+
+/* Details */
+"Details" = "세부 사항";
+
+/* Detect again */
+"Detect again" = "다시 탐지해";
+
+/* Devices */
+"Devices" = "장치";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "장치 (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "이 맥스 시계와 %@ 사이의 차이점.";
+
+/* Directives */
+"Directives" = "지침";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "공용 DNS 레코드, 표준 서비스, 메일 정책, DKIM 선택기, 노출된 존 데이터를 발견하세요";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "라우터, 저장 장치, TV 및 기타 UPnP 서비스를 발견하세요";
+
+/* Discovered network resources */
+"Discovered network resources" = "발견된 네트워크 자원";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "UPnP 기기와 서비스를 발견하기...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "로컬 기기와 광고된 서비스를 발견하는 것...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "공개 DNS 기록과 존 데이터를 발견하는 중...";
+
+/* Discovery output */
+"Discovery output" = "발견 출력";
+
+/* Discovery results */
+"Discovery results" = "발견 결과";
+
+/* DoT hostname */
+"DoT hostname" = "DoT 호스트네임";
+
+/* Domain */
+"Domain" = "도메인";
+
+/* Domain name */
+"Domain name" = "도메인 이름";
+
+/* Domain or hostname */
+"Domain or hostname" = "도메인 또는 호스트네임";
+
+/* Download */
+"Download" = "다운로드";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "경로상의 각 라우터; 목적지에서 왕복 시간이 측정됩니다.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "도구의 선택적 동작을 가능하게 합니다";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "예를 들어 172.16.4.0/22와 같은 범위가 등장합니다.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "예를 들어, /0부터 /30까지의 접두사가 붙은 IPv4 범위, 예를 들어 192.168.1.0/24를 입력하세요.";
+
+/* Entries */
+"Entries" = "출전";
+
+/* Ethernet */
+"Ethernet" = "이더넷";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "요청된 범위 내의 모든 주소, 한 줄당 한 명씩.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "macOS가 보고하는 모든 인터페이스는 주소와 링크 상태를 포함합니다.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "모든 공용 리졸버는 동일한 IPv4 응답을 반환했습니다.";
+
+/* Exit status */
+"Exit status" = "퇴장 현황";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "관리 가능한 CIDR 블록을 개별 주소로 확장하세요";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "CIDR 범위를 개별 주소로 확장하는 것...";
+
+/* Expires */
+"Expires" = "만료";
+
+/* Failed */
+"Failed" = "실패";
+
+/* Fast local discovery */
+"Fast local discovery" = "빠른 국지 발견";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "사이트의 크롤러 접근 규칙을 가져오세요";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "사이트에 공개된 보안 연락처 정책을 찾아보세요";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "HTTP 헤더 가져오기와 리디렉션 추적...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "IP 위치와 네트워크 정보를 가져오는 중...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "RDAP을 통해 IP 등록 기록을 가져오는 중...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "SSH 호스트 키를 가져오고 지문 계산을 하기...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "브라우저 보안 헤더를 가져오는 중...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "RDAP을 통한 도메인 등록 기록 가져오기...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "경로-출발점 검증 상태 가져오기 중...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "HTTPS 인증서와 신원 정보를 가져오는 중...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "인증서 체인과 스테이플러로 고정된 OCSP 응답을 가져오는 중...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "사이트의 크롤러 접근 규칙을 가져오는 중...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "사이트 보안 연락처 정책을 가져오는 중...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "공인 IP 주소를 가져오는 중...";
+
+/* Fields */
+"Fields" = "필드";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "필터 %lld 도구";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "IP, 이름, 인터페이스로 필터링하기";
+
+/* Final status */
+"Final status" = "최종 상태";
+
+/* Find Tool… */
+"Find Tool…" = "툴 찾기...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "넷미 도구 찾기";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "관련 서브도메인을 드러낼 수 있는 인증서 이름을 찾으세요";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "광고된 인증된 SMTP 서비스를 찾기";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "광고된 이메일 구성 서비스를 찾아보세요";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "광고된 보안 IMAP 서비스를 찾아보세요";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "IP 주소와 연관된 호스트 이름을 찾아보세요";
+
+/* Fingerprint */
+"Fingerprint" = "지문";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "서버가 제시한 지문을 확인한 호스트의 항목과 비교하는 것.";
+
+/* First */
+"First" = "첫째";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "루트에서 답변까지 DNS 위임을 따라가세요";
+
+/* Formatted */
+"Formatted" = "포맷";
+
+/* Formatted address */
+"Formatted address" = "서식 주소";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "MAC 주소 포맷 중...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Free · %lld of %lld requests left today";
+
+/* From */
+"From" = "출처";
+
+/* Full */
+"Full" = "완전";
+
+/* Gateway */
+"Gateway" = "게이트웨이";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "게이트웨이 %@ · 기본 경로";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "게이트웨이 및 노선";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "게이트웨이 및 라우팅 테이블";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "HSTS 사전 적재 상태";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP 헤더";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP 프로토콜";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTP 보안 헤더";
+
+/* HTTP response */
+"HTTP response" = "HTTP 응답";
+
+/* HTTP status */
+"HTTP status" = "HTTP 상태";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "악수 응답";
+
+/* Hide */
+"Hide" = "숨어";
+
+/* Hop */
+"Hop" = "홉";
+
+/* Hops */
+"Hops" = "홉";
+
+/* Host */
+"Host" = "진행자";
+
+/* Host and port */
+"Host and port" = "호스트 및 포트";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "예를 들어 호스트와 포트 example.com:443";
+
+/* Host keys */
+"Host keys" = "호스트 키";
+
+/* Hostname */
+"Hostname" = "호스트네임";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "이 도메인의 공개 인증서에 등장한 호스트네임들.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "응답하거나 이웃 캐시에 이름, 지연 시간, 광고된 서비스와 함께 응답한 호스트들.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "호스트, 광고된 서비스, 그리고 이 실행 중에 발견된 접근 가능한 엔드포인트들.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "IANA WHOIS 서버";
+
+/* IP Information */
+"IP Information" = "IP 정보";
+
+/* IP Range Expander */
+"IP Range Expander" = "IP 범위 확장기";
+
+/* IP address */
+"IP address" = "IP 주소";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP 주소 또는 ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP 주소 또는 도메인";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP 주소 또는 호스트명";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP 주소 또는 접두사";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, 라우팅 및 등록";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "IPv4 CIDR 범위, 최대 4096 주소";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4 주소";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "CIDR을 사용하는 IPv4 주소";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4 이웃";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6 이웃";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6 주소";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "DNSSEC 기록과 검증 서명을 검사하세요";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "SMTP 배너를 점검하고 STARTTLS를 협상하세요";
+
+/* Interface */
+"Interface" = "인터페이스";
+
+/* Interface Inventory */
+"Interface Inventory" = "인터페이스 인벤토리";
+
+/* Interfaces */
+"Interfaces" = "인터페이스";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "네트워크에 가입하거나 아래에 범위를 추가하세요. 스윕을 실행하면 도우미에게 다시 한 번 확인하라고 요청합니다.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "레지스트리 응답의 핵심 필드.";
+
+/* Keys */
+"Keys" = "키";
+
+/* Last */
+"Last" = "마지막입니다";
+
+/* Latency */
+"Latency" = "지연 시간";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "지연 시간, 도달 가능성, 경로 측정.";
+
+/* Lease details */
+"Lease details" = "임대 세부사항";
+
+/* Lease time */
+"Lease time" = "임대 기간";
+
+/* Limited */
+"Limited" = "제한";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "속도를 위해 로컬 /24 도로 제한";
+
+/* Lines */
+"Lines" = "노선";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "이 Mac과 macOS가 현재 볼 수 있는 액세스 포인트에 대한 링크 세부 정보를 제공합니다.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "앱 스토어 제품 로딩 중...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "로컬 장치 스윕";
+
+/* Local Network */
+"Local Network" = "로컬 네트워크";
+
+/* Location */
+"Location" = "위치";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "인증서 로그에서 도메인 이름을 찾아보면...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "우편 배달 서버를 찾아보면...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "등록 및 소유 기록을 찾아보면...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "SMTP 제출 서비스를 찾아보면...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "이메일 설정 서비스를 찾아보니...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "이 IP 주소의 호스트네임을 찾아보려면...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "출처 ASN과 라우팅 접두사를 찾아보니...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "보안 IMAP 서비스를 찾아보면...";
+
+/* MAC Formatter */
+"MAC Formatter" = "MAC 포머터";
+
+/* MAC address */
+"MAC address" = "MAC 주소";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC과 벤더 숨겨진 기능";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC과 벤더 숨겨진 — 이번 플레이에서는 비어 있습니다";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC과 제조사 표시";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "음 d HH:음:ss 이이야 지즈";
+
+/* Mail */
+"Mail" = "우편";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "메일 오토디스커버 SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "메일 BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "우편 DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "메일 DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "메일 IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "우편 MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "메일 MX";
+
+/* Mail SPF */
+"Mail SPF" = "메일 SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "우편 제출 SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "메일 TLS 보고서";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "메일 TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "메일 도메인";
+
+/* Mail domain or server */
+"Mail domain or server" = "메일 도메인 또는 서버";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "예를 들어 메일 서버와 포트 mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "구독 관리";
+
+/* Maximum */
+"Maximum" = "최대";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "현재 다운로드, 업로드, 응답성, 연결 세부사항을 측정하세요";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "도달 가능성 및 왕복 지연 시간 측정";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "현재 연결의 용량과 반응성을 측정했습니다.";
+
+/* Measurement */
+"Measurement" = "측정";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "다운로드, 업로드, 반응성 측정...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "도달 가능성과 왕복 지연 측정...";
+
+/* Minimum */
+"Minimum" = "최소";
+
+/* Mode */
+"Mode" = "모드";
+
+/* More copy options */
+"More copy options" = "더 많은 카피 옵션";
+
+/* My Network Report */
+"My Network Report" = "나의 네트워크 보고서";
+
+/* My Public IP */
+"My Public IP" = "나의 공개 IP";
+
+/* NTP Offset */
+"NTP Offset" = "NTP 오프셋";
+
+/* NTP server */
+"NTP server" = "NTP 서버";
+
+/* Name */
+"Name" = "이름";
+
+/* Names */
+"Names" = "이름";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "인증서 로그의 이름";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "암묵적 TLS 서비스와 TLS를 협상하고 선택한 프로토콜과 암호를 표시하세요";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "협상된 프로토콜, 암호, 인증서 신원 및 검증 상태.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "SMTP 스타터를 협상 중...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "지정된 서비스 포트에서 TLS를 협상 중...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "HTTPS TLS 연결을 협상 중...";
+
+/* Neighbor */
+"Neighbor" = "이웃";
+
+/* Neighbor cache */
+"Neighbor cache" = "이웃 캐시";
+
+/* Neighbors */
+"Neighbors" = "이웃";
+
+/* Netmin Pro */
+"Netmin Pro" = "넷민 프로";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "넷민 프로 라이프타임 · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "넷민 프로 연례";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "넷민 프로...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin은 당신이 검사할 로컬 네트워크에서 장치와 서비스를 발견합니다.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin은 %lld초 후 이 명령을 중지했습니다.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin은 이 명령이 출력량 %@를 생성한 후 이를 중단했습니다.";
+
+/* Network */
+"Network" = "네트워크";
+
+/* Network Lookup */
+"Network Lookup" = "네트워크 조회";
+
+/* Network Quality */
+"Network Quality" = "네트워크 품질";
+
+/* Network entries */
+"Network entries" = "네트워크 출전";
+
+/* Network interfaces */
+"Network interfaces" = "네트워크 인터페이스";
+
+/* Networks */
+"Networks" = "네트워크";
+
+/* Networks scanned */
+"Networks scanned" = "스캔된 네트워크";
+
+/* Networks to scan */
+"Networks to scan" = "스캔할 네트워크";
+
+/* New Lookup */
+"New Lookup" = "새로운 룩업";
+
+/* New Report */
+"New Report" = "새 보고서";
+
+/* New Sweep */
+"New Sweep" = "뉴 스윕";
+
+/* No */
+"No" = "아니";
+
+/* No DNS records found */
+"No DNS records found" = "DNS 기록은 발견되지 않았습니다";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "이 Apple 계정에서는 Netmin Pro 구매가 발견되지 않았습니다.";
+
+/* No common ports are open */
+"No common ports are open" = "공통 포트는 열려 있지 않습니다";
+
+/* No common services */
+"No common services" = "공용 서비스는 없습니다";
+
+/* No data returned */
+"No data returned" = "데이터가 반환되지 않았습니다";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "\"%@\"에 맞는 장치는 없습니다";
+
+/* No devices responded */
+"No devices responded" = "어떤 기기도 응답하지 않았습니다";
+
+/* No diagnostic output */
+"No diagnostic output" = "진단 출력 없음";
+
+/* No input required */
+"No input required" = "입력은 필요 없어";
+
+/* No matching tools */
+"No matching tools" = "맞는 도구가 없어";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "사설 IPv4 네트워크가 감지되지 않음 · 스캔할 범위 추가.";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "사설 IPv4 네트워크는 감지되지 않았습니다";
+
+/* No result returned */
+"No result returned" = "결과는 반환되지 않았습니다";
+
+/* No target */
+"No target" = "목표 없음";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "어떤 도구도 \"%@\"와 일치하지 않습니다";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "MAC 주소를 대문자 콜론 분리 형태로 정규화합니다";
+
+/* Not reached */
+"Not reached" = "접속 불가";
+
+/* Not selected */
+"Not selected" = "선발되지 않았다";
+
+/* Notafter */
+"Notafter" = "그 후에는요";
+
+/* Notes */
+"Notes" = "주석";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "스캔된 네트워크에서 이웃 캐시에 핑에 응답하거나 나타나는 것이 전혀 없었습니다. 이 Mac이 예상 네트워크에 연결되어 있는지 확인하거나 수동으로 범위를 추가하세요.";
+
+/* Nothing detected */
+"Nothing detected" = "아무것도 감지되지 않았습니다";
+
+/* Off */
+"Off" = "꺼";
+
+/* Offset */
+"Offset" = "오프셋";
+
+/* On */
+"On" = "계속";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "IANA 추천만 반환되었습니다. 재시도 %@ 또는 RDAP을 사용하여 등록기관, 네임서버, 등록일을 조회하세요.";
+
+/* Open */
+"Open" = "오픈";
+
+/* Open ports */
+"Open ports" = "오픈 포트";
+
+/* Open ports: */
+"Open ports:" = "개방 포트:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "선택적 IPv4 CIDR; 모든 활성 LAN을 빈 상태로 스캔합니다";
+
+/* Options */
+"Options" = "옵션";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "오리진 AS와 라우팅 프리픽스";
+
+/* Other */
+"Other" = "기타";
+
+/* Output */
+"Output" = "출력";
+
+/* Overview */
+"Overview" = "개요";
+
+/* Packet loss */
+"Packet loss" = "패킷 손실";
+
+/* Partial */
+"Partial" = "부분";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "지휘부에 %@를 전달합니다.";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "결제는 Apple 계정으로 이송됩니다. 연간 구독은 현재 기간 종료 하루 전쯤 App Store 설정에서 해지하지 않는 한 자동으로 갱신됩니다.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "사이드바에서 도구를 선택하거나 ⌘K 버튼을 누르면 모두 검색할 수 있습니다.";
+
+/* Ping */
+"Ping" = "핑";
+
+/* Port */
+"Port" = "포트";
+
+/* Port %@ is open */
+"Port %@ is open" = "항구 %@가 열려 있습니다";
+
+/* Ports */
+"Ports" = "이식";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "연결을 허용하는 포트들.";
+
+/* Primary mail server */
+"Primary mail server" = "주요 메일 서버";
+
+/* Primary nameserver */
+"Primary nameserver" = "기본 네임서버";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "기본 인터페이스";
+
+/* Privacy */
+"Privacy" = "프라이버시";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "개인정보처리방침...";
+
+/* Pro */
+"Pro" = "장점";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "현재 프로 구매는 불가능합니다. 나중에 다시 시도해 주세요.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "프로 트라이얼 · %lld 남은 일";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "프로 트라이얼 · 1일 남음";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "프로 트라이얼 · 종료 %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "프로 트라이얼 · 첫 번째 결제 %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "프로 트라이얼 · %@까지";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro는 원시 진단 출력을 표, 지표, 그리고 연구 결과로 변환합니다. 30일 체험 후에는 무료 제공 시 하루 최대 5회의 원시 출력을 제공합니다.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "장점 · 종료 %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "프로 · 수명";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "찬성 · 갱신 %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "장점 · 가족과 공유했다";
+
+/* Pro · until %@ */
+"Pro · until %@" = "찬성 · %@까지";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "macOS에 포함된 네트워킹 도구를 포함한 25개의 일반적인 TCP 포트 프로베";
+
+/* Probed */
+"Probed" = "탐지됨";
+
+/* Proto */
+"Proto" = "프로토";
+
+/* Protocol */
+"Protocol" = "프로토콜";
+
+/* Protocol Version */
+"Protocol Version" = "프로토콜 버전";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "공개 DNS 탐색은 부분적입니다";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "공개 DNS 탐색 결과 유용한 기록이 발견되었지만, 사용자 지정 이름은 여전히 숨겨져 있을 수 있습니다.";
+
+/* Public IP */
+"Public IP" = "공용 IP";
+
+/* Public IPv4 */
+"Public IPv4" = "공용 IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "공용 IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "공공 방송 및 네트워크 소유권 세부 정보.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "공공 해결자들은 서로 다른 답변을 내놓았으며; 변화가 아직 전파되고 있을 수도 있습니다.";
+
+/* Punycode Converter */
+"Punycode Converter" = "퓨니코드 변환기";
+
+/* Purchase */
+"Purchase" = "구매";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "현재 구매는 불가능합니다.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "DNS over-HTTPS 엔드포인트를 통해 A 레코드를 조회";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Windows 또는 SMB 장치가 광고하는 NetBIOS 이름과 작업 그룹을 조회하세요";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "서버 시계를 조회하고 측정된 로컬 오프셋을 표시하세요";
+
+/* Querying %@… */
+"Querying %@…" = "문의 %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "DNS 지리 위치 기록 조회...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "DNS 텍스트 레코드 조회 중...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "DNSSEC 공개키 조회 중...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "DNSSEC 기록과 서명 조회...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "HTTPS 엔드포인트와 연결 힌트를 쿼리하는 중...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "IPv4 주소 (A) 레코드 조회...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "HTTPS를 통한 IPv4 레코드 조회";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "IPv6 주소(AAAA) 기록 조회...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "MTA-STS 정책 검색 기록 조회 중...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "TLS 인증서 연관 기록 조회 중...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "TLS 납품 보고 기록 조회 중...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "권위 있는 네임 서버 기록 조회...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "브랜드 지표 기록 조회 중...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "인증 기관 승인 기록 조회 중...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "대표단 서명자 기록 조회 중...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "호스트네임 별칭(CNAME) 레코드를 쿼리하는 중...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "서비스 바인딩과 연결 매개변수를 쿼리하는 중...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "서비스 검색 규칙을 조회하는 중...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "서비스 호스트, 포트, 우선순위 조회 중...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "DKIM 선택기의 공개키를 조회하는 중...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Windows 또는 SMB 장치 이름을 조회하려면...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "이메일 인증 정책을 조회 중...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "발신자 권한 정책을 조회합니다...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "타임 서버에 쿼리하고 시계 오프셋을 측정하는 중...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "구역 권한과 타이밍 기록 조회 중...";
+
+/* Quick */
+"Quick" = "빨리요";
+
+/* Quick lookup */
+"Quick lookup" = "간단히 찾아보세요";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "로컬 기기, 프린터, 광고된 서비스를 빠르게 찾아보세요";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP 도메인";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "RPKI 검증";
+
+/* Ran %@ */
+"Ran %@" = "란 %@";
+
+/* Raw Output */
+"Raw Output" = "원시 출력";
+
+/* Raw output */
+"Raw output" = "원시 출력";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "접근 가능성과 왕복 시간, %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "접근 가능한 포트, 서비스, 호스트키 세부사항.";
+
+/* Reached */
+"Reached" = "도착";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "캐시된 IPv4 이웃 노드를 읽는 중...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "캐시된 IPv6 이웃을 읽는 중...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "macOS DNS 리졸버와 검색 도메인을 읽으면서...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "네트워크 인터페이스 주소와 상태 읽기...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "활성 인터페이스의 DHCP 임대 상태를 읽고 있습니다...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "기본 게이트웨이와 라우팅 테이블을 읽으면...";
+
+/* Recent */
+"Recent" = "최근";
+
+/* Record */
+"Record" = "기록";
+
+/* Records */
+"Records" = "기록";
+
+/* Registrar */
+"Registrar" = "등록관";
+
+/* Registration and routing data */
+"Registration and routing data" = "등록 및 경로 정보";
+
+/* Registry record */
+"Registry record" = "등록 기록";
+
+/* Registry response */
+"Registry response" = "등록부 응답";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "등록부 응답이 불완전합니다";
+
+/* Related */
+"Related" = "관련";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "다음 결과로 기억 · ⌘1 개요, ⌘2 원본 출력";
+
+/* Remove this range */
+"Remove this range" = "이 범위를 제거하세요";
+
+/* Replies */
+"Replies" = "답변";
+
+/* Report for %@ */
+"Report for %@" = "%@ 보고";
+
+/* Report overview */
+"Report overview" = "보고서 개요";
+
+/* Reports */
+"Reports" = "보고서";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "권한 있는 서버에 완전한 DNS 존 전송을 요청하세요";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "완전한 DNS 존 전송 요청합니다...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "TLS 1.2를 요구하고 협상 성공 여부를 보여줘";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "TLS 1.3을 요구하고 협상 성공 여부를 보여줘";
+
+/* Resolved */
+"Resolved" = "해결됨";
+
+/* Resolved address */
+"Resolved address" = "해결된 주소";
+
+/* Resolver */
+"Resolver" = "리졸버";
+
+/* Resolver %@ */
+"Resolver %@" = "리졸버 %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "리졸버 출력을 그룹화하여 빠른 검토를 위해 정리합니다.";
+
+/* Resolver response */
+"Resolver response" = "리졸버 응답";
+
+/* Resolvers */
+"Resolvers" = "리졸버";
+
+/* Resolvers agree */
+"Resolvers agree" = "결의자들도 동의한다";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "리졸버와 검색 도메인은 macOS가 현재 사용 중이며, 우선순위 순서대로 사용합니다.";
+
+/* Resolvers differ */
+"Resolvers differ" = "리졸버는 다릅니다";
+
+/* Resources */
+"Resources" = "자료";
+
+/* Response */
+"Response" = "반응";
+
+/* Response %lld */
+"Response %lld" = "응답 %lld";
+
+/* Responses */
+"Responses" = "반응";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "멀티캐스트 검색에 대한 답변, 발표마다 한 장씩.";
+
+/* Responsiveness */
+"Responsiveness" = "반응성";
+
+/* Restore Purchases */
+"Restore Purchases" = "구매 복원";
+
+/* Result */
+"Result" = "결과";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "결과는 완료된 네트워크 검사별로 그룹화됩니다.";
+
+/* Retry registry */
+"Retry registry" = "재시도 등록부";
+
+/* Reverse DNS */
+"Reverse DNS" = "역DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "왕복";
+
+/* Route to target */
+"Route to target" = "목표 경로";
+
+/* Router */
+"Router" = "라우터";
+
+/* Routes */
+"Routes" = "노선";
+
+/* Routing record */
+"Routing record" = "라우팅 기록";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "%@의 라우팅 레지스트리 데이터.";
+
+/* Routing table */
+"Routing table" = "라우팅 테이블";
+
+/* Run */
+"Run" = "도망쳐";
+
+/* Run Again */
+"Run Again" = "다시 달려라";
+
+/* Run Lookup */
+"Run Lookup" = "루크업 실행";
+
+/* Run Report */
+"Run Report" = "런 리포트";
+
+/* Run Sweep */
+"Run Sweep" = "런 스윕";
+
+/* Run Tool */
+"Run Tool" = "실행 도구";
+
+/* Run again */
+"Run again" = "다시 달려";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "%@ 도구를 실행하세요";
+
+/* Running */
+"Running" = "달리기";
+
+/* Running %@… */
+"Running %@…" = "달리기 %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "달리기 · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "SSDP/UPnP 디스커버리";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "SSH 호스트 키";
+
+/* SSH host keys */
+"SSH host keys" = "SSH 호스트 키";
+
+/* Save Report… */
+"Save Report…" = "저장 보고서...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "보고서를 저장하고 구조화된 요약을 복사하세요";
+
+/* Scan */
+"Scan" = "스캔";
+
+/* Scripts */
+"Scripts" = "대본";
+
+/* Search domain */
+"Search domain" = "검색 도메인";
+
+/* Sections */
+"Sections" = "섹션";
+
+/* Security details */
+"Security details" = "보안 세부사항";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "선정된";
+
+/* Sequence */
+"Sequence" = "순서";
+
+/* Server */
+"Server" = "서버";
+
+/* Service */
+"Service" = "운용";
+
+/* Service reachability */
+"Service reachability" = "서비스 접근 가능성";
+
+/* Service type */
+"Service type" = "서비스 유형";
+
+/* Service types */
+"Service types" = "서비스 유형";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "검색 창 동안 로컬 네트워크에서 서비스 유형이 발표됩니다.";
+
+/* Services */
+"Services" = "서비스";
+
+/* Show */
+"Show" = "쇼";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "TLS 서비스에 대한 DANE 인증서 연관성 표시";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "HTTPS 서비스 엔드포인트 및 연결 힌트 표시";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "호스트명에 공개된 IPv4 주소 표시";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "이 Mac이 최근에 연락한 IPv4 이웃 보여줘";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "호스트명에 대해 공개된 IPv6 주소 표시";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "macOS에서 보이는 Wi-Fi 링크 정보와 인근 액세스 포인트 표시";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "모든 네트워크 인터페이스에 대해 주소, MTU, 상태 및 카운터를 표시하세요";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "캐시된 IPv6 이웃과 그 링크 계층 주소 표시";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "인증서 신원, 발급자, 유효성, SHA-256 지문 표시";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "목적지로 가는 경로에 있는 각 라우터를 표시하세요";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "구역별로 발행된 지리 위치 기록 표시";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "방송 위치, 네트워크, ASN, 소유권 세부 정보";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "협상된 TLS 버전, 암호, 키 교환 및 검증 표시";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "네트워크 경계, 넷마스크, 브로드캐스트 주소, 크기 표시";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "게시된 텍스트 기록 및 도메인 정책 표시";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "원본 등록 및 소유 기록 표시";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "IP에 대한 레지스트리 할당 및 등록 세부 정보를 보여줍니다";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "도메인의 등록 및 상태 정보를 표시하세요";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "응답 헤더와 모든 리디렉트 홉 표시";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "규칙 기반 서비스 검색 기록 표시";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "서비스 엔드포인트 및 연결 매개변수 표시";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "쇼 서비스 진행자, 포트, 우선순위 및 무게";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "macOS가 실제로 사용하는 DNS 리졸버와 검색 도메인을 보여주세요";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "RIPE가 보고한 RPKI 경로-출발점 검증 상태를 보여줍니다";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "활성 인터페이스의 DHCP 서버, 임대 및 제공된 옵션을 표시하세요";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "도메인의 권한 있는 네임 서버 표시";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "호스트명에 대한 정식 별칭 타겟 표시";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "완전한 서비스 증명서 체인, 검증 결과, 스테이플 부착된 OCSP 응답을 보여줍니다";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "기본 게이트웨이와 전체 IPv4 및 IPv6 경로 표를 보여주세요";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "도메인의 브랜드 표시 정책 표시";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "도메인의 이메일 인증 정책 표시";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "협상된 HTTP 버전, 상태, 서버 주소, TLS 결과를 표시하세요";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "출처 ASN, 라우팅 접두사, 등록부, 할당 세부 정보를 표시하세요";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "부모 구역 대표 서명자 기록 표시";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "보안 우편 배달을 요구하는 정책을 보여주세요";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "사이트가 반환하는 주요 브라우저 보안 헤더 표시";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "인터넷에서 볼 수 있는 공인 IP 주소 표시";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "DKIM 선택기의 공개키를 보여주세요";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "DNS 존 검증에 사용되는 공개키를 보여주세요";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "서버가 광고한 SSH 호스트키 지문을 보여주세요";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "도메인 메일을 받는 서버 표시";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "TLS 배송 보고서가 어디로 전송되는지 표시하세요";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "어떤 인증 기관이 인증서를 발급할 수 있는지 보여주세요";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "어떤 서버가 메일 발송 권한이 있는지 표시하세요";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "존 권한, 시리얼, 타이밍 정보를 표시하세요";
+
+/* Site Report */
+"Site Report" = "현장 보고서";
+
+/* Site report for example.org */
+"Site report for example.org" = "현장 보고서 example.org";
+
+/* State */
+"State" = "국가";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "상태:/네트워크/글로벌/IPv4";
+
+/* Statistics */
+"Statistics" = "통계";
+
+/* Status */
+"Status" = "현황";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "상태, 프로토콜, 리디렉션, 반환 헤더.";
+
+/* Stop */
+"Stop" = "멈춰";
+
+/* Stop Sweep */
+"Stop Sweep" = "스톱 스윕";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "%@에 대한 구조화된 등록부 응답.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "구조화된 보고서는 Netmin Pro의 기능입니다";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "표, 지표, 발견 사항이 포함된 구조화된 보고서";
+
+/* Structured resolver response. */
+"Structured resolver response." = "구조화된 해결자 반응.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "웹 서비스의 구조화된 응답.";
+
+/* System network configuration */
+"System network configuration" = "시스템 네트워크 구성";
+
+/* TCP Port Check */
+"TCP Port Check" = "TCP 포트 검사";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "TCP 도달 가능성";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 핸드셰이크";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 핸드셰이크";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS 인증서";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "TLS 인증서 체인";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS 핸드셰이크";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "TLS 서비스 핸드셰이크";
+
+/* TLS connection */
+"TLS connection" = "TLS 연결";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, 웹 및 포트";
+
+/* Target */
+"Target" = "목표";
+
+/* Target (optional) */
+"Target (optional)" = "타겟 (선택 사항)";
+
+/* Target did not reply */
+"Target did not reply" = "타겟은 답장하지 않았다";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "목표물은 공간 자체를 포함할 수 없습니다";
+
+/* Terms */
+"Terms" = "용어";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "시험 SMTP 25, SMTPS 465, 제출 587, IMAPS 993, POP3S 995를 동시에 진행";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "DNS 오버-TLS 서버와 TLS 협상 테스트";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "TLS 1.2 협상 테스트 중...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "TLS 1.3 협상 테스트 중...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "DNS 포트 853에서 TLS 협상 테스트 중...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "SMTP, IMAP 및 POP3 서비스에서 TLS 테스트 중...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "지정된 TCP 포트에 대한 연결을 테스트하는 중...";
+
+/* Text */
+"Text" = "본문";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "가장 흔한 25개의 TCP 포트는 1초 타임아웃으로 탐사되었습니다.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "앱 스토어는 이 구매를 확인하지 못했습니다.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "MAC 주소는 대문자 대문자, 콜론 분리 형태로 표시되어 있습니다.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Netmin 도구 카탈로그에는 유효한 도구가 포함되어 있지 않습니다.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL은 스킴과 호스트가 필요합니다. 예를 들어 https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "활성 인터페이스의 임대 계약과 DHCP 서버가 제공하는 옵션들.";
+
+/* The address is not valid. */
+"The address is not valid." = "주소는 유효하지 않습니다.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "인터넷이 이 연결에 대해 보는 주소입니다.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "앱은 리디렉션을 따라갔지만, 웹사이트는 이 파일을 반복해서 같은 URL로 되돌려 보냈습니다. 파일은 반환되지 않았습니다.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "권한 있는 서버는 완전한 AXFR 존 전송을 허용했습니다.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "권한 있는 서버들은 완전한 존 전송을 제공하지 않았습니다. 이 기록들은 공개 조사를 통해 발견된 것들입니다; 사용자 지정 이름이 여전히 존재할 수 있습니다.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "번들로 포함된 Netmin 도구 카탈로그가 빠져 있습니다.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "명령은 완료되었으나 목표는 일치하는 데이터를 반환하지 않았다.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "명령은 진단 출력이 나오기 전에 실패했습니다.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "기본 경로와 macOS가 알고 있는 모든 IPv4 및 IPv6 경로입니다.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "처음 30일에는 프로 기능이 포함됩니다. 체험 후에는 Free가 84개의 도구와 원시 출력물을 모두 보유하며, 하루에 5개의 진단 요청을 받습니다.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "/ 뒤에 오는 접두사는 반드시 숫자여야 합니다";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "프로세스는 상태 %lld로 종료한 후 세부 정보를 반환했습니다. 필요한 명령어가 설치되었고 목표에 도달 가능한지 확인하세요.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "구매 승인을 기다리고 있습니다.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "레지스트리가 비구조화된 응답을 반환했습니다; 그 유용한 문구는 아래에 나와 있습니다.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "리졸버는 일치하는 답변을 반환하지 않았습니다.";
+
+/* This Mac */
+"This Mac" = "이 맥";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "이 방법은 저장한 대상과 최근 실행 요약을 이 Mac에서 제거합니다. 내보낸 보고서를 삭제하지 않습니다.";
+
+/* Time */
+"Time" = "시간";
+
+/* Timeouts */
+"Timeouts" = "타임아웃";
+
+/* Tools */
+"Tools" = "도구";
+
+/* Tools unavailable */
+"Tools unavailable" = "사용 불가능한 도구";
+
+/* Trace */
+"Trace" = "트레이스";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "DNSSEC 신뢰 체인을 루트에서 추적합니다";
+
+/* Traceroute */
+"Traceroute" = "트레이스루트";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "DNS 위임과 DNSSEC 기록 추적...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "루트부터 DNS 위임을 추적하기...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "목적지까지 네트워크 경로를 추적하는 중...";
+
+/* Try Again */
+"Try Again" = "다시 시도해 보세요";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "대신 RDAP를 시도해 보세요→";
+
+/* Type */
+"Type" = "유형";
+
+/* Types */
+"Types" = "종류";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnP 장치 및 서비스";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "불확실성";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "무제한 네트워크 진단과 읽기 쉬운 보고서, 내보내기 도구.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "84가지 진단 도구 무제한 사용 가능";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "%@ 기능을 잠금 해제하고 완전한 프로 기능 세트를 즐길 수 있습니다.";
+
+/* Unlock Report… */
+"Unlock Report…" = "잠금 해제 보고서...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "구조화된 요약 잠금 해제하기...";
+
+/* Unnamed */
+"Unnamed" = "이름 없는";
+
+/* Unsigned */
+"Unsigned" = "서명 없음";
+
+/* Upload */
+"Upload" = "업로드";
+
+/* Use custom resolver */
+"Use custom resolver" = "커스텀 리졸버 사용";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "host:port, IPv6 주소, 또는 MAC 주소를 사용하세요";
+
+/* Utilities */
+"Utilities" = "유틸리티";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPN 터널";
+
+/* Validated */
+"Validated" = "검증됨";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "TLSA 기록과 DNSSEC 체인 검증...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "DNS 답변과 DNSSEC 체인 검증 중...";
+
+/* Value */
+"Value" = "가치";
+
+/* Values produced by %@. */
+"Values produced by %@." = "%@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "macOS에서 %@에 대해 보고한 값들.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "값은 %@로 반환되었습니다.";
+
+/* Vendor */
+"Vendor" = "판매자";
+
+/* Verification */
+"Verification" = "검증";
+
+/* Verify Return Code */
+"Verify Return Code" = "반환 코드 확인";
+
+/* View */
+"View" = "전망";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Netmin Pro... 보기";
+
+/* Virtual bridge */
+"Virtual bridge" = "가상 브리지";
+
+/* Virtual machine network */
+"Virtual machine network" = "가상 머신 네트워크";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS 서버";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "첫 반응을 기다리며...";
+
+/* Web policy status */
+"Web policy status" = "웹 정책 현황";
+
+/* Wi-Fi */
+"Wi-Fi" = "와이파이";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "와이파이 진단";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "와이파이 현황";
+
+/* Window */
+"Window" = "창문";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "윈도우 이름 탐색";
+
+/* Yes */
+"Yes" = "네";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Netmin Pro를 사용하고 계시죠.";
+
+/* Your public address */
+"Your public address" = "당신의 공공연설";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.호스트네임";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "활성";
+
+/* advanced structured reports */
+"advanced structured reports" = "고급 구조화 보고서";
+
+/* all detected */
+"all detected" = "모두 감지됨";
+
+/* arp table */
+"arp table" = "ARP 테이블";
+
+/* as name */
+"as name" = "이름으로서";
+
+/* closed */
+"closed" = "폐업";
+
+/* command */
+"command" = "지휘";
+
+/* complete zone */
+"complete zone" = "완전 구역";
+
+/* configured */
+"configured" = "구성";
+
+/* creation date */
+"creation date" = "창립 날짜";
+
+/* device sweep */
+"device sweep" = "장치 스윕";
+
+/* did not answer within */
+"did not answer within" = "내부에서 대답하지 않았다";
+
+/* differs */
+"differs" = "다릅니다";
+
+/* domain name */
+"domain name" = "도메인 이름";
+
+/* down */
+"down" = "내려";
+
+/* downlink capacity */
+"downlink capacity" = "다운링크 용량";
+
+/* expiration date */
+"expiration date" = "유통기한";
+
+/* expiration date: */
+"expiration date:" = "유통기한:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "만료 %lld 며칠 전";
+
+/* expires today */
+"expires today" = "오늘 만료";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "네 개의 ICMP 에코 요청";
+
+/* gateway %@ */
+"gateway %@" = "게이트웨이 %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "%lld 일";
+
+/* inactive */
+"inactive" = "비활성화";
+
+/* incomplete */
+"incomplete" = "미완성";
+
+/* ip information */
+"ip information" = "IP 정보";
+
+/* just now */
+"just now" = "방금";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "속도를 위해 로컬 /24로 제한됩니다";
+
+/* local */
+"local" = "지역";
+
+/* loss %@ */
+"loss %@" = "손실 %@";
+
+/* median %@ */
+"median %@" = "중앙값 %@";
+
+/* name server */
+"name server" = "네임 서버";
+
+/* name server: */
+"name server:" = "네임 서버:";
+
+/* network */
+"network" = "네트워크";
+
+/* network lookup */
+"network lookup" = "네트워크 조회";
+
+/* network quality */
+"network quality" = "네트워크 품질";
+
+/* network report */
+"network report" = "네트워크 리포트";
+
+/* networks */
+"networks" = "네트워크";
+
+/* no address */
+"no address" = "주소 없음";
+
+/* no answer */
+"no answer" = "대답이 없어";
+
+/* no ping replies */
+"no ping replies" = "핑 응답 없음";
+
+/* no reply */
+"no reply" = "답장이 없네요";
+
+/* open */
+"open" = "열기";
+
+/* packets transmitted */
+"packets transmitted" = "전송된 패킷";
+
+/* primary %@ */
+"primary %@" = "초등학교 %@";
+
+/* public ip */
+"public ip" = "공용 IP";
+
+/* raw output */
+"raw output" = "원시 출력";
+
+/* reachable */
+"reachable" = "접근 가능";
+
+/* redirects followed */
+"redirects followed" = "리다이렉션 이후에 이어졌습니다";
+
+/* registrar name */
+"registrar name" = "등록기관 명칭";
+
+/* registry expiry date */
+"registry expiry date" = "등록부 만료일";
+
+/* registry expiry date: */
+"registry expiry date:" = "등록부 만료일:";
+
+/* resolution failed */
+"resolution failed" = "결의안 실패";
+
+/* reverse dns */
+"reverse dns" = "역방향 DNS";
+
+/* run with last target */
+"run with last target" = "마지막 목표와 함께 달리기";
+
+/* scoped */
+"scoped" = "스코프";
+
+/* search domain */
+"search domain" = "검색 도메인";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.도메인";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "SHA256 지문";
+
+/* site report */
+"site report" = "현장 보고";
+
+/* summary */
+"summary" = "요약";
+
+/* target */
+"target" = "목표";
+
+/* the address */
+"the address" = "주소";
+
+/* the selected resource */
+"the selected resource" = "선택된 자원";
+
+/* the selected target */
+"the selected target" = "선택된 목표";
+
+/* the target */
+"the target" = "목표";
+
+/* timed out */
+"timed out" = "시간 초과";
+
+/* unknown */
+"unknown" = "알 수 없음";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "무제한 진단 요청";
+
+/* up */
+"up" = "올라";
+
+/* updated date */
+"updated date" = "업데이트된 날짜";
+
+/* uplink capacity */
+"uplink capacity" = "업링크 용량";
+
+/* verify return code */
+"verify return code" = "반품 코드 확인";
+
+/* via %@ */
+"via %@" = "비아 %@";
+
+/* windows name */
+"windows name" = "윈도우 이름";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "%@을(를) 즐겨찾기에 추가";
+
+/* Favorites */
+"Favorites" = "즐겨찾기";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "%@을(를) 즐겨찾기에서 제거";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Pro 기능이 잠겨 있습니다";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "구매하거나 구매 내역을 복원하여 잠금을 해제하세요.";
+
+/* Restoring… */
+"Restoring…" = "복원 중…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "활성 Netmin 구매가 없습니다.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP 접두사";
+
+/* Primary */
+"Primary" = "기본";
+
+/* All relevant */
+"All relevant" = "관련 항목 모두";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "원본 ASN(예: AS13335)";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP 접두사(예: 1.1.1.0/24)";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "원본 ASN이 IP 접두사를 알릴 권한이 있는지 확인";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "각 권한 있는 네임 서버에서 전체 영역 전송 시도";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "호스트 이름, 서비스 이름 또는 IP 주소";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Cloudflare, Google, Quad9 및 OpenDNS의 캐시된 DNS 응답 비교";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "관련된 모든 레코드 유형 비교";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "공개 리졸버의 응답 비교 중…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "이 대상에 적용되는 일반적인 레코드 유형을 비교합니다.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "호스트 이름은 A, IP 주소는 PTR, 서비스 이름은 SRV를 확인합니다.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "모든 공개 리졸버가 동일한 DNS 응답을 반환했습니다.";
