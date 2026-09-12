@@ -1,0 +1,2690 @@
+/* Netmin — ru localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "мс";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ принял TCP-соединение.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ не удалось получить";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ не завершено";
+
+/* %@ ms */
+"%@ ms" = "%@ мс";
+
+/* %@ open */
+"%@ open" = "%@ открыто";
+
+/* %@ open ports */
+"%@ open ports" = "%@ открытые порты";
+
+/* %@ per year */
+"%@ per year" = "%@ в год";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ с";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld МБ";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Бонжур";
+
+/* %lld addresses */
+"%lld addresses" = "%lld адреса";
+
+/* %lld answers */
+"%lld answers" = "%lld ответы";
+
+/* %lld bytes */
+"%lld bytes" = "%lld байт";
+
+/* %lld checks */
+"%lld checks" = "%lld чеки";
+
+/* %lld day */
+"%lld day" = "%lld день";
+
+/* %lld days */
+"%lld days" = "%lld дней";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "Обнаружено %lld · сканирование всего занимает около %lld с";
+
+/* %lld devices */
+"%lld devices" = "%lld устройства";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld устройства на %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld записей";
+
+/* %lld headers */
+"%lld headers" = "%lld заголовки";
+
+/* %lld hops */
+"%lld hops" = "%lld хмель";
+
+/* %lld hosts */
+"%lld hosts" = "%lld хосты";
+
+/* %lld hour */
+"%lld hour" = "%lld час";
+
+/* %lld hours */
+"%lld hours" = "%lld часов";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld неполный";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld интерфейсы";
+
+/* %lld keys */
+"%lld keys" = "%lld клавиши";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld ограничено /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld строк · %lld символов";
+
+/* %lld matches */
+"%lld matches" = "%lld совпадений";
+
+/* %lld minute */
+"%lld minute" = "%lld минута";
+
+/* %lld minutes */
+"%lld minutes" = "%lld минут";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld больше строк · используйте результат копирования для полного вывода";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld по имени · %lld по имени";
+
+/* %lld names */
+"%lld names" = "%lld имена";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld соседи";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld из %lld сетей · около %lld с";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld из %lld открыто";
+
+/* %lld open */
+"%lld open" = "%lld открыто";
+
+/* %lld received */
+"%lld received" = "%lld получен";
+
+/* %lld records */
+"%lld records" = "%lld записи";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld записи · частичный";
+
+/* %lld redirects */
+"%lld redirects" = "%lld перенаправляет";
+
+/* %lld responses */
+"%lld responses" = "%lld ответов";
+
+/* %lld routes */
+"%lld routes" = "%lld маршруты";
+
+/* %lld rows */
+"%lld rows" = "%lld строк";
+
+/* %lld second */
+"%lld second" = "%lld секунда";
+
+/* %lld seconds */
+"%lld seconds" = "%lld секунд";
+
+/* %lld service types */
+"%lld service types" = "%lld типы услуг";
+
+/* %lld services */
+"%lld services" = "%lld услуги";
+
+/* %lld tools */
+"%lld tools" = "%lld инструменты";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) мс";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", с:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ок)";
+
+/* 1 match */
+"1 match" = "1 матч";
+
+/* 1 response */
+"1 response" = "1 ответ";
+
+/* 1 service */
+"1 service" = "1 услуга";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 минуты назад";
+
+/* ; fully validated */
+"; fully validated" = "; полностью проверен";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; неподписанный ответ";
+
+/* ; validation failed */
+"; validation failed" = "; проверка не удалась";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "Диапазон CIDR требует полного адреса перед префиксом, например. 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "Развертка может включать не более 16 диапазонов, добавленных вручную.";
+
+/* ARP Table */
+"ARP Table" = "Таблица ARP";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "Поиск ASN и BGP";
+
+/* Actions */
+"Actions" = "Действия";
+
+/* Active */
+"Active" = "Активный";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Активные записи, о которых сообщает macOS и инструменты локального обнаружения.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "Активные записи, о которых сообщил macOS.";
+
+/* Add */
+"Add" = "Добавить";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Добавьте %@ к скану";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Добавьте диапазон, например. 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Добавлено вручную";
+
+/* Added range */
+"Added range" = "Добавлен диапазон";
+
+/* Address */
+"Address" = "Адрес";
+
+/* Address details */
+"Address details" = "Детали адреса";
+
+/* Address details for %@ */
+"Address details for %@" = "Детали адреса для %@";
+
+/* Addresses */
+"Addresses" = "Адреса";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Адреса, с которыми этот Mac недавно обменивался пакетами.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Добавляет доступность, общие порты и маршрут. Может занять минуту.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Добавляет попытки передачи зоны, сигналы DNSSEC, дополнительные имена хостов и имена сертификатов.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Рекламируемые услуги Bonjour";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Рекламируется в окне обнаружения.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "Для IPv4-адреса требуется четыре цифры от 0 до 255.";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "Префикс IPv4 имеет диапазон от /0 до /32.";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "Префикс IPv6 имеет диапазон от /0 до /128.";
+
+/* Answer %lld */
+"Answer %lld" = "Ответ %lld";
+
+/* Answers */
+"Answers" = "Ответы";
+
+/* Answers by resolver */
+"Answers by resolver" = "Ответы резольвера";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Ответы возвращены для %@.";
+
+/* Assigned address */
+"Assigned address" = "Назначенный адрес";
+
+/* Authenticated */
+"Authenticated" = "Аутентифицированный";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Автоматическое продление ежегодно · отмена в любое время";
+
+/* Average */
+"Average" = "Средний";
+
+/* Bits */
+"Bits" = "Биты";
+
+/* Bonjour Services */
+"Bonjour Services" = "Бонжур Услуги";
+
+/* Bonjour services */
+"Bonjour services" = "Бонжур услуги";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Просмотрите типы услуг Bonjour, объявленные в локальной сети, в течение пяти секунд.";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Просмотр рекламируемых типов услуг Bonjour…";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Создайте объединенный отчет о DNS, маршрутизации, владении и сети.";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Создайте комбинированный отчет для текущего сетевого подключения.";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Построение отчета по текущему соединению…";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "Создание отчета о DNS, маршрутизации и владении…";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "CIDR-калькулятор";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "Диапазон CIDR · %@ адреса";
+
+/* Calculated result */
+"Calculated result" = "Расчетный результат";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Расчет границ сети и количества адресов…";
+
+/* Cancel */
+"Cancel" = "Отмена";
+
+/* Certificate */
+"Certificate" = "Сертификат";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Прозрачность сертификата";
+
+/* Certificate expires */
+"Certificate expires" = "Срок действия сертификата истекает";
+
+/* Certificate names */
+"Certificate names" = "Имена сертификатов";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Проверьте DNS, веб-порты и порты SSH, заголовки HTTPS, цепочку сертификатов, версии TLS, OCSP и MX STARTTLS.";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Проверьте, аутентифицирует ли проверяющий резолвер ответ DNS";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Проверьте, аутентифицирует ли проверяющий резолвер ответ TLSA";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Проверьте, предоставляет ли подписанная зона записи NSEC.";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Проверьте, принимает ли один TCP-порт соединение";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Проверьте, включен ли домен или имеет ли право на предварительную загрузку HSTS.";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "Проверка DNS, TLS, веб-сервисов и почты…";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "Проверка состояния списка предварительной загрузки HSTS…";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Проверка опубликованных записей НСЕК…";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Проверка 25 наиболее распространенных TCP-портов…";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Проверка согласованной версии HTTP и ответа…";
+
+/* Checks */
+"Checks" = "Чеки";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Проверяет записи apex, почтовые политики, службы, общие хосты и селекторы DKIM.";
+
+/* Choose a tool */
+"Choose a tool" = "Выберите инструмент";
+
+/* Cipher */
+"Cipher" = "Шифр";
+
+/* Ciphersuite */
+"Ciphersuite" = "Набор шифров";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Очистить последние данные";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Очистить последние данные…";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Очистить последние данные Netmin?";
+
+/* Clear search */
+"Clear search" = "Очистить поиск";
+
+/* Clear target */
+"Clear target" = "Очистить цель";
+
+/* Clock offset */
+"Clock offset" = "Смещение часов";
+
+/* Close */
+"Close" = "Закрыть";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Сбор сведений о Wi-Fi и близлежащих точках доступа…";
+
+/* Common Port Scan */
+"Common Port Scan" = "Общее сканирование портов";
+
+/* Common TCP services */
+"Common TCP services" = "Общие службы TCP";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Сравните ответы IPv4 от Cloudflare, Google, Quad9 и OpenDNS.";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "Сравнение ответов IPv4 от общедоступных преобразователей…";
+
+/* Complete */
+"Complete" = "Завершить";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Полная зона DNS для %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Полнота: Полная";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Полнота: Частичное открытие";
+
+/* Configuration */
+"Configuration" = "Конфигурация";
+
+/* Connection */
+"Connection" = "Подключение";
+
+/* Connection quality */
+"Connection quality" = "Качество соединения";
+
+/* Connection succeeded */
+"Connection succeeded" = "Соединение выполнено";
+
+/* Connection timing */
+"Connection timing" = "Время подключения";
+
+/* Consistent */
+"Consistent" = "последовательный";
+
+/* Content */
+"Content" = "Содержание";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Содержимое, возвращаемое целью, готовое к проверке или копированию.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Преобразование интернационализированного домена между формами Unicode и ASCII.";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Преобразование домена между Unicode и ASCII…";
+
+/* Copied %@ */
+"Copied %@" = "Скопировано %@";
+
+/* Copy Address */
+"Copy Address" = "Копировать адрес";
+
+/* Copy Command */
+"Copy Command" = "Копировать команду";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Скопировать MAC-адрес";
+
+/* Copy Name */
+"Copy Name" = "Копировать имя";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Копировать необработанный вывод";
+
+/* Copy Result */
+"Copy Result" = "Копировать результат";
+
+/* Copy Summary */
+"Copy Summary" = "Копировать сводку";
+
+/* Copy Target */
+"Copy Target" = "Копировать цель";
+
+/* Copy error */
+"Copy error" = "Ошибка копирования";
+
+/* Country */
+"Country" = "Страна";
+
+/* Coverage */
+"Coverage" = "Покрытие";
+
+/* DANE Validation */
+"DANE Validation" = "Проверка ДЕЙНА";
+
+/* DHCP Lease */
+"DHCP Lease" = "Аренда DHCP";
+
+/* DHCP lease */
+"DHCP lease" = "Аренда DHCP";
+
+/* DHCP server */
+"DHCP server" = "DHCP-сервер";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS А";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS АААА";
+
+/* DNS CAA */
+"DNS CAA" = "DNS-САА";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "Конфигурация DNS";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS-локация";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS НАПТР";
+
+/* DNS NS */
+"DNS NS" = "DNS НС";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "Проверка DNS NSEC";
+
+/* DNS Propagation */
+"DNS Propagation" = "Распространение DNS";
+
+/* DNS SOA */
+"DNS SOA" = "DNS-СОА";
+
+/* DNS SRV */
+"DNS SRV" = "DNS СРВ";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS-TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS-текст";
+
+/* DNS Trace */
+"DNS Trace" = "DNS-трассировка";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "Обнаружение зоны DNS";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "Передача зоны DNS";
+
+/* DNS answers */
+"DNS answers" = "DNS ответы";
+
+/* DNS configuration */
+"DNS configuration" = "Конфигурация DNS";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS через HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS через конечную точку TLS";
+
+/* DNS records */
+"DNS records" = "DNS-записи";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "DNS-записи обнаружены для %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS-записи, геолокация и ASN. Обычно несколько секунд.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "Используемые преобразователи DNS";
+
+/* DNS response */
+"DNS response" = "DNS-ответ";
+
+/* DNS server */
+"DNS server" = "DNS-сервер";
+
+/* DNS service name */
+"DNS service name" = "Имя службы DNS";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "Трассировка цепочки DNSSEC";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "Проверка DNSSEC";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC ДС";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "Проверка DNSSEC";
+
+/* Deep */
+"Deep" = "Глубокий";
+
+/* Deep discovery */
+"Deep discovery" = "Глубокое открытие";
+
+/* Default */
+"Default" = "По умолчанию";
+
+/* Default route */
+"Default route" = "Маршрут по умолчанию";
+
+/* Default ·  */
+"Default · " = "По умолчанию ·";
+
+/* Depth */
+"Depth" = "Глубина";
+
+/* Destination */
+"Destination" = "Пункт назначения";
+
+/* Destination not reached */
+"Destination not reached" = "Пункт назначения не достигнут";
+
+/* Details */
+"Details" = "Подробности";
+
+/* Detect again */
+"Detect again" = "Обнаружить снова";
+
+/* Devices */
+"Devices" = "Устройства";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Устройства (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Разница между часами этого Mac и часами %@.";
+
+/* Directives */
+"Directives" = "Директивы";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Откройте для себя общедоступные записи DNS, стандартные службы, почтовые политики, селекторы DKIM и данные открытых зон.";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Откройте для себя маршрутизаторы, устройства хранения данных, телевизоры и другие службы UPnP.";
+
+/* Discovered network resources */
+"Discovered network resources" = "Обнаруженные сетевые ресурсы";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "Обнаружение устройств и служб UPnP…";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Обнаружение локальных устройств и рекламируемых услуг…";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Обнаружение общедоступных записей DNS и данных зон…";
+
+/* Discovery output */
+"Discovery output" = "Выходные данные обнаружения";
+
+/* Discovery results */
+"Discovery results" = "Результаты открытия";
+
+/* DoT hostname */
+"DoT hostname" = "Имя хоста DoT";
+
+/* Domain */
+"Domain" = "Домен";
+
+/* Domain name */
+"Domain name" = "Доменное имя";
+
+/* Domain or hostname */
+"Domain or hostname" = "Домен или имя хоста";
+
+/* Download */
+"Download" = "Скачать";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Каждый маршрутизатор на пути; время туда и обратно измеряется в пункте назначения.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Включает дополнительное поведение инструмента";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Введите диапазон, например 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Введите диапазон IPv4 с префиксом от /0 до /30, например 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Записи";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Каждый адрес в запрошенном диапазоне, по одному в строке.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Отчеты о каждом интерфейсе macOS содержат его адреса и состояние соединения.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Все общедоступные преобразователи возвращали одни и те же ответы IPv4.";
+
+/* Exit status */
+"Exit status" = "Статус выхода";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Расширьте управляемый блок CIDR на отдельные адреса.";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "Расширение диапазона CIDR на отдельные адреса…";
+
+/* Expires */
+"Expires" = "Срок действия истекает";
+
+/* Failed */
+"Failed" = "Не удалось";
+
+/* Fast local discovery */
+"Fast local discovery" = "Быстрое локальное открытие";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Получить правила доступа для сканера сайта.";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Получите опубликованную политику контактов службы безопасности сайта.";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "Получение заголовков HTTP и следование перенаправлениям…";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "Получение IP-адреса и сведений о сети…";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "Получение записей регистрации IP-адресов через RDAP…";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "Получение ключей хоста SSH и расчет отпечатков пальцев…";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Получение заголовков безопасности браузера…";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Получение записей о регистрации домена через RDAP…";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Получение статуса проверки происхождения маршрута…";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "Получение сертификата HTTPS и идентификационных данных…";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Получение цепочки сертификатов и скрепленного ответа OCSP…";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Получение правил доступа для сканера сайта…";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Получение политики контактов службы безопасности сайта…";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Получение вашего общедоступного IP-адреса…";
+
+/* Fields */
+"Fields" = "Поля";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Фильтровать %lld инструменты";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Фильтровать по IP, имени, интерфейсу";
+
+/* Final status */
+"Final status" = "Окончательный статус";
+
+/* Find Tool… */
+"Find Tool…" = "Найти инструмент…";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Найдите инструмент Netmin";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Найдите имена сертификатов, которые могут выявить связанные поддомены.";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Найдите рекламируемую службу SMTP с проверкой подлинности.";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Найдите рекламируемую службу настройки электронной почты.";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Найдите рекламируемый безопасный сервис IMAP.";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Найдите имя хоста, связанное с IP-адресом";
+
+/* Fingerprint */
+"Fingerprint" = "Отпечаток пальца";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Отпечатки пальцев, предоставленные сервером, для сравнения с записью известных хостов.";
+
+/* First */
+"First" = "Первый";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Следуйте делегированию DNS от корня до ответа";
+
+/* Formatted */
+"Formatted" = "Отформатированный";
+
+/* Formatted address */
+"Formatted address" = "Форматированный адрес";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "Форматирование MAC-адреса…";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Бесплатно · %lld из %lld запросов осталось сегодня";
+
+/* From */
+"From" = "От";
+
+/* Full */
+"Full" = "Полный";
+
+/* Gateway */
+"Gateway" = "шлюз";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Шлюз %@ · маршрут по умолчанию";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Шлюз и маршруты";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Шлюз и таблица маршрутизации";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "Статус предварительной загрузки HSTS";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP-заголовки";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP-протокол";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "Заголовки безопасности HTTP";
+
+/* HTTP response */
+"HTTP response" = "HTTP-ответ";
+
+/* HTTP status */
+"HTTP status" = "Статус HTTP";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Ответ на рукопожатие";
+
+/* Hide */
+"Hide" = "Скрыть";
+
+/* Hop */
+"Hop" = "Хоп";
+
+/* Hops */
+"Hops" = "Хмель";
+
+/* Host */
+"Host" = "Хост";
+
+/* Host and port */
+"Host and port" = "Хост и порт";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Хост и порт, например example.com:443.";
+
+/* Host keys */
+"Host keys" = "Ключи хоста";
+
+/* Hostname */
+"Hostname" = "Имя хоста";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Имена хостов, которые фигурировали в общедоступных сертификатах для этого домена.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Хосты, ответившие на ping или появившиеся в кэше соседей, с именами, задержкой и рекламируемыми услугами.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Хосты, рекламируемые службы и доступные конечные точки, обнаруженные во время этого запуска.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "WHOIS-сервер IANA";
+
+/* IP Information */
+"IP Information" = "Информация об IP";
+
+/* IP Range Expander */
+"IP Range Expander" = "Расширитель IP-диапазона";
+
+/* IP address */
+"IP address" = "IP-адрес";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP-адрес или ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP-адрес или домен";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP-адрес или имя хоста";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP-адрес или префикс";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, маршрутизация и регистрация";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "Диапазон IPv4 CIDR, максимум 4096 адресов";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4-адрес";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "IPv4-адрес с CIDR";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "Соседи IPv4";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "Соседи IPv6";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6-адрес";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Проверка записей DNSSEC и проверочных подписей";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Проверьте баннер SMTP и согласуйте STARTTLS.";
+
+/* Interface */
+"Interface" = "Интерфейс";
+
+/* Interface Inventory */
+"Interface Inventory" = "Инвентаризация интерфейса";
+
+/* Interfaces */
+"Interfaces" = "Интерфейсы";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Присоединяйтесь к сети или добавьте диапазон ниже. Запуск очистки попросит помощника посмотреть еще раз.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Ключевые поля из ответа реестра.";
+
+/* Keys */
+"Keys" = "Ключи";
+
+/* Last */
+"Last" = "Последний";
+
+/* Latency */
+"Latency" = "Задержка";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Задержка, достижимость и измерения пути.";
+
+/* Lease details */
+"Lease details" = "Детали аренды";
+
+/* Lease time */
+"Lease time" = "Срок аренды";
+
+/* Limited */
+"Limited" = "Ограниченный";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Ограничено местным /24 по скорости.";
+
+/* Lines */
+"Lines" = "Линии";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Подробности ссылки для этого Mac и точек доступа, которые macOS в настоящее время может видеть.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "Загрузка продуктов App Store…";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Проверка локального устройства";
+
+/* Local Network */
+"Local Network" = "Локальная сеть";
+
+/* Location */
+"Location" = "Расположение";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Поиск доменных имен в журналах сертификатов…";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Поиск серверов доставки почты…";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Поиск записей о регистрации и владении…";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "Поиск службы отправки SMTP…";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Ищем службу настройки электронной почты…";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Поиск имени хоста для этого IP-адреса…";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Поиск исходного ASN и префикса маршрутизации…";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Поиск безопасного сервиса IMAP…";
+
+/* MAC Formatter */
+"MAC Formatter" = "Форматер MAC";
+
+/* MAC address */
+"MAC address" = "MAC-адрес";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC и поставщик скрыты";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC и поставщик скрыты — в этом запуске пусто.";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC и поставщик указаны";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "МММ д ЧЧ:мм:сс гггг ззз";
+
+/* Mail */
+"Mail" = "Почта";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Автообнаружение почты SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Почта БИМИ";
+
+/* Mail DKIM */
+"Mail DKIM" = "Почта ДКИМ";
+
+/* Mail DMARC */
+"Mail DMARC" = "Почта DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Почта IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Почта МТА-СТС";
+
+/* Mail MX */
+"Mail MX" = "Почта МХ";
+
+/* Mail SPF */
+"Mail SPF" = "Почтовый SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "Отправка почты SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Почтовый отчет TLS";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Почта TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Почтовый домен";
+
+/* Mail domain or server */
+"Mail domain or server" = "Почтовый домен или сервер";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Почтовый сервер и порт, например mail.example.com:25.";
+
+/* Manage Subscription */
+"Manage Subscription" = "Управление подпиской";
+
+/* Maximum */
+"Maximum" = "Максимум";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Измеряйте текущую загрузку, выгрузку, скорость реагирования и сведения о соединении.";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Измерьте доступность и задержку в обоих направлениях";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Измерена емкость и скорость реагирования текущего соединения.";
+
+/* Measurement */
+"Measurement" = "Измерение";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Измерение загрузки, выгрузки и скорости отклика…";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Измерение доступности и задержки туда и обратно…";
+
+/* Minimum */
+"Minimum" = "Минимум";
+
+/* Mode */
+"Mode" = "Режим";
+
+/* More copy options */
+"More copy options" = "Дополнительные параметры копирования";
+
+/* My Network Report */
+"My Network Report" = "Мой сетевой отчет";
+
+/* My Public IP */
+"My Public IP" = "Мой публичный IP";
+
+/* NTP Offset */
+"NTP Offset" = "NTP-смещение";
+
+/* NTP server */
+"NTP server" = "NTP-сервер";
+
+/* Name */
+"Name" = "Имя";
+
+/* Names */
+"Names" = "Имена";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Имена в журналах сертификатов";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Согласуйте TLS с любой службой неявного TLS и покажите выбранный протокол и шифр.";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Согласованный протокол, шифр, удостоверение сертификата и статус проверки.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "Согласование SMTP STARTTLS…";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Согласование TLS на указанном сервисном порту…";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "Согласование соединения HTTPS TLS…";
+
+/* Neighbor */
+"Neighbor" = "Сосед";
+
+/* Neighbor cache */
+"Neighbor cache" = "Соседний кэш";
+
+/* Neighbors */
+"Neighbors" = "Соседи";
+
+/* Netmin Pro */
+"Netmin Pro" = "Нетмин Про";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro на всю жизнь · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro ежегодно";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Нетмин Про…";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin обнаруживает устройства и службы в локальных сетях, которые вы выбираете для проверки.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin остановил эту команду через %lld секунд.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin остановил эту команду после того, как она выдала %@ вывода.";
+
+/* Network */
+"Network" = "Сеть";
+
+/* Network Lookup */
+"Network Lookup" = "Поиск в сети";
+
+/* Network Quality */
+"Network Quality" = "Качество сети";
+
+/* Network entries */
+"Network entries" = "Сетевые записи";
+
+/* Network interfaces */
+"Network interfaces" = "Сетевые интерфейсы";
+
+/* Networks */
+"Networks" = "Сети";
+
+/* Networks scanned */
+"Networks scanned" = "Сети просканированы";
+
+/* Networks to scan */
+"Networks to scan" = "Сети для сканирования";
+
+/* New Lookup */
+"New Lookup" = "Новый поиск";
+
+/* New Report */
+"New Report" = "Новый отчет";
+
+/* New Sweep */
+"New Sweep" = "Новая развертка";
+
+/* No */
+"No" = "Нет";
+
+/* No DNS records found */
+"No DNS records found" = "DNS-записи не найдены";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Для этой учетной записи Apple не обнаружено покупок Netmin Pro.";
+
+/* No common ports are open */
+"No common ports are open" = "Ни один общий порт не открыт";
+
+/* No common services */
+"No common services" = "Никаких общих услуг";
+
+/* No data returned */
+"No data returned" = "Данные не возвращены";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Ни одно устройство не соответствует «%@».";
+
+/* No devices responded */
+"No devices responded" = "Ни одно устройство не ответило";
+
+/* No diagnostic output */
+"No diagnostic output" = "Нет диагностического вывода";
+
+/* No input required */
+"No input required" = "Ввод не требуется";
+
+/* No matching tools */
+"No matching tools" = "Нет подходящих инструментов";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Частная сеть IPv4 не обнаружена · добавьте диапазон для сканирования";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Частная сеть IPv4 не обнаружена.";
+
+/* No result returned */
+"No result returned" = "Результат не возвращен";
+
+/* No target */
+"No target" = "Нет цели";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "Нет инструментов, соответствующих «%@»";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Нормализовать MAC-адрес в виде заглавных букв, разделенных двоеточиями.";
+
+/* Not reached */
+"Not reached" = "Не достигнуто";
+
+/* Not selected */
+"Not selected" = "Не выбрано";
+
+/* Notafter */
+"Notafter" = "Непосле";
+
+/* Notes */
+"Notes" = "Примечания";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Ничего не ответило на пинг и не появилось в кэше соседей в сканируемых сетях. Убедитесь, что этот Mac находится в ожидаемой сети, или добавьте диапазон вручную.";
+
+/* Nothing detected */
+"Nothing detected" = "Ничего не обнаружено";
+
+/* Off */
+"Off" = "Выкл.";
+
+/* Offset */
+"Offset" = "Смещение";
+
+/* On */
+"On" = "Вкл.";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Было возвращено только направление IANA. Повторите попытку %@ или используйте RDAP, чтобы получить регистратора, серверы имен и даты регистрации.";
+
+/* Open */
+"Open" = "Открыть";
+
+/* Open ports */
+"Open ports" = "Открытые порты";
+
+/* Open ports: */
+"Open ports:" = "Открытые порты:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "Дополнительный IPv4 CIDR; пустое сканирование всех активных локальных сетей";
+
+/* Options */
+"Options" = "Опции";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Исходная AS и префикс маршрутизации";
+
+/* Other */
+"Other" = "Другое";
+
+/* Output */
+"Output" = "Выход";
+
+/* Overview */
+"Overview" = "Обзор";
+
+/* Packet loss */
+"Packet loss" = "Потеря пакетов";
+
+/* Partial */
+"Partial" = "Частичный";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Передает %@ команде";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Оплата поступает на ваш аккаунт Apple. Годовая подписка продлевается автоматически, если она не отменена в настройках App Store по крайней мере за день до окончания текущего периода.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Выберите инструмент на боковой панели или нажмите ⌘K, чтобы выполнить поиск по всем инструментам.";
+
+/* Ping */
+"Ping" = "Пинг";
+
+/* Port */
+"Port" = "Порт";
+
+/* Port %@ is open */
+"Port %@ is open" = "Порт %@ открыт.";
+
+/* Ports */
+"Ports" = "Порты";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Порты, принявшие соединение.";
+
+/* Primary mail server */
+"Primary mail server" = "Основной почтовый сервер";
+
+/* Primary nameserver */
+"Primary nameserver" = "Основной сервер имен";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "ПервичныйИнтерфейс";
+
+/* Privacy */
+"Privacy" = "Конфиденциальность";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Политика конфиденциальности…";
+
+/* Pro */
+"Pro" = "Про";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Покупки Pro сейчас недоступны. Пожалуйста, повторите попытку позже.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Пробная версия Pro · осталось %lld дней";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Пробная версия · Остался 1 день";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Пробная версия Pro · заканчивается %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Пробная версия · первый платеж %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Пробная версия · до %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro превращает необработанные диагностические данные в таблицы, показатели и выводы. После 30-дневной пробной версии Free включает в себя необработанный результат для пяти запросов в день.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Про · заканчивается %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Про · всю жизнь";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Про · обновляет %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Pro · доступен для всей семьи";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Про · до %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Проверьте 25 общих TCP-портов с помощью сетевых инструментов, включенных в macOS.";
+
+/* Probed */
+"Probed" = "зондирован";
+
+/* Proto */
+"Proto" = "Прото";
+
+/* Protocol */
+"Protocol" = "Протокол";
+
+/* Protocol Version */
+"Protocol Version" = "Версия протокола";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Открытие общедоступного DNS является частичным";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "При проверке общедоступного DNS были обнаружены полезные записи, но пользовательские имена по-прежнему могут быть скрыты.";
+
+/* Public IP */
+"Public IP" = "Публичный IP";
+
+/* Public IPv4 */
+"Public IPv4" = "Публичный IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "Публичный IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Сведения о публичном адресе и владельце сети.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Общественные преобразователи дали разные ответы; изменение может все еще распространяться.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Конвертер Пуникода";
+
+/* Purchase */
+"Purchase" = "Покупка";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Покупки сейчас недоступны.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Запрос записи A через конечную точку DNS-over-HTTPS";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Запросить имя NetBIOS и рабочую группу, объявленные устройством Windows или SMB.";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Запросите часы сервера и покажите измеренное локальное смещение.";
+
+/* Querying %@… */
+"Querying %@…" = "Запрос %@…";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "Запрос записей географического местоположения DNS…";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "Запрос текстовых записей DNS…";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "Запрос открытых ключей DNSSEC…";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "Запрос записей и подписей DNSSEC…";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "Запрос конечных точек HTTPS и подсказок по подключению…";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "Запрос записей адреса IPv4 (A)…";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "Запрос записей IPv4 через HTTPS…";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "Запрос записей адреса IPv6 (AAAA)…";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Запрос записей обнаружения политики MTA-STS…";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "Запрос записей ассоциации сертификатов TLS…";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "Запрос записей отчетов о доставке TLS…";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Запрос записей авторитетного сервера имен…";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Запрос записей индикаторов бренда…";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Запрос записей авторизации центра сертификации…";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Запрос записей подписывающего лица…";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Запрос записей псевдонима имени хоста (CNAME)…";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Запрос привязок служб и параметров подключения…";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Запрос правил обнаружения служб…";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Запрос хостов служб, портов и приоритетов…";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "Запрос открытого ключа селектора DKIM…";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Запрос имени устройства Windows или SMB…";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Запрос политики аутентификации электронной почты…";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Запрос политики авторизации отправителя…";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Опрос сервера времени и измерение смещения часов…";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Запрос полномочий зоны и записей времени…";
+
+/* Quick */
+"Quick" = "Быстрый";
+
+/* Quick lookup */
+"Quick lookup" = "Быстрый поиск";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Быстрый поиск локальных устройств, принтеров и рекламируемых услуг.";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP-домен";
+
+/* RDAP IP */
+"RDAP IP" = "РДАП-IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "Проверка РПКИ";
+
+/* Ran %@ */
+"Ran %@" = "Ран %@";
+
+/* Raw Output */
+"Raw Output" = "Необработанный вывод";
+
+/* Raw output */
+"Raw output" = "Необработанный результат";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Достижимость и время прохождения туда и обратно для %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Доступные порты, службы и сведения о ключах хоста.";
+
+/* Reached */
+"Reached" = "Достигнуто";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Чтение кэшированных соседей IPv4…";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Чтение кэшированных соседей IPv6…";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "Чтение преобразователей DNS macOS и поисковых доменов…";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Чтение адресов и состояния сетевых интерфейсов…";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Чтение аренды DHCP активного интерфейса…";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Чтение шлюза по умолчанию и таблиц маршрутизации…";
+
+/* Recent */
+"Recent" = "Недавние";
+
+/* Record */
+"Record" = "Запись";
+
+/* Records */
+"Records" = "Рекорды";
+
+/* Registrar */
+"Registrar" = "Регистратор";
+
+/* Registration and routing data */
+"Registration and routing data" = "Регистрационные и маршрутизационные данные";
+
+/* Registry record */
+"Registry record" = "Запись реестра";
+
+/* Registry response */
+"Registry response" = "Ответ реестра";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Ответ реестра неполный";
+
+/* Related */
+"Related" = "Похожие";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Запомните для следующих результатов · ⌘1 Обзор, ⌘2 Необработанный результат";
+
+/* Remove this range */
+"Remove this range" = "Удалить этот диапазон";
+
+/* Replies */
+"Replies" = "Ответы";
+
+/* Report for %@ */
+"Report for %@" = "Отчет для %@";
+
+/* Report overview */
+"Report overview" = "Обзор отчета";
+
+/* Reports */
+"Reports" = "Отчеты";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Запросите полную передачу зоны DNS с авторитетного сервера.";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Запрос полной передачи зоны DNS…";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Требовать TLS 1.2 и показывать, удалось ли согласование";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Требовать TLS 1.3 и показывать, удалось ли согласование";
+
+/* Resolved */
+"Resolved" = "Решено";
+
+/* Resolved address */
+"Resolved address" = "Разрешенный адрес";
+
+/* Resolver */
+"Resolver" = "резольвер";
+
+/* Resolver %@ */
+"Resolver %@" = "Резольвер %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Выходные данные резольвера сгруппированы для быстрого просмотра.";
+
+/* Resolver response */
+"Resolver response" = "Ответ резольвера";
+
+/* Resolvers */
+"Resolvers" = "Резольверы";
+
+/* Resolvers agree */
+"Resolvers agree" = "Резолверы согласны";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Резолверы и домены поиска, которые в настоящее время используются macOS, в порядке приоритета.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Резольверы различаются";
+
+/* Resources */
+"Resources" = "Ресурсы";
+
+/* Response */
+"Response" = "Ответ";
+
+/* Response %lld */
+"Response %lld" = "Ответ %lld";
+
+/* Responses */
+"Responses" = "Ответы";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Ответы на групповой поиск, по одной карточке на одно объявление.";
+
+/* Responsiveness */
+"Responsiveness" = "Отзывчивость";
+
+/* Restore Purchases */
+"Restore Purchases" = "Восстановить покупки";
+
+/* Result */
+"Result" = "Результат";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "Результаты группируются по каждой завершенной проверке сети.";
+
+/* Retry registry */
+"Retry registry" = "Повторить регистрацию";
+
+/* Reverse DNS */
+"Reverse DNS" = "Обратный DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Роботы.txt";
+
+/* Round trip */
+"Round trip" = "Туда и обратно";
+
+/* Route to target */
+"Route to target" = "Маршрут к цели";
+
+/* Router */
+"Router" = "Маршрутизатор";
+
+/* Routes */
+"Routes" = "Маршруты";
+
+/* Routing record */
+"Routing record" = "Запись маршрутизации";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Данные реестра маршрутизации для %@.";
+
+/* Routing table */
+"Routing table" = "Таблица маршрутизации";
+
+/* Run */
+"Run" = "Беги";
+
+/* Run Again */
+"Run Again" = "Беги снова";
+
+/* Run Lookup */
+"Run Lookup" = "Запустить поиск";
+
+/* Run Report */
+"Run Report" = "Запустить отчет";
+
+/* Run Sweep */
+"Run Sweep" = "Запустить очистку";
+
+/* Run Tool */
+"Run Tool" = "Запустить инструмент";
+
+/* Run again */
+"Run again" = "Беги снова";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Запустите инструмент %@";
+
+/* Running */
+"Running" = "Бег";
+
+/* Running %@… */
+"Running %@…" = "Бегу %@…";
+
+/* Running · %@ s */
+"Running · %@ s" = "Бег · %@ с";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP-СТАРТЛС";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "Обнаружение SSDP/UPnP";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "Ключи хоста SSH";
+
+/* SSH host keys */
+"SSH host keys" = "Ключи хоста SSH";
+
+/* Save Report… */
+"Save Report…" = "Сохранить отчет…";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Сохраняйте отчеты и копируйте структурированные сводки.";
+
+/* Scan */
+"Scan" = "Сканировать";
+
+/* Scripts */
+"Scripts" = "Скрипты";
+
+/* Search domain */
+"Search domain" = "Поиск домена";
+
+/* Sections */
+"Sections" = "Разделы";
+
+/* Security details */
+"Security details" = "Детали безопасности";
+
+/* Security.txt */
+"Security.txt" = "Безопасность.txt";
+
+/* Selected */
+"Selected" = "Выбрано";
+
+/* Sequence */
+"Sequence" = "Последовательность";
+
+/* Server */
+"Server" = "Сервер";
+
+/* Service */
+"Service" = "Сервис";
+
+/* Service reachability */
+"Service reachability" = "Доступность услуги";
+
+/* Service type */
+"Service type" = "Тип услуги";
+
+/* Service types */
+"Service types" = "Типы услуг";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Типы служб, объявляемые в локальной сети во время окна обнаружения.";
+
+/* Services */
+"Services" = "Услуги";
+
+/* Show */
+"Show" = "Показать";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Показать ассоциации сертификатов DANE для службы TLS";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Показывать конечные точки службы HTTPS и подсказки по подключению";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Показать адреса IPv4, опубликованные для имени хоста";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Показать соседей IPv4, с которыми недавно связывался этот Mac";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Показать адреса IPv6, опубликованные для имени хоста";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Показывать сведения о соединении Wi-Fi и близлежащих точках доступа, видимых для macOS";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Показывать адреса, MTU, статус и счетчики для каждого сетевого интерфейса.";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Показать кэшированные соседи IPv6 и их адреса канального уровня.";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Показать личность сертификата, эмитента, срок действия и отпечаток SHA-256.";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Показать каждый маршрутизатор на пути к месту назначения";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Показать записи о географическом местоположении, опубликованные зоной";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Показать местоположение, сеть, ASN и сведения о владельце.";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Показать согласованную версию TLS, шифр, обмен ключами и проверку.";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Показать границы сети, маску сети, широковещательный адрес и размер.";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Показать опубликованные текстовые записи и политики домена";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Показать необработанные записи о регистрации и владении";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Показать распределение реестра и сведения о регистрации для IP-адреса.";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Показать регистрацию в реестре и сведения о статусе домена";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Показать заголовки ответов и каждый переход перенаправления";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Показать записи обнаружения служб на основе правил";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Показать конечные точки службы и параметры подключения";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Показать хосты служб, порты, приоритеты и веса.";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Показать преобразователи DNS и поисковые домены, которые фактически использует macOS.";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Показать состояние проверки происхождения маршрута RPKI, сообщенное RIPE.";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Показать DHCP-сервер активного интерфейса, аренду и предоставленные параметры.";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Показать авторитетные серверы имен для домена";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Показать целевой канонический псевдоним для имени хоста";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Показать полную цепочку обслуживаемых сертификатов, результат проверки и прикрепленный ответ OCSP.";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Показать шлюз по умолчанию и полную таблицу маршрутов IPv4 и IPv6.";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Показать политику индикатора бренда домена";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Показать политику аутентификации электронной почты домена";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Показать согласованную версию HTTP, статус, адрес сервера и результат TLS.";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Показать исходный ASN, маршрутизируемый префикс, реестр и сведения о распределении.";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Показать записи подписывающего лица делегирования родительской зоны";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Показать политику, требующую безопасной доставки почты.";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Показать основные заголовки безопасности браузера, возвращаемые сайтом.";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Показать общедоступный IP-адрес, видимый в Интернете";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Показать открытый ключ для селектора DKIM";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Показать открытые ключи, используемые для проверки зоны DNS";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Показать объявленные отпечатки ключей хоста SSH сервера.";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Показать серверы, которые получают почту для домена";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Показать, куда отправляются отчеты о доставке TLS.";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Покажите, какие центры сертификации могут выдавать сертификаты";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Показать, какие серверы имеют право отправлять почту";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Показать полномочия зоны, серийный номер и информацию о времени.";
+
+/* Site Report */
+"Site Report" = "Отчет о сайте";
+
+/* Site report for example.org */
+"Site report for example.org" = "Отчет сайта для example.org";
+
+/* State */
+"State" = "Государство";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Состояние:/Сеть/Глобальный/IPv4";
+
+/* Statistics */
+"Statistics" = "Статистика";
+
+/* Status */
+"Status" = "Статус";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Статус, протокол, перенаправления и возвращаемые заголовки.";
+
+/* Stop */
+"Stop" = "Стоп";
+
+/* Stop Sweep */
+"Stop Sweep" = "Остановить развертку";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Структурированный ответ реестра для %@.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Структурированные отчеты — это функция Netmin Pro.";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Структурированные отчеты с таблицами, показателями и выводами";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Структурированный ответ резольвера.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Структурированный ответ от веб-сервиса.";
+
+/* System network configuration */
+"System network configuration" = "Конфигурация сети системы";
+
+/* TCP Port Check */
+"TCP Port Check" = "Проверка TCP-порта";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "ДОСТИЖИМОСТЬ TCP";
+
+/* TLS 1.2 */
+"TLS 1.2" = "ТЛС 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Рукопожатие";
+
+/* TLS 1.3 */
+"TLS 1.3" = "ТЛС 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Рукопожатие";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS-сертификат";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "Цепочка сертификатов TLS";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS-рукопожатие";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "Подтверждение службы TLS";
+
+/* TLS connection */
+"TLS connection" = "TLS-соединение";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, Интернет и порты";
+
+/* Target */
+"Target" = "Цель";
+
+/* Target (optional) */
+"Target (optional)" = "Цель (необязательно)";
+
+/* Target did not reply */
+"Target did not reply" = "Цель не ответила";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Цели не могут содержать пробелы";
+
+/* Terms */
+"Terms" = "Условия";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Проверьте SMTP 25, SMTPS 465, отправку 587, IMAPS 993 и POP3S 995 одновременно.";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Проверьте согласование TLS с сервером DNS-over-TLS.";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "Тестирование согласования TLS 1.2…";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "Тестирование согласования TLS 1.3…";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "Тестирование согласования TLS на порту DNS 853…";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "Тестирование TLS на службах SMTP, IMAP и POP3…";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Тестирование соединения с указанным TCP-портом…";
+
+/* Text */
+"Text" = "Текст";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "25 наиболее распространенных TCP-портов были проверены с таймаутом в одну секунду.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store не удалось подтвердить эту покупку.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "MAC-адрес в каноническом верхнем регистре, разделенный двоеточиями.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Каталог инструментов Netmin не содержит допустимых инструментов.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "Для URL-адреса требуется схема и хост, например. https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "Аренда активного интерфейса и параметры, предоставляемые его DHCP-сервером.";
+
+/* The address is not valid. */
+"The address is not valid." = "Адрес недействителен.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "Адрес, который Интернет видит для этого соединения.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "Приложение выполнило перенаправления, но веб-сайт неоднократно отправлял этот файл обратно на тот же URL-адрес. Ни один файл не был возвращен.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "Авторитетный сервер разрешил полную передачу зоны AXFR.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "Авторитетные серверы не обеспечили полную передачу зоны. Это записи, найденные в ходе публичных расследований; пользовательские имена все еще могут существовать.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "Входящий в комплект каталог инструментов Netmin отсутствует.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Команда выполнена, но цель не вернула соответствующих данных.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Команда завершилась неудачно до того, как была выдана диагностическая информация.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "Маршрут по умолчанию и все маршруты IPv4 и IPv6, о которых знает macOS.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "Первые 30 дней включают версию Pro. После пробного периода Free сохраняет все 84 инструмента и необработанные результаты с пятью диагностическими запросами в день.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "Префикс после / должен быть числом";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Процесс завершился со статусом %lld, прежде чем вернуть подробную информацию. Убедитесь, что необходимая команда установлена ​​и цель доступна.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "Покупка ожидает одобрения.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Реестр вернул неструктурированный ответ; его полезные строки показаны ниже.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "Резолвер не вернул совпадающих ответов.";
+
+/* This Mac */
+"This Mac" = "Этот Мак";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "При этом сохраненные цели и сводки последних запусков будут удалены с этого Mac. Экспортированные отчеты не удаляются.";
+
+/* Time */
+"Time" = "Время";
+
+/* Timeouts */
+"Timeouts" = "Таймауты";
+
+/* Tools */
+"Tools" = "Инструменты";
+
+/* Tools unavailable */
+"Tools unavailable" = "Инструменты недоступны";
+
+/* Trace */
+"Trace" = "След";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Отслеживание цепочки доверия DNSSEC от корня";
+
+/* Traceroute */
+"Traceroute" = "Трассировка";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "Отслеживание делегирования DNS и записей DNSSEC…";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "Отслеживание делегирования DNS от корня…";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Отслеживание сетевого пути к месту назначения…";
+
+/* Try Again */
+"Try Again" = "Попробуйте еще раз";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Вместо этого попробуйте RDAP →";
+
+/* Type */
+"Type" = "Тип";
+
+/* Types */
+"Types" = "Типы";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "Устройства и службы UPnP";
+
+/* URL */
+"URL" = "URL-адрес";
+
+/* Uncertainty */
+"Uncertainty" = "Неопределенность";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Неограниченная диагностика сети с читаемыми отчетами и инструментами экспорта.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Неограниченное использование всех 84 диагностических инструментов";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Разблокируйте %@, а также полный набор функций Pro.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Разблокировать отчет…";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Разблокировать структурированное резюме…";
+
+/* Unnamed */
+"Unnamed" = "Безымянный";
+
+/* Unsigned */
+"Unsigned" = "Без подписи";
+
+/* Upload */
+"Upload" = "Загрузить";
+
+/* Use custom resolver */
+"Use custom resolver" = "Использовать собственный преобразователь";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Используйте хост:порт, адрес IPv6 или MAC-адрес.";
+
+/* Utilities */
+"Utilities" = "Утилиты";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPN-туннель";
+
+/* Validated */
+"Validated" = "проверено";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "Проверка записей TLSA и их цепочки DNSSEC…";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "Проверка ответа DNS и цепочки DNSSEC…";
+
+/* Value */
+"Value" = "Значение";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Значения, создаваемые %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "Значения, сообщаемые macOS для %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Значения возвращены для %@.";
+
+/* Vendor */
+"Vendor" = "Продавец";
+
+/* Verification */
+"Verification" = "Проверка";
+
+/* Verify Return Code */
+"Verify Return Code" = "Проверьте код возврата";
+
+/* View */
+"View" = "Посмотреть";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Посмотреть Netmin Pro…";
+
+/* Virtual bridge */
+"Virtual bridge" = "Виртуальный мост";
+
+/* Virtual machine network */
+"Virtual machine network" = "Сеть виртуальных машин";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS-сервер";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Жду первого ответа…";
+
+/* Web policy status */
+"Web policy status" = "Статус веб-политики";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Диагностика Wi-Fi";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Статус Wi-Fi";
+
+/* Window */
+"Window" = "Окно";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Обнаружение имен Windows";
+
+/* Yes */
+"Yes" = "Да";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "У вас есть Нетмин Про.";
+
+/* Your public address */
+"Your public address" = "Ваш публичный адрес";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.имя_хоста";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.имя_хоста";
+
+/* active */
+"active" = "активный";
+
+/* advanced structured reports */
+"advanced structured reports" = "расширенные структурированные отчеты";
+
+/* all detected */
+"all detected" = "все обнаружено";
+
+/* arp table */
+"arp table" = "таблица арп";
+
+/* as name */
+"as name" = "как имя";
+
+/* closed */
+"closed" = "закрыто";
+
+/* command */
+"command" = "команда";
+
+/* complete zone */
+"complete zone" = "полная зона";
+
+/* configured */
+"configured" = "настроен";
+
+/* creation date */
+"creation date" = "дата создания";
+
+/* device sweep */
+"device sweep" = "развертка устройства";
+
+/* did not answer within */
+"did not answer within" = "не ответил в течение";
+
+/* differs */
+"differs" = "отличается";
+
+/* domain name */
+"domain name" = "доменное имя";
+
+/* down */
+"down" = "вниз";
+
+/* downlink capacity */
+"downlink capacity" = "пропускная способность нисходящей линии связи";
+
+/* expiration date */
+"expiration date" = "срок годности";
+
+/* expiration date: */
+"expiration date:" = "срок годности:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "срок действия истек %lld дней назад";
+
+/* expires today */
+"expires today" = "истекает сегодня";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "четыре эхо-запроса ICMP";
+
+/* gateway %@ */
+"gateway %@" = "шлюз %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "через %lld дней";
+
+/* inactive */
+"inactive" = "неактивный";
+
+/* incomplete */
+"incomplete" = "неполный";
+
+/* ip information */
+"ip information" = "IP-информация";
+
+/* just now */
+"just now" = "только что";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "ограничено локальным значением /24 для скорости";
+
+/* local */
+"local" = "местный";
+
+/* loss %@ */
+"loss %@" = "потеря %@";
+
+/* median %@ */
+"median %@" = "медиана %@";
+
+/* name server */
+"name server" = "сервер имен";
+
+/* name server: */
+"name server:" = "сервер имен:";
+
+/* network */
+"network" = "сеть";
+
+/* network lookup */
+"network lookup" = "поиск в сети";
+
+/* network quality */
+"network quality" = "качество сети";
+
+/* network report */
+"network report" = "сетевой отчет";
+
+/* networks */
+"networks" = "сети";
+
+/* no address */
+"no address" = "нет адреса";
+
+/* no answer */
+"no answer" = "нет ответа";
+
+/* no ping replies */
+"no ping replies" = "нет ответов на пинг";
+
+/* no reply */
+"no reply" = "нет ответа";
+
+/* open */
+"open" = "Открыть";
+
+/* packets transmitted */
+"packets transmitted" = "пакеты переданы";
+
+/* primary %@ */
+"primary %@" = "основной %@";
+
+/* public ip */
+"public ip" = "общедоступный IP-адрес";
+
+/* raw output */
+"raw output" = "необработанный результат";
+
+/* reachable */
+"reachable" = "достижимый";
+
+/* redirects followed */
+"redirects followed" = "последовали перенаправления";
+
+/* registrar name */
+"registrar name" = "имя регистратора";
+
+/* registry expiry date */
+"registry expiry date" = "срок действия реестра";
+
+/* registry expiry date: */
+"registry expiry date:" = "Срок действия реестра:";
+
+/* resolution failed */
+"resolution failed" = "разрешение не удалось";
+
+/* reverse dns */
+"reverse dns" = "обратный DNS";
+
+/* run with last target */
+"run with last target" = "бежать с последней целью";
+
+/* scoped */
+"scoped" = "ограниченный";
+
+/* search domain */
+"search domain" = "домен поиска";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "селектор._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "отпечаток пальца sha256";
+
+/* site report */
+"site report" = "отчет о сайте";
+
+/* summary */
+"summary" = "резюме";
+
+/* target */
+"target" = "цель";
+
+/* the address */
+"the address" = "адрес";
+
+/* the selected resource */
+"the selected resource" = "выбранный ресурс";
+
+/* the selected target */
+"the selected target" = "выбранная цель";
+
+/* the target */
+"the target" = "цель";
+
+/* timed out */
+"timed out" = "время ожидания истекло";
+
+/* unknown */
+"unknown" = "неизвестно";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "неограниченное количество запросов на диагностику";
+
+/* up */
+"up" = "вверх";
+
+/* updated date */
+"updated date" = "обновленная дата";
+
+/* uplink capacity */
+"uplink capacity" = "пропускная способность восходящей линии связи";
+
+/* verify return code */
+"verify return code" = "проверить код возврата";
+
+/* via %@ */
+"via %@" = "через %@";
+
+/* windows name */
+"windows name" = "имя Windows";
+
+/* ~%lld s */
+"~%lld s" = "~%lld с";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Добавить %@ в избранное";
+
+/* Favorites */
+"Favorites" = "Избранное";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Удалить %@ из избранного";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ мс";
+
+/* Pro features are locked */
+"Pro features are locked" = "Функции Pro заблокированы";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Купите или восстановите доступ, чтобы открыть их.";
+
+/* Restoring… */
+"Restoring…" = "Восстановление…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Активной покупки Netmin не обнаружено.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP-префикс";
+
+/* Primary */
+"Primary" = "Основная";
+
+/* All relevant */
+"All relevant" = "Все подходящие";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "Исходная ASN, например AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP-префикс, например 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Проверить, разрешено ли исходной ASN объявлять IP-префикс";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Попробовать выполнить полную передачу зоны с каждого авторитетного сервера имен";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Имя хоста, имя службы или IP-адрес";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Сравнить кэшированные ответы DNS от Cloudflare, Google, Quad9 и OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "Сравнить все подходящие типы записей";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Сравнение ответов общедоступных резолверов…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Сравнивает распространённые типы записей, подходящие для этой цели.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Проверяет A для имени хоста, PTR для IP-адреса или SRV для имени службы.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Все общедоступные резолверы вернули одинаковые ответы DNS.";
