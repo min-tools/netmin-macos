@@ -1,0 +1,3 @@
+/* Netmin — sr Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Нетмин открива уређаје и услуге на локалним мрежама које одаберете да прегледате.";
