@@ -1,0 +1,3 @@
+/* Netmin — ru Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin обнаруживает устройства и сервисы в локальных сетях, которые вы выбираете для проверки.";
