@@ -1,0 +1,3 @@
+/* Netmin — sv Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin upptäcker enheter och tjänster på lokala nätverk som du väljer att inspektera.";
