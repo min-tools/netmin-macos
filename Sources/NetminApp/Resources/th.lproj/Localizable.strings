@@ -1,0 +1,2690 @@
+/* Netmin — th localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "เอ็มเอส";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ รับการเชื่อมต่อ TCP";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ ไม่สามารถกู้คืนได้";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ ไม่สมบูรณ์";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ เปิด";
+
+/* %@ open ports */
+"%@ open ports" = "%@ พอร์ตเปิด";
+
+/* %@ per year */
+"%@ per year" = "%@ ต่อปี";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ ·%@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ ·%@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP ·%lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld ที่อยู่";
+
+/* %lld answers */
+"%lld answers" = "%lld คําตอบ";
+
+/* %lld bytes */
+"%lld bytes" = "%lld ไบต์";
+
+/* %lld checks */
+"%lld checks" = "%lld เช็ค";
+
+/* %lld day */
+"%lld day" = "%lld วัน";
+
+/* %lld days */
+"%lld days" = "%lld วัน";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld ตรวจพบ ·การสแกนทั้งหมดใช้เวลาประมาณ %lld วินาที";
+
+/* %lld devices */
+"%lld devices" = "%lld อุปกรณ์";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld อุปกรณ์บน %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld รายการ";
+
+/* %lld headers */
+"%lld headers" = "%lld หัวเรื่อง";
+
+/* %lld hops */
+"%lld hops" = "%lld ฮ็อปส์";
+
+/* %lld hosts */
+"%lld hosts" = "%lld เจ้าบ้าน";
+
+/* %lld hour */
+"%lld hour" = "%lld ชั่วโมง";
+
+/* %lld hours */
+"%lld hours" = "%lld ชั่วโมง";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld ไม่สมบูรณ์";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld อินเทอร์เฟซ";
+
+/* %lld keys */
+"%lld keys" = "%lld กุญแจ";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld จํากัดเฉพาะ/24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld บรรทัด ·%lld ตัวอักษร";
+
+/* %lld matches */
+"%lld matches" = "%lld การจับคู่";
+
+/* %lld minute */
+"%lld minute" = "%lld นาที";
+
+/* %lld minutes */
+"%lld minutes" = "%lld นาที";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld บรรทัดเพิ่มเติม ·ใช้ Copy Result สําหรับผลลัพธ์ทั้งหมด";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld มีชื่อ ·%lld ไม่มีชื่อ";
+
+/* %lld names */
+"%lld names" = "%lld ชื่อ";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld เพื่อนบ้าน";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld จาก %lld เครือข่าย ·ประมาณ %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld จาก %lld เปิด";
+
+/* %lld open */
+"%lld open" = "%lld เปิด";
+
+/* %lld received */
+"%lld received" = "%lld ได้รับแล้ว";
+
+/* %lld records */
+"%lld records" = "%lld บันทึก";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld บันทึก ·บางส่วน";
+
+/* %lld redirects */
+"%lld redirects" = "%lld การเปลี่ยนเส้นทาง";
+
+/* %lld responses */
+"%lld responses" = "%lld คําตอบ";
+
+/* %lld routes */
+"%lld routes" = "%lld เส้นทาง";
+
+/* %lld rows */
+"%lld rows" = "%lld แถว";
+
+/* %lld second */
+"%lld second" = "%lld วินาที";
+
+/* %lld seconds */
+"%lld seconds" = "%lld วินาที";
+
+/* %lld service types */
+"%lld service types" = "%lld ประเภทบริการ";
+
+/* %lld services */
+"%lld services" = "%lld บริการ";
+
+/* %lld tools */
+"%lld tools" = "%lld เครื่องมือ";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) มิลลิวินาที";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", พร้อม:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ตกลง)";
+
+/* 1 match */
+"1 match" = "1 แมตช์";
+
+/* 1 response */
+"1 response" = "1 การตอบกลับ";
+
+/* 1 service */
+"1 service" = "1 บริการ";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 นาทีที่แล้ว";
+
+/* ; fully validated */
+"; fully validated" = ";ได้รับการตรวจสอบอย่างสมบูรณ์";
+
+/* ; unsigned answer */
+"; unsigned answer" = ";คําตอบที่ไม่ได้ลงนาม";
+
+/* ; validation failed */
+"; validation failed" = ";การตรวจสอบความถูกต้องล้มเหลว";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "ช่วง CIDR ต้องมีที่อยู่เต็มก่อนคํานําหน้า เช่น 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "การสวีปสามารถเพิ่มระยะได้สูงสุด 16 ช่วงที่เพิ่มด้วยมือ";
+
+/* ARP Table */
+"ARP Table" = "ตาราง ARP";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "การค้นหา ASN และ BGP";
+
+/* Actions */
+"Actions" = "การดําเนินการ";
+
+/* Active */
+"Active" = "แอคทีฟ";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "รายการที่ใช้งานอยู่ซึ่งรายงานโดย macOS และเครื่องมือค้นหาในเครื่อง";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "รายการที่ใช้งานรายงานโดย macOS";
+
+/* Add */
+"Add" = "เพิ่ม";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "เพิ่ม %@ ลงในการสแกน";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "เพิ่มช่วงข้อมูล เช่น 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "เพิ่มด้วยตนเอง";
+
+/* Added range */
+"Added range" = "เพิ่มระยะ";
+
+/* Address */
+"Address" = "ที่อยู่";
+
+/* Address details */
+"Address details" = "รายละเอียดที่อยู่";
+
+/* Address details for %@ */
+"Address details for %@" = "รายละเอียดที่อยู่สําหรับ %@";
+
+/* Addresses */
+"Addresses" = "ที่อยู่";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "ที่อยู่ที่ Mac เครื่องนี้เพิ่งแลกเปลี่ยนแพ็กเก็ตด้วย";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "เพิ่มการเข้าถึง, พอร์ตทั่วไป และเส้นทางอาจใช้เวลาสักนาที";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "เพิ่มความพยายามในการโอนโซน, สัญญาณ DNSSEC, ชื่อโฮสต์เพิ่มเติม และชื่อใบรับรอง";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "บริการที่โฆษณาบน Bonjour";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "โฆษณาในช่วงช่วงเวลาค้นหาข้อมูล";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "ที่อยู่ IPv4 ต้องการตัวเลขสี่ตัวตั้งแต่ 0 ถึง 255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "คํานําหน้า IPv4 จะเริ่มตั้งแต่ /0 ถึง /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "คํานําหน้า IPv6 จะทํางานตั้งแต่ /0 ถึง /128";
+
+/* Answer %lld */
+"Answer %lld" = "คําตอบ %lld";
+
+/* Answers */
+"Answers" = "คําตอบ";
+
+/* Answers by resolver */
+"Answers by resolver" = "คําตอบตามตัวแก้ไข";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "คําตอบคืนในราคา %@";
+
+/* Assigned address */
+"Assigned address" = "ที่อยู่ที่กําหนด";
+
+/* Authenticated */
+"Authenticated" = "ได้รับการยืนยันตัวตนแล้ว";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "ต่ออายุอัตโนมัติทุกปี ·ยกเลิกได้ทุกเวลา";
+
+/* Average */
+"Average" = "ค่าเฉลี่ย";
+
+/* Bits */
+"Bits" = "บิต";
+
+/* Bonjour Services */
+"Bonjour Services" = "บริการสวัสดีบองชูร์";
+
+/* Bonjour services */
+"Bonjour services" = "บริการ Bonjour";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "เรียกดูประเภทบริการ Bonjour ที่ประกาศบนเครือข่ายท้องถิ่นเป็นเวลา 5 วินาที";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "เรียกดูประเภทบริการที่โฆษณาบน Bonjour...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "สร้างรายงาน DNS, การกําหนดเส้นทาง, การเป็นเจ้าของ และเครือข่ายแบบรวมกัน";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "สร้างรายงานรวมสําหรับการเชื่อมต่อเครือข่ายปัจจุบัน";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "กําลังสร้างรายงานสําหรับการเชื่อมต่อปัจจุบัน...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "กําลังสร้าง DNS, รายงานการกําหนดเส้นทาง และรายงานความเป็นเจ้าของ...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "เครื่องคิดเลข CIDR";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "ช่วง CIDR ·%@ ที่อยู่";
+
+/* Calculated result */
+"Calculated result" = "ผลลัพธ์ที่คํานวณได้";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "การคํานวณขอบเขตเครือข่ายและจํานวนที่อยู่...";
+
+/* Cancel */
+"Cancel" = "ยกเลิก";
+
+/* Certificate */
+"Certificate" = "ใบรับรอง";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "ความโปร่งใสของใบรับรอง";
+
+/* Certificate expires */
+"Certificate expires" = "ใบรับรองหมดอายุ";
+
+/* Certificate names */
+"Certificate names" = "ชื่อใบรับรอง";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "ตรวจสอบพอร์ต DNS, เว็บและ SSH, ส่วนหัว HTTPS, ใบรับรองเชน, เวอร์ชัน TLS, OCSP และ MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "ตรวจสอบว่าตัวตรวจสอบยืนยันความถูกต้องของคำตอบ DNS หรือไม่";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "ตรวจสอบว่าตัวตรวจสอบยืนยันความถูกต้องของคำตอบ TLSA หรือไม่";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "ตรวจสอบว่าโซนที่มีลายเซ็นเปิดเผยระเบียน NSEC หรือไม่";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "ตรวจสอบว่าพอร์ต TCP หนึ่งพอร์ตรับการเชื่อมต่อหรือไม่";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "ตรวจสอบว่าโดเมนนั้นรวมอยู่หรือมีสิทธิ์สําหรับการโหลดล่วงหน้า HSTS หรือไม่";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "กําลังตรวจสอบ DNS, TLS, เว็บและบริการอีเมล...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "กําลังตรวจสอบสถานะรายการโหลด HSTS...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "กําลังตรวจสอบบันทึก NSEC ที่เผยแพร่...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "กําลังตรวจสอบพอร์ต TCP ที่พบบ่อยที่สุด 25 พอร์ต...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "กําลังตรวจสอบเวอร์ชัน HTTP ที่เจรจาต่อรองและการตอบกลับ...";
+
+/* Checks */
+"Checks" = "เช็ค";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "ตรวจสอบระเบียน apex, นโยบายอีเมล, บริการ, โฮสต์ทั่วไป และตัวเลือก DKIM";
+
+/* Choose a tool */
+"Choose a tool" = "เลือกเครื่องมือ";
+
+/* Cipher */
+"Cipher" = "รหัสลับ";
+
+/* Ciphersuite */
+"Ciphersuite" = "ชุดรหัสลับ";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "ล้างข้อมูลล่าสุด";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "ล้างข้อมูลล่าสุด...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "ล้างข้อมูล Netmin ล่าสุดได้ไหม?";
+
+/* Clear search */
+"Clear search" = "ล้างการค้นหา";
+
+/* Clear target */
+"Clear target" = "เป้าหมายชัดเจน";
+
+/* Clock offset */
+"Clock offset" = "การเลื่อนนาฬิกา";
+
+/* Close */
+"Close" = "ปิด";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "บริการ Wi-Fi และรายละเอียดจุดเชื่อมต่อใกล้เคียง...";
+
+/* Common Port Scan */
+"Common Port Scan" = "การสแกนพอร์ตทั่วไป";
+
+/* Common TCP services */
+"Common TCP services" = "บริการ TCP ทั่วไป";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "เปรียบเทียบคําตอบ IPv4 จาก Cloudflare, Google, Quad9 และ OpenDNS";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "การเปรียบเทียบคําตอบ IPv4 จากตัวแก้ไขสาธารณะ...";
+
+/* Complete */
+"Complete" = "สมบูรณ์";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "โซน DNS ครบสําหรับ %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "ความสมบูรณ์: สมบูรณ์";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "ความสมบูรณ์: การค้นพบบางส่วน";
+
+/* Configuration */
+"Configuration" = "การกําหนดค่า";
+
+/* Connection */
+"Connection" = "การเชื่อมต่อ";
+
+/* Connection quality */
+"Connection quality" = "คุณภาพการเชื่อมต่อ";
+
+/* Connection succeeded */
+"Connection succeeded" = "การเชื่อมต่อสําเร็จ";
+
+/* Connection timing */
+"Connection timing" = "เวลาการเชื่อมต่อ";
+
+/* Consistent */
+"Consistent" = "สม่ําเสมอ";
+
+/* Content */
+"Content" = "เนื้อหา";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "เนื้อหาที่ส่งกลับโดยเป้าหมาย พร้อมสําหรับการตรวจสอบหรือคัดลอก";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "แปลงโดเมนที่เป็นสากลระหว่างฟอร์ม Unicode และ ASCII";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "การแปลงโดเมนระหว่าง Unicode และ ASCII...";
+
+/* Copied %@ */
+"Copied %@" = "คัดลอก %@";
+
+/* Copy Address */
+"Copy Address" = "คัดลอกที่อยู่";
+
+/* Copy Command */
+"Copy Command" = "คําสั่งคัดลอก";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "คัดลอกที่อยู่ MAC";
+
+/* Copy Name */
+"Copy Name" = "คัดลอกชื่อ";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "คัดลอกผลลัพธ์ดิบ";
+
+/* Copy Result */
+"Copy Result" = "คัดลอกผลลัพธ์";
+
+/* Copy Summary */
+"Copy Summary" = "สรุปสําเนา";
+
+/* Copy Target */
+"Copy Target" = "คัดลอกเป้าหมาย";
+
+/* Copy error */
+"Copy error" = "ข้อผิดพลาดในการคัดลอก";
+
+/* Country */
+"Country" = "ประเทศ";
+
+/* Coverage */
+"Coverage" = "การครอบคลุม";
+
+/* DANE Validation */
+"DANE Validation" = "การตรวจสอบ DANE";
+
+/* DHCP Lease */
+"DHCP Lease" = "สัญญาเช่า DHCP";
+
+/* DHCP lease */
+"DHCP lease" = "สัญญาเช่า DHCP";
+
+/* DHCP server */
+"DHCP server" = "เซิร์ฟเวอร์ DHCP";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "การกําหนดค่า DNS";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS ตรวจสอบ NSEC Walk";
+
+/* DNS Propagation */
+"DNS Propagation" = "การแพร่กระจายของ DNS";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "สรุปสั้น ๆ ของ DNS";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "การติดตาม DNS";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "การค้นหาโซน DNS";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "การโอนย้ายโซน DNS";
+
+/* DNS answers */
+"DNS answers" = "คําตอบ DNS";
+
+/* DNS configuration */
+"DNS configuration" = "การกําหนดค่า DNS";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS ผ่าน HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS ผ่านปลายทาง TLS";
+
+/* DNS records */
+"DNS records" = "ระเบียน DNS";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "บันทึก DNS ที่ค้นพบสําหรับ %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "ระเบียน DNS ตําแหน่งทางภูมิศาสตร์ และ ASN โดยปกติจะเก็บไว้ไม่กี่วินาที";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "ตัวแก้ไข DNS ที่ใช้งานอยู่";
+
+/* DNS response */
+"DNS response" = "การตอบสนอง DNS";
+
+/* DNS server */
+"DNS server" = "เซิร์ฟเวอร์ DNS";
+
+/* DNS service name */
+"DNS service name" = "ชื่อบริการ DNS";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "การติดตามโซ่ DNSSEC";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "การตรวจสอบ DNSSEC";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "การตรวจสอบ DNSSEC";
+
+/* Deep */
+"Deep" = "ลึก";
+
+/* Deep discovery */
+"Deep discovery" = "การค้นพบอย่างลึกซึ้ง";
+
+/* Default */
+"Default" = "ค่าเริ่มต้น";
+
+/* Default route */
+"Default route" = "เส้นทางเริ่มต้น";
+
+/* Default ·  */
+"Default · " = "ค่าเริ่มต้น ·";
+
+/* Depth */
+"Depth" = "ความลึก";
+
+/* Destination */
+"Destination" = "จุดหมายปลายทาง";
+
+/* Destination not reached */
+"Destination not reached" = "ยังไม่ถึงจุดหมายปลายทาง";
+
+/* Details */
+"Details" = "รายละเอียด";
+
+/* Detect again */
+"Detect again" = "ตรวจจับอีกครั้ง";
+
+/* Devices */
+"Devices" = "อุปกรณ์";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "อุปกรณ์ (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "ความแตกต่างระหว่างนาฬิกาของ Mac รุ่นนี้กับ %@";
+
+/* Directives */
+"Directives" = "คําสั่ง";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "ค้นพบระเบียน DNS สาธารณะ บริการมาตรฐาน นโยบายอีเมล ตัวเลือก DKIM และข้อมูลโซนที่เปิดเผย";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "ค้นพบเราเตอร์ อุปกรณ์จัดเก็บข้อมูล ทีวี และบริการ UPnP อื่น ๆ";
+
+/* Discovered network resources */
+"Discovered network resources" = "ทรัพยากรเครือข่ายที่ค้นพบ";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "กําลังค้นหาอุปกรณ์และบริการ UPnP...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "ค้นพบอุปกรณ์ท้องถิ่นและบริการที่โฆษณา...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "กําลังค้นหาระเบียน DNS สาธารณะและข้อมูลโซน...";
+
+/* Discovery output */
+"Discovery output" = "ผลลัพธ์จากการค้นพบ";
+
+/* Discovery results */
+"Discovery results" = "ผลการค้นพบ";
+
+/* DoT hostname */
+"DoT hostname" = "ชื่อโฮสต์ของ DoT";
+
+/* Domain */
+"Domain" = "โดเมน";
+
+/* Domain name */
+"Domain name" = "ชื่อโดเมน";
+
+/* Domain or hostname */
+"Domain or hostname" = "โดเมนหรือชื่อโฮสต์";
+
+/* Download */
+"Download" = "ดาวน์โหลด";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "เราเตอร์แต่ละตัวบนเส้นทาง;เวลาไปกลับจะถูกวัดที่ปลายทาง";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "เปิดใช้งานพฤติกรรมเสริมของเครื่องมือ";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "ป้อนช่วงข้อมูล เช่น 172.16.4.0/22";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "ป้อนช่วง IPv4 ที่มีคํานําหน้าตั้งแต่ /0 ถึง /30 เช่น 192.168.1.0/24";
+
+/* Entries */
+"Entries" = "ผลงาน";
+
+/* Ethernet */
+"Ethernet" = "อีเธอร์เน็ต";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "ทุกที่อยู่ในช่วงที่ร้องขอ หนึ่งที่อยู่ต่อบรรทัด";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "ทุกอินเทอร์เฟซของ macOS รายงานพร้อมที่อยู่และสถานะลิงก์";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "ตัวแก้ไขสาธารณะทุกตัวส่งคําตอบ IPv4 เหมือนกัน";
+
+/* Exit status */
+"Exit status" = "สถานะการออก";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "ขยายบล็อก CIDR ที่จัดการได้ไปยังที่อยู่แต่ละรายการ";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "ขยายกลุ่มผลิตภัณฑ์ CIDR ไปยังที่อยู่เฉพาะบุคคล...";
+
+/* Expires */
+"Expires" = "หมดอายุ";
+
+/* Failed */
+"Failed" = "ล้มเหลว";
+
+/* Fast local discovery */
+"Fast local discovery" = "การค้นพบในพื้นที่อย่างรวดเร็ว";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "ดึงกฎการเข้าถึงของครอว์เลอร์ของไซต์";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "ดึงนโยบายการติดต่อความปลอดภัยที่เผยแพร่ของเว็บไซต์";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "การดึง HTTP header และการเปลี่ยนเส้นทางที่ตามมา...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "กําลังดึงข้อมูลตําแหน่งและเครือข่าย IP...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "การดึงบันทึกการลงทะเบียน IP ผ่าน RDAP...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "การดึงกุญแจโฮสต์ SSH และคํานวณลายนิ้วมือ...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "การดึงส่วนหัวความปลอดภัยของเบราว์เซอร์...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "การดึงข้อมูลการจดทะเบียนโดเมนผ่าน RDAP...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "กําลังดึงสถานะการตรวจสอบเส้นทางต้นทาง...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "กําลังดึงใบรับรอง HTTPS และรายละเอียดตัวตน...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "การดึงเชนใบรับรองและการเย็บ OCSP ตอบกลับ...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "การดึงกฎการเข้าถึงของครอว์เลอร์ของเว็บไซต์...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "กําลังดึงนโยบายการติดต่อความปลอดภัยของเว็บไซต์...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "การดึงที่อยู่ IP สาธารณะของคุณ...";
+
+/* Fields */
+"Fields" = "สนาม";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "เครื่องมือกรอง %lld";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "กรองตาม IP, ชื่อ, อินเทอร์เฟซ";
+
+/* Final status */
+"Final status" = "สถานะสุดท้าย";
+
+/* Find Tool… */
+"Find Tool…" = "ค้นหาเครื่องมือ...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "ค้นหาเครื่องมือ Netmin";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "ค้นหาชื่อใบรับรองที่สามารถเปิดเผยซับโดเมนที่เกี่ยวข้อง";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "ค้นหาบริการ SMTP ที่ได้รับการยืนยันตัวตนที่โฆษณาไว้";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "ค้นหาบริการกําหนดค่าอีเมลที่โฆษณา";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "ค้นหาบริการ IMAP ที่ปลอดภัยที่โฆษณาไว้";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "ค้นหาชื่อโฮสต์ที่เชื่อมโยงกับที่อยู่ IP";
+
+/* Fingerprint */
+"Fingerprint" = "ลายนิ้วมือ";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "ลายนิ้วมือที่เซิร์ฟเวอร์นําเสนอ เพื่อเปรียบเทียบกับข้อมูลที่โฮสต์รู้จัก";
+
+/* First */
+"First" = "อันดับแรก";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "ติดตามการมอบหมาย DNS จากรากจนถึงคําตอบ";
+
+/* Formatted */
+"Formatted" = "จัดรูปแบบแล้ว";
+
+/* Formatted address */
+"Formatted address" = "ที่อยู่ที่จัดรูปแบบแล้ว";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "กําลังจัดรูปแบบที่อยู่ MAC...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "ฟรี ·%lld จาก %lld คําขอที่ทิ้งไว้วันนี้";
+
+/* From */
+"From" = "จาก";
+
+/* Full */
+"Full" = "เต็ม";
+
+/* Gateway */
+"Gateway" = "เกตเวย์";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "เกตเวย์ %@ ·เส้นทางเริ่มต้น";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "เกตเวย์และเส้นทาง";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "ตารางเกตเวย์และการกําหนดเส้นทาง";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "สถานะการโหลดล่วงหน้าของ HSTS";
+
+/* HTTP Headers */
+"HTTP Headers" = "ส่วนหัว HTTP";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "โปรโตคอล HTTP";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "ส่วนหัวความปลอดภัย HTTP";
+
+/* HTTP response */
+"HTTP response" = "การตอบสนอง HTTP";
+
+/* HTTP status */
+"HTTP status" = "สถานะ HTTP";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "การตอบสนองด้วยการจับมือ";
+
+/* Hide */
+"Hide" = "ซ่อน";
+
+/* Hop */
+"Hop" = "กระโดด";
+
+/* Hops */
+"Hops" = "ฮ็อปส์";
+
+/* Host */
+"Host" = "พิธีกร";
+
+/* Host and port */
+"Host and port" = "โฮสต์และพอร์ต";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "โฮสต์และพอร์ต เช่น example.com:443";
+
+/* Host keys */
+"Host keys" = "คีย์โฮสต์";
+
+/* Hostname */
+"Hostname" = "ชื่อโฮสต์";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "ชื่อโฮสต์ที่ปรากฏในใบรับรองสาธารณะสําหรับโดเมนนี้";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "โฮสต์ที่ตอบรับ ping หรือปรากฏในแคชของเพื่อนบ้าน พร้อมชื่อ ความหน่วง และบริการที่โฆษณาไว้";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "โฮสต์ บริการที่โฆษณา และจุดเชื่อมต่อที่เข้าถึงได้พบในช่วงรันนี้";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "เซิร์ฟเวอร์ IANA WHOIS";
+
+/* IP Information */
+"IP Information" = "ข้อมูลทรัพย์สินทางปัญญา";
+
+/* IP Range Expander */
+"IP Range Expander" = "ตัวขยายช่วง IP";
+
+/* IP address */
+"IP address" = "ที่อยู่ IP";
+
+/* IP address or ASN */
+"IP address or ASN" = "ที่อยู่ IP หรือ ASN";
+
+/* IP address or domain */
+"IP address or domain" = "ที่อยู่ IP หรือโดเมน";
+
+/* IP address or hostname */
+"IP address or hostname" = "ที่อยู่ IP หรือชื่อโฮสต์";
+
+/* IP address or prefix */
+"IP address or prefix" = "ที่อยู่ IP หรือคํานําหน้า";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, การกําหนดเส้นทาง และการลงทะเบียน";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "ช่วง CIDR IPv4, สูงสุด 4096 ที่อยู่";
+
+/* IPv4 address */
+"IPv4 address" = "ที่อยู่ IPv4";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "ที่อยู่ IPv4 พร้อม CIDR";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "เพื่อนบ้าน IPv4";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "เพื่อนบ้าน IPv6";
+
+/* IPv6 address */
+"IPv6 address" = "ที่อยู่ IPv6";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "ตรวจสอบระเบียน DNSSEC และลายเซ็นการตรวจสอบ";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "ตรวจสอบแบนเนอร์ SMTP และเจรจา STARTTLS";
+
+/* Interface */
+"Interface" = "อินเทอร์เฟซ";
+
+/* Interface Inventory */
+"Interface Inventory" = "คลังอินเทอร์เฟซ";
+
+/* Interfaces */
+"Interfaces" = "อินเทอร์เฟซ";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "เข้าร่วมเครือข่ายหรือเพิ่มช่วงด้านล่างการรันการสแกนจะขอให้ผู้ช่วยดูอีกครั้ง";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "ฟิลด์คีย์จากการตอบกลับรีจิสทรี";
+
+/* Keys */
+"Keys" = "กุญแจ";
+
+/* Last */
+"Last" = "สุดท้าย";
+
+/* Latency */
+"Latency" = "ความหน่วง";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "การวัดความหน่วง การเข้าถึง และเส้นทาง";
+
+/* Lease details */
+"Lease details" = "รายละเอียดสัญญาเช่า";
+
+/* Lease time */
+"Lease time" = "ระยะเวลาเช่า";
+
+/* Limited */
+"Limited" = "จํากัด";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "จํากัดความเร็วเฉพาะ /24 ท้องถิ่น";
+
+/* Lines */
+"Lines" = "เส้นทาง";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "ลิงก์รายละเอียดสําหรับ Mac เครื่องนี้และจุดเชื่อมต่อที่ macOS สามารถเห็นได้ในขณะนี้";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "กําลังโหลดสินค้าจาก App Store...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "การสแกนอุปกรณ์ภายในเครื่อง";
+
+/* Local Network */
+"Local Network" = "เครือข่ายท้องถิ่น";
+
+/* Location */
+"Location" = "ที่ตั้ง";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "ค้นหาชื่อโดเมนในบันทึกใบรับรอง...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "กําลังค้นหาเซิร์ฟเวอร์ส่งจดหมาย...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "ค้นหาข้อมูลการจดทะเบียนและบันทึกการเป็นเจ้าของ...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "กําลังค้นหาบริการส่ง SMTP...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "กําลังค้นหาบริการกําหนดค่าอีเมล...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "ค้นหาชื่อโฮสต์ของที่อยู่ IP นี้...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "ค้นหา origin ASN และ routed prefix...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "กําลังค้นหาบริการ IMAP ที่ปลอดภัย...";
+
+/* MAC Formatter */
+"MAC Formatter" = "แมคฟอร์แมตเตอร์";
+
+/* MAC address */
+"MAC address" = "ที่อยู่ MAC";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "ซ่อน MAC และผู้ขาย";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC และผู้ขายซ่อนอยู่ — ว่างเปล่าในรันนี้";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "แสดง MAC และผู้ขาย";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "จดหมาย";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Mail Autodiscover SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "อีเมล BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "อีเมล DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "อีเมล DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "อีเมล IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "อีเมล MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "เมล SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "การส่งจดหมาย SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "รายงาน TLS ของอีเมล";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "อีเมล TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "โดเมนอีเมล";
+
+/* Mail domain or server */
+"Mail domain or server" = "โดเมนหรือเซิร์ฟเวอร์อีเมล";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "เซิร์ฟเวอร์อีเมลและพอร์ต เช่น mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "จัดการการสมัครสมาชิก";
+
+/* Maximum */
+"Maximum" = "สูงสุด";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "วัดข้อมูลการดาวน์โหลด อัปโหลด ความตอบสนอง และรายละเอียดการเชื่อมต่อในปัจจุบัน";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "วัดความสามารถในการเข้าถึงและความหน่วงไป-กลับ";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "วัดความจุและความตอบสนองของการเชื่อมต่อปัจจุบัน";
+
+/* Measurement */
+"Measurement" = "การวัด";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "การวัดการดาวน์โหลด อัปโหลด และการตอบสนอง...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "การวัดความสามารถในการเข้าถึงและความหน่วงไป-กลับ...";
+
+/* Minimum */
+"Minimum" = "ขั้นต่ํา";
+
+/* Mode */
+"Mode" = "โหมด";
+
+/* More copy options */
+"More copy options" = "ตัวเลือกการคัดลอกเพิ่มเติม";
+
+/* My Network Report */
+"My Network Report" = "รายงานเครือข่ายของฉัน";
+
+/* My Public IP */
+"My Public IP" = "ทรัพย์สินทางปัญญาสาธารณะของฉัน";
+
+/* NTP Offset */
+"NTP Offset" = "ออฟเซ็ต NTP";
+
+/* NTP server */
+"NTP server" = "เซิร์ฟเวอร์ NTP";
+
+/* Name */
+"Name" = "ชื่อ";
+
+/* Names */
+"Names" = "ชื่อ";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "ชื่อในบันทึกใบรับรอง";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "เจรจา TLS กับบริการ implicit-TLS ใด ๆ และแสดงโปรโตคอลและรหัสลับที่เลือก";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "โปรโตคอลที่เจรจาไว้ รหัสลับ ใบรับรอง และสถานะการตรวจสอบ";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "การเจรจา SMTP STARTTLS...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "กําลังเจรจา TLS บนพอร์ตบริการที่ระบุ...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "กําลังเจรจาการเชื่อมต่อ HTTPS TLS...";
+
+/* Neighbor */
+"Neighbor" = "เพื่อนบ้าน";
+
+/* Neighbor cache */
+"Neighbor cache" = "แคชเพื่อนบ้าน";
+
+/* Neighbors */
+"Neighbors" = "เพื่อนบ้าน";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "อายุการใช้งาน Netmin Pro ·%@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro ประจําปี";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin ค้นหาอุปกรณ์และบริการบนเครือข่ายท้องถิ่นที่คุณเลือกตรวจสอบ";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin หยุดคําสั่งนี้หลังจาก %lld วินาที";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin หยุดคําสั่งนี้หลังจากที่ผลลัพธ์ออกมา %@";
+
+/* Network */
+"Network" = "เครือข่าย";
+
+/* Network Lookup */
+"Network Lookup" = "การค้นหาเครือข่าย";
+
+/* Network Quality */
+"Network Quality" = "คุณภาพเครือข่าย";
+
+/* Network entries */
+"Network entries" = "รายการเครือข่าย";
+
+/* Network interfaces */
+"Network interfaces" = "อินเทอร์เฟซเครือข่าย";
+
+/* Networks */
+"Networks" = "เครือข่าย";
+
+/* Networks scanned */
+"Networks scanned" = "เครือข่ายที่สแกน";
+
+/* Networks to scan */
+"Networks to scan" = "เครือข่ายที่จะสแกน";
+
+/* New Lookup */
+"New Lookup" = "การค้นหาใหม่";
+
+/* New Report */
+"New Report" = "รายงานใหม่";
+
+/* New Sweep */
+"New Sweep" = "การสวีปใหม่";
+
+/* No */
+"No" = "ไม่";
+
+/* No DNS records found */
+"No DNS records found" = "ไม่พบระเบียน DNS";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "ไม่พบการซื้อ Netmin Pro สําหรับบัญชี Apple นี้";
+
+/* No common ports are open */
+"No common ports are open" = "ไม่มีพอร์ตทั่วไปเปิดอยู่";
+
+/* No common services */
+"No common services" = "ไม่มีบริการร่วม";
+
+/* No data returned */
+"No data returned" = "ไม่มีข้อมูลที่ส่งคืน";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "ไม่มีอุปกรณ์ใดตรงกับ \"%@\"";
+
+/* No devices responded */
+"No devices responded" = "ไม่มีอุปกรณ์ใดตอบสนอง";
+
+/* No diagnostic output */
+"No diagnostic output" = "ไม่มีเอาต์พุตวินิจฉัย";
+
+/* No input required */
+"No input required" = "ไม่ต้องใช้อินพุต";
+
+/* No matching tools */
+"No matching tools" = "ไม่มีเครื่องมือจับคู่";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "ไม่พบเครือข่าย IPv4 ส่วนตัว ·เพิ่มช่วงเพื่อสแกน";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "ไม่พบเครือข่าย IPv4 ส่วนตัว";
+
+/* No result returned */
+"No result returned" = "ไม่มีผลลัพธ์ที่ส่งคืน";
+
+/* No target */
+"No target" = "ไม่มีเป้าหมาย";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "ไม่มีเครื่องมือใดตรงกับ \"%@\"";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "ปรับที่อยู่ MAC ให้เป็นรูปแบบคั่นด้วยโคลอนตัวใหญ่";
+
+/* Not reached */
+"Not reached" = "ไม่ถึง";
+
+/* Not selected */
+"Not selected" = "ไม่ได้เลือก";
+
+/* Notafter */
+"Notafter" = "หลังจากนั้น";
+
+/* Notes */
+"Notes" = "หมายเหตุ";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "ไม่มีสัญญาณตอบกลับหรือปรากฏในแคชของเพื่อนบ้านบนเครือข่ายที่สแกนตรวจสอบว่า Mac เครื่องนี้อยู่ในเครือข่ายที่คาดหวังหรือเพิ่มช่วงสัญญาณด้วยตนเอง";
+
+/* Nothing detected */
+"Nothing detected" = "ไม่พบอะไร";
+
+/* Off */
+"Off" = "ปิด";
+
+/* Offset */
+"Offset" = "ออฟเซ็ต";
+
+/* On */
+"On" = "เปิด";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "ส่งคืนเฉพาะการส่งต่อ IANA เท่านั้นลองใหม่ %@ หรือใช้ RDAP เพื่อดึงข้อมูลผู้ลงทะเบียน, เซิร์ฟเวอร์ชื่อ และวันที่ลงทะเบียน";
+
+/* Open */
+"Open" = "เปิด";
+
+/* Open ports */
+"Open ports" = "เปิดพอร์ต";
+
+/* Open ports: */
+"Open ports:" = "พอร์ตที่เปิดอยู่:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "มี IPv4 CIDR เป็นอุปกรณ์เสริม;สแกน LAN ที่ใช้งานอยู่ทั้งหมดโดยไม่ตั้งคําถาม";
+
+/* Options */
+"Options" = "ตัวเลือก";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "ต้นกําเนิด AS และคํานําหน้าที่ส่งต่อ";
+
+/* Other */
+"Other" = "อื่น ๆ";
+
+/* Output */
+"Output" = "ผลลัพธ์";
+
+/* Overview */
+"Overview" = "ภาพรวม";
+
+/* Packet loss */
+"Packet loss" = "การสูญเสียแพ็กเก็ต";
+
+/* Partial */
+"Partial" = "บางส่วน";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "ส่ง %@ ไปยังคําสั่ง";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "การชําระเงินจะถูกส่งไปยังบัญชี Apple ของคุณการสมัครสมาชิกรายปีจะต่ออายุโดยอัตโนมัติ เว้นแต่จะยกเลิกในการตั้งค่า App Store อย่างน้อยหนึ่งวันก่อนสิ้นสุดช่วงเวลาปัจจุบัน";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "เลือกเครื่องมือจากแถบด้านข้างหรือกด ⌘K เพื่อค้นหาทั้งหมด";
+
+/* Ping */
+"Ping" = "ปิ๊ง";
+
+/* Port */
+"Port" = "ท่าเรือ";
+
+/* Port %@ is open */
+"Port %@ is open" = "ท่าเรือ %@ เปิดอยู่";
+
+/* Ports */
+"Ports" = "พอร์ต";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "พอร์ตที่รับการเชื่อมต่อ";
+
+/* Primary mail server */
+"Primary mail server" = "เซิร์ฟเวอร์เมลหลัก";
+
+/* Primary nameserver */
+"Primary nameserver" = "เซิร์ฟเวอร์ชื่อหลัก";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "อินเทอร์เฟซหลัก";
+
+/* Privacy */
+"Privacy" = "ความเป็นส่วนตัว";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "นโยบายความเป็นส่วนตัว...";
+
+/* Pro */
+"Pro" = "ข้อดี";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "การซื้อแบบ Pro ไม่สามารถใช้งานได้ในขณะนี้กรุณาลองใหม่อีกครั้งในภายหลัง";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "ทดลองใช้แบบโปร ·เหลือเวลา %lld วัน";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "ทดลองใช้งานแบบโปร ·เหลือเวลา 1 วัน";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "ทดลองใช้แบบมืออาชีพ ·สิ้นสุด %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "ทดลองใช้แบบโปร ·การชําระเงินครั้งแรก%@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "ทดลองใช้แบบโปร ·จนถึง %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro เปลี่ยนผลลัพธ์การวินิจฉัยดิบเป็นตาราง เมตริก และผลการค้นพบหลังจากทดลองใช้งาน 30 วัน Free จะรวมผลลัพธ์ดิบสําหรับคําขอสูงสุดห้าคําขอต่อวัน";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "ข้อดี ·สิ้นสุด %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "ข้อดี ·ตลอดอายุการใช้งาน";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "ข้อดี ·ต่ออายุ %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "ข้อดี ·แชร์กับครอบครัวของคุณ";
+
+/* Pro · until %@ */
+"Pro · until %@" = "ข้อดี ·จนถึง %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "ตรวจสอบพอร์ต TCP ทั่วไป 25 พอร์ตด้วยเครื่องมือเครือข่ายที่รวมอยู่ใน macOS";
+
+/* Probed */
+"Probed" = "ถูกตรวจสอบ";
+
+/* Proto */
+"Proto" = "โปรโต";
+
+/* Protocol */
+"Protocol" = "พิธีการ";
+
+/* Protocol Version */
+"Protocol Version" = "เวอร์ชันโปรโตคอล";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "การค้นหา DNS สาธารณะเป็นเพียงบางส่วน";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "การตรวจสอบ DNS สาธารณะพบบันทึกที่มีประโยชน์ แต่ชื่อที่กําหนดเองอาจยังถูกซ่อนอยู่";
+
+/* Public IP */
+"Public IP" = "ทรัพย์สินทางปัญญาสาธารณะ";
+
+/* Public IPv4 */
+"Public IPv4" = "IPv4 สาธารณะ";
+
+/* Public IPv6 */
+"Public IPv6" = "IPv6 สาธารณะ";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "รายละเอียดการเป็นเจ้าของที่อยู่สาธารณะและเครือข่าย";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "ตัวแก้ไขสาธารณะให้คําตอบที่แตกต่างกัน;อาจมีการเปลี่ยนแปลงที่ยังคงแพร่กระจายอยู่";
+
+/* Punycode Converter */
+"Punycode Converter" = "ตัวแปลงรหัสขนาดเล็ก";
+
+/* Purchase */
+"Purchase" = "การซื้อ";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "ขณะนี้ไม่สามารถซื้อสินค้าได้";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "สืบค้นระเบียน A ผ่านจุดเชื่อมต่อ DNS-over-HTTPS";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "สอบถามชื่อ NetBIOS และกลุ่มงานที่โฆษณาโดยอุปกรณ์ Windows หรือ SMB";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "สอบถามนาฬิกาเซิร์ฟเวอร์และแสดงค่าออฟเซ็ตท้องถิ่นที่วัดได้";
+
+/* Querying %@… */
+"Querying %@…" = "กําลังสอบถาม %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "กําลังสอบถามบันทึกตําแหน่งทางภูมิศาสตร์ของ DNS...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "กําลังสืบค้นระเบียนข้อความ DNS...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "กําลังสอบถามคีย์สาธารณะ DNSSEC...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "กําลังสอบถามระเบียน DNSSEC และลายเซ็น...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "การสอบถาม endpoint และ connection hints...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "กําลังสอบถามระเบียนที่อยู่ IPv4 (A)...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "การสืบค้นระเบียน IPv4 ผ่าน HTTPS...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "กําลังสืบค้นระเบียนที่อยู่ IPv6 (AAAA)...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "กําลังสอบถามระเบียนการค้นหานโยบาย MTA-STS...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "กําลังสืบค้นระเบียนการเชื่อมโยงใบรับรอง TLS...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "กําลังสอบถามบันทึกรายงานการส่งมอบ TLS...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "กําลังสืบค้นระเบียนเซิร์ฟเวอร์ชื่อที่เชื่อถือได้...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "กําลังค้นหาบันทึกตัวบ่งชี้แบรนด์...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "กําลังสืบค้นระเบียนอนุญาตหน่วยงานออกใบรับรอง...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "กําลังสอบถามระเบียนผู้ลงนามการมอบหมาย...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "กําลังสอบถามระเบียนชื่อโฮสต์ (CNAME)...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "กําลังสอบถามการผูกบริการและพารามิเตอร์การเชื่อมต่อ...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "กําลังสืบค้นกฎการค้นหาบริการ...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "กําลังสอบถามโฮสต์บริการ พอร์ต และลําดับความสําคัญ...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "กําลังสอบถามคีย์สาธารณะของตัวเลือก DKIM...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "กําลังสอบถามชื่ออุปกรณ์ Windows หรือ SMB...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "กําลังสอบถามนโยบายการตรวจสอบสิทธิ์อีเมล...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "กําลังสอบถามนโยบายการอนุญาตผู้ส่ง...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "กําลังสอบถามเซิร์ฟเวอร์เวลาและวัดการเลื่อนนาฬิกา...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "กําลังสอบถามข้อมูลอํานาจโซนและบันทึกเวลา...";
+
+/* Quick */
+"Quick" = "เร็วเข้า";
+
+/* Quick lookup */
+"Quick lookup" = "ค้นหาอย่างรวดเร็ว";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "ค้นหาอุปกรณ์ท้องถิ่น เครื่องพิมพ์ และบริการที่โฆษณาได้อย่างรวดเร็ว";
+
+/* RDAP Domain */
+"RDAP Domain" = "โดเมน RDAP";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "การตรวจสอบ RPKI";
+
+/* Ran %@ */
+"Ran %@" = "ออกอากาศ %@";
+
+/* Raw Output */
+"Raw Output" = "ผลผลิตดิบ";
+
+/* Raw output */
+"Raw output" = "ผลผลิตดิบ";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "การเข้าถึงได้ง่ายและเวลาเดินทางไปกลับในราคา %@";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "พอร์ต บริการ และรายละเอียดคีย์โฮสต์ที่เข้าถึงได้";
+
+/* Reached */
+"Reached" = "ถึงแล้ว";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "อ่านเพื่อนบ้าน IPv4 ที่แคชไว้...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "กําลังอ่านเพื่อนบ้าน IPv6 ที่แคชไว้...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "กําลังอ่านตัวแก้ไข DNS ของ macOS และโดเมนค้นหา...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "กําลังอ่านที่อยู่และสถานะของอินเทอร์เฟซเครือข่าย...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "กําลังอ่าน DHCP lease ของอินเทอร์เฟซที่ใช้งานอยู่...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "กําลังอ่านตารางเกตเวย์และตารางเส้นทางเริ่มต้น...";
+
+/* Recent */
+"Recent" = "ล่าสุด";
+
+/* Record */
+"Record" = "สถิติ";
+
+/* Records */
+"Records" = "สถิติ";
+
+/* Registrar */
+"Registrar" = "เจ้าหน้าที่ทะเบียน";
+
+/* Registration and routing data */
+"Registration and routing data" = "ข้อมูลการลงทะเบียนและการกําหนดเส้นทาง";
+
+/* Registry record */
+"Registry record" = "ระเบียนทะเบียน";
+
+/* Registry response */
+"Registry response" = "การตอบกลับรีจิสทรี";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "การตอบกลับรีจิสทรีไม่สมบูรณ์";
+
+/* Related */
+"Related" = "ที่เกี่ยวข้อง";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "จดจําสําหรับผลลัพธ์ถัดไป ·⌘1 ภาพรวม, ⌘2 ผลลัพธ์ดิบ";
+
+/* Remove this range */
+"Remove this range" = "ลบช่วงนี้";
+
+/* Replies */
+"Replies" = "คําตอบ";
+
+/* Report for %@ */
+"Report for %@" = "รายงานสําหรับ %@";
+
+/* Report overview */
+"Report overview" = "ภาพรวมรายงาน";
+
+/* Reports */
+"Reports" = "รายงาน";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "ขอการโอนย้ายโซน DNS แบบสมบูรณ์จากเซิร์ฟเวอร์ที่เชื่อถือได้";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "ขอการโอนย้ายโซน DNS แบบสมบูรณ์...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "กําหนดให้ใช้ TLS 1.2 และแสดงว่าการเจรจาต่อรองประสบความสําเร็จหรือไม่";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "กําหนดให้ใช้ TLS 1.3 และแสดงว่าการเจรจาต่อรองประสบความสําเร็จหรือไม่";
+
+/* Resolved */
+"Resolved" = "ได้รับการแก้ไขแล้ว";
+
+/* Resolved address */
+"Resolved address" = "ที่อยู่ที่แก้ไขแล้ว";
+
+/* Resolver */
+"Resolver" = "ตัวแก้ไข";
+
+/* Resolver %@ */
+"Resolver %@" = "ตัวแก้ไข %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "ผลลัพธ์ของ Resolver ถูกจัดกลุ่มไว้สําหรับการตรวจสอบอย่างรวดเร็ว";
+
+/* Resolver response */
+"Resolver response" = "การตอบสนองของรีโซลเวอร์";
+
+/* Resolvers */
+"Resolvers" = "ตัวแก้ไข";
+
+/* Resolvers agree */
+"Resolvers agree" = "ตัวแก้ไขเห็นพ้องกัน";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "รีโซลเวอร์และโดเมนค้นหาที่ macOS กําลังใช้งานอยู่ในขณะนี้ เรียงตามลําดับความสําคัญ";
+
+/* Resolvers differ */
+"Resolvers differ" = "ตัวแก้ไขแตกต่างกัน";
+
+/* Resources */
+"Resources" = "แหล่งข้อมูล";
+
+/* Response */
+"Response" = "การตอบสนอง";
+
+/* Response %lld */
+"Response %lld" = "ตอบกลับ %lld";
+
+/* Responses */
+"Responses" = "การตอบกลับ";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "คําตอบสําหรับการค้นหาแบบมัลติคาสต์ หนึ่งใบต่อการประกาศ";
+
+/* Responsiveness */
+"Responsiveness" = "ความตอบสนอง";
+
+/* Restore Purchases */
+"Restore Purchases" = "กู้คืนการซื้อ";
+
+/* Result */
+"Result" = "ผลการแข่งขัน";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "ผลลัพธ์จะถูกจัดกลุ่มตามแต่ละการตรวจสอบเครือข่ายที่เสร็จสิ้น";
+
+/* Retry registry */
+"Retry registry" = "รีจิสทรีลองใหม่";
+
+/* Reverse DNS */
+"Reverse DNS" = "Reverse DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "เที่ยวไป-กลับ";
+
+/* Route to target */
+"Route to target" = "เส้นทางไปยังเป้าหมาย";
+
+/* Router */
+"Router" = "เราเตอร์";
+
+/* Routes */
+"Routes" = "เส้นทาง";
+
+/* Routing record */
+"Routing record" = "ระเบียนการกําหนดเส้นทาง";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "ข้อมูลรีจิสทรีสําหรับการกําหนดเส้นทางสําหรับ %@";
+
+/* Routing table */
+"Routing table" = "ตารางเส้นทาง";
+
+/* Run */
+"Run" = "วิ่ง";
+
+/* Run Again */
+"Run Again" = "วิ่งอีกครั้ง";
+
+/* Run Lookup */
+"Run Lookup" = "เรียกใช้การค้นหา";
+
+/* Run Report */
+"Run Report" = "รันรายงาน";
+
+/* Run Sweep */
+"Run Sweep" = "กวาดล้าง";
+
+/* Run Tool */
+"Run Tool" = "เครื่องมือเรียกใช้";
+
+/* Run again */
+"Run again" = "วิ่งอีกครั้ง";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "เรียกใช้เครื่องมือ %@";
+
+/* Running */
+"Running" = "การวิ่ง";
+
+/* Running %@… */
+"Running %@…" = "กําลังวิ่ง %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "การวิ่ง ·%@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "สตาตเทิล SMTP";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "การค้นหา SSDP/UPnP";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "กุญแจโฮสต์ SSH";
+
+/* SSH host keys */
+"SSH host keys" = "กุญแจโฮสต์ SSH";
+
+/* Save Report… */
+"Save Report…" = "บันทึกรายงาน...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "บันทึกรายงานและคัดลอกสรุปที่มีโครงสร้าง";
+
+/* Scan */
+"Scan" = "สแกน";
+
+/* Scripts */
+"Scripts" = "บทภาพยนตร์";
+
+/* Search domain */
+"Search domain" = "ค้นหาโดเมน";
+
+/* Sections */
+"Sections" = "ส่วนต่าง ๆ";
+
+/* Security details */
+"Security details" = "รายละเอียดความปลอดภัย";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "ที่เลือก";
+
+/* Sequence */
+"Sequence" = "ลําดับ";
+
+/* Server */
+"Server" = "เซิร์ฟเวอร์";
+
+/* Service */
+"Service" = "การปฏิบัติหน้าที่";
+
+/* Service reachability */
+"Service reachability" = "การเข้าถึงบริการ";
+
+/* Service type */
+"Service type" = "ประเภทบริการ";
+
+/* Service types */
+"Service types" = "ประเภทบริการ";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "ประเภทบริการที่ประกาศบนเครือข่ายท้องถิ่นในช่วงเวลาการค้นหา";
+
+/* Services */
+"Services" = "บริการ";
+
+/* Show */
+"Show" = "การแสดง";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "แสดงการเชื่อมโยงใบรับรอง DANE สําหรับบริการ TLS";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "แสดงจุดสิ้นสุดบริการ HTTPS และคําแนะนําการเชื่อมต่อ";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "แสดงที่อยู่ IPv4 ที่เผยแพร่สําหรับชื่อโฮสต์";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "แสดงเพื่อนบ้าน IPv4 ที่ Mac เครื่องนี้เพิ่งติดต่อ";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "แสดงที่อยู่ IPv6 ที่เผยแพร่สําหรับชื่อโฮสต์";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "แสดงรายละเอียดลิงก์ Wi-Fi และจุดเชื่อมต่อใกล้เคียงที่มองเห็นโดย macOS";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "แสดงที่อยู่, MTU, สถานะ และตัวนับสําหรับทุกอินเทอร์เฟซเครือข่าย";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "แสดงเพื่อนบ้าน IPv6 ที่แคชไว้และที่อยู่ชั้นลิงก์ของพวกมัน";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "แสดงตัวตนของใบรับรอง ผู้ออกใบรับรอง ความถูกต้อง และลายนิ้วมือ SHA-256";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "แสดงเราเตอร์แต่ละตัวบนเส้นทางไปยังปลายทาง";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "แสดงบันทึกตําแหน่งทางภูมิศาสตร์ที่เผยแพร่โดยโซน";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "แสดงรายละเอียดตําแหน่ง เครือข่าย ASN และเจ้าของ";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "แสดงเวอร์ชัน TLS ที่เจรจาต่อรอง รหัสลับ การแลกเปลี่ยนกุญแจ และการตรวจสอบ";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "แสดงขอบเขตเครือข่าย, netmask, ที่อยู่บรอดแคสต์ และขนาด";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "แสดงบันทึกข้อความที่เผยแพร่และนโยบายโดเมน";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "แสดงบันทึกการลงทะเบียนและความเป็นเจ้าของดิบ";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "แสดงรายละเอียดการจัดสรรและการลงทะเบียนรีจิสทรีสําหรับ IP";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "แสดงรายละเอียดการลงทะเบียนและสถานะของโดเมน";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "แสดงส่วนหัวการตอบสนองและทุกการเปลี่ยนเส้นทาง";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "แสดงบันทึกการค้นหาบริการโดยใช้กฎ";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "แสดงจุดสิ้นสุดบริการและพารามิเตอร์การเชื่อมต่อ";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "แสดงโฮสต์บริการ พอร์ต ลําดับความสําคัญ และน้ําหนัก";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "แสดงตัวแก้ไข DNS และโดเมนค้นหาที่ macOS ใช้งานจริง";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "แสดงสถานะการตรวจสอบเส้นทางต้นทาง RPKI ที่รายงานโดย RIPE";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "แสดงเซิร์ฟเวอร์ DHCP ของอินเทอร์เฟซที่ใช้งานอยู่ การเช่า และตัวเลือกที่จัดเตรียมไว้";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "แสดงเซิร์ฟเวอร์ชื่อที่เชื่อถือได้สําหรับโดเมน";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "แสดงเป้าหมายนามแฝงมาตรฐานสําหรับชื่อโฮสต์";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "แสดงโซ่ใบรับรองที่ให้บริการครบถ้วน ผลการตรวจสอบ และการตอบกลับ OCSP ที่เย็บติด";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "แสดงเกตเวย์เริ่มต้นและตารางเส้นทาง IPv4 และ IPv6 ทั้งหมด";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "แสดงนโยบายตัวบ่งชี้แบรนด์ของโดเมน";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "แสดงนโยบายการตรวจสอบสิทธิ์อีเมลของโดเมน";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "แสดงเวอร์ชัน HTTP ที่เจรจาไว้ สถานะ ที่อยู่เซิร์ฟเวอร์ และผลลัพธ์ TLS";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "แสดง ASN ต้นทาง, รหัสนําหน้าที่กําหนด, รีจิสทรี และรายละเอียดการจัดสรร";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "แสดงระเบียนผู้ลงนามการมอบหมายในโซนแม่";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "แสดงนโยบายที่ต้องการการส่งจดหมายที่ปลอดภัย";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "แสดงส่วนหัวความปลอดภัยหลักของเบราว์เซอร์ที่ส่งคืนโดยไซต์";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "แสดงที่อยู่ IP สาธารณะที่อินเทอร์เน็ตเห็น";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "แสดงคีย์สาธารณะสําหรับตัวเลือก DKIM";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "แสดงคีย์สาธารณะที่ใช้ในการตรวจสอบความถูกต้องของโซน DNS";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "แสดงลายนิ้วมือ SSH host-key ที่โฆษณาของเซิร์ฟเวอร์";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "แสดงเซิร์ฟเวอร์ที่รับอีเมลสําหรับโดเมน";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "แสดงตําแหน่งที่ส่งรายงานการส่งมอบ TLS";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "แสดงว่าหน่วยงานใบรับรองใดสามารถออกใบรับรองได้";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "แสดงเซิร์ฟเวอร์ที่ได้รับอนุญาตให้ส่งอีเมล";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "แสดงข้อมูลอํานาจโซน หมายเลขซีเรียล และข้อมูล timing";
+
+/* Site Report */
+"Site Report" = "รายงานไซต์งาน";
+
+/* Site report for example.org */
+"Site report for example.org" = "รายงานไซต์สําหรับ example.org";
+
+/* State */
+"State" = "รัฐ";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "สถานะ:/เครือข่าย/ระดับโลก/IPv4";
+
+/* Statistics */
+"Statistics" = "สถิติ";
+
+/* Status */
+"Status" = "สถานะ";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "สถานะ, โปรโตคอล, การเปลี่ยนเส้นทาง และส่วนหัวที่ส่งคืน";
+
+/* Stop */
+"Stop" = "หยุด";
+
+/* Stop Sweep */
+"Stop Sweep" = "หยุดกวาด";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "การตอบกลับรีจิสทรีที่มีโครงสร้างสําหรับ %@";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "รายงานแบบมีโครงสร้างเป็นฟีเจอร์ของ Netmin Pro";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "รายงานที่มีโครงสร้างพร้อมตาราง ตัวชี้วัด และผลการค้นพบ";
+
+/* Structured resolver response. */
+"Structured resolver response." = "การตอบสนองแบบรีโซลเวอร์ที่มีโครงสร้าง";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "การตอบสนองที่มีโครงสร้างจากเว็บเซอร์วิส";
+
+/* System network configuration */
+"System network configuration" = "การกําหนดค่าเครือข่ายระบบ";
+
+/* TCP Port Check */
+"TCP Port Check" = "ตรวจสอบพอร์ต TCP";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "การเข้าถึง TCP";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 การจับมือ";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 การจับมือ";
+
+/* TLS Certificate */
+"TLS Certificate" = "ใบรับรอง TLS";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "ชุดใบรับรอง TLS";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS Handshake";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "บริการ TLS Handshake";
+
+/* TLS connection */
+"TLS connection" = "การเชื่อมต่อ TLS";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, เว็บ และพอร์ต";
+
+/* Target */
+"Target" = "เป้าหมาย";
+
+/* Target (optional) */
+"Target (optional)" = "เป้าหมาย (ไม่บังคับ)";
+
+/* Target did not reply */
+"Target did not reply" = "เป้าหมายไม่ได้ตอบกลับ";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "เป้าหมายไม่สามารถมีช่องว่างได้";
+
+/* Terms */
+"Terms" = "เงื่อนไข";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "ทดสอบ SMTP 25, SMTPS 465, submission 587, IMAPS 993 และ POP3S 995 พร้อมกัน";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "ทดสอบการเจรจา TLS กับเซิร์ฟเวอร์ DNS-over-TLS";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "กําลังทดสอบการเจรจาต่อรอง TLS 1.2...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "กําลังทดสอบการเจรจาต่อรอง TLS 1.3...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "ทดสอบการเจรจา TLS บนพอร์ต DNS 853...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "การทดสอบ TLS บนบริการ SMTP, IMAP และ POP3...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "กําลังทดสอบการเชื่อมต่อกับพอร์ต TCP ที่ระบุ...";
+
+/* Text */
+"Text" = "ข้อความ";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "พอร์ต TCP ที่พบบ่อยที่สุด 25 พอร์ตถูกตรวจสอบด้วยเวลาหมดเวลา 1 วินาที";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store ไม่สามารถยืนยันการซื้อนี้ได้";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "ที่อยู่ MAC ในรูปแบบตัวพิมพ์ใหญ่แบบมาตรฐาน แยกด้วยโคลอน";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "แคตตาล็อกเครื่องมือ Netmin ไม่มีเครื่องมือที่ถูกต้อง";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL ต้องมีสคีมและโฮสต์ เช่น https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "การเช่าอินเทอร์เฟซที่ใช้งานอยู่และตัวเลือกที่เซิร์ฟเวอร์ DHCP ให้ไว้";
+
+/* The address is not valid. */
+"The address is not valid." = "ที่อยู่ไม่ถูกต้อง";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "ที่อยู่ที่อินเทอร์เน็ตเห็นสําหรับการเชื่อมต่อนี้";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "แอปติดตามการเปลี่ยนเส้นทาง แต่เว็บไซต์ส่งไฟล์นี้กลับไปยัง URL เดิมซ้ําๆไม่มีไฟล์ถูกส่งคืน";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "เซิร์ฟเวอร์ที่เชื่อถือได้อนุญาตให้ถ่ายโอนโซน AXFR ได้อย่างสมบูรณ์";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "เซิร์ฟเวอร์ที่เชื่อถือได้ไม่ได้ให้การถ่ายโอนโซนอย่างสมบูรณ์นี่คือบันทึกที่พบผ่านการตรวจสอบสาธารณะ;ชื่อที่กําหนดเองอาจยังคงมีอยู่";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "แคตตาล็อกเครื่องมือ Netmin ที่มากับชุดมานั้นหายไป";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "คําสั่งสําเร็จ แต่เป้าหมายไม่ส่งข้อมูลตรงกัน";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "คําสั่งล้มเหลวก่อนที่จะแสดงผลลัพธ์สําหรับการวินิจฉัย";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "เส้นทางเริ่มต้นและเส้นทาง IPv4 และ IPv6 ทุกเส้นทางที่ macOS รู้จัก";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "30 วันแรกจะรวม Pro หลังจากทดลองใช้ Free จะเก็บเครื่องมือทั้งหมด 84 ชิ้นและผลลัพธ์ดิบไว้ โดยมีคําขอวินิจฉัยวันละห้าครั้ง";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "คํานําหน้าหลัง / ต้องเป็นตัวเลข";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "กระบวนการออกจากกระบวนการด้วยสถานะ %lld ก่อนส่งคืนรายละเอียดตรวจสอบว่าคําสั่งที่ต้องการถูกติดตั้งและสามารถเข้าถึงเป้าหมายได้";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "การซื้อกําลังรอการอนุมัติ";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "รีจิสทรีจะส่งคืนการตอบกลับแบบไม่มีโครงสร้าง;บรรทัดที่มีประโยชน์แสดงไว้ด้านล่าง";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "ตัวแก้ไขไม่ให้คําตอบที่ตรงกัน";
+
+/* This Mac */
+"This Mac" = "Mac เครื่องนี้";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "ฟีเจอร์นี้จะลบเป้าหมายที่บันทึกไว้และสรุปที่รันล่าสุดออกจาก Mac เครื่องนี้จะไม่ลบรายงานที่ส่งออก";
+
+/* Time */
+"Time" = "เวลา";
+
+/* Timeouts */
+"Timeouts" = "เวลานอก";
+
+/* Tools */
+"Tools" = "เครื่องมือ";
+
+/* Tools unavailable */
+"Tools unavailable" = "เครื่องมือไม่พร้อมใช้งาน";
+
+/* Trace */
+"Trace" = "ร่องรอย";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "ติดตามเชนความน่าเชื่อถือ DNSSEC จากราก";
+
+/* Traceroute */
+"Traceroute" = "เส้นทางเดินตาม";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "การติดตามการมอบหมาย DNS และระเบียน DNSSEC...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "ติดตามการมอบอํานาจ DNS จากราก...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "ติดตามเส้นทางเครือข่ายไปยังปลายทาง...";
+
+/* Try Again */
+"Try Again" = "ลองอีกครั้ง";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "ลองใช้ RDAP แทน→";
+
+/* Type */
+"Type" = "ประเภท";
+
+/* Types */
+"Types" = "ประเภท";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "อุปกรณ์และบริการ UPnP";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "ความไม่แน่นอน";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "การวินิจฉัยเครือข่ายไม่จํากัดพร้อมรายงานและเครื่องมือส่งออกที่อ่านง่าย";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "ใช้เครื่องมือวินิจฉัยทั้ง 84 รายการได้ไม่จํากัด";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "ปลดล็อก %@ พร้อมฟีเจอร์ Pro ครบชุด";
+
+/* Unlock Report… */
+"Unlock Report…" = "ปลดล็อกรายงาน...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "ปลดล็อกสรุปโครงสร้าง...";
+
+/* Unnamed */
+"Unnamed" = "ไม่มีชื่อ";
+
+/* Unsigned */
+"Unsigned" = "ไม่ได้ลงนาม";
+
+/* Upload */
+"Upload" = "อัปโหลด";
+
+/* Use custom resolver */
+"Use custom resolver" = "ใช้ตัวแก้ไขแบบกําหนดเอง";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "ใช้ host:port, ที่อยู่ IPv6 หรือ MAC address";
+
+/* Utilities */
+"Utilities" = "สาธารณูปโภค";
+
+/* VPN tunnel */
+"VPN tunnel" = "อุโมงค์ VPN";
+
+/* Validated */
+"Validated" = "ได้รับการตรวจสอบแล้ว";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "กําลังตรวจสอบความถูกต้องของระเบียน TLSA และโซ่ DNSSEC ของพวกมัน...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "กําลังตรวจสอบคําตอบ DNS และเชน DNSSEC...";
+
+/* Value */
+"Value" = "มูลค่า";
+
+/* Values produced by %@. */
+"Values produced by %@." = "ค่าที่ได้จาก %@";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "ค่าที่รายงานโดย macOS สําหรับ %@";
+
+/* Values returned for %@. */
+"Values returned for %@." = "ค่าที่ส่งคืนเป็น %@";
+
+/* Vendor */
+"Vendor" = "ผู้ขาย";
+
+/* Verification */
+"Verification" = "การตรวจสอบ";
+
+/* Verify Return Code */
+"Verify Return Code" = "ตรวจสอบรหัสคืนสินค้า";
+
+/* View */
+"View" = "ดู";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "ดู Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "สะพานเสมือนจริง";
+
+/* Virtual machine network */
+"Virtual machine network" = "เครือข่ายเครื่องเสมือน";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "เซิร์ฟเวอร์ WHOIS";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "รอคําตอบแรก...";
+
+/* Web policy status */
+"Web policy status" = "สถานะนโยบายเว็บ";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "การวินิจฉัย Wi-Fi";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "สถานะ Wi-Fi";
+
+/* Window */
+"Window" = "หน้าต่าง";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "การค้นหาชื่อ Windows";
+
+/* Yes */
+"Yes" = "ใช่";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "คุณมี Netmin Pro";
+
+/* Your public address */
+"Your public address" = "การประกาศสาธารณะของคุณ";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "ที่ใช้งานอยู่";
+
+/* advanced structured reports */
+"advanced structured reports" = "รายงานโครงสร้างขั้นสูง";
+
+/* all detected */
+"all detected" = "ตรวจพบทั้งหมด";
+
+/* arp table */
+"arp table" = "ตาราง arp";
+
+/* as name */
+"as name" = "เป็นชื่อ";
+
+/* closed */
+"closed" = "ปิด";
+
+/* command */
+"command" = "คําสั่ง";
+
+/* complete zone */
+"complete zone" = "โซนสมบูรณ์";
+
+/* configured */
+"configured" = "ถูกตั้งค่าแล้ว";
+
+/* creation date */
+"creation date" = "วันที่สร้าง";
+
+/* device sweep */
+"device sweep" = "การกวาดอุปกรณ์";
+
+/* did not answer within */
+"did not answer within" = "ไม่ได้ตอบภายใน";
+
+/* differs */
+"differs" = "แตกต่าง";
+
+/* domain name */
+"domain name" = "ชื่อโดเมน";
+
+/* down */
+"down" = "ลง";
+
+/* downlink capacity */
+"downlink capacity" = "ความจุการส่งข้อมูลลง";
+
+/* expiration date */
+"expiration date" = "วันหมดอายุ";
+
+/* expiration date: */
+"expiration date:" = "วันหมดอายุ:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "หมดอายุ %lld วันที่แล้ว";
+
+/* expires today */
+"expires today" = "หมดอายุวันนี้";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "คําขอ echo ICMP สี่ครั้ง";
+
+/* gateway %@ */
+"gateway %@" = "เกตเวย์ %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "ใน %lld วัน";
+
+/* inactive */
+"inactive" = "ไม่ทํางาน";
+
+/* incomplete */
+"incomplete" = "ไม่สมบูรณ์";
+
+/* ip information */
+"ip information" = "ข้อมูล IP";
+
+/* just now */
+"just now" = "เมื่อกี้นี้";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "จํากัดความเร็วเฉพาะ /24 ท้องถิ่น";
+
+/* local */
+"local" = "ท้องถิ่น";
+
+/* loss %@ */
+"loss %@" = "สูญเสีย %@";
+
+/* median %@ */
+"median %@" = "ค่ามัธยฐาน %@";
+
+/* name server */
+"name server" = "เซิร์ฟเวอร์ชื่อ";
+
+/* name server: */
+"name server:" = "เซิร์ฟเวอร์ชื่อ:";
+
+/* network */
+"network" = "เครือข่าย";
+
+/* network lookup */
+"network lookup" = "การค้นหาเครือข่าย";
+
+/* network quality */
+"network quality" = "คุณภาพเครือข่าย";
+
+/* network report */
+"network report" = "รายงานเครือข่าย";
+
+/* networks */
+"networks" = "เครือข่าย";
+
+/* no address */
+"no address" = "ไม่มีที่อยู่";
+
+/* no answer */
+"no answer" = "ไม่มีคําตอบ";
+
+/* no ping replies */
+"no ping replies" = "ไม่มีการตอบกลับ ping";
+
+/* no reply */
+"no reply" = "ไม่มีการตอบกลับ";
+
+/* open */
+"open" = "เปิด";
+
+/* packets transmitted */
+"packets transmitted" = "แพ็กเก็ตที่ถูกส่ง";
+
+/* primary %@ */
+"primary %@" = "หลัก %@";
+
+/* public ip */
+"public ip" = "ทรัพย์สินทางปัญญาสาธารณะ";
+
+/* raw output */
+"raw output" = "ผลผลิตดิบ";
+
+/* reachable */
+"reachable" = "สามารถเข้าถึงได้";
+
+/* redirects followed */
+"redirects followed" = "เปลี่ยนเส้นทางตามมา";
+
+/* registrar name */
+"registrar name" = "ชื่อเจ้าหน้าที่ทะเบียน";
+
+/* registry expiry date */
+"registry expiry date" = "วันหมดอายุของรีจิสทรี";
+
+/* registry expiry date: */
+"registry expiry date:" = "วันหมดอายุของรีจิสทรี:";
+
+/* resolution failed */
+"resolution failed" = "การแก้ไขล้มเหลว";
+
+/* reverse dns */
+"reverse dns" = "DNS แบบย้อนกลับ";
+
+/* run with last target */
+"run with last target" = "ทํางานกับเป้าหมายสุดท้าย";
+
+/* scoped */
+"scoped" = "ถูกมอง";
+
+/* search domain */
+"search domain" = "โดเมนค้นหา";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.โดเมน";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "ลายนิ้วมือ sha256";
+
+/* site report */
+"site report" = "รายงานไซต์";
+
+/* summary */
+"summary" = "สรุป";
+
+/* target */
+"target" = "เป้าหมาย";
+
+/* the address */
+"the address" = "ที่อยู่";
+
+/* the selected resource */
+"the selected resource" = "ทรัพยากรที่เลือก";
+
+/* the selected target */
+"the selected target" = "เป้าหมายที่เลือก";
+
+/* the target */
+"the target" = "เป้าหมาย";
+
+/* timed out */
+"timed out" = "หมดเวลา";
+
+/* unknown */
+"unknown" = "ไม่ทราบ";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "คําขอวินิจฉัยไม่จํากัด";
+
+/* up */
+"up" = "ขึ้น";
+
+/* updated date */
+"updated date" = "วันที่อัปเดต";
+
+/* uplink capacity */
+"uplink capacity" = "ความจุการอัปโหลด";
+
+/* verify return code */
+"verify return code" = "ตรวจสอบรหัสการคืนสินค้า";
+
+/* via %@ */
+"via %@" = "ผ่าน %@";
+
+/* windows name */
+"windows name" = "ชื่อวินโดวส์";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "เพิ่ม %@ ไปยังรายการโปรด";
+
+/* Favorites */
+"Favorites" = "รายการโปรด";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "นำ %@ ออกจากรายการโปรด";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "ฟีเจอร์ Pro ถูกล็อก";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "ซื้อหรือกู้คืนสิทธิ์การเข้าถึงเพื่อปลดล็อก";
+
+/* Restoring… */
+"Restoring…" = "กำลังกู้คืน…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "ไม่พบการซื้อ Netmin ที่ใช้งานอยู่";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "คำนำหน้า IP";
+
+/* Primary */
+"Primary" = "หลัก";
+
+/* All relevant */
+"All relevant" = "ทั้งหมดที่เกี่ยวข้อง";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "ASN ต้นทาง เช่น AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "คำนำหน้า IP เช่น 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "ตรวจสอบว่า ASN ต้นทางได้รับอนุญาตให้ประกาศคำนำหน้า IP หรือไม่";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "ลองถ่ายโอนโซนทั้งหมดจากเนมเซิร์ฟเวอร์ที่มีสิทธิ์แต่ละเครื่อง";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "ชื่อโฮสต์ ชื่อบริการ หรือที่อยู่ IP";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "เปรียบเทียบคำตอบ DNS ที่แคชไว้จาก Cloudflare, Google, Quad9 และ OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "เปรียบเทียบประเภทระเบียนที่เกี่ยวข้องทั้งหมด";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "กำลังเปรียบเทียบคำตอบจากตัวแก้ไขสาธารณะ…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "เปรียบเทียบประเภทระเบียนทั่วไปที่ใช้กับเป้าหมายนี้";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "ตรวจสอบ A สำหรับชื่อโฮสต์, PTR สำหรับที่อยู่ IP หรือ SRV สำหรับชื่อบริการ";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "ตัวแก้ไขสาธารณะทั้งหมดส่งคืนคำตอบ DNS เดียวกัน";
