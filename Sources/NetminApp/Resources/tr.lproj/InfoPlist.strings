@@ -1,0 +1,3 @@
+/* Netmin — tr Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin, incelemeyi seçtiğiniz yerel ağlardaki cihazları ve hizmetleri keşfeder.";
