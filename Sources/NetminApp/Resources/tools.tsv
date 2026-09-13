@@ -1,0 +1,104 @@
+# Sections use [Group Name] and appear as native menu headings.
+# Normal action: title<TAB>command<TAB>target placeholder<TAB>description<TAB>[option label]<TAB>[option argument]<TAB>[option default]<TAB>[progress message]<TAB>[target policy]
+# Two-input action: title<TAB>command<TAB>target placeholder<TAB>second placeholder<TAB>description<TAB>[option label]<TAB>[option argument]<TAB>[option default]<TAB>[progress message]<TAB>[target policy]<TAB>[second-input policy]
+# The target is $1, a second input is $2, and a configured checkbox option is $3.
+# Leave unused option fields empty when specifying a progress message.
+# Prefix a target policy with "optional-" when a command accepts an empty target.
+
+[Reports]
+Network Lookup	/bin/bash "$NETMIN_HELPERS/netmin-network-lookup.sh" $3 "$1"	IP address or hostname	Build a combined DNS, routing, ownership, and network report	Quick lookup	--quick	on	Building the DNS, routing and ownership report…	host-or-ip
+Site Report	/bin/bash "$NETMIN_HELPERS/netmin-site-report.sh" "$1"	Domain or hostname	Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS				Checking DNS, TLS, web and mail services…	domain
+My Network Report	/bin/bash "$NETMIN_HELPERS/netmin-network-lookup.sh"	No input required	Build a combined report for the current network connection				Building a report for the current connection…
+My Public IP	/usr/bin/curl -fsSL https://api.ipify.org && /usr/bin/printf '\n'	No input required	Show the public IP address seen by the internet				Fetching your public IP address…
+
+[Local Network]
+Local Device Sweep	/bin/bash "$NETMIN_HELPERS/netmin-local-device-sweep.sh" "${1-}"	Optional IPv4 CIDR; blank scans all active LANs	Quickly find local devices, printers, and advertised services				Discovering local devices and advertised services…	optional-ipv4-cidr
+ARP Table	/usr/sbin/arp -an	No input required	Show IPv4 neighbors this Mac has recently contacted				Reading cached IPv4 neighbors…
+IPv6 Neighbors	/usr/sbin/ndp -an	No input required	Show cached IPv6 neighbors and their link-layer addresses				Reading cached IPv6 neighbors…
+Bonjour Services	/usr/bin/dns-sd -B _services._dns-sd._udp local. & discovery=$!; /bin/sleep 5; /bin/kill "$discovery" 2>/dev/null; wait "$discovery" 2>/dev/null || true	No input required	Browse Bonjour service types announced on the local network for five seconds				Browsing advertised Bonjour service types…
+SSDP/UPnP Discovery	/usr/bin/printf 'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 2\r\nST: ssdp:all\r\n\r\n' | /usr/bin/nc -u -w 4 239.255.255.250 1900	No input required	Discover routers, storage devices, TVs, and other UPnP services				Discovering UPnP devices and services…
+Windows Name Discovery	/bin/bash "$NETMIN_HELPERS/netmin-netbios-discovery.sh" "$1"	IP address or hostname	Query the NetBIOS name and workgroup advertised by a Windows or SMB device				Querying the Windows or SMB device name…	host-or-ip
+Gateway and Routes	/sbin/route -n get default; /usr/bin/printf '\nRouting table\n'; /usr/sbin/netstat -rn	No input required	Show the default gateway and the complete IPv4 and IPv6 route table				Reading the default gateway and routing tables…
+DNS Configuration	/usr/sbin/scutil --dns	No input required	Show the DNS resolvers and search domains macOS is actually using				Reading macOS DNS resolvers and search domains…
+DHCP Lease	interface=$(/sbin/route -n get default 2>/dev/null | /usr/bin/sed -n 's/.*interface: *//p' | /usr/bin/head -n 1); /usr/bin/printf 'Interface: %s\n\n' "$interface"; /usr/sbin/ipconfig getpacket "$interface"	No input required	Show the active interface's DHCP server, lease, and supplied options				Reading the active interface's DHCP lease…
+Wi-Fi Diagnostics	/usr/sbin/system_profiler SPAirPortDataType	No input required	Show Wi-Fi link details and nearby access points visible to macOS				Collecting Wi-Fi and nearby access point details…
+Interface Inventory	/sbin/ifconfig -a	No input required	Show addresses, MTU, status, and counters for every network interface				Reading network interface addresses and status…
+
+[IP, Routing and Registration]
+IP Information	/usr/bin/curl -fsSL "https://ipinfo.io/$1/json"	IP address	Show location, network, ASN, and ownership details				Fetching IP location and network details…	ip
+RDAP IP	/usr/bin/curl -fsSL "https://rdap.org/ip/$1"	IP address	Show registry allocation and registration details for an IP				Fetching IP registration records via RDAP…	ip
+RDAP Domain	/usr/bin/curl -fsSL "https://rdap.org/domain/$1"	Domain	Show registry registration and status details for a domain				Fetching domain registration records via RDAP…	domain
+WHOIS	/usr/bin/whois "$1"	IP address or domain	Show raw registration and ownership records				Looking up registration and ownership records…	host-or-ip
+ASN and BGP Lookup	/usr/bin/whois -h whois.cymru.com " -v $1"	IP address or ASN	Show the origin ASN, routed prefix, registry, and allocation details				Looking up the origin ASN and routed prefix…	asn-or-ip
+RPKI Validation	/usr/bin/curl -fsSLG --data-urlencode "resource=$1" --data-urlencode "prefix=$2" https://stat.ripe.net/data/rpki-validation/data.json | /usr/bin/jq .	Origin ASN, for example AS13335	IP prefix, for example 1.1.1.0/24	Check whether an origin ASN is authorized to announce an IP prefix				Fetching route-origin validation status…	asn	ip-prefix
+Reverse DNS	/usr/bin/dig +short -x "$1"	IP address	Find the hostname associated with an IP address				Looking up the hostname for this IP address…	ip
+Ping	/sbin/ping -c 4 "$1"	IP address or hostname	Measure reachability and round-trip latency				Measuring reachability and round-trip latency…	host-or-ip
+Traceroute	/bin/bash "$NETMIN_HELPERS/netmin-traceroute.sh" "$1"	IP address or hostname	Show each router on the path to the destination				Tracing the network path to the destination…	host-or-ip
+
+[DNS]
+DNS Zone Discovery	/bin/bash "$NETMIN_HELPERS/netmin-dns-zone-discovery.sh" "$1" $3	Domain or hostname	Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data	Deep discovery	--deep	off	Discovering public DNS records and zone data…	dns-name
+DNS Zone Transfer	/bin/bash "$NETMIN_HELPERS/netmin-dns-zone-transfer.sh" "$1"	Domain	Try a complete zone transfer from each authoritative name server				Requesting a complete DNS zone transfer…	domain
+DNS A	/usr/bin/dig +noall +answer A "$1"	Hostname	Show IPv4 addresses published for a hostname				Querying IPv4 address (A) records…	dns-name
+DNS AAAA	/usr/bin/dig +noall +answer AAAA "$1"	Hostname	Show IPv6 addresses published for a hostname				Querying IPv6 address (AAAA) records…	dns-name
+DNS CNAME	/usr/bin/dig +noall +answer CNAME "$1"	Hostname	Show the canonical alias target for a hostname				Querying hostname alias (CNAME) records…	dns-name
+DNS NS	/usr/bin/dig +noall +answer NS "$1"	Domain	Show the authoritative name servers for a domain				Querying authoritative name server records…	domain
+DNS SOA	/usr/bin/dig +noall +answer SOA "$1"	Domain	Show zone authority, serial, and timing information				Querying zone authority and timing records…	domain
+DNS TXT	/usr/bin/dig +noall +answer TXT "$1"	Domain	Show published text records and domain policies				Querying DNS text records…	dns-name
+DNS CAA	/usr/bin/dig +noall +answer CAA "$1"	Domain	Show which certificate authorities may issue certificates				Querying certificate authority authorization records…	domain
+DNS SRV	/usr/bin/dig +noall +answer SRV "$1"	_service._protocol.domain	Show service hosts, ports, priorities, and weights				Querying service hosts, ports and priorities…	service
+DNS NAPTR	/usr/bin/dig +noall +answer NAPTR "$1"	Domain	Show rule-based service discovery records				Querying service discovery rules…	domain
+DNS LOC	/usr/bin/dig +noall +answer LOC "$1"	Domain	Show geographic location records published by a zone				Querying DNS geographic location records…	domain
+DNS HTTPS	/usr/bin/dig +noall +answer TYPE65 "$1"	Hostname	Show HTTPS service endpoints and connection hints				Querying HTTPS endpoints and connection hints…	dns-name
+DNS SVCB	/usr/bin/dig +noall +answer TYPE64 "$1"	Hostname	Show service endpoints and connection parameters				Querying service bindings and connection parameters…	dns-name
+DNS TLSA	/usr/bin/dig +noall +answer TLSA "$1"	_443._tcp.hostname	Show DANE certificate associations for a TLS service				Querying TLS certificate association records…	service
+DNS Propagation	/bin/bash "$NETMIN_HELPERS/netmin-dns-propagation.sh" "$1" $3	Hostname, service name, or IP address	Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS	Compare all relevant record types	--all	off	Comparing answers from public resolvers…	dns-target
+DNS over HTTPS	/usr/bin/curl -fsSLG -H 'accept: application/dns-json' --data-urlencode "name=$1" --data-urlencode 'type=A' https://cloudflare-dns.com/dns-query | /usr/bin/jq .	Hostname	Query an A record through a DNS-over-HTTPS endpoint				Querying IPv4 records over HTTPS…	dns-name
+DNSSEC DS	/usr/bin/dig +noall +answer DS "$1"	Domain	Show the parent-zone delegation signer records				Querying delegation signer records…	domain
+DNSSEC DNSKEY	/usr/bin/dig +noall +answer DNSKEY "$1"	Domain	Show the public keys used to validate a DNS zone				Querying DNSSEC public keys…	domain
+DNSSEC Check	/usr/bin/dig +dnssec +multi "$1"	Domain	Inspect DNSSEC records and validation signatures				Querying DNSSEC records and signatures…	domain
+DNSSEC Validation	/bin/bash "$NETMIN_HELPERS/netmin-dnssec-validation.sh" "$1" A	Domain	Check whether a validating resolver authenticates the DNS answer				Validating the DNS answer and DNSSEC chain…	domain
+DNSSEC Chain Trace	/usr/bin/dig +trace +dnssec "$1"	Domain	Trace the DNSSEC trust chain from the root				Tracing DNS delegations and DNSSEC records…	domain
+DNS NSEC Walk Check	/usr/bin/dig +dnssec +noall +answer NSEC "$1"	Domain	Check whether a signed zone exposes NSEC records				Checking for published NSEC records…	domain
+DNS Trace	/usr/bin/dig +trace "$1"	Domain	Follow DNS delegation from the root to the answer				Tracing DNS delegations from the root…	domain
+
+[Mail]
+Mail MX	/usr/bin/dig +noall +answer MX "$1"	Mail domain	Show the servers that receive mail for a domain				Looking up mail delivery servers…	domain
+Mail SPF	/usr/bin/dig +short TXT "$1" | /usr/bin/awk 'tolower($0) ~ /v=spf1/'	Mail domain	Show which servers are authorized to send mail				Querying the sender authorization policy…	domain
+Mail DMARC	/usr/bin/dig +noall +answer TXT "_dmarc.$1"	Mail domain	Show the domain's email authentication policy				Querying the email authentication policy…	domain
+Mail DKIM	/usr/bin/dig +noall +answer TXT "$1"	selector._domainkey.domain	Show the public key for a DKIM selector				Querying the DKIM selector's public key…	dns-name
+Mail BIMI	/usr/bin/dig +noall +answer TXT "default._bimi.$1"	Mail domain	Show the domain's brand indicator policy				Querying brand indicator records…	domain
+Mail MTA-STS	/usr/bin/dig +noall +answer TXT "_mta-sts.$1"	Mail domain	Show the policy that requires secure mail delivery				Querying MTA-STS policy discovery records…	domain
+Mail TLS-RPT	/usr/bin/dig +noall +answer TXT "_smtp._tls.$1"	Mail domain	Show where TLS delivery reports are sent				Querying TLS delivery reporting records…	domain
+Mail Autodiscover SRV	/usr/bin/dig +noall +answer SRV "_autodiscover._tcp.$1"	Mail domain	Find the advertised email configuration service				Looking up the email configuration service…	domain
+Mail Submission SRV	/usr/bin/dig +noall +answer SRV "_submission._tcp.$1"	Mail domain	Find the advertised authenticated SMTP service				Looking up the SMTP submission service…	domain
+Mail IMAPS SRV	/usr/bin/dig +noall +answer SRV "_imaps._tcp.$1"	Mail domain	Find the advertised secure IMAP service				Looking up the secure IMAP service…	domain
+Mail TLS Report	/bin/bash "$NETMIN_HELPERS/netmin-site-report.sh" --mail "$1"	Mail domain or server	Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently				Testing TLS on SMTP, IMAP and POP3 services…	host-or-ip
+SMTP STARTTLS	target="$1"; host="${target%:*}"; host="${host#[}"; host="${host%]}"; /usr/bin/printf '' | /usr/bin/openssl s_client -starttls smtp -connect "$target" -servername "$host"	Mail server and port, for example mail.example.com:25	Inspect the SMTP banner and negotiate STARTTLS				Negotiating SMTP STARTTLS…	host-port
+DANE Validation	/bin/bash "$NETMIN_HELPERS/netmin-dnssec-validation.sh" "$1" TLSA	_service._tcp.hostname	Check whether a validating resolver authenticates the TLSA answer				Validating TLSA records and their DNSSEC chain…	service
+
+[TLS, Web and Ports]
+TLS Certificate	host="$1"; endpoint="$host:443"; [[ "$host" == *:* ]] && endpoint="[$host]:443"; /usr/bin/printf '' | /usr/bin/openssl s_client -connect "$endpoint" -servername "$host" 2>/dev/null | /usr/bin/openssl x509 -noout -subject -issuer -serial -dates -fingerprint -sha256	Hostname	Show certificate identity, issuer, validity, and SHA-256 fingerprint				Fetching the HTTPS certificate and identity details…	host-or-ip
+TLS Handshake	host="$1"; endpoint="$host:443"; [[ "$host" == *:* ]] && endpoint="[$host]:443"; /usr/bin/printf '' | /usr/bin/openssl s_client -connect "$endpoint" -servername "$host"	Hostname	Show negotiated TLS version, cipher, key exchange, and verification				Negotiating the HTTPS TLS connection…	host-or-ip
+TLS Service Handshake	target="$1"; host="${target%:*}"; host="${host#[}"; host="${host%]}"; /usr/bin/printf '' | /usr/bin/openssl s_client -connect "$target" -servername "$host"	Host and port, for example example.com:443	Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher				Negotiating TLS on the specified service port…	host-port
+TLS Certificate Chain	target="$1"; host="${target%:*}"; host="${host#[}"; host="${host%]}"; /usr/bin/printf '' | /usr/bin/openssl s_client -connect "$target" -servername "$host" -showcerts -status	Host and port, for example example.com:443	Show the complete served certificate chain, verification result, and stapled OCSP response				Fetching the certificate chain and stapled OCSP response…	host-port
+TLS 1.2 Handshake	target="$1"; host="${target%:*}"; host="${host#[}"; host="${host%]}"; /usr/bin/printf '' | /usr/bin/openssl s_client -connect "$target" -servername "$host" -tls1_2	Host and port, for example example.com:443	Require TLS 1.2 and show whether negotiation succeeds				Testing TLS 1.2 negotiation…	host-port
+TLS 1.3 Handshake	target="$1"; host="${target%:*}"; host="${host#[}"; host="${host%]}"; /usr/bin/printf '' | /usr/bin/openssl s_client -connect "$target" -servername "$host" -tls1_3	Host and port, for example example.com:443	Require TLS 1.3 and show whether negotiation succeeds				Testing TLS 1.3 negotiation…	host-port
+DNS over TLS Endpoint	host="$1"; endpoint="$host:853"; [[ "$host" == *:* ]] && endpoint="[$host]:853"; /usr/bin/printf '' | /usr/bin/openssl s_client -connect "$endpoint" -servername "$host"	DoT hostname	Test TLS negotiation with a DNS-over-TLS server				Testing TLS negotiation on DNS port 853…	host-or-ip
+HTTP Headers	/usr/bin/curl -fsSIL --max-time 20 "$1"	https://example.com	Show response headers and every redirect hop				Fetching HTTP headers and following redirects…	http-url
+HTTP Security Headers	/usr/bin/curl -fsSI --max-time 20 "$1" | /usr/bin/awk 'BEGIN { IGNORECASE=1 } /^(strict-transport-security|content-security-policy|x-content-type-options|x-frame-options|referrer-policy|permissions-policy):/'	https://example.com	Show the principal browser security headers returned by a site				Fetching browser security headers…	http-url
+HTTP Protocol	/usr/bin/curl -fsS -o /dev/null --max-time 20 -w 'HTTP version: %{http_version}\nStatus: %{http_code}\nRemote IP: %{remote_ip}\nTLS verify: %{ssl_verify_result}\n' "$1"	https://example.com	Show the negotiated HTTP version, status, server address, and TLS result				Checking the negotiated HTTP version and response…	http-url
+Security.txt	/bin/bash "$NETMIN_HELPERS/netmin-document-fetch.sh" security "$1"	Domain	Fetch the site's published security contact policy				Fetching the site's security contact policy…	domain
+Robots.txt	/bin/bash "$NETMIN_HELPERS/netmin-document-fetch.sh" robots "$1"	Domain	Fetch the site's crawler access rules				Fetching the site's crawler access rules…	domain
+HSTS Preload Status	/usr/bin/curl -fsSLG --data-urlencode "domain=$1" https://hstspreload.org/api/v2/status | /usr/bin/jq .	Domain	Check whether the domain is included or eligible for HSTS preload				Checking HSTS preload-list status…	domain
+Certificate Transparency	/usr/bin/curl -fsSLG --data-urlencode "q=%.$1" --data-urlencode 'output=json' https://crt.sh/ | /usr/bin/jq -r '.[].name_value' | /usr/bin/sort -u	Domain	Find certificate names that can reveal related subdomains				Looking up domain names in certificate logs…	domain
+TCP Port Check	target="$1"; host="${target%:*}"; host="${host#[}"; host="${host%]}"; port="${target##*:}"; /usr/bin/nc -vz -w 5 "$host" "$port"	Host and port, for example example.com:443	Check whether one TCP port accepts a connection				Testing a connection to the specified TCP port…	host-port
+Common Port Scan	/bin/bash "$NETMIN_HELPERS/netmin-common-port-scan.sh" "$1"	IP address or hostname	Probe 25 common TCP ports with the networking tools included in macOS				Checking the 25 most common TCP ports…	host-or-ip
+SSH Host Keys	/usr/bin/ssh-keyscan -T 5 "$1" 2>/dev/null | /usr/bin/ssh-keygen -lf -	Hostname	Show the server's advertised SSH host-key fingerprints				Fetching SSH host keys and calculating fingerprints…	host-or-ip
+
+[Utilities]
+CIDR Calculator	/bin/bash "$NETMIN_HELPERS/netmin-network-utils.sh" cidr "$1"	IPv4 address with CIDR	Show network boundaries, netmask, broadcast address, and size				Calculating network boundaries and address count…	ipv4-cidr
+IP Range Expander	/bin/bash "$NETMIN_HELPERS/netmin-network-utils.sh" expand "$1"	IPv4 CIDR range, maximum 4096 addresses	Expand a manageable CIDR block into individual addresses				Expanding the CIDR range into individual addresses…	ipv4-cidr
+Punycode Converter	/bin/bash "$NETMIN_HELPERS/netmin-network-utils.sh" punycode "$1"	Domain name	Convert an internationalized domain between Unicode and ASCII forms				Converting the domain between Unicode and ASCII…	domain
+MAC Formatter	/bin/bash "$NETMIN_HELPERS/netmin-mac-format.sh" "$1"	MAC address	Normalize a MAC address to uppercase colon-separated form				Formatting the MAC address…	mac
+NTP Offset	/usr/bin/sntp "$1"	NTP server	Query the server clock and show the measured local offset				Querying the time server and measuring clock offset…	host-or-ip
+Network Quality	/usr/bin/networkQuality -v	No input required	Measure current download, upload, responsiveness, and connection details				Measuring download, upload and responsiveness…
