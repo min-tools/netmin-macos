@@ -1,0 +1,2690 @@
+/* Netmin — tr localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "MS";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ TCP bağlantısını kabul etti.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ geri alınamadı";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ tamamlanmadı";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ Açık";
+
+/* %@ open ports */
+"%@ open ports" = "%@ Açık Limanlar";
+
+/* %@ per year */
+"%@ per year" = "%@ yılda";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld adresler";
+
+/* %lld answers */
+"%lld answers" = "%lld cevaplar";
+
+/* %lld bytes */
+"%lld bytes" = "%lld bayt";
+
+/* %lld checks */
+"%lld checks" = "%lld çekleri";
+
+/* %lld day */
+"%lld day" = "%lld gün";
+
+/* %lld days */
+"%lld days" = "%lld gün";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld tespit edildi · Tarama yaklaşık %lld s sürer";
+
+/* %lld devices */
+"%lld devices" = "%lld cihazlar";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld cihazlar %lld %@ üzerinde";
+
+/* %lld entries */
+"%lld entries" = "%lld girişleri";
+
+/* %lld headers */
+"%lld headers" = "%lld başlıklar";
+
+/* %lld hops */
+"%lld hops" = "%lld hop";
+
+/* %lld hosts */
+"%lld hosts" = "%lld sunucular";
+
+/* %lld hour */
+"%lld hour" = "%lld saat";
+
+/* %lld hours */
+"%lld hours" = "%lld saat";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld eksik";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld arayüzler";
+
+/* %lld keys */
+"%lld keys" = "%lld anahtarlar";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld bir /24 ile sınırlı";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld satırlar · %lld karakterler";
+
+/* %lld matches */
+"%lld matches" = "%lld maçlar";
+
+/* %lld minute */
+"%lld minute" = "%lld dakika";
+
+/* %lld minutes */
+"%lld minutes" = "%lld dakika";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld daha fazla satır · tam çıktı için Kopya Sonucu kullanın";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld isimli · %lld isimsiz";
+
+/* %lld names */
+"%lld names" = "%lld isimler";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld komşular";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld ağlarının %lld sayısı · yaklaşık %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld of %lld açık";
+
+/* %lld open */
+"%lld open" = "%lld Açık";
+
+/* %lld received */
+"%lld received" = "%lld alındı";
+
+/* %lld records */
+"%lld records" = "%lld kayıtları";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld kayıtlar · kısmi";
+
+/* %lld redirects */
+"%lld redirects" = "%lld yönlendirmeler";
+
+/* %lld responses */
+"%lld responses" = "%lld yanıtlar";
+
+/* %lld routes */
+"%lld routes" = "%lld güzergahları";
+
+/* %lld rows */
+"%lld rows" = "%lld sıra";
+
+/* %lld second */
+"%lld second" = "%lld saniye";
+
+/* %lld seconds */
+"%lld seconds" = "%lld saniye";
+
+/* %lld service types */
+"%lld service types" = "%lld servis türleri";
+
+/* %lld services */
+"%lld services" = "%lld hizmetler";
+
+/* %lld tools */
+"%lld tools" = "%lld araçlar";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", içinde:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (tamam)";
+
+/* 1 match */
+"1 match" = "1 maç";
+
+/* 1 response */
+"1 response" = "1 Yanıt";
+
+/* 1 service */
+"1 service" = "1 hizmet";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 dakika önce";
+
+/* ; fully validated */
+"; fully validated" = "; Tamamen doğrulanmış";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; imzasız cevap";
+
+/* ; validation failed */
+"; validation failed" = "; Doğrulama başarısız oldu";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "Bir CIDR aralığı, ön ekten önce tam bir adrese ihtiyaç duyar, örneğin 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "Bir süpürme en fazla 16 elle eklenen aralık içerebilir.";
+
+/* ARP Table */
+"ARP Table" = "ARP Tablosu";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "ASN ve BGP Araştırması";
+
+/* Actions */
+"Actions" = "Eylemler";
+
+/* Active */
+"Active" = "Aktif";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "macOS ve yerel keşif araçları tarafından bildirilen aktif girişler.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "macOS tarafından bildirilen aktif girişler.";
+
+/* Add */
+"Add" = "Ekle";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Taramaya %@ ekleyin";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Bir aralık ekleyin, örneğin 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Manuel eklendi";
+
+/* Added range */
+"Added range" = "Ekstra menzil";
+
+/* Address */
+"Address" = "Adres";
+
+/* Address details */
+"Address details" = "Adres detayları";
+
+/* Address details for %@ */
+"Address details for %@" = "%@ için adres detayları";
+
+/* Addresses */
+"Addresses" = "Adresler";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Bu Mac'in yakın zamanda paket alışverişinde bulunduğu adresler.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Ulaşılabilirlik, ortak limanlar ve rota ekliyor. Bir dakika sürebilir.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Bölge transfer denemeleri, DNSSEC sinyalleri, daha fazla ana bilgisayar adı ve sertifika adları ekler.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Reklam edilen Bonjour hizmetleri";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Keşif penceresinde ilan edildi.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "Bir IPv4 adresi için 0'dan 255'e kadar dört sayı gereklidir";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "IPv4 öneki /0'dan /32'ye kadar çalışır";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "IPv6 öneki /0'dan /128'ye kadar çalışır";
+
+/* Answer %lld */
+"Answer %lld" = "Cevap %lld";
+
+/* Answers */
+"Answers" = "Cevaplar";
+
+/* Answers by resolver */
+"Answers by resolver" = "Çözümleyici ile cevaplar";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Cevaplar %@ karşılığında geldi.";
+
+/* Assigned address */
+"Assigned address" = "Atanan adres";
+
+/* Authenticated */
+"Authenticated" = "Doğrulandı";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Otomatik yenileme yıllık · İstediğin zaman iptal edin";
+
+/* Average */
+"Average" = "Ortalama";
+
+/* Bits */
+"Bits" = "Bitler";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour Hizmetleri";
+
+/* Bonjour services */
+"Bonjour services" = "Bonjour hizmetleri";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Yerel ağda duyurulan Bonjour servis türlerine beş saniye boyunca göz atın";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Reklam edilen Bonjour servis türlerine göz atmak...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Birleşik DNS, yönlendirme, sahiplik ve ağ raporu oluşturun";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Mevcut ağ bağlantısı için birleşik bir rapor oluştur";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Mevcut bağlantı için rapor oluşturuyorum...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "DNS, yönlendirme ve sahiplik raporunu oluşturmak...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "CIDR Hesaplayıcı";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "CIDR aralığı · %@ adresler";
+
+/* Calculated result */
+"Calculated result" = "Hesaplanan sonuç";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Ağ sınırları ve adres sayısı hesaplanıyor...";
+
+/* Cancel */
+"Cancel" = "İptal et";
+
+/* Certificate */
+"Certificate" = "Sertifika";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Sertifika Şeffaflığı";
+
+/* Certificate expires */
+"Certificate expires" = "Sertifikanın süresi doldu";
+
+/* Certificate names */
+"Certificate names" = "Sertifika isimleri";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "DNS, web ve SSH portlarını, HTTPS başlıklarını, sertifika zincirini, TLS sürümlerini, OCSP ve MX STARTTLS'i kontrol edin";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Doğrulayıcı çözümcünün DNS cevabını doğrulayıp doğrulamadığını kontrol edin";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Doğrulayıcı çözümcünün TLSA cevabını doğrulayıp doğrulamadığını kontrol edin";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "İmzalanmış bir bölgenin NSEC kayıtlarını açığa çıkarıp çıkarmadığını kontrol edin";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Bir TCP portunun bağlantıyı kabul edip etmediğini kontrol edin";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Alan adının HSTS ön yüklemesi için uygun olup olmadığını kontrol edin";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "DNS, TLS, web ve posta hizmetlerini kontrol ediyorum...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "HSTS ön yükleme listesi durumunu kontrol ediyorum...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Yayınlanan NSEC kayıtlarını kontrol ediyorum...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "En yaygın 25 TCP portunu kontrol ediyorum...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Müzakere edilen HTTP versiyonunu ve yanıtını kontrol ediyorum...";
+
+/* Checks */
+"Checks" = "Çekler";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Apex kayıtlarını, posta politikalarını, hizmetleri, ortak sunucuları ve DKIM seçicilerini kontrol eder.";
+
+/* Choose a tool */
+"Choose a tool" = "Bir araç seçin";
+
+/* Cipher */
+"Cipher" = "Şifre";
+
+/* Ciphersuite */
+"Ciphersuite" = "Şifreli Suite";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Son Verileri Temizleyin";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Son verileri temizle...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Son Netmin verilerini temizlemek mümkün mü?";
+
+/* Clear search */
+"Clear search" = "Temiz arama";
+
+/* Clear target */
+"Clear target" = "Hedef temiz";
+
+/* Clock offset */
+"Clock offset" = "Saat ofseti";
+
+/* Close */
+"Close" = "Kapat";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Wi-Fi ve yakındaki erişim noktası detaylarını toplamak...";
+
+/* Common Port Scan */
+"Common Port Scan" = "Ortak Port Taraması";
+
+/* Common TCP services */
+"Common TCP services" = "Yaygın TCP hizmetleri";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Cloudflare, Google, Quad9 ve OpenDNS'ten IPv4 yanıtlarını karşılaştırın";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "Kamu çözücülerinden gelen IPv4 cevaplarını karşılaştırmak...";
+
+/* Complete */
+"Complete" = "Tamam";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Complete DNS zone for %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Tamlık: Tamamlandı";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Tamlık: Kısmi keşif";
+
+/* Configuration */
+"Configuration" = "Yapılandırma";
+
+/* Connection */
+"Connection" = "Bağlantı";
+
+/* Connection quality */
+"Connection quality" = "Bağlantı kalitesi";
+
+/* Connection succeeded */
+"Connection succeeded" = "Bağlantı başarılı oldu";
+
+/* Connection timing */
+"Connection timing" = "Bağlantı zamanlaması";
+
+/* Consistent */
+"Consistent" = "Tutarlı";
+
+/* Content */
+"Content" = "İçerik";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Hedef tarafından geri gönderilen içerik, incelemeye veya kopyalamaya hazır.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Unicode ve ASCII formları arasında uluslararasılaştırılmış bir alan dönüştürün";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Unicode ile ASCII arasında alan adınasını dönüştürmek...";
+
+/* Copied %@ */
+"Copied %@" = "%@ kopyalandı";
+
+/* Copy Address */
+"Copy Address" = "Adresi Kopyala";
+
+/* Copy Command */
+"Copy Command" = "Komut Kopyalama";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "MAC Adresini Kopyala";
+
+/* Copy Name */
+"Copy Name" = "Kopya Adı";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Ham Çıktıyı Kopyala";
+
+/* Copy Result */
+"Copy Result" = "Kopyala Sonucu";
+
+/* Copy Summary */
+"Copy Summary" = "Kopya Özeti";
+
+/* Copy Target */
+"Copy Target" = "Hedefi Kopyala";
+
+/* Copy error */
+"Copy error" = "Kopya hatası";
+
+/* Country */
+"Country" = "Country";
+
+/* Coverage */
+"Coverage" = "Kapsama";
+
+/* DANE Validation */
+"DANE Validation" = "DANE Doğrulaması";
+
+/* DHCP Lease */
+"DHCP Lease" = "DHCP Kira Sözleşmesi";
+
+/* DHCP lease */
+"DHCP lease" = "DHCP kira sözleşmesi";
+
+/* DHCP server */
+"DHCP server" = "DHCP sunucusu";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "DNS Yapılandırması";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC Yürüyüş Kontrolü";
+
+/* DNS Propagation */
+"DNS Propagation" = "DNS Yayımı";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNS İzi";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "DNS Bölge Keşfi";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "DNS Bölge Transferi";
+
+/* DNS answers */
+"DNS answers" = "DNS yanıtları";
+
+/* DNS configuration */
+"DNS configuration" = "DNS yapılandırması";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "HTTPS üzerinden DNS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS üzerinden TLS Uç Noktası";
+
+/* DNS records */
+"DNS records" = "DNS kayıtları";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "DNS records discovered for %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS kayıtları, coğrafi konumlandırma ve ASN. Genellikle birkaç saniye.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "DNS çözümleyicileri kullanımda";
+
+/* DNS response */
+"DNS response" = "DNS yanıtı";
+
+/* DNS server */
+"DNS server" = "DNS sunucusu";
+
+/* DNS service name */
+"DNS service name" = "DNS servis adı";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC Zincir İzi";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "DNSSEC Kontrolü";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "DNSSEC Doğrulaması";
+
+/* Deep */
+"Deep" = "Derin";
+
+/* Deep discovery */
+"Deep discovery" = "Derin keşif";
+
+/* Default */
+"Default" = "Varsayılan";
+
+/* Default route */
+"Default route" = "Varsayılan güzergah";
+
+/* Default ·  */
+"Default · " = "Varsayılan ·";
+
+/* Depth */
+"Depth" = "Derinlik";
+
+/* Destination */
+"Destination" = "Varış Noktası";
+
+/* Destination not reached */
+"Destination not reached" = "Varış noktasına ulaşılmadı";
+
+/* Details */
+"Details" = "Detaylar";
+
+/* Detect again */
+"Detect again" = "Tekrar tespit et";
+
+/* Devices */
+"Devices" = "Cihazlar";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Devices (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Bu Mac'in saati ile %@ arasındaki fark.";
+
+/* Directives */
+"Directives" = "Direktifler";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Kamuya açık DNS kayıtlarını, standart servisleri, posta politikalarını, DKIM seçicileri ve açık bölge verilerini keşfedin";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Yönlendiricileri, depolama cihazlarını, TV'leri ve diğer UPnP hizmetlerini keşfedin";
+
+/* Discovered network resources */
+"Discovered network resources" = "Keşfedilen ağ kaynakları";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "UPnP cihazlarını ve hizmetlerini keşfetmek...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Yerel cihazları ve reklam edilen hizmetleri keşfetmek...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Kamuya açık DNS kayıtlarını ve bölge verilerini keşfetmek...";
+
+/* Discovery output */
+"Discovery output" = "Keşif çıktısı";
+
+/* Discovery results */
+"Discovery results" = "Keşif sonuçları";
+
+/* DoT hostname */
+"DoT hostname" = "DoT ana ismi";
+
+/* Domain */
+"Domain" = "Alan";
+
+/* Domain name */
+"Domain name" = "Alan adı";
+
+/* Domain or hostname */
+"Domain or hostname" = "Alan adı veya ana bilgisayar adı";
+
+/* Download */
+"Download" = "İndir";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Yoldaki her yönlendirici; gidiş-dönüş süresi varış noktasında ölçülür.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Aracın isteğe bağlı davranışını etkinleştirir";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Böyle bir aralık girin: 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "/0'dan /30'a kadar bir önekle bir IPv4 aralığı girin, örneğin 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Kayıtlar";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "İstenen aralıktaki her adres, her satır için bir tane.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "macOS her arayüzü adresleri ve bağlantı durumuyla birlikte rapor veriyor.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Her genel çözümleyici aynı IPv4 cevaplarını döndürdü.";
+
+/* Exit status */
+"Exit status" = "Çıkış durumu";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Yönetilebilir bir CIDR bloğunu bireysel adreslere genişletmek";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "CIDR aralığını bireysel adreslere genişletmek...";
+
+/* Expires */
+"Expires" = "Süresi doluyor";
+
+/* Failed */
+"Failed" = "Başarısız";
+
+/* Fast local discovery */
+"Fast local discovery" = "Hızlı yerel keşif";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Sitenin tarayıcı erişim kurallarını getirin";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Sitenin yayımlanmış güvenlik iletişim politikasını getirin";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "HTTP başlıklarını almak ve yönlendirmeleri takip etmek...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "IP konum ve ağ detaylarını getiriyorum...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "RDAP üzerinden IP kayıt kayıtlarını getirmek...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "SSH ana anahtarlarını almak ve parmak izlerini hesaplamak...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Tarayıcı güvenlik başlıklarını getiriyorum...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "RDAP üzerinden alan adı kayıt kayıtlarını getirmek...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Rota-köken doğrulama durumu getiriliyor...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "HTTPS sertifikası ve kimlik bilgilerini alıyorum...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Sertifika zincirini ve zımbalanmış OCSP yanıtını getirmek...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Sitenin tarayıcı erişim kurallarını getiriyorum...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Sitenin güvenlik iletişim politikasını alıyorum...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Kamuya açık IP adresinizi almak...";
+
+/* Fields */
+"Fields" = "Alanlar";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Filter %lld tools";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "IP, isim, arayüz üzerinden filtrele";
+
+/* Final status */
+"Final status" = "Nihai durum";
+
+/* Find Tool… */
+"Find Tool…" = "Araç bul...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Bir Netmin aracı bulun";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "İlgili alt alan adlarını ortaya çıkarabilecek sertifika adlarını bulun";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Reklam edilen doğrulanmış SMTP servisini bulun";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "İlan edilen e-posta yapılandırma hizmetini bulun";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Reklam edilen güvenli IMAP hizmetini bulun";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Bir IP adresiyle ilişkili ana bilgisayar adını bulun";
+
+/* Fingerprint */
+"Fingerprint" = "Parmak İzi";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Sunucunun sunduğu parmak izleri, bilinen bir ev sahibi girişiyle karşılaştırmak için.";
+
+/* First */
+"First" = "İlk";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "DNS delegasyonunu kökten cevaba kadar takip edin";
+
+/* Formatted */
+"Formatted" = "Formatlı";
+
+/* Formatted address */
+"Formatted address" = "Biçimlendirilmiş adres";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "MAC adresini biçimlendirme...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Ücretsiz · %lld %lld isteği bugün bırakıldı";
+
+/* From */
+"From" = "From";
+
+/* Full */
+"Full" = "Tam";
+
+/* Gateway */
+"Gateway" = "Gateway";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Gateway %@ · Varsayılan rota";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Geçit ve Güzergahlar";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Gateway ve yönlendirme tablosu";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "HSTS Ön Yükleme Durumu";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP Başlıkları";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP Protokolü";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTP Güvenlik Başlıkları";
+
+/* HTTP response */
+"HTTP response" = "HTTP yanıtı";
+
+/* HTTP status */
+"HTTP status" = "HTTP durumu";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "El sıkışma tepkisi";
+
+/* Hide */
+"Hide" = "Saklan";
+
+/* Hop */
+"Hop" = "Hop";
+
+/* Hops */
+"Hops" = "Şerbetçiotu";
+
+/* Host */
+"Host" = "Ev sahibi";
+
+/* Host and port */
+"Host and port" = "Ana bilgisayar ve port";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Örneğin ana bilgisayar ve port example.com:443";
+
+/* Host keys */
+"Host keys" = "Ana anahtarlar";
+
+/* Hostname */
+"Hostname" = "Sunucu adı";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Bu alan adı için kamuya açık sertifikalarda görünen host adları.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Ping mesajını yanıtan veya komşu önbellekte görünen sunucular, isimler, gecikme ve reklam edilen servislerle.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Bu çalışma sırasında bulunan barındırmalar, reklam edilen hizmetler ve ulaşılabilir uç noktalar.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "IANA WHOIS sunucusu";
+
+/* IP Information */
+"IP Information" = "IP Bilgisi";
+
+/* IP Range Expander */
+"IP Range Expander" = "IP Aralığı Genişletici";
+
+/* IP address */
+"IP address" = "IP adresi";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP adresi veya ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP adresi veya alan adı";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP adresi veya ana bilgisayar adı";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP adresi veya ön eki";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, Yönlendirme ve Kayıt";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "IPv4 CIDR aralığı, maksimum 4096 adres";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4 adresi";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "CIDR ile IPv4 adresi";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4 komşuları";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6 Komşuları";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6 adresi";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "DNSSEC kayıtlarını ve doğrulama imzalarını inceleyin";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "SMTP banner'ını inceleyin ve STARTTLS ile pazarlık yapın";
+
+/* Interface */
+"Interface" = "Arayüz";
+
+/* Interface Inventory */
+"Interface Inventory" = "Arayüz Envanteri";
+
+/* Interfaces */
+"Interfaces" = "Arayüzler";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Bir ağa katılın veya aşağıya bir menzil ekleyin. Taramayı çalıştırırken yardımcıdan tekrar bakmasını ister.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Kayıt yanıtındaki anahtar alanlar.";
+
+/* Keys */
+"Keys" = "Anahtarlar";
+
+/* Last */
+"Last" = "Son";
+
+/* Latency */
+"Latency" = "Gecikme";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Gecikme, ulaşılabilirlik ve yol ölçümleri.";
+
+/* Lease details */
+"Lease details" = "Kira detayları";
+
+/* Lease time */
+"Lease time" = "Kira süresi";
+
+/* Limited */
+"Limited" = "Sınırlı";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Hız için yerel /24 ile sınırlı.";
+
+/* Lines */
+"Lines" = "Hatlar";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Bu Mac ve macOS'un şu anda görebildiği erişim noktaları için bağlantı detayları.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "App Store ürünleri yükleniyor...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Yerel Cihaz Taraması";
+
+/* Local Network */
+"Local Network" = "Yerel Ağ";
+
+/* Location */
+"Location" = "Konum";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Sertifika kayıtlarında alan adlarını aramak...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Posta dağıtım sunucularını araştırıyorum...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Kayıt ve sahiplik kayıtlarına bakmak...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "SMTP gönderim servisine bakıyorum...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "E-posta yapılandırma hizmetini araştırıyorum...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Bu IP adresinin ana adını arıyorum...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Origin ASN ve yönlendirilmiş ön eki araştırıyorum...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Güvenli IMAP hizmetini araştırıyorum...";
+
+/* MAC Formatter */
+"MAC Formatter" = "MAC Şekillendirici";
+
+/* MAC address */
+"MAC address" = "MAC adresi";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC ve satıcı gizli";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC ve satıcı gizli — bu koşuda boş";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC ve satıcı gösteriliyor";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Posta";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Posta Otomatik Keşif SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Posta BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "Posta DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "Posta DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Posta IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Posta MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "Posta SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "Posta Gönderimi SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Posta TLS Raporu";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Posta TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Posta alan adı";
+
+/* Mail domain or server */
+"Mail domain or server" = "Posta alan adı veya sunucu";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Örneğin posta sunucusu ve port mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Aboneliği Yönetin";
+
+/* Maximum */
+"Maximum" = "Maksimum";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Mevcut indirme, yükleme, yanıt verme ve bağlantı detaylarını ölçün";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Ulaşılabilirliği ve gidiş-dönüş gecikmesini ölçmek";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Akım bağlantısının ölçülen kapasitesi ve yanıt verme hızı.";
+
+/* Measurement */
+"Measurement" = "Ölçüm";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "İndirme, yükleme ve yanıt vermeyi ölçüyorum...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Ulaşılabilirlik ve gidiş-dönüş gecikmesini ölçmek...";
+
+/* Minimum */
+"Minimum" = "Asgari";
+
+/* Mode */
+"Mode" = "Mod";
+
+/* More copy options */
+"More copy options" = "Daha fazla kopya seçeneği";
+
+/* My Network Report */
+"My Network Report" = "Ağ Raporum";
+
+/* My Public IP */
+"My Public IP" = "Açık IP'm";
+
+/* NTP Offset */
+"NTP Offset" = "NTP Ofseti";
+
+/* NTP server */
+"NTP server" = "NTP sunucusu";
+
+/* Name */
+"Name" = "İsim";
+
+/* Names */
+"Names" = "İsimler";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Sertifika kayıtlarındaki isimler";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Herhangi bir örtük TLS servisiyle TLS müzakere edin ve seçilen protokol ile şifreyi gösterin";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Müzakere edilen protokol, şifre, sertifika kimliği ve doğrulama durumu.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "SMTP STARTTL'ları müzakere ediyorum...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Belirlenen servis portunda TLS müzakere edilir...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "HTTPS TLS bağlantısını müzakere etmek...";
+
+/* Neighbor */
+"Neighbor" = "Komşu";
+
+/* Neighbor cache */
+"Neighbor cache" = "Komşu önbelleği";
+
+/* Neighbors */
+"Neighbors" = "Komşular";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Lifetime · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro Yıllık";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin, denetlemeyi seçtiğiniz yerel ağlardaki cihazları ve hizmetleri keşfeder.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin bu komutu %lld saniye sonra durdurdu.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin, bu komut %@ çıkış ürettikten sonra durdurdu.";
+
+/* Network */
+"Network" = "Ağ";
+
+/* Network Lookup */
+"Network Lookup" = "Ağ Araştırması";
+
+/* Network Quality */
+"Network Quality" = "Ağ Kalitesi";
+
+/* Network entries */
+"Network entries" = "Ağ girişleri";
+
+/* Network interfaces */
+"Network interfaces" = "Ağ arayüzleri";
+
+/* Networks */
+"Networks" = "Ağlar";
+
+/* Networks scanned */
+"Networks scanned" = "Tarama ağları";
+
+/* Networks to scan */
+"Networks to scan" = "Tarama ağları";
+
+/* New Lookup */
+"New Lookup" = "Yeni Arama";
+
+/* New Report */
+"New Report" = "Yeni Rapor";
+
+/* New Sweep */
+"New Sweep" = "Yeni Süpürme";
+
+/* No */
+"No" = "Hayır";
+
+/* No DNS records found */
+"No DNS records found" = "DNS kaydı bulunmadı";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Bu Apple Hesabı için Netmin Pro satın alma bulunamadı.";
+
+/* No common ports are open */
+"No common ports are open" = "Ortak limanlar açık değildir";
+
+/* No common services */
+"No common services" = "Ortak hizmet yok";
+
+/* No data returned */
+"No data returned" = "Veri döneri yok";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Hiçbir cihaz \"%@\" ile eşleşmiyor";
+
+/* No devices responded */
+"No devices responded" = "Hiçbir cihaz yanıt vermedi";
+
+/* No diagnostic output */
+"No diagnostic output" = "Tanı çıkışı yok";
+
+/* No input required */
+"No input required" = "Girdi gerekmiyor";
+
+/* No matching tools */
+"No matching tools" = "Eşleştirme aracı yok";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Özel IPv4 ağı tespit edilmedi · tarama için bir aralık ekleyin";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Özel IPv4 ağı tespit edilmedi";
+
+/* No result returned */
+"No result returned" = "Sonuç gelmedi";
+
+/* No target */
+"No target" = "Hedef yok";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "\"%@\" ile eşleşen hiçbir araç yok";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Bir MAC adresini büyük harflerle kolon ayrılmış forma normalleştirin";
+
+/* Not reached */
+"Not reached" = "Ulaşılmadı";
+
+/* Not selected */
+"Not selected" = "Seçilmedi";
+
+/* Notafter */
+"Notafter" = "Sonradan";
+
+/* Notes */
+"Notes" = "Notlar";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Taranan ağlarda komşu önbelleğinde ping yanıtı vermedi veya görünmedi. Mac'in beklenen ağda olup olmadığını kontrol edin veya manuel olarak aralık ekleyin.";
+
+/* Nothing detected */
+"Nothing detected" = "Hiçbir şey tespit edilmedi";
+
+/* Off */
+"Off" = "Kapat";
+
+/* Offset */
+"Offset" = "Ofset";
+
+/* On */
+"On" = "Açık";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Sadece IANA yönlendirmesi geri döndü. %@ numarasını tekrar deneyin veya kayıt memuru, ad sunucuları ve kayıt tarihlerini almak için RDAP kullanın.";
+
+/* Open */
+"Open" = "Açık";
+
+/* Open ports */
+"Open ports" = "Açık portlar";
+
+/* Open ports: */
+"Open ports:" = "Açık portlar:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "isteğe bağlı IPv4 CIDR; boş tüm aktif LAN'ları tarar";
+
+/* Options */
+"Options" = "Seçenekler";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Origin AS ve yönlendirilmiş ön eki";
+
+/* Other */
+"Other" = "Diğer";
+
+/* Output */
+"Output" = "Çıktı";
+
+/* Overview */
+"Overview" = "Genel Bakış";
+
+/* Packet loss */
+"Packet loss" = "Paket kaybı";
+
+/* Partial */
+"Partial" = "Kısmi";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "%@ komuta geçişi";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Ödeme Apple hesabınıza gidiyor. Yıllık abonelik, mevcut dönem bitmeden en az bir gün önce App Store ayarlarında iptal edilmedikçe otomatik olarak yenilenir.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Yan panelden bir araç seçin veya ⌘K tuşuna basarak hepsini arayın.";
+
+/* Ping */
+"Ping" = "Ping";
+
+/* Port */
+"Port" = "Liman";
+
+/* Port %@ is open */
+"Port %@ is open" = "Port %@ açık";
+
+/* Ports */
+"Ports" = "Limanlar";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Bağlantıyı kabul eden portlar.";
+
+/* Primary mail server */
+"Primary mail server" = "Ana posta sunucusu";
+
+/* Primary nameserver */
+"Primary nameserver" = "Birincil isim sunucusu";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "PrimaryInterface";
+
+/* Privacy */
+"Privacy" = "Gizlilik";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Gizlilik Politikası...";
+
+/* Pro */
+"Pro" = "Profesyonel";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Pro satın almalar şu anda mümkün değil. Lütfen daha sonra tekrar deneyin.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Deneme · %lld gün kaldı";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Pro deneme · 1 gün kaldı";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Pro trial · bitiyor %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Pro trial · İlk ödeme %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Pro deneme · %@'e kadar";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro, ham tanısal çıktıyı tablolara, metriklere ve bulgulara dönüştürüyor. 30 günlük denemeden sonra, Free günde beş isteğe kadar ham çıktı içeriyor.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Profesyonel · bitiyor %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Avantajları · Yaşam boyu";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Profesyonel · yeniler %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Avantajı · ailenizle paylaşılıyor";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Pro · %@'e kadar";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "macOS'ta bulunan ağ araçlarıyla 25 yaygın TCP portunu inceleyin";
+
+/* Probed */
+"Probed" = "Araştırıldı";
+
+/* Proto */
+"Proto" = "Proto";
+
+/* Protocol */
+"Protocol" = "Protokol";
+
+/* Protocol Version */
+"Protocol Version" = "Protokol Versiyonu";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Kamu DNS keşfi kısmi";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Kamu DNS araştırması faydalı kayıtlar buldu, ancak özel isimler hâlâ gizli olabilir.";
+
+/* Public IP */
+"Public IP" = "Açık IP, Açık Mülkiyet";
+
+/* Public IPv4 */
+"Public IPv4" = "Açık IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "Açık IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Kamu adresi ve ağ sahipliği detayları.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Kamu çözüm vericileri farklı cevaplar vermiştir; bir değişiklik hâlâ yayılıyor olabilir.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Punycode Dönüştürücü";
+
+/* Purchase */
+"Purchase" = "Satın alma";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Şu anda satın alma mümkün değil.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "DNS-over-HTTPS uç noktası üzerinden bir A kaydı sorgulama";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Windows veya SMB cihazı tarafından reklam edilen NetBIOS adını ve çalışma grubunu sorgulayın";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Sunucu saatini sorgulayın ve ölçülen yerel ofseti gösterin";
+
+/* Querying %@… */
+"Querying %@…" = "%@ sorusu soruyorum...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "DNS coğrafi konum kayıtlarını sorgulamak...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "DNS metin kayıtlarını sorgulamak...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "DNSSEC açık anahtarlarını sorgulamak...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "DNSSEC kayıtları ve imzaları sorgulama...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "HTTPS uç noktaları ve bağlantı ipuçlarını sorgulamak...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "IPv4 adresi (A) kayıtlarını sorgulamak...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "IPv4 kayıtlarını HTTPS üzerinden sorgulama...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "IPv6 adresi (AAAA) kayıtlarını sorgulamak...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "MTA-STS politika keşif kayıtlarını sorgulamak...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "TLS sertifikası ilişkilendirme kayıtlarını sorgulamak...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "TLS teslimat raporlama kayıtlarını sorgulamak...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Yetkili isim sunucusu kayıtlarını sorgulamak...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Marka göstergesi kayıtlarını sorgulamak...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Sertifika yetkilendirme kayıtlarını sorgulamak...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Delegasyon imzalayan kayıtlarını sorgulamak...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Sunucu adı takma adı (CNAME) kayıtlarını sorgulamak...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Servis bağlamaları ve bağlantı parametreleri sorgulama...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Hizmet keşif kuralları sorgulanıyor...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Servis sunucuları, portlar ve öncelikler sorgulama...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "DKIM seçicisinin açık anahtarını sorgulama...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Windows veya SMB cihaz adını sorgulamak...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "E-posta kimlik doğrulama politikasını sorgulamak...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Gönderici yetkilendirme politikasını sorgulamak...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Zaman sunucusunu sorgulamak ve saat ofsetini ölçmek...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Bölge yetkisi ve zamanlama kayıtlarını sorgulamak...";
+
+/* Quick */
+"Quick" = "Çabuk";
+
+/* Quick lookup */
+"Quick lookup" = "Hızlı bir arama";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Yerel cihazları, yazıcıları ve reklam edilen hizmetleri hızlıca bulun";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP Alanı";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "RPKI Doğrulaması";
+
+/* Ran %@ */
+"Ran %@" = "Ran %@";
+
+/* Raw Output */
+"Raw Output" = "Ham Çıktı";
+
+/* Raw output */
+"Raw output" = "Ham çıktı";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "%@ için ulaşılabilirlik ve gidiş-dönüş zamanlaması.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Ulaşılabilir portlar, hizmetler ve ana anahtar detayları.";
+
+/* Reached */
+"Reached" = "Ulaşıldı";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Önbelleklenmiş IPv4 komşularını okumak...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Önbelleğe alınmış IPv6 komşularını okumak...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "macOS DNS çözücülerini ve arama alan adlarını okumak...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Ağ arayüzü adreslerini ve durumunu okuyordum...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Aktif arayüzün DHCP kiralamasını okuyordum...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Varsayılan gateway ve yönlendirme tablolarını okumak...";
+
+/* Recent */
+"Recent" = "Son Dönemler";
+
+/* Record */
+"Record" = "Rekor";
+
+/* Records */
+"Records" = "Rekorlar";
+
+/* Registrar */
+"Registrar" = "Registrar";
+
+/* Registration and routing data */
+"Registration and routing data" = "Kayıt ve yönlendirme verileri";
+
+/* Registry record */
+"Registry record" = "Kayıt kaydı";
+
+/* Registry response */
+"Registry response" = "Kayıt yanıtı";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Kayıt cevabı eksik";
+
+/* Related */
+"Related" = "İlgili";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Sonraki sonuçlar için hatırlanır · ⌘1 Genel Bakış, ⌘2 Ham çıktı";
+
+/* Remove this range */
+"Remove this range" = "Bu aralığı kaldırın";
+
+/* Replies */
+"Replies" = "Yanıtlar";
+
+/* Report for %@ */
+"Report for %@" = "%@ için rapor";
+
+/* Report overview */
+"Report overview" = "Rapor genel görünümü";
+
+/* Reports */
+"Reports" = "Raporlar";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Yetkili bir sunucudan tam DNS bölge transferi talep edin";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Tam DNS bölgesi transferi talep ediyorum...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "TLS 1.2 gerektir ve müzakerenin başarılı olup olmadığını göster";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "TLS 1.3 talep edin ve müzakerenin başarılı olup olmadığını gösterin";
+
+/* Resolved */
+"Resolved" = "Karar Verildi";
+
+/* Resolved address */
+"Resolved address" = "Çözülen adres";
+
+/* Resolver */
+"Resolver" = "Çözümleyici";
+
+/* Resolver %@ */
+"Resolver %@" = "Resolver %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Çözümleyici çıkışı hızlı inceleme için gruplanmıştır.";
+
+/* Resolver response */
+"Resolver response" = "Çözümleyici yanıtı";
+
+/* Resolvers */
+"Resolvers" = "Çözümleyiciler";
+
+/* Resolvers agree */
+"Resolvers agree" = "Çözüm Üyeleri de aynı fikirde";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Çözümleyiciler ve arama alan adları macOS'un şu anda kullandığı uygulamalar, öncelik sırasına göre.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Çözücüler farklılık gösterir";
+
+/* Resources */
+"Resources" = "Kaynaklar";
+
+/* Response */
+"Response" = "Tepki";
+
+/* Response %lld */
+"Response %lld" = "Response %lld";
+
+/* Responses */
+"Responses" = "Yanıtlar";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Çok yayın aramasına yanıtlar, her duyuru için bir kart.";
+
+/* Responsiveness */
+"Responsiveness" = "Yanıt Verme";
+
+/* Restore Purchases */
+"Restore Purchases" = "Satın Alımları Yeniden Başlatın";
+
+/* Result */
+"Result" = "Sonuç";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "Sonuçlar, tamamlanan her ağ kontrolüne göre gruplandırılır.";
+
+/* Retry registry */
+"Retry registry" = "Yeniden deneme registri";
+
+/* Reverse DNS */
+"Reverse DNS" = "Ters DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Gidiş-dönüş";
+
+/* Route to target */
+"Route to target" = "Hedefe giden güzergah";
+
+/* Router */
+"Router" = "Yönlendirici";
+
+/* Routes */
+"Routes" = "Güzergahlar";
+
+/* Routing record */
+"Routing record" = "Rota kaydı";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Routing registry data for %@.";
+
+/* Routing table */
+"Routing table" = "Rotalama tablosu";
+
+/* Run */
+"Run" = "Koş";
+
+/* Run Again */
+"Run Again" = "Tekrar Koşun";
+
+/* Run Lookup */
+"Run Lookup" = "Çalıştırma Araması";
+
+/* Run Report */
+"Run Report" = "Run Report";
+
+/* Run Sweep */
+"Run Sweep" = "Run Sweep";
+
+/* Run Tool */
+"Run Tool" = "Çalıştır Aracı";
+
+/* Run again */
+"Run again" = "Tekrar koşun";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "%@ aracını çalıştır";
+
+/* Running */
+"Running" = "Koşu";
+
+/* Running %@… */
+"Running %@…" = "Koşuyor %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "Koşmak · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "SSDP/UPnP Keşfi";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "SSH Ana Anahtarları";
+
+/* SSH host keys */
+"SSH host keys" = "SSH ana anahtarları";
+
+/* Save Report… */
+"Save Report…" = "Kayıt Raporu...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Raporları kaydedin ve yapılandırılmış özetleri kopyalayın";
+
+/* Scan */
+"Scan" = "Tarama";
+
+/* Scripts */
+"Scripts" = "Senaryolar";
+
+/* Search domain */
+"Search domain" = "Alan adı arama";
+
+/* Sections */
+"Sections" = "Bölümler";
+
+/* Security details */
+"Security details" = "Güvenlik detayları";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Seçilenler";
+
+/* Sequence */
+"Sequence" = "Dizi";
+
+/* Server */
+"Server" = "Sunucu";
+
+/* Service */
+"Service" = "Hizmet";
+
+/* Service reachability */
+"Service reachability" = "Hizmet erişilebilirliği";
+
+/* Service type */
+"Service type" = "Hizmet türü";
+
+/* Service types */
+"Service types" = "Hizmet türleri";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Keşif penceresinde yerel ağda duyurulan servis türleri.";
+
+/* Services */
+"Services" = "Hizmetler";
+
+/* Show */
+"Show" = "Gösteri";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "TLS servisi için DANE sertifika çağrışımlarını göster";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "HTTPS servis uç noktalarını ve bağlantı ipuçlarını göster";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Bir ana bilgisayar adı için yayımlanan IPv4 adreslerini göster";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Bu Mac'in yakın zamanda iletişime geçtiği IPv4 komşularını göster";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Bir ana bilgisayar adı için yayımlanan IPv6 adreslerini göster";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "macOS'a görünebilen Wi-Fi bağlantı detaylarını ve yakındaki erişim noktalarını göster";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Her ağ arayüzü için adresleri, MTU'ları, durumu ve sayacı gösterin";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Önbelleğe alınmış IPv6 komşularını ve bağlantı katmanı adreslerini göster";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Sertifika kimliğini, vericisini, geçerliliğini ve SHA-256 parmak izini göster";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Her yönlendiriciyi varış noktasına giden yolda göster";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Bir bölge tarafından yayımlanan coğrafi konum kayıtlarını göster";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Gösteri konumu, ağ, ASN ve sahiplik detayları";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Pazarlık edilen TLS versiyonu, şifre, anahtar değişimi ve doğrulamayı göster";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Ağ sınırlarını, net maskesini, yayın adresini ve boyutunu gösterin";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Yayınlanan metin kayıtlarını ve alan politikalarını göster";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Ham kayıt ve sahiplik kayıtlarını göster";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Bir IP için kayıt dağıtı ve kayıt detaylarını göster";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Bir alan adı için kayıt kayıt ve durum detaylarını göster";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Yanıt başlıklarını ve her yönlendirme atlamasını göster";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Kural tabanlı hizmet keşif kayıtlarını göster";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Hizmet uç noktalarını ve bağlantı parametrelerini göster";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Program servis sunucuları, portlar, öncelikler ve ağırlıklar";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "macOS'un aslında kullandığı DNS çözücülerini ve arama alanlarını göster";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "RIPE tarafından bildirilen RPKI rota-kaynak doğrulama durumunu göster";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Aktif arayüzün DHCP sunucusunu göster, kiralama ve sunulan seçenekleri";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Bir alan adı için yetkili ad sunucularını göster";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Bir ana bilgisayar adının kanonik takma adını göster";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Tam servis edilen sertifika zincirini, doğrulama sonucunu ve zımbalanmış OCSP yanıtını göster";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Varsayılan geçit geçitini ve tam IPv4 ile IPv6 rota tablosunu göster";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Alan adının marka göstergesi politikasını göster";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Alan adının e-posta doğrulama politikasını göster";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Müzakere edilen HTTP sürümünü, durumunu, sunucu adresini ve TLS sonucunu göster";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Kaynak ASN'sini, yönlendirilen önek, kayıt defteri ve tahsis detaylarını göster";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Ebeveyn-bölge delegasyonu imzacı kayıtlarını göster";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Güvenli posta teslimatını gerektiren politikayı göster";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Bir sitenin döndüren ana tarayıcı güvenlik başlıklarını göster";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "İnternet tarafından görülen halka açık IP adresini göster";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "DKIM seçicisi için açık anahtarı göster";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "DNS bölgesini doğrulamak için kullanılan açık anahtarları gösterin";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Sunucunun reklam edilen SSH ana anahtarı parmak izlerini göster";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Bir alan adı için posta alan sunucuları göster";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "TLS teslimat raporlarının nereye gönderildiğini göster";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Hangi sertifika otoritelerinin sertifika verebileceğini gösterin";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Hangi sunucuların posta göndermeye yetkili olduğunu gösterin";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Göster bölgesi otoritesi, seri ve zamanlama bilgileri";
+
+/* Site Report */
+"Site Report" = "Site Raporu";
+
+/* Site report for example.org */
+"Site report for example.org" = "Site raporu example.org";
+
+/* State */
+"State" = "Eyalet";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Durum:/Ağ/Küresel/IPv4";
+
+/* Statistics */
+"Statistics" = "İstatistikler";
+
+/* Status */
+"Status" = "Durum";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Durum, protokol, yönlendirmeler ve geri dönen başlıklar.";
+
+/* Stop */
+"Stop" = "Dur";
+
+/* Stop Sweep */
+"Stop Sweep" = "Stop Sweep";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "%@ için structured registry response.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Yapılandırılmış raporlar Netmin Pro'nun bir özelliğidir";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Tablolar, metrikler ve bulgularla yapılandırılmış raporlar";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Yapılandırılmış çözümleyici yanıtı.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Web servisinden yapılandırılmış yanıt.";
+
+/* System network configuration */
+"System network configuration" = "Sistem ağı yapılandırması";
+
+/* TCP Port Check */
+"TCP Port Check" = "TCP Port Kontrolü";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "TCP ULAŞILABILIRLIĞI";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 El Sıkışma";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 El Sıkışma";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS Sertifikası";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "TLS Sertifika Zinciri";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS El Sıkışma";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "TLS Hizmet Tokalaşması";
+
+/* TLS connection */
+"TLS connection" = "TLS bağlantısı";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, Web ve Portlar";
+
+/* Target */
+"Target" = "Hedef";
+
+/* Target (optional) */
+"Target (optional)" = "Hedef (isteğe bağlı)";
+
+/* Target did not reply */
+"Target did not reply" = "Hedef cevap vermedi";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Hedefler boşluk içeremez";
+
+/* Terms */
+"Terms" = "Terimler";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "SMTP 25, SMTPS 465, gönderim 587, IMAPS 993 ve POP3S 995 aynı anda test";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "DNS-over-TLS sunucusuyla TLS müzakere yapmayı test edin";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "TLS 1.2 müzakere testi...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "TLS 1.3 müzakere test ediliyor...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "DNS port 853'te TLS müzakere test ediliyor...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "TLS'nin SMTP, IMAP ve POP3 servislerinde test edilmesi...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Belirtilen TCP portuna bağlantı test edilir...";
+
+/* Text */
+"Text" = "Metin";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "En yaygın 25 TCP portu bir saniyelik zaman aşımı ile incelendi.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store bu satın alımı doğrulayamadı.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "MAC adresi kanonik büyük harflerde, kolonlu ayrılmış formda.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Netmin araç kataloğunda geçerli bir araç bulunmamaktadır.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL'nin bir şema ve bir ana bilgisayarı gerekir, örneğin https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "Aktif arayüzün kiralaması ve DHCP sunucusunun sunduğu seçenekler.";
+
+/* The address is not valid. */
+"The address is not valid." = "Adres geçerli değil.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "İnternetin bu bağlantı için gördüğü adres.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "Uygulama yönlendirmeleri takip etti, ancak web sitesi bu dosyayı aynı URL'ye defalarca geri gönderdi. Hiçbir dosya geri gönderilmedi.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "Yetkili sunucu, tam bir AXFR bölge transferine izin veriyordu.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "Yetkili sunucular tam bir bölge transferi sağlamadı. Bunlar kamuya açık araştırmalarla bulunan kayıtlardır; özel isimler hâlâ var olabilir.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "Birlikte gelen Netmin araç kataloğu eksik.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Komut tamamlandı, ancak hedef eşleşen veri vermedi.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Komut, tanı çıkışı vermeden önce başarısız oldu.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "Varsayılan rota ve macOS'un bildiği her IPv4 ile IPv6 rotası.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "İlk 30 gün Pro'yu içerir. Deneme sonrası Free, tüm 84 aracı ve ham çıktıyı elinde tutar, günde beş tanı talebi var.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "/ sonrası ön ek bir sayı olmalı";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Süreç %lld durumu ile sona erdi ve detayları geri verdi. Gerekli komutun yüklü olduğundan ve hedefin ulaşılabilir olduğundan emin olun.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "Satın alma onay bekliyor.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Kayıt defteri yapılandırılmamış bir yanıt verdi; faydalı satırları aşağıda gösterilmiştir.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "Çözüm edici karşılık vermedi.";
+
+/* This Mac */
+"This Mac" = "Bu Mac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "Bu, Mac'ten kaydedilen hedefleri ve yakın zamanda çalıştırılmış özetleri kaldırır. Dışa aktarılan raporları silmez.";
+
+/* Time */
+"Time" = "Zaman";
+
+/* Timeouts */
+"Timeouts" = "Mola Vermeler";
+
+/* Tools */
+"Tools" = "Araçlar";
+
+/* Tools unavailable */
+"Tools unavailable" = "Kullanılmayan araçlar";
+
+/* Trace */
+"Trace" = "İz";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "DNSSEC güven zincirini kökten takip edin";
+
+/* Traceroute */
+"Traceroute" = "İz Yolu";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "DNS delegasyonlarını ve DNSSEC kayıtlarını takip etmek...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "DNS delegasyonlarını kökten takip etmek...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Ağ yolunu varış noktasına kadar takip etmek...";
+
+/* Try Again */
+"Try Again" = "Tekrar Deneyin";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Bunun yerine RDAP deneyin →";
+
+/* Type */
+"Type" = "Tip";
+
+/* Types */
+"Types" = "Türler";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnP cihazları ve hizmetleri";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "Belirsizlik";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Sınırsız ağ tanılamaları, okunabilir raporlar ve dışa aktarma araçları.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Tüm 84 tanı aracının sınırsız kullanımı";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "%@ ve tüm Pro özellik setini açın.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Aç Rapor...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Yapılandırılmış Özetin Kilidini Açın...";
+
+/* Unnamed */
+"Unnamed" = "İsimsiz";
+
+/* Unsigned */
+"Unsigned" = "İmzasız";
+
+/* Upload */
+"Upload" = "Yükleme";
+
+/* Use custom resolver */
+"Use custom resolver" = "Özel çözücü kullanın";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Host:port, IPv6 adresi veya MAC adresi kullanın";
+
+/* Utilities */
+"Utilities" = "Kamu hizmetleri";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPN tüneli";
+
+/* Validated */
+"Validated" = "Doğrulandı";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "TLSA kayıtlarını ve DNSSEC zincirini doğrulamak...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "DNS cevabını ve DNSSEC zincirini doğrulamak...";
+
+/* Value */
+"Value" = "Değer";
+
+/* Values produced by %@. */
+"Values produced by %@." = "%@ ile üretilen değerler.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "macOS tarafından %@ için bildirilen değerler.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Değerler %@ için geri döndü.";
+
+/* Vendor */
+"Vendor" = "Satıcı";
+
+/* Verification */
+"Verification" = "Doğrulama";
+
+/* Verify Return Code */
+"Verify Return Code" = "Dönüş Kodunu Doğrula";
+
+/* View */
+"View" = "Görünüm";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Netmin Pro'yu Gör...";
+
+/* Virtual bridge */
+"Virtual bridge" = "Sanal köprü";
+
+/* Virtual machine network */
+"Virtual machine network" = "Sanal makine ağı";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS sunucusu";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "İlk cevabı bekliyorum...";
+
+/* Web policy status */
+"Web policy status" = "Web politikası durumu";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Wi-Fi Tanı";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Wi-Fi durumu";
+
+/* Window */
+"Window" = "Pencere";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Windows İsim Keşfi";
+
+/* Yes */
+"Yes" = "Evet";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Netmin Pro var.";
+
+/* Your public address */
+"Your public address" = "Halk adresiniz";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "aktif";
+
+/* advanced structured reports */
+"advanced structured reports" = "İleri Yapılandırılmış Raporlar";
+
+/* all detected */
+"all detected" = "Hepsi tespit edildi";
+
+/* arp table */
+"arp table" = "ARP tablosu";
+
+/* as name */
+"as name" = "İsim olarak";
+
+/* closed */
+"closed" = "kapalı";
+
+/* command */
+"command" = "Komuta";
+
+/* complete zone */
+"complete zone" = "tam bölge";
+
+/* configured */
+"configured" = "Yapılandırılmıştır";
+
+/* creation date */
+"creation date" = "Kuruluş tarihi";
+
+/* device sweep */
+"device sweep" = "Cihaz taraması";
+
+/* did not answer within */
+"did not answer within" = "içeride cevap vermedi";
+
+/* differs */
+"differs" = "farklılıklar";
+
+/* domain name */
+"domain name" = "Alan adı";
+
+/* down */
+"down" = "Aşağıya";
+
+/* downlink capacity */
+"downlink capacity" = "Aşağı bağlantı kapasitesi";
+
+/* expiration date */
+"expiration date" = "Son kullanma tarihi";
+
+/* expiration date: */
+"expiration date:" = "Son kullanma tarihi:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "son kullanma tarihi %lld gün önce";
+
+/* expires today */
+"expires today" = "bugün sona eriyor";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "dört ICMP yankı talebi";
+
+/* gateway %@ */
+"gateway %@" = "gateway %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "%lld günlerde";
+
+/* inactive */
+"inactive" = "Aktif değil";
+
+/* incomplete */
+"incomplete" = "eksik";
+
+/* ip information */
+"ip information" = "IP bilgisi";
+
+/* just now */
+"just now" = "Az önce";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "hız için yerel /24 ile sınırlıdır";
+
+/* local */
+"local" = "yerel";
+
+/* loss %@ */
+"loss %@" = "kayıp %@";
+
+/* median %@ */
+"median %@" = "medyan %@";
+
+/* name server */
+"name server" = "İsim sunucusu";
+
+/* name server: */
+"name server:" = "İsim sunucusu:";
+
+/* network */
+"network" = "Ağ";
+
+/* network lookup */
+"network lookup" = "Ağ arama";
+
+/* network quality */
+"network quality" = "Ağ kalitesi";
+
+/* network report */
+"network report" = "Ağ raporu";
+
+/* networks */
+"networks" = "Ağlar";
+
+/* no address */
+"no address" = "Adres yok";
+
+/* no answer */
+"no answer" = "Cevap yok";
+
+/* no ping replies */
+"no ping replies" = "Ping yanıtı yok";
+
+/* no reply */
+"no reply" = "Cevap yok";
+
+/* open */
+"open" = "Aç";
+
+/* packets transmitted */
+"packets transmitted" = "Gönderilen paketler";
+
+/* primary %@ */
+"primary %@" = "birincil %@";
+
+/* public ip */
+"public ip" = "Kamu mülkiyeti";
+
+/* raw output */
+"raw output" = "ham çıktı";
+
+/* reachable */
+"reachable" = "Ulaşılabilir";
+
+/* redirects followed */
+"redirects followed" = "Yönlendirmeler takip edildi";
+
+/* registrar name */
+"registrar name" = "Kayıt Kurumu Adı";
+
+/* registry expiry date */
+"registry expiry date" = "Kayıt Defterinin Son Kullanma Tarihi";
+
+/* registry expiry date: */
+"registry expiry date:" = "Kayıt Kayıt Süresi Sona Erme Tarihi:";
+
+/* resolution failed */
+"resolution failed" = "çözüm başarısız oldu";
+
+/* reverse dns */
+"reverse dns" = "Ters DNS";
+
+/* run with last target */
+"run with last target" = "Son Hedefle Koşun";
+
+/* scoped */
+"scoped" = "Kapsam";
+
+/* search domain */
+"search domain" = "Arama alanı";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "SHA256 parmak izi";
+
+/* site report */
+"site report" = "Saha raporu";
+
+/* summary */
+"summary" = "Özet";
+
+/* target */
+"target" = "Hedef";
+
+/* the address */
+"the address" = "Adres";
+
+/* the selected resource */
+"the selected resource" = "Seçilmiş kaynak";
+
+/* the selected target */
+"the selected target" = "Seçilen hedef";
+
+/* the target */
+"the target" = "Hedef";
+
+/* timed out */
+"timed out" = "Süre Aşımına Girdi";
+
+/* unknown */
+"unknown" = "bilinmeyen";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "sınırsız tanı talepleri";
+
+/* up */
+"up" = "Yukarı";
+
+/* updated date */
+"updated date" = "Güncellenme tarihi";
+
+/* uplink capacity */
+"uplink capacity" = "Uplink kapasitesi";
+
+/* verify return code */
+"verify return code" = "Dönüş kodunu doğrulayın";
+
+/* via %@ */
+"via %@" = "via %@";
+
+/* windows name */
+"windows name" = "Windows adı";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "%@ öğesini Favorilere ekle";
+
+/* Favorites */
+"Favorites" = "Favoriler";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "%@ öğesini Favorilerden kaldır";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Pro özellikleri kilitli";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Kilidi açmak için satın alın veya erişimi geri yükleyin.";
+
+/* Restoring… */
+"Restoring…" = "Geri yükleniyor…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Etkin bir Netmin satın alımı bulunamadı.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP öneki";
+
+/* Primary */
+"Primary" = "Birincil";
+
+/* All relevant */
+"All relevant" = "İlgili olanların tümü";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "Kaynak ASN, örneğin AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP öneki, örneğin 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Bir kaynak ASN’nin bir IP önekini duyurmaya yetkili olup olmadığını denetle";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Her yetkili ad sunucusundan tam bölge aktarımı dene";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Ana bilgisayar adı, hizmet adı veya IP adresi";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Cloudflare, Google, Quad9 ve OpenDNS önbelleğindeki DNS yanıtlarını karşılaştır";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "İlgili tüm kayıt türlerini karşılaştır";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Genel çözümleyicilerin yanıtları karşılaştırılıyor…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Bu hedef için geçerli yaygın kayıt türlerini karşılaştırır.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Ana bilgisayar adı için A, IP adresi için PTR veya hizmet adı için SRV kaydını denetler.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Tüm genel çözümleyiciler aynı DNS yanıtlarını döndürdü.";
