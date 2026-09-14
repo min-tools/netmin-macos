@@ -1,0 +1,3 @@
+/* Netmin — uk Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin виявляє пристрої та служби в локальних мережах, які ви вирішили перевірити.";
