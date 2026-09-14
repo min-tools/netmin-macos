@@ -1,0 +1,2690 @@
+/* Netmin — vi localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "ms";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ chấp nhận kết nối TCP.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ không thể truy xuất";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ chưa hoàn thành";
+
+/* %@ ms */
+"%@ ms" = "%@ ms";
+
+/* %@ open */
+"%@ open" = "%@ mở";
+
+/* %@ open ports */
+"%@ open ports" = "%@ cổng mở";
+
+/* %@ per year */
+"%@ per year" = "%@ mỗi năm";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld địa chỉ";
+
+/* %lld answers */
+"%lld answers" = "%lld đáp án";
+
+/* %lld bytes */
+"%lld bytes" = "%lld byte";
+
+/* %lld checks */
+"%lld checks" = "%lld séc";
+
+/* %lld day */
+"%lld day" = "%lld ngày";
+
+/* %lld days */
+"%lld days" = "%lld ngày";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld phát hiện · Quét tất cả mất khoảng %lld giây";
+
+/* %lld devices */
+"%lld devices" = "%lld thiết bị";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld thiết bị trên %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld mục";
+
+/* %lld headers */
+"%lld headers" = "%lld tiêu đề";
+
+/* %lld hops */
+"%lld hops" = "%lld hops";
+
+/* %lld hosts */
+"%lld hosts" = "%lld chủ nhà";
+
+/* %lld hour */
+"%lld hour" = "%lld giờ";
+
+/* %lld hours */
+"%lld hours" = "%lld giờ";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld chưa hoàn chỉnh";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld giao diện";
+
+/* %lld keys */
+"%lld keys" = "%lld chìa khóa";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld giới hạn ở /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld dòng · %lld ký tự";
+
+/* %lld matches */
+"%lld matches" = "%lld số lượng khớp";
+
+/* %lld minute */
+"%lld minute" = "%lld phút";
+
+/* %lld minutes */
+"%lld minutes" = "%lld phút";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld thêm dòng · sử dụng Sao chép Kết quả để có kết quả đầy đủ";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld đã nêu tên · %lld không tên";
+
+/* %lld names */
+"%lld names" = "%lld tên";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld hàng xóm";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld của %lld mạng lưới · khoảng %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld trên tổng số %lld mở";
+
+/* %lld open */
+"%lld open" = "%lld mở";
+
+/* %lld received */
+"%lld received" = "%lld đã nhận";
+
+/* %lld records */
+"%lld records" = "%lld hồ sơ";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld bản ghi · một phần";
+
+/* %lld redirects */
+"%lld redirects" = "%lld chuyển hướng";
+
+/* %lld responses */
+"%lld responses" = "%lld phản hồi";
+
+/* %lld routes */
+"%lld routes" = "%lld tuyến đường";
+
+/* %lld rows */
+"%lld rows" = "%lld hàng";
+
+/* %lld second */
+"%lld second" = "%lld giây";
+
+/* %lld seconds */
+"%lld seconds" = "%lld giây";
+
+/* %lld service types */
+"%lld service types" = "%lld loại dịch vụ";
+
+/* %lld services */
+"%lld services" = "%lld dịch vụ";
+
+/* %lld tools */
+"%lld tools" = "%lld dụng cụ";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) ms";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", với:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (ok)";
+
+/* 1 match */
+"1 match" = "1 trận đấu";
+
+/* 1 response */
+"1 response" = "1 phản hồi";
+
+/* 1 service */
+"1 service" = "1 dịch vụ";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 phút trước";
+
+/* ; fully validated */
+"; fully validated" = "; đã được xác thực đầy đủ";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; câu trả lời không ký tên";
+
+/* ; validation failed */
+"; validation failed" = "; Xác thực thất bại";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "Một dải CIDR cần một địa chỉ đầy đủ trước tiền tố, ví dụ 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "Một lần quét có thể bao gồm tối đa 16 phạm vi được thêm thủ công.";
+
+/* ARP Table */
+"ARP Table" = "Bảng ARP";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "Tra cứu ASN và BGP";
+
+/* Actions */
+"Actions" = "Hành động";
+
+/* Active */
+"Active" = "Hoạt động";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Các mục đang hoạt động được báo cáo bởi macOS và các công cụ khám phá cục bộ.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "Các mục đang hoạt động được báo cáo bởi macOS.";
+
+/* Add */
+"Add" = "Thêm";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Thêm %@ vào bản quét";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Thêm một khoảng, ví dụ 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Thêm thủ công";
+
+/* Added range */
+"Added range" = "Thêm phạm vi";
+
+/* Address */
+"Address" = "Địa chỉ";
+
+/* Address details */
+"Address details" = "Chi tiết địa chỉ";
+
+/* Address details for %@ */
+"Address details for %@" = "Chi tiết địa chỉ cho %@";
+
+/* Addresses */
+"Addresses" = "Địa chỉ";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Những địa chỉ mà Mac này gần đây đã trao đổi gói tin.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Thêm khả năng tiếp cận, các cổng chung và tuyến đường. Có thể mất một phút.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Thêm các lần thử chuyển vùng, tín hiệu DNSSEC, thêm tên máy chủ và tên chứng chỉ.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Dịch vụ Bonjour được quảng cáo";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Được quảng cáo trong khoảng thời gian khám phá.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "Một địa chỉ IPv4 cần bốn số từ 0 đến 255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "Tiền tố IPv4 chạy từ /0 đến /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "Tiền tố IPv6 chạy từ /0 đến /128";
+
+/* Answer %lld */
+"Answer %lld" = "Trả lời %lld";
+
+/* Answers */
+"Answers" = "Câu trả lời";
+
+/* Answers by resolver */
+"Answers by resolver" = "Câu trả lời theo bộ giải quyết";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Trả lời với giá %@.";
+
+/* Assigned address */
+"Assigned address" = "Địa chỉ được gán";
+
+/* Authenticated */
+"Authenticated" = "Đã xác thực";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Tự động gia hạn hàng năm · hủy bất cứ lúc nào";
+
+/* Average */
+"Average" = "Trung bình";
+
+/* Bits */
+"Bits" = "Bits";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour Services";
+
+/* Bonjour services */
+"Bonjour services" = "Dịch vụ Bonjour";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Duyệt các loại dịch vụ Bonjour được thông báo trên mạng nội bộ trong năm giây";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Duyệt các loại dịch vụ Bonjour được quảng cáo...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Xây dựng báo cáo kết hợp DNS, định tuyến, quyền sở hữu và mạng";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Xây dựng báo cáo kết hợp cho kết nối mạng hiện tại";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Đang xây dựng báo cáo cho kết nối hiện tại...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "Xây dựng DNS, báo cáo định tuyến và quyền sở hữu...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "Máy tính CIDR";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "Phạm vi CIDR · %@ địa chỉ";
+
+/* Calculated result */
+"Calculated result" = "Kết quả tính toán";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Tính toán ranh giới mạng và số lượng địa chỉ...";
+
+/* Cancel */
+"Cancel" = "Hủy";
+
+/* Certificate */
+"Certificate" = "Giấy chứng nhận";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Minh bạch chứng chỉ";
+
+/* Certificate expires */
+"Certificate expires" = "Chứng chỉ hết hạn";
+
+/* Certificate names */
+"Certificate names" = "Tên chứng chỉ";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Kiểm tra DNS, cổng web và SSH, tiêu đề HTTPS, chuỗi chứng chỉ, phiên bản TLS, OCSP và MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Kiểm tra xem bộ phân giải xác thực có xác thực câu trả lời DNS hay không";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Kiểm tra xem bộ phân giải xác thực có xác thực câu trả lời TLSA hay không";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Kiểm tra xem một vùng đã ký có tiết lộ bản ghi NSEC hay không";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Kiểm tra xem có một cổng TCP nào chấp nhận kết nối hay không";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Kiểm tra xem tên miền có được bao gồm hoặc đủ điều kiện để tải trước HSTS hay không";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "Kiểm tra DNS, TLS, dịch vụ web và mail...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "Đang kiểm tra trạng thái danh sách tải trước HSTS...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Đang kiểm tra hồ sơ NSEC đã công bố...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Kiểm tra 25 cổng TCP phổ biến nhất...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Đang kiểm tra phiên bản HTTP đã thương lượng và phản hồi...";
+
+/* Checks */
+"Checks" = "Kiểm tra";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Kiểm tra các bản ghi apex, chính sách thư, dịch vụ, máy chủ chung và bộ chọn DKIM.";
+
+/* Choose a tool */
+"Choose a tool" = "Chọn một công cụ";
+
+/* Cipher */
+"Cipher" = "mật mã";
+
+/* Ciphersuite */
+"Ciphersuite" = "bộ mật mã";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Xóa dữ liệu gần đây";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Xóa dữ liệu gần đây...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Xóa dữ liệu Netmin gần đây?";
+
+/* Clear search */
+"Clear search" = "Xóa tìm kiếm";
+
+/* Clear target */
+"Clear target" = "Rõ mục tiêu";
+
+/* Clock offset */
+"Clock offset" = "Độ lệch đồng hồ";
+
+/* Close */
+"Close" = "Đóng";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Thu thập Wi-Fi và chi tiết các điểm truy cập gần đó...";
+
+/* Common Port Scan */
+"Common Port Scan" = "Quét cổng chung";
+
+/* Common TCP services */
+"Common TCP services" = "Các dịch vụ TCP phổ biến";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "So sánh các câu trả lời IPv4 từ Cloudflare, Google, Quad9 và OpenDNS";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "So sánh các câu trả lời IPv4 từ các bộ giải quyết công khai...";
+
+/* Complete */
+"Complete" = "Hoàn chỉnh";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Vùng DNS hoàn chỉnh với %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Tính đầy đủ: Hoàn chỉnh";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Tính đầy đủ: Khám phá một phần";
+
+/* Configuration */
+"Configuration" = "Cấu hình";
+
+/* Connection */
+"Connection" = "Kết nối";
+
+/* Connection quality */
+"Connection quality" = "Chất lượng kết nối";
+
+/* Connection succeeded */
+"Connection succeeded" = "Kết nối thành công";
+
+/* Connection timing */
+"Connection timing" = "Thời gian kết nối";
+
+/* Consistent */
+"Consistent" = "nhất quán";
+
+/* Content */
+"Content" = "Nội dung";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Nội dung được trả về bởi mục tiêu, sẵn sàng để kiểm tra hoặc sao chép.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Chuyển đổi tên miền quốc tế hóa giữa các biểu mẫu Unicode và ASCII";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Chuyển đổi tên miền giữa Unicode và ASCII...";
+
+/* Copied %@ */
+"Copied %@" = "Đã sao chép %@";
+
+/* Copy Address */
+"Copy Address" = "sao chép địa chỉ";
+
+/* Copy Command */
+"Copy Command" = "Lệnh Sao chép";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Sao chép địa chỉ MAC";
+
+/* Copy Name */
+"Copy Name" = "Sao chép tên";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Sao chép đầu ra thô";
+
+/* Copy Result */
+"Copy Result" = "Sao chép kết quả";
+
+/* Copy Summary */
+"Copy Summary" = "Tóm tắt bản sao";
+
+/* Copy Target */
+"Copy Target" = "sao chép mục tiêu";
+
+/* Copy error */
+"Copy error" = "Lỗi sao chép";
+
+/* Country */
+"Country" = "Quốc gia";
+
+/* Coverage */
+"Coverage" = "Phạm vi phủ sóng";
+
+/* DANE Validation */
+"DANE Validation" = "Xác thực DANE";
+
+/* DHCP Lease */
+"DHCP Lease" = "Hợp đồng thuê DHCP";
+
+/* DHCP lease */
+"DHCP lease" = "Hợp đồng thuê DHCP";
+
+/* DHCP server */
+"DHCP server" = "Máy chủ DHCP";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "Cấu hình DNS";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "Kiểm tra DNS NSEC Walk";
+
+/* DNS Propagation */
+"DNS Propagation" = "Truyền DNS";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "truy vết DNS";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "Khám phá Vùng DNS";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "Chuyển vùng DNS";
+
+/* DNS answers */
+"DNS answers" = "Câu trả lời DNS";
+
+/* DNS configuration */
+"DNS configuration" = "Cấu hình DNS";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS qua HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS qua TLS Endpoint";
+
+/* DNS records */
+"DNS records" = "Bản ghi DNS";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "Các bản ghi DNS được phát hiện trong %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "Bản ghi DNS, vị trí địa lý và ASN. Thường là vài giây.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "Các bộ phân giải DNS đang được sử dụng";
+
+/* DNS response */
+"DNS response" = "Phản hồi DNS";
+
+/* DNS server */
+"DNS server" = "Máy chủ DNS";
+
+/* DNS service name */
+"DNS service name" = "Tên dịch vụ DNS";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "Truy vết chuỗi DNSSEC";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "Kiểm tra DNSSEC";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "Xác thực DNSSEC";
+
+/* Deep */
+"Deep" = "Sâu";
+
+/* Deep discovery */
+"Deep discovery" = "Khám phá sâu sắc";
+
+/* Default */
+"Default" = "Mặc định";
+
+/* Default route */
+"Default route" = "Tuyến mặc định";
+
+/* Default ·  */
+"Default · " = "Mặc định ·";
+
+/* Depth */
+"Depth" = "Độ sâu";
+
+/* Destination */
+"Destination" = "Điểm đến";
+
+/* Destination not reached */
+"Destination not reached" = "Chưa đến điểm đến";
+
+/* Details */
+"Details" = "Chi tiết";
+
+/* Detect again */
+"Detect again" = "Phát hiện lại";
+
+/* Devices */
+"Devices" = "Thiết bị";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Thiết bị (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Sự khác biệt giữa đồng hồ của Mac này và đồng hồ %@.";
+
+/* Directives */
+"Directives" = "Chỉ thị";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Khám phá các bản ghi DNS công khai, dịch vụ tiêu chuẩn, chính sách thư, bộ chọn DKIM và dữ liệu vùng được công khai";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Khám phá các bộ định tuyến, thiết bị lưu trữ, TV và các dịch vụ UPnP khác";
+
+/* Discovered network resources */
+"Discovered network resources" = "Tài nguyên mạng đã được phát hiện";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "Khám phá các thiết bị và dịch vụ UPnP...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Khám phá các thiết bị địa phương và dịch vụ quảng cáo...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Phát hiện các bản ghi DNS công khai và dữ liệu vùng...";
+
+/* Discovery output */
+"Discovery output" = "Đầu ra khám phá";
+
+/* Discovery results */
+"Discovery results" = "Kết quả khám phá";
+
+/* DoT hostname */
+"DoT hostname" = "Tên máy chủ DoT";
+
+/* Domain */
+"Domain" = "Miền";
+
+/* Domain name */
+"Domain name" = "Tên miền";
+
+/* Domain or hostname */
+"Domain or hostname" = "Tên miền hoặc tên máy chủ";
+
+/* Download */
+"Download" = "Tải về";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Mỗi bộ định tuyến trên đường đi; thời gian khứ hồi được đo tại điểm đến.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Kích hoạt hành vi tùy chọn của công cụ";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Nhập một khoảng như 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Nhập phạm vi IPv4 với tiền tố từ /0 đến /30, ví dụ 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Các bài dự thi";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Mỗi địa chỉ trong phạm vi yêu cầu, mỗi dòng một địa chỉ.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Mỗi giao diện macOS đều báo cáo, kèm theo địa chỉ và trạng thái liên kết.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Mỗi bộ phân giải công khai đều trả về cùng một câu trả lời IPv4.";
+
+/* Exit status */
+"Exit status" = "Trạng thái thoát";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Mở rộng một khối CIDR dễ quản lý thành từng địa chỉ riêng lẻ";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "Mở rộng phạm vi CIDR sang từng địa chỉ riêng biệt...";
+
+/* Expires */
+"Expires" = "Hết hạn";
+
+/* Failed */
+"Failed" = "Thất bại";
+
+/* Fast local discovery */
+"Fast local discovery" = "Khám phá địa phương nhanh chóng";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Lấy các quy tắc truy cập trình thu thập dữ liệu của trang web";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Lấy chính sách liên hệ bảo mật đã công bố của trang web";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "Lấy các tiêu đề HTTP và các chuyển hướng sau...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "Lấy vị trí IP và chi tiết mạng...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "Truy xuất bản ghi đăng ký IP qua RDAP...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "Lấy chìa khóa máy chủ SSH và tính toán dấu vân tay...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Lấy các tiêu đề bảo mật trình duyệt...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Lấy hồ sơ đăng ký tên miền qua RDAP...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Đang lấy trạng thái xác thực nguồn gốc tuyến đường...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "Lấy chứng chỉ HTTPS và thông tin nhận dạng...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Lấy chuỗi chứng chỉ và phản hồi OCSP được ghim...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Truy xuất quy tắc truy cập trình thu thập dữ liệu của trang...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Lấy chính sách liên hệ bảo mật của trang web...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Lấy địa chỉ IP công cộng của bạn...";
+
+/* Fields */
+"Fields" = "Các lĩnh vực";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Lọc %lld công cụ";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Lọc theo IP, tên, giao diện";
+
+/* Final status */
+"Final status" = "Tình trạng cuối cùng";
+
+/* Find Tool… */
+"Find Tool…" = "Tìm công cụ...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Tìm công cụ Netmin";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Tìm tên chứng chỉ có thể tiết lộ các tên miền con liên quan";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Tìm dịch vụ SMTP xác thực được quảng cáo";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Tìm dịch vụ cấu hình email được quảng cáo";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Tìm dịch vụ IMAP bảo mật được quảng cáo";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Tìm tên máy chủ liên kết với địa chỉ IP";
+
+/* Fingerprint */
+"Fingerprint" = "Dấu vân tay";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Dấu vân tay mà máy chủ cung cấp, để so sánh với mục của máy chủ đã biết.";
+
+/* First */
+"First" = "Đầu tiên";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Theo dõi ủy quyền DNS từ gốc đến đáp án";
+
+/* Formatted */
+"Formatted" = "Định dạng";
+
+/* Formatted address */
+"Formatted address" = "Địa chỉ định dạng";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "Định dạng địa chỉ MAC...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Miễn phí · %lld trong số %lld yêu cầu để lại hôm nay";
+
+/* From */
+"From" = "Từ";
+
+/* Full */
+"Full" = "đầy đủ";
+
+/* Gateway */
+"Gateway" = "Gateway";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Gateway %@ · Tuyến mặc định";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Cổng và Tuyến đường";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Bảng gateway và định tuyến";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "Trạng thái Tải trước HSTS";
+
+/* HTTP Headers */
+"HTTP Headers" = "Tiêu đề HTTP";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "Giao thức HTTP";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "Tiêu đề bảo mật HTTP";
+
+/* HTTP response */
+"HTTP response" = "Phản hồi HTTP";
+
+/* HTTP status */
+"HTTP status" = "Trạng thái HTTP";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Phản hồi bắt tay";
+
+/* Hide */
+"Hide" = "Ẩn mình";
+
+/* Hop */
+"Hop" = "Nhảy";
+
+/* Hops */
+"Hops" = "hoa bia";
+
+/* Host */
+"Host" = "Người dẫn chương trình";
+
+/* Host and port */
+"Host and port" = "Máy chủ và cổng";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Máy chủ và cổng, ví dụ example.com:443";
+
+/* Host keys */
+"Host keys" = "Khóa máy chủ";
+
+/* Hostname */
+"Hostname" = "Tên máy chủ";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Tên máy chủ xuất hiện trong các chứng chỉ công khai cho tên miền này.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Các máy chủ trả lời ping hoặc xuất hiện trong bộ nhớ đệm hàng xóm, với tên, độ trễ và dịch vụ được quảng cáo.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Các máy chủ, dịch vụ quảng cáo và các điểm cuối có thể truy cập được tìm thấy trong lần chạy này.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "Máy chủ IANA WHOIS";
+
+/* IP Information */
+"IP Information" = "Thông tin IP";
+
+/* IP Range Expander */
+"IP Range Expander" = "Bộ mở rộng phạm vi IP";
+
+/* IP address */
+"IP address" = "Địa chỉ IP";
+
+/* IP address or ASN */
+"IP address or ASN" = "Địa chỉ IP hoặc ASN";
+
+/* IP address or domain */
+"IP address or domain" = "Địa chỉ IP hoặc miền";
+
+/* IP address or hostname */
+"IP address or hostname" = "Địa chỉ IP hoặc tên máy chủ";
+
+/* IP address or prefix */
+"IP address or prefix" = "Địa chỉ IP hoặc tiền tố";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, Định tuyến và Đăng ký";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "Phạm vi CIDR IPv4, tối đa 4096 địa chỉ";
+
+/* IPv4 address */
+"IPv4 address" = "Địa chỉ IPv4";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "Địa chỉ IPv4 với CIDR";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "Hàng xóm IPv4";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "Các thiết bị láng giềng IPv6";
+
+/* IPv6 address */
+"IPv6 address" = "Địa chỉ IPv6";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Kiểm tra các bản ghi DNSSEC và chữ ký xác thực";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Kiểm tra banner SMTP và thương lượng STARTTLS";
+
+/* Interface */
+"Interface" = "Giao diện";
+
+/* Interface Inventory */
+"Interface Inventory" = "Kho giao diện";
+
+/* Interfaces */
+"Interfaces" = "Giao diện";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Tham gia một mạng hoặc thêm một phạm vi bên dưới. Chạy quét sẽ yêu cầu trợ thủ xem lại.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Các trường khóa từ phản hồi registry.";
+
+/* Keys */
+"Keys" = "Chìa khóa";
+
+/* Last */
+"Last" = "Cuối cùng";
+
+/* Latency */
+"Latency" = "Độ trễ";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Độ trễ, khả năng tiếp cận và đo đường dẫn.";
+
+/* Lease details */
+"Lease details" = "Chi tiết hợp đồng thuê";
+
+/* Lease time */
+"Lease time" = "Thời gian thuê";
+
+/* Limited */
+"Limited" = "Giới hạn";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Giới hạn ở vùng /24 địa phương về tốc độ";
+
+/* Lines */
+"Lines" = "Các tuyến";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Chi tiết liên kết cho chiếc Mac này và các điểm truy cập mà macOS hiện có thể nhìn thấy.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "Đang tải các sản phẩm trên App Store...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Quét thiết bị cục bộ";
+
+/* Local Network */
+"Local Network" = "Mạng nội bộ";
+
+/* Location */
+"Location" = "Vị trí";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Tìm kiếm tên miền trong nhật ký chứng chỉ...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Tìm kiếm các máy chủ gửi thư...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Tìm kiếm hồ sơ đăng ký và sở hữu...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "Tìm kiếm dịch vụ gửi SMTP...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Tìm kiếm dịch vụ cấu hình email...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Tìm kiếm tên máy chủ cho địa chỉ IP này...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Tìm kiếm nguồn gốc ASN và tiền tố định tuyến...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Tìm kiếm dịch vụ IMAP bảo mật...";
+
+/* MAC Formatter */
+"MAC Formatter" = "Định dạng MAC";
+
+/* MAC address */
+"MAC address" = "Địa chỉ MAC";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC và nhà cung cấp ẩn";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC và nhà cung cấp ẩn — trống trong lần chạy này";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC và nhà cung cấp được hiển thị";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Thư";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "SRV Tự động Khám phá Thư";
+
+/* Mail BIMI */
+"Mail BIMI" = "BIMI Thư";
+
+/* Mail DKIM */
+"Mail DKIM" = "Mail DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "DMARC Thư";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Mail IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Thư từ MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "Mail SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "SRV Gửi Thư";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Báo cáo TLS Thư";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Mail TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Tên miền thư";
+
+/* Mail domain or server */
+"Mail domain or server" = "Miền hoặc máy chủ thư";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Máy chủ thư và cổng, ví dụ mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Quản lý Đăng ký";
+
+/* Maximum */
+"Maximum" = "Tối đa";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Đo lường chi tiết tải xuống, tải lên, độ phản hồi và kết nối hiện tại";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Đo lường khả năng tiếp cận và độ trễ khứ hồi";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Đo được dung lượng và độ nhạy của kết nối hiện tại.";
+
+/* Measurement */
+"Measurement" = "Đo lường";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Đo lường tải xuống, tải lên và phản hồi...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Đo khả năng tiếp cận và độ trễ khứ hồi...";
+
+/* Minimum */
+"Minimum" = "Tối thiểu";
+
+/* Mode */
+"Mode" = "Chế độ";
+
+/* More copy options */
+"More copy options" = "Nhiều tùy chọn sao chép hơn";
+
+/* My Network Report */
+"My Network Report" = "Báo cáo mạng lưới của tôi";
+
+/* My Public IP */
+"My Public IP" = "IP công cộng của tôi";
+
+/* NTP Offset */
+"NTP Offset" = "Độ lệch NTP";
+
+/* NTP server */
+"NTP server" = "Máy chủ NTP";
+
+/* Name */
+"Name" = "Tên gọi";
+
+/* Names */
+"Names" = "Tên gọi";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Tên trong nhật ký chứng chỉ";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Đàm phán TLS với bất kỳ dịch vụ ngầm định TLS nào và trình bày giao thức cùng mã hóa đã chọn";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Giao thức, mã hóa, nhận dạng chứng chỉ và trạng thái xác minh đã được thương lượng.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "Đàm phán các khởi đầu SMTP...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Đang đàm phán TLS trên cổng dịch vụ được chỉ định...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "Đang thương lượng kết nối HTTPS TLS...";
+
+/* Neighbor */
+"Neighbor" = "Hàng xóm";
+
+/* Neighbor cache */
+"Neighbor cache" = "Bộ nhớ đệm láng giềng";
+
+/* Neighbors */
+"Neighbors" = "Hàng xóm";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Vòng đời Netmin Pro · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro hàng năm";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin phát hiện các thiết bị và dịch vụ trên mạng nội bộ mà bạn chọn để kiểm tra.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin dừng lệnh này sau %lld giây.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin dừng lệnh này sau khi nó tạo ra %@ đầu ra.";
+
+/* Network */
+"Network" = "Mạng lưới";
+
+/* Network Lookup */
+"Network Lookup" = "tra cứu mạng";
+
+/* Network Quality */
+"Network Quality" = "Chất lượng mạng";
+
+/* Network entries */
+"Network entries" = "Các mục trong mạng lưới";
+
+/* Network interfaces */
+"Network interfaces" = "Giao diện mạng";
+
+/* Networks */
+"Networks" = "Mạng lưới";
+
+/* Networks scanned */
+"Networks scanned" = "Các mạng được quét";
+
+/* Networks to scan */
+"Networks to scan" = "Mạng cần quét";
+
+/* New Lookup */
+"New Lookup" = "Tra cứu mới";
+
+/* New Report */
+"New Report" = "Báo cáo mới";
+
+/* New Sweep */
+"New Sweep" = "Quét Mới";
+
+/* No */
+"No" = "Không";
+
+/* No DNS records found */
+"No DNS records found" = "Không tìm thấy bản ghi DNS nào";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Không tìm thấy giao dịch Netmin Pro nào cho Tài khoản Apple này.";
+
+/* No common ports are open */
+"No common ports are open" = "Không có cổng chung nào được mở";
+
+/* No common services */
+"No common services" = "Không có dịch vụ chung";
+
+/* No data returned */
+"No data returned" = "Không trả về dữ liệu";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Không có thiết bị nào khớp \"%@\"";
+
+/* No devices responded */
+"No devices responded" = "Không có thiết bị nào phản hồi";
+
+/* No diagnostic output */
+"No diagnostic output" = "Không có đầu ra chẩn đoán";
+
+/* No input required */
+"No input required" = "Không cần đầu vào";
+
+/* No matching tools */
+"No matching tools" = "Không có công cụ phù hợp";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Không phát hiện mạng IPv4 riêng tư · Thêm phạm vi để quét";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Không phát hiện mạng IPv4 riêng tư nào";
+
+/* No result returned */
+"No result returned" = "Không trả về kết quả";
+
+/* No target */
+"No target" = "Không có mục tiêu";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "Không có dụng cụ nào khớp với \"%@\"";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Chuẩn hóa địa chỉ MAC thành dạng phân tách dấu hai chữ hoa";
+
+/* Not reached */
+"Not reached" = "Chưa liên lạc được";
+
+/* Not selected */
+"Not selected" = "Không được chọn";
+
+/* Notafter */
+"Notafter" = "Không sau đó";
+
+/* Notes */
+"Notes" = "Ghi chú";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Không có gì trả lời ping hoặc xuất hiện trong bộ nhớ đệm hàng xóm trên các mạng đã quét. Kiểm tra xem Mac này có nằm trên mạng mong đợi không hoặc thêm một dải thủ công.";
+
+/* Nothing detected */
+"Nothing detected" = "Không phát hiện gì";
+
+/* Off */
+"Off" = "Tắt";
+
+/* Offset */
+"Offset" = "bù đắp";
+
+/* On */
+"On" = "Bật";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Chỉ có giới thiệu IANA được trả về. Thử lại %@ hoặc sử dụng RDAP để lấy nhà đăng ký, máy chủ tên và ngày đăng ký.";
+
+/* Open */
+"Open" = "Mở ra";
+
+/* Open ports */
+"Open ports" = "Cổng mở";
+
+/* Open ports: */
+"Open ports:" = "Cổng mở:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "Tùy chọn CIDR IPv4; quét trống tất cả các mạng LAN đang hoạt động";
+
+/* Options */
+"Options" = "Tùy chọn";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "AS gốc và tiền tố định tuyến";
+
+/* Other */
+"Other" = "Khác";
+
+/* Output */
+"Output" = "Sản lượng";
+
+/* Overview */
+"Overview" = "Tổng quan";
+
+/* Packet loss */
+"Packet loss" = "Mất gói tin";
+
+/* Partial */
+"Partial" = "Một phần";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Chuyển %@ cho lệnh";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Thanh toán sẽ được chuyển vào Tài khoản Apple của bạn. Đăng ký hàng năm sẽ tự động gia hạn trừ khi bạn hủy trong cài đặt App Store ít nhất một ngày trước khi kỳ hiện tại kết thúc.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Chọn một công cụ từ thanh bên hoặc nhấn ⌘K để tìm kiếm tất cả.";
+
+/* Ping */
+"Ping" = "ping";
+
+/* Port */
+"Port" = "Cảng";
+
+/* Port %@ is open */
+"Port %@ is open" = "Cổng %@ đã mở";
+
+/* Ports */
+"Ports" = "Cảng";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Các cổng chấp nhận kết nối.";
+
+/* Primary mail server */
+"Primary mail server" = "Máy chủ thư chính";
+
+/* Primary nameserver */
+"Primary nameserver" = "Máy chủ tên chính";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "Giao diện chính";
+
+/* Privacy */
+"Privacy" = "Quyền riêng tư";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Chính sách bảo mật...";
+
+/* Pro */
+"Pro" = "Ưu điểm";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Mua Pro hiện không khả dụng. Vui lòng thử lại sau.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Dùng thử chuyên nghiệp · %lld còn lại ngày";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Dùng thử chuyên nghiệp · Còn 1 ngày";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Thử nghiệm chuyên nghiệp · kết thúc %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Dùng thử Pro · Thanh toán lần đầu %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Dùng thử chuyên nghiệp · đến %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro biến đầu ra chẩn đoán thô thành bảng, chỉ số và kết quả. Sau 30 ngày dùng thử, Free bao gồm đầu ra thô cho tối đa năm yêu cầu mỗi ngày.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Ưu điểm · kết thúc %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Ưu điểm · Vòng đời";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Ưu điểm · gia hạn %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Ưu điểm · chia sẻ với gia đình bạn";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Ưu điểm · đến %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Thăm dò 25 cổng TCP phổ biến với các công cụ mạng có trong macOS";
+
+/* Probed */
+"Probed" = "đã thăm dò";
+
+/* Proto */
+"Proto" = "nguyên thủy";
+
+/* Protocol */
+"Protocol" = "Nghi thức";
+
+/* Protocol Version */
+"Protocol Version" = "Phiên bản Giao thức";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Khám phá DNS công khai là một phần";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Việc thăm dò DNS công khai đã tìm thấy các bản ghi hữu ích, nhưng tên tùy chỉnh có thể vẫn bị ẩn.";
+
+/* Public IP */
+"Public IP" = "Sở hữu trí tuệ công cộng";
+
+/* Public IPv4 */
+"Public IPv4" = "IPv4 công cộng";
+
+/* Public IPv6 */
+"Public IPv6" = "IPv6 công cộng";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Thông tin địa chỉ công cộng và quyền sở hữu mạng lưới.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Các bộ giải quyết công khai trả về các câu trả lời khác; một thay đổi có thể vẫn đang được lan truyền.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Bộ chuyển đổi mã nhỏ";
+
+/* Purchase */
+"Purchase" = "Mua";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Hiện tại không có giao dịch mua hàng.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Truy vấn một bản ghi A thông qua điểm cuối DNS-over-HTTPS";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Tra cứu tên NetBIOS và nhóm làm việc được quảng cáo bởi thiết bị Windows hoặc SMB";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Truy vấn đồng hồ máy chủ và hiển thị độ lệch cục bộ đo được";
+
+/* Querying %@… */
+"Querying %@…" = "Gửi thư hỏi %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "Đang truy vấn các bản ghi vị trí địa lý của DNS...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "Đang truy vấn các bản ghi văn bản DNS...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "Truy vấn khóa công khai DNSSEC...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "Đang truy vấn các bản ghi và chữ ký DNSSEC...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "Truy vấn các endpoint HTTPS và gợi ý kết nối...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "Đang truy vấn các bản ghi địa chỉ IPv4 (A)...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "Truy vấn bản ghi IPv4 qua HTTPS...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "Đang truy vấn các bản ghi địa chỉ IPv6 (AAAA)...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Đang truy vấn các bản ghi phát hiện chính sách MTA-STS...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "Đang truy vấn các bản ghi liên kết chứng chỉ TLS...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "Đang truy vấn các bản ghi báo cáo giao hàng TLS...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Đang truy vấn hồ sơ máy chủ tên có thẩm quyền...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Đang truy vấn hồ sơ chỉ số thương hiệu...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Đang truy vấn các bản ghi ủy quyền của cơ quan cấp chứng chỉ...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Đang truy vấn các bản ghi ký ủy quyền...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Đang truy vấn các bản ghi tên máy chủ bí danh (CNAME)...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Đang truy vấn các liên kết dịch vụ và tham số kết nối...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Đang truy vấn quy tắc khám phá dịch vụ...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Truy vấn máy chủ dịch vụ, cổng và ưu tiên...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "Đang truy vấn khóa công khai của bộ chọn DKIM...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Đang tra cứu tên thiết bị Windows hoặc SMB...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Đang truy vấn chính sách xác thực email...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Đang truy vấn chính sách ủy quyền người gửi...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Truy vấn máy chủ thời gian và đo độ lệch đồng hồ...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Đang truy vấn bản ghi quyền hạn vùng và thời gian...";
+
+/* Quick */
+"Quick" = "Nhanh lên";
+
+/* Quick lookup */
+"Quick lookup" = "Tra cứu nhanh";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Nhanh chóng tìm thiết bị cục bộ, máy in và dịch vụ quảng cáo";
+
+/* RDAP Domain */
+"RDAP Domain" = "Miền RDAP";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "Xác thực RPKI";
+
+/* Ran %@ */
+"Ran %@" = "Đã chạy %@";
+
+/* Raw Output */
+"Raw Output" = "sản lượng thô";
+
+/* Raw output */
+"Raw output" = "Sản lượng thô";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Khả năng tiếp cận và thời gian khứ hồi với giá %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Các cổng, dịch vụ và chi tiết khóa máy chủ có thể truy cập.";
+
+/* Reached */
+"Reached" = "Đã đến";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Đang đọc các file láng giềng IPv4 được lưu trong bộ nhớ đệm...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Đang đọc các file láng giềng IPv6 được lưu trong bộ nhớ đệm...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "Đang đọc các bộ phân giải DNS macOS và miền tìm kiếm...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Đang đọc địa chỉ và trạng thái giao diện mạng...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Đang đọc lệnh thuê DHCP của giao diện đang hoạt động...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Đang đọc các bảng gateway mặc định và định tuyến...";
+
+/* Recent */
+"Recent" = "Gần đây";
+
+/* Record */
+"Record" = "Thành tích";
+
+/* Records */
+"Records" = "Kỷ lục";
+
+/* Registrar */
+"Registrar" = "Đăng ký viên";
+
+/* Registration and routing data */
+"Registration and routing data" = "Dữ liệu đăng ký và định tuyến";
+
+/* Registry record */
+"Registry record" = "Hồ sơ đăng ký";
+
+/* Registry response */
+"Registry response" = "Phản hồi của registry";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Phản hồi từ registry chưa đầy đủ";
+
+/* Related */
+"Related" = "Liên quan";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Được nhớ đến cho các kết quả tiếp theo · ⌘1 Tổng quan, ⌘2 Đầu ra thô";
+
+/* Remove this range */
+"Remove this range" = "Xóa phạm vi này";
+
+/* Replies */
+"Replies" = "Phản hồi";
+
+/* Report for %@ */
+"Report for %@" = "Báo cáo cho %@";
+
+/* Report overview */
+"Report overview" = "Tổng quan báo cáo";
+
+/* Reports */
+"Reports" = "Báo cáo";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Yêu cầu chuyển toàn bộ vùng DNS từ máy chủ có thẩm quyền";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Yêu cầu chuyển toàn bộ vùng DNS...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Yêu cầu TLS 1.2 và chứng minh liệu đàm phán có thành công hay không";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Yêu cầu TLS 1.3 và chứng minh liệu đàm phán có thành công hay không";
+
+/* Resolved */
+"Resolved" = "Đã được giải quyết";
+
+/* Resolved address */
+"Resolved address" = "Địa chỉ đã được giải quyết";
+
+/* Resolver */
+"Resolver" = "Bộ giải quyết";
+
+/* Resolver %@ */
+"Resolver %@" = "Bộ giải quyết %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Kết quả của bộ giải quyết được nhóm lại để xem nhanh.";
+
+/* Resolver response */
+"Resolver response" = "Phản hồi của bộ giải quyết";
+
+/* Resolvers */
+"Resolvers" = "Bộ giải quyết";
+
+/* Resolvers agree */
+"Resolvers agree" = "Các bộ giải quyết đồng ý";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Các bộ phân giải và miền tìm kiếm mà macOS hiện đang sử dụng, theo thứ tự ưu tiên.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Các bộ giải quyết khác nhau";
+
+/* Resources */
+"Resources" = "Tài nguyên";
+
+/* Response */
+"Response" = "Phản hồi";
+
+/* Response %lld */
+"Response %lld" = "Phản hồi %lld";
+
+/* Responses */
+"Responses" = "Phản hồi";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Phản hồi cho tìm kiếm multicast, mỗi thông báo một thẻ.";
+
+/* Responsiveness */
+"Responsiveness" = "Khả năng phản hồi";
+
+/* Restore Purchases */
+"Restore Purchases" = "Khôi phục các giao dịch mua hàng";
+
+/* Result */
+"Result" = "Kết quả";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "Kết quả được nhóm theo từng lần kiểm tra mạng đã hoàn thành.";
+
+/* Retry registry */
+"Retry registry" = "Đăng ký thử lại";
+
+/* Reverse DNS */
+"Reverse DNS" = "DNS ngược";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Chuyến đi khứ hồi";
+
+/* Route to target */
+"Route to target" = "Lộ trình đến mục tiêu";
+
+/* Router */
+"Router" = "Bộ định tuyến";
+
+/* Routes */
+"Routes" = "Các tuyến đường";
+
+/* Routing record */
+"Routing record" = "Bản ghi định tuyến";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Dữ liệu đăng ký định tuyến cho %@.";
+
+/* Routing table */
+"Routing table" = "Bảng định tuyến";
+
+/* Run */
+"Run" = "Chạy";
+
+/* Run Again */
+"Run Again" = "chạy lại";
+
+/* Run Lookup */
+"Run Lookup" = "Chạy tra cứu";
+
+/* Run Report */
+"Run Report" = "Chạy báo cáo";
+
+/* Run Sweep */
+"Run Sweep" = "chạy quét";
+
+/* Run Tool */
+"Run Tool" = "Công cụ Chạy";
+
+/* Run again */
+"Run again" = "Chạy lại lần nữa";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Chạy công cụ %@";
+
+/* Running */
+"Running" = "Chạy bộ";
+
+/* Running %@… */
+"Running %@…" = "Chạy %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "Chạy · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "CÁC KHỞI ĐẦU SMTP";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "Khám phá SSDP/UPnP";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "Khóa máy chủ SSH";
+
+/* SSH host keys */
+"SSH host keys" = "Khóa máy chủ SSH";
+
+/* Save Report… */
+"Save Report…" = "Lưu báo cáo...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Lưu báo cáo và sao chép tóm tắt có cấu trúc";
+
+/* Scan */
+"Scan" = "Quét";
+
+/* Scripts */
+"Scripts" = "Kịch bản";
+
+/* Search domain */
+"Search domain" = "Miền tìm kiếm";
+
+/* Sections */
+"Sections" = "Các phần";
+
+/* Security details */
+"Security details" = "Thông tin bảo mật";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Chọn lọc";
+
+/* Sequence */
+"Sequence" = "Trình tự";
+
+/* Server */
+"Server" = "Máy chủ";
+
+/* Service */
+"Service" = "Phục vụ";
+
+/* Service reachability */
+"Service reachability" = "Khả năng tiếp cận dịch vụ";
+
+/* Service type */
+"Service type" = "Loại dịch vụ";
+
+/* Service types */
+"Service types" = "Các loại dịch vụ";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Các loại dịch vụ được thông báo trên mạng nội bộ trong thời gian khám phá.";
+
+/* Services */
+"Services" = "Dịch vụ";
+
+/* Show */
+"Show" = "Chương trình";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Hiển thị các liên kết chứng chỉ DANE cho dịch vụ TLS";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Hiển thị các điểm cuối dịch vụ HTTPS và gợi ý kết nối";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Hiển thị các địa chỉ IPv4 được công bố cho tên máy chủ";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Hiển thị các hàng xóm IPv4 mà Mac này vừa liên hệ gần đây";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Hiển thị các địa chỉ IPv6 được công bố cho một tên máy chủ";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Hiển thị chi tiết liên kết Wi-Fi và các điểm truy cập gần đó có thể hiển thị trên macOS";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Hiển thị địa chỉ, MTU, trạng thái và bộ đếm cho từng giao diện mạng";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Hiển thị các láng giềng IPv6 được lưu trong bộ nhớ đệm và địa chỉ lớp liên kết của chúng";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Hiển thị danh tính chứng chỉ, đơn vị phát hành, hiệu lực và dấu vân tay SHA-256";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Hiển thị từng bộ định tuyến trên đường dẫn đến đích";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Hiển thị các bản ghi vị trí địa lý được xuất bản bởi một vùng";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Hiển thị chi tiết vị trí, mạng, ASN và quyền sở hữu";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Hiển thị phiên bản TLS thương lượng, mã hóa, trao đổi khóa và xác minh";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Hiển thị ranh giới mạng, mặt nạ mạng, địa chỉ phát sóng và kích thước";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Hiển thị các bản ghi văn bản đã xuất bản và chính sách miền";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Hiển thị hồ sơ đăng ký và quyền sở hữu thô";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Hiển thị chi tiết phân bổ và đăng ký registry cho một IP";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Hiển thị chi tiết đăng ký đăng ký và trạng thái của một tên miền";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Hiển thị tiêu đề phản hồi và mỗi lần chuyển hướng";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Hiển thị hồ sơ khám phá dịch vụ dựa trên quy tắc";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Hiển thị các điểm cuối dịch vụ và tham số kết nối";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Hiển thị máy chủ dịch vụ, cổng, ưu tiên và trọng số";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Hiển thị các bộ phân giải DNS và miền tìm kiếm mà macOS thực sự đang sử dụng";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Hiển thị trạng thái xác thực nguồn tuyến RPKI được báo cáo bởi RIPE";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Hiển thị máy chủ DHCP, thuê và các tùy chọn cung cấp của giao diện đang hoạt động";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Hiển thị các máy chủ tên có thẩm quyền cho một tên miền";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Hiển thị mục tiêu bí danh chuẩn cho một tên máy chủ";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Hiển thị toàn bộ chuỗi chứng chỉ đã được phục vụ, kết quả xác minh và phản hồi OCSP được ghim";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Hiển thị cổng mặc định và bảng định tuyến IPv4 và IPv6 đầy đủ";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Hiển thị chính sách chỉ báo thương hiệu của tên miền";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Hiển thị chính sách xác thực email của tên miền";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Hiển thị phiên bản HTTP đã thương lượng, trạng thái, địa chỉ máy chủ và kết quả TLS";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Hiển thị mã nguồn ASN, tiền tố định tuyến, registry và chi tiết phân bổ";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Hiển thị các bản ghi ký ủy quyền vùng cha";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Hiển thị chính sách yêu cầu gửi thư bảo mật";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Hiển thị các tiêu đề bảo mật chính của trình duyệt được trả về bởi một trang web";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Hiển thị địa chỉ IP công cộng mà internet nhìn thấy";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Hiển thị khóa công khai cho bộ chọn DKIM";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Hiển thị các khóa công khai được sử dụng để xác thực vùng DNS";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Hiển thị dấu vân tay SSH host-key được quảng cáo của máy chủ";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Hiển thị các máy chủ nhận thư cho một miền";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Hiển thị nơi gửi báo cáo giao TLS";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Hiển thị những cơ quan cấp chứng chỉ nào có thể cấp chứng chỉ";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Hiển thị các máy chủ được phép gửi thư";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Hiển thị thông tin quyền hạn vùng, số seri và thời gian";
+
+/* Site Report */
+"Site Report" = "Báo cáo địa điểm";
+
+/* Site report for example.org */
+"Site report for example.org" = "Báo cáo hiện trường cho example.org";
+
+/* State */
+"State" = "Bang";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Trạng thái:/Mạng/Toàn cầu/IPv4";
+
+/* Statistics */
+"Statistics" = "Thống kê";
+
+/* Status */
+"Status" = "Tình trạng";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Trạng thái, giao thức, chuyển hướng và tiêu đề trả về.";
+
+/* Stop */
+"Stop" = "Dừng lại";
+
+/* Stop Sweep */
+"Stop Sweep" = "Dừng quét";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Phản hồi đăng ký có cấu trúc cho %@.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Báo cáo có cấu trúc là tính năng của Netmin Pro";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Báo cáo có cấu trúc với bảng, chỉ số và kết quả";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Phản hồi bộ giải quyết có cấu trúc.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Phản hồi có cấu trúc từ dịch vụ web.";
+
+/* System network configuration */
+"System network configuration" = "Cấu hình mạng hệ thống";
+
+/* TCP Port Check */
+"TCP Port Check" = "Kiểm tra cổng TCP";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "KHẢ NĂNG TIẾP CẬN BẰNG TCP";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Bắt tay";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Bắt tay";
+
+/* TLS Certificate */
+"TLS Certificate" = "Chứng chỉ TLS";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "Chuỗi chứng chỉ TLS";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS Handshake";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "Bắt tay dịch vụ TLS";
+
+/* TLS connection */
+"TLS connection" = "Kết nối TLS";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, Web và Cổng";
+
+/* Target */
+"Target" = "Mục tiêu";
+
+/* Target (optional) */
+"Target (optional)" = "Mục tiêu (tùy chọn)";
+
+/* Target did not reply */
+"Target did not reply" = "Mục tiêu không trả lời";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Mục tiêu không được chứa khoảng trắng";
+
+/* Terms */
+"Terms" = "Điều khoản";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Kiểm tra SMTP 25, SMTPS 465, submission 587, IMAPS 993 và POP3S 995 đồng thời";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Kiểm tra đàm phán TLS với máy chủ DNS qua TLS";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "Kiểm tra đàm phán TLS 1.2...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "Đang kiểm tra đàm phán TLS 1.3...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "Kiểm tra đàm phán TLS trên cổng DNS 853...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "Kiểm tra TLS trên các dịch vụ SMTP, IMAP và POP3...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Đang kiểm tra kết nối đến cổng TCP được chỉ định...";
+
+/* Text */
+"Text" = "Văn bản";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "25 cổng TCP phổ biến nhất đã được thăm dò với thời gian chờ một giây.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store không thể xác minh giao dịch mua này.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "Địa chỉ MAC ở dạng chữ hoa, tách đại tràng.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Danh mục công cụ Netmin không chứa công cụ hợp lệ.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL cần một sơ đồ và một máy chủ, ví dụ như https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "Thuê giao diện đang hoạt động và các tùy chọn do máy chủ DHCP cung cấp.";
+
+/* The address is not valid. */
+"The address is not valid." = "Địa chỉ không hợp lệ.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "Địa chỉ mà internet nhìn thấy cho kết nối này.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "Ứng dụng đã làm theo các chuyển hướng, nhưng trang web đã gửi lại tệp này về cùng một URL nhiều lần. Không có tệp nào được trả về.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "Máy chủ có thẩm quyền cho phép chuyển toàn bộ vùng AXFR.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "Các máy chủ có thẩm quyền không cung cấp chuyển vùng hoàn chỉnh. Đây là các bản ghi được tìm thấy qua các probe công khai; tên tùy chỉnh có thể vẫn còn tồn tại.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "Danh mục công cụ Netmin đi kèm đã bị thiếu.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Lệnh hoàn thành, nhưng mục tiêu không trả về dữ liệu phù hợp.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Lệnh thất bại trước khi xuất ra kết quả chẩn đoán.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "Tuyến mặc định và mọi tuyến IPv4 và IPv6 mà macOS biết đến.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "30 ngày đầu tiên bao gồm Pro. Sau khi dùng thử, Free giữ lại tất cả 84 công cụ và đầu ra thô, với năm yêu cầu chẩn đoán mỗi ngày.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "Tiền tố sau / phải là một số";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Quá trình thoát với trạng thái %lld trước khi trả về chi tiết. Kiểm tra xem lệnh cần thiết đã được cài đặt và mục tiêu có thể truy cập được không.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "Việc mua bán đang chờ phê duyệt.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Registry trả về một phản hồi không có cấu trúc; các dòng hữu ích của nó được trình bày bên dưới.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "Bộ giải quyết không trả về câu trả lời nào phù hợp.";
+
+/* This Mac */
+"This Mac" = "Mac này";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "Điều này sẽ xóa các mục tiêu đã lưu và các bản tóm tắt chạy gần đây khỏi Mac này. Nó không xóa các báo cáo đã xuất.";
+
+/* Time */
+"Time" = "Thời gian";
+
+/* Timeouts */
+"Timeouts" = "Thời gian hội ý";
+
+/* Tools */
+"Tools" = "Dụng cụ";
+
+/* Tools unavailable */
+"Tools unavailable" = "Không có công cụ";
+
+/* Trace */
+"Trace" = "Dấu vết";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Truy vết chuỗi tin cậy DNSSEC từ gốc";
+
+/* Traceroute */
+"Traceroute" = "Traceroute";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "Theo dõi các ủy quyền DNS và bản ghi DNSSEC...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "Theo dõi các ủy quyền DNS từ root...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Theo dõi đường đi mạng đến đích...";
+
+/* Try Again */
+"Try Again" = "Thử lại";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Hãy thử RDAP →";
+
+/* Type */
+"Type" = "Loại";
+
+/* Types */
+"Types" = "Các loại";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "Thiết bị và dịch vụ UPnP";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "Sự không chắc chắn";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Chẩn đoán mạng không giới hạn với báo cáo dễ đọc và công cụ xuất dữ liệu.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Sử dụng không giới hạn tất cả 84 công cụ chẩn đoán";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Mở khóa %@, cùng với bộ tính năng Pro đầy đủ.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Mở khóa báo cáo...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Mở khóa Tóm tắt có cấu trúc...";
+
+/* Unnamed */
+"Unnamed" = "Chưa được đặt tên";
+
+/* Unsigned */
+"Unsigned" = "không ký tên";
+
+/* Upload */
+"Upload" = "Tải lên";
+
+/* Use custom resolver */
+"Use custom resolver" = "Sử dụng bộ phân giải tùy chỉnh";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Sử dụng host:port, địa chỉ IPv6 hoặc địa chỉ MAC";
+
+/* Utilities */
+"Utilities" = "Tiện ích";
+
+/* VPN tunnel */
+"VPN tunnel" = "Đường hầm VPN";
+
+/* Validated */
+"Validated" = "Đã xác thực";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "Đang xác thực các bản ghi TLSA và chuỗi DNSSEC của chúng...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "Đang xác thực câu trả lời DNS và chuỗi DNSSEC...";
+
+/* Value */
+"Value" = "Giá trị";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Giá trị được tạo ra bởi %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "Giá trị được macOS báo cáo là %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Giá trị trả về là %@.";
+
+/* Vendor */
+"Vendor" = "Nhà cung cấp";
+
+/* Verification */
+"Verification" = "Xác minh";
+
+/* Verify Return Code */
+"Verify Return Code" = "Xác minh mã trả hàng";
+
+/* View */
+"View" = "Xem";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Xem Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "Cầu ảo";
+
+/* Virtual machine network */
+"Virtual machine network" = "Mạng máy ảo";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "Máy chủ WHOIS";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Chờ đợi phản hồi đầu tiên...";
+
+/* Web policy status */
+"Web policy status" = "Trạng thái chính sách web";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Chẩn đoán Wi-Fi";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Trạng thái Wi-Fi";
+
+/* Window */
+"Window" = "Cửa sổ";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Khám phá tên Windows";
+
+/* Yes */
+"Yes" = "Đúng vậy";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "Bạn có Netmin Pro.";
+
+/* Your public address */
+"Your public address" = "Thông điệp công khai của bạn";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "đang hoạt động";
+
+/* advanced structured reports */
+"advanced structured reports" = "Báo cáo có cấu trúc nâng cao";
+
+/* all detected */
+"all detected" = "tất cả đã được phát hiện";
+
+/* arp table */
+"arp table" = "bảng ARP";
+
+/* as name */
+"as name" = "như tên gọi";
+
+/* closed */
+"closed" = "đã đóng";
+
+/* command */
+"command" = "chỉ huy";
+
+/* complete zone */
+"complete zone" = "vùng hoàn chỉnh";
+
+/* configured */
+"configured" = "đã được cấu hình";
+
+/* creation date */
+"creation date" = "ngày thành lập";
+
+/* device sweep */
+"device sweep" = "quét thiết bị";
+
+/* did not answer within */
+"did not answer within" = "không trả lời trong";
+
+/* differs */
+"differs" = "khác biệt";
+
+/* domain name */
+"domain name" = "tên miền";
+
+/* down */
+"down" = "xuống";
+
+/* downlink capacity */
+"downlink capacity" = "công suất liên kết xuống";
+
+/* expiration date */
+"expiration date" = "ngày hết hạn";
+
+/* expiration date: */
+"expiration date:" = "Ngày hết hạn:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "hết hạn %lld ngày trước";
+
+/* expires today */
+"expires today" = "hết hạn hôm nay";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "bốn yêu cầu echo ICMP";
+
+/* gateway %@ */
+"gateway %@" = "cổng %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "trong %lld ngày";
+
+/* inactive */
+"inactive" = "không hoạt động";
+
+/* incomplete */
+"incomplete" = "không hoàn chỉnh";
+
+/* ip information */
+"ip information" = "thông tin IP";
+
+/* just now */
+"just now" = "vừa rồi";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "giới hạn ở vùng /24 địa phương về tốc độ";
+
+/* local */
+"local" = "địa phương";
+
+/* loss %@ */
+"loss %@" = "mất %@";
+
+/* median %@ */
+"median %@" = "trung vị %@";
+
+/* name server */
+"name server" = "máy chủ tên";
+
+/* name server: */
+"name server:" = "Máy chủ tên:";
+
+/* network */
+"network" = "mạng lưới";
+
+/* network lookup */
+"network lookup" = "tra cứu mạng";
+
+/* network quality */
+"network quality" = "chất lượng mạng";
+
+/* network report */
+"network report" = "báo cáo mạng lưới";
+
+/* networks */
+"networks" = "mạng lưới";
+
+/* no address */
+"no address" = "không có địa chỉ";
+
+/* no answer */
+"no answer" = "không có ai trả lời";
+
+/* no ping replies */
+"no ping replies" = "không có phản hồi ping";
+
+/* no reply */
+"no reply" = "không có hồi âm";
+
+/* open */
+"open" = "Mở";
+
+/* packets transmitted */
+"packets transmitted" = "các gói tin được truyền";
+
+/* primary %@ */
+"primary %@" = "chính %@";
+
+/* public ip */
+"public ip" = "sở hữu trí tuệ công cộng";
+
+/* raw output */
+"raw output" = "sản lượng thô";
+
+/* reachable */
+"reachable" = "có thể tiếp cận";
+
+/* redirects followed */
+"redirects followed" = "Các chuyển hướng đã được thực hiện";
+
+/* registrar name */
+"registrar name" = "tên đăng ký";
+
+/* registry expiry date */
+"registry expiry date" = "ngày hết hạn của registry";
+
+/* registry expiry date: */
+"registry expiry date:" = "Ngày hết hạn đăng ký:";
+
+/* resolution failed */
+"resolution failed" = "giải quyết thất bại";
+
+/* reverse dns */
+"reverse dns" = "DNS đảo ngược";
+
+/* run with last target */
+"run with last target" = "chạy với mục tiêu cuối cùng";
+
+/* scoped */
+"scoped" = "có phạm vi";
+
+/* search domain */
+"search domain" = "miền tìm kiếm";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.miền";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "Dấu vân tay sha256";
+
+/* site report */
+"site report" = "báo cáo địa điểm";
+
+/* summary */
+"summary" = "Tóm tắt";
+
+/* target */
+"target" = "mục tiêu";
+
+/* the address */
+"the address" = "Địa chỉ";
+
+/* the selected resource */
+"the selected resource" = "tài nguyên đã chọn";
+
+/* the selected target */
+"the selected target" = "mục tiêu đã chọn";
+
+/* the target */
+"the target" = "mục tiêu";
+
+/* timed out */
+"timed out" = "hết thời gian";
+
+/* unknown */
+"unknown" = "không biết";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "Yêu cầu chẩn đoán không giới hạn";
+
+/* up */
+"up" = "lên";
+
+/* updated date */
+"updated date" = "ngày cập nhật";
+
+/* uplink capacity */
+"uplink capacity" = "khả năng truyền tải lên";
+
+/* verify return code */
+"verify return code" = "Xác minh mã trả hàng";
+
+/* via %@ */
+"via %@" = "qua %@";
+
+/* windows name */
+"windows name" = "tên cửa sổ";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Thêm %@ vào Mục yêu thích";
+
+/* Favorites */
+"Favorites" = "Mục yêu thích";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Xóa %@ khỏi Mục yêu thích";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ ms";
+
+/* Pro features are locked */
+"Pro features are locked" = "Các tính năng Pro đang bị khóa";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Mua hoặc khôi phục quyền truy cập để mở khóa.";
+
+/* Restoring… */
+"Restoring…" = "Đang khôi phục…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Không tìm thấy hoạt động mua Netmin nào.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "Tiền tố IP";
+
+/* Primary */
+"Primary" = "Chính";
+
+/* All relevant */
+"All relevant" = "Tất cả loại phù hợp";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "ASN nguồn, ví dụ AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "Tiền tố IP, ví dụ 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Kiểm tra ASN nguồn có được phép công bố tiền tố IP hay không";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Thử truyền toàn bộ vùng từ từng máy chủ tên có thẩm quyền";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Tên máy chủ, tên dịch vụ hoặc địa chỉ IP";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "So sánh câu trả lời DNS được lưu đệm từ Cloudflare, Google, Quad9 và OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "So sánh tất cả loại bản ghi phù hợp";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Đang so sánh câu trả lời từ các bộ phân giải công cộng…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "So sánh các loại bản ghi phổ biến áp dụng cho mục tiêu này.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Kiểm tra A cho tên máy chủ, PTR cho địa chỉ IP hoặc SRV cho tên dịch vụ.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Tất cả bộ phân giải công cộng trả về cùng câu trả lời DNS.";
