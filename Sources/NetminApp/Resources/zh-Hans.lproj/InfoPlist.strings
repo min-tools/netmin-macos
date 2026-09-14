@@ -1,0 +1,3 @@
+/* Netmin — zh-Hans Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin 发现您选择检查的本地网络上的设备和服务。";
