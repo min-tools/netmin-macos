@@ -1,0 +1,2690 @@
+/* Netmin — uk localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "МС";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ прийняв TCP-з'єднання.";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ не вдалося повернути";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ не завершився";
+
+/* %@ ms */
+"%@ ms" = "%@ мс";
+
+/* %@ open */
+"%@ open" = "%@ відкрито";
+
+/* %@ open ports */
+"%@ open ports" = "%@ відкриті порти";
+
+/* %@ per year */
+"%@ per year" = "%@ на рік";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ · %@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ · %@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP · %lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld адреси";
+
+/* %lld answers */
+"%lld answers" = "%lld відповідає";
+
+/* %lld bytes */
+"%lld bytes" = "%lld байти";
+
+/* %lld checks */
+"%lld checks" = "%lld чеки";
+
+/* %lld day */
+"%lld day" = "%lld день";
+
+/* %lld days */
+"%lld days" = "%lld днів";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld виявлено · Сканування всього займає близько %lld s";
+
+/* %lld devices */
+"%lld devices" = "Пристрої %lld";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld пристрої на %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld записи";
+
+/* %lld headers */
+"%lld headers" = "%lld заголовки";
+
+/* %lld hops */
+"%lld hops" = "%lld хопс";
+
+/* %lld hosts */
+"%lld hosts" = "%lld ведучі";
+
+/* %lld hour */
+"%lld hour" = "%lld година";
+
+/* %lld hours */
+"%lld hours" = "%lld години";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld незавершено";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld інтерфейси";
+
+/* %lld keys */
+"%lld keys" = "%lld ключі";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld обмежено /24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld рядки · %lld персонажі";
+
+/* %lld matches */
+"%lld matches" = "%lld матчі";
+
+/* %lld minute */
+"%lld minute" = "%lld хвилина";
+
+/* %lld minutes */
+"%lld minutes" = "%lld хвилин";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld ще рядки · використовуйте Copy Result для повного виводу";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld названо · %lld без імені";
+
+/* %lld names */
+"%lld names" = "%lld імена";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld сусіди";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld мереж %lld · близько %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld з %lld відкрито";
+
+/* %lld open */
+"%lld open" = "%lld відкрито";
+
+/* %lld received */
+"%lld received" = "%lld отримано";
+
+/* %lld records */
+"%lld records" = "%lld records";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld записи · часткові";
+
+/* %lld redirects */
+"%lld redirects" = "%lld перенаправлення";
+
+/* %lld responses */
+"%lld responses" = "%lld відповіді";
+
+/* %lld routes */
+"%lld routes" = "%lld маршрути";
+
+/* %lld rows */
+"%lld rows" = "%lld ряди";
+
+/* %lld second */
+"%lld second" = "%lld секунда";
+
+/* %lld seconds */
+"%lld seconds" = "%lld секунди";
+
+/* %lld service types */
+"%lld service types" = "Типи послуг %lld";
+
+/* %lld services */
+"%lld services" = "Послуги %lld";
+
+/* %lld tools */
+"%lld tools" = "%lld інструменти";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "([0-9.]+) мс";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = ", з:";
+
+/* 0 (ok) */
+"0 (ok)" = "0 (гаразд)";
+
+/* 1 match */
+"1 match" = "1 матч";
+
+/* 1 response */
+"1 response" = "1 відповідь";
+
+/* 1 service */
+"1 service" = "1 Служба";
+
+/* 2 minutes ago */
+"2 minutes ago" = "2 хвилини тому";
+
+/* ; fully validated */
+"; fully validated" = "; Повністю валідований";
+
+/* ; unsigned answer */
+"; unsigned answer" = "; Відповідь без підпису";
+
+/* ; validation failed */
+"; validation failed" = "; Валідація не вдалася";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "Діапазон CIDR потребує повної адреси перед префіксом, наприклад 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "Свіп може включати максимум 16 доданих вручну діапазонів.";
+
+/* ARP Table */
+"ARP Table" = "Таблиця ARP";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "Пошук ASN та BGP";
+
+/* Actions */
+"Actions" = "Дії";
+
+/* Active */
+"Active" = "Активна діяльність";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "Активні записи, зареєстровані macOS та локальними інструментами виявлення.";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "Активні записи повідомляє macOS.";
+
+/* Add */
+"Add" = "Додати";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "Додайте %@ до сканування";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "Додайте діапазон, наприклад 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "Додано вручну";
+
+/* Added range */
+"Added range" = "Збільшена дальність";
+
+/* Address */
+"Address" = "Адреса";
+
+/* Address details */
+"Address details" = "Деталі адреси";
+
+/* Address details for %@ */
+"Address details for %@" = "Адресні дані для %@";
+
+/* Addresses */
+"Addresses" = "Адреси";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "Адреси, з якими цей Mac нещодавно обмінявся пакетами.";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "Додає доступність, спільні порти та маршрут. Може зайняти хвилину.";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "Додає спроби передачі зон, сигнали DNSSEC, більше імен хостів і назви сертифікатів.";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "Рекламовані послуги Bonjour";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "Оголошено під час вікна відкриття.";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "IPv4-адреса потребує чотирьох цифр від 0 до 255";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "Префікс IPv4 має від /0 до /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "Префікс IPv6 йде від /0 до /128";
+
+/* Answer %lld */
+"Answer %lld" = "Відповідь %lld";
+
+/* Answers */
+"Answers" = "Відповіді";
+
+/* Answers by resolver */
+"Answers by resolver" = "Відповіді за допомогою резольвера";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "Відповіді повернулися за %@.";
+
+/* Assigned address */
+"Assigned address" = "Призначена адреса";
+
+/* Authenticated */
+"Authenticated" = "Автентифіковано";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "Автоматичне оновлення щороку · скасувати будь-коли";
+
+/* Average */
+"Average" = "Середній рівень";
+
+/* Bits */
+"Bits" = "Біти";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour Services";
+
+/* Bonjour services */
+"Bonjour services" = "Послуги Bonjour";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "Перегляньте типи сервісів Bonjour, оголошені на місцевій мережі, протягом п'яти секунд";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "Переглядаючи рекламовані типи сервісів Bonjour...";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "Створіть комбінований звіт DNS, маршрутизації, власності та мережевого звіту";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "Створіть об'єднаний звіт для поточного мережевого з'єднання";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "Складання звіту для поточного з'єднання...";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "Створення DNS, маршрутизації та звіту про власність...";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "Калькулятор CIDR";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "Діапазон CIDR · %@ адреси";
+
+/* Calculated result */
+"Calculated result" = "Розрахований результат";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "Обчислення меж мережі та кількості адрес...";
+
+/* Cancel */
+"Cancel" = "Скасувати";
+
+/* Certificate */
+"Certificate" = "Сертифікат";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "Прозорість сертифікатів";
+
+/* Certificate expires */
+"Certificate expires" = "Термін дії сертифіката закінчується";
+
+/* Certificate names */
+"Certificate names" = "Назви сертифікатів";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "Перевірте DNS, веб- та SSH-порти, HTTPS-заголовки, ланцюжок сертифікатів, TLS-версії, OCSP та MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "Перевірте, чи підтверджує валідаційний резолвер DNS-відповідь";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "Перевірте, чи підтверджує валідаційний резолвер відповідь TLSA";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "Перевірте, чи розкриває підписана зона записи NSEC";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "Перевірте, чи приймає один TCP-порт з'єднання";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "Перевірте, чи включений домен або підходить для HSTS preload.";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "Перевірка DNS, TLS, веб- та поштових сервісів...";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "Перевіряю статус списку передзавантаження HSTS...";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "Перевіряємо опубліковані записи NSEC...";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "Перевіряю 25 найпоширеніших TCP-портів...";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "Перевіряючи узгоджену версію HTTP та відповідь...";
+
+/* Checks */
+"Checks" = "Чеки";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "Перевіряє записи Apex, політики пошти, сервіси, загальні хости та селектори DKIM.";
+
+/* Choose a tool */
+"Choose a tool" = "Виберіть інструмент";
+
+/* Cipher */
+"Cipher" = "Шифр";
+
+/* Ciphersuite */
+"Ciphersuite" = "Ciphersuite";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "Чіткі останні дані";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "Очистити останні дані...";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "Очистити останні дані Netmin?";
+
+/* Clear search */
+"Clear search" = "Чистий пошук";
+
+/* Clear target */
+"Clear target" = "Очистити ціль";
+
+/* Clock offset */
+"Clock offset" = "Зміщення тактового часу";
+
+/* Close */
+"Close" = "Закриття";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "Збір інформації про Wi-Fi та близькі точки доступу...";
+
+/* Common Port Scan */
+"Common Port Scan" = "Спільне сканування портів";
+
+/* Common TCP services */
+"Common TCP services" = "Поширені TCP-сервіси";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "Порівняйте відповіді на IPv4 від Cloudflare, Google, Quad9 та OpenDNS";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "Порівнюючи відповіді IPv4 від публічних розв'язувачів...";
+
+/* Complete */
+"Complete" = "Завершено";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "Повна DNS-зона для %@";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "Повнота: Завершено";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "Повнота: Часткове відкриття";
+
+/* Configuration */
+"Configuration" = "Конфігурація";
+
+/* Connection */
+"Connection" = "Зв'язок";
+
+/* Connection quality */
+"Connection quality" = "Якість з'єднання";
+
+/* Connection succeeded */
+"Connection succeeded" = "З'єднання вдалося";
+
+/* Connection timing */
+"Connection timing" = "Таймінг з'єднання";
+
+/* Consistent */
+"Consistent" = "Послідовність";
+
+/* Content */
+"Content" = "Зміст";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "Контент, який повертає ціль, готовий до огляду або копіювання.";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "Конвертація інтернаціоналізованого домену між формами Unicode та ASCII";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "Конвертація домену між Unicode і ASCII...";
+
+/* Copied %@ */
+"Copied %@" = "Скопійовано %@";
+
+/* Copy Address */
+"Copy Address" = "Копіювати адресу";
+
+/* Copy Command */
+"Copy Command" = "Команда копіювання";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "Скопіювати MAC-адресу";
+
+/* Copy Name */
+"Copy Name" = "Скопіювати назву";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "Копіювати сирий вихід";
+
+/* Copy Result */
+"Copy Result" = "Скопіювати результат";
+
+/* Copy Summary */
+"Copy Summary" = "Резюме тексту";
+
+/* Copy Target */
+"Copy Target" = "Скопіювати ціль";
+
+/* Copy error */
+"Copy error" = "Помилка копії";
+
+/* Country */
+"Country" = "Кантрі";
+
+/* Coverage */
+"Coverage" = "Покриття";
+
+/* DANE Validation */
+"DANE Validation" = "Валідація DANE";
+
+/* DHCP Lease */
+"DHCP Lease" = "Оренда DHCP";
+
+/* DHCP lease */
+"DHCP lease" = "Оренда DHCP";
+
+/* DHCP server */
+"DHCP server" = "DHCP-сервер";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "Конфігурація DNS";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "Перевірка прогулянки DNS NSEC";
+
+/* DNS Propagation */
+"DNS Propagation" = "Поширення DNS";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNS Trace";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "Відкриття DNS-зон";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "Передача зони DNS";
+
+/* DNS answers */
+"DNS answers" = "DNS-відповіді";
+
+/* DNS configuration */
+"DNS configuration" = "Конфігурація DNS";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS через HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS через TLS Endpoint";
+
+/* DNS records */
+"DNS records" = "DNS-записи";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "Виявлено DNS-записи для %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS-записи, геолокація та ASN. Зазвичай кілька секунд.";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "DNS-резольвери, що використовуються";
+
+/* DNS response */
+"DNS response" = "DNS-відповідь";
+
+/* DNS server */
+"DNS server" = "DNS-сервер";
+
+/* DNS service name */
+"DNS service name" = "Назва DNS-сервісу";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC Chain Trace";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "Перевірка DNSSEC";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "Валідація DNSSEC";
+
+/* Deep */
+"Deep" = "Глибокий";
+
+/* Deep discovery */
+"Deep discovery" = "Глибоке відкриття";
+
+/* Default */
+"Default" = "За замовчуванням";
+
+/* Default route */
+"Default route" = "Маршрут за замовчуванням";
+
+/* Default ·  */
+"Default · " = "За замовчуванням ·";
+
+/* Depth */
+"Depth" = "Глибина";
+
+/* Destination */
+"Destination" = "Пункт призначення";
+
+/* Destination not reached */
+"Destination not reached" = "Пункт призначення не досягнуто";
+
+/* Details */
+"Details" = "Деталі";
+
+/* Detect again */
+"Detect again" = "Виявити знову";
+
+/* Devices */
+"Devices" = "Пристрої";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "Пристрої (%lld)";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "Різниця між годинником цього Mac's і %@.";
+
+/* Directives */
+"Directives" = "Директиви";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "Відкрийте для себе публічні DNS-записи, стандартні сервіси, поштові політики, селектори DKIM та дані про відкриті зони";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "Відкрийте для себе роутери, пристрої зберігання, телевізори та інші UPnP-сервіси";
+
+/* Discovered network resources */
+"Discovered network resources" = "Відкриті мережеві ресурси";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "Відкриття пристроїв і сервісів UPnP...";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "Відкриття місцевих пристроїв і рекламованих сервісів...";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "Відкриття публічних DNS-записів і даних зон...";
+
+/* Discovery output */
+"Discovery output" = "Результати відкриття";
+
+/* Discovery results */
+"Discovery results" = "Результати відкриття";
+
+/* DoT hostname */
+"DoT hostname" = "Ім'я хоста DoT";
+
+/* Domain */
+"Domain" = "Домен";
+
+/* Domain name */
+"Domain name" = "Доменне ім'я";
+
+/* Domain or hostname */
+"Domain or hostname" = "Домен або ім'я хоста";
+
+/* Download */
+"Download" = "Завантажити";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "Кожен маршрутизатор на маршруті; час туди й назад вимірюється в пункті призначення.";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "Активує опціональну поведінку інструменту";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "Введіть діапазон, наприклад 172.16.4.0/22.";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "Введіть діапазон IPv4 з префіксом від /0 до /30, наприклад 192.168.1.0/24.";
+
+/* Entries */
+"Entries" = "Записи";
+
+/* Ethernet */
+"Ethernet" = "Ethernet";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "Кожна адреса в запитуваному діапазоні — по одній на рядок.";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "Кожен інтерфейс, який повідомляє macOS, з його адресами та статусом посилань.";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "Кожен публічний резолвер повертав однакові відповіді в IPv4.";
+
+/* Exit status */
+"Exit status" = "Статус виїзду";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "Розширте керований блок CIDR на окремі адреси";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "Розширення діапазону CIDR на окремі адреси...";
+
+/* Expires */
+"Expires" = "Термін дії закінчується";
+
+/* Failed */
+"Failed" = "Невдача";
+
+/* Fast local discovery */
+"Fast local discovery" = "Швидке локальне відкриття";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "Завантажити правила доступу до краулера сайту";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "Отримайте опубліковану політику контактів з безпекою сайту";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "Завантаження HTTP-заголовків і перенаправлення...";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "Отримання IP-локації та даних мережі...";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "Отримання реєстраційних записів IP через RDAP...";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "Отримання SSH-ключів і обчислення відбитків пальців...";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "Завантаження заголовків безпеки браузера...";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "Отримання реєстраційних записів домену через RDAP...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "Отримання статусу валідації маршруту-джерела...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "Отримання сертифіката HTTPS та ідентифікаційних даних...";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "Отримання ланцюжка сертифікатів і скріпленої відповіді OCSP...";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "Отримання правил доступу до краулера на сайті...";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "Отримання політики контактів з безпеки сайту...";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "Отримання вашої публічної IP-адреси...";
+
+/* Fields */
+"Fields" = "Галузі";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "Інструменти фільтрації %lld";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "Фільтруйте за IP, назвою, інтерфейсом";
+
+/* Final status */
+"Final status" = "Остаточний статус";
+
+/* Find Tool… */
+"Find Tool…" = "Знайти інструмент...";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "Знайдіть інструмент Netmin";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "Знайдіть назви сертифікатів, які можуть розкрити пов'язані піддомени";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "Знайдіть оголошений автентифікований SMTP-сервіс";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "Знайдіть рекламований сервіс налаштування електронної пошти";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "Знайдіть рекламований безпечний сервіс IMAP";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "Знайдіть ім'я хоста, пов'язане з IP-адресою";
+
+/* Fingerprint */
+"Fingerprint" = "Відбиток пальця";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "Відбитки пальців, які показав сервер, щоб порівняти з записом відомого хоста.";
+
+/* First */
+"First" = "Перше";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "Слідуйте делегування DNS від кореня до відповіді";
+
+/* Formatted */
+"Formatted" = "Формат";
+
+/* Formatted address */
+"Formatted address" = "Відформатована адреса";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "Форматування MAC-адреси...";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "Безкоштовно · %lld з %lld запитів залишено сьогодні";
+
+/* From */
+"From" = "Від";
+
+/* Full */
+"Full" = "Повний";
+
+/* Gateway */
+"Gateway" = "Ворота";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "Шлюз %@ · Маршрут за замовчуванням";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "Ворота та маршрути";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "Шлюз і таблиця маршрутизації";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "Стан переднавантаження HSTS";
+
+/* HTTP Headers */
+"HTTP Headers" = "Заголовки HTTP";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "Протокол HTTP";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "Заголовки безпеки HTTP";
+
+/* HTTP response */
+"HTTP response" = "HTTP-відповідь";
+
+/* HTTP status */
+"HTTP status" = "Статус HTTP";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "Реакція рукостискання";
+
+/* Hide */
+"Hide" = "Сховайся";
+
+/* Hop */
+"Hop" = "Хоп";
+
+/* Hops */
+"Hops" = "Хміль";
+
+/* Host */
+"Host" = "Ведучий";
+
+/* Host and port */
+"Host and port" = "Хост і порт";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "Наприклад, хост і порт example.com:443";
+
+/* Host keys */
+"Host keys" = "Ключі хостів";
+
+/* Hostname */
+"Hostname" = "Ім'я господаря";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "Імена хостів, які з'являлися у публічних сертифікатах для цього домену.";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "Хости, які відповідали на пінг або з'являлися в кеші сусідів, з іменами, затримкою та рекламними сервісами.";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "Хости, рекламовані сервіси та доступні кінцеві точки, знайдені під час цього проходження.";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "IANA WHOIS сервер";
+
+/* IP Information */
+"IP Information" = "Інформація про IP";
+
+/* IP Range Expander */
+"IP Range Expander" = "Розширення діапазону IP";
+
+/* IP address */
+"IP address" = "IP-адреса";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP-адреса або ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP-адреса або домен";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP-адреса або ім'я хоста";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP-адреса або префікс";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP, маршрутизація та реєстрація";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "Діапазон IPv4 CIDR, максимум 4096 адрес";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4-адреса";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "IPv4-адреса з CIDR";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "Сусіди IPv4";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "Сусіди IPv6";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6-адреса";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "Перевірте записи DNSSEC та підтверджувальні підписи";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "Перевірте банер SMTP і домовляйтеся про STARTTLS";
+
+/* Interface */
+"Interface" = "Інтерфейс";
+
+/* Interface Inventory */
+"Interface Inventory" = "Інтерфейсний інвентар";
+
+/* Interfaces */
+"Interfaces" = "Інтерфейси";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "Приєднуйтесь до мережі або додайте діапазон нижче. Запуск sweep просить помічника знову перевірити.";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "Ключові поля з відповіді реєстру.";
+
+/* Keys */
+"Keys" = "Ключі";
+
+/* Last */
+"Last" = "Останній";
+
+/* Latency */
+"Latency" = "Затримка";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "Затримка, досяжність і вимірювання шляхів.";
+
+/* Lease details */
+"Lease details" = "Деталі договору оренди";
+
+/* Lease time */
+"Lease time" = "Термін оренди";
+
+/* Limited */
+"Limited" = "Обмежений";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "Обмежений локальним /24 для швидкості";
+
+/* Lines */
+"Lines" = "Лінії";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "Деталі посилань для цього Mac та точок доступу, які macOS зараз бачить.";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "Завантаження продуктів App Store...";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "Локальне сканування пристроїв";
+
+/* Local Network */
+"Local Network" = "Місцева мережа";
+
+/* Location */
+"Location" = "Розташування";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "Пошук доменних імен у журналах сертифікатів...";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "Пошук серверів доставки пошти...";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "Перевіряю реєстраційні та власні записи...";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "Пошук сервісу подачі SMTP...";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "Пошук сервісу налаштування електронної пошти...";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "Пошук ім'я хоста цієї IP-адреси...";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "Пошук початкового ASN і маршрутизованого префікса...";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "Пошук захищеного сервісу IMAP...";
+
+/* MAC Formatter */
+"MAC Formatter" = "MAC Formatter";
+
+/* MAC address */
+"MAC address" = "MAC-адреса";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC і постачальник приховані";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC і постачальник приховані — порожні в цьому забігу";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "Показано MAC і постачальник";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "MMM d HH:mm:ss yyyy zzz";
+
+/* Mail */
+"Mail" = "Пошта";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "Пошта Autodiscover SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "Mail BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "Mail DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "Пошта DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "Надішліть IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "Пошта MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "Mail MX";
+
+/* Mail SPF */
+"Mail SPF" = "Mail SPF";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "Подання пошти SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "Поштовий звіт TLS";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "Пошта TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "Домен пошти";
+
+/* Mail domain or server */
+"Mail domain or server" = "Поштовий домен або сервер";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "Наприклад, поштовий сервер і порт mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "Керувати підпискою";
+
+/* Maximum */
+"Maximum" = "Максимум";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "Вимірюйте поточні дані завантаження, завантаження, чутливість та підключення";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "Виміряйте досяжність і затримку туди й знову";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "Вимірювана пропускна здатність і чутливість поточного з'єднання.";
+
+/* Measurement */
+"Measurement" = "Вимірювання";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "Вимірювання завантаження, завантаження та чутливості...";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "Вимірювання досяжності та затримки туди й назад...";
+
+/* Minimum */
+"Minimum" = "Мінімум";
+
+/* Mode */
+"Mode" = "Режим";
+
+/* More copy options */
+"More copy options" = "Більше варіантів копій";
+
+/* My Network Report */
+"My Network Report" = "Мій мережевий звіт";
+
+/* My Public IP */
+"My Public IP" = "Моя публічна IP";
+
+/* NTP Offset */
+"NTP Offset" = "Зміщення NTP";
+
+/* NTP server */
+"NTP server" = "NTP-сервер";
+
+/* Name */
+"Name" = "Ім'я";
+
+/* Names */
+"Names" = "Назви";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "Імена в журналах сертифікатів";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "Узгодіть TLS з будь-яким неявним сервісом TLS, покажіть обраний протокол і шифр";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "Погоджений протокол, шифр, ідентифікація сертифіката та статус верифікації.";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "Переговори щодо SMTP STARTTLS...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "Переговори щодо TLS на вказаному сервісному порту...";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "Переговори щодо підключення HTTPS TLS...";
+
+/* Neighbor */
+"Neighbor" = "Сусід";
+
+/* Neighbor cache */
+"Neighbor cache" = "Кеш сусідів";
+
+/* Neighbors */
+"Neighbors" = "Сусіди";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro Lifetime · %@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro Yearly";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin виявляє пристрої та сервіси на локальних мережах, які ви обираєте для перевірки.";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin припинила цю команду через %lld секунди.";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin припинила цю команду після того, як вона вивела %@ вихідного обсягу.";
+
+/* Network */
+"Network" = "Мережа";
+
+/* Network Lookup */
+"Network Lookup" = "Пошук у мережі";
+
+/* Network Quality */
+"Network Quality" = "Якість мережі";
+
+/* Network entries */
+"Network entries" = "Записи в мережі";
+
+/* Network interfaces */
+"Network interfaces" = "Мережеві інтерфейси";
+
+/* Networks */
+"Networks" = "Мережі";
+
+/* Networks scanned */
+"Networks scanned" = "Відскановані мережі";
+
+/* Networks to scan */
+"Networks to scan" = "Мережі для сканування";
+
+/* New Lookup */
+"New Lookup" = "Новий пошук";
+
+/* New Report */
+"New Report" = "Новий звіт";
+
+/* New Sweep */
+"New Sweep" = "New Sweep";
+
+/* No */
+"No" = "Ні";
+
+/* No DNS records found */
+"No DNS records found" = "DNS-записів не знайдено";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "Жодної покупки Netmin Pro для цього облікового запису Apple не було знайдено.";
+
+/* No common ports are open */
+"No common ports are open" = "Загальні порти не відкриті";
+
+/* No common services */
+"No common services" = "Загальних послуг немає.";
+
+/* No data returned */
+"No data returned" = "Дані не повернулися";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "Жоден пристрій не співпадає з \"%@\"";
+
+/* No devices responded */
+"No devices responded" = "Жоден пристрій не відповів";
+
+/* No diagnostic output */
+"No diagnostic output" = "Відсутність діагностичного виходу";
+
+/* No input required */
+"No input required" = "Вхід не потрібен";
+
+/* No matching tools */
+"No matching tools" = "Немає інструментів підбору";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "Приватної IPv4-мережі не виявлено · Додайте діапазон для сканування";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "Жодна приватна IPv4-мережа не була виявлена";
+
+/* No result returned */
+"No result returned" = "Результатів не було отримано";
+
+/* No target */
+"No target" = "Немає цілі";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "Жоден інструмент не співпадає з \"%@\"";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "Нормалізувати MAC-адресу у форму з великою двокрапкою";
+
+/* Not reached */
+"Not reached" = "Не досягнуто";
+
+/* Not selected */
+"Not selected" = "Не обраний";
+
+/* Notafter */
+"Notafter" = "Notafter";
+
+/* Notes */
+"Notes" = "Примітки";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "Нічого не відповідало на пінг і не з'являлося в кеші сусідів у відсканованих мережах. Перевірте, чи цей Mac підключений до очікуваної мережі, або додайте діапазон вручну.";
+
+/* Nothing detected */
+"Nothing detected" = "Нічого не виявлено";
+
+/* Off */
+"Off" = "Вимкнено";
+
+/* Offset */
+"Offset" = "Зміщення";
+
+/* On */
+"On" = "На";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "Повернули лише направлення IANA. Спробуйте знову %@ або використайте RDAP для отримання реєстратора, серверів імен та дат реєстрації.";
+
+/* Open */
+"Open" = "Відкрито";
+
+/* Open ports */
+"Open ports" = "Відкриті порти";
+
+/* Open ports: */
+"Open ports:" = "Відкриті порти:";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "Опційний IPv4 CIDR; blank сканує всі активні локальні мережі";
+
+/* Options */
+"Options" = "Опції";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "Початковий AS і маршрутизований префікс";
+
+/* Other */
+"Other" = "Інше";
+
+/* Output */
+"Output" = "Вихід";
+
+/* Overview */
+"Overview" = "Огляд";
+
+/* Packet loss */
+"Packet loss" = "Втрата пакетів";
+
+/* Partial */
+"Partial" = "Частково";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "Передає %@ командуванню";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "Платіж йде на ваш обліковий запис Apple. Щорічна підписка автоматично поновлюється, якщо її не скасувати в налаштуваннях App Store щонайменше за день до закінчення поточного періоду.";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "Виберіть інструмент із бічної панелі або натисніть ⌘K, щоб пошукати всі варіанти.";
+
+/* Ping */
+"Ping" = "Пінг";
+
+/* Port */
+"Port" = "Порт";
+
+/* Port %@ is open */
+"Port %@ is open" = "Порт %@ відкритий";
+
+/* Ports */
+"Ports" = "Порти";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "Порти, які приймали з'єднання.";
+
+/* Primary mail server */
+"Primary mail server" = "Основний поштовий сервер";
+
+/* Primary nameserver */
+"Primary nameserver" = "Основний сервер імен";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "PrimaryInterface";
+
+/* Privacy */
+"Privacy" = "Приватність";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "Політика конфіденційності...";
+
+/* Pro */
+"Pro" = "Про";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "Професійні покупки наразі недоступні. Будь ласка, спробуйте пізніше.";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "Професійний суд · %lld днів до кінця";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "Професійний суд · Залишився 1 день";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "Професійний суд · закінчується %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "Pro trial · Перший платіж %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "Професійний суд · до %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro перетворює сирий результат діагностики на таблиці, метрики та результати. Після 30-денного пробного періоду Free включає сирий вихід до п'яти запитів на день.";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "Pro · закінчується %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "Плюси · Все життя";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "Pro · ОНОВЛЕННЯ %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "Плюси · Ділиться з родиною";
+
+/* Pro · until %@ */
+"Pro · until %@" = "Pro · до %@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "Probe 25 поширених TCP-портів із мережевими інструментами, що входять до macOS";
+
+/* Probed */
+"Probed" = "Досліджували";
+
+/* Proto */
+"Proto" = "Прото";
+
+/* Protocol */
+"Protocol" = "Протокол";
+
+/* Protocol Version */
+"Protocol Version" = "Версія протоколу";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "Відкриття публічного DNS є частковим";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "Публічний DNS-аналіз виявив корисні записи, але кастомні імена можуть залишатися прихованими.";
+
+/* Public IP */
+"Public IP" = "Публічна IP";
+
+/* Public IPv4 */
+"Public IPv4" = "Публічний IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "Публічний IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "Інформація про публічний зв'язок і власність мережі.";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "Публічні розв'язувачі дали різні відповіді; зміни можуть ще поширюватися.";
+
+/* Punycode Converter */
+"Punycode Converter" = "Перетворювач Punycode";
+
+/* Purchase */
+"Purchase" = "Придбання";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "Наразі покупки недоступні.";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "Запит до запису A через кінцеву точку DNS over-HTTPS";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "Запит за назвою NetBIOS та робочою групою, які рекламуються пристроєм Windows або SMB";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "Запит до тактового сигналу сервера і покажіть виміряний локальний зсув";
+
+/* Querying %@… */
+"Querying %@…" = "Запит %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "Запит DNS-географічних записів про місцезнаходження...";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "Запит до текстових записів DNS...";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "Запит до відкритих ключів DNSSEC...";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "Перевірка записів і підписів DNSSEC...";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "Запит до HTTPS-кінцевих точок і підказок для підключення...";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "Запит на адресу IPv4 (A) записів...";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "Запит у записах IPv4 через HTTPS...";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "Запит за адресою IPv6 (AAAA) записів...";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "Запит на записи про виявлення поліс MTA-STS...";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "Запит до записів асоціації сертифікатів TLS...";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "Запит до записів про доставку TLS...";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "Запит до авторитетних серверів імен...";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "Запит на індикатори бренду...";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "Запит до записів авторизації сертифікаційного центру...";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "Запит на записи підписантів делегації...";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "Запит на псевдонім хоста (CNAME) записів...";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "Запит до зв'язків сервісів і параметрів з'єднання...";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "Правила пошуку сервісу для пошуку...";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "Запити до хостів сервісів, портів і пріоритетів...";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "Запит до публічного ключа селектора DKIM...";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "Запит на ім'я пристрою Windows або SMB...";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "Запит до політики автентифікації електронної пошти...";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "Запит до політики авторизації відправника...";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "Запит до сервера часу і вимірювання зсуву годинника...";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "Запит щодо зони авторитету та записів часу...";
+
+/* Quick */
+"Quick" = "Швидко";
+
+/* Quick lookup */
+"Quick lookup" = "Швидкий пошук";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "Швидко знайдіть місцеві пристрої, принтери та рекламовані послуги";
+
+/* RDAP Domain */
+"RDAP Domain" = "Домен RDAP";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "Валідація RPKI";
+
+/* Ran %@ */
+"Ran %@" = "Ран %@";
+
+/* Raw Output */
+"Raw Output" = "Сирий результат";
+
+/* Raw output */
+"Raw output" = "Сирий вихід";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "Доступність і час поїздки туди й назад за %@.";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "Доступні порти, сервіси та деталі хост-ключа.";
+
+/* Reached */
+"Reached" = "Досягнуто";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "Читаю кешовані IPv4-сусіди...";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "Читаю кешовані IPv6-сусіди...";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "Читання DNS-резолверів і пошукових доменів macOS...";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "Читання адрес і статусу мережевого інтерфейсу...";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "Читаючи DHCP-оренду активного інтерфейсу...";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "Читання таблиць шлюзів за замовчуванням і маршрутизації...";
+
+/* Recent */
+"Recent" = "Останні";
+
+/* Record */
+"Record" = "Рекорд";
+
+/* Records */
+"Records" = "Рекорди";
+
+/* Registrar */
+"Registrar" = "Реєстратор";
+
+/* Registration and routing data */
+"Registration and routing data" = "Дані реєстрації та маршрутизації";
+
+/* Registry record */
+"Registry record" = "Реєстраційний запис";
+
+/* Registry response */
+"Registry response" = "Відповідь реєстру";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "Відповідь реєстру неповна";
+
+/* Related */
+"Related" = "Пов'язане";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "Запам'яталися наступними результатами · ⌘1 Огляд, ⌘2 Сирий результат";
+
+/* Remove this range */
+"Remove this range" = "Приберіть цей діапазон";
+
+/* Replies */
+"Replies" = "Відповіді";
+
+/* Report for %@ */
+"Report for %@" = "Звіт за %@";
+
+/* Report overview */
+"Report overview" = "Огляд звіту";
+
+/* Reports */
+"Reports" = "Звіти";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "Запит на повну передачу DNS-зони з авторитетного сервера";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "Запитую повний перехід DNS-зони...";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "Вимагайте TLS 1.2 і покажіть, чи успішні переговори";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "Вимагайте TLS 1.3 і покажіть, чи успішні переговори";
+
+/* Resolved */
+"Resolved" = "Вирішено";
+
+/* Resolved address */
+"Resolved address" = "Вирішена адреса";
+
+/* Resolver */
+"Resolver" = "Резольвер";
+
+/* Resolver %@ */
+"Resolver %@" = "Резольвер %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "Вихід резольвера згрупований для швидкого перегляду.";
+
+/* Resolver response */
+"Resolver response" = "Відповідь резольвера";
+
+/* Resolvers */
+"Resolvers" = "Резольвери";
+
+/* Resolvers agree */
+"Resolvers agree" = "Резолвери погоджуються";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "Резолвери та домени пошуку, які зараз використовує macOS, у пріоритетному порядку.";
+
+/* Resolvers differ */
+"Resolvers differ" = "Резолвери відрізняються";
+
+/* Resources */
+"Resources" = "Ресурси";
+
+/* Response */
+"Response" = "Реакція";
+
+/* Response %lld */
+"Response %lld" = "Відповідь %lld";
+
+/* Responses */
+"Responses" = "Відповіді";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "Відповіді на багатокастовий пошук, по одній картці на кожне оголошення.";
+
+/* Responsiveness */
+"Responsiveness" = "Чутливість";
+
+/* Restore Purchases */
+"Restore Purchases" = "Відновлення покупок";
+
+/* Result */
+"Result" = "Результат";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "Результати групуються за кожною завершеною перевіркою мережі.";
+
+/* Retry registry */
+"Retry registry" = "Повторний реєстр";
+
+/* Reverse DNS */
+"Reverse DNS" = "Зворотний DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "Туди й назад";
+
+/* Route to target */
+"Route to target" = "Маршрут до цілі";
+
+/* Router */
+"Router" = "Маршрутизатор";
+
+/* Routes */
+"Routes" = "Маршрути";
+
+/* Routing record */
+"Routing record" = "Запис маршрутизації";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "Дані реєстру маршрутизації для %@.";
+
+/* Routing table */
+"Routing table" = "Таблиця маршрутизації";
+
+/* Run */
+"Run" = "Біжи";
+
+/* Run Again */
+"Run Again" = "Біжи знову";
+
+/* Run Lookup */
+"Run Lookup" = "Run Lookup";
+
+/* Run Report */
+"Run Report" = "Запустити звіт";
+
+/* Run Sweep */
+"Run Sweep" = "Run Sweep";
+
+/* Run Tool */
+"Run Tool" = "Run Tool";
+
+/* Run again */
+"Run again" = "Біжи ще раз";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "Запустіть інструмент %@";
+
+/* Running */
+"Running" = "Біг";
+
+/* Running %@… */
+"Running %@…" = "Біг %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "Біг · %@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "Виявлення SSDP/UPnP";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "Ключі хостів SSH";
+
+/* SSH host keys */
+"SSH host keys" = "SSH-ключі хостів";
+
+/* Save Report… */
+"Save Report…" = "Зберегти звіт...";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "Зберігайте звіти та копіюйте структуровані резюме";
+
+/* Scan */
+"Scan" = "Сканування";
+
+/* Scripts */
+"Scripts" = "Сценарії";
+
+/* Search domain */
+"Search domain" = "Домен пошуку";
+
+/* Sections */
+"Sections" = "Секції";
+
+/* Security details */
+"Security details" = "Деталі безпеки";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "Вибрані";
+
+/* Sequence */
+"Sequence" = "Послідовність";
+
+/* Server */
+"Server" = "Сервер";
+
+/* Service */
+"Service" = "Служба";
+
+/* Service reachability */
+"Service reachability" = "Доступність сервісу";
+
+/* Service type */
+"Service type" = "Тип служби";
+
+/* Service types */
+"Service types" = "Типи послуг";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "Типи сервісів, оголошених у локальній мережі під час вікна виявлення.";
+
+/* Services */
+"Services" = "Послуги";
+
+/* Show */
+"Show" = "Шоу";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "Показати асоціації сертифікатів DANE для TLS-сервісу";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "Показати кінцеві точки HTTPS-сервісу та підказки щодо підключення";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "Показати IPv4-адреси, опубліковані для імені хоста";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "Покажіть сусідів з IPv4, з якими цей Mac нещодавно зв'язався";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "Показати IPv6-адреси, опубліковані для імені хоста";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "Покажіть деталі Wi-Fi з'єднання та близькі точки доступу, видимі для macOS";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "Показуйте адреси, MTU, статус і лічильники для кожного мережевого інтерфейсу";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "Показати кешовані IPv6-сусіди та їхні адреси на рівні зв'язку";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "Покажіть ідентифікацію сертифіката, емітента, дійсність та відбиток пальця SHA-256";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "Покажіть кожному маршрутизатору шлях до пункту призначення";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "Показувати географічні записи про місцезнаходження, опубліковані зоною";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "Деталі розташування шоу, мережа, ASN та власників";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "Показати узгоджену версію TLS, шифр, обмін ключами та перевірку";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "Показуйте межі мережі, мережеву маску, адресу трансляції та розмір";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "Показати опубліковані текстові записи та політики домену";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "Показати сирі реєстраційні та записи про власність";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "Покажіть реєстраційні та реєстраційні дані для IP";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "Покажіть реєстрацію реєстру та дані статусу домену";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "Показуйте заголовки відповідей і кожен перенаправлення";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "Показати записи про виявлення сервісів на основі правил";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "Показати кінцеві точки сервісу та параметри підключення";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "Покажіть хостів сервісу, порти, пріоритети та ваги";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "Покажіть DNS-резолвери та домени пошуку, які macOS фактично використовує";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "Показати стан валідації маршруту-походження RPKI, який повідомляє RIPE";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "Покажіть DHCP-сервер, оренду та надані опції активного інтерфейсу";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "Показати авторитетні сервери імен для домену";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "Покажіть канонічний псевдонім для імені хоста";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "Покажіть повний ланцюжок сертифікацій, результат верифікації та прикріплену відповідь OCSP";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "Покажіть шлюз за замовчуванням і повну таблицю маршрутів IPv4 та IPv6";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "Показати політику індикатора бренду домену";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "Показати політику автентифікації електронної пошти домену";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "Покажіть узгоджену версію HTTP, статус, адресу сервера та результат TLS";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "Покажіть вихідний ASN, маршрутизований префікс, реєстр і деталі розподілу";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "Показати записи підписантів делегування батьківської зони";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "Покажіть політику, яка вимагає безпечної доставки пошти";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "Показувати основні заголовки безпеки браузера, які повертає сайт";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "Покажіть публічну IP-адресу, яку бачить інтернет";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "Показати публічний ключ для селектора DKIM";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "Покажіть публічні ключі, які використовуються для перевірки DNS-зони";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "Показати рекламовані відбитки SSH-ключів сервера";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "Покажіть сервери, які отримують пошту для домену";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "Покажіть, куди надсилаються звіти про доставку TLS";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "Покажіть, які сертифікатні центри можуть видавати сертифікати";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "Покажіть, які сервери мають дозвіл надсилати пошту";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "Показуйте інформацію про зону, серійність і таймінг";
+
+/* Site Report */
+"Site Report" = "Звіт про об'єкт";
+
+/* Site report for example.org */
+"Site report for example.org" = "Звіт про об'єкт для example.org";
+
+/* State */
+"State" = "Штат";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "Стан:/Мережа/Глобальний/IPv4";
+
+/* Statistics */
+"Statistics" = "Статистика";
+
+/* Status */
+"Status" = "Статус";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "Статус, протокол, перенаправлення та повернені заголовки.";
+
+/* Stop */
+"Stop" = "Стоп";
+
+/* Stop Sweep */
+"Stop Sweep" = "Стоп Сміт";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "Структурована відповідь реєстру для %@.";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "Структуровані звіти — це функція Netmin Pro";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "Структуровані звіти з таблицями, метриками та результатами";
+
+/* Structured resolver response. */
+"Structured resolver response." = "Структурована реакція резольвера.";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "Структурована відповідь від веб-сервісу.";
+
+/* System network configuration */
+"System network configuration" = "Конфігурація системної мережі";
+
+/* TCP Port Check */
+"TCP Port Check" = "Перевірка порту TCP";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "ДОСЯЖНІСТЬ TCP";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 Рукостискання";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 Рукостискання";
+
+/* TLS Certificate */
+"TLS Certificate" = "Сертифікат TLS";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "Ланцюжок сертифікатів TLS";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS Handshake";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "Рукостискання TLS";
+
+/* TLS connection */
+"TLS connection" = "TLS-з'єднання";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS, веб і порти";
+
+/* Target */
+"Target" = "Ціль";
+
+/* Target (optional) */
+"Target (optional)" = "Ціль (за бажанням)";
+
+/* Target did not reply */
+"Target did not reply" = "Target не відповів";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "Цілі не можуть містити пробіли";
+
+/* Terms */
+"Terms" = "Умови";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "Тестуйте SMTP 25, SMTPS 465, подачу 587, IMAPS 993 та POP3S 995 одночасно";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "Тестуйте TLS-переговори з DNS-на-TLS сервером";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "Тестування переговорів TLS 1.2...";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "Тестування переговорів TLS 1.3...";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "Тестування TLS-переговорів на DNS-порті 853...";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "Тестування TLS на сервісах SMTP, IMAP та POP3...";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "Тестування з'єднання з вказаним TCP-портом...";
+
+/* Text */
+"Text" = "Текст";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "25 найпоширеніших TCP-портів були перевірені з тайм-аутом у одну секунду.";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store не зміг підтвердити цю покупку.";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "MAC-адреса у вигляді канонічної великої літери, розділеної двокрапкою.";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Каталог інструментів Netmin не містить дійсних інструментів.";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "URL потребує схеми та хоста, наприклад, https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "Оренда активного інтерфейсу та опції, які надавав його DHCP-сервер.";
+
+/* The address is not valid. */
+"The address is not valid." = "Адреса не є дійсною.";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "Адреса, яку інтернет бачить для цього з'єднання.";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "Додаток слідував за перенаправленнями, але сайт неодноразово надсилав цей файл на той самий URL. Жоден файл не повернувся.";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "Авторитетний сервер дозволяв повну передачу зони AXFR.";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "Авторитетні сервери не забезпечували повну передачу зон. Це записи, знайдені через публічні зонди; власні імена можуть існувати й ще.";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "Пакетний каталог інструментів Netmin відсутній.";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "Команда виконана, але ціль не повернула відповідних даних.";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "Команда не спрацювала до того, як вона дала результат діагностики.";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "Маршрут за замовчуванням і кожен IPv4 та IPv6 маршрут, про який знає macOS.";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "Перші 30 днів включають Pro. Після пробного періоду Free зберігає всі 84 інструменти та сирий вихід, з п'ятьма діагностичними запитами на день.";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "Префікс після / має бути числом";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "Процес завершився зі статусом %lld перед поверненням даних. Перевірте, чи встановлено потрібну команду і що ціль доступна.";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "Покупка очікує на затвердження.";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "Реєстр повернув неструктуровану відповідь; його корисні рядки наведені нижче.";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "Резольвер не дав відповідних відповідей.";
+
+/* This Mac */
+"This Mac" = "Цей Mac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "Це видаляє збережені цілі та недавні резюме з цього Mac. Він не видаляє експортовані звіти.";
+
+/* Time */
+"Time" = "Час";
+
+/* Timeouts */
+"Timeouts" = "Тайм-аут";
+
+/* Tools */
+"Tools" = "Інструменти";
+
+/* Tools unavailable */
+"Tools unavailable" = "Інструменти недоступні";
+
+/* Trace */
+"Trace" = "Трасування";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "Відстежуйте ланцюг довіри DNSSEC від кореня";
+
+/* Traceroute */
+"Traceroute" = "Traceroute";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "Відстеження делегацій DNS і записів DNSSEC...";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "Відстеження делегувань DNS від кореня...";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "Простежуючи шлях мережі до пункту призначення...";
+
+/* Try Again */
+"Try Again" = "Спробуйте ще раз";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "Спробуйте RDAP замість →";
+
+/* Type */
+"Type" = "Тип";
+
+/* Types */
+"Types" = "Типи";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "Пристрої та сервіси UPnP";
+
+/* URL */
+"URL" = "URL";
+
+/* Uncertainty */
+"Uncertainty" = "Невизначеність";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "Необмежена мережева діагностика з читабельними звітами та інструментами експорту.";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "Необмежене використання всіх 84 діагностичних інструментів";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "Розблокуйте %@, а також повний набір функцій Pro.";
+
+/* Unlock Report… */
+"Unlock Report…" = "Звіт про розблокування...";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "Розблокування структурованого резюме...";
+
+/* Unnamed */
+"Unnamed" = "Безіменна";
+
+/* Unsigned */
+"Unsigned" = "Без підпису";
+
+/* Upload */
+"Upload" = "Завантаження";
+
+/* Use custom resolver */
+"Use custom resolver" = "Використовуйте власний резолвер";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "Використовуйте host:port, IPv6 або MAC-адресу";
+
+/* Utilities */
+"Utilities" = "Комунальні послуги";
+
+/* VPN tunnel */
+"VPN tunnel" = "Тунель VPN";
+
+/* Validated */
+"Validated" = "Підтверджено";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "Перевірка записів TLSA та їхнього ланцюга DNSSEC...";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "Перевірка DNS-відповіді та ланцюга DNSSEC...";
+
+/* Value */
+"Value" = "Вартість";
+
+/* Values produced by %@. */
+"Values produced by %@." = "Вартості, створені %@.";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "Значення, надані macOS для %@.";
+
+/* Values returned for %@. */
+"Values returned for %@." = "Повернені значення за %@.";
+
+/* Vendor */
+"Vendor" = "Продавець";
+
+/* Verification */
+"Verification" = "Верифікація";
+
+/* Verify Return Code */
+"Verify Return Code" = "Перевірити код повернення";
+
+/* View */
+"View" = "Погляд";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "Переглянути Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "Віртуальний міст";
+
+/* Virtual machine network */
+"Virtual machine network" = "Мережа віртуальних машин";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "Сервер WHOIS";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "Чекаю на першу відповідь...";
+
+/* Web policy status */
+"Web policy status" = "Статус веб-політики";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Діагностика Wi-Fi";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Статус Wi-Fi";
+
+/* Window */
+"Window" = "Вікно";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Виявлення імен Windows";
+
+/* Yes */
+"Yes" = "Так";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "У вас є Netmin Pro.";
+
+/* Your public address */
+"Your public address" = "Твоє публічне звернення";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "Активний";
+
+/* advanced structured reports */
+"advanced structured reports" = "Розширені структуровані звіти";
+
+/* all detected */
+"all detected" = "всі виявлені";
+
+/* arp table */
+"arp table" = "Таблиця ARP";
+
+/* as name */
+"as name" = "Як назва";
+
+/* closed */
+"closed" = "Закрито";
+
+/* command */
+"command" = "Командування";
+
+/* complete zone */
+"complete zone" = "Повна зона";
+
+/* configured */
+"configured" = "Конфігурація";
+
+/* creation date */
+"creation date" = "Дата створення";
+
+/* device sweep */
+"device sweep" = "Сканування пристрою";
+
+/* did not answer within */
+"did not answer within" = "не відповів всередині";
+
+/* differs */
+"differs" = "відрізняється";
+
+/* domain name */
+"domain name" = "Доменне ім'я";
+
+/* down */
+"down" = "Вниз";
+
+/* downlink capacity */
+"downlink capacity" = "Пропускна здатність сполучення";
+
+/* expiration date */
+"expiration date" = "Термін придатності";
+
+/* expiration date: */
+"expiration date:" = "Термін придатності:";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "Термін дії %lld кілька днів тому";
+
+/* expires today */
+"expires today" = "Термін дії закінчується сьогодні";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "чотири запити ICMP echo";
+
+/* gateway %@ */
+"gateway %@" = "Ворота %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "за %lld";
+
+/* inactive */
+"inactive" = "Неактивна";
+
+/* incomplete */
+"incomplete" = "незавершено";
+
+/* ip information */
+"ip information" = "Інформація про IP";
+
+/* just now */
+"just now" = "щойно";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "обмежений локальним /24 для швидкості";
+
+/* local */
+"local" = "Місцеві";
+
+/* loss %@ */
+"loss %@" = "Втрата %@";
+
+/* median %@ */
+"median %@" = "Медіана %@";
+
+/* name server */
+"name server" = "Сервер імен";
+
+/* name server: */
+"name server:" = "Сервер імен:";
+
+/* network */
+"network" = "Мережа";
+
+/* network lookup */
+"network lookup" = "Пошук по мережі";
+
+/* network quality */
+"network quality" = "Якість мережі";
+
+/* network report */
+"network report" = "Мережевий звіт";
+
+/* networks */
+"networks" = "Мережі";
+
+/* no address */
+"no address" = "адреси немає.";
+
+/* no answer */
+"no answer" = "Відповіді немає.";
+
+/* no ping replies */
+"no ping replies" = "Немає відповідей на пінг";
+
+/* no reply */
+"no reply" = "Відповіді немає.";
+
+/* open */
+"open" = "Відкрити";
+
+/* packets transmitted */
+"packets transmitted" = "Передані пакети";
+
+/* primary %@ */
+"primary %@" = "Початкова %@";
+
+/* public ip */
+"public ip" = "Публічна IP";
+
+/* raw output */
+"raw output" = "Сирий вихід";
+
+/* reachable */
+"reachable" = "досяжний";
+
+/* redirects followed */
+"redirects followed" = "Після цього були перенаправленні";
+
+/* registrar name */
+"registrar name" = "Ім'я реєстратора";
+
+/* registry expiry date */
+"registry expiry date" = "Дата закінчення реєстру";
+
+/* registry expiry date: */
+"registry expiry date:" = "Термін дії реєстру:";
+
+/* resolution failed */
+"resolution failed" = "Розв'язання не вдалося";
+
+/* reverse dns */
+"reverse dns" = "Зворотний DNS";
+
+/* run with last target */
+"run with last target" = "Біг з останньою ціллю";
+
+/* scoped */
+"scoped" = "Scope scope";
+
+/* search domain */
+"search domain" = "Домен пошуку";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "Відбиток пальця SHA256";
+
+/* site report */
+"site report" = "Звіт про об'єкт";
+
+/* summary */
+"summary" = "Резюме";
+
+/* target */
+"target" = "Ціль";
+
+/* the address */
+"the address" = "Адреса";
+
+/* the selected resource */
+"the selected resource" = "Обраний ресурс";
+
+/* the selected target */
+"the selected target" = "обрана ціль";
+
+/* the target */
+"the target" = "Ціль";
+
+/* timed out */
+"timed out" = "Тайм-аут";
+
+/* unknown */
+"unknown" = "невідомо";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "Необмежені діагностичні запити";
+
+/* up */
+"up" = "Вгору";
+
+/* updated date */
+"updated date" = "Дата оновлення";
+
+/* uplink capacity */
+"uplink capacity" = "Пропускна здатність uplink";
+
+/* verify return code */
+"verify return code" = "Перевірте код повернення";
+
+/* via %@ */
+"via %@" = "через %@";
+
+/* windows name */
+"windows name" = "Назва Windows";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "Додати %@ до вибраного";
+
+/* Favorites */
+"Favorites" = "Вибране";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "Видалити %@ з вибраного";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ мс";
+
+/* Pro features are locked */
+"Pro features are locked" = "Функції Pro заблоковано";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "Придбайте або відновіть доступ, щоб розблокувати їх.";
+
+/* Restoring… */
+"Restoring…" = "Відновлення…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "Не знайдено жодної активної покупки Netmin.";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP-префікс";
+
+/* Primary */
+"Primary" = "Основний";
+
+/* All relevant */
+"All relevant" = "Усі відповідні";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "ASN походження, наприклад AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP-префікс, наприклад 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "Перевірити, чи дозволено ASN походження оголошувати IP-префікс";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "Спробувати повне перенесення зони з кожного авторитетного сервера імен";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "Ім’я хоста, ім’я служби або IP-адреса";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "Порівняти кешовані відповіді DNS від Cloudflare, Google, Quad9 і OpenDNS";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "Порівняти всі відповідні типи записів";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "Порівняння відповідей загальнодоступних резолверів…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "Порівнює поширені типи записів, що застосовуються до цієї цілі.";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "Перевіряє A для імені хоста, PTR для IP-адреси або SRV для імені служби.";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "Усі загальнодоступні резолвери повернули однакові відповіді DNS.";
