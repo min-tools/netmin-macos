@@ -1,0 +1,3 @@
+/* Netmin — vi Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin phát hiện các thiết bị và dịch vụ trên mạng cục bộ mà bạn chọn kiểm tra.";
