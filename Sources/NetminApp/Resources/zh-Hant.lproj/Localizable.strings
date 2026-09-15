@@ -1,0 +1,2690 @@
+/* Netmin — zh-Hant localization. Each comment shows the English source text. */
+
+/*  ms */
+" ms" = "MS";
+
+/* %@ accepted a TCP connection. */
+"%@ accepted a TCP connection." = "%@ 接受 TCP 連線。";
+
+/* %@ could not be retrieved */
+"%@ could not be retrieved" = "%@ 無法回收";
+
+/* %@ did not complete */
+"%@ did not complete" = "%@ 未完成";
+
+/* %@ ms */
+"%@ ms" = "%@ 毫秒";
+
+/* %@ open */
+"%@ open" = "%@ 開門";
+
+/* %@ open ports */
+"%@ open ports" = "%@ 開放端口";
+
+/* %@ per year */
+"%@ per year" = "%@ 每年";
+
+/* %@ · %@ s */
+"%@ · %@ s" = "%@ ·%@ s";
+
+/* %lld %@ · %@ */
+"%lld %@ · %@" = "%lld %@ ·%@";
+
+/* %lld MB */
+"%lld MB" = "%lld MB";
+
+/* %lld TCP · %lld Bonjour */
+"%lld TCP · %lld Bonjour" = "%lld TCP ·%lld Bonjour";
+
+/* %lld addresses */
+"%lld addresses" = "%lld 地址";
+
+/* %lld answers */
+"%lld answers" = "%lld 答案";
+
+/* %lld bytes */
+"%lld bytes" = "%lld 位元組";
+
+/* %lld checks */
+"%lld checks" = "%lld 檢查";
+
+/* %lld day */
+"%lld day" = "%lld 日";
+
+/* %lld days */
+"%lld days" = "%lld 天";
+
+/* %lld detected · scanning all takes about %lld s */
+"%lld detected · scanning all takes about %lld s" = "%lld 偵測到 ·掃描全部約需 %lld 秒";
+
+/* %lld devices */
+"%lld devices" = "%lld 裝置";
+
+/* %lld devices on %lld %@ */
+"%lld devices on %lld %@" = "%lld 裝置 %lld %@";
+
+/* %lld entries */
+"%lld entries" = "%lld 條目";
+
+/* %lld headers */
+"%lld headers" = "%lld 標題";
+
+/* %lld hops */
+"%lld hops" = "%lld 跳躍";
+
+/* %lld hosts */
+"%lld hosts" = "%lld 主持人";
+
+/* %lld hour */
+"%lld hour" = "%lld小時";
+
+/* %lld hours */
+"%lld hours" = "%lld小時";
+
+/* %lld incomplete */
+"%lld incomplete" = "%lld 未完成";
+
+/* %lld interfaces */
+"%lld interfaces" = "%lld 介面";
+
+/* %lld keys */
+"%lld keys" = "%lld 鍵";
+
+/* %lld limited to a /24 */
+"%lld limited to a /24" = "%lld 限於/24";
+
+/* %lld lines · %lld characters */
+"%lld lines · %lld characters" = "%lld 台詞 ·%lld 角色";
+
+/* %lld matches */
+"%lld matches" = "%lld 比賽";
+
+/* %lld minute */
+"%lld minute" = "%lld分鐘";
+
+/* %lld minutes */
+"%lld minutes" = "%lld分鐘";
+
+/* %lld more lines · use Copy Result for the complete output */
+"%lld more lines · use Copy Result for the complete output" = "%lld 多行 ·完整輸出請使用複製結果";
+
+/* %lld named · %lld unnamed */
+"%lld named · %lld unnamed" = "%lld 已命名·%lld 未具名";
+
+/* %lld names */
+"%lld names" = "%lld 名字";
+
+/* %lld neighbors */
+"%lld neighbors" = "%lld 鄰居";
+
+/* %lld of %lld networks · about %lld s */
+"%lld of %lld networks · about %lld s" = "%lld %lld 網絡 ·約 %lld s";
+
+/* %lld of %lld open */
+"%lld of %lld open" = "%lld %lld 開門";
+
+/* %lld open */
+"%lld open" = "%lld 開門";
+
+/* %lld received */
+"%lld received" = "%lld 收到";
+
+/* %lld records */
+"%lld records" = "%lld 唱片";
+
+/* %lld records · partial */
+"%lld records · partial" = "%lld 紀錄 ·部分";
+
+/* %lld redirects */
+"%lld redirects" = "%lld 重定向";
+
+/* %lld responses */
+"%lld responses" = "%lld 回應";
+
+/* %lld routes */
+"%lld routes" = "%lld 路線";
+
+/* %lld rows */
+"%lld rows" = "%lld 排";
+
+/* %lld second */
+"%lld second" = "%lld秒";
+
+/* %lld seconds */
+"%lld seconds" = "%lld秒";
+
+/* %lld service types */
+"%lld service types" = "%lld 服務類型";
+
+/* %lld services */
+"%lld services" = "%lld 服務";
+
+/* %lld tools */
+"%lld tools" = "%lld 工具";
+
+/* ([0-9.]+) ms */
+"([0-9.]+) ms" = "（[0-9.]+） 毫秒";
+
+/* ([0-9.]+)% packet loss */
+"([0-9.]+)% packet loss" = "([0-9.]+)% packet loss";
+
+/* , with:  */
+", with: " = "，包含：";
+
+/* 0 (ok) */
+"0 (ok)" = "0（OK）";
+
+/* 1 match */
+"1 match" = "1場比賽";
+
+/* 1 response */
+"1 response" = "1 個回應";
+
+/* 1 service */
+"1 service" = "1 服役";
+
+/* 2 minutes ago */
+"2 minutes ago" = "兩分鐘前";
+
+/* ; fully validated */
+"; fully validated" = ";完全驗證";
+
+/* ; unsigned answer */
+"; unsigned answer" = ";未簽名回答";
+
+/* ; validation failed */
+"; validation failed" = ";驗證失敗";
+
+/* A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24 */
+"A CIDR range needs a full address before the prefix, e.g. 10.2.0.0/24" = "CIDR 範圍前需完整位址，例如 10.2.0.0/24";
+
+/* A sweep can include at most 16 manually added ranges. */
+"A sweep can include at most 16 manually added ranges." = "掃描最多可包含16個手動新增的範圍。";
+
+/* ARP Table */
+"ARP Table" = "ARP 表格";
+
+/* ASN and BGP Lookup */
+"ASN and BGP Lookup" = "ASN 與 BGP 查詢";
+
+/* Actions */
+"Actions" = "行動";
+
+/* Active */
+"Active" = "現役";
+
+/* Active entries reported by macOS and local discovery tools. */
+"Active entries reported by macOS and local discovery tools." = "macOS 及本地發現工具回報的活躍條目。";
+
+/* Active entries reported by macOS. */
+"Active entries reported by macOS." = "macOS 報告的活躍條目。";
+
+/* Add */
+"Add" = "新增";
+
+/* Add %@ to the scan */
+"Add %@ to the scan" = "在掃描中加入%@";
+
+/* Add a range, e.g. 172.16.4.0/22 */
+"Add a range, e.g. 172.16.4.0/22" = "新增一個範圍，例如 172.16.4.0/22";
+
+/* Added manually */
+"Added manually" = "手動新增";
+
+/* Added range */
+"Added range" = "增加音域";
+
+/* Address */
+"Address" = "地址";
+
+/* Address details */
+"Address details" = "地址詳情";
+
+/* Address details for %@ */
+"Address details for %@" = "%@ 的地址詳情";
+
+/* Addresses */
+"Addresses" = "地址";
+
+/* Addresses this Mac has recently exchanged packets with. */
+"Addresses this Mac has recently exchanged packets with." = "這台 Mac 最近交換封包的位址。";
+
+/* Adds reachability, common ports and the route. Can take a minute. */
+"Adds reachability, common ports and the route. Can take a minute." = "增加可達性、常見港口和路線。可能要花一分鐘。";
+
+/* Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names. */
+"Adds zone-transfer attempts, DNSSEC signals, more hostnames, and certificate names." = "新增區域傳輸嘗試、DNSSEC 訊號、更多主機名稱及憑證名稱。";
+
+/* Advertised Bonjour services */
+"Advertised Bonjour services" = "宣傳Bonjour服務";
+
+/* Advertised during the discovery window. */
+"Advertised during the discovery window." = "在發現期間刊登。";
+
+/* An IPv4 address needs four numbers from 0 to 255 */
+"An IPv4 address needs four numbers from 0 to 255" = "一個 IPv4 位址需要從 0 到 255 四個號碼";
+
+/* An IPv4 prefix runs from /0 to /32 */
+"An IPv4 prefix runs from /0 to /32" = "IPv4 前綴的範圍從 /0 到 /32";
+
+/* An IPv6 prefix runs from /0 to /128 */
+"An IPv6 prefix runs from /0 to /128" = "IPv6 前綴從 /0 到 /128";
+
+/* Answer %lld */
+"Answer %lld" = "答案 %lld";
+
+/* Answers */
+"Answers" = "答案";
+
+/* Answers by resolver */
+"Answers by resolver" = "解算器回答";
+
+/* Answers returned for %@. */
+"Answers returned for %@." = "答案是%@。";
+
+/* Assigned address */
+"Assigned address" = "指定地址";
+
+/* Authenticated */
+"Authenticated" = "認證";
+
+/* Auto-renews yearly · cancel anytime */
+"Auto-renews yearly · cancel anytime" = "每年自動續約 ·隨時取消";
+
+/* Average */
+"Average" = "平均";
+
+/* Bits */
+"Bits" = "比特";
+
+/* Bonjour Services */
+"Bonjour Services" = "Bonjour服務";
+
+/* Bonjour services */
+"Bonjour services" = "Bonjour服務";
+
+/* Browse Bonjour service types announced on the local network for five seconds */
+"Browse Bonjour service types announced on the local network for five seconds" = "瀏覽 Bonjour 服務類型，請瀏覽本地網路公告五秒鐘";
+
+/* Browsing advertised Bonjour service types… */
+"Browsing advertised Bonjour service types…" = "瀏覽廣告中的Bonjour服務類型......";
+
+/* Build a combined DNS, routing, ownership, and network report */
+"Build a combined DNS, routing, ownership, and network report" = "建立結合 DNS、路由、擁有權和網路的報告";
+
+/* Build a combined report for the current network connection */
+"Build a combined report for the current network connection" = "建立目前網路連線的綜合報告";
+
+/* Building a report for the current connection… */
+"Building a report for the current connection…" = "正在建立目前連線的報告......";
+
+/* Building the DNS, routing and ownership report… */
+"Building the DNS, routing and ownership report…" = "建立 DNS、路由與擁有權報告......";
+
+/* CIDR Calculator */
+"CIDR Calculator" = "CIDR 計算機";
+
+/* CIDR range · %@ addresses */
+"CIDR range · %@ addresses" = "CIDR 範圍 ·%@ 位址";
+
+/* Calculated result */
+"Calculated result" = "計算結果";
+
+/* Calculating network boundaries and address count… */
+"Calculating network boundaries and address count…" = "計算網路邊界和位址數量......";
+
+/* Cancel */
+"Cancel" = "取消";
+
+/* Certificate */
+"Certificate" = "證書";
+
+/* Certificate Transparency */
+"Certificate Transparency" = "憑證透明度";
+
+/* Certificate expires */
+"Certificate expires" = "證書到期";
+
+/* Certificate names */
+"Certificate names" = "憑證名稱";
+
+/* Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS */
+"Check DNS, web and SSH ports, HTTPS headers, certificate chain, TLS versions, OCSP, and MX STARTTLS" = "檢查 DNS、網頁和 SSH 埠口、HTTPS 標頭、憑證鏈、TLS 版本、OCSP 和 MX STARTTLS";
+
+/* Check whether a validating resolver authenticates the DNS answer */
+"Check whether a validating resolver authenticates the DNS answer" = "請確認驗證解析器是否認證 DNS 答案";
+
+/* Check whether a validating resolver authenticates the TLSA answer */
+"Check whether a validating resolver authenticates the TLSA answer" = "請確認驗證解析器是否認證 TLSA 答案";
+
+/* Check whether a signed zone exposes NSEC records */
+"Check whether a signed zone exposes NSEC records" = "檢查有簽名區域是否會暴露 NSEC 紀錄";
+
+/* Check whether one TCP port accepts a connection */
+"Check whether one TCP port accepts a connection" = "檢查其中一個 TCP 埠是否接受連線";
+
+/* Check whether the domain is included or eligible for HSTS preload */
+"Check whether the domain is included or eligible for HSTS preload" = "檢查該網域是否包含或是否符合 HSTS 預載的資格";
+
+/* Checking DNS, TLS, web and mail services… */
+"Checking DNS, TLS, web and mail services…" = "檢查DNS、TLS、網頁和郵件服務......";
+
+/* Checking HSTS preload-list status… */
+"Checking HSTS preload-list status…" = "正在檢查HSTS預載清單狀態......";
+
+/* Checking for published NSEC records… */
+"Checking for published NSEC records…" = "正在查閱已公布的NSEC紀錄......";
+
+/* Checking the 25 most common TCP ports… */
+"Checking the 25 most common TCP ports…" = "檢查25個最常見的TCP埠......";
+
+/* Checking the negotiated HTTP version and response… */
+"Checking the negotiated HTTP version and response…" = "檢查協商好的 HTTP 版本和回應......";
+
+/* Checks */
+"Checks" = "檢查";
+
+/* Checks apex records, mail policies, services, common hosts, and DKIM selectors. */
+"Checks apex records, mail policies, services, common hosts, and DKIM selectors." = "檢查頂點記錄、郵件政策、服務、共用主機及 DKIM 選擇器。";
+
+/* Choose a tool */
+"Choose a tool" = "選擇一個工具";
+
+/* Cipher */
+"Cipher" = "密碼";
+
+/* Ciphersuite */
+"Ciphersuite" = "密碼組";
+
+/* Clear Recent Data */
+"Clear Recent Data" = "近期數據清晰";
+
+/* Clear Recent Data… */
+"Clear Recent Data…" = "清除近期數據......";
+
+/* Clear recent Netmin data? */
+"Clear recent Netmin data?" = "清除近期淨減值數據？";
+
+/* Clear search */
+"Clear search" = "清晰搜尋";
+
+/* Clear target */
+"Clear target" = "目標明確";
+
+/* Clock offset */
+"Clock offset" = "時鐘偏移";
+
+/* Close */
+"Close" = "結束";
+
+/* Collecting Wi-Fi and nearby access point details… */
+"Collecting Wi-Fi and nearby access point details…" = "收集Wi-Fi和附近的接入點資料......";
+
+/* Common Port Scan */
+"Common Port Scan" = "共通埠掃描";
+
+/* Common TCP services */
+"Common TCP services" = "常見的 TCP 服務";
+
+/* Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare IPv4 answers from Cloudflare, Google, Quad9, and OpenDNS" = "比較 Cloudflare、Google、Quad9 和 OpenDNS 的 IPv4 答案";
+
+/* Comparing IPv4 answers from public resolvers… */
+"Comparing IPv4 answers from public resolvers…" = "比較公開解析器的 IPv4 回答......";
+
+/* Complete */
+"Complete" = "完結";
+
+/* Complete DNS zone for %@ */
+"Complete DNS zone for %@" = "%@ 的完整 DNS 區域";
+
+/* Completeness: Complete */
+"Completeness: Complete" = "完整性：完整";
+
+/* Completeness: Partial discovery */
+"Completeness: Partial discovery" = "完整性：部分發現";
+
+/* Configuration */
+"Configuration" = "配置";
+
+/* Connection */
+"Connection" = "連結";
+
+/* Connection quality */
+"Connection quality" = "連線品質";
+
+/* Connection succeeded */
+"Connection succeeded" = "連線成功";
+
+/* Connection timing */
+"Connection timing" = "連接時序";
+
+/* Consistent */
+"Consistent" = "一致性";
+
+/* Content */
+"Content" = "內容";
+
+/* Content returned by the target, ready to inspect or copy. */
+"Content returned by the target, ready to inspect or copy." = "目標返回的內容，準備檢查或複製。";
+
+/* Convert an internationalized domain between Unicode and ASCII forms */
+"Convert an internationalized domain between Unicode and ASCII forms" = "將國際化網域在 Unicode 與 ASCII 格式間轉換";
+
+/* Converting the domain between Unicode and ASCII… */
+"Converting the domain between Unicode and ASCII…" = "將 Unicode 與 ASCII 之間的網域轉換......";
+
+/* Copied %@ */
+"Copied %@" = "複製 %@";
+
+/* Copy Address */
+"Copy Address" = "複製地址";
+
+/* Copy Command */
+"Copy Command" = "複製指令";
+
+/* Copy MAC Address */
+"Copy MAC Address" = "複製 MAC 位址";
+
+/* Copy Name */
+"Copy Name" = "複製名稱";
+
+/* Copy Raw Output */
+"Copy Raw Output" = "複製原始輸出";
+
+/* Copy Result */
+"Copy Result" = "複製結果";
+
+/* Copy Summary */
+"Copy Summary" = "摘要";
+
+/* Copy Target */
+"Copy Target" = "複製目標";
+
+/* Copy error */
+"Copy error" = "複製錯誤";
+
+/* Country */
+"Country" = "鄉村";
+
+/* Coverage */
+"Coverage" = "覆蓋範圍";
+
+/* DANE Validation */
+"DANE Validation" = "DANE 驗證";
+
+/* DHCP Lease */
+"DHCP Lease" = "DHCP 租約";
+
+/* DHCP lease */
+"DHCP lease" = "DHCP 租約";
+
+/* DHCP server */
+"DHCP server" = "DHCP 伺服器";
+
+/* DNS */
+"DNS" = "DNS";
+
+/* DNS A */
+"DNS A" = "DNS A";
+
+/* DNS AAAA */
+"DNS AAAA" = "DNS AAAA";
+
+/* DNS CAA */
+"DNS CAA" = "DNS CAA";
+
+/* DNS CNAME */
+"DNS CNAME" = "DNS CNAME";
+
+/* DNS Configuration */
+"DNS Configuration" = "DNS 設定";
+
+/* DNS HTTPS */
+"DNS HTTPS" = "DNS HTTPS";
+
+/* DNS LOC */
+"DNS LOC" = "DNS LOC";
+
+/* DNS NAPTR */
+"DNS NAPTR" = "DNS NAPTR";
+
+/* DNS NS */
+"DNS NS" = "DNS NS";
+
+/* DNS NSEC Walk Check */
+"DNS NSEC Walk Check" = "DNS NSEC 走路檢查";
+
+/* DNS Propagation */
+"DNS Propagation" = "DNS 傳播";
+
+/* DNS SOA */
+"DNS SOA" = "DNS SOA";
+
+/* DNS SRV */
+"DNS SRV" = "DNS SRV";
+
+/* DNS SVCB */
+"DNS SVCB" = "DNS SVCB";
+
+/* DNS TLSA */
+"DNS TLSA" = "DNS TLSA";
+
+/* DNS TXT */
+"DNS TXT" = "DNS TXT";
+
+/* DNS Trace */
+"DNS Trace" = "DNS 追蹤";
+
+/* DNS Zone Discovery */
+"DNS Zone Discovery" = "DNS 區域發現";
+
+/* DNS Zone Transfer */
+"DNS Zone Transfer" = "DNS 區域傳輸";
+
+/* DNS answers */
+"DNS answers" = "DNS 回答";
+
+/* DNS configuration */
+"DNS configuration" = "DNS 設定";
+
+/* DNS over HTTPS */
+"DNS over HTTPS" = "DNS over HTTPS";
+
+/* DNS over TLS Endpoint */
+"DNS over TLS Endpoint" = "DNS over TLS 端點";
+
+/* DNS records */
+"DNS records" = "DNS 紀錄";
+
+/* DNS records discovered for %@ */
+"DNS records discovered for %@" = "發現的 DNS 紀錄 %@";
+
+/* DNS records, geolocation and ASN. Usually a few seconds. */
+"DNS records, geolocation and ASN. Usually a few seconds." = "DNS 紀錄、地理定位和 ASN。通常幾秒鐘。";
+
+/* DNS resolvers in use */
+"DNS resolvers in use" = "使用的 DNS 解析器";
+
+/* DNS response */
+"DNS response" = "DNS 回應";
+
+/* DNS server */
+"DNS server" = "DNS 伺服器";
+
+/* DNS service name */
+"DNS service name" = "DNS 服務名稱";
+
+/* DNSSEC Chain Trace */
+"DNSSEC Chain Trace" = "DNSSEC 鏈追蹤";
+
+/* DNSSEC Check */
+"DNSSEC Check" = "DNSSEC 檢查";
+
+/* DNSSEC DNSKEY */
+"DNSSEC DNSKEY" = "DNSSEC DNSKEY";
+
+/* DNSSEC DS */
+"DNSSEC DS" = "DNSSEC DS";
+
+/* DNSSEC Validation */
+"DNSSEC Validation" = "DNSSEC 驗證";
+
+/* Deep */
+"Deep" = "深沉";
+
+/* Deep discovery */
+"Deep discovery" = "深度發現";
+
+/* Default */
+"Default" = "預設";
+
+/* Default route */
+"Default route" = "預設路線";
+
+/* Default ·  */
+"Default · " = "預設 ·";
+
+/* Depth */
+"Depth" = "深度";
+
+/* Destination */
+"Destination" = "目的地";
+
+/* Destination not reached */
+"Destination not reached" = "未抵達目的地";
+
+/* Details */
+"Details" = "詳情";
+
+/* Detect again */
+"Detect again" = "再偵測一次";
+
+/* Devices */
+"Devices" = "裝置";
+
+/* Devices (%lld) */
+"Devices (%lld)" = "裝置（%lld）";
+
+/* Difference between this Mac's clock and %@. */
+"Difference between this Mac's clock and %@." = "這台 Mac 的時鐘與 %@ 的差異。";
+
+/* Directives */
+"Directives" = "指令";
+
+/* Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data */
+"Discover public DNS records, standard services, mail policies, DKIM selectors, and exposed zone data" = "發現公開 DNS 紀錄、標準服務、郵件政策、DKIM 選擇器及暴露區域資料";
+
+/* Discover routers, storage devices, TVs, and other UPnP services */
+"Discover routers, storage devices, TVs, and other UPnP services" = "探索路由器、儲存裝置、電視及其他 UPnP 服務";
+
+/* Discovered network resources */
+"Discovered network resources" = "發現的網路資源";
+
+/* Discovering UPnP devices and services… */
+"Discovering UPnP devices and services…" = "發現 UPnP 裝置與服務......";
+
+/* Discovering local devices and advertised services… */
+"Discovering local devices and advertised services…" = "發現本地裝置和廣告服務......";
+
+/* Discovering public DNS records and zone data… */
+"Discovering public DNS records and zone data…" = "發現公開的 DNS 紀錄和區域資料......";
+
+/* Discovery output */
+"Discovery output" = "發現輸出";
+
+/* Discovery results */
+"Discovery results" = "發現結果";
+
+/* DoT hostname */
+"DoT hostname" = "DoT 主機名稱";
+
+/* Domain */
+"Domain" = "領域";
+
+/* Domain name */
+"Domain name" = "網域名稱";
+
+/* Domain or hostname */
+"Domain or hostname" = "網域或主機名稱";
+
+/* Download */
+"Download" = "下載";
+
+/* Each router on the path; the round-trip time is measured at the destination. */
+"Each router on the path; the round-trip time is measured at the destination." = "路徑上的每個路由器;往返時間會在目的地測量。";
+
+/* Enables the tool's optional behaviour */
+"Enables the tool's optional behaviour" = "啟用工具的可選行為";
+
+/* Enter a range such as 172.16.4.0/22. */
+"Enter a range such as 172.16.4.0/22." = "這時會出現像 172.16.4.0/22 這樣的範圍。";
+
+/* Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24. */
+"Enter an IPv4 range with a prefix from /0 to /30, for example 192.168.1.0/24." = "輸入一個 IPv4 範圍，前綴為 /0 到 /30，例如 192.168.1.0/24。";
+
+/* Entries */
+"Entries" = "參賽作品";
+
+/* Ethernet */
+"Ethernet" = "乙太網路";
+
+/* Every address in the requested range, one per line. */
+"Every address in the requested range, one per line." = "請求範圍內的每個地址，每行一個。";
+
+/* Every interface macOS reports, with its addresses and link status. */
+"Every interface macOS reports, with its addresses and link status." = "macOS 會報告每個介面，包含其位址和連結狀態。";
+
+/* Every public resolver returned the same IPv4 answers. */
+"Every public resolver returned the same IPv4 answers." = "每個公開解析器都回傳相同的 IPv4 答案。";
+
+/* Exit status */
+"Exit status" = "退出狀態";
+
+/* Expand a manageable CIDR block into individual addresses */
+"Expand a manageable CIDR block into individual addresses" = "將可管理的 CIDR 區塊擴展為個別地址";
+
+/* Expanding the CIDR range into individual addresses… */
+"Expanding the CIDR range into individual addresses…" = "將CIDR範圍擴展成個別地址......";
+
+/* Expires */
+"Expires" = "過期";
+
+/* Failed */
+"Failed" = "失敗";
+
+/* Fast local discovery */
+"Fast local discovery" = "快速局部發現";
+
+/* Fetch the site's crawler access rules */
+"Fetch the site's crawler access rules" = "取得網站的爬蟲存取規則";
+
+/* Fetch the site's published security contact policy */
+"Fetch the site's published security contact policy" = "取得該網站公布的安全聯絡政策";
+
+/* Fetching HTTP headers and following redirects… */
+"Fetching HTTP headers and following redirects…" = "擷取 HTTP 標頭並追蹤重定向......";
+
+/* Fetching IP location and network details… */
+"Fetching IP location and network details…" = "取得IP位置和網路細節......";
+
+/* Fetching IP registration records via RDAP… */
+"Fetching IP registration records via RDAP…" = "透過 RDAP 取得 IP 註冊紀錄......";
+
+/* Fetching SSH host keys and calculating fingerprints… */
+"Fetching SSH host keys and calculating fingerprints…" = "取得 SSH 主機金鑰並計算指紋......";
+
+/* Fetching browser security headers… */
+"Fetching browser security headers…" = "取得瀏覽器安全標頭......";
+
+/* Fetching domain registration records via RDAP… */
+"Fetching domain registration records via RDAP…" = "透過 RDAP 取得網域註冊紀錄...";
+
+/* Fetching route-origin validation status… */
+"Fetching route-origin validation status…" = "擷取路由-起始驗證狀態...";
+
+/* Fetching the HTTPS certificate and identity details… */
+"Fetching the HTTPS certificate and identity details…" = "正在取得 HTTPS 憑證和身份細節......";
+
+/* Fetching the certificate chain and stapled OCSP response… */
+"Fetching the certificate chain and stapled OCSP response…" = "取回憑證鏈和釘書機的 OCSP 回應......";
+
+/* Fetching the site's crawler access rules… */
+"Fetching the site's crawler access rules…" = "正在取得網站的爬蟲存取規則......";
+
+/* Fetching the site's security contact policy… */
+"Fetching the site's security contact policy…" = "正在調取該網站的安全聯絡政策......";
+
+/* Fetching your public IP address… */
+"Fetching your public IP address…" = "正在取得你的公開IP位址......";
+
+/* Fields */
+"Fields" = "場";
+
+/* Filter %lld tools */
+"Filter %lld tools" = "濾波器%lld工具";
+
+/* Filter by IP, name, interface */
+"Filter by IP, name, interface" = "依 IP、名稱、介面篩選";
+
+/* Final status */
+"Final status" = "最終狀態";
+
+/* Find Tool… */
+"Find Tool…" = "尋找工具......";
+
+/* Find a Netmin tool */
+"Find a Netmin tool" = "尋找 Netmin 工具";
+
+/* Find certificate names that can reveal related subdomains */
+"Find certificate names that can reveal related subdomains" = "尋找能揭示相關子網域的憑證名稱";
+
+/* Find the advertised authenticated SMTP service */
+"Find the advertised authenticated SMTP service" = "找到已宣告的認證 SMTP 服務";
+
+/* Find the advertised email configuration service */
+"Find the advertised email configuration service" = "尋找廣告中的電子郵件設定服務";
+
+/* Find the advertised secure IMAP service */
+"Find the advertised secure IMAP service" = "尋找宣稱的安全 IMAP 服務";
+
+/* Find the hostname associated with an IP address */
+"Find the hostname associated with an IP address" = "找出與 IP 位址相關的主機名稱";
+
+/* Fingerprint */
+"Fingerprint" = "指紋";
+
+/* Fingerprints the server presented, to compare against a known-hosts entry. */
+"Fingerprints the server presented, to compare against a known-hosts entry." = "伺服器提供的指紋，用來與已知主機的紀錄做比對。";
+
+/* First */
+"First" = "第一";
+
+/* Follow DNS delegation from the root to the answer */
+"Follow DNS delegation from the root to the answer" = "從根節點依照 DNS 委派到答案";
+
+/* Formatted */
+"Formatted" = "格式化";
+
+/* Formatted address */
+"Formatted address" = "格式化地址";
+
+/* Formatting the MAC address… */
+"Formatting the MAC address…" = "格式化MAC位址......";
+
+/* Free · %lld of %lld requests left today */
+"Free · %lld of %lld requests left today" = "免費·%lld %lld 請求";
+
+/* From */
+"From" = "來自";
+
+/* Full */
+"Full" = "全額";
+
+/* Gateway */
+"Gateway" = "閘道";
+
+/* Gateway %@ · default route */
+"Gateway %@ · default route" = "閘道 %@ ·預設路線";
+
+/* Gateway and Routes */
+"Gateway and Routes" = "閘道與路線";
+
+/* Gateway and routing table */
+"Gateway and routing table" = "閘道器與路由表";
+
+/* HSTS Preload Status */
+"HSTS Preload Status" = "哈勃神通預載狀態";
+
+/* HTTP Headers */
+"HTTP Headers" = "HTTP 標頭";
+
+/* HTTP Protocol */
+"HTTP Protocol" = "HTTP 協定";
+
+/* HTTP Security Headers */
+"HTTP Security Headers" = "HTTP 安全標頭";
+
+/* HTTP response */
+"HTTP response" = "HTTP 回應";
+
+/* HTTP status */
+"HTTP status" = "HTTP 狀態";
+
+/* HTTP/ */
+"HTTP/" = "HTTP/";
+
+/* Handshake response */
+"Handshake response" = "握手回應";
+
+/* Hide */
+"Hide" = "躲起來";
+
+/* Hop */
+"Hop" = "跳";
+
+/* Hops */
+"Hops" = "啤酒花";
+
+/* Host */
+"Host" = "主持人";
+
+/* Host and port */
+"Host and port" = "主機與埠";
+
+/* Host and port, for example example.com:443 */
+"Host and port, for example example.com:443" = "例如主機與埠口 example.com:443";
+
+/* Host keys */
+"Host keys" = "主機金鑰";
+
+/* Hostname */
+"Hostname" = "主機名稱";
+
+/* Hostnames that appeared in public certificates for this domain. */
+"Hostnames that appeared in public certificates for this domain." = "出現在本網域公開憑證中的主機名稱。";
+
+/* Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services. */
+"Hosts that answered ping or appeared in the neighbor cache, with names, latency, and advertised services." = "回應 ping 或出現在鄰居快取中的主機，並附有名稱、延遲及廣告服務。";
+
+/* Hosts, advertised services, and reachable endpoints found during this run. */
+"Hosts, advertised services, and reachable endpoints found during this run." = "在此過程中發現的主機、宣告服務，以及可達端點。";
+
+/* IANA WHOIS server */
+"IANA WHOIS server" = "IANA WHOIS 伺服器";
+
+/* IP Information */
+"IP Information" = "IP 資訊";
+
+/* IP Range Expander */
+"IP Range Expander" = "IP 範圍擴展器";
+
+/* IP address */
+"IP address" = "IP 位址";
+
+/* IP address or ASN */
+"IP address or ASN" = "IP 位址或 ASN";
+
+/* IP address or domain */
+"IP address or domain" = "IP 位址或網域";
+
+/* IP address or hostname */
+"IP address or hostname" = "IP 位址或主機名稱";
+
+/* IP address or prefix */
+"IP address or prefix" = "IP 位址或前綴";
+
+/* IP, Routing and Registration */
+"IP, Routing and Registration" = "IP、路由與註冊";
+
+/* IPv4 */
+"IPv4" = "IPv4";
+
+/* IPv4 CIDR range, maximum 4096 addresses */
+"IPv4 CIDR range, maximum 4096 addresses" = "IPv4 CIDR 範圍，最大 4096 個位址";
+
+/* IPv4 address */
+"IPv4 address" = "IPv4 位址";
+
+/* IPv4 address with CIDR */
+"IPv4 address with CIDR" = "帶有 CIDR 的 IPv4 位址";
+
+/* IPv4 neighbors */
+"IPv4 neighbors" = "IPv4 鄰居";
+
+/* IPv6 */
+"IPv6" = "IPv6";
+
+/* IPv6 Neighbors */
+"IPv6 Neighbors" = "IPv6 鄰居";
+
+/* IPv6 address */
+"IPv6 address" = "IPv6 位址";
+
+/* Inspect DNSSEC records and validation signatures */
+"Inspect DNSSEC records and validation signatures" = "檢查 DNSSEC 紀錄與驗證簽章";
+
+/* Inspect the SMTP banner and negotiate STARTTLS */
+"Inspect the SMTP banner and negotiate STARTTLS" = "檢查 SMTP 橫幅並協商 STARTTLS";
+
+/* Interface */
+"Interface" = "介面";
+
+/* Interface Inventory */
+"Interface Inventory" = "介面清單";
+
+/* Interfaces */
+"Interfaces" = "介面";
+
+/* Join a network or add a range below. Running the sweep asks the helper to look again. */
+"Join a network or add a range below. Running the sweep asks the helper to look again." = "加入網路或在下方新增一個範圍。執行掃描會要求助手再看一次。";
+
+/* Key fields from the registry response. */
+"Key fields from the registry response." = "登錄資料回應中的關鍵欄位。";
+
+/* Keys */
+"Keys" = "鑰匙";
+
+/* Last */
+"Last" = "最後";
+
+/* Latency */
+"Latency" = "延遲";
+
+/* Latency, reachability, and path measurements. */
+"Latency, reachability, and path measurements." = "延遲、可達性與路徑測量。";
+
+/* Lease details */
+"Lease details" = "租約詳情";
+
+/* Lease time */
+"Lease time" = "租期";
+
+/* Limited */
+"Limited" = "限制";
+
+/* Limited to the local /24 for speed */
+"Limited to the local /24 for speed" = "為了速度，只能在當地的 /24 線";
+
+/* Lines */
+"Lines" = "路線";
+
+/* Link details for this Mac and the access points macOS can currently see. */
+"Link details for this Mac and the access points macOS can currently see." = "這台 Mac 以及 macOS 目前能看到的基地台的連結細節。";
+
+/* Loading App Store products… */
+"Loading App Store products…" = "載入 App Store 產品......";
+
+/* Local Device Sweep */
+"Local Device Sweep" = "本地裝置掃描";
+
+/* Local Network */
+"Local Network" = "區域網路";
+
+/* Location */
+"Location" = "地理位置";
+
+/* Looking up domain names in certificate logs… */
+"Looking up domain names in certificate logs…" = "在憑證日誌中查找網域名稱......";
+
+/* Looking up mail delivery servers… */
+"Looking up mail delivery servers…" = "查郵件投遞伺服器......";
+
+/* Looking up registration and ownership records… */
+"Looking up registration and ownership records…" = "查閱登記和所有權紀錄......";
+
+/* Looking up the SMTP submission service… */
+"Looking up the SMTP submission service…" = "查了一下 SMTP 的投稿服務......";
+
+/* Looking up the email configuration service… */
+"Looking up the email configuration service…" = "查了電子郵件設定服務......";
+
+/* Looking up the hostname for this IP address… */
+"Looking up the hostname for this IP address…" = "查這個IP位址的主機名稱......";
+
+/* Looking up the origin ASN and routed prefix… */
+"Looking up the origin ASN and routed prefix…" = "查了來源 ASN 和路由前綴......";
+
+/* Looking up the secure IMAP service… */
+"Looking up the secure IMAP service…" = "查了安全 IMAP 服務......";
+
+/* MAC Formatter */
+"MAC Formatter" = "MAC Formatter";
+
+/* MAC address */
+"MAC address" = "MAC 位址";
+
+/* MAC and vendor hidden */
+"MAC and vendor hidden" = "MAC 與廠商隱藏";
+
+/* MAC and vendor hidden — empty in this run */
+"MAC and vendor hidden — empty in this run" = "MAC 和供應商隱藏 — 這次是空的";
+
+/* MAC and vendor shown */
+"MAC and vendor shown" = "MAC 與廠商資料";
+
+/* MMM d HH:mm:ss yyyy zzz */
+"MMM d HH:mm:ss yyyy zzz" = "嗯 d HH：嗯：ss yyyy zzz";
+
+/* Mail */
+"Mail" = "郵件";
+
+/* Mail Autodiscover SRV */
+"Mail Autodiscover SRV" = "郵件自動發現SRV";
+
+/* Mail BIMI */
+"Mail BIMI" = "郵件BIMI";
+
+/* Mail DKIM */
+"Mail DKIM" = "郵件DKIM";
+
+/* Mail DMARC */
+"Mail DMARC" = "郵件 DMARC";
+
+/* Mail IMAPS SRV */
+"Mail IMAPS SRV" = "郵件 IMAPS SRV";
+
+/* Mail MTA-STS */
+"Mail MTA-STS" = "郵寄MTA-STS";
+
+/* Mail MX */
+"Mail MX" = "郵件MX";
+
+/* Mail SPF */
+"Mail SPF" = "郵件防曬";
+
+/* Mail Submission SRV */
+"Mail Submission SRV" = "郵件提交SRV";
+
+/* Mail TLS Report */
+"Mail TLS Report" = "郵件 TLS 報告";
+
+/* Mail TLS-RPT */
+"Mail TLS-RPT" = "郵件 TLS-RPT";
+
+/* Mail domain */
+"Mail domain" = "郵件網域";
+
+/* Mail domain or server */
+"Mail domain or server" = "郵件網域或伺服器";
+
+/* Mail server and port, for example mail.example.com:25 */
+"Mail server and port, for example mail.example.com:25" = "例如郵件伺服器與埠 mail.example.com:25";
+
+/* Manage Subscription */
+"Manage Subscription" = "管理訂閱";
+
+/* Maximum */
+"Maximum" = "極限";
+
+/* Measure current download, upload, responsiveness, and connection details */
+"Measure current download, upload, responsiveness, and connection details" = "測量目前的下載、上傳、回應速度及連線細節";
+
+/* Measure reachability and round-trip latency */
+"Measure reachability and round-trip latency" = "衡量可達性與往返延遲";
+
+/* Measured capacity and responsiveness of the current connection. */
+"Measured capacity and responsiveness of the current connection." = "測量目前連線的容量與反應能力。";
+
+/* Measurement */
+"Measurement" = "測量";
+
+/* Measuring download, upload and responsiveness… */
+"Measuring download, upload and responsiveness…" = "測量下載、上傳與回應速度......";
+
+/* Measuring reachability and round-trip latency… */
+"Measuring reachability and round-trip latency…" = "測量可達性和往返延遲......";
+
+/* Minimum */
+"Minimum" = "最低限度";
+
+/* Mode */
+"Mode" = "模式";
+
+/* More copy options */
+"More copy options" = "更多文案選項";
+
+/* My Network Report */
+"My Network Report" = "我的網絡報告";
+
+/* My Public IP */
+"My Public IP" = "我的公開 IP";
+
+/* NTP Offset */
+"NTP Offset" = "NTP 偏移量";
+
+/* NTP server */
+"NTP server" = "NTP 伺服器";
+
+/* Name */
+"Name" = "名稱";
+
+/* Names */
+"Names" = "名稱";
+
+/* Names in certificate logs */
+"Names in certificate logs" = "憑證日誌中的名稱";
+
+/* Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher */
+"Negotiate TLS with any implicit-TLS service and show the selected protocol and cipher" = "與任何隱含 TLS 服務協商 TLS，並顯示所選協定與密碼";
+
+/* Negotiated protocol, cipher, certificate identity, and verification status. */
+"Negotiated protocol, cipher, certificate identity, and verification status." = "協商協議、密碼、憑證身份及驗證狀態。";
+
+/* Negotiating SMTP STARTTLS… */
+"Negotiating SMTP STARTTLS…" = "談判 SMTP STARTTLS...";
+
+/* Negotiating TLS on the specified service port… */
+"Negotiating TLS on the specified service port…" = "在指定的服務埠上協商 TLS......";
+
+/* Negotiating the HTTPS TLS connection… */
+"Negotiating the HTTPS TLS connection…" = "協商HTTPS TLS連線......";
+
+/* Neighbor */
+"Neighbor" = "鄰居";
+
+/* Neighbor cache */
+"Neighbor cache" = "鄰居快取";
+
+/* Neighbors */
+"Neighbors" = "鄰近地區";
+
+/* Netmin Pro */
+"Netmin Pro" = "Netmin Pro";
+
+/* Netmin Pro Lifetime · %@ */
+"Netmin Pro Lifetime · %@" = "Netmin Pro 終身賽 ·%@";
+
+/* Netmin Pro Yearly */
+"Netmin Pro Yearly" = "Netmin Pro 年度賽";
+
+/* Netmin Pro… */
+"Netmin Pro…" = "Netmin Pro...";
+
+/* Netmin discovers devices and services on local networks you choose to inspect. */
+"Netmin discovers devices and services on local networks you choose to inspect." = "Netmin 會發現你選擇檢查的本地網路上的裝置和服務。";
+
+/* Netmin stopped this command after %lld seconds. */
+"Netmin stopped this command after %lld seconds." = "Netmin 在 %lld 秒後停止了這個指令。";
+
+/* Netmin stopped this command after it produced %@ of output. */
+"Netmin stopped this command after it produced %@ of output." = "Netmin 在產生 %@ 輸出後停止此指令。";
+
+/* Network */
+"Network" = "網絡";
+
+/* Network Lookup */
+"Network Lookup" = "網路查詢";
+
+/* Network Quality */
+"Network Quality" = "網路品質";
+
+/* Network entries */
+"Network entries" = "網絡條目";
+
+/* Network interfaces */
+"Network interfaces" = "網路介面";
+
+/* Networks */
+"Networks" = "網路";
+
+/* Networks scanned */
+"Networks scanned" = "掃描網路";
+
+/* Networks to scan */
+"Networks to scan" = "掃描網路";
+
+/* New Lookup */
+"New Lookup" = "新查詢";
+
+/* New Report */
+"New Report" = "新報告";
+
+/* New Sweep */
+"New Sweep" = "新一輪";
+
+/* No */
+"No" = "不";
+
+/* No DNS records found */
+"No DNS records found" = "未找到任何 DNS 紀錄";
+
+/* No Netmin Pro purchase was found for this Apple Account. */
+"No Netmin Pro purchase was found for this Apple Account." = "這個 Apple 帳戶沒有找到 Netmin Pro 的購買紀錄。";
+
+/* No common ports are open */
+"No common ports are open" = "沒有公共埠口開啟";
+
+/* No common services */
+"No common services" = "無共用服務";
+
+/* No data returned */
+"No data returned" = "沒有回傳資料";
+
+/* No devices match “%@” */
+"No devices match “%@”" = "沒有任何裝置符合「%@」";
+
+/* No devices responded */
+"No devices responded" = "沒有任何裝置回應";
+
+/* No diagnostic output */
+"No diagnostic output" = "無診斷輸出";
+
+/* No input required */
+"No input required" = "不需要輸入";
+
+/* No matching tools */
+"No matching tools" = "沒有配套工具";
+
+/* No private IPv4 network detected · add a range to scan */
+"No private IPv4 network detected · add a range to scan" = "未偵測到私有 IPv4 網路 ·新增範圍以掃描";
+
+/* No private IPv4 network was detected */
+"No private IPv4 network was detected" = "未偵測到私有 IPv4 網路";
+
+/* No result returned */
+"No result returned" = "結果未回來";
+
+/* No target */
+"No target" = "沒有目標";
+
+/* No tools match “%@” */
+"No tools match “%@”" = "沒有任何工具能與「%@」相符。";
+
+/* Normalize a MAC address to uppercase colon-separated form */
+"Normalize a MAC address to uppercase colon-separated form" = "將 MAC 位址正規化為大寫、冒號分隔的形式";
+
+/* Not reached */
+"Not reached" = "未接通";
+
+/* Not selected */
+"Not selected" = "未被選中";
+
+/* Notafter */
+"Notafter" = "不之後";
+
+/* Notes */
+"Notes" = "註釋";
+
+/* Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually. */
+"Nothing answered ping or appeared in the neighbor cache on the scanned networks. Check that this Mac is on the expected network or add a range manually." = "掃描後的網路上，沒有回應任何訊號，也沒有出現在鄰居快取中。檢查這台 Mac 是否在預期網路上，或手動新增範圍。";
+
+/* Nothing detected */
+"Nothing detected" = "沒偵測到任何異常";
+
+/* Off */
+"Off" = "關掉";
+
+/* Offset */
+"Offset" = "偏移";
+
+/* On */
+"On" = "關於";
+
+/* Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates. */
+"Only the IANA referral was returned. Retry %@ or use RDAP to retrieve the registrar, nameservers, and registration dates." = "僅回傳了 IANA 轉介。重試 %@ 或使用 RDAP 取得註冊商、名稱伺服器及註冊日期。";
+
+/* Open */
+"Open" = "開場";
+
+/* Open ports */
+"Open ports" = "開放端口";
+
+/* Open ports: */
+"Open ports:" = "開放端口：";
+
+/* Optional IPv4 CIDR; blank scans all active LANs */
+"Optional IPv4 CIDR; blank scans all active LANs" = "可選的 IPv4 CIDR;空白掃描所有活躍區域網路";
+
+/* Options */
+"Options" = "選擇權";
+
+/* Origin AS and routed prefix */
+"Origin AS and routed prefix" = "起源 AS 與路由前綴";
+
+/* Other */
+"Other" = "其他";
+
+/* Output */
+"Output" = "產出";
+
+/* Overview */
+"Overview" = "概述";
+
+/* Packet loss */
+"Packet loss" = "封包遺失";
+
+/* Partial */
+"Partial" = "部分";
+
+/* Passes %@ to the command */
+"Passes %@ to the command" = "傳球 %@ 給指揮部";
+
+/* Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends. */
+"Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends." = "付款會直接匯入你的 Apple 帳戶。除非在 App Store 設定中取消，否則年度訂閱會自動續約，且至少在當前期限結束前一天取消。";
+
+/* Pick a tool from the sidebar or press ⌘K to search all of them. */
+"Pick a tool from the sidebar or press ⌘K to search all of them." = "從側邊欄選擇工具或按 ⌘K 搜尋所有工具。";
+
+/* Ping */
+"Ping" = "叮";
+
+/* Port */
+"Port" = "移植";
+
+/* Port %@ is open */
+"Port %@ is open" = "港口%@已開啟";
+
+/* Ports */
+"Ports" = "移植版本";
+
+/* Ports that accepted a connection. */
+"Ports that accepted a connection." = "接受連線的埠口。";
+
+/* Primary mail server */
+"Primary mail server" = "主要郵件伺服器";
+
+/* Primary nameserver */
+"Primary nameserver" = "主要名稱伺服器";
+
+/* PrimaryInterface */
+"PrimaryInterface" = "主要介面";
+
+/* Privacy */
+"Privacy" = "隱私";
+
+/* Privacy Policy… */
+"Privacy Policy…" = "隱私政策......";
+
+/* Pro */
+"Pro" = "優點";
+
+/* Pro purchases are unavailable right now. Please try again later. */
+"Pro purchases are unavailable right now. Please try again later." = "目前 Pro 購買無法取得。請稍後再試。";
+
+/* Pro trial · %lld days remaining */
+"Pro trial · %lld days remaining" = "審判 ·%lld 剩餘天數";
+
+/* Pro trial · 1 day remaining */
+"Pro trial · 1 day remaining" = "審判 ·剩下1天";
+
+/* Pro trial · ends %@ */
+"Pro trial · ends %@" = "審判結束 %@";
+
+/* Pro trial · first payment %@ */
+"Pro trial · first payment %@" = "試用 ·第一筆付款 %@";
+
+/* Pro trial · until %@ */
+"Pro trial · until %@" = "審判 ·直到 %@";
+
+/* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
+"Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro 將原始診斷輸出轉為表格、指標與發現。30 天試用期結束後，Free 可提供每日最多五個請求的原始輸出。";
+
+/* Pro · ends %@ */
+"Pro · ends %@" = "優點 ·結束 %@";
+
+/* Pro · lifetime */
+"Pro · lifetime" = "優點 ·終身";
+
+/* Pro · renews %@ */
+"Pro · renews %@" = "優點 ·更新 %@";
+
+/* Pro · shared with your family */
+"Pro · shared with your family" = "優點 ·與家人共享";
+
+/* Pro · until %@ */
+"Pro · until %@" = "優點 ·直到%@";
+
+/* Probe 25 common TCP ports with the networking tools included in macOS */
+"Probe 25 common TCP ports with the networking tools included in macOS" = "探測 macOS 內建的網路工具的 25 個常見 TCP 埠";
+
+/* Probed */
+"Probed" = "探查";
+
+/* Proto */
+"Proto" = "Proto";
+
+/* Protocol */
+"Protocol" = "協議";
+
+/* Protocol Version */
+"Protocol Version" = "協議版本";
+
+/* Public DNS discovery is partial */
+"Public DNS discovery is partial" = "公開 DNS 發現是部分的";
+
+/* Public DNS probing found useful records, but custom names may still be hidden. */
+"Public DNS probing found useful records, but custom names may still be hidden." = "公開 DNS 探測找到有用的紀錄，但自訂名稱仍可能隱藏。";
+
+/* Public IP */
+"Public IP" = "公共 IP";
+
+/* Public IPv4 */
+"Public IPv4" = "公共 IPv4";
+
+/* Public IPv6 */
+"Public IPv6" = "公共 IPv6";
+
+/* Public address and network ownership details. */
+"Public address and network ownership details." = "公開廣播及網路所有權詳情。";
+
+/* Public resolvers returned different answers; a change may still be propagating. */
+"Public resolvers returned different answers; a change may still be propagating." = "公眾解決者給出不同的答案;可能還有變動正在蔓延中。";
+
+/* Punycode Converter */
+"Punycode Converter" = "Punycode 轉換器";
+
+/* Purchase */
+"Purchase" = "購買";
+
+/* Purchases are unavailable right now. */
+"Purchases are unavailable right now." = "目前無法購買。";
+
+/* Query an A record through a DNS-over-HTTPS endpoint */
+"Query an A record through a DNS-over-HTTPS endpoint" = "透過 DNS-over-HTTPS 端點查詢 A 紀錄";
+
+/* Query the NetBIOS name and workgroup advertised by a Windows or SMB device */
+"Query the NetBIOS name and workgroup advertised by a Windows or SMB device" = "查詢 Windows 或 SMB 裝置所宣告的 NetBIOS 名稱與工作群組";
+
+/* Query the server clock and show the measured local offset */
+"Query the server clock and show the measured local offset" = "查詢伺服器時鐘並顯示測量到的本地偏移量";
+
+/* Querying %@… */
+"Querying %@…" = "查詢 %@...";
+
+/* Querying DNS geographic location records… */
+"Querying DNS geographic location records…" = "查詢 DNS 地理位置紀錄......";
+
+/* Querying DNS text records… */
+"Querying DNS text records…" = "查詢 DNS 文字記錄......";
+
+/* Querying DNSSEC public keys… */
+"Querying DNSSEC public keys…" = "查詢 DNSSEC 公鑰......";
+
+/* Querying DNSSEC records and signatures… */
+"Querying DNSSEC records and signatures…" = "查詢DNSSEC紀錄與簽名......";
+
+/* Querying HTTPS endpoints and connection hints… */
+"Querying HTTPS endpoints and connection hints…" = "查詢 HTTPS 端點與連線提示......";
+
+/* Querying IPv4 address (A) records… */
+"Querying IPv4 address (A) records…" = "查詢 IPv4 位址 （A） 記錄......";
+
+/* Querying IPv4 records over HTTPS… */
+"Querying IPv4 records over HTTPS…" = "透過 HTTPS 查詢 IPv4 紀錄......";
+
+/* Querying IPv6 address (AAAA) records… */
+"Querying IPv6 address (AAAA) records…" = "查詢 IPv6 位址（AAAA）紀錄......";
+
+/* Querying MTA-STS policy discovery records… */
+"Querying MTA-STS policy discovery records…" = "查詢 MTA-STS 政策發現紀錄......";
+
+/* Querying TLS certificate association records… */
+"Querying TLS certificate association records…" = "查詢 TLS 憑證關聯紀錄......";
+
+/* Querying TLS delivery reporting records… */
+"Querying TLS delivery reporting records…" = "查詢 TLS 交付報告紀錄......";
+
+/* Querying authoritative name server records… */
+"Querying authoritative name server records…" = "查詢權威名稱伺服器紀錄......";
+
+/* Querying brand indicator records… */
+"Querying brand indicator records…" = "查詢品牌指標紀錄......";
+
+/* Querying certificate authority authorization records… */
+"Querying certificate authority authorization records…" = "查詢憑證授權機構授權紀錄......";
+
+/* Querying delegation signer records… */
+"Querying delegation signer records…" = "查詢代表團簽署人紀錄......";
+
+/* Querying hostname alias (CNAME) records… */
+"Querying hostname alias (CNAME) records…" = "查詢主機名稱別名（CNAME）紀錄......";
+
+/* Querying service bindings and connection parameters… */
+"Querying service bindings and connection parameters…" = "查詢服務綁定和連線參數......";
+
+/* Querying service discovery rules… */
+"Querying service discovery rules…" = "查詢服務發現規則......";
+
+/* Querying service hosts, ports and priorities… */
+"Querying service hosts, ports and priorities…" = "查詢服務主機、埠口和優先順序......";
+
+/* Querying the DKIM selector's public key… */
+"Querying the DKIM selector's public key…" = "查詢 DKIM 選擇器的公開金鑰......";
+
+/* Querying the Windows or SMB device name… */
+"Querying the Windows or SMB device name…" = "查詢 Windows 或 SMB 裝置名稱......";
+
+/* Querying the email authentication policy… */
+"Querying the email authentication policy…" = "查詢電子郵件認證政策......";
+
+/* Querying the sender authorization policy… */
+"Querying the sender authorization policy…" = "查詢寄件者授權政策......";
+
+/* Querying the time server and measuring clock offset… */
+"Querying the time server and measuring clock offset…" = "查詢時間伺服器並測量時鐘偏移......";
+
+/* Querying zone authority and timing records… */
+"Querying zone authority and timing records…" = "查詢區域權限與時間紀錄......";
+
+/* Quick */
+"Quick" = "快點";
+
+/* Quick lookup */
+"Quick lookup" = "快速查詢";
+
+/* Quickly find local devices, printers, and advertised services */
+"Quickly find local devices, printers, and advertised services" = "快速找到本地裝置、印表機及廣告服務";
+
+/* RDAP Domain */
+"RDAP Domain" = "RDAP 領域";
+
+/* RDAP IP */
+"RDAP IP" = "RDAP IP";
+
+/* RPKI Validation */
+"RPKI Validation" = "RPKI 驗證";
+
+/* Ran %@ */
+"Ran %@" = "蘭 %@";
+
+/* Raw Output */
+"Raw Output" = "原始輸出";
+
+/* Raw output */
+"Raw output" = "原始輸出";
+
+/* Reachability and round-trip timing for %@. */
+"Reachability and round-trip timing for %@." = "可達性與往返時間 %@。";
+
+/* Reachable ports, services, and host-key details. */
+"Reachable ports, services, and host-key details." = "可連接的埠口、服務與主機金鑰細節。";
+
+/* Reached */
+"Reached" = "已達";
+
+/* Reading cached IPv4 neighbors… */
+"Reading cached IPv4 neighbors…" = "讀取快取的 IPv4 鄰居......";
+
+/* Reading cached IPv6 neighbors… */
+"Reading cached IPv6 neighbors…" = "讀取快取的 IPv6 鄰居......";
+
+/* Reading macOS DNS resolvers and search domains… */
+"Reading macOS DNS resolvers and search domains…" = "閱讀 macOS 的 DNS 解析器和搜尋網域......";
+
+/* Reading network interface addresses and status… */
+"Reading network interface addresses and status…" = "讀取網路介面位址與狀態......";
+
+/* Reading the active interface's DHCP lease… */
+"Reading the active interface's DHCP lease…" = "讀取主動介面的 DHCP 租約......";
+
+/* Reading the default gateway and routing tables… */
+"Reading the default gateway and routing tables…" = "讀取預設閘道和路由表......";
+
+/* Recent */
+"Recent" = "近期";
+
+/* Record */
+"Record" = "戰績";
+
+/* Records */
+"Records" = "紀錄";
+
+/* Registrar */
+"Registrar" = "註冊官";
+
+/* Registration and routing data */
+"Registration and routing data" = "註冊與路線資料";
+
+/* Registry record */
+"Registry record" = "登記紀錄";
+
+/* Registry response */
+"Registry response" = "登記處回應";
+
+/* Registry response is incomplete */
+"Registry response is incomplete" = "登記處回覆不完整";
+
+/* Related */
+"Related" = "相關";
+
+/* Remembered for the next results · ⌘1 Overview, ⌘2 Raw output */
+"Remembered for the next results · ⌘1 Overview, ⌘2 Raw output" = "以下成果值得紀念 ·⌘1 概覽，⌘2 原始輸出";
+
+/* Remove this range */
+"Remove this range" = "移除這個範圍";
+
+/* Replies */
+"Replies" = "回覆";
+
+/* Report for %@ */
+"Report for %@" = "%@ 報告";
+
+/* Report overview */
+"Report overview" = "報告概述";
+
+/* Reports */
+"Reports" = "報告";
+
+/* Request a complete DNS zone transfer from an authoritative server */
+"Request a complete DNS zone transfer from an authoritative server" = "請求從權威伺服器完整傳輸 DNS 區域";
+
+/* Requesting a complete DNS zone transfer… */
+"Requesting a complete DNS zone transfer…" = "請求完整的 DNS 區域傳輸......";
+
+/* Require TLS 1.2 and show whether negotiation succeeds */
+"Require TLS 1.2 and show whether negotiation succeeds" = "要求TLS 1.2並展示談判是否成功";
+
+/* Require TLS 1.3 and show whether negotiation succeeds */
+"Require TLS 1.3 and show whether negotiation succeeds" = "要求TLS 1.3並展示談判是否成功";
+
+/* Resolved */
+"Resolved" = "已解決";
+
+/* Resolved address */
+"Resolved address" = "已解決地址";
+
+/* Resolver */
+"Resolver" = "解析器";
+
+/* Resolver %@ */
+"Resolver %@" = "解算器 %@";
+
+/* Resolver output grouped for quick review. */
+"Resolver output grouped for quick review." = "解析器輸出分組以便快速檢視。";
+
+/* Resolver response */
+"Resolver response" = "解析器反應";
+
+/* Resolvers */
+"Resolvers" = "解析器";
+
+/* Resolvers agree */
+"Resolvers agree" = "裁決者同意";
+
+/* Resolvers and search domains macOS is currently using, in priority order. */
+"Resolvers and search domains macOS is currently using, in priority order." = "macOS 目前使用的解析器和搜尋網域，依優先順序排列。";
+
+/* Resolvers differ */
+"Resolvers differ" = "解析器各有不同";
+
+/* Resources */
+"Resources" = "資源";
+
+/* Response */
+"Response" = "回應";
+
+/* Response %lld */
+"Response %lld" = "回應 %lld";
+
+/* Responses */
+"Responses" = "回應";
+
+/* Responses to the multicast search, one card per announcement. */
+"Responses to the multicast search, one card per announcement." = "多播搜尋的回應，每則公告一張卡片。";
+
+/* Responsiveness */
+"Responsiveness" = "反應性";
+
+/* Restore Purchases */
+"Restore Purchases" = "恢復購買";
+
+/* Result */
+"Result" = "結果";
+
+/* Results are grouped by each completed network check. */
+"Results are grouped by each completed network check." = "結果依每一次完成的網路檢查分組。";
+
+/* Retry registry */
+"Retry registry" = "重試登錄";
+
+/* Reverse DNS */
+"Reverse DNS" = "反向 DNS";
+
+/* Robots.txt */
+"Robots.txt" = "Robots.txt";
+
+/* Round trip */
+"Round trip" = "往返";
+
+/* Route to target */
+"Route to target" = "目標路線";
+
+/* Router */
+"Router" = "路由器";
+
+/* Routes */
+"Routes" = "路線";
+
+/* Routing record */
+"Routing record" = "路由紀錄";
+
+/* Routing registry data for %@. */
+"Routing registry data for %@." = "%@ 的路由登記資料。";
+
+/* Routing table */
+"Routing table" = "路由表";
+
+/* Run */
+"Run" = "跑";
+
+/* Run Again */
+"Run Again" = "再跑一次";
+
+/* Run Lookup */
+"Run Lookup" = "執行查詢";
+
+/* Run Report */
+"Run Report" = "賽事報告";
+
+/* Run Sweep */
+"Run Sweep" = "跑掃";
+
+/* Run Tool */
+"Run Tool" = "執行工具";
+
+/* Run again */
+"Run again" = "再跑一次";
+
+/* Run the %@ tool */
+"Run the %@ tool" = "執行%@工具";
+
+/* Running */
+"Running" = "跑步";
+
+/* Running %@… */
+"Running %@…" = "奔跑 %@...";
+
+/* Running · %@ s */
+"Running · %@ s" = "跑步 ·%@ s";
+
+/* SMTP STARTTLS */
+"SMTP STARTTLS" = "SMTP STARTTLS";
+
+/* SSDP/UPnP Discovery */
+"SSDP/UPnP Discovery" = "SSDP/UPnP 發現";
+
+/* SSH Host Keys */
+"SSH Host Keys" = "SSH 主機金鑰";
+
+/* SSH host keys */
+"SSH host keys" = "SSH 主機金鑰";
+
+/* Save Report… */
+"Save Report…" = "存檔報告......";
+
+/* Save reports and copy structured summaries */
+"Save reports and copy structured summaries" = "儲存報告並複製結構化摘要";
+
+/* Scan */
+"Scan" = "掃描";
+
+/* Scripts */
+"Scripts" = "文字";
+
+/* Search domain */
+"Search domain" = "搜尋領域";
+
+/* Sections */
+"Sections" = "章節";
+
+/* Security details */
+"Security details" = "安全細節";
+
+/* Security.txt */
+"Security.txt" = "Security.txt";
+
+/* Selected */
+"Selected" = "精選";
+
+/* Sequence */
+"Sequence" = "序列";
+
+/* Server */
+"Server" = "伺服器";
+
+/* Service */
+"Service" = "服役";
+
+/* Service reachability */
+"Service reachability" = "服務可達性";
+
+/* Service type */
+"Service type" = "服務類型";
+
+/* Service types */
+"Service types" = "服務類型";
+
+/* Service types announced on the local network during the discovery window. */
+"Service types announced on the local network during the discovery window." = "在發現視窗期間，本地網路上會宣布服務類型。";
+
+/* Services */
+"Services" = "服務";
+
+/* Show */
+"Show" = "節目";
+
+/* Show DANE certificate associations for a TLS service */
+"Show DANE certificate associations for a TLS service" = "顯示 TLS 服務的 DANE 憑證關聯";
+
+/* Show HTTPS service endpoints and connection hints */
+"Show HTTPS service endpoints and connection hints" = "顯示 HTTPS 服務端點與連線提示";
+
+/* Show IPv4 addresses published for a hostname */
+"Show IPv4 addresses published for a hostname" = "顯示主機名稱已發布的 IPv4 位址";
+
+/* Show IPv4 neighbors this Mac has recently contacted */
+"Show IPv4 neighbors this Mac has recently contacted" = "顯示這台 Mac 最近聯絡過的 IPv4 鄰居";
+
+/* Show IPv6 addresses published for a hostname */
+"Show IPv6 addresses published for a hostname" = "顯示主機名稱已發布的 IPv6 位址";
+
+/* Show Wi-Fi link details and nearby access points visible to macOS */
+"Show Wi-Fi link details and nearby access points visible to macOS" = "顯示 Wi-Fi 連結細節及 macOS 可見的附近無線基地台";
+
+/* Show addresses, MTU, status, and counters for every network interface */
+"Show addresses, MTU, status, and counters for every network interface" = "顯示每個網路介面的位址、MTU、狀態與計數器";
+
+/* Show cached IPv6 neighbors and their link-layer addresses */
+"Show cached IPv6 neighbors and their link-layer addresses" = "顯示快取的 IPv6 鄰居及其鏈路層位址";
+
+/* Show certificate identity, issuer, validity, and SHA-256 fingerprint */
+"Show certificate identity, issuer, validity, and SHA-256 fingerprint" = "請顯示憑證身份、發行者、有效期限及 SHA-256 指紋";
+
+/* Show each router on the path to the destination */
+"Show each router on the path to the destination" = "顯示每個路由器在通往目的地的路徑上";
+
+/* Show geographic location records published by a zone */
+"Show geographic location records published by a zone" = "顯示區域發布的地理位置紀錄";
+
+/* Show location, network, ASN, and ownership details */
+"Show location, network, ASN, and ownership details" = "節目地點、頻道、ASN 及所有權詳情";
+
+/* Show negotiated TLS version, cipher, key exchange, and verification */
+"Show negotiated TLS version, cipher, key exchange, and verification" = "顯示協商的 TLS 版本、密碼、金鑰交換與驗證";
+
+/* Show network boundaries, netmask, broadcast address, and size */
+"Show network boundaries, netmask, broadcast address, and size" = "顯示網路邊界、網路掩罩、廣播位址與大小";
+
+/* Show published text records and domain policies */
+"Show published text records and domain policies" = "顯示已發表的文字記錄與網域政策";
+
+/* Show raw registration and ownership records */
+"Show raw registration and ownership records" = "顯示原始的註冊與所有權紀錄";
+
+/* Show registry allocation and registration details for an IP */
+"Show registry allocation and registration details for an IP" = "顯示 IP 的登錄檔分配與註冊詳情";
+
+/* Show registry registration and status details for a domain */
+"Show registry registration and status details for a domain" = "顯示網域註冊註冊及狀態詳情";
+
+/* Show response headers and every redirect hop */
+"Show response headers and every redirect hop" = "顯示回應標頭和每個重定向跳點";
+
+/* Show rule-based service discovery records */
+"Show rule-based service discovery records" = "顯示基於規則的服務發現紀錄";
+
+/* Show service endpoints and connection parameters */
+"Show service endpoints and connection parameters" = "顯示服務端點與連線參數";
+
+/* Show service hosts, ports, priorities, and weights */
+"Show service hosts, ports, priorities, and weights" = "節目服務主持人、埠口、優先順序與權重";
+
+/* Show the DNS resolvers and search domains macOS is actually using */
+"Show the DNS resolvers and search domains macOS is actually using" = "顯示 macOS 實際使用的 DNS 解析器和搜尋網域";
+
+/* Show the RPKI route-origin validation state reported by RIPE */
+"Show the RPKI route-origin validation state reported by RIPE" = "顯示 RIPE 報告的 RPKI 路由-起源驗證狀態";
+
+/* Show the active interface's DHCP server, lease, and supplied options */
+"Show the active interface's DHCP server, lease, and supplied options" = "顯示該啟用介面的 DHCP 伺服器、租約及提供的選項";
+
+/* Show the authoritative name servers for a domain */
+"Show the authoritative name servers for a domain" = "顯示網域的權威名稱伺服器";
+
+/* Show the canonical alias target for a hostname */
+"Show the canonical alias target for a hostname" = "顯示主機名稱的典型別名目標";
+
+/* Show the complete served certificate chain, verification result, and stapled OCSP response */
+"Show the complete served certificate chain, verification result, and stapled OCSP response" = "展示完整的送達憑證鏈、驗證結果及釘書機的OCSP回應";
+
+/* Show the default gateway and the complete IPv4 and IPv6 route table */
+"Show the default gateway and the complete IPv4 and IPv6 route table" = "顯示預設閘道器及完整的 IPv4 與 IPv6 路由表";
+
+/* Show the domain's brand indicator policy */
+"Show the domain's brand indicator policy" = "顯示該網域的品牌指標政策";
+
+/* Show the domain's email authentication policy */
+"Show the domain's email authentication policy" = "顯示該網域的電子郵件認證政策";
+
+/* Show the negotiated HTTP version, status, server address, and TLS result */
+"Show the negotiated HTTP version, status, server address, and TLS result" = "顯示協商好的 HTTP 版本、狀態、伺服器位址及 TLS 結果";
+
+/* Show the origin ASN, routed prefix, registry, and allocation details */
+"Show the origin ASN, routed prefix, registry, and allocation details" = "顯示來源 ASN、路由前綴、登錄檔及分配詳情";
+
+/* Show the parent-zone delegation signer records */
+"Show the parent-zone delegation signer records" = "顯示家長區代表簽署者紀錄";
+
+/* Show the policy that requires secure mail delivery */
+"Show the policy that requires secure mail delivery" = "請展示要求安全郵件投遞的政策";
+
+/* Show the principal browser security headers returned by a site */
+"Show the principal browser security headers returned by a site" = "顯示網站回傳的主要瀏覽器安全標頭";
+
+/* Show the public IP address seen by the internet */
+"Show the public IP address seen by the internet" = "顯示網路上看到的公共 IP 位址";
+
+/* Show the public key for a DKIM selector */
+"Show the public key for a DKIM selector" = "顯示 DKIM 選擇器的公鑰";
+
+/* Show the public keys used to validate a DNS zone */
+"Show the public keys used to validate a DNS zone" = "顯示用於驗證 DNS 區域的公鑰";
+
+/* Show the server's advertised SSH host-key fingerprints */
+"Show the server's advertised SSH host-key fingerprints" = "顯示伺服器宣稱的 SSH 主機金鑰指紋";
+
+/* Show the servers that receive mail for a domain */
+"Show the servers that receive mail for a domain" = "顯示接收該網域郵件的伺服器";
+
+/* Show where TLS delivery reports are sent */
+"Show where TLS delivery reports are sent" = "顯示 TLS 交付報告的傳送地點";
+
+/* Show which certificate authorities may issue certificates */
+"Show which certificate authorities may issue certificates" = "顯示哪些證書授權機構可以簽發證書";
+
+/* Show which servers are authorized to send mail */
+"Show which servers are authorized to send mail" = "顯示哪些伺服器被授權發送郵件";
+
+/* Show zone authority, serial, and timing information */
+"Show zone authority, serial, and timing information" = "顯示區域權限、序列與時間資訊";
+
+/* Site Report */
+"Site Report" = "現場報告";
+
+/* Site report for example.org */
+"Site report for example.org" = "現場報告 example.org";
+
+/* State */
+"State" = "州";
+
+/* State:/Network/Global/IPv4 */
+"State:/Network/Global/IPv4" = "狀態：/Network/Global/IPv4";
+
+/* Statistics */
+"Statistics" = "統計數據";
+
+/* Status */
+"Status" = "現況";
+
+/* Status, protocol, redirects, and returned headers. */
+"Status, protocol, redirects, and returned headers." = "狀態、協定、重定向與回傳標頭。";
+
+/* Stop */
+"Stop" = "停下";
+
+/* Stop Sweep */
+"Stop Sweep" = "停止掃描";
+
+/* Structured registry response for %@. */
+"Structured registry response for %@." = "結構化登錄回應 %@。";
+
+/* Structured reports are a Netmin Pro feature */
+"Structured reports are a Netmin Pro feature" = "結構化報告是 Netmin Pro 的一項功能";
+
+/* Structured reports with tables, metrics, and findings */
+"Structured reports with tables, metrics, and findings" = "結構化報告，包含表格、指標與發現";
+
+/* Structured resolver response. */
+"Structured resolver response." = "結構化解決器回應。";
+
+/* Structured response from the web service. */
+"Structured response from the web service." = "來自網路服務的結構化回應。";
+
+/* System network configuration */
+"System network configuration" = "系統網路配置";
+
+/* TCP Port Check */
+"TCP Port Check" = "TCP 埠檢查";
+
+/* TCP REACHABILITY */
+"TCP REACHABILITY" = "TCP 可達性";
+
+/* TLS 1.2 */
+"TLS 1.2" = "TLS 1.2";
+
+/* TLS 1.2 Handshake */
+"TLS 1.2 Handshake" = "TLS 1.2 握手";
+
+/* TLS 1.3 */
+"TLS 1.3" = "TLS 1.3";
+
+/* TLS 1.3 Handshake */
+"TLS 1.3 Handshake" = "TLS 1.3 握手";
+
+/* TLS Certificate */
+"TLS Certificate" = "TLS 證書";
+
+/* TLS Certificate Chain */
+"TLS Certificate Chain" = "TLS 憑證鏈";
+
+/* TLS Handshake */
+"TLS Handshake" = "TLS 握手";
+
+/* TLS Service Handshake */
+"TLS Service Handshake" = "TLS 服務握手";
+
+/* TLS connection */
+"TLS connection" = "TLS 連線";
+
+/* TLS, Web and Ports */
+"TLS, Web and Ports" = "TLS、網頁與埠口";
+
+/* Target */
+"Target" = "目標";
+
+/* Target (optional) */
+"Target (optional)" = "目標（可選）";
+
+/* Target did not reply */
+"Target did not reply" = "Target沒有回覆";
+
+/* Targets cannot contain spaces */
+"Targets cannot contain spaces" = "目標不能包含空格";
+
+/* Terms */
+"Terms" = "條款";
+
+/* Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently */
+"Test SMTP 25, SMTPS 465, submission 587, IMAPS 993, and POP3S 995 concurrently" = "同時測試 SMTP 25、SMTPS 465、提交 587、IMAPS 993 及 POP3S 995";
+
+/* Test TLS negotiation with a DNS-over-TLS server */
+"Test TLS negotiation with a DNS-over-TLS server" = "測試與 DNS over-TLS 伺服器的 TLS 協商";
+
+/* Testing TLS 1.2 negotiation… */
+"Testing TLS 1.2 negotiation…" = "測試 TLS 1.2 談判......";
+
+/* Testing TLS 1.3 negotiation… */
+"Testing TLS 1.3 negotiation…" = "測試 TLS 1.3 協商......";
+
+/* Testing TLS negotiation on DNS port 853… */
+"Testing TLS negotiation on DNS port 853…" = "正在測試 DNS 853 埠的 TLS 協商......";
+
+/* Testing TLS on SMTP, IMAP and POP3 services… */
+"Testing TLS on SMTP, IMAP and POP3 services…" = "在 SMTP、IMAP 和 POP3 服務上測試 TLS......";
+
+/* Testing a connection to the specified TCP port… */
+"Testing a connection to the specified TCP port…" = "正在測試連接到指定的 TCP 埠......";
+
+/* Text */
+"Text" = "正文";
+
+/* The 25 most common TCP ports were probed with a one-second timeout. */
+"The 25 most common TCP ports were probed with a one-second timeout." = "25 個最常見的 TCP 埠口被以一秒鐘的逾時方式探測。";
+
+/* The App Store could not verify this purchase. */
+"The App Store could not verify this purchase." = "App Store 無法驗證此購買。";
+
+/* The MAC address in canonical uppercase, colon-separated form. */
+"The MAC address in canonical uppercase, colon-separated form." = "MAC 位址以典範大寫、結號分隔的形式呈現。";
+
+/* The Netmin tool catalog contains no valid tools. */
+"The Netmin tool catalog contains no valid tools." = "Netmin 工具目錄中沒有有效的工具。";
+
+/* The URL needs a scheme and a host, e.g. https://example.com */
+"The URL needs a scheme and a host, e.g. https://example.com" = "網址需要一個方案和主機，例如 https://example.com";
+
+/* The active interface's lease and the options its DHCP server supplied. */
+"The active interface's lease and the options its DHCP server supplied." = "主動介面的租約以及其 DHCP 伺服器提供的選項。";
+
+/* The address is not valid. */
+"The address is not valid." = "地址不成立。";
+
+/* The address the internet sees for this connection. */
+"The address the internet sees for this connection." = "網路上這個連線的位址。";
+
+/* The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned. */
+"The app followed the redirects, but the website sent this file back to the same URL repeatedly. No file was returned." = "應用程式有跟著重定向，但網站卻反覆把這個檔案回傳到同一個網址。沒有回傳任何檔案。";
+
+/* The authoritative server allowed a complete AXFR zone transfer. */
+"The authoritative server allowed a complete AXFR zone transfer." = "權威伺服器允許完整的 AXFR 區域傳輸。";
+
+/* The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist. */
+"The authoritative servers did not provide a complete zone transfer. These are the records found through public probes; custom names may still exist." = "權威伺服器並未提供完整的區域傳輸。這些是透過公開探測找到的紀錄;自訂名稱可能仍然存在。";
+
+/* The bundled Netmin tool catalog is missing. */
+"The bundled Netmin tool catalog is missing." = "捆綁的 Netmin 工具目錄遺失了。";
+
+/* The command completed, but the target returned no matching data. */
+"The command completed, but the target returned no matching data." = "指令完成，但目標未回傳匹配資料。";
+
+/* The command failed before it produced diagnostic output. */
+"The command failed before it produced diagnostic output." = "指令在產生診斷輸出前失敗。";
+
+/* The default route and every IPv4 and IPv6 route macOS knows about. */
+"The default route and every IPv4 and IPv6 route macOS knows about." = "預設路由以及 macOS 已知的所有 IPv4 和 IPv6 路由。";
+
+/* The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day. */
+"The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day." = "前 30 天包含 Pro 版。試用期結束後，Free 保留全部 84 件工具及原始輸出，每天可申請五次診斷請求。";
+
+/* The prefix after / must be a number */
+"The prefix after / must be a number" = "/ 後的前綴必須是數字";
+
+/* The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable. */
+"The process exited with status %lld before returning details. Check that the required command is installed and the target is reachable." = "程序以狀態%lld退出後返回細節。檢查所需指令已安裝且目標可達。";
+
+/* The purchase is awaiting approval. */
+"The purchase is awaiting approval." = "購買正在等待批准。";
+
+/* The registry returned an unstructured response; its useful lines are shown below. */
+"The registry returned an unstructured response; its useful lines are shown below." = "登錄檔回傳了非結構化的回應;其有用的行列如下所示。";
+
+/* The resolver returned no matching answers. */
+"The resolver returned no matching answers." = "解析器沒有回傳匹配的答案。";
+
+/* This Mac */
+"This Mac" = "這台 Mac";
+
+/* This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports. */
+"This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports." = "這會移除這台 Mac 上的已儲存目標和最近執行的摘要。它不會刪除匯出的報告。";
+
+/* Time */
+"Time" = "時間";
+
+/* Timeouts */
+"Timeouts" = "暫停";
+
+/* Tools */
+"Tools" = "工具";
+
+/* Tools unavailable */
+"Tools unavailable" = "無法取得的工具";
+
+/* Trace */
+"Trace" = "追蹤";
+
+/* Trace the DNSSEC trust chain from the root */
+"Trace the DNSSEC trust chain from the root" = "從根節點追蹤 DNSSEC 信任鏈";
+
+/* Traceroute */
+"Traceroute" = "追蹤路線";
+
+/* Tracing DNS delegations and DNSSEC records… */
+"Tracing DNS delegations and DNSSEC records…" = "追蹤 DNS 委派和 DNSSEC 紀錄......";
+
+/* Tracing DNS delegations from the root… */
+"Tracing DNS delegations from the root…" = "從根端追蹤 DNS 委派......";
+
+/* Tracing the network path to the destination… */
+"Tracing the network path to the destination…" = "追蹤網路路徑到目的地......";
+
+/* Try Again */
+"Try Again" = "再試一次";
+
+/* Try RDAP instead → */
+"Try RDAP instead →" = "試試 RDAP 吧→";
+
+/* Type */
+"Type" = "類型";
+
+/* Types */
+"Types" = "類型";
+
+/* UPnP devices and services */
+"UPnP devices and services" = "UPnP 裝置與服務";
+
+/* URL */
+"URL" = "網址";
+
+/* Uncertainty */
+"Uncertainty" = "不確定性";
+
+/* Unlimited network diagnostics with readable reports and export tools. */
+"Unlimited network diagnostics with readable reports and export tools." = "無限的網路診斷，附有可讀的報告與匯出工具。";
+
+/* Unlimited use of all 84 diagnostic tools */
+"Unlimited use of all 84 diagnostic tools" = "無限次使用 84 種診斷工具";
+
+/* Unlock %@, plus the complete Pro feature set. */
+"Unlock %@, plus the complete Pro feature set." = "解鎖%@，以及完整的專業版功能組合。";
+
+/* Unlock Report… */
+"Unlock Report…" = "解鎖報告......";
+
+/* Unlock Structured Summary… */
+"Unlock Structured Summary…" = "解鎖結構化摘要......";
+
+/* Unnamed */
+"Unnamed" = "未命名";
+
+/* Unsigned */
+"Unsigned" = "未簽約";
+
+/* Upload */
+"Upload" = "上傳";
+
+/* Use custom resolver */
+"Use custom resolver" = "使用自訂解析器";
+
+/* Use host:port, an IPv6 address, or a MAC address */
+"Use host:port, an IPv6 address, or a MAC address" = "請使用 host：port、IPv6 位址或 MAC 位址";
+
+/* Utilities */
+"Utilities" = "公用事業";
+
+/* VPN tunnel */
+"VPN tunnel" = "VPN 隧道";
+
+/* Validated */
+"Validated" = "已驗證";
+
+/* Validating TLSA records and their DNSSEC chain… */
+"Validating TLSA records and their DNSSEC chain…" = "驗證 TLSA 紀錄及其 DNSSEC 鏈......";
+
+/* Validating the DNS answer and DNSSEC chain… */
+"Validating the DNS answer and DNSSEC chain…" = "驗證 DNS 回答與 DNSSEC 鏈......";
+
+/* Value */
+"Value" = "價值";
+
+/* Values produced by %@. */
+"Values produced by %@." = "由%@產生的數值。";
+
+/* Values reported by macOS for %@. */
+"Values reported by macOS for %@." = "macOS 報告的 %@ 值。";
+
+/* Values returned for %@. */
+"Values returned for %@." = "價值回傳為%@。";
+
+/* Vendor */
+"Vendor" = "供應商";
+
+/* Verification */
+"Verification" = "驗證";
+
+/* Verify Return Code */
+"Verify Return Code" = "驗證回郵代碼";
+
+/* View */
+"View" = "景觀";
+
+/* View Netmin Pro… */
+"View Netmin Pro…" = "查看 Netmin Pro...";
+
+/* Virtual bridge */
+"Virtual bridge" = "虛擬橋接";
+
+/* Virtual machine network */
+"Virtual machine network" = "虛擬機網路";
+
+/* WHOIS */
+"WHOIS" = "WHOIS";
+
+/* WHOIS server */
+"WHOIS server" = "WHOIS 伺服器";
+
+/* Waiting for the first response… */
+"Waiting for the first response…" = "等待第一聲回應......";
+
+/* Web policy status */
+"Web policy status" = "網頁政策狀態";
+
+/* Wi-Fi */
+"Wi-Fi" = "Wi-Fi";
+
+/* Wi-Fi Diagnostics */
+"Wi-Fi Diagnostics" = "Wi-Fi 診斷";
+
+/* Wi-Fi status */
+"Wi-Fi status" = "Wi-Fi 狀態";
+
+/* Window */
+"Window" = "窗戶";
+
+/* Windows Name Discovery */
+"Windows Name Discovery" = "Windows 名稱發現";
+
+/* Yes */
+"Yes" = "是的";
+
+/* You have Netmin Pro. */
+"You have Netmin Pro." = "你用的是 Netmin Pro。";
+
+/* Your public address */
+"Your public address" = "你的公開地址";
+
+/* _443._tcp.hostname */
+"_443._tcp.hostname" = "_443._tcp.hostname";
+
+/* _service._protocol.domain */
+"_service._protocol.domain" = "_service._protocol.domain";
+
+/* _service._tcp.hostname */
+"_service._tcp.hostname" = "_service._tcp.hostname";
+
+/* active */
+"active" = "現役";
+
+/* advanced structured reports */
+"advanced structured reports" = "進階結構化報告";
+
+/* all detected */
+"all detected" = "全部偵測到。";
+
+/* arp table */
+"arp table" = "ARP 表格";
+
+/* as name */
+"as name" = "作為名稱";
+
+/* closed */
+"closed" = "關閉";
+
+/* command */
+"command" = "指揮";
+
+/* complete zone */
+"complete zone" = "完整區域";
+
+/* configured */
+"configured" = "配置";
+
+/* creation date */
+"creation date" = "創建日期";
+
+/* device sweep */
+"device sweep" = "裝置掃描";
+
+/* did not answer within */
+"did not answer within" = "沒有回答";
+
+/* differs */
+"differs" = "不同";
+
+/* domain name */
+"domain name" = "網域名稱";
+
+/* down */
+"down" = "趴下";
+
+/* downlink capacity */
+"downlink capacity" = "下行鏈路容量";
+
+/* expiration date */
+"expiration date" = "有效期限";
+
+/* expiration date: */
+"expiration date:" = "有效期限：";
+
+/* expired %lld days ago */
+"expired %lld days ago" = "過期日期 %lld 天前";
+
+/* expires today */
+"expires today" = "今天到期";
+
+/* four ICMP echo requests */
+"four ICMP echo requests" = "四個 ICMP 回波請求";
+
+/* gateway %@ */
+"gateway %@" = "門戶 %@";
+
+/* https://example.com */
+"https://example.com" = "https://example.com";
+
+/* in %lld days */
+"in %lld days" = "在%lld天內";
+
+/* inactive */
+"inactive" = "已停用";
+
+/* incomplete */
+"incomplete" = "不完整";
+
+/* ip information */
+"ip information" = "IP 資訊";
+
+/* just now */
+"just now" = "剛剛";
+
+/* limited to the local /24 for speed */
+"limited to the local /24 for speed" = "為了速度，僅限於當地的/24";
+
+/* local */
+"local" = "本地";
+
+/* loss %@ */
+"loss %@" = "損失 %@";
+
+/* median %@ */
+"median %@" = "中位數 %@";
+
+/* name server */
+"name server" = "名稱伺服器";
+
+/* name server: */
+"name server:" = "名稱伺服器：";
+
+/* network */
+"network" = "網絡";
+
+/* network lookup */
+"network lookup" = "網路查詢";
+
+/* network quality */
+"network quality" = "網路品質";
+
+/* network report */
+"network report" = "網絡報導";
+
+/* networks */
+"networks" = "網絡";
+
+/* no address */
+"no address" = "沒有地址";
+
+/* no answer */
+"no answer" = "沒有回應";
+
+/* no ping replies */
+"no ping replies" = "沒有回覆";
+
+/* no reply */
+"no reply" = "沒有回覆";
+
+/* open */
+"open" = "開啟";
+
+/* packets transmitted */
+"packets transmitted" = "傳送封包";
+
+/* primary %@ */
+"primary %@" = "初級 %@";
+
+/* public ip */
+"public ip" = "公共知識產權";
+
+/* raw output */
+"raw output" = "原始輸出";
+
+/* reachable */
+"reachable" = "可達";
+
+/* redirects followed */
+"redirects followed" = "隨後有重定向";
+
+/* registrar name */
+"registrar name" = "註冊商名稱";
+
+/* registry expiry date */
+"registry expiry date" = "登記到期日";
+
+/* registry expiry date: */
+"registry expiry date:" = "登記處到期日：";
+
+/* resolution failed */
+"resolution failed" = "決議失敗";
+
+/* reverse dns */
+"reverse dns" = "反向 DNS 系統";
+
+/* run with last target */
+"run with last target" = "跟最後目標一起跑";
+
+/* scoped */
+"scoped" = "範圍";
+
+/* search domain */
+"search domain" = "搜尋領域";
+
+/* selector._domainkey.domain */
+"selector._domainkey.domain" = "selector._domainkey.domain";
+
+/* sha256 fingerprint */
+"sha256 fingerprint" = "SHA256 指紋";
+
+/* site report */
+"site report" = "現場報告";
+
+/* summary */
+"summary" = "摘要";
+
+/* target */
+"target" = "目標";
+
+/* the address */
+"the address" = "地址";
+
+/* the selected resource */
+"the selected resource" = "所選資源";
+
+/* the selected target */
+"the selected target" = "選定目標";
+
+/* the target */
+"the target" = "目標";
+
+/* timed out */
+"timed out" = "超時";
+
+/* unknown */
+"unknown" = "未知";
+
+/* unlimited diagnostic requests */
+"unlimited diagnostic requests" = "無限診斷請求";
+
+/* up */
+"up" = "上";
+
+/* updated date */
+"updated date" = "更新日期";
+
+/* uplink capacity */
+"uplink capacity" = "上行容量";
+
+/* verify return code */
+"verify return code" = "驗證退回代碼";
+
+/* via %@ */
+"via %@" = "經由%@";
+
+/* windows name */
+"windows name" = "Windows 名稱";
+
+/* ~%lld s */
+"~%lld s" = "~%lld s";
+
+/* · */
+"·" = "·";
+
+/* Add %@ to Favorites */
+"Add %@ to Favorites" = "將 %@ 加入收藏";
+
+/* Favorites */
+"Favorites" = "收藏";
+
+/* Remove %@ from Favorites */
+"Remove %@ from Favorites" = "從收藏移除 %@";
+
+/* – %@ ms */
+"– %@ ms" = "– %@ 毫秒";
+
+/* Pro features are locked */
+"Pro features are locked" = "Pro 功能已鎖定";
+
+/* Purchase or restore access to unlock them. */
+"Purchase or restore access to unlock them." = "購買或回復購買以解鎖。";
+
+/* Restoring… */
+"Restoring…" = "正在回復…";
+
+/* No active purchase was found. */
+"No active purchase was found." = "未發現有效的 Netmin 購買。";
+"30 days of full access" = "30 days of full access";
+"Continue" = "Continue";
+"Trial ended" = "Trial ended";
+"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
+"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
+"Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
+
+/* IP prefix */
+"IP prefix" = "IP 前綴";
+
+/* Primary */
+"Primary" = "主要";
+
+/* All relevant */
+"All relevant" = "所有相關類型";
+
+/* Origin ASN, for example AS13335 */
+"Origin ASN, for example AS13335" = "來源 ASN，例如 AS13335";
+
+/* IP prefix, for example 1.1.1.0/24 */
+"IP prefix, for example 1.1.1.0/24" = "IP 前綴，例如 1.1.1.0/24";
+
+/* Check whether an origin ASN is authorized to announce an IP prefix */
+"Check whether an origin ASN is authorized to announce an IP prefix" = "檢查來源 ASN 是否獲准公告 IP 前綴";
+
+/* Try a complete zone transfer from each authoritative name server */
+"Try a complete zone transfer from each authoritative name server" = "嘗試從每個權威名稱伺服器執行完整區域傳送";
+
+/* Hostname, service name, or IP address */
+"Hostname, service name, or IP address" = "主機名稱、服務名稱或 IP 位址";
+
+/* Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS */
+"Compare cached DNS answers from Cloudflare, Google, Quad9, and OpenDNS" = "比較 Cloudflare、Google、Quad9 和 OpenDNS 的快取 DNS 回覆";
+
+/* Compare all relevant record types */
+"Compare all relevant record types" = "比較所有相關記錄類型";
+
+/* Comparing answers from public resolvers… */
+"Comparing answers from public resolvers…" = "正在比較公用解析器的回覆…";
+
+/* Compares the common record types that apply to this target. */
+"Compares the common record types that apply to this target." = "比較適用於此目標的常見記錄類型。";
+
+/* Checks A for a hostname, PTR for an IP address, or SRV for a service name. */
+"Checks A for a hostname, PTR for an IP address, or SRV for a service name." = "對主機名稱檢查 A、對 IP 位址檢查 PTR，或對服務名稱檢查 SRV。";
+
+/* Every public resolver returned the same DNS answers. */
+"Every public resolver returned the same DNS answers." = "所有公用解析器都傳回相同的 DNS 回覆。";
