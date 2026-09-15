@@ -1,0 +1,3 @@
+/* Netmin — zh-Hant Info.plist localization. */
+
+"NSLocalNetworkUsageDescription" = "Netmin 發現您選擇檢查的本機網路上的裝置和服務。";
