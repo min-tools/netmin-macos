@@ -246,3 +246,162 @@ struct SplitMenuItem {
 
     static let divider = SplitMenuItem()
 }
+
+/// A primary action with a chevron that opens secondary actions, drawn as one control. Both halves
+/// are native keyboard controls, so Tab, Space, Return and menu-arrow navigation work normally.
+struct SplitButton: View {
+    let title: String
+    var shortcut: String?
+    /// Forces a segment's hover fill (0 = action, 1 = menu) so previews can show the states.
+    var highlightedSegment: Int? = nil
+    let action: () -> Void
+    let items: [SplitMenuItem]
+    @State private var hoveringMain = false
+    @State private var hoveringMenu = false
+
+    private var shape: RoundedRectangle { RoundedRectangle(cornerRadius: Theme.radius, style: .continuous) }
+    private var mainLit: Bool { hoveringMain || highlightedSegment == 0 }
+    private var menuLit: Bool { hoveringMenu || highlightedSegment == 1 }
+
+    var body: some View {
+        HStack(spacing: 0) {
+            Button(action: action) {
+                HStack(spacing: 8) {
+                    Text(localized(title))
+                    if let shortcut { KeyCap(shortcut, style: .onAccent) }
+                }
+                .font(.system(size: 13, weight: .semibold))
+                .foregroundStyle(Theme.onAccent)
+                .padding(.horizontal, 14)
+                .frame(height: Theme.controlHeight)
+                .background(Color.white.opacity(mainLit ? 0.08 : 0))
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.bare)
+            .keyboardFocusable()
+            .onHover { hoveringMain = $0 }
+
+            Rectangle().fill(Color.black.opacity(0.28)).frame(width: 1, height: Theme.controlHeight)
+
+            Menu {
+                ForEach(items.indices, id: \.self) { index in
+                    if let title = items[index].title, let action = items[index].action {
+                        Button(localized(title), action: action)
+                    } else {
+                        Divider()
+                    }
+                }
+            } label: {
+                Color.clear
+            }
+            .menuStyle(.borderlessButton)
+            .menuIndicator(.hidden)
+            // Keep a full square dropdown segment. A borderless Menu otherwise compresses its
+            // transparent label and leaves the indicator against the rounded trailing edge.
+            .frame(width: Theme.controlHeight, height: Theme.controlHeight)
+            .background(Color.white.opacity(menuLit ? 0.08 : 0))
+            .contentShape(Rectangle())
+            // The borderless AppKit menu can suppress its label tint until first activation.
+            // Draw the indicator outside that label so it remains visible in every menu state.
+            .overlay {
+                Image(systemName: "chevron.down")
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundStyle(Theme.onAccent)
+                    .allowsHitTesting(false)
+            }
+            .keyboardFocusable()
+            .onHover { hoveringMenu = $0 }
+            .accessibilityLabel(localized("More copy options"))
+        }
+        .background(Theme.accentGradient, in: shape)
+        .overlay(shape.stroke(Theme.accentDeep.opacity(0.9), lineWidth: 1))
+        .overlay(shape.stroke(LinearGradient(colors: [Color.white.opacity(0.32), .clear, .clear], startPoint: .top, endPoint: .bottom), lineWidth: 1).padding(0.5))
+        .clipShape(shape)
+        .shadow(color: Theme.accent.opacity(mainLit || menuLit ? 0.5 : 0.35), radius: mainLit || menuLit ? 14 : 9, y: 3)
+        .animation(.easeOut(duration: 0.15), value: mainLit || menuLit)
+        .fixedSize(horizontal: true, vertical: true)
+    }
+}
+
+// MARK: - Chips, caps, and pills
+
+/// A keyboard-shortcut cap. Standalone caps explain shortcuts in footers; embedded caps sit inside buttons.
+struct KeyCap: View {
+    enum Style { case standalone, embedded, onAccent }
+    let text: String
+    var style: Style = .standalone
+
+    init(_ text: String, style: Style = .standalone) {
+        self.text = text
+        self.style = style
+    }
+
+    var body: some View {
+        Text(localized(text))
+            .font(Theme.mono(11, weight: .medium))
+            .foregroundStyle(style == .onAccent ? Theme.onAccent.opacity(0.92) : Theme.textSecondary)
+            .padding(.horizontal, 5)
+            .padding(.vertical, 2)
+            .background(
+                style == .onAccent ? Color.white.opacity(0.16) : style == .embedded ? Theme.surfaceSunken : Theme.surfaceRaised,
+                in: RoundedRectangle(cornerRadius: 5, style: .continuous)
+            )
+            .overlay(RoundedRectangle(cornerRadius: 5, style: .continuous)
+                .stroke(style == .onAccent ? Color.white.opacity(0.14) : Theme.borderStrong, lineWidth: 1))
+    }
+}
+
+/// A monospaced value chip, optionally with a lighter secondary label, used for ranges and interfaces.
+struct Chip: View {
+    let text: String
+    var secondary: String? = nil
+    var selected = false
+    var mono = true
+    var tone: SummaryTone = .neutral
+    var compact = false
+
+    var body: some View {
+        HStack(spacing: 6) {
+            Text(localized(text))
+                .font(mono ? Theme.mono(compact ? 11 : 12, weight: .medium) : .system(size: compact ? 11 : 12, weight: .medium))
+                .foregroundStyle(tone == .neutral ? Theme.textPrimary : Theme.color(for: tone))
+                .lineLimit(1)
+            if let secondary {
+                Text(localized(secondary))
+                    .font(.system(size: 12))
+                    .foregroundStyle(Theme.textSecondary)
+            }
+        }
+        .padding(.horizontal, compact ? 7 : 9)
+        .padding(.vertical, compact ? 3 : 5)
+        .background(selected ? Theme.accent.opacity(0.14) : tone == .neutral ? Theme.surfaceRaised : Theme.color(for: tone).opacity(0.1),
+                    in: RoundedRectangle(cornerRadius: 7, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 7, style: .continuous)
+            .stroke(selected ? Theme.accent.opacity(0.7) : tone == .neutral ? Theme.borderStrong : Theme.color(for: tone).opacity(0.35), lineWidth: 1))
+    }
+}
+
+/// A status dot with a label: Complete, Partial, Failed, or Running.
+struct StatusPill: View {
+    let tone: SummaryTone
+    let text: String
+    var pulsing = false
+
+    var body: some View {
+        HStack(spacing: 8) {
+            Circle()
+                .fill(Theme.color(for: tone))
+                .frame(width: 7, height: 7)
+                .shadow(color: Theme.color(for: tone).opacity(0.8), radius: pulsing ? 4 : 2)
+                .modifier(PulseModifier(active: pulsing))
+            Text(localized(text))
+                .font(.system(size: 12.5, weight: .medium))
+                .foregroundStyle(Theme.textPrimary)
+                .monospacedDigit()
+        }
+        .padding(.horizontal, 12)
+        .frame(height: Theme.controlHeight)
+        .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.radius, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: Theme.radius, style: .continuous).stroke(Theme.borderStrong, lineWidth: 1))
+    }
+}
