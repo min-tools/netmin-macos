@@ -74,3 +74,34 @@ extension Color {
 
 enum ButtonVariant { case primary, secondary, ghost, danger, link }
 enum ButtonSize { case regular, small }
+
+/// The single button style of the app. Hover lifts the glow and never changes the shape; every
+/// shortcut a button owns is printed on it as a chip.
+struct NetminButtonStyle: ButtonStyle {
+    var variant: ButtonVariant = .secondary
+    var size: ButtonSize = .regular
+    var shortcut: String? = nil
+
+    func makeBody(configuration: Configuration) -> some View {
+        NetminButtonBody(configuration: configuration, variant: variant, size: size, shortcut: shortcut)
+    }
+}
+
+extension ButtonStyle where Self == NetminButtonStyle {
+    static func netmin(_ variant: ButtonVariant = .secondary, size: ButtonSize = .regular, shortcut: String? = nil) -> NetminButtonStyle {
+        NetminButtonStyle(variant: variant, size: size, shortcut: shortcut)
+    }
+}
+
+/// A label-only style for rows, chips, and segments that draw their own states. Unlike the
+/// system's plain style it adds no hover capsule, so custom fills keep their exact shape.
+struct BareButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .opacity(configuration.isPressed ? 0.75 : 1)
+    }
+}
+
+extension ButtonStyle where Self == BareButtonStyle {
+    static var bare: BareButtonStyle { BareButtonStyle() }
+}
