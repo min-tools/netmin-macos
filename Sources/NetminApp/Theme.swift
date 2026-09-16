@@ -466,3 +466,66 @@ struct CardModifier: ViewModifier {
             .overlay(RoundedRectangle(cornerRadius: Theme.cardRadius, style: .continuous).stroke(Theme.border, lineWidth: 1))
     }
 }
+
+extension View {
+    func card(padding: CGFloat = 0, sunken: Bool = false) -> some View {
+        modifier(CardModifier(padding: padding, sunken: sunken))
+    }
+
+    /// Row hover highlight for lists and tables.
+    func hoverHighlight(cornerRadius: CGFloat = 8) -> some View {
+        modifier(HoverHighlight(cornerRadius: cornerRadius))
+    }
+}
+
+private struct HoverHighlight: ViewModifier {
+    let cornerRadius: CGFloat
+    @State private var hovering = false
+
+    func body(content: Content) -> some View {
+        content
+            .background(Theme.textPrimary.opacity(hovering ? 0.055 : 0), in: RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
+            .onHover { hovering = $0 }
+    }
+}
+
+/// The gradient tile that identifies a tool, with a soft glow at larger sizes.
+struct ToolIconTile: View {
+    let symbol: String
+    var size: CGFloat = 56
+
+    var body: some View {
+        Image(systemName: symbol)
+            .font(.system(size: size * 0.44, weight: .semibold))
+            .foregroundStyle(Theme.onAccent)
+            .frame(width: size, height: size)
+            .background(Theme.accentGradient, in: RoundedRectangle(cornerRadius: size * 0.27, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: size * 0.27, style: .continuous)
+                .stroke(LinearGradient(colors: [Color.white.opacity(0.35), .clear], startPoint: .top, endPoint: .bottom), lineWidth: 1))
+            .shadow(color: Theme.accent.opacity(size >= 48 ? 0.45 : 0.25), radius: size * 0.32, y: size * 0.12)
+    }
+}
+
+// MARK: - Controls
+
+/// A capsule switch in the accent colour.
+struct SwitchControl: View {
+    @Binding var isOn: Bool
+
+    var body: some View {
+        Button { isOn.toggle() } label: {
+            ZStack(alignment: isOn ? .trailing : .leading) {
+                Capsule().fill(isOn ? AnyShapeStyle(Theme.accentGradient) : AnyShapeStyle(Theme.borderStrong))
+                Circle()
+                    .fill(.white)
+                    .padding(3)
+                    .shadow(color: .black.opacity(0.3), radius: 2, y: 1)
+            }
+            .frame(width: 44, height: 24)
+            .animation(.spring(response: 0.25, dampingFraction: 0.8), value: isOn)
+        }
+        .buttonStyle(.bare)
+        .keyboardFocusable()
+        .accessibilityValue(localized(isOn ? "On" : "Off"))
+    }
+}
