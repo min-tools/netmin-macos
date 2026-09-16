@@ -405,3 +405,64 @@ struct StatusPill: View {
         .overlay(RoundedRectangle(cornerRadius: Theme.radius, style: .continuous).stroke(Theme.borderStrong, lineWidth: 1))
     }
 }
+
+private struct PulseModifier: ViewModifier {
+    let active: Bool
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var bright = false
+
+    func body(content: Content) -> some View {
+        content
+            .opacity(active && !reduceMotion && !bright ? 0.45 : 1)
+            .onAppear {
+                guard active, !reduceMotion else { return }
+                withAnimation(.easeInOut(duration: 0.9).repeatForever()) { bright = true }
+            }
+    }
+}
+
+/// "just now", "2 minutes ago", refreshed every half minute.
+struct RelativeTimeText: View {
+    let date: Date
+    var prefix = ""
+
+    var body: some View {
+        TimelineView(.periodic(from: .now, by: 30)) { context in
+            Text(prefix + RelativeTimeText.describe(date, relativeTo: context.date))
+        }
+    }
+
+    static func describe(_ date: Date, relativeTo now: Date) -> String {
+        if now.timeIntervalSince(date) < 60 { return localized("just now") }
+        let formatter = RelativeDateTimeFormatter()
+        formatter.unitsStyle = .full
+        return formatter.localizedString(for: date, relativeTo: now)
+    }
+}
+
+/// Uppercase, tracked labels that head a group of controls or a card.
+struct SectionLabel: View {
+    let text: String
+    init(_ text: String) { self.text = text }
+
+    var body: some View {
+        Text(localized(text).uppercased())
+            .font(.system(size: 11, weight: .semibold))
+            .tracking(1.1)
+            .foregroundStyle(Theme.textSecondary)
+    }
+}
+
+// MARK: - Surfaces
+
+struct CardModifier: ViewModifier {
+    var padding: CGFloat
+    var sunken: Bool
+
+    func body(content: Content) -> some View {
+        content
+            .padding(padding)
+            .background(sunken ? Theme.surfaceSunken : Theme.surface, in: RoundedRectangle(cornerRadius: Theme.cardRadius, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: Theme.cardRadius, style: .continuous).stroke(Theme.border, lineWidth: 1))
+    }
+}
