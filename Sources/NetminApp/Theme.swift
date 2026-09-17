@@ -846,3 +846,260 @@ final class StableInputScrollView: NSScrollView {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
+final class StableInputTextView: NSTextView {
+    var placeholderAttributedString: NSAttributedString? {
+        didSet { needsDisplay = true }
+    }
+    var focusOnWindowOpen = false {
+        didSet {
+            guard focusOnWindowOpen != oldValue else { return }
+            configureInitialFocus()
+        }
+    }
+    var handlesSidebarSearchCommand = false {
+        didSet {
+            guard handlesSidebarSearchCommand != oldValue else { return }
+            configureSearchCommand()
+        }
+    }
+    var onFocusChange: ((Bool) -> Void)?
+    var onSubmit: (() -> Void)?
+
+    private var keyWindowObserver: NSObjectProtocol?
+    private var searchCommandObserver: NSObjectProtocol?
+    private var focusScheduled = false
+    private var appliedInitialFocus = false
+
+    // Prevent TextInputUI from creating its remote cursor-accessory window. On a cold launch its
+    // empty host can otherwise appear briefly as a translucent square beside the insertion point.
+    override func preferredTextAccessoryPlacement() -> NSTextCursorAccessoryPlacement { .invisible }
+
+    override func viewDidMoveToWindow() {
+        super.viewDidMoveToWindow()
+        configureInitialFocus()
+        configureSearchCommand()
+    }
+
+    /// The AppKit menu command addresses the key window, so another open Netmin window does not
+    /// unexpectedly receive focus. Selecting the current query makes replacement immediate.
+    private func configureSearchCommand() {
+        removeSearchCommandObserver()
+        guard handlesSidebarSearchCommand, let window else { return }
+        searchCommandObserver = NotificationCenter.default.addObserver(
+            forName: .focusSidebarSearch,
+            object: window,
+            queue: .main
+        ) { [weak self] _ in
+            MainActor.assumeIsolated { self?.focusFromMenuCommand() }
+        }
+    }
+
+    private func focusFromMenuCommand() {
+        guard let window, window.isVisible, window.makeFirstResponder(self) else { return }
+        selectAll(nil)
+    }
+
+    private func configureInitialFocus() {
+        removeKeyWindowObserver()
+        guard focusOnWindowOpen, !appliedInitialFocus, let window else { return }
+        keyWindowObserver = NotificationCenter.default.addObserver(
+            forName: NSWindow.didBecomeKeyNotification,
+            object: window,
+            queue: .main
+        ) { [weak self] _ in
+            MainActor.assumeIsolated { self?.focusWhenWindowIsReady() }
+        }
+        focusWhenWindowIsReady()
+    }
+
+    private func focusWhenWindowIsReady() {
+        guard !focusScheduled,
+              !appliedInitialFocus,
+              let window,
+              window.isVisible,
+              window.isKeyWindow else { return }
+        focusScheduled = true
+        DispatchQueue.main.async { [weak self, weak window] in
+            guard let self else { return }
+            self.focusScheduled = false
+            guard let window,
+                  self.window === window,
+                  window.isVisible,
+                  window.isKeyWindow else { return }
+            if window.makeFirstResponder(self) {
+                self.appliedInitialFocus = true
+                self.removeKeyWindowObserver()
+            }
+        }
+    }
+
+    override func keyDown(with event: NSEvent) {
+        if hasMarkedText() {
+            super.keyDown(with: event)
+            return
+        }
+
+        let modifiers = event.modifierFlags.intersection([.command, .option, .control, .shift])
+        switch event.keyCode {
+        case 36, 76:
+            onSubmit?()
+            return
+        case 48 where modifiers.isEmpty || modifiers == .shift:
+            if modifiers.contains(.shift) {
+                window?.selectPreviousKeyView(nil)
+            } else {
+                window?.selectNextKeyView(nil)
+            }
+            return
+        default:
+            break
+        }
+        super.keyDown(with: event)
+    }
+
+    override func becomeFirstResponder() -> Bool {
+        let accepted = super.becomeFirstResponder()
+        if accepted { reportFocus(true) }
+        return accepted
+    }
+
+    override func resignFirstResponder() -> Bool {
+        let resigned = super.resignFirstResponder()
+        if resigned { reportFocus(false) }
+        return resigned
+    }
+
+    private func reportFocus(_ focused: Bool) {
+        guard let onFocusChange else { return }
+        DispatchQueue.main.async { onFocusChange(focused) }
+    }
+
+    override func didChangeText() {
+        super.didChangeText()
+        needsDisplay = true
+    }
+
+    override func draw(_ dirtyRect: NSRect) {
+        super.draw(dirtyRect)
+        guard string.isEmpty, let placeholderAttributedString else { return }
+        let origin = textContainerOrigin
+        placeholderAttributedString.draw(in: NSRect(
+            x: origin.x,
+            y: origin.y,
+            width: max(0, bounds.width - origin.x),
+            height: bounds.height - origin.y
+        ))
+    }
+
+    private func removeKeyWindowObserver() {
+        guard let keyWindowObserver else { return }
+        NotificationCenter.default.removeObserver(keyWindowObserver)
+        self.keyWindowObserver = nil
+    }
+
+    private func removeSearchCommandObserver() {
+        guard let searchCommandObserver else { return }
+        NotificationCenter.default.removeObserver(searchCommandObserver)
+        self.searchCommandObserver = nil
+    }
+
+    deinit {
+        removeKeyWindowObserver()
+        removeSearchCommandObserver()
+    }
+}
+
+/// The main target field. It detects what was typed and shows the matching icon, and turns red
+/// with a reason when the value cannot be a valid target.
+struct TargetField: View {
+    let placeholder: String
+    @Binding var text: String
+    let kind: TargetKind
+    @Binding var isFocused: Bool
+    var onSubmit: () -> Void
+
+    private var shape: RoundedRectangle { RoundedRectangle(cornerRadius: Theme.radius, style: .continuous) }
+    private var borderColor: Color {
+        kind.isInvalid ? Theme.danger.opacity(0.75) : isFocused ? Theme.accent : Theme.borderStrong
+    }
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: kind.symbolName)
+                .font(.system(size: 14, weight: .semibold))
+                .foregroundStyle(kind.isInvalid ? Theme.danger : isFocused ? Theme.accent : Theme.textTertiary)
+                .frame(width: 18)
+                .offset(y: -1.5)
+                .contentTransition(.symbolEffect(.replace))
+            StableTextInput(
+                placeholder: localized(placeholder),
+                text: $text,
+                font: .monospacedSystemFont(ofSize: 15, weight: .regular),
+                contentHeight: 22,
+                requestedFocus: isFocused,
+                onFocusChange: { isFocused = $0 },
+                onSubmit: onSubmit
+            )
+            .frame(height: 22)
+            if !text.isEmpty {
+                Button { text = "" } label: {
+                    Image(systemName: "xmark.circle.fill").foregroundStyle(Theme.textTertiary)
+                }
+                .buttonStyle(.bare)
+                .keyboardFocusable()
+                .accessibilityLabel(localized("Clear target"))
+            }
+        }
+        .padding(.horizontal, 16)
+        .frame(height: 48)
+        .background(Theme.surfaceSunken, in: shape)
+        .overlay(shape.stroke(borderColor, lineWidth: isFocused || kind.isInvalid ? 1.5 : 1))
+        .shadow(color: isFocused ? (kind.isInvalid ? Theme.danger : Theme.accent).opacity(0.28) : .clear, radius: 8)
+        .animation(.easeOut(duration: 0.15), value: isFocused)
+        .animation(.easeOut(duration: 0.15), value: kind.isInvalid)
+    }
+}
+
+/// A thin animated stripe shown while a command runs.
+struct ProgressStripe: View {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var phase: CGFloat = -1
+
+    var body: some View {
+        GeometryReader { proxy in
+            ZStack(alignment: .leading) {
+                Rectangle().fill(Theme.border)
+                Rectangle()
+                    .fill(LinearGradient(colors: [.clear, Theme.accent, Theme.cyan, .clear], startPoint: .leading, endPoint: .trailing))
+                    .frame(width: proxy.size.width * 0.35)
+                    .offset(x: (reduceMotion ? 0.3 : phase) * proxy.size.width)
+            }
+        }
+        .frame(height: 2)
+        .clipped()
+        .onAppear {
+            guard !reduceMotion else { return }
+            withAnimation(.linear(duration: 1.4).repeatForever(autoreverses: false)) { phase = 1 }
+        }
+    }
+}
+
+// MARK: - Window
+
+/// Extends the semantic window background under the title bar. The system still owns the
+/// appearance, controls, and material rendering, including macOS 27's native window treatment.
+struct WindowChrome: NSViewRepresentable {
+    func makeNSView(context: Context) -> NSView { ChromeView() }
+    func updateNSView(_ nsView: NSView, context: Context) {}
+
+    private final class ChromeView: NSView {
+        override func viewDidMoveToWindow() {
+            super.viewDidMoveToWindow()
+            guard let window else { return }
+            window.titlebarAppearsTransparent = true
+            window.titlebarSeparatorStyle = .automatic
+            window.backgroundColor = .windowBackgroundColor
+        }
+    }
+}
