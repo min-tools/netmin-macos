@@ -647,3 +647,202 @@ struct StatTile: View {
         .card(padding: 18)
     }
 }
+
+/// Search boxes in the sidebar and above tables.
+extension Notification.Name {
+    static let focusSidebarSearch = Notification.Name("tools.min.netmin.focus-sidebar-search")
+}
+
+struct SearchField: View {
+    let placeholder: String
+    @Binding var text: String
+    var trailing: String? = nil
+    var compact = false
+    var focusOnWindowOpen = false
+    var textVerticalOffset: CGFloat = -2
+    @State private var isFocused = false
+
+    var body: some View {
+        HStack(spacing: 9) {
+            Image(systemName: "magnifyingglass")
+                .font(.system(size: 12, weight: .semibold))
+                .foregroundStyle(Theme.textTertiary)
+            StableTextInput(
+                placeholder: localized(placeholder),
+                text: $text,
+                font: .systemFont(ofSize: compact ? 12.5 : 13),
+                contentHeight: compact ? 18 : 20,
+                textVerticalOffset: textVerticalOffset,
+                focusOnWindowOpen: focusOnWindowOpen,
+                handlesSidebarSearchCommand: focusOnWindowOpen,
+                onFocusChange: { isFocused = $0 }
+            )
+            .frame(height: compact ? 18 : 20)
+            if !text.isEmpty {
+                Button { text = "" } label: {
+                    Image(systemName: "xmark.circle.fill").foregroundStyle(Theme.textTertiary)
+                }
+                .buttonStyle(.bare)
+                .keyboardFocusable()
+                .accessibilityLabel(localized("Clear search"))
+            } else if let trailing {
+                KeyCap(trailing)
+            }
+        }
+        .padding(.horizontal, 12)
+        .frame(height: compact ? 32 : 38)
+        .background(Theme.surfaceSunken, in: RoundedRectangle(cornerRadius: Theme.radius, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: Theme.radius, style: .continuous)
+            .stroke(isFocused ? Theme.accent : Theme.border, lineWidth: isFocused ? 1.5 : 1))
+        .shadow(color: isFocused ? Theme.accent.opacity(0.25) : .clear, radius: 8)
+        .animation(.easeOut(duration: 0.15), value: isFocused)
+    }
+}
+
+/// A direct single-line text client used everywhere custom field chrome is drawn. AppKit never
+/// swaps it for the shared field editor, so text and placeholders keep one baseline across focus.
+struct StableTextInput: NSViewRepresentable {
+    let placeholder: String
+    @Binding var text: String
+    let font: NSFont
+    let contentHeight: CGFloat
+    var textVerticalOffset: CGFloat = -2
+    var focusOnWindowOpen = false
+    var handlesSidebarSearchCommand = false
+    var requestedFocus = false
+    var onFocusChange: ((Bool) -> Void)?
+    var onSubmit: (() -> Void)?
+
+    func makeCoordinator() -> Coordinator { Coordinator(text: $text) }
+
+    func makeNSView(context: Context) -> StableInputScrollView {
+        let scrollView = StableInputScrollView(
+            font: font,
+            contentHeight: contentHeight,
+            textVerticalOffset: textVerticalOffset
+        )
+        let textView = scrollView.textView
+        textView.delegate = context.coordinator
+        textView.placeholderAttributedString = placeholderText
+        textView.focusOnWindowOpen = focusOnWindowOpen
+        textView.handlesSidebarSearchCommand = handlesSidebarSearchCommand
+        textView.onFocusChange = onFocusChange
+        textView.onSubmit = onSubmit
+        textView.setAccessibilityRole(.textField)
+        textView.setAccessibilityLabel(placeholder)
+        return scrollView
+    }
+
+    func updateNSView(_ scrollView: StableInputScrollView, context: Context) {
+        context.coordinator.text = $text
+        let textView = scrollView.textView
+        textView.placeholderAttributedString = placeholderText
+        textView.focusOnWindowOpen = focusOnWindowOpen
+        textView.handlesSidebarSearchCommand = handlesSidebarSearchCommand
+        textView.onFocusChange = onFocusChange
+        textView.onSubmit = onSubmit
+        textView.setAccessibilityLabel(placeholder)
+        if textView.string != text {
+            textView.string = text
+            textView.setSelectedRange(NSRange(location: (text as NSString).length, length: 0))
+            textView.needsDisplay = true
+        }
+        let shouldRequestFocus = requestedFocus && !context.coordinator.lastRequestedFocus
+        context.coordinator.lastRequestedFocus = requestedFocus
+        if shouldRequestFocus, textView.window?.firstResponder !== textView {
+            DispatchQueue.main.async { [weak textView] in
+                guard let textView, let window = textView.window else { return }
+                _ = window.makeFirstResponder(textView)
+            }
+        }
+    }
+
+    private var placeholderText: NSAttributedString {
+        NSAttributedString(
+            string: placeholder,
+            attributes: [
+                .font: font,
+                .foregroundColor: NSColor.placeholderTextColor
+            ]
+        )
+    }
+
+    final class Coordinator: NSObject, NSTextViewDelegate {
+        var text: Binding<String>
+        var lastRequestedFocus = false
+
+        init(text: Binding<String>) { self.text = text }
+
+        func textDidChange(_ notification: Notification) {
+            guard let textView = notification.object as? NSTextView else { return }
+            let normalized = textView.string.replacingOccurrences(of: "\n", with: " ")
+            if normalized != textView.string {
+                let selection = textView.selectedRange()
+                textView.string = normalized
+                textView.setSelectedRange(NSRange(
+                    location: min(selection.location, (normalized as NSString).length),
+                    length: 0
+                ))
+            }
+            text.wrappedValue = normalized
+        }
+    }
+}
+
+final class StableInputScrollView: NSScrollView {
+    let textView = StableInputTextView(frame: .zero)
+
+    init(font: NSFont, contentHeight: CGFloat, textVerticalOffset: CGFloat) {
+        super.init(frame: .zero)
+        borderType = .noBorder
+        drawsBackground = false
+        hasHorizontalScroller = false
+        hasVerticalScroller = false
+        automaticallyAdjustsContentInsets = false
+
+        textView.font = font
+        textView.textColor = .labelColor
+        textView.insertionPointColor = .controlAccentColor
+        textView.drawsBackground = false
+        textView.isRichText = false
+        textView.importsGraphics = false
+        textView.allowsUndo = true
+        textView.isVerticallyResizable = false
+        textView.isHorizontallyResizable = true
+        textView.autoresizingMask = [.height]
+        let lineHeight = ceil(font.ascender - font.descender + font.leading)
+        // Most field chrome is optically centered two points above the mathematical midpoint.
+        textView.textContainerInset = NSSize(
+            width: 0,
+            height: floor((contentHeight - lineHeight) / 2) + textVerticalOffset
+        )
+        textView.textContainer?.lineFragmentPadding = 0
+        textView.textContainer?.containerSize = NSSize(
+            width: CGFloat.greatestFiniteMagnitude,
+            height: CGFloat.greatestFiniteMagnitude
+        )
+        textView.textContainer?.widthTracksTextView = false
+        textView.textContainer?.maximumNumberOfLines = 1
+        textView.textContainer?.lineBreakMode = .byClipping
+        textView.isContinuousSpellCheckingEnabled = false
+        textView.isGrammarCheckingEnabled = false
+        textView.isAutomaticSpellingCorrectionEnabled = false
+        textView.isAutomaticTextCompletionEnabled = false
+        textView.isAutomaticQuoteSubstitutionEnabled = false
+        textView.isAutomaticDashSubstitutionEnabled = false
+        textView.isAutomaticDataDetectionEnabled = false
+
+        textView.minSize = NSSize(width: 0, height: contentHeight)
+        textView.maxSize = NSSize(width: CGFloat.greatestFiniteMagnitude, height: contentHeight)
+        textView.frame = NSRect(x: 0, y: 0, width: 1, height: contentHeight)
+        documentView = textView
+    }
+
+    override var intrinsicContentSize: NSSize {
+        NSSize(width: NSView.noIntrinsicMetric, height: textView.minSize.height)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
