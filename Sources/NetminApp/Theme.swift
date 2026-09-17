@@ -529,3 +529,121 @@ struct SwitchControl: View {
         .accessibilityValue(localized(isOn ? "On" : "Off"))
     }
 }
+
+/// A switch inside a card with a title and one line of explanation.
+struct ToggleCard: View {
+    let title: String
+    let subtitle: String
+    @Binding var isOn: Bool
+
+    var body: some View {
+        Button { isOn.toggle() } label: {
+            HStack(spacing: 16) {
+                SwitchControl(isOn: $isOn)
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(localized(title)).font(.system(size: 14, weight: .semibold)).foregroundStyle(Theme.textPrimary)
+                    Text(localized(subtitle)).font(.system(size: 12.5)).foregroundStyle(Theme.textSecondary)
+                }
+                Spacer(minLength: 0)
+            }
+            .padding(.horizontal, 18)
+            .padding(.vertical, 16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.bare)
+        .keyboardFocusable()
+        .card()
+    }
+}
+
+/// A unified segmented control with edge-to-edge selection and one shared border.
+struct SegmentedControl: View {
+    let options: [String]
+    @Binding var selection: Int
+
+    var body: some View {
+        HStack(spacing: 0) {
+            ForEach(Array(options.enumerated()), id: \.offset) { index, option in
+                Button { selection = index } label: {
+                    Text(localized(option))
+                        .font(.system(size: 13, weight: selection == index ? .semibold : .medium))
+                        .foregroundStyle(selection == index ? Theme.textPrimary : Theme.textSecondary)
+                        .padding(.horizontal, 14)
+                        .frame(height: Theme.controlHeight)
+                        .background(selection == index ? Theme.surfaceRaised : Color.clear)
+                        .contentShape(Rectangle())
+                }
+                .buttonStyle(.bare)
+                .keyboardFocusable()
+                .accessibilityAddTraits(selection == index ? .isSelected : [])
+                if index < options.count - 1 {
+                    Rectangle()
+                        .fill(Theme.border)
+                        .frame(width: 1)
+                }
+            }
+        }
+        .frame(height: Theme.controlHeight)
+        .fixedSize(horizontal: true, vertical: true)
+        .background(Theme.surface)
+        .clipShape(RoundedRectangle(cornerRadius: Theme.radius, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: Theme.radius, style: .continuous).stroke(Theme.border, lineWidth: 1))
+        .animation(.easeOut(duration: 0.15), value: selection)
+    }
+}
+
+/// A checkbox in the accent colour for selection lists.
+struct CheckMark: View {
+    let checked: Bool
+
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 6, style: .continuous)
+                .fill(checked ? AnyShapeStyle(Theme.accentGradient) : AnyShapeStyle(Theme.surfaceSunken))
+            RoundedRectangle(cornerRadius: 6, style: .continuous)
+                .stroke(checked ? Theme.accentDeep : Theme.borderStrong, lineWidth: 1)
+            if checked {
+                Image(systemName: "checkmark")
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundStyle(Theme.onAccent)
+            }
+        }
+        .frame(width: 20, height: 20)
+        .animation(.easeOut(duration: 0.12), value: checked)
+    }
+}
+
+/// A big number with its label, used for the headline figures of a result.
+struct StatTile: View {
+    let metric: SummaryMetric
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            SectionLabel(metric.label)
+            HStack(alignment: .firstTextBaseline, spacing: 6) {
+                Text(localized(metric.value))
+                    .font(.system(size: metric.usesCompactValueStyle ? 20 : metric.value.count > 14 ? 15 : metric.value.count > 8 ? 20 : 26,
+                                  weight: .semibold, design: .rounded))
+                    .foregroundStyle(metric.tone == .neutral ? Theme.textPrimary : Theme.color(for: metric.tone))
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.7)
+                    .textSelection(.enabled)
+                if let unit = metric.unit {
+                    Text(localized(unit))
+                        .font(.system(size: 14, weight: .medium))
+                        .foregroundStyle(Theme.textSecondary)
+                }
+            }
+            if let detail = metric.detail {
+                Text(localized(detail))
+                    .font(.system(size: 12.5))
+                    .foregroundStyle(metric.tone == .warning || metric.tone == .negative ? Theme.color(for: metric.tone) : Theme.textSecondary)
+                    .lineLimit(1)
+            }
+        }
+        // Keep every metric card the same height, including cards without a detail line.
+        .frame(maxWidth: .infinity, minHeight: 76, maxHeight: 76, alignment: .topLeading)
+        .card(padding: 18)
+    }
+}
