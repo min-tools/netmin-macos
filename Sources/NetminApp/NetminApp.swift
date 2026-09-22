@@ -145,8 +145,12 @@ final class NetminAppDelegate: NSObject, NSApplicationDelegate {
         let store = NetminProStore.shared
         // Private maintainer builds are already unlocked and do not need public purchase guidance.
         guard !store.isLocalBuild,
-              !NetminEdition.isExpiredTrialPreview,
-              !UserDefaults.standard.bool(forKey: Self.didShowTrialWelcomeKey) else {
+              !NetminEdition.isExpiredTrialPreview else {
+            return
+        }
+        // A completed disclosure may need to restore a missing trial date after migration.
+        if UserDefaults.standard.bool(forKey: Self.didShowTrialWelcomeKey) {
+            store.beginAppTrial()
             return
         }
         let alert = NSAlert()
@@ -161,6 +165,7 @@ final class NetminAppDelegate: NSObject, NSApplicationDelegate {
         alert.addButton(withTitle: localized("Continue"))
         NSApp.activate(ignoringOtherApps: true)
         _ = alert.runModal()
+        store.beginAppTrial()
         UserDefaults.standard.set(true, forKey: Self.didShowTrialWelcomeKey)
     }
 

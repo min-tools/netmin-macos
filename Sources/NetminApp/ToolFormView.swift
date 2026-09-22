@@ -226,7 +226,7 @@ struct ToolFormView: View {
     }
 
     @ViewBuilder private var footerHint: some View {
-        if store.hasPreparedFreeAccess && !store.hasFullAccess {
+        if store.hasResolvedEntitlement && store.hasPreparedFreeAccess && !store.hasFullAccess {
             Text(localizedFormat("Free · %lld of %lld requests left today", Int64(store.freeRequestsRemainingToday), Int64(NetminFreeAccessPolicy.dailyRequestLimit)))
                 .font(.system(size: 13)).foregroundStyle(Theme.textSecondary).monospacedDigit()
         } else if tool.isLocalDeviceSweep {

@@ -7,8 +7,8 @@ struct NetminAccessBanner: View {
     @State private var restoreMessage: String?
 
     var body: some View {
-        // Wait for trial state so the expired banner cannot flash during launch.
-        if store.hasPreparedFreeAccess && !store.hasFullAccess {
+        // Wait for StoreKit and trial state so the expired banner cannot flash during launch.
+        if store.hasResolvedEntitlement && store.hasPreparedFreeAccess && !store.hasFullAccess {
             HStack(spacing: 14) {
                 VStack(alignment: .leading, spacing: 2) {
                     Text(title)

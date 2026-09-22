@@ -16,6 +16,7 @@ final class NetminProStore: ObservableObject {
     @Published private(set) var storeError: String?
     @Published private(set) var isLoading = false
     @Published private(set) var appTrialStartedAt: Date?
+    @Published private(set) var hasResolvedEntitlement = false
     @Published private(set) var freeRequestsUsedToday = 0
 
     private var updates: Task<Void, Never>?
@@ -77,7 +78,10 @@ final class NetminProStore: ObservableObject {
     }
 
     func start() {
-        guard developerOverride == nil else { return }
+        guard developerOverride == nil else {
+            hasResolvedEntitlement = true
+            return
+        }
         prepareFreeAccess()
         guard updates == nil else { return }
         updates = Task { [weak self] in
@@ -202,6 +206,8 @@ final class NetminProStore: ObservableObject {
         }
         // A newer StoreKit refresh supersedes this result.
         guard generation == refreshGeneration else { return }
+        // Do not show post-trial UI until StoreKit's cached entitlement state is known.
+        hasResolvedEntitlement = true
         var next = NetminEntitlementLogic.evaluate(summaries)
         // Preserve known renewal state while refreshing the same entitlement.
         if next.kind == entitlement.kind,
@@ -219,15 +225,20 @@ final class NetminProStore: ObservableObject {
         }
     }
 
-    /// The trial and free allowance stay on this Mac; no usage data is sent to the developer.
-    private func prepareFreeAccess(now: Date = Date()) {
+    /// Starts the local trial after the first-launch disclosure is accepted.
+    func beginAppTrial(now: Date = Date()) {
+        prepareFreeAccess(startTrialIfNeeded: true, now: now)
+    }
+
+    /// Restores local trial and free-allowance state, optionally starting the trial.
+    private func prepareFreeAccess(startTrialIfNeeded: Bool = false, now: Date = Date()) {
         if let forced = NetminEdition.forcedTrialStartedAt {
             // Private previews must not change the real trial date in preferences.
             appTrialStartedAt = forced
         } else if appTrialStartedAt == nil {
             if let stored = defaults.object(forKey: Self.appTrialStartedAtKey) as? Date {
                 appTrialStartedAt = stored
-            } else {
+            } else if startTrialIfNeeded {
                 appTrialStartedAt = now
                 defaults.set(now, forKey: Self.appTrialStartedAtKey)
             }

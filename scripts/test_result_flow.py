@@ -226,8 +226,9 @@ assert 'static let localProAccess: Bool? = nil' in build_edition
 assert '#if !NETMIN_APP_STORE' not in access_banner
 assert 'NetminAccessBanner()' in root_view
 assert root_view.index('NetminAccessBanner()') > root_view.index('HStack(spacing: 0)')
-assert 'if store.hasPreparedFreeAccess && !store.hasFullAccess' in access_banner
-assert 'if store.hasPreparedFreeAccess && !store.hasFullAccess' in form
+assert 'if store.hasResolvedEntitlement && store.hasPreparedFreeAccess && !store.hasFullAccess' in access_banner
+assert 'if store.hasResolvedEntitlement && store.hasPreparedFreeAccess && !store.hasFullAccess' in form
+assert '@Published private(set) var hasResolvedEntitlement = false' in pro_store
 assert 'var hasPreparedFreeAccess: Bool' in pro_store
 assert 'localized("Trial ended")' in access_banner
 assert 'Netmin is now limited to 5 diagnostic requests per day.' in access_banner
@@ -252,6 +253,12 @@ assert 'NetminDidShowTrialWelcome' in app_source
 assert '30 days of full access' in app_source
 assert 'No subscription starts, and you will not be charged.' in app_source
 assert 'presentTrialWelcomeIfNeeded()' in app_source
+assert 'func beginAppTrial(now: Date = Date())' in pro_store
+assert 'startTrialIfNeeded: Bool = false' in pro_store
+acknowledge = app_source.index('_ = alert.runModal()')
+begin_trial = app_source.index('store.beginAppTrial()', acknowledge)
+record_disclosure = app_source.index('UserDefaults.standard.set(true, forKey: Self.didShowTrialWelcomeKey)', begin_trial)
+assert acknowledge < begin_trial < record_disclosure
 assert 'applicationMenu.insertItem(item(localized("Netmin Pro…"), .showPro), at: insertion)' in app_source
 assert 'applicationMenu.insertItem(item(localized("Privacy Policy…"), .showPrivacy), at: insertion + 1)' in app_source
 assert 'else if !store.hasFullAccess' in result

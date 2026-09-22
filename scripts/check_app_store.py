@@ -52,7 +52,7 @@ def blockers(check_online=False):
         issues.append('StoreKit product identifiers are incomplete.')
     if 'tools.min.netmin' not in edition or 'NETMIN_LOCAL_BUILD && NETMIN_APP_STORE' not in edition:
         issues.append('The shared app identity or private-build boundary is incomplete.')
-    if 'struct NetminAccessBanner' not in banner or 'if store.hasPreparedFreeAccess && !store.hasFullAccess' not in banner:
+    if 'struct NetminAccessBanner' not in banner or 'if store.hasResolvedEntitlement && store.hasPreparedFreeAccess && !store.hasFullAccess' not in banner:
         issues.append('The shared access banner is missing from public builds.')
     if info.get('ITSAppUsesNonExemptEncryption') is not False:
         issues.append('Encryption export declaration is missing or unresolved.')
