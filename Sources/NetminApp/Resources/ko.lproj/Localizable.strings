@@ -2688,3 +2688,6 @@
 
 /* Every public resolver returned the same DNS answers. */
 "Every public resolver returned the same DNS answers." = "모든 공개 리졸버가 동일한 DNS 응답을 반환했습니다.";
+
+/* About Netmin */
+"About Netmin" = "About Netmin";

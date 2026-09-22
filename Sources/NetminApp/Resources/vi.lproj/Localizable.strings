@@ -2688,3 +2688,6 @@
 
 /* Every public resolver returned the same DNS answers. */
 "Every public resolver returned the same DNS answers." = "Tất cả bộ phân giải công cộng trả về cùng câu trả lời DNS.";
+
+/* About Netmin */
+"About Netmin" = "About Netmin";

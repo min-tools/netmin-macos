@@ -2688,3 +2688,6 @@
 
 /* Every public resolver returned the same DNS answers. */
 "Every public resolver returned the same DNS answers." = "ตัวแก้ไขสาธารณะทั้งหมดส่งคืนคำตอบ DNS เดียวกัน";
+
+/* About Netmin */
+"About Netmin" = "About Netmin";

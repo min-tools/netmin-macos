@@ -2688,3 +2688,6 @@
 
 /* Every public resolver returned the same DNS answers. */
 "Every public resolver returned the same DNS answers." = "Alle openbare resolvers gaven dezelfde DNS-antwoorden.";
+
+/* About Netmin */
+"About Netmin" = "About Netmin";
