@@ -16,6 +16,17 @@ enum SummaryKind: String, CaseIterable {
     case utility
 }
 
+/// Stable visual categories keep related tools recognizable without tying meaning to color alone.
+enum ToolVisualCategory {
+    case dns
+    case reports
+    case localNetwork
+    case routing
+    case mail
+    case webAndPorts
+    case utilities
+}
+
 struct ToolDefinition: Identifiable, Hashable {
     let id: String
     let group: String
@@ -121,6 +132,21 @@ struct ToolDefinition: Identifiable, Hashable {
             return 120
         }
         return 45
+    }
+
+    /// Choose the icon tint from the catalog section. Network Lookup remains blue because it is the
+    /// app's general lookup entry rather than a generated report.
+    var visualCategory: ToolVisualCategory {
+        if title == "Network Lookup" { return .dns }
+        switch group {
+        case "Reports": return .reports
+        case "Local Network": return .localNetwork
+        case "IP, Routing and Registration": return .routing
+        case "DNS": return .dns
+        case "Mail": return .mail
+        case "TLS, Web and Ports": return .webAndPorts
+        default: return .utilities
+        }
     }
 
     var symbolName: String {

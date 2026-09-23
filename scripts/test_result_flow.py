@@ -129,13 +129,15 @@ assert 'struct NetminButtonStyle: ButtonStyle' in theme
 assert 'KeyCap(shortcut' in theme
 assert 'topHighlight' in theme
 assert theme.count('@Environment(\\.accessibilityReduceMotion)') >= 2
-# Segments share one edge-to-edge container instead of nesting a pill inside a padded shell.
+# Segments use a quiet shared track and inset selected surface in both appearances.
 segmented = theme.split('struct SegmentedControl: View', 1)[1].split('struct CheckMark: View', 1)[0]
 assert 'HStack(spacing: 0)' in segmented
-assert '.padding(2)' not in segmented
-assert 'if index < options.count - 1' in segmented
+assert '.padding(2)' in segmented
+assert 'if index < options.count - 1' not in segmented
 assert '.padding(.vertical, 6)' not in segmented
-assert segmented.count('.frame(height: Theme.controlHeight)') == 2
+assert '.frame(height: Theme.controlHeight - 4)' in segmented
+assert segmented.count('.frame(height: Theme.controlHeight)') == 1
+assert 'Theme.segmentSelected' in segmented and 'Theme.segmentTrack' in segmented
 assert '.fixedSize(horizontal: true, vertical: true)' in segmented
 assert 'minWidth:' not in segmented
 assert 'minHeight: Theme.controlHeight' not in segmented
@@ -159,6 +161,9 @@ assert 'TargetField(' in form
 assert 'model.targetKind' in form
 target_field = theme.split('struct TargetField: View', 1)[1].split('struct ProgressStripe: View', 1)[0]
 assert '.offset(y: -1.5)' in target_field
+assert 'Theme.inputBackground' in target_field
+assert 'Theme.inputBorder' in target_field
+assert 'Theme.inputPlaceholder' in target_field
 assert 'Target (optional)' in form
 assert 'if tool.requiresTarget' in (app / 'AppModel.swift').read_text()
 assert 'SweepFormView(model: model)' in form
@@ -206,7 +211,8 @@ assert 'listAppearanceReady = true' in sidebar
 assert '.listStyle(.sidebar)' in sidebar
 assert '.focusEffectDisabled()' in sidebar
 assert 'table.selectionHighlightStyle = .none' in sidebar
-assert 'selected ? Theme.accent.opacity(0.13)' in sidebar
+assert 'selected ? Theme.sidebarSelection' in sidebar
+assert 'ToolIconTile(symbol: tool.symbolName, size: 28, category: tool.visualCategory)' in sidebar
 assert '.onChange(of: model.sidebarQuery)' in sidebar
 assert 'model.select(firstMatch)' in sidebar
 assert 'restoreToolListFocus' not in sidebar

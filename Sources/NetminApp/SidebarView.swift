@@ -70,7 +70,7 @@ struct SidebarView: View {
             .animation(nil, value: listAppearanceReady)
             .animation(nil, value: model.favoriteToolIDs)
         }
-        .background(.regularMaterial)
+        .background(Theme.sidebarBackground)
         .onChange(of: model.sidebarQuery) {
             let query = model.sidebarQuery.trimmingCharacters(in: .whitespacesAndNewlines)
             guard !query.isEmpty,
@@ -134,27 +134,16 @@ private struct SidebarRow: View {
 
     var body: some View {
         HStack(spacing: 11) {
-            Image(systemName: tool.symbolName)
-                .font(.system(size: 13, weight: .semibold))
-                .foregroundStyle(selected ? Theme.onAccent : Theme.textSecondary)
-                .frame(width: 28, height: 28)
-                .background(
-                    selected ? AnyShapeStyle(Theme.accentGradient) : AnyShapeStyle(Theme.surfaceRaised),
-                    in: RoundedRectangle(cornerRadius: 7, style: .continuous)
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 7, style: .continuous)
-                        .stroke(selected ? Theme.accent.opacity(0.9) : Theme.border, lineWidth: 1)
-                )
+            ToolIconTile(symbol: tool.symbolName, size: 28, category: tool.visualCategory)
             Text(tool.localizedTitle)
                 .font(.system(size: 13.5, weight: selected ? .semibold : .regular))
-                .foregroundStyle(Theme.textPrimary.opacity(selected ? 1 : 0.86))
+                .foregroundStyle(Theme.textPrimary)
                 .lineLimit(1)
             Spacer(minLength: 0)
             Button(action: toggleFavorite) {
                 Image(systemName: isFavorite ? "star.fill" : "star")
                     .font(.system(size: 11.5, weight: .semibold))
-                    .foregroundStyle(isFavorite ? Theme.warning : selected ? Theme.onAccent.opacity(0.72) : Theme.textTertiary)
+                    .foregroundStyle(isFavorite ? Theme.warning : Theme.favoriteInactive)
                     .frame(width: 26, height: 26)
                     .contentShape(Rectangle())
             }
@@ -165,12 +154,10 @@ private struct SidebarRow: View {
         .padding(.horizontal, 10)
         .frame(height: 40)
         .background(
-            selected ? Theme.accent.opacity(0.13)
-                : hovering ? Theme.textPrimary.opacity(0.045) : Color.clear,
+            selected ? Theme.sidebarSelection
+                : hovering ? Theme.sidebarHover : Color.clear,
             in: shape
         )
-        .overlay(shape.stroke(selected ? Theme.accent.opacity(0.9) : Color.clear, lineWidth: 1))
-        .shadow(color: selected ? Theme.accent.opacity(0.12) : .clear, radius: 5)
         .contentShape(shape)
         .onHover { hovering = $0 }
         .animation(.easeOut(duration: 0.12), value: hovering)

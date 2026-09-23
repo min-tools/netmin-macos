@@ -1,11 +1,11 @@
 import AppKit
 import SwiftUI
 
-/// Semantic design tokens shared by every screen. AppKit resolves these colors for the current
-/// macOS appearance, contrast setting, and accent color, so custom views stay native in both
-/// Light and Dark appearances without maintaining a parallel hard-coded palette.
+/// Design tokens shared by every screen. Text and status colors use macOS semantic colors, while
+/// branded surfaces use one adaptive Light/Dark definition so controls retain their hierarchy.
 enum Theme {
-    static let background = Color(nsColor: .windowBackgroundColor)
+    static let background = adaptive(light: 0xFBFBFD, dark: 0x1C1C1E)
+    static let sidebarBackground = adaptive(light: 0xF5F5F7, dark: 0x232325)
     static let surface = Color(nsColor: .controlBackgroundColor)
     static let surfaceRaised = Color(nsColor: .underPageBackgroundColor)
     static let surfaceSunken = Color(nsColor: .textBackgroundColor)
@@ -22,6 +22,23 @@ enum Theme {
     static let warning = Color(nsColor: .systemOrange)
     static let danger = Color(nsColor: .systemRed)
     static let cyan = Color(nsColor: .systemTeal)
+
+    static let sidebarSelection = adaptive(light: 0xE3ECFA, dark: 0x22324A)
+    static let sidebarHover = adaptive(light: 0xEDEDF0, dark: 0x2C2C2E)
+    static let favoriteInactive = adaptive(light: 0xC7C7CC, dark: 0x636366)
+    static let labelText = adaptive(light: 0x86868B, dark: 0xA1A1A6)
+    static let inputBackground = adaptive(light: 0xFFFFFF, dark: 0x2C2C2E)
+    static let inputBorder = adaptive(light: 0xC7C7CC, dark: 0x545458)
+    static let inputPlaceholderNSColor = adaptiveNSColor(light: 0x86868B, dark: 0xA1A1A6)
+    static let inputPlaceholder = Color(nsColor: inputPlaceholderNSColor)
+    static let badgeBackground = adaptive(light: 0xFFFFFF, dark: 0x303033)
+    static let badgeBorder = adaptive(light: 0xD1D1D6, dark: 0x545458)
+    static let badgeText = adaptive(light: 0x3A3A3C, dark: 0xE5E5EA)
+    static let badgeActiveBackground = adaptive(light: 0xEEF4FF, dark: 0x16304F)
+    static let badgeActiveBorder = adaptive(light: 0xB9D2F7, dark: 0x2F5A8F)
+    static let badgeActiveText = adaptive(light: 0x0A5FCC, dark: 0x64A8FF)
+    static let segmentTrack = adaptive(light: 0xE5E5EA, dark: 0x2C2C2E)
+    static let segmentSelected = adaptive(light: 0xFFFFFF, dark: 0x5A5A5E)
 
     static let radius: CGFloat = 10
     static let cardRadius: CGFloat = 12
@@ -50,6 +67,34 @@ enum Theme {
         }
     }
 
+    /// Resolve fixed brand tints through AppKit so windows update immediately when macOS changes
+    /// appearance. High-contrast appearances retain the same pairs and receive stronger strokes
+    /// at the component level.
+    static func adaptive(light: UInt32, dark: UInt32) -> Color {
+        Color(nsColor: adaptiveNSColor(light: light, dark: dark))
+    }
+
+    /// Return the AppKit form of an adaptive color for custom controls that cannot consume a
+    /// SwiftUI `Color`, such as the placeholder drawn by `StableInputTextView`.
+    static func adaptiveNSColor(light: UInt32, dark: UInt32) -> NSColor {
+        NSColor(name: nil) { appearance in
+            let match = appearance.bestMatch(from: [
+                .accessibilityHighContrastDarkAqua,
+                .darkAqua,
+                .accessibilityHighContrastAqua,
+                .aqua,
+            ])
+            let value = match == .darkAqua || match == .accessibilityHighContrastDarkAqua
+                ? dark : light
+            return NSColor(
+                srgbRed: CGFloat((value >> 16) & 0xFF) / 255,
+                green: CGFloat((value >> 8) & 0xFF) / 255,
+                blue: CGFloat(value & 0xFF) / 255,
+                alpha: 1
+            )
+        }
+    }
+
     /// Words in status cells that deserve a colour, such as "open" or "timed out".
     static func tone(forStatus text: String) -> SummaryTone {
         let lower = text.lowercased()
@@ -60,13 +105,29 @@ enum Theme {
     }
 }
 
-extension Color {
-    init(hex: UInt32) {
-        self.init(
-            red: Double((hex >> 16) & 0xFF) / 255,
-            green: Double((hex >> 8) & 0xFF) / 255,
-            blue: Double(hex & 0xFF) / 255
-        )
+extension ToolVisualCategory {
+    var iconBackground: Color {
+        switch self {
+        case .dns: return Theme.adaptive(light: 0xE3EEFB, dark: 0x16304F)
+        case .reports: return Theme.adaptive(light: 0xEFE9FB, dark: 0x2E2447)
+        case .localNetwork: return Theme.adaptive(light: 0xE2F4EA, dark: 0x173A2A)
+        case .routing: return Theme.adaptive(light: 0xFFF0DD, dark: 0x3D2A12)
+        case .mail: return Theme.adaptive(light: 0xFCE8EC, dark: 0x44212B)
+        case .webAndPorts: return Theme.adaptive(light: 0xE1F3F4, dark: 0x15383A)
+        case .utilities: return Theme.adaptive(light: 0xECECF1, dark: 0x343438)
+        }
+    }
+
+    var iconForeground: Color {
+        switch self {
+        case .dns: return Theme.adaptive(light: 0x0A5FCC, dark: 0x64A8FF)
+        case .reports: return Theme.adaptive(light: 0x6A45C2, dark: 0xB79CFF)
+        case .localNetwork: return Theme.adaptive(light: 0x1C8453, dark: 0x4CD68A)
+        case .routing: return Theme.adaptive(light: 0xB8620A, dark: 0xFFB340)
+        case .mail: return Theme.adaptive(light: 0xB43A55, dark: 0xFF8AA1)
+        case .webAndPorts: return Theme.adaptive(light: 0x147A80, dark: 0x5BD6D6)
+        case .utilities: return Theme.adaptive(light: 0x56565C, dark: 0xD1D1D6)
+        }
     }
 }
 
@@ -359,12 +420,17 @@ struct Chip: View {
     var mono = true
     var tone: SummaryTone = .neutral
     var compact = false
+    var interactive = false
+    @Environment(\.colorSchemeContrast) private var contrast
+    @State private var hovering = false
+
+    private var emphasized: Bool { selected || (interactive && hovering) }
 
     var body: some View {
         HStack(spacing: 6) {
             Text(localized(text))
                 .font(mono ? Theme.mono(compact ? 11 : 12, weight: .medium) : .system(size: compact ? 11 : 12, weight: .medium))
-                .foregroundStyle(tone == .neutral ? Theme.textPrimary : Theme.color(for: tone))
+                .foregroundStyle(chipText)
                 .lineLimit(1)
             if let secondary {
                 Text(localized(secondary))
@@ -374,10 +440,27 @@ struct Chip: View {
         }
         .padding(.horizontal, compact ? 7 : 9)
         .padding(.vertical, compact ? 3 : 5)
-        .background(selected ? Theme.accent.opacity(0.14) : tone == .neutral ? Theme.surfaceRaised : Theme.color(for: tone).opacity(0.1),
-                    in: RoundedRectangle(cornerRadius: 7, style: .continuous))
+        .background(chipBackground, in: RoundedRectangle(cornerRadius: 7, style: .continuous))
         .overlay(RoundedRectangle(cornerRadius: 7, style: .continuous)
-            .stroke(selected ? Theme.accent.opacity(0.7) : tone == .neutral ? Theme.borderStrong : Theme.color(for: tone).opacity(0.35), lineWidth: 1))
+            .stroke(chipBorder, lineWidth: contrast == .increased ? 1.5 : 1))
+        .contentShape(RoundedRectangle(cornerRadius: 7, style: .continuous))
+        .onHover { hovering = interactive && $0 }
+        .animation(.easeOut(duration: 0.12), value: emphasized)
+    }
+
+    private var chipText: Color {
+        guard tone == .neutral else { return Theme.color(for: tone) }
+        return emphasized ? Theme.badgeActiveText : Theme.badgeText
+    }
+
+    private var chipBackground: Color {
+        guard tone == .neutral else { return Theme.color(for: tone).opacity(0.1) }
+        return emphasized ? Theme.badgeActiveBackground : Theme.badgeBackground
+    }
+
+    private var chipBorder: Color {
+        guard tone == .neutral else { return Theme.color(for: tone).opacity(0.35) }
+        return emphasized ? Theme.badgeActiveBorder : Theme.badgeBorder
     }
 }
 
@@ -449,7 +532,7 @@ struct SectionLabel: View {
         Text(localized(text).uppercased())
             .font(.system(size: 11, weight: .semibold))
             .tracking(1.1)
-            .foregroundStyle(Theme.textSecondary)
+            .foregroundStyle(Theme.labelText)
     }
 }
 
@@ -489,20 +572,24 @@ private struct HoverHighlight: ViewModifier {
     }
 }
 
-/// The gradient tile that identifies a tool, with a soft glow at larger sizes.
+/// A category-tinted tool tile. The symbol still identifies the tool when color is unavailable.
 struct ToolIconTile: View {
     let symbol: String
     var size: CGFloat = 56
+    var category: ToolVisualCategory = .dns
+    @Environment(\.colorSchemeContrast) private var contrast
 
     var body: some View {
+        let shape = RoundedRectangle(cornerRadius: size * 0.27, style: .continuous)
         Image(systemName: symbol)
             .font(.system(size: size * 0.44, weight: .semibold))
-            .foregroundStyle(Theme.onAccent)
+            .foregroundStyle(category.iconForeground)
             .frame(width: size, height: size)
-            .background(Theme.accentGradient, in: RoundedRectangle(cornerRadius: size * 0.27, style: .continuous))
-            .overlay(RoundedRectangle(cornerRadius: size * 0.27, style: .continuous)
-                .stroke(LinearGradient(colors: [Color.white.opacity(0.35), .clear], startPoint: .top, endPoint: .bottom), lineWidth: 1))
-            .shadow(color: Theme.accent.opacity(size >= 48 ? 0.45 : 0.25), radius: size * 0.32, y: size * 0.12)
+            .background(category.iconBackground, in: shape)
+            .overlay(shape.stroke(
+                category.iconForeground.opacity(contrast == .increased ? 0.42 : 0.12),
+                lineWidth: contrast == .increased ? 1.5 : 1
+            ))
     }
 }
 
@@ -557,10 +644,11 @@ struct ToggleCard: View {
     }
 }
 
-/// A unified segmented control with edge-to-edge selection and one shared border.
+/// A unified segmented control with an inset selected segment on a quiet shared track.
 struct SegmentedControl: View {
     let options: [String]
     @Binding var selection: Int
+    @Environment(\.colorSchemeContrast) private var contrast
 
     var body: some View {
         HStack(spacing: 0) {
@@ -570,25 +658,25 @@ struct SegmentedControl: View {
                         .font(.system(size: 13, weight: selection == index ? .semibold : .medium))
                         .foregroundStyle(selection == index ? Theme.textPrimary : Theme.textSecondary)
                         .padding(.horizontal, 14)
-                        .frame(height: Theme.controlHeight)
-                        .background(selection == index ? Theme.surfaceRaised : Color.clear)
-                        .contentShape(Rectangle())
+                        .frame(height: Theme.controlHeight - 4)
+                        .background(
+                            selection == index ? Theme.segmentSelected : Color.clear,
+                            in: RoundedRectangle(cornerRadius: Theme.radius - 2, style: .continuous)
+                        )
+                        .contentShape(RoundedRectangle(cornerRadius: Theme.radius - 2, style: .continuous))
                 }
                 .buttonStyle(.bare)
                 .keyboardFocusable()
                 .accessibilityAddTraits(selection == index ? .isSelected : [])
-                if index < options.count - 1 {
-                    Rectangle()
-                        .fill(Theme.border)
-                        .frame(width: 1)
-                }
             }
         }
+        .padding(2)
         .frame(height: Theme.controlHeight)
         .fixedSize(horizontal: true, vertical: true)
-        .background(Theme.surface)
+        .background(Theme.segmentTrack)
         .clipShape(RoundedRectangle(cornerRadius: Theme.radius, style: .continuous))
-        .overlay(RoundedRectangle(cornerRadius: Theme.radius, style: .continuous).stroke(Theme.border, lineWidth: 1))
+        .overlay(RoundedRectangle(cornerRadius: Theme.radius, style: .continuous)
+            .stroke(Theme.badgeBorder, lineWidth: contrast == .increased ? 1.5 : 1))
         .animation(.easeOut(duration: 0.15), value: selection)
     }
 }
@@ -762,7 +850,7 @@ struct StableTextInput: NSViewRepresentable {
             string: placeholder,
             attributes: [
                 .font: font,
-                .foregroundColor: NSColor.placeholderTextColor
+                .foregroundColor: Theme.inputPlaceholderNSColor
             ]
         )
     }
@@ -1021,14 +1109,14 @@ struct TargetField: View {
 
     private var shape: RoundedRectangle { RoundedRectangle(cornerRadius: Theme.radius, style: .continuous) }
     private var borderColor: Color {
-        kind.isInvalid ? Theme.danger.opacity(0.75) : isFocused ? Theme.accent : Theme.borderStrong
+        kind.isInvalid ? Theme.danger.opacity(0.75) : isFocused ? Theme.accent : Theme.inputBorder
     }
 
     var body: some View {
         HStack(spacing: 12) {
             Image(systemName: kind.symbolName)
                 .font(.system(size: 14, weight: .semibold))
-                .foregroundStyle(kind.isInvalid ? Theme.danger : isFocused ? Theme.accent : Theme.textTertiary)
+                .foregroundStyle(kind.isInvalid ? Theme.danger : isFocused ? Theme.accent : Theme.inputPlaceholder)
                 .frame(width: 18)
                 .offset(y: -1.5)
                 .contentTransition(.symbolEffect(.replace))
@@ -1053,8 +1141,8 @@ struct TargetField: View {
         }
         .padding(.horizontal, 16)
         .frame(height: 48)
-        .background(Theme.surfaceSunken, in: shape)
-        .overlay(shape.stroke(borderColor, lineWidth: isFocused || kind.isInvalid ? 1.5 : 1))
+        .background(Theme.inputBackground, in: shape)
+        .overlay(shape.stroke(borderColor, lineWidth: isFocused || kind.isInvalid ? 2 : 1.25))
         .shadow(color: isFocused ? (kind.isInvalid ? Theme.danger : Theme.accent).opacity(0.28) : .clear, radius: 8)
         .animation(.easeOut(duration: 0.15), value: isFocused)
         .animation(.easeOut(duration: 0.15), value: kind.isInvalid)

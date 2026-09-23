@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Keep the app adaptive and backed by macOS semantic appearance colors."""
+"""Keep the app adaptive with semantic text and explicit Light/Dark brand surfaces."""
 
 from pathlib import Path
 import sys
@@ -24,12 +24,20 @@ if missing:
     print('FAIL: missing semantic theme tokens: ' + ', '.join(missing))
     sys.exit(1)
 
-if 'Color(hex:' in theme:
-    print('FAIL: Theme.swift still contains a fixed RGB palette')
+adaptive_tokens = (
+    'NSColor(name: nil)', '.accessibilityHighContrastDarkAqua',
+    'static let sidebarBackground = adaptive(', 'static let badgeActiveBackground = adaptive(',
+    'static let segmentSelected = adaptive(', 'static let labelText = adaptive(',
+    'static let inputBackground = adaptive(', 'static let inputBorder = adaptive(',
+    'static let inputPlaceholderNSColor = adaptiveNSColor(',
+)
+missing = [token for token in adaptive_tokens if token not in theme]
+if missing:
+    print('FAIL: missing adaptive palette tokens: ' + ', '.join(missing))
     sys.exit(1)
 
-if '.background(.regularMaterial)' not in sources:
-    print('FAIL: sidebar no longer uses native material')
+if '.background(Theme.sidebarBackground)' not in sources:
+    print('FAIL: sidebar does not use its adaptive background')
     sys.exit(1)
 
 if 'Color(nsColor: .systemOrange).opacity(0.16)' not in banner:

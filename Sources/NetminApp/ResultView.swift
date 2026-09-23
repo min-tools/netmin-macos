@@ -131,7 +131,7 @@ struct ResultView: View {
 
     private func header(summary: ResultSummary, insight: ResultInsight?) -> some View {
         HStack(spacing: 14) {
-            ToolIconTile(symbol: run.tool.symbolName, size: 44)
+            ToolIconTile(symbol: run.tool.symbolName, size: 44, category: run.tool.visualCategory)
             VStack(alignment: .leading, spacing: 3) {
                 Text(run.tool.localizedTitle)
                     .font(.system(size: 17, weight: .semibold))
@@ -263,6 +263,70 @@ struct ResultView: View {
     }
 }
 
+/// A translucent warning or error action that stays within the banner's color family.
+private struct InsightActionButtonStyle: ButtonStyle {
+    let tint: Color
+
+    func makeBody(configuration: Configuration) -> some View {
+        InsightActionButtonBody(configuration: configuration, tint: tint)
+    }
+}
+
+private struct InsightActionButtonBody: View {
+    let configuration: ButtonStyle.Configuration
+    let tint: Color
+    @Environment(\.isEnabled) private var isEnabled
+    @State private var hovering = false
+
+    private var shape: RoundedRectangle {
+        RoundedRectangle(cornerRadius: 8, style: .continuous)
+    }
+
+    var body: some View {
+        configuration.label
+            .font(.system(size: 12, weight: .semibold))
+            .foregroundStyle(tint.opacity(foregroundOpacity))
+            .lineLimit(1)
+            .padding(.horizontal, 11)
+            .frame(height: Theme.smallControlHeight)
+            .background(tint.opacity(fillOpacity), in: shape)
+            .overlay(shape.stroke(tint.opacity(borderOpacity), lineWidth: 1))
+            .overlay(
+                shape.stroke(
+                    LinearGradient(
+                        colors: [Color.white.opacity(0.16), .clear, .clear],
+                        startPoint: .top,
+                        endPoint: .bottom
+                    ),
+                    lineWidth: 1
+                )
+                .padding(0.5)
+            )
+            .shadow(color: tint.opacity(hovering ? 0.16 : 0.06), radius: hovering ? 6 : 2, y: 1)
+            .contentShape(shape)
+            .onHover { hovering = isEnabled && $0 }
+            .animation(.easeOut(duration: 0.14), value: hovering)
+            .animation(.easeOut(duration: 0.08), value: configuration.isPressed)
+    }
+
+    private var foregroundOpacity: Double {
+        guard isEnabled else { return 0.42 }
+        return configuration.isPressed ? 0.78 : 1
+    }
+
+    private var fillOpacity: Double {
+        guard isEnabled else { return 0.05 }
+        if configuration.isPressed { return 0.24 }
+        return hovering ? 0.18 : 0.12
+    }
+
+    private var borderOpacity: Double {
+        guard isEnabled else { return 0.10 }
+        if configuration.isPressed { return 0.55 }
+        return hovering ? 0.45 : 0.30
+    }
+}
+
 private struct InsightBanner: View {
     let insight: ResultInsight
     let run: ToolRun
@@ -289,11 +353,11 @@ private struct InsightBanner: View {
             Spacer(minLength: 12)
             HStack(spacing: 8) {
                 Button("Copy error") { model.copy(insight.detail) }
-                    .buttonStyle(.netmin(.secondary, size: .small))
+                    .buttonStyle(InsightActionButtonStyle(tint: color))
                     .keyboardFocusable()
                 if insight.severity == .warning, run.tool.title == "WHOIS" {
                     Button("Retry registry") { model.retryWHOIS(run: run) }
-                        .buttonStyle(.netmin(.secondary, size: .small))
+                        .buttonStyle(InsightActionButtonStyle(tint: color))
                         .keyboardFocusable()
                     Button("Try RDAP instead →") { model.tryRDAP(for: run) }
                         .buttonStyle(.netmin(.link, size: .small))

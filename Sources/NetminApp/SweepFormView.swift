@@ -90,8 +90,8 @@ struct SweepFormView: View {
                     .keyboardFocusable()
             } else if let recent = model.recentRange {
                 HStack(spacing: 8) {
-                    Text("Recent").font(.system(size: 12.5)).foregroundStyle(Theme.textSecondary)
-                    Button { rangeError = model.addRange(recent) } label: { Chip(text: recent) }
+                    Text("Recent").font(.system(size: 12.5)).foregroundStyle(Theme.labelText)
+                    Button { rangeError = model.addRange(recent) } label: { Chip(text: recent, interactive: true) }
                         .buttonStyle(.bare)
                         .keyboardFocusable()
                         .help(localizedFormat("Add %@ to the scan", recent))

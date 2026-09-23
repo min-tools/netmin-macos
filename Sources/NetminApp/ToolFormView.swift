@@ -56,7 +56,7 @@ struct ToolFormView: View {
 
     private var toolHeader: some View {
         HStack(spacing: 18) {
-            ToolIconTile(symbol: tool.symbolName, size: 60)
+            ToolIconTile(symbol: tool.symbolName, size: 60, category: tool.visualCategory)
             VStack(alignment: .leading, spacing: 5) {
                 Text(tool.localizedTitle)
                     .font(.system(size: 28, weight: .bold))
@@ -88,11 +88,17 @@ struct ToolFormView: View {
             }
             if !model.recentTargets.isEmpty {
                 HStack(spacing: 8) {
-                    Text("Recent").font(.system(size: 12.5)).foregroundStyle(Theme.textSecondary)
+                    Text("Recent").font(.system(size: 12.5)).foregroundStyle(Theme.labelText)
                     ForEach(model.recentTargets.prefix(4), id: \.self) { recent in
-                        Button { model.target = recent } label: { Chip(text: recent) }
-                            .buttonStyle(.bare)
-                            .keyboardFocusable()
+                        Button { model.target = recent } label: {
+                            Chip(
+                                text: recent,
+                                selected: recent.caseInsensitiveCompare(model.target) == .orderedSame,
+                                interactive: true
+                            )
+                        }
+                        .buttonStyle(.bare)
+                        .keyboardFocusable()
                     }
                 }
             }
@@ -249,7 +255,7 @@ private struct RunningView: View {
     var body: some View {
         VStack(spacing: 0) {
             HStack(spacing: 14) {
-                ToolIconTile(symbol: tool.symbolName, size: 44)
+                ToolIconTile(symbol: tool.symbolName, size: 44, category: tool.visualCategory)
                 VStack(alignment: .leading, spacing: 3) {
                     Text(tool.localizedTitle)
                         .font(.system(size: 17, weight: .semibold))
