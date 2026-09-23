@@ -29,6 +29,7 @@ enum Theme {
     static let labelText = adaptive(light: 0x86868B, dark: 0xA1A1A6)
     static let inputBackground = adaptive(light: 0xFFFFFF, dark: 0x2C2C2E)
     static let inputBorder = adaptive(light: 0xC7C7CC, dark: 0x545458)
+    static let checkboxBorder = adaptive(light: 0x86868B, dark: 0x8E8E93)
     static let inputPlaceholderNSColor = adaptiveNSColor(light: 0x86868B, dark: 0xA1A1A6)
     static let inputPlaceholder = Color(nsColor: inputPlaceholderNSColor)
     static let badgeBackground = adaptive(light: 0xFFFFFF, dark: 0x303033)
@@ -684,13 +685,16 @@ struct SegmentedControl: View {
 /// A checkbox in the accent colour for selection lists.
 struct CheckMark: View {
     let checked: Bool
+    @Environment(\.colorSchemeContrast) private var contrast
 
     var body: some View {
         ZStack {
+            // Keep empty boxes distinct from the surrounding surface in both appearances.
             RoundedRectangle(cornerRadius: 6, style: .continuous)
-                .fill(checked ? AnyShapeStyle(Theme.accentGradient) : AnyShapeStyle(Theme.surfaceSunken))
+                .fill(checked ? AnyShapeStyle(Theme.accentGradient) : AnyShapeStyle(Theme.inputBackground))
             RoundedRectangle(cornerRadius: 6, style: .continuous)
-                .stroke(checked ? Theme.accentDeep : Theme.borderStrong, lineWidth: 1)
+                .stroke(checked ? Theme.accentDeep : Theme.checkboxBorder,
+                        lineWidth: checked ? 1 : contrast == .increased ? 2 : 1.5)
             if checked {
                 Image(systemName: "checkmark")
                     .font(.system(size: 11, weight: .bold))
