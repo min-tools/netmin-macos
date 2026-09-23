@@ -32,13 +32,15 @@ def blockers(check_online=False):
     app_store_target = re.search(r'100000000000000000000807.*?name = AppStore;', project, re.S)
     if app_store_target is None:
         issues.append('The Netmin target is missing its AppStore configuration.')
+    elif 'DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";' not in app_store_target.group():
+        issues.append('The AppStore archive must include dSYM crash symbols.')
     if '<ArchiveAction buildConfiguration="AppStore"' not in scheme:
         issues.append('The shared scheme must archive the AppStore configuration.')
     if project.count('PRODUCT_BUNDLE_IDENTIFIER = tools.min.netmin;') < 3:
         issues.append('The Netmin bundle identifier is not consistent across configurations.')
     versions = re.findall(r'MARKETING_VERSION = ([^;]+);', project)
     build_numbers = re.findall(r'CURRENT_PROJECT_VERSION = ([^;]+);', project)
-    if versions != ['2026.09.23'] * 3 or build_numbers != ['2026092300'] * 3:
+    if versions != ['2026.09.23'] * 3 or build_numbers != ['2026092301'] * 3:
         issues.append('The release version is inconsistent across configurations.')
     elif not all(number.startswith(version.replace('.', '')) for version, number in zip(versions, build_numbers)):
         issues.append('The version does not use the YYYY.MM.DD and YYYYMMDDNN release model.')
