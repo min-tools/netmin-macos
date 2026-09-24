@@ -31,6 +31,5 @@ enum NetminEdition {
 enum AppLinks {
     static let website = URL(string: "https://min.tools/netmin/")!
     static let privacyPolicy = URL(string: "https://min.tools/netmin/privacy/")!
-    static let termsOfUse = URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!
     static let support = URL(string: "https://min.tools/netmin/support/")!
 }

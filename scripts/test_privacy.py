@@ -12,8 +12,25 @@ bundled_policy = (ROOT / 'Sources/NetminApp/Resources/PRIVACY.md').read_text()
 project = (ROOT / 'Netmin.xcodeproj/project.pbxproj').read_text()
 readme = (ROOT / 'README.md').read_text()
 license_text = (ROOT / 'LICENSE').read_text()
+privacy_source = (ROOT / 'Sources/NetminApp/PrivacyPolicy.swift').read_text()
+app_source = (ROOT / 'Sources/NetminApp/NetminApp.swift').read_text()
+pro_source = (ROOT / 'Sources/NetminApp/ProStore.swift').read_text()
 
 assert policy == bundled_policy, 'Bundled and repository privacy policies differ'
+assert 'final class PrivacyPolicyController' in privacy_source
+assert 'Bundle.module.url(forResource: "PRIVACY", withExtension: "md")' in privacy_source
+assert 'Bundle.main.url(forResource: "PRIVACY", withExtension: "md")' in privacy_source
+assert 'panel.worksWhenModal = true' in privacy_source
+assert '.fullSizeContentView' in privacy_source and 'NSVisualEffectView()' in privacy_source
+assert 'NSTextView.scrollableTextView()' in privacy_source
+assert 'textView.setFrameSize(NSSize(width: width, height: textView.frame.height))' in privacy_source
+assert 'scroll.contentView.scroll(to: .zero)' in privacy_source
+assert 'PrivacyPolicyController.shared.show()' in app_source
+assert 'NSWorkspace.shared.open(AppLinks.privacyPolicy)' not in app_source
+assert '.controlSize(.large)' in pro_source
+assert 'Link("Terms", destination: AppLinks.termsOfUse)' not in pro_source
+assert 'Button("Privacy")' not in pro_source
+assert 'static let termsOfUse' not in (ROOT / 'Sources/NetminApp/BuildEdition.swift').read_text()
 assert license_text.startswith('# PolyForm Strict License 1.0.0\n')
 assert 'PolyForm Strict License 1.0.0' in license_text
 assert 'Additional Permission for Personal Modification' in license_text

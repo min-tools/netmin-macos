@@ -417,6 +417,9 @@
 /* Close */
 "Close" = "닫습니다";
 
+/* OK */
+"OK" = "OK";
+
 /* Collecting Wi-Fi and nearby access point details… */
 "Collecting Wi-Fi and nearby access point details…" = "와이파이와 인근 액세스 포인트 정보를 수집하는 중...";
 

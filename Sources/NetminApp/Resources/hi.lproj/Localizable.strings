@@ -417,6 +417,9 @@
 /* Close */
 "Close" = "घुटनभरा";
 
+/* OK */
+"OK" = "OK";
+
 /* Collecting Wi-Fi and nearby access point details… */
 "Collecting Wi-Fi and nearby access point details…" = "वाई-फाई और आस-पास के एक्सेस प्वाइंट विवरण एकत्र करना...";
 

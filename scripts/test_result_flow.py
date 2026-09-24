@@ -87,6 +87,12 @@ assert app_source.count('.commands {') == 1
 assert 'CommandGroup(replacing: .appInfo)' in app_source
 assert 'Button(localized("About Netmin"))' in app_source
 assert 'appDelegate.showAbout()' in app_source
+assert 'Button(localized("Netmin Pro…"))' in app_source
+assert 'NetminProStore.shared.present()' in app_source
+assert 'Button(localized("Privacy Policy…"))' in app_source
+assert 'appDelegate.showPrivacyPolicy(nil)' in app_source
+assert 'Button(localized("Clear Recent Data…"))' in app_source
+assert 'appDelegate.clearRecentData()' in app_source
 assert 'CommandMenu(' not in app_source
 assert 'installAboutCommand' not in app_source
 assert 'NSMenu.didBeginTrackingNotification' not in app_source
@@ -255,6 +261,12 @@ assert 'func beginDiagnosticRequest' in pro_store
 assert 'guard beginDiagnosticRequest() else { return }' in model_source
 assert model_source.count('guard beginDiagnosticRequest() else { return }') == 3
 assert 'five diagnostic requests per day' in pro_store
+# The Pro panel keeps the shared compact shape and exact trial timing visible beside plans.
+assert 'private static let panelWidth: CGFloat = 556' in pro_store
+assert '.frame(width: 556)' in pro_store
+assert 'store.isPro || store.isAppTrialActive' in pro_store
+assert 'Text(localized(store.statusText))' in pro_store
+assert 'NetminProPanelHeightKey' in pro_store
 assert 'NetminDidShowTrialWelcome' in app_source
 assert '30 days of full access' in app_source
 assert 'No subscription starts, and you will not be charged.' in app_source
@@ -265,8 +277,6 @@ acknowledge = app_source.index('_ = alert.runModal()')
 begin_trial = app_source.index('store.beginAppTrial()', acknowledge)
 record_disclosure = app_source.index('UserDefaults.standard.set(true, forKey: Self.didShowTrialWelcomeKey)', begin_trial)
 assert acknowledge < begin_trial < record_disclosure
-assert 'applicationMenu.insertItem(item(localized("Netmin Pro…"), .showPro), at: insertion)' in app_source
-assert 'applicationMenu.insertItem(item(localized("Privacy Policy…"), .showPrivacy), at: insertion + 1)' in app_source
 assert 'else if !store.hasFullAccess' in result
 assert 'store.present(feature: .structuredReports)' in result
 assert 'localized("Clear Recent Data…")' in app_source

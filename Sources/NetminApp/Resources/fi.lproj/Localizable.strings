@@ -417,6 +417,9 @@
 /* Close */
 "Close" = "Sulje";
 
+/* OK */
+"OK" = "OK";
+
 /* Collecting Wi-Fi and nearby access point details… */
 "Collecting Wi-Fi and nearby access point details…" = "Wi-Fi- ja lähistöllä olevien tukiasematietojen kerääminen...";
 

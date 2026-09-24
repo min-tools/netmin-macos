@@ -417,6 +417,9 @@
 /* Close */
 "Close" = "閉じる";
 
+/* OK */
+"OK" = "OK";
+
 /* Collecting Wi-Fi and nearby access point details… */
 "Collecting Wi-Fi and nearby access point details…" = "Wi-Fiや近くのアクセスポイントの詳細を集めて...";
 

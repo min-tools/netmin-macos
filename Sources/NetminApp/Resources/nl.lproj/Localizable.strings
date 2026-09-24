@@ -417,6 +417,9 @@
 /* Close */
 "Close" = "Sluit";
 
+/* OK */
+"OK" = "OK";
+
 /* Collecting Wi-Fi and nearby access point details… */
 "Collecting Wi-Fi and nearby access point details…" = "Wi-Fi en nabijgelegen toegangspunten verzamelen...";
 

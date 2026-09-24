@@ -417,6 +417,9 @@
 /* Close */
 "Close" = "Događaji";
 
+/* OK */
+"OK" = "OK";
+
 /* Collecting Wi-Fi and nearby access point details… */
 "Collecting Wi-Fi and nearby access point details…" = "Prikupljanje Vi-Fi i obližnjih pristupnih tačaka detalja...";
 

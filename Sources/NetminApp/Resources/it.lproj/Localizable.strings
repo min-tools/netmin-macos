@@ -417,6 +417,9 @@
 /* Close */
 "Close" = "Chiudi";
 
+/* OK */
+"OK" = "OK";
+
 /* Collecting Wi-Fi and nearby access point details… */
 "Collecting Wi-Fi and nearby access point details…" = "Raccolta Wi-Fi e dettagli sui punti di accesso vicini...";
 

@@ -344,119 +344,195 @@ private struct StoreFailure: LocalizedError {
 
 @MainActor
 private final class NetminProPanelController: NSWindowController, NSWindowDelegate {
+    private static let panelWidth: CGFloat = 556
+
     var onClose: (() -> Void)?
 
     init(store: NetminProStore, feature: NetminProFeature?) {
-        let view = NetminProView(store: store, feature: feature)
         let window = NSWindow(
-            contentRect: NSRect(x: 0, y: 0, width: 590, height: 650),
+            contentRect: NSRect(x: 0, y: 0, width: Self.panelWidth, height: 560),
             styleMask: [.titled, .closable],
             backing: .buffered,
             defer: false
         )
         window.title = localized("Netmin Pro")
         window.isReleasedWhenClosed = false
-        window.center()
-        window.contentViewController = NSHostingController(rootView: view)
         super.init(window: window)
         window.delegate = self
+        window.contentView = NSHostingView(rootView: NetminProView(
+            store: store,
+            feature: feature,
+            resize: { [weak self] height in self?.fitWindow(to: height) }
+        ))
+        window.contentView?.layoutSubtreeIfNeeded()
+        if let height = window.contentView?.fittingSize.height, height > 0 {
+            fitWindow(to: height, animate: false)
+        }
+        window.center()
     }
 
     required init?(coder: NSCoder) { nil }
 
     func windowWillClose(_ notification: Notification) { onClose?() }
+
+    // fitWindow(to, [animate = true]): Match the visible SwiftUI content while
+    // keeping the panel's top edge fixed as its store state changes.
+    private func fitWindow(to height: CGFloat, animate: Bool = true) {
+        guard let window, height > 0 else { return }
+        let size = NSSize(width: Self.panelWidth, height: ceil(height))
+        var frame = window.frameRect(forContentRect: NSRect(origin: .zero, size: size))
+        let current = window.frame
+        guard abs(current.height - frame.height) >= 1 || abs(current.width - frame.width) >= 1 else { return }
+        frame.origin = NSPoint(x: current.minX, y: current.maxY - frame.height)
+        window.setFrame(frame, display: true, animate: animate && window.isVisible)
+    }
+}
+
+private struct NetminProPanelHeightKey: PreferenceKey {
+    static var defaultValue: CGFloat = 0
+
+    static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
+        value = max(value, nextValue())
+    }
 }
 
 private struct NetminProView: View {
     @ObservedObject var store: NetminProStore
     let feature: NetminProFeature?
+    let resize: (CGFloat) -> Void
     @State private var message: String?
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 18) {
-            Label("Netmin Pro", systemImage: "network.badge.shield.half.filled")
-                .font(.largeTitle.bold())
-            Text(feature.map { localizedFormat("Unlock %@, plus the complete Pro feature set.", localized($0.rawValue)) }
-                 ?? localized("Unlimited network diagnostics with readable reports and export tools."))
-                .font(.title3)
-                .foregroundStyle(.secondary)
-            VStack(alignment: .leading, spacing: 11) {
+        VStack(alignment: .leading, spacing: 14) {
+            VStack(alignment: .leading, spacing: 6) {
+                Text("Netmin Pro")
+                    .font(.system(size: 22, weight: .bold))
+                Text(feature.map { localizedFormat("Unlock %@, plus the complete Pro feature set.", localized($0.rawValue)) }
+                     ?? localized("Unlimited network diagnostics with readable reports and export tools."))
+                    .font(.system(size: 13))
+                    .foregroundStyle(.secondary)
+            }
+
+            VStack(alignment: .leading, spacing: 8) {
                 proFeature("Unlimited use of all 84 diagnostic tools", symbol: "infinity")
                 proFeature("Structured reports with tables, metrics, and findings", symbol: "tablecells")
                 proFeature("Save reports and copy structured summaries", symbol: "square.and.arrow.down")
             }
+
             Text("The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day.")
-                .font(.callout)
+                .font(.system(size: 12))
                 .foregroundStyle(.secondary)
 
-            if store.isPro {
-                Label(localized(store.statusText), systemImage: "checkmark.seal.fill")
-                    .font(.headline).foregroundStyle(.green)
-                if store.entitlement.kind == .subscription {
-                    Button("Manage Subscription") { NSWorkspace.shared.open(NetminProStore.manageSubscriptionsURL) }
-                        .keyboardFocusable()
+            VStack(alignment: .leading, spacing: 8) {
+                statusSection
+                if store.isLoading {
+                    HStack(spacing: 8) {
+                        ProgressView().controlSize(.small)
+                        Text("Loading App Store products…")
+                            .font(.system(size: 12))
+                            .foregroundStyle(.secondary)
+                    }
+                } else if !store.isPro {
+                    purchaseButtons
                 }
-            } else if store.isLoading {
-                HStack { ProgressView(); Text("Loading App Store products…") }
-            } else {
-                Label(localized(store.statusText), systemImage: store.isAppTrialActive ? "clock.fill" : "gauge.with.dots.needle.33percent")
-                    .font(.headline)
-                    .foregroundStyle(store.isAppTrialActive ? .green : .secondary)
-                purchaseButtons
+                if let message {
+                    Text(localized(message))
+                        .font(.system(size: 12))
+                        .foregroundStyle(.red)
+                }
             }
-            if let message { Text(localized(message)).foregroundStyle(.red) }
-            Spacer()
+
             HStack {
-                Link("Privacy", destination: AppLinks.privacyPolicy)
-                    .keyboardFocusable()
-                Link("Terms", destination: AppLinks.termsOfUse)
-                    .keyboardFocusable()
-                Spacer()
                 if !store.isPro {
                     Button("Restore Purchases") { restore() }
+                        .buttonStyle(.link)
                         .keyboardFocusable()
                 }
-                Button("Close") { NSApp.keyWindow?.close() }
+                Spacer()
+                Button(store.isPro ? "OK" : "Close") { NSApp.keyWindow?.close() }
                     .keyboardFocusable()
-                    .keyboardShortcut(.defaultAction)
+                    .controlSize(.large)
+                    .keyboardShortcut(store.isPro ? .defaultAction : .cancelAction)
             }
         }
-        .padding(30)
-        .frame(width: 590, height: 650)
+        .padding(.init(top: 22, leading: 28, bottom: 24, trailing: 28))
+        .frame(width: 556)
+        .fixedSize(horizontal: false, vertical: true)
+        .background(
+            GeometryReader { geometry in
+                Color.clear.preference(key: NetminProPanelHeightKey.self, value: geometry.size.height)
+            }
+        )
+        .onPreferenceChange(NetminProPanelHeightKey.self, perform: resize)
         .task { await store.refreshProducts() }
     }
 
+    @ViewBuilder private var statusSection: some View {
+        if store.isPro || store.isAppTrialActive {
+            VStack(alignment: .leading, spacing: 2) {
+                Text("You have Netmin Pro.")
+                    .font(.system(size: 13))
+                Text(localized(store.statusText))
+                    .font(.system(size: 12))
+                    .foregroundStyle(.secondary)
+            }
+            if store.isPro && store.entitlement.kind == .subscription {
+                Button("Manage Subscription") {
+                    NSWorkspace.shared.open(NetminProStore.manageSubscriptionsURL)
+                }
+                    .buttonStyle(.link)
+                    .keyboardFocusable()
+            }
+        } else {
+            Text(localized(store.statusText))
+                .font(.system(size: 12))
+                .foregroundStyle(.secondary)
+        }
+    }
+
     private func proFeature(_ title: String, symbol: String) -> some View {
-        Label(localized(title), systemImage: symbol)
-            .font(.system(size: 14, weight: .medium))
+        HStack(spacing: 8) {
+            Image(systemName: symbol)
+                .font(.system(size: 14, weight: .medium))
+                .foregroundStyle(Color.accentColor)
+                .frame(width: 20)
+            Text(localized(title))
+                .font(.system(size: 13))
+        }
     }
 
     @ViewBuilder private var purchaseButtons: some View {
         if let yearly = store.yearly {
             Button { buy(yearly) } label: {
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("Netmin Pro Yearly").font(.headline)
-                    Text(localizedFormat("%@ per year", yearly.displayPrice)).font(.title3.bold())
-                    Text("Auto-renews yearly · cancel anytime").font(.caption)
-                }.frame(maxWidth: .infinity, alignment: .leading)
+                Text("Netmin Pro Yearly")
+                    .frame(maxWidth: .infinity)
             }
             .buttonStyle(.borderedProminent)
             .keyboardFocusable()
             .controlSize(.large)
+            Text(localizedFormat("%@ per year", yearly.displayPrice))
+                .font(.system(size: 11))
+                .foregroundStyle(.secondary)
         }
         if let lifetime = store.lifetime {
-            Button(localizedFormat("Netmin Pro Lifetime · %@", lifetime.displayPrice)) { buy(lifetime) }
-                .buttonStyle(.bordered)
-                .keyboardFocusable()
-                .controlSize(.large)
+            Button { buy(lifetime) } label: {
+                Text(localizedFormat("Netmin Pro Lifetime · %@", lifetime.displayPrice))
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
+            .keyboardFocusable()
+            .controlSize(.large)
         }
         if store.yearly == nil && store.lifetime == nil {
-            Text(localized(store.storeError ?? "Purchases are unavailable right now.")).foregroundStyle(.secondary)
+            Text(localized(store.storeError ?? "Purchases are unavailable right now."))
+                .font(.system(size: 12))
+                .foregroundStyle(.secondary)
             Button("Try Again") { Task { await store.refreshProducts() } }
                 .keyboardFocusable()
         }
         Text("Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends.")
-            .font(.caption)
-            .foregroundStyle(.secondary)
+            .font(.system(size: 11))
+            .foregroundStyle(.tertiary)
     }
 
     private func buy(_ product: Product) {
