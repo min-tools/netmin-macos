@@ -22,7 +22,7 @@ struct NetminRootView: View {
             NetminAccessBanner()
         }
         .background(Theme.background)
-        .background(WindowChrome())
+        .background(StandardWindowChrome())
         .tint(Theme.accent)
     }
 

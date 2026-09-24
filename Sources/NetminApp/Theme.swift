@@ -1179,9 +1179,9 @@ struct ProgressStripe: View {
 
 // MARK: - Window
 
-/// Extends the semantic window background under the title bar. The system still owns the
-/// appearance, controls, and material rendering, including macOS 27's native window treatment.
-struct WindowChrome: NSViewRepresentable {
+/// Keep the main content below a separate, system-owned title bar. Newer SwiftUI runtimes create
+/// full-size content windows by default, so the AppKit mask must be removed after attachment.
+struct StandardWindowChrome: NSViewRepresentable {
     func makeNSView(context: Context) -> NSView { ChromeView() }
     func updateNSView(_ nsView: NSView, context: Context) {}
 
@@ -1189,8 +1189,19 @@ struct WindowChrome: NSViewRepresentable {
         override func viewDidMoveToWindow() {
             super.viewDidMoveToWindow()
             guard let window else { return }
-            window.titlebarAppearsTransparent = true
-            window.titlebarSeparatorStyle = .automatic
+            applyStandardTitleBar(to: window)
+            // SwiftUI can finish applying scene defaults after the representable enters the window.
+            DispatchQueue.main.async { [weak window] in
+                guard let window else { return }
+                self.applyStandardTitleBar(to: window)
+            }
+        }
+
+        private func applyStandardTitleBar(to window: NSWindow) {
+            window.styleMask.remove(.fullSizeContentView)
+            window.titleVisibility = .visible
+            window.titlebarAppearsTransparent = false
+            window.titlebarSeparatorStyle = .line
             window.backgroundColor = .windowBackgroundColor
         }
     }

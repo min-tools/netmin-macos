@@ -294,6 +294,7 @@ struct NetminApplication: App {
                 .frame(minWidth: 980, minHeight: 660)
         }
         .defaultSize(width: 1280, height: 820)
+        .windowStyle(.titleBar)
         .commands {
             CommandGroup(replacing: .appInfo) {
                 Button(localized("About Netmin")) {

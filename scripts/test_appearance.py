@@ -40,11 +40,23 @@ if '.background(Theme.sidebarBackground)' not in sources:
     print('FAIL: sidebar does not use its adaptive background')
     sys.exit(1)
 
+standard_titlebar = (
+    '.windowStyle(.titleBar)',
+    'window.styleMask.remove(.fullSizeContentView)',
+    'window.titleVisibility = .visible',
+    'window.titlebarAppearsTransparent = false',
+    'window.titlebarSeparatorStyle = .line',
+)
+missing = [token for token in standard_titlebar if token not in sources]
+if missing:
+    print('FAIL: main window no longer uses the standard title bar: ' + ', '.join(missing))
+    sys.exit(1)
+
 if 'Color(nsColor: .systemOrange).opacity(0.16)' not in banner:
     print('FAIL: the restricted-access banner no longer uses the semantic amber tint')
     sys.exit(1)
-if banner.count('.buttonStyle(.bordered)') < 2:
-    print('FAIL: purchase and restore must use the same subdued native style')
+if banner.count('.buttonStyle(.bordered)') < 2 or '.tint(nil)' not in banner:
+    print('FAIL: purchase and restore must use the same neutral native style')
     sys.exit(1)
 
 print('Adaptive light/dark appearance and semantic macOS colors verified.')
