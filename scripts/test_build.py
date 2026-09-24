@@ -41,6 +41,11 @@ class BuildTests(unittest.TestCase):
         Path(command[command.index('-o') + 1]).write_bytes(b'fixture executable')
         return subprocess.CompletedProcess(command, 0)
 
+    def test_xcrun_selects_the_compiler_and_sdk_together(self):
+        command = builder.swift_compiler()
+        self.assertEqual(command[:2], ['xcrun', 'swiftc'])
+        self.assertNotIn('-sdk', command)
+
     def test_source_identity_version_and_public_access(self):
         with patch.object(builder.subprocess, 'run', side_effect=self.compile_fixture):
             builder.build_app(self.root, self.output, sign=False)

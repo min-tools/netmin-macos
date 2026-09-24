@@ -12,16 +12,18 @@ import tempfile
 ROOT = Path(__file__).resolve().parent.parent
 
 
-# Prefer a complete Xcode toolchain because SwiftUI's compiler plugin is not shipped in every
-# Command Line Tools installation. DEVELOPER_DIR remains available for nonstandard installs.
+DEFAULT_DEVELOPER_DIR = Path('/Applications/Xcode.app/Contents/Developer')
+
+
+# Let xcrun select Swift and its SDK as one toolchain so the linker records the real SDK version.
+# Supply Xcode's compiler plugins when available because SwiftUI needs them on some installations.
 def swift_compiler():
-    developer = Path(os.environ.get('DEVELOPER_DIR', '/Applications/Xcode.app/Contents/Developer'))
-    swiftc = developer / 'Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc'
-    sdk = developer / 'Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk'
+    developer = Path(os.environ.get('DEVELOPER_DIR', DEFAULT_DEVELOPER_DIR))
     plugins = developer / 'Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins'
-    if swiftc.is_file() and sdk.exists() and plugins.is_dir():
-        return [str(swiftc), '-sdk', str(sdk), '-plugin-path', str(plugins)]
-    return ['xcrun', 'swiftc']
+    command = ['xcrun', 'swiftc']
+    if plugins.is_dir():
+        command += ['-plugin-path', str(plugins)]
+    return command
 
 
 # Compile a complete app in staging before replacing a prior generated bundle.
@@ -41,6 +43,8 @@ def build_app(root, output, *, configuration='Release', architectures=None,
         raise ValueError('The Netmin source checkout is incomplete.')
     output.parent.mkdir(parents=True, exist_ok=True)
     environment = os.environ.copy()
+    if 'DEVELOPER_DIR' not in environment and DEFAULT_DEVELOPER_DIR.is_dir():
+        environment['DEVELOPER_DIR'] = str(DEFAULT_DEVELOPER_DIR)
 
     with tempfile.TemporaryDirectory(prefix='netmin-build-', dir=output.parent) as folder:
         work = Path(folder)
