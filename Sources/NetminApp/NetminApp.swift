@@ -2,10 +2,7 @@ import AppKit
 import SwiftUI
 
 private enum NetminCommand: Int {
-    case showPro = 2_001
-    case showPrivacy
-    case clearRecentData
-    case overview
+    case overview = 2_001
     case rawOutput
     case findTool
     case run
@@ -175,21 +172,23 @@ final class NetminAppDelegate: NSObject, NSApplicationDelegate {
     }
 
     @objc func showPrivacyPolicy(_ sender: Any?) {
-        NSWorkspace.shared.open(AppLinks.privacyPolicy)
+        PrivacyPolicyController.shared.show()
     }
 
-    // Install the larger custom menus through AppKit to avoid a blank pop-up on cold launch.
-    // The single About command is replaced by the scene because SwiftUI owns that menu item.
+    // clearRecentData(): Confirm and remove saved targets and recent-run summaries.
+    func clearRecentData() {
+        let alert = NSAlert()
+        alert.messageText = localized("Clear recent Netmin data?")
+        alert.informativeText = localized("This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports.")
+        alert.addButton(withTitle: localized("Clear Recent Data"))
+        alert.addButton(withTitle: localized("Cancel"))
+        if alert.runModal() == .alertFirstButtonReturn { model.clearRecentData() }
+    }
+
+    // Install the custom View and Tools menus through AppKit to avoid a blank pop-up on cold
+    // launch. The scene owns the application menu because SwiftUI rebuilds that menu.
     private func installNativeCommands() {
         guard let mainMenu = NSApp.mainMenu else { return }
-
-        if let applicationMenu = mainMenu.items.first?.submenu {
-            let insertion = min(1, applicationMenu.items.count)
-            applicationMenu.insertItem(item(localized("Netmin Pro…"), .showPro), at: insertion)
-            applicationMenu.insertItem(item(localized("Privacy Policy…"), .showPrivacy), at: insertion + 1)
-            applicationMenu.insertItem(item(localized("Clear Recent Data…"), .clearRecentData), at: insertion + 2)
-            applicationMenu.insertItem(.separator(), at: insertion + 3)
-        }
 
         let windowIndex = mainMenu.items.firstIndex { $0.submenu === NSApp.windowsMenu }
             ?? mainMenu.items.firstIndex(where: { $0.title == "Window" || $0.title == localized("Window") })
@@ -235,15 +234,6 @@ final class NetminAppDelegate: NSObject, NSApplicationDelegate {
     @objc private func performCommand(_ sender: NSMenuItem) {
         guard let command = NetminCommand(rawValue: sender.tag) else { return }
         switch command {
-        case .showPro: NetminProStore.shared.present()
-        case .showPrivacy: showPrivacyPolicy(sender)
-        case .clearRecentData:
-            let alert = NSAlert()
-            alert.messageText = localized("Clear recent Netmin data?")
-            alert.informativeText = localized("This removes saved targets and recent-run summaries from this Mac. It does not delete exported reports.")
-            alert.addButton(withTitle: localized("Clear Recent Data"))
-            alert.addButton(withTitle: localized("Cancel"))
-            if alert.runModal() == .alertFirstButtonReturn { model.clearRecentData() }
         case .overview: model.showsRawOutput = false
         case .rawOutput: model.showsRawOutput = true
         case .findTool:
@@ -288,7 +278,7 @@ extension NetminAppDelegate: NSMenuItemValidation {
             return model.runner.result != nil
         case .copySummary:
             return model.runner.result != nil
-        case .showPro, .showPrivacy, .clearRecentData, .findTool:
+        case .findTool:
             return true
         }
     }
@@ -308,6 +298,16 @@ struct NetminApplication: App {
             CommandGroup(replacing: .appInfo) {
                 Button(localized("About Netmin")) {
                     appDelegate.showAbout()
+                }
+                Divider()
+                Button(localized("Netmin Pro…")) {
+                    NetminProStore.shared.present()
+                }
+                Button(localized("Privacy Policy…")) {
+                    appDelegate.showPrivacyPolicy(nil)
+                }
+                Button(localized("Clear Recent Data…")) {
+                    appDelegate.clearRecentData()
                 }
             }
         }

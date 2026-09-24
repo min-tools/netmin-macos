@@ -30,6 +30,7 @@
 		10000000000000000000011C /* ProStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000021E /* ProStore.swift */; };
 		10000000000000000000011D /* AccessBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000021F /* AccessBanner.swift */; };
 		100000000000000000000120 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000220 /* Localization.swift */; };
+		100000000000000000000121 /* PrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000221 /* PrivacyPolicy.swift */; };
 		100000000000000000000111 /* tools.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000211 /* tools.tsv */; };
 		100000000000000000000112 /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000212 /* Scripts */; };
 		100000000000000000000113 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000213 /* PrivacyInfo.xcprivacy */; };
@@ -65,6 +66,7 @@
 		10000000000000000000021E /* ProStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/ProStore.swift; sourceTree = SOURCE_ROOT; };
 		10000000000000000000021F /* AccessBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/AccessBanner.swift; sourceTree = SOURCE_ROOT; };
 		100000000000000000000220 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/Localization.swift; sourceTree = SOURCE_ROOT; };
+		100000000000000000000221 /* PrivacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/PrivacyPolicy.swift; sourceTree = SOURCE_ROOT; };
 		100000000000000000000211 /* tools.tsv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sources/NetminApp/Resources/tools.tsv; sourceTree = SOURCE_ROOT; };
 		100000000000000000000212 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources/NetminApp/Resources/Scripts; sourceTree = SOURCE_ROOT; };
 		100000000000000000000213 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Sources/NetminApp/Resources/PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
@@ -162,6 +164,7 @@
 				10000000000000000000021E,
 				10000000000000000000021F,
 				100000000000000000000220,
+				100000000000000000000221,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -339,7 +342,8 @@
 				10000000000000000000011B,
 				10000000000000000000011C,
 				10000000000000000000011D,
-				100000000000000000000120);
+				100000000000000000000120,
+				100000000000000000000121);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
