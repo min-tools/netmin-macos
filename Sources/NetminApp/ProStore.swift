@@ -16,6 +16,7 @@ final class NetminProStore: ObservableObject {
     @Published private(set) var storeError: String?
     @Published private(set) var isLoading = false
     @Published private(set) var appTrialStartedAt: Date?
+    @Published private(set) var hasResolvedAppTrial = false
     @Published private(set) var hasResolvedEntitlement = false
     @Published private(set) var freeRequestsUsedToday = 0
 
@@ -29,6 +30,7 @@ final class NetminProStore: ObservableObject {
     private let defaults = UserDefaults.standard
 
     private static let appTrialStartedAtKey = "NetminAppTrialStartedAt"
+    private static let appTrialDisclosureAcceptedKey = "NetminAppTrialDisclosureAccepted"
     private static let freeUsageDayKey = "NetminFreeUsageDay"
     private static let freeUsageCountKey = "NetminFreeUsageCount"
 
@@ -42,7 +44,7 @@ final class NetminProStore: ObservableObject {
         return NetminFreeAccessPolicy.isTrialActive(startedAt: appTrialStartedAt)
     }
     var hasFullAccess: Bool { isPro || isAppTrialActive }
-    var hasPreparedFreeAccess: Bool { isLocalBuild || appTrialStartedAt != nil }
+    var hasPreparedFreeAccess: Bool { isLocalBuild || appTrialStartedAt != nil || hasResolvedAppTrial }
     var freeRequestsRemainingToday: Int {
         let used = NetminFreeAccessPolicy.requestsUsedToday(
             storedDay: freeUsageDay,
@@ -82,7 +84,12 @@ final class NetminProStore: ObservableObject {
             hasResolvedEntitlement = true
             return
         }
-        prepareFreeAccess()
+        // Source and private previews restore their local trial immediately.
+        if NetminEdition.isAppStoreBuild {
+            refreshFreeUsage(now: Date())
+        } else {
+            prepareLocalFreeAccess()
+        }
         guard updates == nil else { return }
         updates = Task { [weak self] in
             for await update in StoreKit.Transaction.updates {
@@ -98,7 +105,11 @@ final class NetminProStore: ObservableObject {
         ) { [weak self] _ in
             Task { @MainActor [weak self] in
                 guard let self else { return }
-                self.prepareFreeAccess()
+                if NetminEdition.isAppStoreBuild {
+                    self.refreshFreeUsage(now: Date())
+                } else {
+                    self.prepareLocalFreeAccess()
+                }
                 self.objectWillChange.send()
                 await self.refreshEntitlement()
             }
@@ -131,7 +142,11 @@ final class NetminProStore: ObservableObject {
     /// Counts a diagnostic when it starts. Viewing or copying an existing result is never counted.
     func beginDiagnosticRequest(now: Date = Date()) -> Bool {
         guard developerOverride == nil else { return true }
-        prepareFreeAccess(now: now)
+        if NetminEdition.isAppStoreBuild {
+            refreshFreeUsage(now: now)
+        } else {
+            prepareLocalFreeAccess(now: now)
+        }
         guard !hasFullAccess else { return true }
         refreshFreeUsage(now: now)
         guard let nextCount = NetminFreeAccessPolicy.countAfterStartingRequest(
@@ -197,6 +212,7 @@ final class NetminProStore: ObservableObject {
 
     private func refreshEntitlement() async {
         guard developerOverride == nil else { return }
+        await refreshAppTrial()
         refreshGeneration += 1
         let generation = refreshGeneration
         var summaries: [NetminTransactionSummary] = []
@@ -225,13 +241,59 @@ final class NetminProStore: ObservableObject {
         }
     }
 
-    /// Starts the local trial after the first-launch disclosure is accepted.
+    /// Records acceptance of the disclosed trial and resolves its start date.
     func beginAppTrial(now: Date = Date()) {
-        prepareFreeAccess(startTrialIfNeeded: true, now: now)
+        defaults.set(true, forKey: Self.appTrialDisclosureAcceptedKey)
+        // App Store builds must verify the transaction environment before choosing a clock.
+        if NetminEdition.isAppStoreBuild {
+            Task { @MainActor [weak self] in
+                await self?.refreshAppTrial(now: now)
+            }
+        } else {
+            prepareLocalFreeAccess(startTrialIfNeeded: true, now: now)
+        }
     }
 
-    /// Restores local trial and free-allowance state, optionally starting the trial.
-    private func prepareFreeAccess(startTrialIfNeeded: Bool = false, now: Date = Date()) {
+    /// Uses Apple's signed acquisition date in production and a local clock in verified sandboxes.
+    private func refreshAppTrial(now: Date = Date()) async {
+        guard NetminEdition.isAppStoreBuild else { return }
+        defer {
+            // A failed signed lookup is still a resolved Free state for this build.
+            hasResolvedAppTrial = true
+        }
+        guard let result = try? await AppTransaction.shared,
+              case .verified(let transaction) = result,
+              transaction.bundleID == NetminEdition.bundleIdentifier else {
+            // A production build must never replace a failed signed lookup with local state.
+            return
+        }
+        if transaction.environment == .production {
+            let authoritative = NetminFreeAccessPolicy.authoritativeTrialStartDate(
+                appStoreOriginalPurchaseDate: transaction.originalPurchaseDate,
+                localStartedAt: nil,
+                usesAppStoreDate: true
+            )
+            if let authoritative {
+                applyAppTrialStartDate(authoritative, now: now)
+            }
+        } else {
+            let accepted = defaults.bool(forKey: Self.appTrialDisclosureAcceptedKey)
+            prepareLocalFreeAccess(
+                startTrialIfNeeded: accepted,
+                now: now,
+                allowAppStoreSandbox: true
+            )
+        }
+    }
+
+    /// Restores local trial and Free-allowance state, optionally starting the trial.
+    private func prepareLocalFreeAccess(
+        startTrialIfNeeded: Bool = false,
+        now: Date = Date(),
+        allowAppStoreSandbox: Bool = false
+    ) {
+        // Only a verified sandbox transaction may use local state in an App Store build.
+        guard !NetminEdition.isAppStoreBuild || allowAppStoreSandbox else { return }
         if let forced = NetminEdition.forcedTrialStartedAt {
             // Private previews must not change the real trial date in preferences.
             appTrialStartedAt = forced
@@ -247,7 +309,17 @@ final class NetminProStore: ObservableObject {
         scheduleAppTrialExpiry(now: now)
     }
 
-    // scheduleAppTrialExpiry([now]): Publish the free tier as soon as the local trial expires.
+    /// Publishes the signed production trial clock without persisting a resettable copy.
+    private func applyAppTrialStartDate(_ startedAt: Date, now: Date = Date()) {
+        if appTrialStartedAt != startedAt {
+            appTrialStartedAt = startedAt
+            NotificationCenter.default.post(name: Self.entitlementDidChange, object: self)
+        }
+        refreshFreeUsage(now: now)
+        scheduleAppTrialExpiry(now: now)
+    }
+
+    // scheduleAppTrialExpiry([now]): Publish the Free tier as soon as the trial expires.
     private func scheduleAppTrialExpiry(now: Date = Date()) {
         appTrialTimer?.invalidate()
         appTrialTimer = nil
@@ -414,16 +486,6 @@ private struct NetminProView: View {
             }
 
             VStack(alignment: .leading, spacing: 8) {
-                proFeature("Unlimited use of all 84 diagnostic tools", symbol: "infinity")
-                proFeature("Structured reports with tables, metrics, and findings", symbol: "tablecells")
-                proFeature("Save reports and copy structured summaries", symbol: "square.and.arrow.down")
-            }
-
-            Text("The first 30 days include Pro. After the trial, Free keeps all 84 tools and raw output, with five diagnostic requests per day.")
-                .font(.system(size: 12))
-                .foregroundStyle(.secondary)
-
-            VStack(alignment: .leading, spacing: 8) {
                 statusSection
                 if store.isLoading {
                     HStack(spacing: 8) {
@@ -468,7 +530,7 @@ private struct NetminProView: View {
     }
 
     @ViewBuilder private var statusSection: some View {
-        if store.isPro || store.isAppTrialActive {
+        if store.isPro {
             VStack(alignment: .leading, spacing: 2) {
                 Text("You have Netmin Pro.")
                     .font(.system(size: 13))
@@ -476,7 +538,7 @@ private struct NetminProView: View {
                     .font(.system(size: 12))
                     .foregroundStyle(.secondary)
             }
-            if store.isPro && store.entitlement.kind == .subscription {
+            if store.entitlement.kind == .subscription {
                 Button("Manage Subscription") {
                     NSWorkspace.shared.open(NetminProStore.manageSubscriptionsURL)
                 }
@@ -487,17 +549,6 @@ private struct NetminProView: View {
             Text(localized(store.statusText))
                 .font(.system(size: 12))
                 .foregroundStyle(.secondary)
-        }
-    }
-
-    private func proFeature(_ title: String, symbol: String) -> some View {
-        HStack(spacing: 8) {
-            Image(systemName: symbol)
-                .font(.system(size: 14, weight: .medium))
-                .foregroundStyle(Color.accentColor)
-                .frame(width: 20)
-            Text(localized(title))
-                .font(.system(size: 13))
         }
     }
 

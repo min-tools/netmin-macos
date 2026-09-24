@@ -7,12 +7,21 @@ enum NetminProductID {
     static let all = [yearly, lifetime]
 }
 
-/// The App Store build starts with full access, then becomes a small but useful free tier.
-/// Keeping the date arithmetic here makes the policy testable without StoreKit or UserDefaults.
+/// Public builds start with full access, then become a small but useful free tier.
+/// Keeping trial authority and date arithmetic here makes them testable without StoreKit.
 enum NetminFreeAccessPolicy {
     static let trialLengthDays = 30
     static let dailyRequestLimit = 5
     static let trialDuration: TimeInterval = TimeInterval(trialLengthDays * 24 * 60 * 60)
+
+    /// Selects Apple's signed date without falling back to resettable local state.
+    static func authoritativeTrialStartDate(
+        appStoreOriginalPurchaseDate: Date?,
+        localStartedAt: Date?,
+        usesAppStoreDate: Bool
+    ) -> Date? {
+        usesAppStoreDate ? appStoreOriginalPurchaseDate : localStartedAt
+    }
 
     static func isTrialActive(startedAt: Date, now: Date = Date()) -> Bool {
         now < startedAt.addingTimeInterval(trialDuration)

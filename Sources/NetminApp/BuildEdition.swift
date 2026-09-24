@@ -5,6 +5,14 @@ enum NetminEdition {
     static let bundleIdentifier = "tools.min.netmin"
     static let displayName = "Netmin"
 
+    #if NETMIN_APP_STORE
+    // Production App Store builds use the signed app acquisition date.
+    static let isAppStoreBuild = true
+    #else
+    // Source and private builds retain the disclosed local trial.
+    static let isAppStoreBuild = false
+    #endif
+
     // Only the ignored private input can bypass verified access locally.
     #if NETMIN_LOCAL_BUILD && NETMIN_APP_STORE
     #error("Local access must not be included in an App Store build.")

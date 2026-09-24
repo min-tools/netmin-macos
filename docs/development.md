@@ -24,7 +24,7 @@ Both builders compile in a staging directory and replace an older generated bund
 
 ## App Store build
 
-Use the Xcode AppStore configuration for archives sent to App Review. It defines `NETMIN_APP_STORE`, uses the same on-device trial, Free limit, verified StoreKit access, and amber access banner.
+Use the Xcode AppStore configuration for archives sent to App Review. It defines `NETMIN_APP_STORE`, uses Apple's signed original acquisition date in production, and permits the local trial clock only in verified nonproduction StoreKit environments. The Free limit, verified StoreKit access, and amber access banner remain the same.
 
 For isolated compilation and packaging tests only:
 

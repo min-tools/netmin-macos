@@ -5,7 +5,7 @@ Netmin is one app in one repository. The source build and App Store build compil
 | Concern | Source build | App Store build |
 | --- | --- | --- |
 | Bundle identifier | `tools.min.netmin` | `tools.min.netmin` |
-| Access | 30-day Pro trial, then Free or verified Pro access | The same |
+| Access | Local 30-day Pro trial, then Free or verified Pro access | 30 days from signed acquisition in production; local clock in verified sandboxes |
 | StoreKit verification | Enabled | Enabled |
 | Amber access banner | Hidden during the trial; visible afterward without Pro | The same |
 | Build configuration | Debug or Release | AppStore |
@@ -14,7 +14,7 @@ Netmin is one app in one repository. The source build and App Store build compil
 
 `NETMIN_APP_STORE` marks App Store archives and prevents the private local override from entering them. Debug, Release, Swift Package Manager, and App Store builds share StoreKit verification, Free limits, and the amber access banner.
 
-`NetminProStore` owns verified StoreKit state, the on-device trial start, and the daily free allowance in every public build. The first 30 days have full Pro access. Afterward, a user without Pro can start five diagnostics per local calendar day and view raw output; opening or copying an existing result does not spend another request.
+`NetminProStore` owns verified StoreKit state, the distribution-appropriate trial start, and the daily free allowance in every public build. The first 30 days have full Pro access. Afterward, a user without Pro can start five diagnostics per local calendar day and view raw output; opening or copying an existing result does not spend another request.
 
 ## Execution boundary
 

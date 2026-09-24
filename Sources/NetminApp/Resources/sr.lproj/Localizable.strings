@@ -2645,8 +2645,8 @@
 "30 days of full access" = "30 days of full access";
 "Continue" = "Continue";
 "Trial ended" = "Trial ended";
-"Netmin is now limited to 5 diagnostic requests per day." = "Netmin is now limited to 5 diagnostic requests per day.";
-"Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged." = "Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged.";
+"You can still run 5 diagnostic requests per day." = "You can still run 5 diagnostic requests per day.";
+"Netmin includes a free 30-day full-access period. No subscription starts, and you will not be charged." = "Netmin includes a free 30-day full-access period. No subscription starts, and you will not be charged.";
 "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day." = "After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day.";
 "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports." = "Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.";
 

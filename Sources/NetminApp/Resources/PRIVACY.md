@@ -1,6 +1,6 @@
 # Netmin Privacy Policy
 
-Effective and last updated: September 21, 2026
+Effective and last updated: September 24, 2026
 
 This policy explains what data Netmin handles, where it goes, and how you can control it.
 
@@ -8,7 +8,7 @@ Netmin runs only the diagnostic requests that you choose. It has no advertising,
 
 ## Data on your Mac
 
-Netmin stores app preferences, favorites, recent diagnostic targets, the local Pro trial start date, and the current day's Free request count in its macOS app container. The trial and daily allowance are calculated on this Mac and are not sent to the developer.
+Netmin stores app preferences, favorites, recent diagnostic targets, and the current day's Free request count in its macOS app container. The Mac App Store build reads Apple's signed original acquisition date to determine the 30-day Pro period. Source and test builds store a local trial start date instead. Trial information and the daily allowance are not sent to the developer.
 
 Diagnostic output stays in memory while you view it. Netmin does not save complete output automatically. A report is written to disk only when you choose where to export it. Text you copy is placed on the macOS general pasteboard.
 
@@ -32,7 +32,7 @@ Recent targets remain in the app container until you choose **Netmin → Clear R
 
 Complete diagnostic output is discarded when you replace or close the current result or quit the app. Exported reports remain at the location you selected until you delete them. Text copied from a result remains on the general pasteboard until you or another app replaces or clears it.
 
-The trial start date, daily request count, favorites, and other preferences remain in the app container when you clear recent data. Removing Netmin and its app container deletes app-managed data. Apple controls purchase records associated with your Apple Account.
+The local trial start date, when used, plus the daily request count, favorites, and other preferences remain in the app container when you clear recent data. Removing Netmin and its app container deletes app-managed data. Apple controls purchase records associated with your Apple Account.
 
 External services control retention of the requests they receive. Use their privacy and account controls when available.
 

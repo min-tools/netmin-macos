@@ -34,6 +34,23 @@ struct EntitlementTests {
         check(NetminFreeAccessPolicy.trialDaysRemaining(startedAt: trialStart, now: trialStart) == 30,
               "A new trial reports 30 days remaining")
 
+        let localStart = now.addingTimeInterval(24 * 60 * 60)
+        check(NetminFreeAccessPolicy.authoritativeTrialStartDate(
+            appStoreOriginalPurchaseDate: now,
+            localStartedAt: localStart,
+            usesAppStoreDate: true
+        ) == now, "The signed App Store date overrides local state")
+        check(NetminFreeAccessPolicy.authoritativeTrialStartDate(
+            appStoreOriginalPurchaseDate: nil,
+            localStartedAt: localStart,
+            usesAppStoreDate: true
+        ) == nil, "A missing signed date never falls back to local state")
+        check(NetminFreeAccessPolicy.authoritativeTrialStartDate(
+            appStoreOriginalPurchaseDate: nil,
+            localStartedAt: localStart,
+            usesAppStoreDate: false
+        ) == localStart, "Source builds retain their local trial date")
+
         var calendar = Calendar(identifier: .gregorian)
         calendar.timeZone = TimeZone(secondsFromGMT: 0)!
         check(NetminFreeAccessPolicy.requestsUsedToday(

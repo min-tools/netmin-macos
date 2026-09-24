@@ -112,7 +112,7 @@ Up to eight recent targets remain in the app container until you clear them. Com
 
 **Mac App Store:** The free download starts with 30 days of unrestricted access. No subscription starts, and there is no charge. After the trial, every tool and its raw output remain available, with up to five new diagnostic requests per day. Pro removes the daily limit and restores structured reports, report export, and structured-result copying. Choose a yearly subscription or lifetime purchase at any time.
 
-**Build from source:** This repository contains the public app source. Public source builds use the same trial, daily limit, StoreKit checks, and post-trial banner as the App Store app. See [Build and test](docs/development.md).
+**Build from source:** This repository contains the public app source. Source builds start the same 30-day trial locally after its disclosure; the Mac App Store build uses Apple's signed original acquisition date. Both use the same daily limit, StoreKit checks, and post-trial banner. See [Build and test](docs/development.md).
 
 If Netmin helps you, [contribute](CONTRIBUTING.md) to its development.
 

@@ -30,6 +30,7 @@ struct NetminAccessBanner: View {
                     .disabled(isRestoring)
                     .keyboardFocusable()
             }
+            .tint(nil)
             .foregroundStyle(Theme.textPrimary)
             .padding(.horizontal, 14)
             .frame(minHeight: 58)
@@ -48,7 +49,7 @@ struct NetminAccessBanner: View {
 
     // Name the exact limit that now applies to diagnostics.
     private var detail: String {
-        localized("Netmin is now limited to 5 diagnostic requests per day.")
+        localized("You can still run 5 diagnostic requests per day.")
     }
 
     // restore(): Sync verified purchases once and keep failure feedback inside the banner.

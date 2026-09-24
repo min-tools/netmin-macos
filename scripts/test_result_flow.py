@@ -240,10 +240,12 @@ assert 'NetminAccessBanner()' in root_view
 assert root_view.index('NetminAccessBanner()') > root_view.index('HStack(spacing: 0)')
 assert 'if store.hasResolvedEntitlement && store.hasPreparedFreeAccess && !store.hasFullAccess' in access_banner
 assert 'if store.hasResolvedEntitlement && store.hasPreparedFreeAccess && !store.hasFullAccess' in form
+assert '@Published private(set) var hasResolvedAppTrial = false' in pro_store
 assert '@Published private(set) var hasResolvedEntitlement = false' in pro_store
-assert 'var hasPreparedFreeAccess: Bool' in pro_store
+assert 'isLocalBuild || appTrialStartedAt != nil || hasResolvedAppTrial' in pro_store
+assert 'A failed signed lookup is still a resolved Free state' in pro_store
 assert 'localized("Trial ended")' in access_banner
-assert 'Netmin is now limited to 5 diagnostic requests per day.' in access_banner
+assert 'You can still run 5 diagnostic requests per day.' in access_banner
 assert 'localized("Restore Purchases")' in access_banner
 assert 'Button(localized("Purchase"))' in access_banner
 assert 'Color(nsColor: .systemOrange).opacity(0.16)' in access_banner
@@ -260,11 +262,12 @@ assert 'static let dailyRequestLimit = 5' in (app / 'ProEntitlementLogic.swift')
 assert 'func beginDiagnosticRequest' in pro_store
 assert 'guard beginDiagnosticRequest() else { return }' in model_source
 assert model_source.count('guard beginDiagnosticRequest() else { return }') == 3
-assert 'five diagnostic requests per day' in pro_store
-# The Pro panel keeps the shared compact shape and exact trial timing visible beside plans.
+# The Pro panel shows one concise state: owned Pro, active trial, or the five-request Free limit.
 assert 'private static let panelWidth: CGFloat = 556' in pro_store
 assert '.frame(width: 556)' in pro_store
-assert 'store.isPro || store.isAppTrialActive' in pro_store
+assert 'The first 30 days include Pro.' not in pro_store
+assert 'private func proFeature' not in pro_store
+assert 'if store.isPro {' in pro_store
 assert 'Text(localized(store.statusText))' in pro_store
 assert 'NetminProPanelHeightKey' in pro_store
 assert 'NetminDidShowTrialWelcome' in app_source

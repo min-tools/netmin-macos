@@ -137,7 +137,7 @@ final class NetminAppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { true }
 
-    // presentTrialWelcomeIfNeeded(): Explain the automatic local trial once on first launch.
+    // presentTrialWelcomeIfNeeded(): Explain the app trial once on first launch.
     private func presentTrialWelcomeIfNeeded() {
         let store = NetminProStore.shared
         // Private maintainer builds are already unlocked and do not need public purchase guidance.
@@ -145,7 +145,7 @@ final class NetminAppDelegate: NSObject, NSApplicationDelegate {
               !NetminEdition.isExpiredTrialPreview else {
             return
         }
-        // A completed disclosure may need to restore a missing trial date after migration.
+        // A completed disclosure may need to resolve the trial after migration.
         if UserDefaults.standard.bool(forKey: Self.didShowTrialWelcomeKey) {
             store.beginAppTrial()
             return
@@ -154,7 +154,7 @@ final class NetminAppDelegate: NSObject, NSApplicationDelegate {
         alert.alertStyle = .informational
         alert.messageText = localized("30 days of full access")
         let trialDetails = [
-            localized("Netmin is fully unlocked for your first 30 days. No subscription starts, and you will not be charged."),
+            localized("Netmin includes a free 30-day full-access period. No subscription starts, and you will not be charged."),
             localized("After the trial, all 84 tools and raw output remain available with 5 diagnostic requests per day."),
             localized("Choose a yearly plan or lifetime access at any time to keep unlimited requests and Pro reports.")
         ]
