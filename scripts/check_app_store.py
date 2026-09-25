@@ -40,7 +40,7 @@ def blockers(check_online=False):
         issues.append('The Netmin bundle identifier is not consistent across configurations.')
     versions = re.findall(r'MARKETING_VERSION = ([^;]+);', project)
     build_numbers = re.findall(r'CURRENT_PROJECT_VERSION = ([^;]+);', project)
-    if versions != ['2026.09.23'] * 3 or build_numbers != ['2026092301'] * 3:
+    if versions != ['2026.09.25'] * 3 or build_numbers != ['2026092500'] * 3:
         issues.append('The release version is inconsistent across configurations.')
     elif not all(number.startswith(version.replace('.', '')) for version, number in zip(versions, build_numbers)):
         issues.append('The version does not use the YYYY.MM.DD and YYYYMMDDNN release model.')
