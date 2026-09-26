@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Report local release failures and optionally verify public submission URLs."""
+from datetime import date
 from pathlib import Path
 import plistlib
 import re
@@ -9,6 +10,21 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def valid_release_version(version, build_number):
+    """Validate public month/patch versions and independent dated build numbers."""
+    # Keep public versions compact, without leading zeros or a day component.
+    if not isinstance(version, str) or re.fullmatch(r'[0-9]{2}\.(?:[1-9]|1[0-2])(?:\.[1-9][0-9]*)?', version) is None:
+        return False
+    if not isinstance(build_number, str) or re.fullmatch(r'[0-9]{10}', build_number) is None:
+        return False
+    # A patch can be built in a later month, but its build date must be real.
+    try:
+        date(int(build_number[:4]), int(build_number[4:6]), int(build_number[6:8]))
+    except ValueError:
+        return False
+    return True
 
 
 def blockers(check_online=False):
@@ -40,10 +56,10 @@ def blockers(check_online=False):
         issues.append('The Netmin bundle identifier is not consistent across configurations.')
     versions = re.findall(r'MARKETING_VERSION = ([^;]+);', project)
     build_numbers = re.findall(r'CURRENT_PROJECT_VERSION = ([^;]+);', project)
-    if versions != ['2026.09.25'] * 3 or build_numbers != ['2026092500'] * 3:
+    if len(versions) != 3 or len(build_numbers) != 3 or len(set(versions)) != 1 or len(set(build_numbers)) != 1:
         issues.append('The release version is inconsistent across configurations.')
-    elif not all(number.startswith(version.replace('.', '')) for version, number in zip(versions, build_numbers)):
-        issues.append('The version does not use the YYYY.MM.DD and YYYYMMDDNN release model.')
+    elif not valid_release_version(versions[0].strip('"'), build_numbers[0].strip('"')):
+        issues.append('Use a YY.M or YY.M.N public version and a valid YYYYMMDDNN build number.')
     if project.count('NETMIN_DISPLAY_NAME = Netmin;') != 3:
         issues.append('The Netmin display name is unresolved in one or more target configurations.')
     if 'EXECUTABLE_NAME = NetminApp;' not in project or info.get('CFBundleExecutable') != 'NetminApp':
