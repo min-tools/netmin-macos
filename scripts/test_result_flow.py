@@ -267,7 +267,9 @@ assert 'private static let panelWidth: CGFloat = 556' in pro_store
 assert '.frame(width: 556)' in pro_store
 assert 'The first 30 days include Pro.' not in pro_store
 assert 'private func proFeature' not in pro_store
-assert 'if store.isPro {' in pro_store
+assert 'if store.isPro || store.isAppTrialActive {' in pro_store
+assert 'localized("Your Pro trial is active.")' in pro_store
+assert 'localized("You have Netmin Pro.")' in pro_store
 assert 'Text(localized(store.statusText))' in pro_store
 assert 'NetminProPanelHeightKey' in pro_store
 assert 'NetminDidShowTrialWelcome' in app_source
