@@ -530,15 +530,18 @@ private struct NetminProView: View {
     }
 
     @ViewBuilder private var statusSection: some View {
-        if store.isPro {
+        // Distinguish the free trial from a verified Pro purchase.
+        if store.isPro || store.isAppTrialActive {
             VStack(alignment: .leading, spacing: 2) {
-                Text("You have Netmin Pro.")
+                Text(store.isAppTrialActive
+                     ? localized("Your Pro trial is active.")
+                     : localized("You have Netmin Pro."))
                     .font(.system(size: 13))
                 Text(localized(store.statusText))
                     .font(.system(size: 12))
                     .foregroundStyle(.secondary)
             }
-            if store.entitlement.kind == .subscription {
+            if store.isPro && store.entitlement.kind == .subscription {
                 Button("Manage Subscription") {
                     NSWorkspace.shared.open(NetminProStore.manageSubscriptionsURL)
                 }
