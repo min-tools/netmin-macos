@@ -123,6 +123,181 @@ func sampleRun(_ title: String, _ output: String) -> ToolRun {
                    exitCode: 0, startedAt: Date(), duration: 0.5)
 }
 
+// macOS WHOIS includes the TLD referral, registry, and registrar in one output.
+let referredWHOIS = """
+% IANA WHOIS server
+refer: whois.nic.io
+domain: IO
+organisation: Internet Computer Bureau Limited
+created: 1997-09-16
+nserver: A0.NIC.IO 192.0.2.1
+status: ACTIVE
+source: IANA
+
+# whois.nic.io
+
+Domain Name: example.io
+Registrar: Example Registrar Inc
+Creation Date: 2018-07-28T14:20:22Z
+Updated Date: 2026-08-30T14:23:58Z
+Registry Expiry Date: 2027-07-28T14:20:22Z
+Name Server: ns1.example.net
+Name Server: ns2.example.net
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registrant Organization: Example Privacy Service
+
+# whois.registrar.example
+
+Domain Name: EXAMPLE.IO
+Registrar: EXAMPLE REGISTRAR LLC
+Creation Date: 2018-07-28T14:20:22.0Z
+Updated Date: 2026-08-30T14:23:58.0Z
+Registrar Registration Expiration Date: 2027-07-28T14:20:22.0Z
+Name Server: NS1.EXAMPLE.NET.
+Name Server: ns2.example.net
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registrant Organization: Example Privacy Service
+"""
+let referralRun = ToolRun(tool: whois, target: "example.io", command: whois.command,
+                         output: referredWHOIS, exitCode: 0, startedAt: Date(), duration: 0.5)
+let referralSummary = ResultInterpreter.summary(for: referralRun)
+let referralRows = referralSummary.sections.flatMap(\.rows)
+check(referralSummary.sections.map(\.detail) == ["whois.nic.io", "whois.registrar.example"],
+      "WHOIS domain records keep their registry and registrar sources")
+check(!referralRows.contains { ["Domain", "Created", "Organisation", "Nserver", "Status", "Refer", "Whois"].contains($0.label) },
+      "TLD referral fields must not be mixed into the domain record")
+check(referralRows.filter { $0.label == "Domain Name" }.map(\.value) == ["example.io"],
+      "The same domain is not repeated with different casing")
+check(referralRows.filter { $0.label == "Creation Date" }.map(\.value) == ["2018-07-28T14:20:22Z"] &&
+      referralRows.filter { $0.label == "Updated Date" }.map(\.value) == ["2026-08-30T14:23:58Z"],
+      "Equivalent WHOIS timestamps with fractional seconds appear only once")
+check(referralRows.filter { $0.label == "Name Server" }.map(\.value) == ["ns1.example.net\nns2.example.net"],
+      "Domain nameservers are deduplicated without including TLD nameservers")
+check(referralRows.contains { $0.label == "Domain Status" && $0.value.hasPrefix("clientTransferProhibited") } &&
+      referralRows.contains { $0.label == "Registrant Organization" && $0.value == "Example Privacy Service" },
+      "The domain's status and organisation remain visible")
+check(referralSummary.metrics.contains { $0.label == "Expires" && $0.value == "2027-07-28T14:20:22Z" } &&
+      referralSummary.metrics.contains { $0.label == "Registrar" && $0.value == "Example Registrar Inc" },
+      "WHOIS cards use the domain registry's expiry and registrar")
+check(referralSummary.sections.last?.rows.count == 1 &&
+      referralSummary.sections.last?.rows.first?.value == "EXAMPLE REGISTRAR LLC",
+      "Only differing registrar fields need a second section")
+let referralExport = ResultInterpreter.plainText(for: referralSummary)
+check(referralExport.contains("whois.nic.io") && referralExport.contains("whois.registrar.example") &&
+      !referralExport.contains("1997-09-16"), "WHOIS exports preserve sources without TLD dates")
+check(referralRun.output == referredWHOIS, "WHOIS summaries preserve the complete raw output")
+check(ResultInterpreter.insight(for: referralRun) == nil, "A complete referral chain is not incomplete")
+check(ResultInterpreter.summary(for: run).sections.first?.title == "IANA WHOIS server",
+      "An IANA-only result clearly identifies its source")
+
+let conflictingWHOIS = referredWHOIS
+    .replacingOccurrences(of: "2027-07-28T14:20:22.0Z", with: "2028-07-28T14:20:22.0Z")
+    .replacingOccurrences(of: "2026-08-30T14:23:58.0Z", with: "2026-08-30T14:23:58.5Z")
+let conflictingSummary = ResultInterpreter.summary(for: sampleRun("WHOIS", conflictingWHOIS))
+check(conflictingSummary.sections.last?.detail == "whois.registrar.example" &&
+      conflictingSummary.sections.last?.rows.contains { $0.value == "2028-07-28T14:20:22.0Z" } == true &&
+      conflictingSummary.sections.last?.rows.contains { $0.value == "2026-08-30T14:23:58.5Z" } == true,
+      "Genuinely different dates, including fractional seconds, retain their source")
+let directWHOIS = ResultInterpreter.summary(for: sampleRun("WHOIS", """
+Domain Name: EXAMPLE.ORG
+Creation Date: 2018-07-28T14:20:22Z
+Registrar Registration Expiration Date: 2027-07-28T14:20:22.0Z
+"""))
+check(directWHOIS.sections.count == 1 && directWHOIS.sections[0].rows.count == 3 &&
+      directWHOIS.metrics.contains { $0.label == "Expires" && $0.value == "2027-07-28T14:20:22.0Z" } &&
+      !directWHOIS.metrics.contains { $0.label == "Registrar" },
+      "Headerless registrar output works without mistaking an expiration field for a registrar")
+let networkWHOIS = ResultInterpreter.summary(for: sampleRun("WHOIS", """
+% IANA WHOIS server
+refer: whois.arin.net
+organisation: IANA
+source: IANA
+# whois.arin.net
+NetName: EXAMPLE-NET
+OrgName: Example Network
+Country: US
+"""))
+check(networkWHOIS.sections.first?.detail == "whois.arin.net" &&
+      networkWHOIS.sections.flatMap(\.rows).map(\.value) == ["Example Network", "EXAMPLE-NET", "US"],
+      "IP WHOIS retains network registration fields without IANA referral fields")
+let noMatchWHOIS = ResultInterpreter.summary(for: sampleRun("WHOIS", """
+% IANA WHOIS server
+refer: whois.nic.io
+domain: IO
+created: 1997-09-16
+# whois.nic.io
+No match for example.io
+"""))
+check(noMatchWHOIS.sections.flatMap(\.rows).isEmpty &&
+      noMatchWHOIS.sections.first?.detail == "whois.nic.io" &&
+      noMatchWHOIS.sections.first?.body?.contains("No match") == true,
+      "An unstructured referral response is shown instead of a misleading TLD record")
+
+// Keep ccTLD formats, IANA-owned names, and non-ISO date strings intact.
+let germanWHOIS = ResultInterpreter.summary(for: sampleRun("WHOIS", """
+% IANA WHOIS server
+domain: DE
+created: 1986-11-05
+source: IANA
+# whois.denic.de
+Domain: example.de
+Nserver: ns1.example.de
+Nserver: ns2.example.de
+Status: connect
+"""))
+check(germanWHOIS.sections.count == 1 && germanWHOIS.sections.first?.detail == "whois.denic.de" &&
+      germanWHOIS.sections.flatMap(\.rows).contains { $0.label == "Domain" && $0.value == "example.de" },
+      "A ccTLD using Domain instead of Domain Name keeps its registry record")
+let japaneseRecord = """
+Domain Information: [ドメイン情報]
+[Domain Name]                   EXAMPLE.JP
+[Created on]                    2001/02/19
+[Expires on]                    2027/02/28
+"""
+let japaneseWHOIS = ResultInterpreter.summary(for: sampleRun("WHOIS", """
+% IANA WHOIS server
+domain: JP
+created: 1986-08-05
+source: IANA
+# whois.jprs.jp
+\(japaneseRecord)
+"""))
+check(japaneseWHOIS.sections.first?.detail == "whois.jprs.jp" &&
+      japaneseWHOIS.sections.first?.body == japaneseRecord,
+      "Bracketed Japanese WHOIS fields remain visible as text instead of TLD fields")
+let britishRecord = """
+    Domain name:
+        example.co.uk
+    Relevant dates:
+        Registered on: 01-Jan-2000
+        Expiry date: 01-Jan-2030
+"""
+let britishWHOIS = ResultInterpreter.summary(for: sampleRun("WHOIS", "# whois.nic.uk\n" + britishRecord))
+let britishBody = britishWHOIS.sections.first?.body ?? ""
+check(britishBody.contains("example.co.uk") && britishBody.contains("01-Jan-2030"),
+      "Multiline British WHOIS fields remain visible in an unstructured response")
+let ianaOwnedWHOIS = ResultInterpreter.summary(for: sampleRun("WHOIS", """
+% IANA WHOIS server
+domain: EXAMPLE.NET
+created: 1992-01-01
+source: IANA
+"""))
+check(ianaOwnedWHOIS.sections.flatMap(\.rows).map(\.value) == ["EXAMPLE.NET", "1992-01-01"],
+      "A domain record held directly by IANA is not discarded")
+let offsetWHOIS = referredWHOIS
+    .replacingOccurrences(of: "2018-07-28T14:20:22.0Z", with: "2018-07-28T16:20:22+0200")
+let offsetRows = ResultInterpreter.summary(for: sampleRun("WHOIS", offsetWHOIS)).sections.flatMap(\.rows)
+check(offsetRows.filter { $0.label == "Creation Date" }.map(\.value) == ["2018-07-28T14:20:22Z"],
+      "Equal timestamps with numeric timezone offsets are deduplicated")
+let differentTimeWHOIS = referredWHOIS
+    .replacingOccurrences(of: "2018-07-28T14:20:22.0Z", with: "2018-07-28T17:20:22+0000")
+let differentTimeRows = ResultInterpreter.summary(for: sampleRun("WHOIS", differentTimeWHOIS)).sections.flatMap(\.rows)
+check(differentTimeRows.filter { $0.label == "Creation Date" }.count == 2,
+      "Registry and registrar creation times on the same day remain separate when they differ")
+let textDateWHOIS = ResultInterpreter.summary(for: sampleRun("WHOIS", "Domain: example.test\nCreated: 15-Sep-1997\n"))
+check(textDateWHOIS.sections.flatMap(\.rows).contains { $0.value == "15-Sep-1997" },
+      "Unrecognized date formats are preserved verbatim")
+
 let dns = ResultInterpreter.summary(for: sampleRun(
     "DNS A", "example.org. 300 IN A 192.0.2.1\nexample.org. 300 IN A 192.0.2.2\n"
 ))

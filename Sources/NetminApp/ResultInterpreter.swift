@@ -735,8 +735,19 @@ enum ResultInterpreter {
             "expiration date", "updated date", "name server", "nserver", "refer", "whois", "origin",
             "as name", "asname", "route", "status"
         ]
-        let rows = keyValueRows(run.output, preferred: preferred, limit: 30)
-        let registrar = rows.first { $0.label.lowercased().hasPrefix("registrar") }?.value
+        let sections: [SummarySection]
+        if run.tool.title == "WHOIS" {
+            // WHOIS follows referrals; each server describes a separate record.
+            sections = whoisSections(in: run.output, preferred: preferred + [
+                "registrar registration expiration date", "registrant organization", "domain status"
+            ])
+        } else {
+            let rows = keyValueRows(run.output, preferred: preferred, limit: 30)
+            sections = rows.isEmpty ? excerptSections(run.output, title: "Registry response")
+                : [SummarySection(title: "Record", detail: nil, rows: rows, body: nil)]
+        }
+        let rows = sections.flatMap(\.rows)
+        let registrar = rows.first { ["registrar", "registrar name"].contains($0.label.lowercased()) }?.value
         let expiry = rows.first { $0.label.lowercased().contains("expir") }?.value.components(separatedBy: "\n").first
         return ResultSummary(
             title: "Registration and routing data",
@@ -746,9 +757,75 @@ enum ResultInterpreter {
                 registrar.map { SummaryMetric(label: "Registrar", value: $0.components(separatedBy: "\n").first ?? $0, tone: .accent) },
                 expiry.map { SummaryMetric(label: "Expires", value: $0) }
             ].compactMap { $0 },
-            sections: rows.isEmpty ? excerptSections(run.output, title: "Registry response")
-                : [SummarySection(title: "Record", detail: nil, rows: rows, body: nil)]
+            sections: sections
         )
+    }
+
+    /// Summarize WHOIS output by source, keeping IANA referrals out of domain records.
+    private static func whoisSections(in output: String, preferred: [String]) -> [SummarySection] {
+        var responses: [(server: String?, body: String)] = []
+        var server: String?
+        var lines: [String] = []
+        // macOS whois marks the start of each referred server's response.
+        for line in output.components(separatedBy: .newlines) {
+            if let nextServer = capture(#"^#\s+([a-z0-9][a-z0-9.-]*\.[a-z0-9.-]+)\s*$"#, in: line) {
+                let body = lines.joined(separator: "\n").trimmingCharacters(in: .whitespacesAndNewlines)
+                if !body.isEmpty { responses.append((server, body)) }
+                server = nextServer
+                lines = []
+            } else {
+                lines.append(line)
+            }
+        }
+        let body = lines.joined(separator: "\n").trimmingCharacters(in: .whitespacesAndNewlines)
+        if !body.isEmpty { responses.append((server, body)) }
+
+        // Keep an IANA-only response visible for the existing incomplete-result warning.
+        let isIANA: ((server: String?, body: String)) -> Bool = {
+            $0.server?.lowercased() == "whois.iana.org"
+                || $0.body.localizedCaseInsensitiveContains("% IANA WHOIS server")
+                || firstValue(named: ["source"], in: $0.body)?.uppercased() == "IANA"
+        }
+        let referred = responses.filter { !isIANA($0) }
+        let selected = referred.isEmpty ? responses : referred
+        let timestamp = ISO8601DateFormatter()
+        let fractionalTimestamp = ISO8601DateFormatter()
+        fractionalTimestamp.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        var seen: [String: Set<String>] = [:]
+        return selected.prefix(24).compactMap { response in
+            let parsed = keyValueRows(response.body, preferred: preferred, limit: 30)
+            let rows = parsed.compactMap { row -> SummaryRow? in
+                let key = row.label.lowercased()
+                // Registries and registrars use different labels for the same expiry date.
+                let isExpiry = ["registry expiry date", "expiration date", "registrar registration expiration date"].contains(key)
+                let field = isExpiry ? "expiration date" : key
+                let isDate = isExpiry || ["creation date", "created", "updated date"].contains(key)
+                let values = row.value.components(separatedBy: "\n").filter { value in
+                    var comparable = value
+                    if isDate, let date = fractionalTimestamp.date(from: value) ?? timestamp.date(from: value) {
+                        // Z and .0Z represent the same instant; keep the first server's spelling.
+                        comparable = String(date.timeIntervalSince1970)
+                    } else if ["domain name", "domain", "name server", "nserver"].contains(key) {
+                        comparable = value.lowercased()
+                        if comparable.hasSuffix(".") { comparable.removeLast() }
+                    }
+                    return seen[field, default: []].insert(comparable).inserted
+                }
+                return values.isEmpty ? nil : SummaryRow(label: row.label, value: values.joined(separator: "\n"))
+            }
+            // Keep different values under their server, without repeating equivalent fields.
+            if !rows.isEmpty {
+                return SummarySection(title: isIANA(response) ? "IANA WHOIS server" : "Record",
+                                      detail: response.server, rows: rows, body: nil)
+            }
+            if parsed.isEmpty {
+                // Preserve unstructured responses, including referral errors and rate limits.
+                guard let excerpt = excerptSections(response.body, title: "Registry response").first else { return nil }
+                return SummarySection(title: excerpt.title, detail: response.server, rows: [],
+                                      body: excerpt.body, omittedLines: excerpt.omittedLines)
+            }
+            return nil
+        }
     }
 
     /// Cymru-style `A | B | C` tables.
