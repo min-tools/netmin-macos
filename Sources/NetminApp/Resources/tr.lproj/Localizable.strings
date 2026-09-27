@@ -1443,20 +1443,20 @@
 /* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
 "Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro, ham tanısal çıktıyı tablolara, metriklere ve bulgulara dönüştürüyor. 30 günlük denemeden sonra, Free günde beş isteğe kadar ham çıktı içeriyor.";
 
-/* Pro · ends %@ */
-"Pro · ends %@" = "Profesyonel · bitiyor %@";
+/* Expires %@ */
+"Expires %@" = "%@ tarihinde sona erer";
 
-/* Pro · lifetime */
-"Pro · lifetime" = "Avantajları · Yaşam boyu";
+/* Lifetime */
+"Lifetime" = "Ömür boyu";
 
-/* Pro · renews %@ */
-"Pro · renews %@" = "Profesyonel · yeniler %@";
+/* Renews %@ */
+"Renews %@" = "%@ tarihinde yenilenir";
 
-/* Pro · shared with your family */
-"Pro · shared with your family" = "Avantajı · ailenizle paylaşılıyor";
+/* Shared with your family */
+"Shared with your family" = "Ailenizle paylaşılıyor";
 
-/* Pro · until %@ */
-"Pro · until %@" = "Pro · %@'e kadar";
+/* Until %@ */
+"Until %@" = "%@ tarihine kadar";
 
 /* Probe 25 common TCP ports with the networking tools included in macOS */
 "Probe 25 common TCP ports with the networking tools included in macOS" = "macOS'ta bulunan ağ araçlarıyla 25 yaygın TCP portunu inceleyin";

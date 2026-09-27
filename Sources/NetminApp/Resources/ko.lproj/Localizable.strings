@@ -1443,20 +1443,20 @@
 /* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
 "Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro는 원시 진단 출력을 표, 지표, 그리고 연구 결과로 변환합니다. 30일 체험 후에는 무료 제공 시 하루 최대 5회의 원시 출력을 제공합니다.";
 
-/* Pro · ends %@ */
-"Pro · ends %@" = "장점 · 종료 %@";
+/* Expires %@ */
+"Expires %@" = "%@에 종료";
 
-/* Pro · lifetime */
-"Pro · lifetime" = "프로 · 수명";
+/* Lifetime */
+"Lifetime" = "평생";
 
-/* Pro · renews %@ */
-"Pro · renews %@" = "찬성 · 갱신 %@";
+/* Renews %@ */
+"Renews %@" = "%@에 갱신";
 
-/* Pro · shared with your family */
-"Pro · shared with your family" = "장점 · 가족과 공유했다";
+/* Shared with your family */
+"Shared with your family" = "가족과 공유 중";
 
-/* Pro · until %@ */
-"Pro · until %@" = "찬성 · %@까지";
+/* Until %@ */
+"Until %@" = "%@까지";
 
 /* Probe 25 common TCP ports with the networking tools included in macOS */
 "Probe 25 common TCP ports with the networking tools included in macOS" = "macOS에 포함된 네트워킹 도구를 포함한 25개의 일반적인 TCP 포트 프로베";

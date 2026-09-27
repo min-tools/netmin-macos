@@ -1443,20 +1443,20 @@
 /* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
 "Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro перетворює сирий результат діагностики на таблиці, метрики та результати. Після 30-денного пробного періоду Free включає сирий вихід до п'яти запитів на день.";
 
-/* Pro · ends %@ */
-"Pro · ends %@" = "Pro · закінчується %@";
+/* Expires %@ */
+"Expires %@" = "До %@";
 
-/* Pro · lifetime */
-"Pro · lifetime" = "Плюси · Все життя";
+/* Lifetime */
+"Lifetime" = "Назавжди";
 
-/* Pro · renews %@ */
-"Pro · renews %@" = "Pro · ОНОВЛЕННЯ %@";
+/* Renews %@ */
+"Renews %@" = "Продовжиться %@";
 
-/* Pro · shared with your family */
-"Pro · shared with your family" = "Плюси · Ділиться з родиною";
+/* Shared with your family */
+"Shared with your family" = "Сімейний доступ";
 
-/* Pro · until %@ */
-"Pro · until %@" = "Pro · до %@";
+/* Until %@ */
+"Until %@" = "Діє до %@";
 
 /* Probe 25 common TCP ports with the networking tools included in macOS */
 "Probe 25 common TCP ports with the networking tools included in macOS" = "Probe 25 поширених TCP-портів із мережевими інструментами, що входять до macOS";

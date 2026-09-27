@@ -1443,20 +1443,20 @@
 /* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
 "Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro เปลี่ยนผลลัพธ์การวินิจฉัยดิบเป็นตาราง เมตริก และผลการค้นพบหลังจากทดลองใช้งาน 30 วัน Free จะรวมผลลัพธ์ดิบสําหรับคําขอสูงสุดห้าคําขอต่อวัน";
 
-/* Pro · ends %@ */
-"Pro · ends %@" = "ข้อดี ·สิ้นสุด %@";
+/* Expires %@ */
+"Expires %@" = "สิ้นสุด %@";
 
-/* Pro · lifetime */
-"Pro · lifetime" = "ข้อดี ·ตลอดอายุการใช้งาน";
+/* Lifetime */
+"Lifetime" = "ตลอดชีพ";
 
-/* Pro · renews %@ */
-"Pro · renews %@" = "ข้อดี ·ต่ออายุ %@";
+/* Renews %@ */
+"Renews %@" = "ต่ออายุ %@";
 
-/* Pro · shared with your family */
-"Pro · shared with your family" = "ข้อดี ·แชร์กับครอบครัวของคุณ";
+/* Shared with your family */
+"Shared with your family" = "แชร์กับครอบครัวของคุณ";
 
-/* Pro · until %@ */
-"Pro · until %@" = "ข้อดี ·จนถึง %@";
+/* Until %@ */
+"Until %@" = "ถึง %@";
 
 /* Probe 25 common TCP ports with the networking tools included in macOS */
 "Probe 25 common TCP ports with the networking tools included in macOS" = "ตรวจสอบพอร์ต TCP ทั่วไป 25 พอร์ตด้วยเครื่องมือเครือข่ายที่รวมอยู่ใน macOS";

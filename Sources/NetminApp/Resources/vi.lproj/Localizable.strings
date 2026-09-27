@@ -1443,20 +1443,20 @@
 /* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
 "Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro biến đầu ra chẩn đoán thô thành bảng, chỉ số và kết quả. Sau 30 ngày dùng thử, Free bao gồm đầu ra thô cho tối đa năm yêu cầu mỗi ngày.";
 
-/* Pro · ends %@ */
-"Pro · ends %@" = "Ưu điểm · kết thúc %@";
+/* Expires %@ */
+"Expires %@" = "Kết thúc %@";
 
-/* Pro · lifetime */
-"Pro · lifetime" = "Ưu điểm · Vòng đời";
+/* Lifetime */
+"Lifetime" = "Trọn đời";
 
-/* Pro · renews %@ */
-"Pro · renews %@" = "Ưu điểm · gia hạn %@";
+/* Renews %@ */
+"Renews %@" = "Gia hạn %@";
 
-/* Pro · shared with your family */
-"Pro · shared with your family" = "Ưu điểm · chia sẻ với gia đình bạn";
+/* Shared with your family */
+"Shared with your family" = "Chia sẻ với gia đình";
 
-/* Pro · until %@ */
-"Pro · until %@" = "Ưu điểm · đến %@";
+/* Until %@ */
+"Until %@" = "Đến %@";
 
 /* Probe 25 common TCP ports with the networking tools included in macOS */
 "Probe 25 common TCP ports with the networking tools included in macOS" = "Thăm dò 25 cổng TCP phổ biến với các công cụ mạng có trong macOS";

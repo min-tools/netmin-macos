@@ -1443,20 +1443,20 @@
 /* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
 "Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro pretvara sirovi dijagnostički izlaz u tabele, metrike i nalaze. Nakon 30-dnevnog probnog perioda, Free uključuje sirovi izlaz za do pet zahteva dnevno.";
 
-/* Pro · ends %@ */
-"Pro · ends %@" = "Pro · završava %@";
+/* Expires %@ */
+"Expires %@" = "Ističe %@";
 
-/* Pro · lifetime */
-"Pro · lifetime" = "Pro · životni vek";
+/* Lifetime */
+"Lifetime" = "Doživotno";
 
-/* Pro · renews %@ */
-"Pro · renews %@" = "Pro · renews %@";
+/* Renews %@ */
+"Renews %@" = "Obnavlja se %@";
 
-/* Pro · shared with your family */
-"Pro · shared with your family" = "Pro · deli sa svojom porodicom";
+/* Shared with your family */
+"Shared with your family" = "Deljeno sa porodicom";
 
-/* Pro · until %@ */
-"Pro · until %@" = "Pro · dok %@";
+/* Until %@ */
+"Until %@" = "Do %@";
 
 /* Probe 25 common TCP ports with the networking tools included in macOS */
 "Probe 25 common TCP ports with the networking tools included in macOS" = "Sonda 25 zajedničkih TCP portova sa mrežnim alatima uključenim u macOS";

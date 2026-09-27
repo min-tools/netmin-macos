@@ -1443,20 +1443,20 @@
 /* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
 "Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "प्रो कच्चे डायग्नोस्टिक आउटपुट को तालिकाओं, मेट्रिक्स और निष्कर्षों में बदल देता है। 30-दिवसीय परीक्षण के बाद, नि: शुल्क में प्रति दिन पांच अनुरोधों तक के लिए कच्चा आउटपुट शामिल है।";
 
-/* Pro · ends %@ */
-"Pro · ends %@" = "प्रो · समाप्त होता है %@";
+/* Expires %@ */
+"Expires %@" = "%@ को समाप्त";
 
-/* Pro · lifetime */
-"Pro · lifetime" = "प्रो · आजीवन";
+/* Lifetime */
+"Lifetime" = "आजीवन";
 
-/* Pro · renews %@ */
-"Pro · renews %@" = "प्रो · नवीनीकृत %@";
+/* Renews %@ */
+"Renews %@" = "%@ को नवीनीकरण";
 
-/* Pro · shared with your family */
-"Pro · shared with your family" = "प्रो · अपने परिवार के साथ साझा किया";
+/* Shared with your family */
+"Shared with your family" = "आपके परिवार के साथ साझा";
 
-/* Pro · until %@ */
-"Pro · until %@" = "प्रो · %@ तक";
+/* Until %@ */
+"Until %@" = "%@ तक";
 
 /* Probe 25 common TCP ports with the networking tools included in macOS */
 "Probe 25 common TCP ports with the networking tools included in macOS" = "macOS में शामिल नेटवर्किंग टूल के साथ 25 सामान्य TCP पोर्ट की जांच करें";

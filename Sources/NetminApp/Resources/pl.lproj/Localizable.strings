@@ -1443,20 +1443,20 @@
 /* Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day. */
 "Pro turns raw diagnostic output into tables, metrics, and findings. After the 30-day trial, Free includes raw output for up to five requests per day." = "Pro przetwarza surowe wyniki diagnostyczne na tabele, metryki i wyniki. Po 30-dniowym okresie próbnym Free zawiera surowe wyniki dla maksymalnie pięciu zapytań dziennie.";
 
-/* Pro · ends %@ */
-"Pro · ends %@" = "Za · koniec %@";
+/* Expires %@ */
+"Expires %@" = "Kończy się %@";
 
-/* Pro · lifetime */
-"Pro · lifetime" = "Zalety · Życie";
+/* Lifetime */
+"Lifetime" = "Dożywotnio";
 
-/* Pro · renews %@ */
-"Pro · renews %@" = "Pro · Odnawia %@";
+/* Renews %@ */
+"Renews %@" = "Odnowi się %@";
 
-/* Pro · shared with your family */
-"Pro · shared with your family" = "Za · Udostępniony rodzinie";
+/* Shared with your family */
+"Shared with your family" = "Udostępnione rodzinie";
 
-/* Pro · until %@ */
-"Pro · until %@" = "Pro · aż do %@";
+/* Until %@ */
+"Until %@" = "Do %@";
 
 /* Probe 25 common TCP ports with the networking tools included in macOS */
 "Probe 25 common TCP ports with the networking tools included in macOS" = "Probaj 25 popularnych portów TCP z narzędziami sieciowymi dołączonymi do macOS";

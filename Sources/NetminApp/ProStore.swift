@@ -68,14 +68,14 @@ final class NetminProStore: ObservableObject {
         switch NetminEntitlementLogic.statusKind(for: entitlement) {
         case .free: return localizedFormat("Free · %lld of %lld requests left today", Int64(freeRequestsRemainingToday), Int64(NetminFreeAccessPolicy.dailyRequestLimit))
         case .active: return localized("Pro")
-        case .lifetime: return localized("Pro · lifetime")
-        case .familyShared: return localized("Pro · shared with your family")
+        case .lifetime: return localized("Lifetime")
+        case .familyShared: return localized("Shared with your family")
         case .trialRenews(let date): return localizedFormat("Pro trial · first payment %@", formatter.string(from: date))
         case .trialEnds(let date): return localizedFormat("Pro trial · ends %@", formatter.string(from: date))
         case .trialUntil(let date): return localizedFormat("Pro trial · until %@", formatter.string(from: date))
-        case .renews(let date): return localizedFormat("Pro · renews %@", formatter.string(from: date))
-        case .ends(let date): return localizedFormat("Pro · ends %@", formatter.string(from: date))
-        case .activeUntil(let date): return localizedFormat("Pro · until %@", formatter.string(from: date))
+        case .renews(let date): return localizedFormat("Renews %@", formatter.string(from: date))
+        case .ends(let date): return localizedFormat("Expires %@", formatter.string(from: date))
+        case .activeUntil(let date): return localizedFormat("Until %@", formatter.string(from: date))
         }
     }
 
