@@ -434,6 +434,7 @@ private final class NetminProPanelController: NSWindowController, NSWindowDelega
         window.contentView = NSHostingView(rootView: NetminProView(
             store: store,
             feature: feature,
+            state: NetminPaywallState(),
             resize: { [weak self] height in self?.fitWindow(to: height) }
         ))
         window.contentView?.layoutSubtreeIfNeeded()
@@ -460,6 +461,22 @@ private final class NetminProPanelController: NSWindowController, NSWindowDelega
     }
 }
 
+// Keep progress and duplicate-action protection shared by purchase and restore.
+@MainActor
+private final class NetminPaywallState: ObservableObject {
+    enum Operation { case purchasing, restoring }
+    @Published var operation: Operation?
+    @Published var message: String?
+
+    var progressText: String? {
+        switch operation {
+        case .purchasing: return localized("Contacting the App Store…")
+        case .restoring: return localized("Restoring…")
+        case nil: return nil
+        }
+    }
+}
+
 private struct NetminProPanelHeightKey: PreferenceKey {
     static var defaultValue: CGFloat = 0
 
@@ -471,8 +488,13 @@ private struct NetminProPanelHeightKey: PreferenceKey {
 private struct NetminProView: View {
     @ObservedObject var store: NetminProStore
     let feature: NetminProFeature?
+    @ObservedObject var state: NetminPaywallState
     let resize: (CGFloat) -> Void
-    @State private var message: String?
+
+    private var isWorking: Bool { store.isLoading || state.operation != nil }
+    private var progressText: String? {
+        state.progressText ?? (store.isLoading ? localized("Loading App Store products…") : nil)
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
@@ -487,17 +509,17 @@ private struct NetminProView: View {
 
             VStack(alignment: .leading, spacing: 8) {
                 statusSection
-                if store.isLoading {
+                if let progressText {
                     HStack(spacing: 8) {
                         ProgressView().controlSize(.small)
-                        Text("Loading App Store products…")
+                        Text(progressText)
                             .font(.system(size: 12))
                             .foregroundStyle(.secondary)
                     }
                 } else if !store.isPro {
                     purchaseButtons
                 }
-                if let message {
+                if let message = state.message {
                     Text(localized(message))
                         .font(.system(size: 12))
                         .foregroundStyle(.red)
@@ -507,11 +529,13 @@ private struct NetminProView: View {
             HStack {
                 if !store.isPro {
                     Button("Restore Purchases") { restore() }
+                        .disabled(isWorking)
                         .buttonStyle(.link)
                         .keyboardFocusable()
                 }
                 Spacer()
                 Button(store.isPro ? "OK" : "Close") { NSApp.keyWindow?.close() }
+                    .disabled(isWorking)
                     .keyboardFocusable()
                     .controlSize(.large)
                     .keyboardShortcut(store.isPro ? .defaultAction : .cancelAction)
@@ -526,7 +550,7 @@ private struct NetminProView: View {
             }
         )
         .onPreferenceChange(NetminProPanelHeightKey.self, perform: resize)
-        .task { await store.refreshProducts() }
+        .task { await load() }
     }
 
     @ViewBuilder private var statusSection: some View {
@@ -581,7 +605,7 @@ private struct NetminProView: View {
             Text(localized(store.storeError ?? "Purchases are unavailable right now."))
                 .font(.system(size: 12))
                 .foregroundStyle(.secondary)
-            Button("Try Again") { Task { await store.refreshProducts() } }
+            Button("Try Again") { Task { await load() } }
                 .keyboardFocusable()
         }
         Text("Payment goes to your Apple Account. The yearly subscription renews automatically unless cancelled in App Store settings at least a day before the current period ends.")
@@ -589,22 +613,36 @@ private struct NetminProView: View {
             .foregroundStyle(.tertiary)
     }
 
+    // load(): Avoid overlapping product lookup with an active purchase or restore.
+    private func load() async {
+        guard !isWorking else { return }
+        await store.refreshProducts()
+    }
+
+    // buy(product): Show purchase progress until success, cancellation, pending, or failure.
     private func buy(_ product: Product) {
-        message = nil
+        guard !isWorking else { return }
+        state.operation = .purchasing
+        state.message = nil
         Task {
+            defer { state.operation = nil }
             do {
                 let outcome = try await store.purchase(product, confirmIn: NSApp.keyWindow)
-                if outcome == .pending { message = localized("The purchase is awaiting approval.") }
-            } catch { message = error.localizedDescription }
+                if outcome == .pending { state.message = localized("The purchase is awaiting approval.") }
+            } catch { state.message = error.localizedDescription }
         }
     }
 
+    // restore(): Keep restoration distinct from buying and prevent competing actions.
     private func restore() {
-        message = nil
+        guard !isWorking else { return }
+        state.operation = .restoring
+        state.message = nil
         Task {
+            defer { state.operation = nil }
             do {
-                if try await !store.restore() { message = localized("No Netmin Pro purchase was found for this Apple Account.") }
-            } catch { message = error.localizedDescription }
+                if try await !store.restore() { state.message = localized("No Netmin Pro purchase was found for this Apple Account.") }
+            } catch { state.message = error.localizedDescription }
         }
     }
 }
