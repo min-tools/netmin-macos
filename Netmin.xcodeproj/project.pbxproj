@@ -24,6 +24,7 @@
 		100000000000000000000116 /* DeviceTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000218 /* DeviceTableView.swift */; };
 		100000000000000000000117 /* LocalNetworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000219 /* LocalNetworks.swift */; };
 		100000000000000000000118 /* SummaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000021A /* SummaryViews.swift */; };
+		100000000000000000000122 /* LinkedResultText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000222 /* LinkedResultText.swift */; };
 		100000000000000000000119 /* SweepFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000021B /* SweepFormView.swift */; };
 		10000000000000000000011A /* TargetInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000021C /* TargetInput.swift */; };
 		10000000000000000000011B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000021D /* Theme.swift */; };
@@ -60,6 +61,7 @@
 		100000000000000000000218 /* DeviceTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/DeviceTableView.swift; sourceTree = SOURCE_ROOT; };
 		100000000000000000000219 /* LocalNetworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/LocalNetworks.swift; sourceTree = SOURCE_ROOT; };
 		10000000000000000000021A /* SummaryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/SummaryViews.swift; sourceTree = SOURCE_ROOT; };
+		100000000000000000000222 /* LinkedResultText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/LinkedResultText.swift; sourceTree = SOURCE_ROOT; };
 		10000000000000000000021B /* SweepFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/SweepFormView.swift; sourceTree = SOURCE_ROOT; };
 		10000000000000000000021C /* TargetInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/TargetInput.swift; sourceTree = SOURCE_ROOT; };
 		10000000000000000000021D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/NetminApp/Theme.swift; sourceTree = SOURCE_ROOT; };
@@ -158,6 +160,7 @@
 				100000000000000000000218,
 				100000000000000000000219,
 				10000000000000000000021A,
+				100000000000000000000222,
 				10000000000000000000021B,
 				10000000000000000000021C,
 				10000000000000000000021D,
@@ -337,6 +340,7 @@
 				100000000000000000000116,
 				100000000000000000000117,
 				100000000000000000000118,
+				100000000000000000000122,
 				100000000000000000000119,
 				10000000000000000000011A,
 				10000000000000000000011B,

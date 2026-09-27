@@ -3,6 +3,7 @@ import SwiftUI
 /// One card of a summary: a title row, then key-value rows, a table, or monospaced text.
 struct SummarySectionView: View {
     let section: SummarySection
+    var onCancel: (() -> Void)? = nil
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
@@ -29,7 +30,7 @@ struct SummarySectionView: View {
                 Rectangle().fill(Theme.border).frame(height: 1)
                 ForEach(Array(section.rows.enumerated()), id: \.offset) { index, row in
                     if index > 0 { Rectangle().fill(Theme.border).frame(height: 1).padding(.leading, 18) }
-                    SummaryRowView(row: row)
+                    SummaryRowView(row: row, onCancel: onCancel)
                 }
             }
             if let table = section.table {
@@ -60,6 +61,7 @@ struct SummarySectionView: View {
 
 struct SummaryRowView: View {
     let row: SummaryRow
+    var onCancel: (() -> Void)? = nil
 
     var body: some View {
         HStack(alignment: .firstTextBaseline, spacing: 18) {
@@ -67,15 +69,27 @@ struct SummaryRowView: View {
                 .font(.system(size: 13))
                 .foregroundStyle(Theme.textSecondary)
                 .frame(width: 200, alignment: .leading)
-            Text(localized(row.value))
-                .font(Theme.mono(12.5))
-                .foregroundStyle(row.tone == .neutral ? Theme.textPrimary : Theme.color(for: row.tone))
-                .textSelection(.enabled)
+            valueView
                 .frame(maxWidth: .infinity, alignment: .leading)
         }
         .padding(.horizontal, 18)
         .padding(.vertical, 10)
         .hoverHighlight(cornerRadius: 0)
+    }
+
+    @ViewBuilder private var valueView: some View {
+        let text = row.attributedValue
+        let color = row.tone == .neutral ? Theme.textPrimary : Theme.color(for: row.tone)
+        if text.runs.contains(where: { $0.link != nil }) {
+            // AppKit applies the hand cursor to link glyphs while retaining text selection.
+            LinkedResultText(text: NSAttributedString(text), textColor: NSColor(color), onCancel: onCancel)
+                .alignmentGuide(.firstTextBaseline) { _ in LinkedResultTextView.resultFont.ascender }
+        } else {
+            Text(text)
+                .font(Theme.mono(12.5))
+                .foregroundStyle(color)
+                .textSelection(.enabled)
+        }
     }
 }
 

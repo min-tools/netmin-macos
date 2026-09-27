@@ -33,6 +33,25 @@ struct SummaryRow: Identifiable {
     let value: String
     var tone: SummaryTone = .neutral
     var id: String { label + value }
+
+    private static let linkDetector = try? NSDataDetector(types: NSTextCheckingResult.CheckingType.link.rawValue)
+
+    /// Link explicit web URLs while preserving the displayed text and its line breaks.
+    var attributedValue: AttributedString {
+        let text = localized(value)
+        var result = AttributedString(text)
+        let range = NSRange(text.startIndex..., in: text)
+        for match in Self.linkDetector?.matches(in: text, range: range) ?? [] {
+            // Bare domains and non-web schemes in diagnostic output remain plain text.
+            guard let url = match.url, ["http", "https"].contains(url.scheme?.lowercased() ?? ""),
+                  let host = url.host, !host.isEmpty,
+                  let stringRange = Range(match.range, in: text),
+                  text[stringRange].lowercased().hasPrefix("http://") || text[stringRange].lowercased().hasPrefix("https://"),
+                  let attributedRange = Range(stringRange, in: result) else { continue }
+            result[attributedRange].link = url
+        }
+        return result
+    }
 }
 
 /// A columnar block rendered as a table; `monospaced` lists column indexes shown in the code font

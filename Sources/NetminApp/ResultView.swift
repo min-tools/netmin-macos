@@ -87,7 +87,7 @@ struct ResultView: View {
                         if !summary.devices.isEmpty {
                             DeviceTableView(devices: summary.devices, model: model)
                         }
-                        ForEach(summary.sections) { SummarySectionView(section: $0) }
+                        ForEach(summary.sections) { SummarySectionView(section: $0, onCancel: model.newLookup) }
                         if summary.sections.isEmpty && summary.devices.isEmpty {
                             VStack(alignment: .leading, spacing: 6) {
                                 Text(localized(summary.title)).font(.system(size: 15, weight: .semibold)).foregroundStyle(Theme.textPrimary)

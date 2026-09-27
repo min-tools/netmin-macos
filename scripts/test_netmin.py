@@ -298,6 +298,29 @@ let textDateWHOIS = ResultInterpreter.summary(for: sampleRun("WHOIS", "Domain: e
 check(textDateWHOIS.sections.flatMap(\.rows).contains { $0.value == "15-Sep-1997" },
       "Unrecognized date formats are preserved verbatim")
 
+// Link detection decorates literal diagnostic text, including multiline EPP statuses.
+let statusText = """
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+"""
+let linkedStatus = SummaryRow(label: "Domain Status", value: statusText).attributedValue
+check(String(linkedStatus.characters) == statusText,
+      "Clickable links preserve status text, line breaks, and surrounding punctuation")
+check(linkedStatus.runs.compactMap { $0.link?.absoluteString } == [
+    "https://icann.org/epp#clientDeleteProhibited", "https://www.icann.org/epp#clientTransferProhibited"
+], "Each EPP link keeps its full fragment and excludes surrounding parentheses")
+let literalText = "🌐 日本語 **literal** [status] https://example.org/path?q=1&lang=ja#details"
+let linkedLiteral = SummaryRow(label: "Details", value: literalText).attributedValue
+check(String(linkedLiteral.characters) == literalText &&
+      linkedLiteral.runs.compactMap { $0.link?.absoluteString } == ["https://example.org/path?q=1&lang=ja#details"],
+      "Unicode, Markdown characters, queries, and URL fragments stay literal")
+let nonWebText = "NS1.GOOGLE.COM whois.markmonitor.com\nfile:///tmp/test\nmailto:abuse@example.org\nssh://example.org"
+let nonWebValue = SummaryRow(label: "Details", value: nonWebText).attributedValue
+check(String(nonWebValue.characters) == nonWebText && nonWebValue.runs.allSatisfy { $0.link == nil },
+      "Hostnames and non-web schemes do not become actionable links")
+check(SummaryRow(label: "URL", value: "http://example.org").attributedValue.runs.contains { $0.link?.scheme == "http" },
+      "Explicit HTTP links are supported alongside HTTPS")
+
 let dns = ResultInterpreter.summary(for: sampleRun(
     "DNS A", "example.org. 300 IN A 192.0.2.1\nexample.org. 300 IN A 192.0.2.2\n"
 ))
