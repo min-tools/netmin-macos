@@ -28,9 +28,10 @@ assert 'scroll.contentView.scroll(to: .zero)' in privacy_source
 assert 'PrivacyPolicyController.shared.show()' in app_source
 assert 'NSWorkspace.shared.open(AppLinks.privacyPolicy)' not in app_source
 assert '.controlSize(.large)' in pro_source
-assert 'Link("Terms", destination: AppLinks.termsOfUse)' not in pro_source
-assert 'Button("Privacy")' not in pro_source
-assert 'static let termsOfUse' not in (ROOT / 'Sources/NetminApp/BuildEdition.swift').read_text()
+# Subscription purchases must expose working legal links inside the app.
+assert 'Link(localized("Terms of Use (EULA)"), destination: AppLinks.termsOfUse)' in pro_source
+assert 'Link(localized("Privacy Policy"), destination: AppLinks.privacyPolicy)' in pro_source
+assert 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/' in (ROOT / 'Sources/NetminApp/BuildEdition.swift').read_text()
 assert license_text.startswith('# PolyForm Strict License 1.0.0\n')
 assert 'PolyForm Strict License 1.0.0' in license_text
 assert 'Additional Permission for Personal Modification' in license_text

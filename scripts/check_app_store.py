@@ -110,7 +110,7 @@ def blockers(check_online=False):
     if info.get('CFBundleIconFile') != 'NetminIcon' or 'NetminIcon.icns' not in project:
         issues.append('The production Netmin icon is not configured.')
     if check_online:
-        urls = re.findall(r'static let (?:website|privacyPolicy|purchase|support) = URL\(string: "(https://[^"]+)"\)!', edition)
+        urls = re.findall(r'static let (?:website|privacyPolicy|termsOfUse|purchase|support) = URL\(string: "(https://[^"]+)"\)!', edition)
         for url in urls:
             try:
                 host = re.match(r'https://([^/]+)', url).group(1)

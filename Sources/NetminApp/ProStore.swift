@@ -526,13 +526,23 @@ private struct NetminProView: View {
                 }
             }
 
+            if !store.isPro {
+                Button("Restore Purchases") { restore() }
+                    .disabled(isWorking)
+                    .buttonStyle(.link)
+                    .keyboardFocusable()
+            }
+
+            // Keep legal links beside the close action in every store state.
             HStack {
-                if !store.isPro {
-                    Button("Restore Purchases") { restore() }
-                        .disabled(isWorking)
-                        .buttonStyle(.link)
+                HStack(spacing: 16) {
+                    Link(localized("Terms of Use (EULA)"), destination: AppLinks.termsOfUse)
+                        .keyboardFocusable()
+                    Link(localized("Privacy Policy"), destination: AppLinks.privacyPolicy)
                         .keyboardFocusable()
                 }
+                .font(.system(size: 11))
+                .buttonStyle(.link)
                 Spacer()
                 Button(store.isPro ? "OK" : "Close") { NSApp.keyWindow?.close() }
                     .disabled(isWorking)

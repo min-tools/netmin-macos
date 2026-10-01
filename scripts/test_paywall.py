@@ -67,6 +67,7 @@ struct Product { let displayPrice = "$1.00" }
 '''
 # Compile the complete production view and its state; replace only external store access.
 source = (ROOT / 'Sources/NetminApp/ProStore.swift').read_text()
+fixture += (ROOT / 'Sources/NetminApp/BuildEdition.swift').read_text()
 fixture += '@MainActor\n' + source[source.index('private final class NetminPaywallState:'):].replace('private ', '')
 fixture += r'''
 @main enum PaywallTests {
