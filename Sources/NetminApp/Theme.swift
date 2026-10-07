@@ -143,15 +143,16 @@ struct NetminButtonStyle: ButtonStyle {
     var variant: ButtonVariant = .secondary
     var size: ButtonSize = .regular
     var shortcut: String? = nil
+    var contentVerticalOffset: CGFloat? = nil
 
     func makeBody(configuration: Configuration) -> some View {
-        NetminButtonBody(configuration: configuration, variant: variant, size: size, shortcut: shortcut)
+        NetminButtonBody(configuration: configuration, variant: variant, size: size, shortcut: shortcut, contentVerticalOffset: contentVerticalOffset)
     }
 }
 
 extension ButtonStyle where Self == NetminButtonStyle {
-    static func netmin(_ variant: ButtonVariant = .secondary, size: ButtonSize = .regular, shortcut: String? = nil) -> NetminButtonStyle {
-        NetminButtonStyle(variant: variant, size: size, shortcut: shortcut)
+    static func netmin(_ variant: ButtonVariant = .secondary, size: ButtonSize = .regular, shortcut: String? = nil, contentVerticalOffset: CGFloat? = nil) -> NetminButtonStyle {
+        NetminButtonStyle(variant: variant, size: size, shortcut: shortcut, contentVerticalOffset: contentVerticalOffset)
     }
 }
 
@@ -181,6 +182,7 @@ private struct NetminButtonBody: View {
     let variant: ButtonVariant
     let size: ButtonSize
     let shortcut: String?
+    let contentVerticalOffset: CGFloat?
     @Environment(\.isEnabled) private var isEnabled
     @State private var hovering = false
 
@@ -198,6 +200,7 @@ private struct NetminButtonBody: View {
         }
         .font(.system(size: size == .small ? 12 : 13, weight: .semibold))
         .foregroundStyle(foreground)
+        .offset(y: contentVerticalOffset ?? (variant == .ghost || variant == .link ? 0 : -1))
         .padding(.horizontal, variant == .link ? 2 : (size == .small ? 11 : 14))
         .frame(height: size == .small ? Theme.smallControlHeight : Theme.controlHeight)
         .background(AnyShapeStyle(fill), in: shape)
@@ -330,6 +333,7 @@ struct SplitButton: View {
             Button(action: action) {
                 HStack(spacing: 8) {
                     Text(localized(title))
+                        .offset(y: -1)
                     if let shortcut { KeyCap(shortcut, style: .onAccent) }
                 }
                 .font(.system(size: 13, weight: .semibold))
@@ -439,6 +443,7 @@ struct Chip: View {
                     .foregroundStyle(Theme.textSecondary)
             }
         }
+        .offset(y: interactive ? -1 : 0)
         .padding(.horizontal, compact ? 7 : 9)
         .padding(.vertical, compact ? 3 : 5)
         .background(chipBackground, in: RoundedRectangle(cornerRadius: 7, style: .continuous))
@@ -649,6 +654,7 @@ struct ToggleCard: View {
 struct SegmentedControl: View {
     let options: [String]
     @Binding var selection: Int
+    var textVerticalOffset: CGFloat = 0
     @Environment(\.colorSchemeContrast) private var contrast
 
     var body: some View {
@@ -658,6 +664,7 @@ struct SegmentedControl: View {
                     Text(localized(option))
                         .font(.system(size: 13, weight: selection == index ? .semibold : .medium))
                         .foregroundStyle(selection == index ? Theme.textPrimary : Theme.textSecondary)
+                        .offset(y: textVerticalOffset)
                         .padding(.horizontal, 14)
                         .frame(height: Theme.controlHeight - 4)
                         .background(

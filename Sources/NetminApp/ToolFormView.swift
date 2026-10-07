@@ -222,7 +222,7 @@ struct ToolFormView: View {
                     Text(model.runButtonTitle(for: tool))
                 }
             }
-            .buttonStyle(.netmin(.primary, shortcut: "⌘↩"))
+            .buttonStyle(.netmin(.primary, shortcut: "⌘↩", contentVerticalOffset: -0.5))
             .keyboardFocusable()
             .keyboardShortcut(.return, modifiers: .command)
             .disabled(!model.canRun)

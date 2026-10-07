@@ -147,7 +147,7 @@ assert 'Theme.segmentSelected' in segmented and 'Theme.segmentTrack' in segmente
 assert '.fixedSize(horizontal: true, vertical: true)' in segmented
 assert 'minWidth:' not in segmented
 assert 'minHeight: Theme.controlHeight' not in segmented
-assert '.buttonStyle(.netmin(.primary, shortcut: "⌘↩"))' in form
+assert '.buttonStyle(.netmin(.primary, shortcut: "⌘↩", contentVerticalOffset: -0.5))' in form
 assert '.buttonStyle(.netmin(.ghost, shortcut: "esc"))' in form
 assert '.buttonStyle(.netmin(.danger, shortcut: "esc"))' in form
 assert 'previewCommand' not in form

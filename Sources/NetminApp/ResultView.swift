@@ -154,7 +154,7 @@ struct ResultView: View {
             SegmentedControl(options: ["Overview", "Raw output"], selection: Binding(
                 get: { model.showsRawOutput ? 1 : 0 },
                 set: { model.showsRawOutput = $0 == 1 }
-            ))
+            ), textVerticalOffset: -1)
             .help(localized("Remembered for the next results · ⌘1 Overview, ⌘2 Raw output"))
             StatusPill(tone: statusTone(insight), text: localizedFormat("%@ · %@ s", localized(statusLabel(insight)), run.duration.formatted(.number.precision(.fractionLength(1)))))
             IconButton(symbol: "arrow.clockwise", help: "Run again") { model.rerun(run) }
@@ -287,6 +287,7 @@ private struct InsightActionButtonBody: View {
             .font(.system(size: 12, weight: .semibold))
             .foregroundStyle(tint.opacity(foregroundOpacity))
             .lineLimit(1)
+            .offset(y: -1)
             .padding(.horizontal, 11)
             .frame(height: Theme.smallControlHeight)
             .background(tint.opacity(fillOpacity), in: shape)
