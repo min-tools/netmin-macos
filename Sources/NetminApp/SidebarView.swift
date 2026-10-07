@@ -46,8 +46,7 @@ struct SidebarView: View {
                     } header: {
                         SectionLabel(group.name)
                             .padding(.leading, 4)
-                            .padding(.top, index == 0 ? 6 : 14)
-                            .padding(.bottom, 6)
+                            .padding(.vertical, index == 0 ? 6 : 10)
                             .background(SidebarListSelectionAppearance {
                                 listAppearanceReady = true
                             })
@@ -65,6 +64,7 @@ struct SidebarView: View {
             }
             .listStyle(.sidebar)
             .scrollContentBackground(.hidden)
+            .contentMargins(.trailing, 4, for: .scrollContent)
             .focusEffectDisabled()
             .accessibilityLabel(localized("Tools"))
             .animation(nil, value: listAppearanceReady)
