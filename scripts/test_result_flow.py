@@ -242,7 +242,7 @@ assert 'if store.hasResolvedEntitlement && store.hasPreparedFreeAccess && !store
 assert 'if store.hasResolvedEntitlement && store.hasPreparedFreeAccess && !store.hasFullAccess' in form
 assert '@Published private(set) var hasResolvedAppTrial = false' in pro_store
 assert '@Published private(set) var hasResolvedEntitlement = false' in pro_store
-assert 'isLocalBuild || appTrialStartedAt != nil || hasResolvedAppTrial' in pro_store
+assert '!isTrialWelcomePending && (appTrialStartedAt != nil || hasResolvedAppTrial)' in pro_store
 assert 'A failed signed lookup is still a resolved Free state' in pro_store
 assert 'localized("Trial ended")' in access_banner
 assert 'You can still run 5 diagnostic requests per day.' in access_banner

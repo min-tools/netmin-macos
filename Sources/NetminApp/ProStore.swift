@@ -18,6 +18,8 @@ final class NetminProStore: ObservableObject {
     @Published private(set) var appTrialStartedAt: Date?
     @Published private(set) var hasResolvedAppTrial = false
     @Published private(set) var hasResolvedEntitlement = false
+    /// Stays pending through the welcome alert and its subsequent trial lookup.
+    @Published private(set) var isTrialWelcomePending = true
     @Published private(set) var freeRequestsUsedToday = 0
 
     private var updates: Task<Void, Never>?
@@ -44,7 +46,11 @@ final class NetminProStore: ObservableObject {
         return NetminFreeAccessPolicy.isTrialActive(startedAt: appTrialStartedAt)
     }
     var hasFullAccess: Bool { isPro || isAppTrialActive }
-    var hasPreparedFreeAccess: Bool { isLocalBuild || appTrialStartedAt != nil || hasResolvedAppTrial }
+    /// Private builds skip the welcome; public builds wait until its trial lookup finishes.
+    var hasPreparedFreeAccess: Bool {
+        isLocalBuild || NetminEdition.isExpiredTrialPreview
+            || (!isTrialWelcomePending && (appTrialStartedAt != nil || hasResolvedAppTrial))
+    }
     var freeRequestsRemainingToday: Int {
         let used = NetminFreeAccessPolicy.requestsUsedToday(
             storedDay: freeUsageDay,
@@ -247,10 +253,13 @@ final class NetminProStore: ObservableObject {
         // App Store builds must verify the transaction environment before choosing a clock.
         if NetminEdition.isAppStoreBuild {
             Task { @MainActor [weak self] in
-                await self?.refreshAppTrial(now: now)
+                guard let self else { return }
+                await self.refreshAppTrial(now: now)
+                self.isTrialWelcomePending = false
             }
         } else {
             prepareLocalFreeAccess(startTrialIfNeeded: true, now: now)
+            isTrialWelcomePending = false
         }
     }
 
